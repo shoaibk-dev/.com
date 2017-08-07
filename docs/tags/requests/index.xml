@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Requests on KhanhIceTea B(rain)-log</title>
+    <link>https://khanhicetea.com/tags/requests/</link>
+    <description>Recent content in Requests on KhanhIceTea B(rain)-log</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 04 Aug 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://khanhicetea.com/tags/requests/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>What I learned in 2017-08-04</title>
+      <link>https://khanhicetea.com/til/2017-08-04/</link>
+      <pubDate>Fri, 04 Aug 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://khanhicetea.com/til/2017-08-04/</guid>
+      <description>DEVOPS Free sandbox server for development We can use Heroku as a forever-free sandbox solution for testing or hosting micro service. Adding a credit card to have 1000 free computing hours.
+Heroku will make a service down if no received request come. We can use a cronjob-like service to check service health and keep it live !!! ;)
+Cronjob check health SASS : pingdom, statuscake, port-monitor, uptimerobot
+Btw, I don&amp;rsquo;t recommend you keep service live but no use, it makes Heroku infrastructure heavy and THAT&amp;rsquo;S NOT FAIR for them !</description>
+    </item>
+    
+  </channel>
+</rss>
