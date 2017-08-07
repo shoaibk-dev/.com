@@ -198,3 +198,16 @@ background-image: url("data:image/svg+xml,%3Csvg width='304' height='304' viewBo
     min-height: 1800px;
   }
 }
+
+@media (max-width: 768px) {
+  #author-info {
+    margin: 30px 15px 10px;
+    text-align: center;
+  }
+  #author-info img {
+     float: inherit !important;
+  }
+  #author-info p {
+    padding-left: 0px;
+  }
+}
