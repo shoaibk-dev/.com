@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Web on KhanhIceTea B(rain)-log</title>
+    <link>https://khanhicetea.com/categories/web/</link>
+    <description>Recent content in Web on KhanhIceTea B(rain)-log</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 18 May 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://khanhicetea.com/categories/web/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>What I learned in 2017-05-18</title>
+      <link>https://khanhicetea.com/til/2017-05-18/</link>
+      <pubDate>Thu, 18 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://khanhicetea.com/til/2017-05-18/</guid>
+      <description>SYSADMIN Grant user to use sudo without password This is bad practice but it&amp;rsquo;s kind of hacky thing if you YOLO
+# Create a user with home dir and bash shell (if you don&#39;t have yet) $ useradd -m YOURUSERNAME -s /bin/bash $ sudo vi /etc/sudoers  Add this line below root ALL=(ALL:ALL) ALL (User privilege specification section)
+$ YOUR_USERNAME ALL=(ALL:ALL) NOPASSWD:ALL  Then press :wq! to force saving the file</description>
+    </item>
+    
+    <item>
+      <title>Sử dụng Frontend Boilerplate cho việc cắt HTML Layout</title>
+      <link>https://khanhicetea.com/post/use_frontend_boilerplate_for_development/</link>
+      <pubDate>Mon, 13 Jun 2016 18:12:50 +0700</pubDate>
+      
+      <guid>https://khanhicetea.com/post/use_frontend_boilerplate_for_development/</guid>
+      <description>Giới thiệu Khi cắt HTML Layout từ PSD, bạn sẽ đối mặt với việc bên Design hoặc khách hàng thường xuyên yêu cầu thay đổi giao diện, thiết kế. Điều này gây ra không ít phiền nhiễu và tốn thời gian nếu cứ cập nhật hàng tá giao diện nếu sự thay đổi ảnh hưởng đến những phần layout chính (header, footer, sidebar).
+Sử dụng bộ khung sườn (boiler-plate) này, sẽ giúp bạn hạn chế thao tác lặp đi, lặp lại.</description>
+    </item>
+    
+  </channel>
+</rss>

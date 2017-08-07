@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Input on KhanhIceTea B(rain)-log</title>
+    <link>https://khanhicetea.com/tags/input/</link>
+    <description>Recent content in Input on KhanhIceTea B(rain)-log</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 08 Mar 2016 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://khanhicetea.com/tags/input/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>What I learned in 2016-03-08</title>
+      <link>https://khanhicetea.com/til/2016-03-08/</link>
+      <pubDate>Tue, 08 Mar 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://khanhicetea.com/til/2016-03-08/</guid>
+      <description>PHP F-cking stupid limit of input vars Today, I tried to debug many hours to find out why my POST request missing some data (specify _token hidden field). :disappointed:
+I tried to config NGINX and PHPFPM max_post_size, client_max_body_size but they still gone. After 2-3 hours searching on Google, I found the link from PHP.net, it has a config value about limiting max input vars (default = 1000), so it causes the problem about missing data.</description>
+    </item>
+    
+  </channel>
+</rss>

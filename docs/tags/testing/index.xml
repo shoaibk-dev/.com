@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Testing on KhanhIceTea B(rain)-log</title>
+    <link>https://khanhicetea.com/tags/testing/</link>
+    <description>Recent content in Testing on KhanhIceTea B(rain)-log</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 19 May 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://khanhicetea.com/tags/testing/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>What I learned in 2017-05-19</title>
+      <link>https://khanhicetea.com/til/2017-05-19/</link>
+      <pubDate>Fri, 19 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://khanhicetea.com/til/2017-05-19/</guid>
+      <description>DEVOPS Checking forced push conflicts on source code in auto testing Using automated CI solution likes Travis, Jenkins, DroneCI, &amp;hellip; is good solution to ensure quality of software and no breaks in deployment.
+Sometimes, developers force push conflicts part to production branch of source code. If the CI tests only backend (python, ruby, php, go, ..) and forget about frontend code, then your application will be exploded !
+So checking the conflicts code is required step before testing backend and deployment.</description>
+    </item>
+    
+    <item>
+      <title>What I learned in 2017-02-23</title>
+      <link>https://khanhicetea.com/til/2017-02-23/</link>
+      <pubDate>Thu, 23 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://khanhicetea.com/til/2017-02-23/</guid>
+      <description>MYSQL UNION vs UNION ALL The difference is UNION command will sort and remove duplicated rows (RETURNED ONLY DISTINCT ROWS)
+Examples :
+mysql&amp;gt; select &#39;1&#39;, &#39;2&#39; union select &#39;2&#39;, &#39;1&#39; union select &#39;3&#39;, &#39;4&#39; union select &#39;1&#39;, &#39;2&#39;; +---+---+ | 1 | 2 | +---+---+ | 1 | 2 | | 2 | 1 | | 3 | 4 | +---+---+ 3 rows in set (0.00 sec) mysql&amp;gt; select &#39;1&#39;, &#39;2&#39; union select &#39;2&#39;, &#39;1&#39; union select &#39;3&#39;, &#39;4&#39; union select &#39;1&#39;, &#39;3&#39;; +---+---+ | 1 | 2 | +---+---+ | 1 | 2 | | 2 | 1 | | 3 | 4 | | 1 | 3 | +---+---+ 4 rows in set (0.</description>
+    </item>
+    
+  </channel>
+</rss>

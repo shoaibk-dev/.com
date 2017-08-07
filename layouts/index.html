@@ -1,0 +1,24 @@
+{{ partial "default_head.html" . }}
+<div class="row">
+<div class="col-sm-9">
+
+    <div class="articles">
+    <div class="row">
+        {{ range $key, $value := .Paginator.Pages }}
+        <div class="col-sm-6">
+        {{ .Render "list_li" }}
+        </div>
+        {{ end }}
+    </div>
+    </div>
+
+    {{ partial "pagination.html" . }}
+
+</div>
+
+<div class="col-sm-3">
+    {{ partial "sidebar.html" . }}
+</div>
+
+</div>
+{{ partial "default_foot.html" . }}

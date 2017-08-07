@@ -1,0 +1,10 @@
+<article class="li">
+  <a href="{{ .Permalink }}" class="clearfix">
+    <div class="image" style="background-image: url({{ $.Site.BaseURL }}images/{{ with .Params.image }}{{ . }}{{ else }}never_stop_learning.jpg{{ end }});"></div>
+    <div class="detail">
+      <time>{{ with .Site.Params.DateForm }}{{ $.Date.Format . }}{{ else }}{{ $.Date.Format "Mon, Jan 2, 2006" }}{{ end }}, ~{{ add .ReadingTime 5 }} min read</time>
+      <h2 class="title">{{ .Title }}</h2>
+      <div class="summary">{{ with .Description }}{{ . }}{{ else }}{{ .Summary }}{{ end }}</div>
+    </div>
+  </a>
+</article>

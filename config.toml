@@ -1,0 +1,25 @@
+baseurl = "https://khanhicetea.com/"
+publishdir = "docs"
+languageCode = "en-us"
+title = "KhanhIceTea B(rain)-log"
+canonifyurls = true
+disableRSS = false
+disableSitemap = false
+googleAnalytics = "UA-50390703-1"
+paginate = 6
+paginatePath = "page"
+relativeURLs = true
+uglyURLs = false
+
+
+[Params]
+    Author = "KhanhIceTea"
+    disqusShortname = "khanhicetea"
+    GitHubUsername = "khanhicetea"
+    LinkedInUrl = "https://vn.linkedin.com/in/khanhicetea"
+    SidebarRecentLimit = 5
+    SyntaxHighlightTheme = "monokai-sublime.min.css"
+
+[sitemap]
+    changefreq = "daily"
+    priority = 0.7

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Util on KhanhIceTea B(rain)-log</title>
+    <link>https://khanhicetea.com/tags/util/</link>
+    <description>Recent content in Util on KhanhIceTea B(rain)-log</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 22 May 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://khanhicetea.com/tags/util/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>What I learned in 2017-05-22</title>
+      <link>https://khanhicetea.com/til/2017-05-22/</link>
+      <pubDate>Mon, 22 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://khanhicetea.com/til/2017-05-22/</guid>
+      <description>SYSADMIN Using BSD find util to find and exec command on file and folder Simple syntax of find
+$ find [find_path] -type [file_type] -exec [command] {} \;  Add filename matching pattern to filter the result
+$ find [find_path] -name &amp;quot;*.php&amp;quot; -type [file_type] -exec [command] {} \;  Where file_type is :
+ b : block special c : character special d : directory f : regular file l : symbolic link p : FIFO s : socket  Examples:</description>
+    </item>
+    
+  </channel>
+</rss>

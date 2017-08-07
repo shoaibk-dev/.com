@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sqlite on KhanhIceTea B(rain)-log</title>
+    <link>https://khanhicetea.com/tags/sqlite/</link>
+    <description>Recent content in Sqlite on KhanhIceTea B(rain)-log</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 25 Apr 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://khanhicetea.com/tags/sqlite/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>What I learned in 2017-04-25</title>
+      <link>https://khanhicetea.com/til/2017-04-25/</link>
+      <pubDate>Tue, 25 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://khanhicetea.com/til/2017-04-25/</guid>
+      <description>DATABASE Basics about sqlite command line tool We can use sqlite3 command line tool to run SQL statement in sqlite3 file.
+View all table : .tables Truncate table : delete from [table_name]; then run vacuum; to clear space Close : press Ctrl ^ D to escape $ sqlite3 database.sqlite SQLite version 3.8.10.2 2015-05-20 18:17:19 Enter &amp;quot;.help&amp;quot; for usage hints. sqlite&amp;gt; .tables auth_group backend_church auth_group_permissions backend_masstime auth_permission django_admin_log auth_user django_content_type auth_user_groups django_migrations auth_user_user_permissions django_session backend_area sqlite&amp;gt; select * from auth_user; 1|pbkdf2_sha256$30000$QQSOJMiXmNly$mWUlYwZnaQGsv9UVZcdTb29P7IHrgnd7ja3T/uwFqvw=|2017-03-25 15:06:40.</description>
+    </item>
+    
+  </channel>
+</rss>

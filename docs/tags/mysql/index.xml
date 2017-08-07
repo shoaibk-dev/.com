@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mysql on KhanhIceTea B(rain)-log</title>
+    <link>https://khanhicetea.com/tags/mysql/</link>
+    <description>Recent content in Mysql on KhanhIceTea B(rain)-log</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 17 May 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://khanhicetea.com/tags/mysql/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>What I learned in 2017-05-17</title>
+      <link>https://khanhicetea.com/til/2017-05-17/</link>
+      <pubDate>Wed, 17 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://khanhicetea.com/til/2017-05-17/</guid>
+      <description>MYSQL Mysql dumping only table structure Adding -D to dump only data structure
+Example :
+$ mysqldump -h 127.0.0.1 -u root -p&amp;quot;something&amp;quot; -D database1 &amp;gt; db.sql  SYSADMIN Compressing and Extracting files with rar in Linux zip and tar disadvantages All unicode filename will be transform to weird character, so it makes broken paths and broken links
+Notice rar and unrar in Linux isn&amp;rsquo;t same version and so don&amp;rsquo;t use unrar to extract archived file by rar (It causes invalid full paths)</description>
+    </item>
+    
+    <item>
+      <title>What I learned in 2017-02-28</title>
+      <link>https://khanhicetea.com/til/2017-02-28/</link>
+      <pubDate>Tue, 28 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://khanhicetea.com/til/2017-02-28/</guid>
+      <description>PHP Persistent connection to MySQL When a PHP process connects to MySQL server, the connection can be persistent if your PHP config has mysql.allow_persistent or mysqli.allow_persistent. (PDO has the attribute ATTR_PERSISTENT)
+$dbh = new PDO(&#39;DSN&#39;, &#39;KhanhDepZai&#39;, &#39;QuenMatKhauCMNR&#39;, [PDO::ATTR_PERSISTENT =&amp;gt; TRUE]);  Object destruction PHP destruct an object automatically when an object lost all its references.
+Example code:
+&amp;lt;?php $x = null; function klog($x) { echo $x . &#39; =&amp;gt; &#39;; } class A { private $k; function __construct($k) { $this-&amp;gt;k = $k; } function b() { klog(&#39;[b]&#39;); } function __destruct() { klog(&amp;quot;[{$this-&amp;gt;k} has been killed]&amp;quot;); } } function c($k) { return new A($k); } function d() { c(&#39;d&#39;)-&amp;gt;b(); } function e() { global $x; $x = c(&#39;e&#39;); $x-&amp;gt;b(); klog(&#39;[e]&#39;); } function f() { klog(&#39;[f]&#39;); } d(); e(); f();  Result:</description>
+    </item>
+    
+    <item>
+      <title>What I learned in 2017-02-23</title>
+      <link>https://khanhicetea.com/til/2017-02-23/</link>
+      <pubDate>Thu, 23 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://khanhicetea.com/til/2017-02-23/</guid>
+      <description>MYSQL UNION vs UNION ALL The difference is UNION command will sort and remove duplicated rows (RETURNED ONLY DISTINCT ROWS)
+Examples :
+mysql&amp;gt; select &#39;1&#39;, &#39;2&#39; union select &#39;2&#39;, &#39;1&#39; union select &#39;3&#39;, &#39;4&#39; union select &#39;1&#39;, &#39;2&#39;; +---+---+ | 1 | 2 | +---+---+ | 1 | 2 | | 2 | 1 | | 3 | 4 | +---+---+ 3 rows in set (0.00 sec) mysql&amp;gt; select &#39;1&#39;, &#39;2&#39; union select &#39;2&#39;, &#39;1&#39; union select &#39;3&#39;, &#39;4&#39; union select &#39;1&#39;, &#39;3&#39;; +---+---+ | 1 | 2 | +---+---+ | 1 | 2 | | 2 | 1 | | 3 | 4 | | 1 | 3 | +---+---+ 4 rows in set (0.</description>
+    </item>
+    
+    <item>
+      <title>What I learned in 2017-02-17</title>
+      <link>https://khanhicetea.com/til/2017-02-17/</link>
+      <pubDate>Fri, 17 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://khanhicetea.com/til/2017-02-17/</guid>
+      <description>MYSQL String problems can cause logical bugs in application Example table mysql&amp;gt; describe `test`; +------------+-------------+------+-----+-------------------+----------------+ | Field | Type | Null | Key | Default | Extra | +------------+-------------+------+-----+-------------------+----------------+ | id | smallint(6) | NO | PRI | NULL | auto_increment | | name | varchar(50) | NO | | NULL | | | created_at | timestamp | YES | MUL | CURRENT_TIMESTAMP | | +------------+-------------+------+-----+-------------------+----------------+ 3 rows in set (0.</description>
+    </item>
+    
+    <item>
+      <title>What I learned in 2015-12-01</title>
+      <link>https://khanhicetea.com/til/2015-12-01/</link>
+      <pubDate>Tue, 01 Dec 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://khanhicetea.com/til/2015-12-01/</guid>
+      <description>MYSQL Index is useless when use function on indexed field Reality, if using function on indexed field, you will broke indexing by accident. Eg:
+WHERE MONTH(`date`) = 11 AND YEAR(`date`) = 2015  Solution is transform the query to comparison query, like this :
+WHERE `date` &amp;gt;= &#39;2015-11-01&#39; AND `date` &amp;lt; &#39;2015-12-01&#39;  PYTHON String Format Unicode params unicode_thing = u&amp;quot;Xin chào mọi người&amp;quot; a = &#39;{}&#39;.format(unicode_thing)  will cause the error UnicodeEncodeError: &#39;ascii&#39; codec can&#39;t encode character u&#39;\xe0&#39; in position 6: ordinal not in range(128)</description>
+    </item>
+    
+  </channel>
+</rss>

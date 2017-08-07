@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Command Line on KhanhIceTea B(rain)-log</title>
+    <link>https://khanhicetea.com/tags/command-line/</link>
+    <description>Recent content in Command Line on KhanhIceTea B(rain)-log</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 26 Mar 2016 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://khanhicetea.com/tags/command-line/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>What I learned in 2016-03-26</title>
+      <link>https://khanhicetea.com/til/2016-03-26/</link>
+      <pubDate>Sat, 26 Mar 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://khanhicetea.com/til/2016-03-26/</guid>
+      <description>SYSADMIN Bash shell shortcuts  Ctrl + e : jump cursor to EOL Ctrl + a : jump cursor to BOL (beginning of line) Ctrl + u : delete all from cursor to BOL Ctrl + k : delete all from cursor to EOL Ctrl + r : search history, press again for next search Ctrl + l : clear shell screen Ctrl + c : terminate the command (sometimes have to press twice) Ctrl + z : suspend the command, back to shell.</description>
+    </item>
+    
+    <item>
+      <title>What I learned in 2015-12-30</title>
+      <link>https://khanhicetea.com/til/2015-12-30/</link>
+      <pubDate>Wed, 30 Dec 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://khanhicetea.com/til/2015-12-30/</guid>
+      <description> SYSADMIN Commands Command lsof List all opened files, sockets, pipes
+Eg:
+ List processes are using port 80 (need root if port between 1-1023)  # sudo lsof -i:80   List processes are using /bin/bash  # lsof /bin/bash  </description>
+    </item>
+    
+  </channel>
+</rss>

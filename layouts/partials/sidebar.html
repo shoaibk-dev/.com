@@ -1,0 +1,85 @@
+<aside class="site">
+
+  {{ if and .IsPage (ne .Params.toc false) }}
+  <div class="section">
+    <header><div class="title">TableOfContents</div></header>
+    <div class="list-default">{{ .TableOfContents }}</div>
+  </div>
+  {{ end }}
+
+  {{ if ne (len .Site.Menus) 0 }}
+  <div class="section menu">
+    <header><div class="title">Menu</div></header>
+
+    {{ range .Site.Menus }}
+    <ul>
+      {{ range . }}
+      <li>
+        {{ if .HasChildren }}
+        <a href="#">{{ .Pre }} {{ .Name }}</a>
+        <ul>
+          {{ range .Children }}
+          <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+          {{ end }}
+        </ul>
+      </li>
+      {{ else }}
+      <li><a href="{{ .URL }}">{{ .Pre }} {{ .Name }}</a></li>
+      {{ end }}
+      {{end}}
+    </ul>
+    {{end}}
+
+  </div>
+  {{ end }}
+
+  {{ if .IsPage }}
+  <div class="section">
+    <header><div class="title">Latest Logs</div></header>
+    <div class="content">
+      {{ range first 5 .Site.Pages }}
+      <div class="sm">{{ .Render "li_sidebar" }}</div>
+      {{ end }}
+    </div>
+  </div>
+  {{ end }}
+
+  {{ range $key, $value := .Site.Taxonomies }}
+  <div class="section taxonomies">
+    <header><div class="title">{{ $key | title }}</div></header>
+    <div class="content">
+      {{ range first 10 $value.ByCount }}<a href="{{ $.Site.BaseURL}}{{ $key }}/{{ .Name | urlize }}">{{ .Name }} [{{ .Count }}]</a>{{ end }}
+    </div>
+  </div>
+  {{ end }}
+
+  <div class="section taxonomies">
+    <header><div class="title">whoami</div></header>
+    <div class="content">
+      <a href="/humans.txt"><i class="fa fa-user-circle-o"></i> I am a human ! I make misstakes. Oops..I made it</a>
+      {{ with .Site.Params.GitHubUsername }}
+      <a href="https://github.com/{{ . }}"><i class="fa fa-github"></i> Github</a>
+      {{ end }}
+      <a href="https://libraries.io/github/khanhicetea"><i class="fa fa-th-list"></i> Libraries.io</a>
+      {{ with .Site.Params.LinkedInUrl }}
+      <a href="{{ . }}"><i class="fa fa-linkedin-square"></i> LinkedIn</a>
+      {{ end }}
+    </div>
+  </div>
+
+  <!--<div class="section taxonomies">
+    <header><div class="title">Subscribe me here</div></header>
+    <div class="content">
+        <div id="mc_embed_signup">
+            <form action="//khanhicetea.us13.list-manage.com/subscribe/post?u=2be43c527dca86c033d390369&amp;id=febb4cd208" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                <div id="mc_embed_signup_scroll">
+                    <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+                    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_2be43c527dca86c033d390369_febb4cd208" tabindex="-1" value=""></div>
+                    <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+                </div>
+            </form>
+        </div>
+    </div>
+  </div>-->
+
+</aside>

@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="generator" content="Hugo 0.20.2" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+    <link rel="author" href="../../humans.txt" />
+    <link href="//fonts.googleapis.com/css?family=Patrick+Hand+SC|Fira+Sans:400,400i,700&amp;subset=vietnamese" rel="stylesheet">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.11.0/styles/monokai-sublime.min.css">
+    <link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="../../css/styles.css">
+    <link rel="stylesheet" href="../../css/custom.css">
+    <link rel="alternate" type="application/rss+xml" title="RSS" href="https://khanhicetea.com/index.xml">
+
+    <link rel="apple-touch-icon" sizes="57x57" href="../../favicons/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="../../favicons/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="../../favicons/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="../../favicons/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="../../favicons/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="../../favicons/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="../../favicons/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="../../favicons/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="../../favicons/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="../../favicons/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../../favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="../../favicons/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../../favicons/favicon-16x16.png">
+    <link rel="manifest" href="../../favicons/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/favicons/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    
+    <title>Read Input Data From USB Devices in Linux - KhanhIceTea B(rain)-log</title>
+    <meta property='og:title' content="Read Input Data From USB Devices in Linux - KhanhIceTea B(rain)-log">
+    <meta property="og:type" content="article">
+    
+
+    <meta property="og:url" content="https://khanhicetea.com/post/read_input_from_usb_keyboard_in_linux/">
+    
+        <meta name="description" content="You just bought a new input device like barcode scanner, proximity card reader with USB port. And you want expose only its data to file or send to server for processing ?">
+        <meta property="og:description" content="You just bought a new input device like barcode scanner, proximity card reader with USB port. And you want expose only its data to file or send to server for processing ?">
+    
+    <meta property="og:image" content="https://khanhicetea.com/images/2016/03/laser-barcode-scanners.jpg">
+
+  </head>
+
+  <body>
+
+    <header class="site">
+        <div class="title">
+          <a href="https://khanhicetea.com/">KhanhIceTea B(rain)-log</a>
+          <p class="lead">Does it matter ? ¯\_(ツ)_/¯</p>
+        </div>
+    </header>
+
+    <div class="container site">
+
+
+<div class="row">
+<div class="col-sm-9 single-post">
+
+    <article class="single" itemscope="itemscope" itemtype="http://schema.org/Article">
+
+    <meta itemprop="mainEntityOfPage"  itemType="https://schema.org/WebPage" content="https://khanhicetea.com/"/>
+    <meta itemprop="dateModified" content="2016-03-20T23:29:53&#43;07:00">
+    <meta itemprop="headline" content="Read Input Data From USB Devices in Linux">
+    <meta itemprop="description" content="Introduction You just bought a new input device like barcode scanner, proximity card reader with USB port. And you want expose only its data to a file or send to server for processing ? But it acts like a keyboard, type the characters then trigger Enter key.
+This tutorial can help you make a program can exclusive receive input data from the device and don&rsquo;t affect to another program.">
+    <meta itemprop="url" content="https://khanhicetea.com/post/read_input_from_usb_keyboard_in_linux/">
+    <div itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
+        <meta itemprop="url" content="https://khanhicetea.com/images/2016/03/laser-barcode-scanners.jpg" />
+        <meta itemprop="width" content="800">
+        <meta itemprop="height" content="800">
+    </div>
+    <div itemprop="publisher" itemscope itemtype="https://schema.org/Organization">
+        <div itemprop="logo" itemscope itemtype="https://schema.org/ImageObject">
+        <meta itemprop="url" content="https://khanhicetea.com/images/logo.jpg">
+        <meta itemprop="width" content="100">
+        <meta itemprop="height" content="100">
+        </div>
+        <meta itemprop="name" content="KhanhIceTea B(rain)-log">
+    </div>
+    <div itemprop="author" itemscope itemtype="https://schema.org/Person">
+        <meta itemprop="name" content="KhanhIceTea">
+    </div>
+
+    <div class="image" style="background-image: url(https://khanhicetea.com/images/2016/03/laser-barcode-scanners.jpg);"></div>
+
+    <header class="article-header">
+        <time class="label label-primary" itemprop="datePublished" pubdate="pubdate" datetime="2016-03-20T23:29:53&#43;07:00">Sun, Mar 20 2016, 23:29</time>
+        <h1 class="article-title">Read Input Data From USB Devices in Linux</h1>
+    </header>
+
+    <div class="article-body" itemprop="articleBody">
+        
+
+<h2 id="introduction">Introduction</h2>
+
+<p>You just bought a new input device like barcode scanner, proximity card reader with USB port. And you want expose only its data to a file or send to server for processing ? But it acts like a keyboard, type the characters then trigger <code>Enter</code> key.</p>
+
+<p>This tutorial can help you make a program can exclusive receive input data from the device and don&rsquo;t affect to another program.</p>
+
+<p>The program is written in Python and can run on almost Linux system (Ubuntu desktop, Raspberry Pi, Arduino, etc..)</p>
+
+<h2 id="instruction">Instruction</h2>
+
+<h3 id="install-dependencies">Install dependencies</h3>
+
+<p>On a Debian compatible OS:</p>
+
+<pre><code class="language-shell">$ apt-get install python-dev python-pip gcc
+$ apt-get install linux-headers-$(uname -r)
+</code></pre>
+
+<p>On a Redhat compatible OS:</p>
+
+<pre><code class="language-shell">$ yum install python-devel python-pip gcc
+$ yum install kernel-headers-$(uname -r)
+</code></pre>
+
+<p>On Arch Linux and derivatives:</p>
+
+<pre><code class="language-shell">$ pacman -S core/linux-api-headers python-pip gcc
+</code></pre>
+
+<p>Then, install <code>evdev</code> package via <code>pip</code></p>
+
+<pre><code class="language-shell">$ sudo pip install evdev
+</code></pre>
+
+<h3 id="download-program-sourcecode">Download program sourcecode</h3>
+
+<p>Copy this file and save as <code>main.py</code></p>
+
+<pre><code class="language-python">#!/usr/bin/python
+
+import sys
+from evdev import InputDevice, list_devices, ecodes, categorize
+
+CODE_MAP_CHAR = {
+    'KEY_MINUS': &quot;-&quot;,
+    'KEY_SPACE': &quot; &quot;,    
+    'KEY_U': &quot;U&quot;,
+    'KEY_W': &quot;W&quot;,
+    'KEY_BACKSLASH': &quot;\\&quot;,
+    'KEY_GRAVE': &quot;`&quot;,
+    'KEY_NUMERIC_STAR': &quot;*&quot;,
+    'KEY_NUMERIC_3': &quot;3&quot;,
+    'KEY_NUMERIC_2': &quot;2&quot;,
+    'KEY_NUMERIC_5': &quot;5&quot;,
+    'KEY_NUMERIC_4': &quot;4&quot;,
+    'KEY_NUMERIC_7': &quot;7&quot;,
+    'KEY_NUMERIC_6': &quot;6&quot;,
+    'KEY_NUMERIC_9': &quot;9&quot;,
+    'KEY_NUMERIC_8': &quot;8&quot;,
+    'KEY_NUMERIC_1': &quot;1&quot;,
+    'KEY_NUMERIC_0': &quot;0&quot;,
+    'KEY_E': &quot;E&quot;,
+    'KEY_D': &quot;D&quot;,
+    'KEY_G': &quot;G&quot;,
+    'KEY_F': &quot;F&quot;,
+    'KEY_A': &quot;A&quot;,
+    'KEY_C': &quot;C&quot;,
+    'KEY_B': &quot;B&quot;,
+    'KEY_M': &quot;M&quot;,
+    'KEY_L': &quot;L&quot;,
+    'KEY_O': &quot;O&quot;,
+    'KEY_N': &quot;N&quot;,
+    'KEY_I': &quot;I&quot;,
+    'KEY_H': &quot;H&quot;,
+    'KEY_K': &quot;K&quot;,
+    'KEY_J': &quot;J&quot;,
+    'KEY_Q': &quot;Q&quot;,
+    'KEY_P': &quot;P&quot;,
+    'KEY_S': &quot;S&quot;,
+    'KEY_X': &quot;X&quot;,
+    'KEY_Z': &quot;Z&quot;,
+    'KEY_KP4': &quot;4&quot;,
+    'KEY_KP5': &quot;5&quot;,
+    'KEY_KP6': &quot;6&quot;,
+    'KEY_KP7': &quot;7&quot;,
+    'KEY_KP0': &quot;0&quot;,
+    'KEY_KP1': &quot;1&quot;,
+    'KEY_KP2': &quot;2&quot;,
+    'KEY_KP3': &quot;3&quot;,
+    'KEY_KP8': &quot;8&quot;,
+    'KEY_KP9': &quot;9&quot;,
+    'KEY_5': &quot;5&quot;,
+    'KEY_4': &quot;4&quot;,
+    'KEY_7': &quot;7&quot;,
+    'KEY_6': &quot;6&quot;,
+    'KEY_1': &quot;1&quot;,
+    'KEY_0': &quot;0&quot;,
+    'KEY_3': &quot;3&quot;,
+    'KEY_2': &quot;2&quot;,
+    'KEY_9': &quot;9&quot;,
+    'KEY_8': &quot;8&quot;,
+    'KEY_LEFTBRACE': &quot;[&quot;,
+    'KEY_RIGHTBRACE': &quot;]&quot;,    
+    'KEY_COMMA': &quot;,&quot;,
+    'KEY_EQUAL': &quot;=&quot;,    
+    'KEY_SEMICOLON': &quot;;&quot;,
+    'KEY_APOSTROPHE': &quot;'&quot;,
+    'KEY_T': &quot;T&quot;,
+    'KEY_V': &quot;V&quot;,
+    'KEY_R': &quot;R&quot;,
+    'KEY_Y': &quot;Y&quot;,
+    'KEY_TAB': &quot;\t&quot;,
+    'KEY_DOT': &quot;.&quot;,
+    'KEY_SLASH': &quot;/&quot;,
+}
+
+def parse_key_to_char(val):
+    return CODE_MAP_CHAR[val] if val in CODE_MAP_CHAR else &quot;&quot;
+
+if __name__ == &quot;__main__&quot;:
+    print &quot;List of your devices :&quot;
+    devices = [InputDevice(fn) for fn in list_devices()]
+    for device in devices:
+        print &quot;\t{}\t{}&quot;.format(device.fn, device.name)
+        
+    print &quot;Choose event ID :&quot;,
+    event_id = raw_input()
+    
+    print &quot;Exclusive access to device ? [1 or 0] : &quot;,
+    exclusive_access = raw_input()
+    
+    device = InputDevice('/dev/input/event{}'.format(event_id))
+    if int(exclusive_access) == 1:
+        device.grab()
+
+    for event in device.read_loop():
+        if event.type == ecodes.EV_KEY:
+            e = categorize(event)
+            if e.keystate == e.key_up:
+                sys.stdout.write(parse_key_to_char(e.keycode))
+                sys.stdout.flush()
+</code></pre>
+
+<h3 id="run-program-with-root-permission">Run program with root permission</h3>
+
+<pre><code class="language-shell">$ sudo python main.py
+</code></pre>
+
+<p>Then enter your event id of device based on device name in devices list. If you want exclusive access to that device (means no application can&rsquo;t access and read the input data), press <code>1</code> or <code>0</code> to accept or deny.</p>
+
+<p>This is my result, I opened the <code>gedit</code> and typed a paragragh but no character appears in Editor, but they&rsquo;re shown in the terminal.</p>
+
+<p><img src="../../images/2016/03/read_device_linux.png" alt="Read device input on Linux" /></p>
+
+<h2 id="customize-output-data">Customize output data</h2>
+
+<p>You can rewrite the code to send data to web server</p>
+
+<pre><code class="language-shell">$ sudo pip install requests
+</code></pre>
+
+<pre><code class="language-python">#!/usr/bin/python
+
+import sys
+import requests
+from evdev import InputDevice, list_devices, ecodes, categorize
+
+CODE_MAP_CHAR = {
+    'KEY_MINUS': &quot;-&quot;,
+    'KEY_SPACE': &quot; &quot;,    
+    'KEY_U': &quot;U&quot;,
+    'KEY_W': &quot;W&quot;,
+    'KEY_BACKSLASH': &quot;\\&quot;,
+    'KEY_GRAVE': &quot;`&quot;,
+    'KEY_NUMERIC_STAR': &quot;*&quot;,
+    'KEY_NUMERIC_3': &quot;3&quot;,
+    'KEY_NUMERIC_2': &quot;2&quot;,
+    'KEY_NUMERIC_5': &quot;5&quot;,
+    'KEY_NUMERIC_4': &quot;4&quot;,
+    'KEY_NUMERIC_7': &quot;7&quot;,
+    'KEY_NUMERIC_6': &quot;6&quot;,
+    'KEY_NUMERIC_9': &quot;9&quot;,
+    'KEY_NUMERIC_8': &quot;8&quot;,
+    'KEY_NUMERIC_1': &quot;1&quot;,
+    'KEY_NUMERIC_0': &quot;0&quot;,
+    'KEY_E': &quot;E&quot;,
+    'KEY_D': &quot;D&quot;,
+    'KEY_G': &quot;G&quot;,
+    'KEY_F': &quot;F&quot;,
+    'KEY_A': &quot;A&quot;,
+    'KEY_C': &quot;C&quot;,
+    'KEY_B': &quot;B&quot;,
+    'KEY_M': &quot;M&quot;,
+    'KEY_L': &quot;L&quot;,
+    'KEY_O': &quot;O&quot;,
+    'KEY_N': &quot;N&quot;,
+    'KEY_I': &quot;I&quot;,
+    'KEY_H': &quot;H&quot;,
+    'KEY_K': &quot;K&quot;,
+    'KEY_J': &quot;J&quot;,
+    'KEY_Q': &quot;Q&quot;,
+    'KEY_P': &quot;P&quot;,
+    'KEY_S': &quot;S&quot;,
+    'KEY_X': &quot;X&quot;,
+    'KEY_Z': &quot;Z&quot;,
+    'KEY_KP4': &quot;4&quot;,
+    'KEY_KP5': &quot;5&quot;,
+    'KEY_KP6': &quot;6&quot;,
+    'KEY_KP7': &quot;7&quot;,
+    'KEY_KP0': &quot;0&quot;,
+    'KEY_KP1': &quot;1&quot;,
+    'KEY_KP2': &quot;2&quot;,
+    'KEY_KP3': &quot;3&quot;,
+    'KEY_KP8': &quot;8&quot;,
+    'KEY_KP9': &quot;9&quot;,
+    'KEY_5': &quot;5&quot;,
+    'KEY_4': &quot;4&quot;,
+    'KEY_7': &quot;7&quot;,
+    'KEY_6': &quot;6&quot;,
+    'KEY_1': &quot;1&quot;,
+    'KEY_0': &quot;0&quot;,
+    'KEY_3': &quot;3&quot;,
+    'KEY_2': &quot;2&quot;,
+    'KEY_9': &quot;9&quot;,
+    'KEY_8': &quot;8&quot;,
+    'KEY_LEFTBRACE': &quot;[&quot;,
+    'KEY_RIGHTBRACE': &quot;]&quot;,    
+    'KEY_COMMA': &quot;,&quot;,
+    'KEY_EQUAL': &quot;=&quot;,    
+    'KEY_SEMICOLON': &quot;;&quot;,
+    'KEY_APOSTROPHE': &quot;'&quot;,
+    'KEY_T': &quot;T&quot;,
+    'KEY_V': &quot;V&quot;,
+    'KEY_R': &quot;R&quot;,
+    'KEY_Y': &quot;Y&quot;,
+    'KEY_TAB': &quot;\t&quot;,
+    'KEY_DOT': &quot;.&quot;,
+    'KEY_SLASH': &quot;/&quot;,
+}
+
+def parse_key_to_char(val):
+    return CODE_MAP_CHAR[val] if val in CODE_MAP_CHAR else &quot;&quot;
+
+if __name__ == &quot;__main__&quot;:
+    print &quot;List of your devices :&quot;
+    devices = [InputDevice(fn) for fn in list_devices()]
+    for device in devices:
+        print &quot;\t{}\t{}&quot;.format(device.fn, device.name)
+        
+    print &quot;Choose event ID :&quot;,
+    event_id = raw_input()
+    
+    print &quot;Exclusive access to device ? [1 or 0] : &quot;,
+    exclusive_access = raw_input()
+    
+    device = InputDevice('/dev/input/event{}'.format(event_id))
+    if int(exclusive_access) == 1:
+        device.grab()
+    
+    data = &quot;&quot;
+    for event in device.read_loop():
+        if event.type == ecodes.EV_KEY:
+            e = categorize(event)
+            if e.keystate == e.key_up:
+                if e.keycode == &quot;KEY_ENTER&quot;:
+                    requests.post(&quot;https://somewhere/code/belongs&quot;, {
+                        code: data
+                    })
+                    data = &quot;&quot;
+                else:
+                    data += parse_key_to_char(e.keycode)
+</code></pre>
+
+<blockquote>
+<p>You can read more about <strong>evdev</strong> API <a href="https://python-evdev.readthedocs.org/en/latest/index.html">here</a></p>
+</blockquote>
+
+<p><strong>Ref :</strong></p>
+
+<ul>
+<li>cover photo from <a href="http://blog.pepperl-fuchs.us/boosting-productivity-with-the-help-of-laser-barcode-scanners">blog.pepperl-fuchs.us</a></li>
+</ul>
+
+    </div>
+
+    <aside>
+        <div class="section"><a href="https://khanhicetea.com/tags/linux" class="label label-info">linux</a> <a href="https://khanhicetea.com/tags/python" class="label label-info">python</a> <a href="https://khanhicetea.com/tags/device" class="label label-info">device</a> <a href="https://khanhicetea.com/tags/english" class="label label-info">english</a> </div>
+        
+        <nav>
+            <ul class="pager">
+                
+                <li class="previous"><a href="https://khanhicetea.com/post/backup-and-restore-elasticsearch-using-docker/"><span aria-hidden="true">&larr;</span> \b</a></li>
+                
+                
+                <li class="next"><a href="https://khanhicetea.com/post/setup_php7_dev_enviroment/"><span aria-hidden="true">&rarr;</span> Set up PHP 7 development environment</a></li>
+                
+            </ul>
+        </nav>
+
+        <div class="section share">
+        <a href="https://www.facebook.com/sharer.php?src=bm&u=https%3a%2f%2fkhanhicetea.com%2fpost%2fread_input_from_usb_keyboard_in_linux%2f&t=Read%20Input%20Data%20From%20USB%20Devices%20in%20Linux" onclick="window.open(this.href, 'PCwindow', 'width=550, height=350, menubar=no, toolbar=no, scrollbars=yes'); return false;"><i class="fa fa-facebook"></i></a>
+        <a href="https://twitter.com/intent/tweet?url=https%3a%2f%2fkhanhicetea.com%2fpost%2fread_input_from_usb_keyboard_in_linux%2f&text=Read%20Input%20Data%20From%20USB%20Devices%20in%20Linux&tw_p=tweetbutton" onclick="window.open(this.href, 'PCwindow', 'width=550, height=350, menubar=no, toolbar=no, scrollbars=yes'); return false;"><i class="fa fa-twitter"></i></a>
+        <a href="https://plus.google.com/share?url=https%3a%2f%2fkhanhicetea.com%2fpost%2fread_input_from_usb_keyboard_in_linux%2f" onclick="window.open(this.href, 'PCwindow', 'width=550, height=350, menubar=no, toolbar=no, scrollbars=yes'); return false;"><i class="fa fa-google-plus"></i></a>
+        <a href="https://getpocket.com/edit?url=https%3a%2f%2fkhanhicetea.com%2fpost%2fread_input_from_usb_keyboard_in_linux%2f&title=Read%20Input%20Data%20From%20USB%20Devices%20in%20Linux" onclick="window.open(this.href, 'PCwindow', 'width=550, height=350, menubar=no, toolbar=no, scrollbars=yes'); return false;"><i class="fa fa-get-pocket"></i></a>
+        </div>
+
+        
+        
+        <div id="disqus_thread"></div>
+        <script type="text/javascript">
+(function() {
+var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+var disqus_shortname = 'khanhicetea';
+dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+})();
+        </script>
+        <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+        <a href="https://disqus.com/" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+        
+        
+    </aside>
+
+    </article>
+</div>
+
+<div class="col-sm-3">
+    <aside class="site">
+
+  
+  <div class="section">
+    <header><div class="title">TableOfContents</div></header>
+    <div class="list-default"><nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li><a href="#introduction">Introduction</a></li>
+<li><a href="#instruction">Instruction</a>
+<ul>
+<li><a href="#install-dependencies">Install dependencies</a></li>
+<li><a href="#download-program-sourcecode">Download program sourcecode</a></li>
+<li><a href="#run-program-with-root-permission">Run program with root permission</a></li>
+</ul></li>
+<li><a href="#customize-output-data">Customize output data</a></li>
+</ul></li>
+</ul>
+</nav></div>
+  </div>
+  
+
+  
+
+  
+  <div class="section">
+    <header><div class="title">Latest Logs</div></header>
+    <div class="content">
+      
+      <div class="sm"><article class="li">
+  <a href="https://khanhicetea.com/til/2017-08-06/" class="clearfix">
+    <div class="image" style="background-image: url(https://khanhicetea.com/images/kit_logo.png);"></div>
+    <div class="detail">
+      <h2 class="title">What I learned in 2017-08-06</h2>
+      <time>Sun, Aug 6, 2017</time>
+      <div class="summary">I learned in 2017-08-06 about sysadmin, java, kernel, til, linux, security, php, mistake</div>
+    </div>
+  </a>
+</article>
+</div>
+      
+      <div class="sm"><article class="li">
+  <a href="https://khanhicetea.com/til/2017-08-04/" class="clearfix">
+    <div class="image" style="background-image: url(https://khanhicetea.com/images/kit_logo.png);"></div>
+    <div class="detail">
+      <h2 class="title">What I learned in 2017-08-04</h2>
+      <time>Fri, Aug 4, 2017</time>
+      <div class="summary">I learned in 2017-08-04 about python, devops, free, til, heroku, http2, requests</div>
+    </div>
+  </a>
+</article>
+</div>
+      
+      <div class="sm"><article class="li">
+  <a href="https://khanhicetea.com/post/random-riddle-about-number/" class="clearfix">
+    <div class="image" style="background-image: url(https://khanhicetea.com/images/2017/07/question-mark.jpeg);"></div>
+    <div class="detail">
+      <h2 class="title">Câu đố vui toán học ngu ngốc</h2>
+      <time>Fri, Jul 28, 2017</time>
+      <div class="summary">Toán học thì khó nhai tới khi ta học được cuộc đời như thế nào</div>
+    </div>
+  </a>
+</article>
+</div>
+      
+      <div class="sm"><article class="li">
+  <a href="https://khanhicetea.com/post/random-week-19/" class="clearfix">
+    <div class="image" style="background-image: url(https://khanhicetea.com/images/2017/06/king-midas-cartoon-children.jpg);"></div>
+    <div class="detail">
+      <h2 class="title">Random Week #19</h2>
+      <time>Wed, Jun 21, 2017</time>
+      <div class="summary">When everything, everything, everything you touch turns to gold, gold, gold.</div>
+    </div>
+  </a>
+</article>
+</div>
+      
+      <div class="sm"><article class="li">
+  <a href="https://khanhicetea.com/til/2017-06-15/" class="clearfix">
+    <div class="image" style="background-image: url(https://khanhicetea.com/images/kit_logo.png);"></div>
+    <div class="detail">
+      <h2 class="title">What I learned in 2017-06-15</h2>
+      <time>Thu, Jun 15, 2017</time>
+      <div class="summary">I learned in 2017-06-15 about til, sysadmin, gearman, queue</div>
+    </div>
+  </a>
+</article>
+</div>
+      
+    </div>
+  </div>
+  
+
+  
+  <div class="section taxonomies">
+    <header><div class="title">Categories</div></header>
+    <div class="content">
+      <a href="https://khanhicetea.com/categories/life">life [30]</a><a href="https://khanhicetea.com/categories/today-i-learned">today-i-learned [23]</a><a href="https://khanhicetea.com/categories/sysadmin">sysadmin [10]</a><a href="https://khanhicetea.com/categories/php">php [8]</a><a href="https://khanhicetea.com/categories/mysql">mysql [4]</a><a href="https://khanhicetea.com/categories/python">python [4]</a><a href="https://khanhicetea.com/categories/docker">docker [3]</a><a href="https://khanhicetea.com/categories/system">system [3]</a><a href="https://khanhicetea.com/categories/tech">tech [3]</a><a href="https://khanhicetea.com/categories/database">database [2]</a>
+    </div>
+  </div>
+  
+  <div class="section taxonomies">
+    <header><div class="title">Tags</div></header>
+    <div class="content">
+      <a href="https://khanhicetea.com/tags/english">english [33]</a><a href="https://khanhicetea.com/tags/life">life [29]</a><a href="https://khanhicetea.com/tags/til">til [23]</a><a href="https://khanhicetea.com/tags/random">random [21]</a><a href="https://khanhicetea.com/tags/sysadmin">sysadmin [12]</a><a href="https://khanhicetea.com/tags/php">php [11]</a><a href="https://khanhicetea.com/tags/vietnamese">vietnamese [7]</a><a href="https://khanhicetea.com/tags/bash">bash [6]</a><a href="https://khanhicetea.com/tags/devops">devops [5]</a><a href="https://khanhicetea.com/tags/docker">docker [5]</a>
+    </div>
+  </div>
+  
+
+  <div class="section taxonomies">
+    <header><div class="title">whoami</div></header>
+    <div class="content">
+      <a href="../../humans.txt"><i class="fa fa-user-circle-o"></i> I am a human ! I make misstakes. Oops..I made it</a>
+      
+      <a href="https://github.com/khanhicetea"><i class="fa fa-github"></i> Github</a>
+      
+      <a href="https://libraries.io/github/khanhicetea"><i class="fa fa-th-list"></i> Libraries.io</a>
+      
+      <a href="https://vn.linkedin.com/in/khanhicetea"><i class="fa fa-linkedin-square"></i> LinkedIn</a>
+      
+    </div>
+  </div>
+
+  
+
+</aside>
+
+</div>
+
+</div>
+
+    </div>
+
+    <footer class="site">
+      <p><strong>- In God We Trust -</strong></p>
+      <p>&copy; 2017 KhanhIceTea B(rain)-log</p>
+      <p>Licensed under <a href="http://creativecommons.org/licenses/by-nc-nd/3.0/" target="_blank">CC BY-NC-ND 3.0</a></p>
+      <p>Powered by <a href="http://gohugo.io" target="_blank">Hugo</a> and <a href="https://github.com/khanhicetea/.com" target="_blank">GitHub Pages</a></p>
+      <p>Theme <a href="https://github.com/dim0627/hugo_theme_robust" target="_blank">Robust</a> designed by <a href="http://yet.unresolved.xyz" target="_blank">Daisuke Tsuji</a>, background texture <a href="http://www.freepik.com/free-vector/unevenly-painted-wall-texture_769342.htm">designed by Freepik</a>, the little prince art by <a href="http://princekido.deviantart.com/art/The-Little-Prince-and-the-Fox-in-the-Light-603126189">princekido</a></p>
+    </footer>
+
+    <script src="//code.jquery.com/jquery-2.1.3.min.js"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.10.0/highlight.min.js"></script>
+    <script>
+      $(document).ready(function() {
+        $('.article-body pre code').each(function(i, block) {
+          hljs.highlightBlock(block);
+        });
+      });
+    </script>
+
+    <script>
+      $(".article-body p").has("img").css('text-align', "center");
+      $(".article-body a").attr('target','_blank');
+    </script>
+
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-50390703-1', 'auto');
+
+      jQuery.getJSON("https://api.ipify.org?format=json", function(data) {
+        ga('set', 'dimension1', data.ip);
+        ga('send', 'pageview');
+        setInterval(function() {
+            ga('send', 'pageview');
+        }, 60000);
+      });
+
+    </script>
+
+  </body>
+</html>

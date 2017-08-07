@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Container on KhanhIceTea B(rain)-log</title>
+    <link>https://khanhicetea.com/tags/container/</link>
+    <description>Recent content in Container on KhanhIceTea B(rain)-log</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 24 Apr 2017 14:19:39 +0700</lastBuildDate>
+    
+	<atom:link href="https://khanhicetea.com/tags/container/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Kick start Docker environment on ubuntu</title>
+      <link>https://khanhicetea.com/post/kick-start-docker-environment-on-ubuntu/</link>
+      <pubDate>Mon, 24 Apr 2017 14:19:39 +0700</pubDate>
+      
+      <guid>https://khanhicetea.com/post/kick-start-docker-environment-on-ubuntu/</guid>
+      <description>What does script do :
+ Install latest Docker Engine Install latest Docker Compose tool AND last but not least, a congratuation message !  Here is the script :
+  Hm.. it&amp;rsquo;s exactly docker images are building instead
+ Ref:
+ Docker meme from developermemes.com  </description>
+    </item>
+    
+  </channel>
+</rss>

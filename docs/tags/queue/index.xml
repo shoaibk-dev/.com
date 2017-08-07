@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Queue on KhanhIceTea B(rain)-log</title>
+    <link>https://khanhicetea.com/tags/queue/</link>
+    <description>Recent content in Queue on KhanhIceTea B(rain)-log</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 15 Jun 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://khanhicetea.com/tags/queue/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>What I learned in 2017-06-15</title>
+      <link>https://khanhicetea.com/til/2017-06-15/</link>
+      <pubDate>Thu, 15 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://khanhicetea.com/til/2017-06-15/</guid>
+      <description>SYSADMIN Gearman bash worker and client Gearman is a awesome job queue service that helps you scale your system. In smaller context, it can help us to run a background woker for minor tasks like backup data, cleaning system.
+Install :
+$ sudo apt install gearman-job-server gearman-tools  Create a worker bash script
+worker.sh
+#!/bin/bash echo $1 echo $2  Run worker, -w means run as worker mode , -f test means function name will be test</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Websocket on KhanhIceTea B(rain)-log</title>
+    <link>https://khanhicetea.com/tags/websocket/</link>
+    <description>Recent content in Websocket on KhanhIceTea B(rain)-log</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 04 Dec 2015 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://khanhicetea.com/tags/websocket/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>What I learned in 2015-12-04</title>
+      <link>https://khanhicetea.com/til/2015-12-04/</link>
+      <pubDate>Fri, 04 Dec 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://khanhicetea.com/til/2015-12-04/</guid>
+      <description>PHP Run built-in server via Docker Docker is the fast and clean way to run Linux programs.
+We can run a PHP project via PHP built-in server and Docker.
+docker run -it -p 8080:8080 -v `pwd`:/code php:7 php -S 0.0.0.0:8080 -t /code/web /code/web/server.php  With server.php content is
+&amp;lt;?php $filename = __DIR__.preg_replace(&#39;#(\?.*)$#&#39;, &#39;&#39;, $_SERVER[&#39;REQUEST_URI&#39;]); if (php_sapi_name() === &#39;cli-server&#39; &amp;amp;&amp;amp; is_file($filename)) { return false; } // Run application below $app = new Application(); $app-&amp;gt;run();  PYTHON Reference assign object variable When you have a object x and assign y = x, y will be a ref of x (it looks like pointer of C).</description>
+    </item>
+    
+  </channel>
+</rss>

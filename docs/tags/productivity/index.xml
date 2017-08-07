@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Productivity on KhanhIceTea B(rain)-log</title>
+    <link>https://khanhicetea.com/tags/productivity/</link>
+    <description>Recent content in Productivity on KhanhIceTea B(rain)-log</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 30 Nov 2015 17:22:46 +0700</lastBuildDate>
+    
+	<atom:link href="https://khanhicetea.com/tags/productivity/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Today I Learned - automated tool helps you learn everyday.</title>
+      <link>https://khanhicetea.com/post/today-i-learned/</link>
+      <pubDate>Mon, 30 Nov 2015 17:22:46 +0700</pubDate>
+      
+      <guid>https://khanhicetea.com/post/today-i-learned/</guid>
+      <description>Introduction We constantly learn new things. This is a repo to share those learnings. TILs are short Markdown documents (a few sentences + example code) explaining concepts, bits of syntax, commands, or tips we&amp;rsquo;ve recently learned.
+Today-I-Learn (TIL) is inspired by Thoughbot, TIL is a repository for everyone to share what we have learn today.
+This repo has a tool that help you to manage and write down what you learned in scientific way.</description>
+    </item>
+    
+    <item>
+      <title>What I learned in 2015-11-30</title>
+      <link>https://khanhicetea.com/til/2015-11-30/</link>
+      <pubDate>Mon, 30 Nov 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://khanhicetea.com/til/2015-11-30/</guid>
+      <description>CHROME-DEV Debugging Chrome extension  To open directly the Console Dev Tools, press Cmd + Opt + J in MacOSX. To debug easily the any files of extension, open the url chrome-extension://&amp;lt;extension-id&amp;gt;/&amp;lt;file-name&amp;gt; in address bar.  MAC-OSX Shortcut keyboard improve productivity  Open the preference of any Application by Cmd + ,. Press Cmd + ~ to go previous App when switching App on Cmd + Tab Copy screenshot to clipboard by Cmd + Ctl + Shift + 3 Press Option when click to notification center is putting it on “Do no disturb” mode.</description>
+    </item>
+    
+  </channel>
+</rss>

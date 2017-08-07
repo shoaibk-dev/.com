@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bash on KhanhIceTea B(rain)-log</title>
+    <link>https://khanhicetea.com/tags/bash/</link>
+    <description>Recent content in Bash on KhanhIceTea B(rain)-log</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 22 May 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://khanhicetea.com/tags/bash/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>What I learned in 2017-05-22</title>
+      <link>https://khanhicetea.com/til/2017-05-22/</link>
+      <pubDate>Mon, 22 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://khanhicetea.com/til/2017-05-22/</guid>
+      <description>SYSADMIN Using BSD find util to find and exec command on file and folder Simple syntax of find
+$ find [find_path] -type [file_type] -exec [command] {} \;  Add filename matching pattern to filter the result
+$ find [find_path] -name &amp;quot;*.php&amp;quot; -type [file_type] -exec [command] {} \;  Where file_type is :
+ b : block special c : character special d : directory f : regular file l : symbolic link p : FIFO s : socket  Examples:</description>
+    </item>
+    
+    <item>
+      <title>What I learned in 2017-05-19</title>
+      <link>https://khanhicetea.com/til/2017-05-19/</link>
+      <pubDate>Fri, 19 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://khanhicetea.com/til/2017-05-19/</guid>
+      <description>DEVOPS Checking forced push conflicts on source code in auto testing Using automated CI solution likes Travis, Jenkins, DroneCI, &amp;hellip; is good solution to ensure quality of software and no breaks in deployment.
+Sometimes, developers force push conflicts part to production branch of source code. If the CI tests only backend (python, ruby, php, go, ..) and forget about frontend code, then your application will be exploded !
+So checking the conflicts code is required step before testing backend and deployment.</description>
+    </item>
+    
+    <item>
+      <title>Kick start Docker environment on ubuntu</title>
+      <link>https://khanhicetea.com/post/kick-start-docker-environment-on-ubuntu/</link>
+      <pubDate>Mon, 24 Apr 2017 14:19:39 +0700</pubDate>
+      
+      <guid>https://khanhicetea.com/post/kick-start-docker-environment-on-ubuntu/</guid>
+      <description>What does script do :
+ Install latest Docker Engine Install latest Docker Compose tool AND last but not least, a congratuation message !  Here is the script :
+  Hm.. it&amp;rsquo;s exactly docker images are building instead
+ Ref:
+ Docker meme from developermemes.com  </description>
+    </item>
+    
+    <item>
+      <title>Kick start a LEMP stack on Ubuntu 16.04</title>
+      <link>https://khanhicetea.com/post/kick-start-a-lemp-stack-on-ubuntu-16-04/</link>
+      <pubDate>Fri, 14 Apr 2017 00:21:14 +0700</pubDate>
+      
+      <guid>https://khanhicetea.com/post/kick-start-a-lemp-stack-on-ubuntu-16-04/</guid>
+      <description>LEMP = Linux + EngineX(NginX) + MySQL + PHP
+ Too tired for doing same tasks over and over again. I made this script to help me (and you) on kicking start a new LEMP stack on production server. Hope it useful !
+What does script do :
+ Disable IPv6 (it&amp;rsquo;s not ready for production at the moment) Configure firewall (only accepts port 22, 80 and 443) Disable password authentication to SSH service Upgrade system Install useful tools (git, screen, vim, curl and lego for LetsEncrypt ACME) NginX MySQL 5.</description>
+    </item>
+    
+    <item>
+      <title>What I learned in 2016-03-26</title>
+      <link>https://khanhicetea.com/til/2016-03-26/</link>
+      <pubDate>Sat, 26 Mar 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://khanhicetea.com/til/2016-03-26/</guid>
+      <description>SYSADMIN Bash shell shortcuts  Ctrl + e : jump cursor to EOL Ctrl + a : jump cursor to BOL (beginning of line) Ctrl + u : delete all from cursor to BOL Ctrl + k : delete all from cursor to EOL Ctrl + r : search history, press again for next search Ctrl + l : clear shell screen Ctrl + c : terminate the command (sometimes have to press twice) Ctrl + z : suspend the command, back to shell.</description>
+    </item>
+    
+    <item>
+      <title>What I learned in 2015-12-30</title>
+      <link>https://khanhicetea.com/til/2015-12-30/</link>
+      <pubDate>Wed, 30 Dec 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://khanhicetea.com/til/2015-12-30/</guid>
+      <description> SYSADMIN Commands Command lsof List all opened files, sockets, pipes
+Eg:
+ List processes are using port 80 (need root if port between 1-1023)  # sudo lsof -i:80   List processes are using /bin/bash  # lsof /bin/bash  </description>
+    </item>
+    
+  </channel>
+</rss>

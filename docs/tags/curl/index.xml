@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Curl on KhanhIceTea B(rain)-log</title>
+    <link>https://khanhicetea.com/tags/curl/</link>
+    <description>Recent content in Curl on KhanhIceTea B(rain)-log</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 03 Dec 2015 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://khanhicetea.com/tags/curl/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>What I learned in 2015-12-03</title>
+      <link>https://khanhicetea.com/til/2015-12-03/</link>
+      <pubDate>Thu, 03 Dec 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://khanhicetea.com/til/2015-12-03/</guid>
+      <description> SYSADMIN FTP via curl tool Can upload an file via FTP by curl tool with handy script :
+curl -T file_need_to_upload ftp://hostname --user user:passwd  </description>
+    </item>
+    
+  </channel>
+</rss>
