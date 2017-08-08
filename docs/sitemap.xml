@@ -3,6 +3,13 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://khanhicetea.com/til/2017-08-08/</loc>
+    <lastmod>2017-08-08T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <url>
     <loc>https://khanhicetea.com/til/2017-08-06/</loc>
     <lastmod>2017-08-06T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
@@ -723,6 +730,13 @@
   </url>
   
   <url>
+    <loc>https://khanhicetea.com/tags/google/</loc>
+    <lastmod>2017-08-08T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://khanhicetea.com/tags/guide/</loc>
     <lastmod>2016-08-25T00:36:10+07:00</lastmod>
     <changefreq>daily</changefreq>
@@ -800,8 +814,15 @@
   </url>
   
   <url>
+    <loc>https://khanhicetea.com/tags/keyboard/</loc>
+    <lastmod>2017-08-08T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://khanhicetea.com/</loc>
-    <lastmod>2017-08-06T00:00:00+00:00</lastmod>
+    <lastmod>2017-08-08T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0</priority>
   </url>
@@ -829,14 +850,14 @@
   
   <url>
     <loc>https://khanhicetea.com/tags/linux/</loc>
-    <lastmod>2017-08-06T00:00:00+00:00</lastmod>
+    <lastmod>2017-08-08T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://khanhicetea.com/categories/linux/</loc>
-    <lastmod>2016-03-20T23:29:53+07:00</lastmod>
+    <lastmod>2017-08-08T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0</priority>
   </url>
@@ -1151,21 +1172,21 @@
   
   <url>
     <loc>https://khanhicetea.com/tags/til/</loc>
-    <lastmod>2017-08-06T00:00:00+00:00</lastmod>
+    <lastmod>2017-08-08T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://khanhicetea.com/til/</loc>
-    <lastmod>2017-08-06T00:00:00+00:00</lastmod>
+    <lastmod>2017-08-08T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://khanhicetea.com/categories/today-i-learned/</loc>
-    <lastmod>2017-08-06T00:00:00+00:00</lastmod>
+    <lastmod>2017-08-08T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0</priority>
   </url>
@@ -1221,14 +1242,14 @@
   
   <url>
     <loc>https://khanhicetea.com/tags/web/</loc>
-    <lastmod>2017-05-18T00:00:00+00:00</lastmod>
+    <lastmod>2017-08-08T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://khanhicetea.com/categories/web/</loc>
-    <lastmod>2017-05-18T00:00:00+00:00</lastmod>
+    <lastmod>2017-08-08T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0</priority>
   </url>

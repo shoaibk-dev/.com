@@ -6,10 +6,23 @@
     <description>Recent content in Linux on KhanhIceTea B(rain)-log</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 20 Mar 2016 23:29:53 +0700</lastBuildDate>
+    <lastBuildDate>Tue, 08 Aug 2017 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://khanhicetea.com/categories/linux/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>What I learned in 2017-08-08</title>
+      <link>https://khanhicetea.com/til/2017-08-08/</link>
+      <pubDate>Tue, 08 Aug 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://khanhicetea.com/til/2017-08-08/</guid>
+      <description>LINUX Remap Capslock to Control key Edit file /etc/default/keyboard and set
+XKBOPTIONS=&amp;quot;ctrl:nocaps&amp;quot;  Then, logout and log in again to impact
+WEB Ping Google to crawl updated content When you post new content to your website, the fastest way is ping search engines to notify them. After that, they will try to crawl and index your page.
+One way to ping search engines is using XMLRPC ping
+This is a example XMLRPC request (HTTP POST request with xml body)</description>
+    </item>
     
     <item>
       <title>Read Input Data From USB Devices in Linux</title>
