@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Javascript on KhanhIceTea B(rain)-log</title>
+    <link>https://khanhicetea.com/categories/javascript/</link>
+    <description>Recent content in Javascript on KhanhIceTea B(rain)-log</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 10 Aug 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://khanhicetea.com/categories/javascript/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>What I learned in 2017-08-10</title>
+      <link>https://khanhicetea.com/til/2017-08-10/</link>
+      <pubDate>Thu, 10 Aug 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://khanhicetea.com/til/2017-08-10/</guid>
+      <description>JAVASCRIPT Eval function and with block JS code will be slower if engine detects any of &amp;lsquo;eval&amp;rsquo; function or &amp;lsquo;with&amp;rsquo; block b/c compiler stop optimizing the code
+JAVASCRIPT Scope and Closure Run this code
+for (var i=1; i&amp;lt;=5; i++) { setTimeout( function timer(){ console.log( i ); }, i*1000 ); }  What you expected
+1 2 3 4 5  But, result is
+6 6 6 6 6  Solution is</description>
+    </item>
+    
+  </channel>
+</rss>

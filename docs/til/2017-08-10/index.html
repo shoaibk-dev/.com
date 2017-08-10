@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="generator" content="Hugo 0.26" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+    <link rel="author" href="../../humans.txt" />
+    <link href="//fonts.googleapis.com/css?family=Patrick+Hand+SC|Fira+Sans:400,400i,700&amp;subset=vietnamese" rel="stylesheet">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.11.0/styles/monokai-sublime.min.css">
+    <link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="../../css/styles.css?v=2">
+    <link rel="stylesheet" href="../../css/custom.css?v=3">
+    <link rel="alternate" type="application/rss+xml" title="RSS" href="https://khanhicetea.com/index.xml">
+
+    <link rel="apple-touch-icon" sizes="57x57" href="../../favicons/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="../../favicons/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="../../favicons/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="../../favicons/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="../../favicons/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="../../favicons/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="../../favicons/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="../../favicons/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="../../favicons/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="../../favicons/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../../favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="../../favicons/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../../favicons/favicon-16x16.png">
+    <link rel="manifest" href="../../favicons/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/favicons/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    
+    <title>What I learned in 2017-08-10 - KhanhIceTea B(rain)-log</title>
+    <meta property='og:title' content="What I learned in 2017-08-10 - KhanhIceTea B(rain)-log">
+    <meta property="og:type" content="article">
+    
+
+    <meta property="og:url" content="https://khanhicetea.com/til/2017-08-10/">
+    
+        <meta name="description" content="I learned in 2017-08-10 about til, javascript">
+        <meta property="og:description" content="I learned in 2017-08-10 about til, javascript">
+    
+    
+
+  </head>
+
+  <body>
+
+    <header class="site">
+        <div class="title">
+          <a href="https://khanhicetea.com/">KhanhIceTea B(rain)-log</a>
+          <p class="lead">Does it matter ? ¯\_(ツ)_/¯</p>
+        </div>
+    </header>
+
+    <div class="container site">
+
+
+<div class="row">
+<div class="col-sm-9">
+
+    <article class="single" itemscope="itemscope" itemtype="http://schema.org/Article">
+
+    <meta itemprop="mainEntityOfPage"  itemType="https://schema.org/WebPage" content="https://khanhicetea.com/"/>
+    <meta itemprop="dateModified" content="2017-08-10T00:00:00&#43;00:00">
+    <meta itemprop="headline" content="What I learned in 2017-08-10">
+    <meta itemprop="description" content="JAVASCRIPT Eval function and with block JS code will be slower if engine detects any of &lsquo;eval&rsquo; function or &lsquo;with&rsquo; block b/c compiler stop optimizing the code
+JAVASCRIPT Scope and Closure Run this code
+for (var i=1; i&lt;=5; i&#43;&#43;) { setTimeout( function timer(){ console.log( i ); }, i*1000 ); }  What you expected
+1 2 3 4 5  But, result is
+6 6 6 6 6  Solution is">
+    <meta itemprop="url" content="https://khanhicetea.com/til/2017-08-10/">
+    <div itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
+        <meta itemprop="url" content="https://khanhicetea.com/images/never_stop_learning.jpg" />
+        <meta itemprop="width" content="800">
+        <meta itemprop="height" content="800">
+    </div>
+    <div itemprop="publisher" itemscope itemtype="https://schema.org/Organization">
+        <div itemprop="logo" itemscope itemtype="https://schema.org/ImageObject">
+        <meta itemprop="url" content="https://khanhicetea.com/images/logo.jpg">
+        <meta itemprop="width" content="100">
+        <meta itemprop="height" content="100">
+        </div>
+        <meta itemprop="name" content="KhanhIceTea B(rain)-log">
+    </div>
+    <div itemprop="author" itemscope itemtype="https://schema.org/Person">
+        <meta itemprop="name" content="KhanhIceTea">
+    </div>
+
+    <div class="image" style="background-image: url(https://khanhicetea.com/images/never_stop_learning.jpg);"></div>
+
+    <header class="article-header">
+        <time itemprop="datePublished" pubdate="pubdate" datetime="2017-08-10T00:00:00&#43;00:00">Thu, Aug 10, 2017</time>
+        <h1 class="article-title">What I learned in 2017-08-10</h1>
+    </header>
+
+    <div class="article-body" itemprop="articleBody">
+        
+
+<h1 id="javascript">JAVASCRIPT</h1>
+
+<h2 id="eval-function-and-with-block">Eval function and with block</h2>
+
+<p>JS code will be slower if engine detects any of &lsquo;eval&rsquo; function or &lsquo;with&rsquo; block b/c compiler stop optimizing the code</p>
+
+<h1 id="javascript-1">JAVASCRIPT</h1>
+
+<h2 id="scope-and-closure">Scope and Closure</h2>
+
+<p>Run this code</p>
+
+<pre><code class="language-js">for (var i=1; i&lt;=5; i++) {
+	setTimeout( function timer(){
+		console.log( i );
+	}, i*1000 );
+}
+</code></pre>
+
+<p>What you expected</p>
+
+<pre><code>1
+2
+3
+4
+5
+</code></pre>
+
+<p>But, result is</p>
+
+<pre><code>6
+6
+6
+6
+6
+</code></pre>
+
+<p>Solution is</p>
+
+<pre><code class="language-js">for (var i = 1; i &lt;= 5; i++) {
+    setTimeout((function timer(j) {
+        return function() {
+            console.log(j);
+        }
+    })(i), i * 1000);
+}
+</code></pre>
+
+<p>or</p>
+
+<pre><code class="language-js">for (var i=1; i&lt;=5; i++) {
+	(function(j){
+		setTimeout( function timer(){
+			console.log( j );
+		}, j*1000 );
+	})(i);
+}
+</code></pre>
+
+    </div>
+
+    <div id="author-info">
+        <img alt="author profile picture" class="avatar avatar-120 photo" src="../../images/profile_pic.jpg">
+        <h5>Khanh Nguyen,</h5>
+        <p>A human, walker, full-stack developer and writer. I love sharing ideas by writing and contributing open source on <a href="https://github.com/khanhicetea" target="_blank">Github</a>. My motto : <i>"Everything is trade-off".</i><br />Subscribe and follow with <a href="https://feeds.feedburner.com/khanhicetea" rel="nofollow" target="_blank">RSS</a> | <a href="https://twitter.com/khanhicetea" rel="nofollow" target="_blank"> Twitter </a></p>
+    </div>
+
+
+    <aside>
+        <div class="section"><a href="https://khanhicetea.com/tags/til" class="label label-info">til</a> <a href="https://khanhicetea.com/tags/javascript" class="label label-info">javascript</a> </div>
+
+        <nav>
+            <ul class="pager">
+                
+                <li class="previous"><a href="https://khanhicetea.com/til/2017-08-08/"><span aria-hidden="true">&larr;</span> \b</a></li>
+                
+                
+            </ul>
+        </nav>
+
+        <div class="section share">
+        <a href="http://www.facebook.com/sharer.php?src=bm&u=https%3a%2f%2fkhanhicetea.com%2ftil%2f2017-08-10%2f&t=What%20I%20learned%20in%202017-08-10" onclick="window.open(this.href, 'PCwindow', 'width=550, height=350, menubar=no, toolbar=no, scrollbars=yes'); return false;"><i class="fa fa-facebook"></i></a>
+        <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fkhanhicetea.com%2ftil%2f2017-08-10%2f&text=What%20I%20learned%20in%202017-08-10&tw_p=tweetbutton" onclick="window.open(this.href, 'PCwindow', 'width=550, height=350, menubar=no, toolbar=no, scrollbars=yes'); return false;"><i class="fa fa-twitter"></i></a>
+        <a href="https://plus.google.com/share?url=https%3a%2f%2fkhanhicetea.com%2ftil%2f2017-08-10%2f" onclick="window.open(this.href, 'PCwindow', 'width=550, height=350, menubar=no, toolbar=no, scrollbars=yes'); return false;"><i class="fa fa-google-plus"></i></a>
+        <a href="http://getpocket.com/edit?url=https%3a%2f%2fkhanhicetea.com%2ftil%2f2017-08-10%2f&title=What%20I%20learned%20in%202017-08-10" onclick="window.open(this.href, 'PCwindow', 'width=550, height=350, menubar=no, toolbar=no, scrollbars=yes'); return false;"><i class="fa fa-get-pocket"></i></a>
+        </div>
+
+        
+        
+        <div id="disqus_thread"></div>
+        <script type="text/javascript">
+(function() {
+var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+var disqus_shortname = 'khanhicetea';
+dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+})();
+        </script>
+        <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+        <a href="http://disqus.com/" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+        
+        
+    </aside>
+
+    </article>
+</div>
+
+<div class="col-sm-3">
+    <aside class="site">
+
+  
+  <div class="section">
+    <header><div class="title">TableOfContents</div></header>
+    <div class="list-default"><nav id="TableOfContents">
+<ul>
+<li><a href="#javascript">JAVASCRIPT</a>
+<ul>
+<li><a href="#eval-function-and-with-block">Eval function and with block</a></li>
+</ul></li>
+<li><a href="#javascript-1">JAVASCRIPT</a>
+<ul>
+<li><a href="#scope-and-closure">Scope and Closure</a></li>
+</ul></li>
+</ul>
+</nav></div>
+  </div>
+  
+
+  
+
+  
+  <div class="section">
+    <header><div class="title">Latest Logs</div></header>
+    <div class="content">
+      
+      <div class="sm"><article class="li">
+  <a href="https://khanhicetea.com/til/2017-08-10/" class="clearfix">
+    <div class="image" style="background-image: url(https://khanhicetea.com/images/kit_logo.png);"></div>
+    <div class="detail">
+      <h2 class="title">What I learned in 2017-08-10</h2>
+      <time>Thu, Aug 10, 2017</time>
+      <div class="summary">I learned in 2017-08-10 about til, javascript</div>
+    </div>
+  </a>
+</article>
+</div>
+      
+      <div class="sm"><article class="li">
+  <a href="https://khanhicetea.com/til/2017-08-08/" class="clearfix">
+    <div class="image" style="background-image: url(https://khanhicetea.com/images/kit_logo.png);"></div>
+    <div class="detail">
+      <h2 class="title">What I learned in 2017-08-08</h2>
+      <time>Tue, Aug 8, 2017</time>
+      <div class="summary">I learned in 2017-08-08 about til, web, keyboard, google, linux</div>
+    </div>
+  </a>
+</article>
+</div>
+      
+      <div class="sm"><article class="li">
+  <a href="https://khanhicetea.com/til/2017-08-06/" class="clearfix">
+    <div class="image" style="background-image: url(https://khanhicetea.com/images/kit_logo.png);"></div>
+    <div class="detail">
+      <h2 class="title">What I learned in 2017-08-06</h2>
+      <time>Sun, Aug 6, 2017</time>
+      <div class="summary">I learned in 2017-08-06 about sysadmin, java, kernel, til, linux, security, php, mistake</div>
+    </div>
+  </a>
+</article>
+</div>
+      
+      <div class="sm"><article class="li">
+  <a href="https://khanhicetea.com/til/2017-08-04/" class="clearfix">
+    <div class="image" style="background-image: url(https://khanhicetea.com/images/kit_logo.png);"></div>
+    <div class="detail">
+      <h2 class="title">What I learned in 2017-08-04</h2>
+      <time>Fri, Aug 4, 2017</time>
+      <div class="summary">I learned in 2017-08-04 about python, devops, free, til, heroku, http2, requests</div>
+    </div>
+  </a>
+</article>
+</div>
+      
+      <div class="sm"><article class="li">
+  <a href="https://khanhicetea.com/post/random-riddle-about-number/" class="clearfix">
+    <div class="image" style="background-image: url(https://khanhicetea.com/images/2017/07/question-mark.jpeg);"></div>
+    <div class="detail">
+      <h2 class="title">Câu đố vui toán học ngu ngốc</h2>
+      <time>Fri, Jul 28, 2017</time>
+      <div class="summary">Toán học thì khó nhai tới khi ta học được cuộc đời như thế nào</div>
+    </div>
+  </a>
+</article>
+</div>
+      
+    </div>
+  </div>
+  
+
+  
+  <div class="section taxonomies">
+    <header><div class="title">Categories</div></header>
+    <div class="content">
+      <a href="https://khanhicetea.com/categories/life">life [30]</a><a href="https://khanhicetea.com/categories/today-i-learned">today-i-learned [25]</a><a href="https://khanhicetea.com/categories/sysadmin">sysadmin [10]</a><a href="https://khanhicetea.com/categories/php">php [8]</a><a href="https://khanhicetea.com/categories/mysql">mysql [4]</a><a href="https://khanhicetea.com/categories/python">python [4]</a><a href="https://khanhicetea.com/categories/docker">docker [3]</a><a href="https://khanhicetea.com/categories/system">system [3]</a><a href="https://khanhicetea.com/categories/tech">tech [3]</a><a href="https://khanhicetea.com/categories/web">web [3]</a>
+    </div>
+  </div>
+  
+  <div class="section taxonomies">
+    <header><div class="title">Tags</div></header>
+    <div class="content">
+      <a href="https://khanhicetea.com/tags/english">english [33]</a><a href="https://khanhicetea.com/tags/life">life [29]</a><a href="https://khanhicetea.com/tags/til">til [25]</a><a href="https://khanhicetea.com/tags/random">random [21]</a><a href="https://khanhicetea.com/tags/sysadmin">sysadmin [12]</a><a href="https://khanhicetea.com/tags/php">php [11]</a><a href="https://khanhicetea.com/tags/vietnamese">vietnamese [7]</a><a href="https://khanhicetea.com/tags/bash">bash [6]</a><a href="https://khanhicetea.com/tags/devops">devops [5]</a><a href="https://khanhicetea.com/tags/docker">docker [5]</a>
+    </div>
+  </div>
+  
+
+  <div class="section taxonomies">
+    <header><div class="title">whoami</div></header>
+    <div class="content">
+      <a href="../../humans.txt"><i class="fa fa-user-circle-o"></i> I am a human ! I make misstakes. Oops..I made it</a>
+      
+      <a href="https://github.com/khanhicetea"><i class="fa fa-github"></i> Github</a>
+      
+      <a href="https://libraries.io/github/khanhicetea"><i class="fa fa-th-list"></i> Libraries.io</a>
+      
+      <a href="https://vn.linkedin.com/in/khanhicetea"><i class="fa fa-linkedin-square"></i> LinkedIn</a>
+      
+    </div>
+  </div>
+
+  
+
+</aside>
+
+</div>
+
+</div>
+
+    </div>
+
+    <footer class="site">
+      <p><strong>- In God We Trust -</strong></p>
+      <p>&copy; 2017 KhanhIceTea B(rain)-log</p>
+      <p>Licensed under <a href="http://creativecommons.org/licenses/by-nc-nd/3.0/" target="_blank">CC BY-NC-ND 3.0</a></p>
+      <p>Powered by <a href="http://gohugo.io" target="_blank">Hugo</a> and <a href="https://github.com/khanhicetea/.com" target="_blank">GitHub Pages</a></p>
+      <p>Theme <a href="https://github.com/dim0627/hugo_theme_robust" target="_blank">Robust</a> designed by <a href="http://yet.unresolved.xyz" target="_blank">Daisuke Tsuji</a>, background texture <a href="http://www.freepik.com/free-vector/unevenly-painted-wall-texture_769342.htm">designed by Freepik</a>, the little prince art by <a href="http://princekido.deviantart.com/art/The-Little-Prince-and-the-Fox-in-the-Light-603126189">princekido</a></p>
+    </footer>
+
+    <script src="//code.jquery.com/jquery-2.1.3.min.js"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.10.0/highlight.min.js"></script>
+    <script>
+      $(document).ready(function() {
+        $('.article-body pre code').each(function(i, block) {
+          hljs.highlightBlock(block);
+        });
+      });
+    </script>
+
+    <script>
+      $(".article-body p").has("img").css('text-align', "center");
+      $(".article-body a").attr('target','_blank');
+    </script>
+
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-50390703-1', 'auto');
+
+      jQuery.getJSON("https://api.ipify.org?format=json", function(data) {
+        ga('set', 'dimension1', data.ip);
+        ga('send', 'pageview');
+        setInterval(function() {
+            ga('send', 'pageview');
+        }, 60000);
+      });
+
+    </script>
+
+  </body>
+</html>
+

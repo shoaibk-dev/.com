@@ -68,9 +68,11 @@
     <meta itemprop="mainEntityOfPage"  itemType="https://schema.org/WebPage" content="https://khanhicetea.com/"/>
     <meta itemprop="dateModified" content="2017-04-21T00:00:00&#43;00:00">
     <meta itemprop="headline" content="What I learned in 2017-04-21">
-    <meta itemprop="description" content="TOOLS Base 64 encode and decode builtin tool Browsers have helpers function to encode and decode base64 :
- btoa : base64 encode atob : base64 decode  &gt; btoa(&#39;Hello world&#39;) &quot;SGVsbG8gV29ybGQgIQ==&quot; &gt; atob(&#39;SW4gR29kIFdlIFRydXN0ICE=&#39;) &quot;In God We Trust !&quot;  HTTP ab failed responses When benchmarking a HTTP application server using ab tool, you shouldn&rsquo;t only care about how many requests per second, but percentage of Success responses.
-A notice that you must have the same content-length in responses, because ab tool will assume response having different content-length from Document Length (in ab result) is failed response.">
+    <meta itemprop="description" content="HTTP ab failed responses When benchmarking a HTTP application server using ab tool, you shouldn&rsquo;t only care about how many requests per second, but percentage of Success responses.
+A notice that you must have the same content-length in responses, because ab tool will assume response having different content-length from Document Length (in ab result) is failed response.
+Example
+Webserver using Flask
+from flask import Flask from random import randint app = Flask(__name__) @app.">
     <meta itemprop="url" content="https://khanhicetea.com/til/2017-04-21/">
     <div itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
         <meta itemprop="url" content="https://khanhicetea.com/images/never_stop_learning.jpg" />
@@ -98,24 +100,6 @@ A notice that you must have the same content-length in responses, because ab too
 
     <div class="article-body" itemprop="articleBody">
         
-
-<h1 id="tools">TOOLS</h1>
-
-<h2 id="base-64-encode-and-decode-builtin-tool">Base 64 encode and decode builtin tool</h2>
-
-<p>Browsers have helpers function to encode and decode base64 :</p>
-
-<ul>
-<li><code>btoa</code> : base64 encode</li>
-<li><code>atob</code> : base64 decode</li>
-</ul>
-
-<pre><code>&gt; btoa('Hello world')
-&quot;SGVsbG8gV29ybGQgIQ==&quot;
-
-&gt; atob('SW4gR29kIFdlIFRydXN0ICE=')
-&quot;In God We Trust !&quot;
-</code></pre>
 
 <h1 id="http">HTTP</h1>
 
@@ -205,6 +189,24 @@ Percentage of the requests served within a certain time (ms)
 
 <p><strong>In this example, first response content-length is 10 (&ldquo;hello&rdquo; x 2), so every responses has content length is 5 or 15, will be assumed a failed response.</strong></p>
 
+<h1 id="tools">TOOLS</h1>
+
+<h2 id="base-64-encode-and-decode-builtin-tool">Base 64 encode and decode builtin tool</h2>
+
+<p>Browsers have helpers function to encode and decode base64 :</p>
+
+<ul>
+<li><code>btoa</code> : base64 encode</li>
+<li><code>atob</code> : base64 decode</li>
+</ul>
+
+<pre><code>&gt; btoa('Hello world')
+&quot;SGVsbG8gV29ybGQgIQ==&quot;
+
+&gt; atob('SW4gR29kIFdlIFRydXN0ICE=')
+&quot;In God We Trust !&quot;
+</code></pre>
+
     </div>
 
     <div id="author-info">
@@ -263,13 +265,13 @@ dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
     <header><div class="title">TableOfContents</div></header>
     <div class="list-default"><nav id="TableOfContents">
 <ul>
-<li><a href="#tools">TOOLS</a>
-<ul>
-<li><a href="#base-64-encode-and-decode-builtin-tool">Base 64 encode and decode builtin tool</a></li>
-</ul></li>
 <li><a href="#http">HTTP</a>
 <ul>
 <li><a href="#ab-failed-responses">ab failed responses</a></li>
+</ul></li>
+<li><a href="#tools">TOOLS</a>
+<ul>
+<li><a href="#base-64-encode-and-decode-builtin-tool">Base 64 encode and decode builtin tool</a></li>
 </ul></li>
 </ul>
 </nav></div>
@@ -282,6 +284,18 @@ dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
   <div class="section">
     <header><div class="title">Latest Logs</div></header>
     <div class="content">
+      
+      <div class="sm"><article class="li">
+  <a href="https://khanhicetea.com/til/2017-08-10/" class="clearfix">
+    <div class="image" style="background-image: url(https://khanhicetea.com/images/kit_logo.png);"></div>
+    <div class="detail">
+      <h2 class="title">What I learned in 2017-08-10</h2>
+      <time>Thu, Aug 10, 2017</time>
+      <div class="summary">I learned in 2017-08-10 about til, javascript</div>
+    </div>
+  </a>
+</article>
+</div>
       
       <div class="sm"><article class="li">
   <a href="https://khanhicetea.com/til/2017-08-08/" class="clearfix">
@@ -331,18 +345,6 @@ dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
 </article>
 </div>
       
-      <div class="sm"><article class="li">
-  <a href="https://khanhicetea.com/post/random-week-19/" class="clearfix">
-    <div class="image" style="background-image: url(https://khanhicetea.com/images/2017/06/king-midas-cartoon-children.jpg);"></div>
-    <div class="detail">
-      <h2 class="title">Random Week #19</h2>
-      <time>Wed, Jun 21, 2017</time>
-      <div class="summary">When everything, everything, everything you touch turns to gold, gold, gold.</div>
-    </div>
-  </a>
-</article>
-</div>
-      
     </div>
   </div>
   
@@ -351,14 +353,14 @@ dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
   <div class="section taxonomies">
     <header><div class="title">Categories</div></header>
     <div class="content">
-      <a href="https://khanhicetea.com/categories/life">life [30]</a><a href="https://khanhicetea.com/categories/today-i-learned">today-i-learned [24]</a><a href="https://khanhicetea.com/categories/sysadmin">sysadmin [10]</a><a href="https://khanhicetea.com/categories/php">php [8]</a><a href="https://khanhicetea.com/categories/mysql">mysql [4]</a><a href="https://khanhicetea.com/categories/python">python [4]</a><a href="https://khanhicetea.com/categories/docker">docker [3]</a><a href="https://khanhicetea.com/categories/system">system [3]</a><a href="https://khanhicetea.com/categories/tech">tech [3]</a><a href="https://khanhicetea.com/categories/web">web [3]</a>
+      <a href="https://khanhicetea.com/categories/life">life [30]</a><a href="https://khanhicetea.com/categories/today-i-learned">today-i-learned [25]</a><a href="https://khanhicetea.com/categories/sysadmin">sysadmin [10]</a><a href="https://khanhicetea.com/categories/php">php [8]</a><a href="https://khanhicetea.com/categories/mysql">mysql [4]</a><a href="https://khanhicetea.com/categories/python">python [4]</a><a href="https://khanhicetea.com/categories/docker">docker [3]</a><a href="https://khanhicetea.com/categories/system">system [3]</a><a href="https://khanhicetea.com/categories/tech">tech [3]</a><a href="https://khanhicetea.com/categories/web">web [3]</a>
     </div>
   </div>
   
   <div class="section taxonomies">
     <header><div class="title">Tags</div></header>
     <div class="content">
-      <a href="https://khanhicetea.com/tags/english">english [33]</a><a href="https://khanhicetea.com/tags/life">life [29]</a><a href="https://khanhicetea.com/tags/til">til [24]</a><a href="https://khanhicetea.com/tags/random">random [21]</a><a href="https://khanhicetea.com/tags/sysadmin">sysadmin [12]</a><a href="https://khanhicetea.com/tags/php">php [11]</a><a href="https://khanhicetea.com/tags/vietnamese">vietnamese [7]</a><a href="https://khanhicetea.com/tags/bash">bash [6]</a><a href="https://khanhicetea.com/tags/devops">devops [5]</a><a href="https://khanhicetea.com/tags/docker">docker [5]</a>
+      <a href="https://khanhicetea.com/tags/english">english [33]</a><a href="https://khanhicetea.com/tags/life">life [29]</a><a href="https://khanhicetea.com/tags/til">til [25]</a><a href="https://khanhicetea.com/tags/random">random [21]</a><a href="https://khanhicetea.com/tags/sysadmin">sysadmin [12]</a><a href="https://khanhicetea.com/tags/php">php [11]</a><a href="https://khanhicetea.com/tags/vietnamese">vietnamese [7]</a><a href="https://khanhicetea.com/tags/bash">bash [6]</a><a href="https://khanhicetea.com/tags/devops">devops [5]</a><a href="https://khanhicetea.com/tags/docker">docker [5]</a>
     </div>
   </div>
   
