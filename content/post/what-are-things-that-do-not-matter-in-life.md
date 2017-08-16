@@ -22,7 +22,7 @@ Thật là tuyệt khi tạo ra một ảnh hưởng thay đổi thế giới kh
 
 ![](/images/2017/02/michelangelo.jpeg)
 
-(Không biết là ông [Michelangelo](https://en.wikipedia.org/wiki/Michelangelo) có nghĩ là cái ảnh này có nghĩa lý tới bây giờ không nhỉ ?)
+(Không biết là ông [Michelangelo](https://www.artsy.net/artist/michelangelo-buonarroti) có nghĩ là cái ảnh này có nghĩa lý tới bây giờ không nhỉ ?)
 
 Nhưng có lẽ mọi thứ có nghĩa lý bằng một cách nào đó khác với suy nghĩa của chúng ta. Cũng có thể mọi thứ đều quan trọng vì đếch có cái gì quan trọng cả.
 
