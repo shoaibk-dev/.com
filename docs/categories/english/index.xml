@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>English on KhanhIceTea B(rain)-log</title>
+    <link>https://khanhicetea.com/categories/english/</link>
+    <description>Recent content in English on KhanhIceTea B(rain)-log</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 17 Aug 2017 23:59:59 +0700</lastBuildDate>
+    
+	<atom:link href="https://khanhicetea.com/categories/english/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>#LEBY : Giới thiệu</title>
+      <link>https://khanhicetea.com/leby/intro/</link>
+      <pubDate>Thu, 17 Aug 2017 23:59:59 +0700</pubDate>
+      
+      <guid>https://khanhicetea.com/leby/intro/</guid>
+      <description>NÓI TRƯỚC BƯỚC SẼ QUA : sê-ri #LEBY này sẽ hoàn toàn viết bằng ngôn ngữ tiếng Việt đẹp đẽ của dân tộc Việt, ngoài ra nó sẽ có một số từ hơi dân dã, hoang dã và đôi khi hơi buôn thả nên các bạn nên lưu ý trước khi đọc. Nếu có thấy khó chịu bởi ngôn từ thì &amp;hellip;. cũng kệ chứ biết sao giờ !</description>
+    </item>
+    
+  </channel>
+</rss>

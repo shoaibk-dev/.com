@@ -6,10 +6,19 @@
     <description>Recent content on KhanhIceTea B(rain)-log</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 16 Aug 2017 22:56:05 +0700</lastBuildDate>
+    <lastBuildDate>Thu, 17 Aug 2017 23:59:59 +0700</lastBuildDate>
     
 	<atom:link href="https://khanhicetea.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>#LEBY : Giới thiệu</title>
+      <link>https://khanhicetea.com/leby/intro/</link>
+      <pubDate>Thu, 17 Aug 2017 23:59:59 +0700</pubDate>
+      
+      <guid>https://khanhicetea.com/leby/intro/</guid>
+      <description>NÓI TRƯỚC BƯỚC SẼ QUA : sê-ri #LEBY này sẽ hoàn toàn viết bằng ngôn ngữ tiếng Việt đẹp đẽ của dân tộc Việt, ngoài ra nó sẽ có một số từ hơi dân dã, hoang dã và đôi khi hơi buôn thả nên các bạn nên lưu ý trước khi đọc. Nếu có thấy khó chịu bởi ngôn từ thì &amp;hellip;. cũng kệ chứ biết sao giờ !</description>
+    </item>
     
     <item>
       <title>Webfonts Optimization Using Nginx</title>
