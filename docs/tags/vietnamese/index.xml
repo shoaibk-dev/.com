@@ -6,10 +6,20 @@
     <description>Recent content in Vietnamese on KhanhIceTea B(rain)-log</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 17 Aug 2017 23:59:59 +0700</lastBuildDate>
+    <lastBuildDate>Tue, 22 Aug 2017 22:35:23 +0700</lastBuildDate>
     
 	<atom:link href="https://khanhicetea.com/tags/vietnamese/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>#LEBY : Chữ cái trong tiếng Anh</title>
+      <link>https://khanhicetea.com/leby/english-alphabet/</link>
+      <pubDate>Tue, 22 Aug 2017 22:35:23 +0700</pubDate>
+      
+      <guid>https://khanhicetea.com/leby/english-alphabet/</guid>
+      <description>Hệ thống chữ cái Mọi ngôn ngữ ghi chép đều cần một bảng chữ cái. Có hai hệ thống chữ cái là :
+ Chữ tượng hình (mỗi ký tự đại diện cho một khái niệm) : chữ Ai-cập, chữ Hán, &amp;hellip; nôm na là mấy chữ nhìn như con giun í Chữ tượng thanh (mỗi ký tự đại diện cho một âm) : chữ Latin, chữ Ả-rập hay chữ Hindu, &amp;hellip; thường được tiến hóa từ chữ tượng hình  Rất may là chữ tiếng Anh và chữ tiếng Việt đều theo hệ Latin nên được hưởng sái chữ tượng thanh (tiến hóa hơn, dễ dàng hơn).</description>
+    </item>
     
     <item>
       <title>#LEBY : Giới thiệu</title>
