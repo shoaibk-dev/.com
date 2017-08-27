@@ -246,6 +246,18 @@ dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
     <div class="content">
       
       <div class="sm"><article class="li">
+  <a href="https://khanhicetea.com/leby/word-classes/" class="clearfix">
+    <div class="image" style="background-image: url(https://khanhicetea.com/images/kit_logo.png);"></div>
+    <div class="detail">
+      <h2 class="title">#LEBY : Loại từ trong tiếng Anh</h2>
+      <time>Sun, Aug 27, 2017</time>
+      <div class="summary">How words work</div>
+    </div>
+  </a>
+</article>
+</div>
+      
+      <div class="sm"><article class="li">
   <a href="https://khanhicetea.com/leby/english-alphabet/" class="clearfix">
     <div class="image" style="background-image: url(https://khanhicetea.com/images/kit_logo.png);"></div>
     <div class="detail">
@@ -293,18 +305,6 @@ dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
 </article>
 </div>
       
-      <div class="sm"><article class="li">
-  <a href="https://khanhicetea.com/til/2017-08-08/" class="clearfix">
-    <div class="image" style="background-image: url(https://khanhicetea.com/images/kit_logo.png);"></div>
-    <div class="detail">
-      <h2 class="title">What I learned in 2017-08-08</h2>
-      <time>Tue, Aug 8, 2017</time>
-      <div class="summary">I learned in 2017-08-08 about til, web, keyboard, google, linux</div>
-    </div>
-  </a>
-</article>
-</div>
-      
     </div>
   </div>
   
@@ -313,14 +313,14 @@ dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
   <div class="section taxonomies">
     <header><div class="title">Categories</div></header>
     <div class="content">
-      <a href="https://khanhicetea.com/categories/life">life [30]</a><a href="https://khanhicetea.com/categories/today-i-learned">today-i-learned [25]</a><a href="https://khanhicetea.com/categories/sysadmin">sysadmin [10]</a><a href="https://khanhicetea.com/categories/php">php [8]</a><a href="https://khanhicetea.com/categories/mysql">mysql [4]</a><a href="https://khanhicetea.com/categories/python">python [4]</a><a href="https://khanhicetea.com/categories/tech">tech [4]</a><a href="https://khanhicetea.com/categories/docker">docker [3]</a><a href="https://khanhicetea.com/categories/system">system [3]</a><a href="https://khanhicetea.com/categories/web">web [3]</a>
+      <a href="https://khanhicetea.com/categories/life">life [30]</a><a href="https://khanhicetea.com/categories/today-i-learned">today-i-learned [25]</a><a href="https://khanhicetea.com/categories/sysadmin">sysadmin [10]</a><a href="https://khanhicetea.com/categories/php">php [8]</a><a href="https://khanhicetea.com/categories/mysql">mysql [4]</a><a href="https://khanhicetea.com/categories/python">python [4]</a><a href="https://khanhicetea.com/categories/tech">tech [4]</a><a href="https://khanhicetea.com/categories/docker">docker [3]</a><a href="https://khanhicetea.com/categories/english">english [3]</a><a href="https://khanhicetea.com/categories/system">system [3]</a>
     </div>
   </div>
   
   <div class="section taxonomies">
     <header><div class="title">Tags</div></header>
     <div class="content">
-      <a href="https://khanhicetea.com/tags/english">english [33]</a><a href="https://khanhicetea.com/tags/life">life [29]</a><a href="https://khanhicetea.com/tags/til">til [25]</a><a href="https://khanhicetea.com/tags/random">random [21]</a><a href="https://khanhicetea.com/tags/sysadmin">sysadmin [12]</a><a href="https://khanhicetea.com/tags/php">php [11]</a><a href="https://khanhicetea.com/tags/vietnamese">vietnamese [9]</a><a href="https://khanhicetea.com/tags/bash">bash [6]</a><a href="https://khanhicetea.com/tags/devops">devops [5]</a><a href="https://khanhicetea.com/tags/docker">docker [5]</a>
+      <a href="https://khanhicetea.com/tags/english">english [33]</a><a href="https://khanhicetea.com/tags/life">life [29]</a><a href="https://khanhicetea.com/tags/til">til [25]</a><a href="https://khanhicetea.com/tags/random">random [21]</a><a href="https://khanhicetea.com/tags/sysadmin">sysadmin [12]</a><a href="https://khanhicetea.com/tags/php">php [11]</a><a href="https://khanhicetea.com/tags/vietnamese">vietnamese [10]</a><a href="https://khanhicetea.com/tags/bash">bash [6]</a><a href="https://khanhicetea.com/tags/devops">devops [5]</a><a href="https://khanhicetea.com/tags/docker">docker [5]</a>
     </div>
   </div>
   
@@ -365,12 +365,10 @@ dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
         $('.article-body pre code').each(function(i, block) {
           hljs.highlightBlock(block);
         });
+        $(".article-body p").has("img").css('text-align', "center");
+        $(".article-body a").attr('target','_blank');
+        $(".article-body table").addClass('table').addClass('table-bordered');
       });
-    </script>
-
-    <script>
-      $(".article-body p").has("img").css('text-align', "center");
-      $(".article-body a").attr('target','_blank');
     </script>
 
     <script>

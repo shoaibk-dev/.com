@@ -16,12 +16,10 @@
         $('.article-body pre code').each(function(i, block) {
           hljs.highlightBlock(block);
         });
+        $(".article-body p").has("img").css('text-align', "center");
+        $(".article-body a").attr('target','_blank');
+        $(".article-body table").addClass('table').addClass('table-bordered');
       });
-    </script>
-
-    <script>
-      $(".article-body p").has("img").css('text-align', "center");
-      $(".article-body a").attr('target','_blank');
     </script>
 
     <script>
