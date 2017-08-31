@@ -3,6 +3,13 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://khanhicetea.com/leby/noun/</loc>
+    <lastmod>2017-08-31T23:59:18+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <url>
     <loc>https://khanhicetea.com/leby/word-classes/</loc>
     <lastmod>2017-08-27T23:49:21+07:00</lastmod>
     <changefreq>daily</changefreq>
@@ -724,7 +731,7 @@
   
   <url>
     <loc>https://khanhicetea.com/categories/english/</loc>
-    <lastmod>2017-08-27T23:49:21+07:00</lastmod>
+    <lastmod>2017-08-31T23:59:18+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0</priority>
   </url>
@@ -885,21 +892,21 @@
   
   <url>
     <loc>https://khanhicetea.com/</loc>
-    <lastmod>2017-08-27T23:49:21+07:00</lastmod>
+    <lastmod>2017-08-31T23:59:18+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://khanhicetea.com/leby/</loc>
-    <lastmod>2017-08-27T23:49:21+07:00</lastmod>
+    <lastmod>2017-08-31T23:59:18+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://khanhicetea.com/tags/leby/</loc>
-    <lastmod>2017-08-27T23:49:21+07:00</lastmod>
+    <lastmod>2017-08-31T23:59:18+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0</priority>
   </url>
@@ -1326,7 +1333,7 @@
   
   <url>
     <loc>https://khanhicetea.com/tags/vietnamese/</loc>
-    <lastmod>2017-08-27T23:49:21+07:00</lastmod>
+    <lastmod>2017-08-31T23:59:18+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0</priority>
   </url>
