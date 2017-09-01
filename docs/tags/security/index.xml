@@ -6,10 +6,24 @@
     <description>Recent content in Security on KhanhIceTea B(rain)-log</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 06 Aug 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 01 Sep 2017 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://khanhicetea.com/tags/security/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>What I learned in 2017-09-01</title>
+      <link>https://khanhicetea.com/til/2017-09-01/</link>
+      <pubDate>Fri, 01 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://khanhicetea.com/til/2017-09-01/</guid>
+      <description>MYSQL Mycli : a new good cli MySql Client This tool is written in Python with super cool features (auto-complete and colors).
+Worth a shot !
+Install
+$ pip install mycli  Usage
+$ mycli -h 127.0.0.1 -P 3306 -u root  Screencast
+SYSADMIN Create SSH tunnel manually SSH Tunnel is a fast way to transfer traffic through unsafe internet today. It would be used in MySQL connect, FTP connect or HTTP connect, &amp;hellip;</description>
+    </item>
     
     <item>
       <title>What I learned in 2017-08-06</title>
@@ -17,10 +31,10 @@
       <pubDate>Sun, 06 Aug 2017 00:00:00 +0000</pubDate>
       
       <guid>https://khanhicetea.com/til/2017-08-06/</guid>
-      <description>JAVA Runing old java applets on brower Mostly morden browser has stop support Java plugins, so you can&amp;rsquo;t run Java applet on browser.
-Temporary way : - run in IE or Safari - run in an old Firefox (version 23)
-And what if old java applet can&amp;rsquo;t be runned on Java 8 because of weak signature algorithm. Try this
- Open java.security file :  In MacOS, located in /Library/Java/JavaVirtualMachines/jdk[jdk-version].</description>
+      <description>PHP realpath function If you pass a non-exists path to function realpath, it returns empty string. So please don&amp;rsquo;t do something like :
+function storage_path($folder) { return realpath(__DIR__.&#39;/storage/&#39;.$folder); }  if you expect it return full path of new folder !
+JAVA Runing old java applets on brower Mostly morden browser has stop support Java plugins, so you can&amp;rsquo;t run Java applet on browser.
+Temporary way : - run in IE or Safari - run in an old Firefox (version 23)</description>
     </item>
     
   </channel>

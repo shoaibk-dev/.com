@@ -41,8 +41,8 @@
 
     <meta property="og:url" content="https://khanhicetea.com/til/2017-02-23/">
     
-        <meta name="description" content="I learned in 2017-02-23 about english, database, quote, testing, til, phpunit, mysql, php, mistake">
-        <meta property="og:description" content="I learned in 2017-02-23 about english, database, quote, testing, til, phpunit, mysql, php, mistake">
+        <meta name="description" content="I learned in 2017-02-23 about database, mysql, quote, testing, til, phpunit, english, php, mistake">
+        <meta property="og:description" content="I learned in 2017-02-23 about database, mysql, quote, testing, til, phpunit, english, php, mistake">
     
     
 
@@ -68,9 +68,9 @@
     <meta itemprop="mainEntityOfPage"  itemType="https://schema.org/WebPage" content="https://khanhicetea.com/"/>
     <meta itemprop="dateModified" content="2017-02-23T00:00:00&#43;00:00">
     <meta itemprop="headline" content="What I learned in 2017-02-23">
-    <meta itemprop="description" content="MYSQL UNION vs UNION ALL The difference is UNION command will sort and remove duplicated rows (RETURNED ONLY DISTINCT ROWS)
-Examples :
-mysql&gt; select &#39;1&#39;, &#39;2&#39; union select &#39;2&#39;, &#39;1&#39; union select &#39;3&#39;, &#39;4&#39; union select &#39;1&#39;, &#39;2&#39;; &#43;---&#43;---&#43; | 1 | 2 | &#43;---&#43;---&#43; | 1 | 2 | | 2 | 1 | | 3 | 4 | &#43;---&#43;---&#43; 3 rows in set (0.00 sec) mysql&gt; select &#39;1&#39;, &#39;2&#39; union select &#39;2&#39;, &#39;1&#39; union select &#39;3&#39;, &#39;4&#39; union select &#39;1&#39;, &#39;3&#39;; &#43;---&#43;---&#43; | 1 | 2 | &#43;---&#43;---&#43; | 1 | 2 | | 2 | 1 | | 3 | 4 | | 1 | 3 | &#43;---&#43;---&#43; 4 rows in set (0.">
+    <meta itemprop="description" content="QUOTE Random quote 23 Feb 2017  A computer lets you make more mistakes faster than any other invention in human history, with the possible exceptions of handguns and tequila. - Mitch Ratcliffe
+ Haha, it&rsquo;s totally true ! And it makes me remember this meme when I was little bit drunk !
+PHP Using VarDumper in PHPUnit The trick is writing the output to STDERR stream, I wrote a helper function below">
     <meta itemprop="url" content="https://khanhicetea.com/til/2017-02-23/">
     <div itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
         <meta itemprop="url" content="https://khanhicetea.com/images/never_stop_learning.jpg" />
@@ -98,6 +98,44 @@ mysql&gt; select &#39;1&#39;, &#39;2&#39; union select &#39;2&#39;, &#39;1&#39; 
 
     <div class="article-body" itemprop="articleBody">
         
+
+<h1 id="quote">QUOTE</h1>
+
+<h2 id="random-quote-23-feb-2017">Random quote 23 Feb 2017</h2>
+
+<blockquote>
+<p>A computer lets you make more mistakes faster than any other invention in human history, with the possible exceptions of handguns and tequila. - Mitch Ratcliffe</p>
+</blockquote>
+
+<p>Haha, it&rsquo;s totally true ! And it makes me remember this meme when I was little bit drunk !</p>
+
+<p><img src="https://cloud.githubusercontent.com/assets/4528223/23245595/4094b488-f9c0-11e6-875f-8727e253964d.jpg" alt="Tequila" /></p>
+
+<h1 id="php">PHP</h1>
+
+<h2 id="using-vardumper-in-phpunit">Using VarDumper in PHPUnit</h2>
+
+<p>The trick is writing the output to STDERR stream, I wrote a helper function below</p>
+
+<pre><code class="language-php">function phpunit_dump() {
+    $cloner = new \Symfony\Component\VarDumper\Cloner\VarCloner();
+    $dumper = new \Symfony\Component\VarDumper\Dumper\CliDumper(STDERR);
+    foreach (func_get_args() as $var) {
+        $dumper-&gt;dump($cloner-&gt;cloneVar($var));
+    }
+}
+</code></pre>
+
+<p>How to use it ?</p>
+
+<pre><code class="language-php">// Something magic here :D
+
+phpunit_dump($magic_var1, $magic_var2, $magic_of_magic);
+
+// So much magic below, can't understand anymore
+</code></pre>
+
+<p><img src="https://i.giphy.com/12NUbkX6p4xOO4.gif" alt="Magic" /></p>
 
 <h1 id="mysql">MYSQL</h1>
 
@@ -144,44 +182,6 @@ mysql&gt; select '1', '2' union all select '2', '1' union all select '3', '4' un
 
 <p>In case there will be no duplicates, using UNION ALL will tell the server to skip that (useless, expensive) step.</p>
 
-<h1 id="php">PHP</h1>
-
-<h2 id="using-vardumper-in-phpunit">Using VarDumper in PHPUnit</h2>
-
-<p>The trick is writing the output to STDERR stream, I wrote a helper function below</p>
-
-<pre><code class="language-php">function phpunit_dump() {
-    $cloner = new \Symfony\Component\VarDumper\Cloner\VarCloner();
-    $dumper = new \Symfony\Component\VarDumper\Dumper\CliDumper(STDERR);
-    foreach (func_get_args() as $var) {
-        $dumper-&gt;dump($cloner-&gt;cloneVar($var));
-    }
-}
-</code></pre>
-
-<p>How to use it ?</p>
-
-<pre><code class="language-php">// Something magic here :D
-
-phpunit_dump($magic_var1, $magic_var2, $magic_of_magic);
-
-// So much magic below, can't understand anymore
-</code></pre>
-
-<p><img src="https://i.giphy.com/12NUbkX6p4xOO4.gif" alt="Magic" /></p>
-
-<h1 id="quote">QUOTE</h1>
-
-<h2 id="random-quote-23-feb-2017">Random quote 23 Feb 2017</h2>
-
-<blockquote>
-<p>A computer lets you make more mistakes faster than any other invention in human history, with the possible exceptions of handguns and tequila. - Mitch Ratcliffe</p>
-</blockquote>
-
-<p>Haha, it&rsquo;s totally true ! And it makes me remember this meme when I was little bit drunk !</p>
-
-<p><img src="https://cloud.githubusercontent.com/assets/4528223/23245595/4094b488-f9c0-11e6-875f-8727e253964d.jpg" alt="Tequila" /></p>
-
     </div>
 
     <div id="author-info">
@@ -191,7 +191,7 @@ phpunit_dump($magic_var1, $magic_var2, $magic_of_magic);
 </div>
 
     <aside>
-    <div class="section"><a href="https://khanhicetea.com/tags/english" class="label label-info">english</a> <a href="https://khanhicetea.com/tags/database" class="label label-info">database</a> <a href="https://khanhicetea.com/tags/quote" class="label label-info">quote</a> <a href="https://khanhicetea.com/tags/testing" class="label label-info">testing</a> <a href="https://khanhicetea.com/tags/til" class="label label-info">til</a> <a href="https://khanhicetea.com/tags/phpunit" class="label label-info">phpunit</a> <a href="https://khanhicetea.com/tags/mysql" class="label label-info">mysql</a> <a href="https://khanhicetea.com/tags/php" class="label label-info">php</a> <a href="https://khanhicetea.com/tags/mistake" class="label label-info">mistake</a> </div>
+    <div class="section"><a href="https://khanhicetea.com/tags/database" class="label label-info">database</a> <a href="https://khanhicetea.com/tags/mysql" class="label label-info">mysql</a> <a href="https://khanhicetea.com/tags/quote" class="label label-info">quote</a> <a href="https://khanhicetea.com/tags/testing" class="label label-info">testing</a> <a href="https://khanhicetea.com/tags/til" class="label label-info">til</a> <a href="https://khanhicetea.com/tags/phpunit" class="label label-info">phpunit</a> <a href="https://khanhicetea.com/tags/english" class="label label-info">english</a> <a href="https://khanhicetea.com/tags/php" class="label label-info">php</a> <a href="https://khanhicetea.com/tags/mistake" class="label label-info">mistake</a> </div>
 
     <nav>
         <ul class="pager">
@@ -239,17 +239,17 @@ dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
     <header><div class="title">TableOfContents</div></header>
     <div class="list-default"><nav id="TableOfContents">
 <ul>
-<li><a href="#mysql">MYSQL</a>
+<li><a href="#quote">QUOTE</a>
 <ul>
-<li><a href="#union-vs-union-all">UNION vs UNION ALL</a></li>
+<li><a href="#random-quote-23-feb-2017">Random quote 23 Feb 2017</a></li>
 </ul></li>
 <li><a href="#php">PHP</a>
 <ul>
 <li><a href="#using-vardumper-in-phpunit">Using VarDumper in PHPUnit</a></li>
 </ul></li>
-<li><a href="#quote">QUOTE</a>
+<li><a href="#mysql">MYSQL</a>
 <ul>
-<li><a href="#random-quote-23-feb-2017">Random quote 23 Feb 2017</a></li>
+<li><a href="#union-vs-union-all">UNION vs UNION ALL</a></li>
 </ul></li>
 </ul>
 </nav></div>
@@ -262,6 +262,18 @@ dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
   <div class="section">
     <header><div class="title">Latest Logs</div></header>
     <div class="content">
+      
+      <div class="sm"><article class="li">
+  <a href="https://khanhicetea.com/til/2017-09-01/" class="clearfix">
+    <div class="image" style="background-image: url(https://khanhicetea.com/images/kit_logo.png);"></div>
+    <div class="detail">
+      <h2 class="title">What I learned in 2017-09-01</h2>
+      <time>Fri, Sep 1, 2017</time>
+      <div class="summary">I learned in 2017-09-01 about sysadmin, cli, web, til, ssh, mysql, security, proxy</div>
+    </div>
+  </a>
+</article>
+</div>
       
       <div class="sm"><article class="li">
   <a href="https://khanhicetea.com/leby/noun/" class="clearfix">
@@ -311,18 +323,6 @@ dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
 </article>
 </div>
       
-      <div class="sm"><article class="li">
-  <a href="https://khanhicetea.com/post/webfonts-optimization-using-nginx/" class="clearfix">
-    <div class="image" style="background-image: url(https://khanhicetea.com/images/2017/08/google-web-fonts.jpg);"></div>
-    <div class="detail">
-      <h2 class="title">Webfonts Optimization Using Nginx</h2>
-      <time>Wed, Aug 16, 2017</time>
-      <div class="summary">Make webfont great again !!!</div>
-    </div>
-  </a>
-</article>
-</div>
-      
     </div>
   </div>
   
@@ -331,14 +331,14 @@ dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
   <div class="section taxonomies">
     <header><div class="title">Categories</div></header>
     <div class="content">
-      <a href="https://khanhicetea.com/categories/life">life [30]</a><a href="https://khanhicetea.com/categories/today-i-learned">today-i-learned [25]</a><a href="https://khanhicetea.com/categories/sysadmin">sysadmin [10]</a><a href="https://khanhicetea.com/categories/php">php [8]</a><a href="https://khanhicetea.com/categories/english">english [4]</a><a href="https://khanhicetea.com/categories/mysql">mysql [4]</a><a href="https://khanhicetea.com/categories/python">python [4]</a><a href="https://khanhicetea.com/categories/tech">tech [4]</a><a href="https://khanhicetea.com/categories/docker">docker [3]</a><a href="https://khanhicetea.com/categories/system">system [3]</a>
+      <a href="https://khanhicetea.com/categories/life">life [30]</a><a href="https://khanhicetea.com/categories/today-i-learned">today-i-learned [26]</a><a href="https://khanhicetea.com/categories/sysadmin">sysadmin [11]</a><a href="https://khanhicetea.com/categories/php">php [8]</a><a href="https://khanhicetea.com/categories/mysql">mysql [5]</a><a href="https://khanhicetea.com/categories/english">english [4]</a><a href="https://khanhicetea.com/categories/python">python [4]</a><a href="https://khanhicetea.com/categories/tech">tech [4]</a><a href="https://khanhicetea.com/categories/docker">docker [3]</a><a href="https://khanhicetea.com/categories/system">system [3]</a>
     </div>
   </div>
   
   <div class="section taxonomies">
     <header><div class="title">Tags</div></header>
     <div class="content">
-      <a href="https://khanhicetea.com/tags/english">english [33]</a><a href="https://khanhicetea.com/tags/life">life [29]</a><a href="https://khanhicetea.com/tags/til">til [25]</a><a href="https://khanhicetea.com/tags/random">random [21]</a><a href="https://khanhicetea.com/tags/sysadmin">sysadmin [12]</a><a href="https://khanhicetea.com/tags/php">php [11]</a><a href="https://khanhicetea.com/tags/vietnamese">vietnamese [11]</a><a href="https://khanhicetea.com/tags/bash">bash [6]</a><a href="https://khanhicetea.com/tags/devops">devops [5]</a><a href="https://khanhicetea.com/tags/docker">docker [5]</a>
+      <a href="https://khanhicetea.com/tags/english">english [33]</a><a href="https://khanhicetea.com/tags/life">life [29]</a><a href="https://khanhicetea.com/tags/til">til [26]</a><a href="https://khanhicetea.com/tags/random">random [21]</a><a href="https://khanhicetea.com/tags/sysadmin">sysadmin [13]</a><a href="https://khanhicetea.com/tags/php">php [11]</a><a href="https://khanhicetea.com/tags/vietnamese">vietnamese [11]</a><a href="https://khanhicetea.com/tags/bash">bash [6]</a><a href="https://khanhicetea.com/tags/mysql">mysql [6]</a><a href="https://khanhicetea.com/tags/devops">devops [5]</a>
     </div>
   </div>
   

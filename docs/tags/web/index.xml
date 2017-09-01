@@ -6,10 +6,24 @@
     <description>Recent content in Web on KhanhIceTea B(rain)-log</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 08 Aug 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 01 Sep 2017 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://khanhicetea.com/tags/web/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>What I learned in 2017-09-01</title>
+      <link>https://khanhicetea.com/til/2017-09-01/</link>
+      <pubDate>Fri, 01 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://khanhicetea.com/til/2017-09-01/</guid>
+      <description>MYSQL Mycli : a new good cli MySql Client This tool is written in Python with super cool features (auto-complete and colors).
+Worth a shot !
+Install
+$ pip install mycli  Usage
+$ mycli -h 127.0.0.1 -P 3306 -u root  Screencast
+SYSADMIN Create SSH tunnel manually SSH Tunnel is a fast way to transfer traffic through unsafe internet today. It would be used in MySQL connect, FTP connect or HTTP connect, &amp;hellip;</description>
+    </item>
     
     <item>
       <title>What I learned in 2017-08-08</title>
@@ -30,9 +44,9 @@ This is a example XMLRPC request (HTTP POST request with xml body)</description>
       <pubDate>Thu, 18 May 2017 00:00:00 +0000</pubDate>
       
       <guid>https://khanhicetea.com/til/2017-05-18/</guid>
-      <description>SYSADMIN Grant user to use sudo without password This is bad practice but it&amp;rsquo;s kind of hacky thing if you YOLO
-# Create a user with home dir and bash shell (if you don&#39;t have yet) $ useradd -m YOURUSERNAME -s /bin/bash $ sudo vi /etc/sudoers  Add this line below root ALL=(ALL:ALL) ALL (User privilege specification section)
-$ YOUR_USERNAME ALL=(ALL:ALL) NOPASSWD:ALL  Then press :wq! to force saving the file</description>
+      <description>WEB Cloudflare Error 522 Connection Time out If you are using Cloudflare as a proxied web server, it will provide many benefits about performance (assets caching, prevent DDOS and cheap CDN). But sometimes, you will face to this error &amp;ldquo;522 Connection Time out&amp;rdquo;.
+The problems caused by :
+ Networking (CF can&amp;rsquo;t touch origin server : Firewall blocking, Network Layer #1,#2,#3 issue) Timeout (origin server process too long than 90 seconds) Empty or invalid response from origin server No or big HTTP headers (&amp;gt; 8Kb) Failed TCP handshake  Ref:</description>
     </item>
     
     <item>
@@ -41,11 +55,9 @@ $ YOUR_USERNAME ALL=(ALL:ALL) NOPASSWD:ALL  Then press :wq! to force saving the 
       <pubDate>Fri, 21 Apr 2017 00:00:00 +0000</pubDate>
       
       <guid>https://khanhicetea.com/til/2017-04-21/</guid>
-      <description>HTTP ab failed responses When benchmarking a HTTP application server using ab tool, you shouldn&amp;rsquo;t only care about how many requests per second, but percentage of Success responses.
-A notice that you must have the same content-length in responses, because ab tool will assume response having different content-length from Document Length (in ab result) is failed response.
-Example
-Webserver using Flask
-from flask import Flask from random import randint app = Flask(__name__) @app.</description>
+      <description>TOOLS Base 64 encode and decode builtin tool Browsers have helpers function to encode and decode base64 :
+ btoa : base64 encode atob : base64 decode  &amp;gt; btoa(&#39;Hello world&#39;) &amp;quot;SGVsbG8gV29ybGQgIQ==&amp;quot; &amp;gt; atob(&#39;SW4gR29kIFdlIFRydXN0ICE=&#39;) &amp;quot;In God We Trust !&amp;quot;  HTTP ab failed responses When benchmarking a HTTP application server using ab tool, you shouldn&amp;rsquo;t only care about how many requests per second, but percentage of Success responses.
+A notice that you must have the same content-length in responses, because ab tool will assume response having different content-length from Document Length (in ab result) is failed response.</description>
     </item>
     
     <item>
