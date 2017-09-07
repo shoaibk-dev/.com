@@ -3,6 +3,13 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://khanhicetea.com/til/2017-09-07/</loc>
+    <lastmod>2017-09-07T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <url>
     <loc>https://khanhicetea.com/til/2017-09-05/</loc>
     <lastmod>2017-09-05T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
@@ -920,7 +927,7 @@
   
   <url>
     <loc>https://khanhicetea.com/</loc>
-    <lastmod>2017-09-05T00:00:00+00:00</lastmod>
+    <lastmod>2017-09-07T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0</priority>
   </url>
@@ -1019,6 +1026,20 @@
   <url>
     <loc>https://khanhicetea.com/categories/mysql/</loc>
     <lastmod>2017-09-01T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://khanhicetea.com/tags/networking/</loc>
+    <lastmod>2017-09-07T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://khanhicetea.com/categories/networking/</loc>
+    <lastmod>2017-09-07T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0</priority>
   </url>
@@ -1256,14 +1277,14 @@
   
   <url>
     <loc>https://khanhicetea.com/tags/sysadmin/</loc>
-    <lastmod>2017-09-05T00:00:00+00:00</lastmod>
+    <lastmod>2017-09-07T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://khanhicetea.com/categories/sysadmin/</loc>
-    <lastmod>2017-09-05T00:00:00+00:00</lastmod>
+    <lastmod>2017-09-07T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0</priority>
   </url>
@@ -1305,21 +1326,21 @@
   
   <url>
     <loc>https://khanhicetea.com/tags/til/</loc>
-    <lastmod>2017-09-05T00:00:00+00:00</lastmod>
+    <lastmod>2017-09-07T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://khanhicetea.com/til/</loc>
-    <lastmod>2017-09-05T00:00:00+00:00</lastmod>
+    <lastmod>2017-09-07T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://khanhicetea.com/categories/today-i-learned/</loc>
-    <lastmod>2017-09-05T00:00:00+00:00</lastmod>
+    <lastmod>2017-09-07T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0</priority>
   </url>

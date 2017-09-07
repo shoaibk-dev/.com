@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Networking on KhanhIceTea B(rain)-log</title>
+    <link>https://khanhicetea.com/categories/networking/</link>
+    <description>Recent content in Networking on KhanhIceTea B(rain)-log</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 07 Sep 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://khanhicetea.com/categories/networking/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>What I learned in 2017-09-07</title>
+      <link>https://khanhicetea.com/til/2017-09-07/</link>
+      <pubDate>Thu, 07 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://khanhicetea.com/til/2017-09-07/</guid>
+      <description>NETWORKING TCP FIN timeout The TCP FIN timeout belays the amount of time a port must be inactive before it can reused for another connection. The default is often 60 seconds, but can normally be safely reduced to 30 or even 15 seconds:
+net.ipv4.tcp_fin_timeout = 15  Ref : https://www.linode.com/docs/web-servers/nginx/configure-nginx-for-optimized-performance
+SYSADMIN Generate dhparam file faster openssl uses strong prime (which is useless for security but requires an awful lot more computational effort.</description>
+    </item>
+    
+  </channel>
+</rss>

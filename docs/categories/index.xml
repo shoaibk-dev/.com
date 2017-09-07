@@ -128,6 +128,15 @@
     </item>
     
     <item>
+      <title>Networking</title>
+      <link>https://khanhicetea.com/categories/networking/</link>
+      <pubDate>Thu, 07 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://khanhicetea.com/categories/networking/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Php</title>
       <link>https://khanhicetea.com/categories/php/</link>
       <pubDate>Sun, 06 Aug 2017 00:00:00 +0000</pubDate>
@@ -175,7 +184,7 @@
     <item>
       <title>Sysadmin</title>
       <link>https://khanhicetea.com/categories/sysadmin/</link>
-      <pubDate>Tue, 05 Sep 2017 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 07 Sep 2017 00:00:00 +0000</pubDate>
       
       <guid>https://khanhicetea.com/categories/sysadmin/</guid>
       <description></description>
@@ -202,7 +211,7 @@
     <item>
       <title>Today I Learned</title>
       <link>https://khanhicetea.com/categories/today-i-learned/</link>
-      <pubDate>Tue, 05 Sep 2017 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 07 Sep 2017 00:00:00 +0000</pubDate>
       
       <guid>https://khanhicetea.com/categories/today-i-learned/</guid>
       <description></description>
