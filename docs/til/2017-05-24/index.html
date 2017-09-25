@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <meta name="generator" content="Hugo 0.26" />
+    <meta name="generator" content="Hugo 0.27.1" />
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
     <link rel="author" href="../../humans.txt" />
@@ -68,9 +68,9 @@
     <meta itemprop="mainEntityOfPage"  itemType="https://schema.org/WebPage" content="https://khanhicetea.com/"/>
     <meta itemprop="dateModified" content="2017-05-24T00:00:00&#43;00:00">
     <meta itemprop="headline" content="What I learned in 2017-05-24">
-    <meta itemprop="description" content="DOCKER Reducing docker image the right way When building an image, Docker engine commit file system layer on every command (RUN, ADD, COPY). So next time you installing packages from package manager likes apt, yum, pacman, &hellip;remember clean their cache in same line.
-BAD WAY
-RUN apt-get update RUN apt-get install git # Something here # End of file RUN apt-get clean &amp;&amp; rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*  RIGHT WAY">
+    <meta itemprop="description" content="DOCKER Changing channel from alpha to stable will remove ALL DATA On MacOS, changing Docker channel will remove all data (includes volumes, images, networks and &hellip; everything).
+Because Docker on Mac using a minimal Linux machine to host docker engine, so changing machine means discarding all old data. So BECAREFUL !
+DOCKER Reducing docker image the right way When building an image, Docker engine commit file system layer on every command (RUN, ADD, COPY).">
     <meta itemprop="url" content="https://khanhicetea.com/til/2017-05-24/">
     <div itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
         <meta itemprop="url" content="https://khanhicetea.com/images/never_stop_learning.jpg" />
@@ -101,6 +101,14 @@ RUN apt-get update RUN apt-get install git # Something here # End of file RUN ap
 
 <h1 id="docker">DOCKER</h1>
 
+<h2 id="changing-channel-from-alpha-to-stable-will-remove-all-data">Changing channel from alpha to stable will remove ALL DATA</h2>
+
+<p>On MacOS, changing Docker channel will remove all data (includes volumes, images, networks and &hellip; everything).</p>
+
+<p>Because Docker on Mac using a minimal Linux machine to host docker engine, so changing machine means discarding all old data. So BECAREFUL !</p>
+
+<h1 id="docker-1">DOCKER</h1>
+
 <h2 id="reducing-docker-image-the-right-way">Reducing docker image the right way</h2>
 
 <p>When building an image, Docker engine commit file system layer on every command (RUN, ADD, COPY). So next time you installing packages from package manager likes apt, yum, pacman, &hellip;remember clean their cache in same line.</p>
@@ -120,14 +128,6 @@ RUN apt-get clean &amp;&amp; rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
 <pre><code>RUN apt-get update &amp;&amp; apt-get install -y git zip unzip &amp;&amp; apt-get clean &amp;&amp; rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 </code></pre>
-
-<h1 id="docker-1">DOCKER</h1>
-
-<h2 id="changing-channel-from-alpha-to-stable-will-remove-all-data">Changing channel from alpha to stable will remove ALL DATA</h2>
-
-<p>On MacOS, changing Docker channel will remove all data (includes volumes, images, networks and &hellip; everything).</p>
-
-<p>Because Docker on Mac using a minimal Linux machine to host docker engine, so changing machine means discarding all old data. So BECAREFUL !</p>
 
     </div>
 
@@ -188,11 +188,11 @@ dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
 <ul>
 <li><a href="#docker">DOCKER</a>
 <ul>
-<li><a href="#reducing-docker-image-the-right-way">Reducing docker image the right way</a></li>
+<li><a href="#changing-channel-from-alpha-to-stable-will-remove-all-data">Changing channel from alpha to stable will remove ALL DATA</a></li>
 </ul></li>
 <li><a href="#docker-1">DOCKER</a>
 <ul>
-<li><a href="#changing-channel-from-alpha-to-stable-will-remove-all-data">Changing channel from alpha to stable will remove ALL DATA</a></li>
+<li><a href="#reducing-docker-image-the-right-way">Reducing docker image the right way</a></li>
 </ul></li>
 </ul>
 </nav></div>
@@ -205,6 +205,18 @@ dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
   <div class="section">
     <header><div class="title">Latest Logs</div></header>
     <div class="content">
+      
+      <div class="sm"><article class="li">
+  <a href="https://khanhicetea.com/til/2017-09-25/" class="clearfix">
+    <div class="image" style="background-image: url(https://khanhicetea.com/images/kit_logo.png);"></div>
+    <div class="detail">
+      <h2 class="title">What I learned in 2017-09-25</h2>
+      <time>Mon, Sep 25, 2017</time>
+      <div class="summary">I learned in 2017-09-25 about sysadmin, networking, zip, firewall, compress, til, tools</div>
+    </div>
+  </a>
+</article>
+</div>
       
       <div class="sm"><article class="li">
   <a href="https://khanhicetea.com/til/2017-09-07/" class="clearfix">
@@ -254,18 +266,6 @@ dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
 </article>
 </div>
       
-      <div class="sm"><article class="li">
-  <a href="https://khanhicetea.com/leby/word-classes/" class="clearfix">
-    <div class="image" style="background-image: url(https://khanhicetea.com/images/kit_logo.png);"></div>
-    <div class="detail">
-      <h2 class="title">#LEBY : Loại từ trong tiếng Anh</h2>
-      <time>Sun, Aug 27, 2017</time>
-      <div class="summary">How words work</div>
-    </div>
-  </a>
-</article>
-</div>
-      
     </div>
   </div>
   
@@ -274,14 +274,14 @@ dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
   <div class="section taxonomies">
     <header><div class="title">Categories</div></header>
     <div class="content">
-      <a href="https://khanhicetea.com/categories/life">life [30]</a><a href="https://khanhicetea.com/categories/today-i-learned">today-i-learned [28]</a><a href="https://khanhicetea.com/categories/sysadmin">sysadmin [13]</a><a href="https://khanhicetea.com/categories/php">php [8]</a><a href="https://khanhicetea.com/categories/mysql">mysql [5]</a><a href="https://khanhicetea.com/categories/english">english [4]</a><a href="https://khanhicetea.com/categories/python">python [4]</a><a href="https://khanhicetea.com/categories/tech">tech [4]</a><a href="https://khanhicetea.com/categories/docker">docker [3]</a><a href="https://khanhicetea.com/categories/system">system [3]</a>
+      <a href="https://khanhicetea.com/categories/life">life [30]</a><a href="https://khanhicetea.com/categories/today-i-learned">today-i-learned [29]</a><a href="https://khanhicetea.com/categories/sysadmin">sysadmin [14]</a><a href="https://khanhicetea.com/categories/php">php [8]</a><a href="https://khanhicetea.com/categories/mysql">mysql [5]</a><a href="https://khanhicetea.com/categories/english">english [4]</a><a href="https://khanhicetea.com/categories/python">python [4]</a><a href="https://khanhicetea.com/categories/tech">tech [4]</a><a href="https://khanhicetea.com/categories/docker">docker [3]</a><a href="https://khanhicetea.com/categories/system">system [3]</a>
     </div>
   </div>
   
   <div class="section taxonomies">
     <header><div class="title">Tags</div></header>
     <div class="content">
-      <a href="https://khanhicetea.com/tags/english">english [33]</a><a href="https://khanhicetea.com/tags/life">life [29]</a><a href="https://khanhicetea.com/tags/til">til [28]</a><a href="https://khanhicetea.com/tags/random">random [21]</a><a href="https://khanhicetea.com/tags/sysadmin">sysadmin [15]</a><a href="https://khanhicetea.com/tags/php">php [11]</a><a href="https://khanhicetea.com/tags/vietnamese">vietnamese [11]</a><a href="https://khanhicetea.com/tags/bash">bash [6]</a><a href="https://khanhicetea.com/tags/mysql">mysql [6]</a><a href="https://khanhicetea.com/tags/devops">devops [5]</a>
+      <a href="https://khanhicetea.com/tags/english">english [33]</a><a href="https://khanhicetea.com/tags/life">life [29]</a><a href="https://khanhicetea.com/tags/til">til [29]</a><a href="https://khanhicetea.com/tags/random">random [21]</a><a href="https://khanhicetea.com/tags/sysadmin">sysadmin [16]</a><a href="https://khanhicetea.com/tags/php">php [11]</a><a href="https://khanhicetea.com/tags/vietnamese">vietnamese [11]</a><a href="https://khanhicetea.com/tags/bash">bash [6]</a><a href="https://khanhicetea.com/tags/mysql">mysql [6]</a><a href="https://khanhicetea.com/tags/devops">devops [5]</a>
     </div>
   </div>
   

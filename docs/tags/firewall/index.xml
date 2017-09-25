@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Firewall on KhanhIceTea B(rain)-log</title>
+    <link>https://khanhicetea.com/tags/firewall/</link>
+    <description>Recent content in Firewall on KhanhIceTea B(rain)-log</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 25 Sep 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://khanhicetea.com/tags/firewall/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>What I learned in 2017-09-25</title>
+      <link>https://khanhicetea.com/til/2017-09-25/</link>
+      <pubDate>Mon, 25 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://khanhicetea.com/til/2017-09-25/</guid>
+      <description>SYSADMIN Blocking specified country to prevent from DDOS Last day I checked system logs and got a lot of warning messages mentioned that my server has been attack via Brute-force. So I decided to blocked some countries from connecting to attacked ports (21, 25). They are China, Russia and US.
+This site provides a list of IP blocks of specified country
+http://www.ipdeny.com/ipblocks/
+TOOLS Zip compressing list of files To specify a list of compressed files when using zip cli tool, you could use -@ [file_list] flag.</description>
+    </item>
+    
+  </channel>
+</rss>
