@@ -6,10 +6,21 @@
     <description>Recent content in Sysadmin on KhanhIceTea B(rain)-log</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 25 Sep 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 26 Sep 2017 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://khanhicetea.com/categories/sysadmin/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>What I learned in 2017-09-26</title>
+      <link>https://khanhicetea.com/til/2017-09-26/</link>
+      <pubDate>Tue, 26 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://khanhicetea.com/til/2017-09-26/</guid>
+      <description>SYSADMIN BASH exiting on first error Setting a flag set -e to bash script will let the script exit on first error occurs, so if you want to ignore a command just adding || true to suffix
+set -e errorCmd $1 || true echo &amp;quot;Run here !&amp;quot;  And opposite of set -e is set +e, haha of course !
+set +e errorCmd $1 echo &amp;quot;Still run here !&amp;quot;  SYSADMIN BASH return a value in function Creating function is a good way to refactor your bash script.</description>
+    </item>
     
     <item>
       <title>What I learned in 2017-09-25</title>
