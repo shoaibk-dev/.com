@@ -6,10 +6,23 @@
     <description>Recent content in Sysadmin on KhanhIceTea B(rain)-log</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 26 Sep 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 27 Sep 2017 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://khanhicetea.com/tags/sysadmin/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>What I learned in 2017-09-27</title>
+      <link>https://khanhicetea.com/til/2017-09-27/</link>
+      <pubDate>Wed, 27 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://khanhicetea.com/til/2017-09-27/</guid>
+      <description>LINUX Send ENTER key to kernel When you try to send an Enter keyboard to linux kernel, it looks like nothing happens.
+This is because you only send a key press (KEY DOWN) but don&amp;rsquo;t send an key release (KEY UP) event after that.
+SYSADMIN BASH tracing commands Thanks Hiro Ishii teach me this
+set -x will print all running commands in your bash script
+So I dove in and look for all set options of BASH.</description>
+    </item>
     
     <item>
       <title>What I learned in 2017-09-26</title>
