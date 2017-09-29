@@ -3,6 +3,13 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://khanhicetea.com/post/smtpor-dead-simple-smtp-testing/</loc>
+    <lastmod>2017-09-29T22:26:54+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <url>
     <loc>https://khanhicetea.com/post/reading-nfc-card-id-on-ubuntu/</loc>
     <lastmod>2017-09-27T17:00:00+07:00</lastmod>
     <changefreq>daily</changefreq>
@@ -787,7 +794,7 @@
   
   <url>
     <loc>https://khanhicetea.com/tags/english/</loc>
-    <lastmod>2017-09-27T17:00:00+07:00</lastmod>
+    <lastmod>2017-09-29T22:26:54+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0</priority>
   </url>
@@ -969,7 +976,7 @@
   
   <url>
     <loc>https://khanhicetea.com/</loc>
-    <lastmod>2017-09-27T17:00:00+07:00</lastmod>
+    <lastmod>2017-09-29T22:26:54+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0</priority>
   </url>
@@ -1018,7 +1025,7 @@
   
   <url>
     <loc>https://khanhicetea.com/categories/linux/</loc>
-    <lastmod>2017-09-27T17:00:00+07:00</lastmod>
+    <lastmod>2017-09-29T22:26:54+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0</priority>
   </url>
@@ -1108,6 +1115,20 @@
   </url>
   
   <url>
+    <loc>https://khanhicetea.com/tags/nodejs/</loc>
+    <lastmod>2017-09-29T22:26:54+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://khanhicetea.com/categories/nodejs/</loc>
+    <lastmod>2017-09-29T22:26:54+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://khanhicetea.com/tags/php/</loc>
     <lastmod>2017-08-06T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
@@ -1144,7 +1165,14 @@
   
   <url>
     <loc>https://khanhicetea.com/post/</loc>
-    <lastmod>2017-09-27T17:00:00+07:00</lastmod>
+    <lastmod>2017-09-29T22:26:54+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://khanhicetea.com/tags/product/</loc>
+    <lastmod>2017-09-29T22:26:54+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0</priority>
   </url>
@@ -1278,6 +1306,13 @@
   <url>
     <loc>https://khanhicetea.com/categories/skill/</loc>
     <lastmod>2016-08-25T00:36:10+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://khanhicetea.com/tags/smtp/</loc>
+    <lastmod>2017-09-29T22:26:54+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0</priority>
   </url>

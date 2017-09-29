@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Nodejs on KhanhIceTea B(rain)-log</title>
+    <link>https://khanhicetea.com/categories/nodejs/</link>
+    <description>Recent content in Nodejs on KhanhIceTea B(rain)-log</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 29 Sep 2017 22:26:54 +0700</lastBuildDate>
+    
+	<atom:link href="https://khanhicetea.com/categories/nodejs/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>SMTPor : Dead simple SMTP testing tool</title>
+      <link>https://khanhicetea.com/post/smtpor-dead-simple-smtp-testing/</link>
+      <pubDate>Fri, 29 Sep 2017 22:26:54 +0700</pubDate>
+      
+      <guid>https://khanhicetea.com/post/smtpor-dead-simple-smtp-testing/</guid>
+      <description>Never need a bigass mail client to test your SMTP config !
+ Github Repo : https://github.com/khanhicetea/smtpor
+Demo TL;DR Using Docker to run
+$ docker run -d -p 3000:3000 khanhicetea/smtpor  Then open http://localhost:3000 to try a shot !
+Install &amp;amp; Start $ npm install $ npm start  Heroku Deploying $ heroku login $ heroku git:remote -a [your-app-name] $ git push heroku master  Contributors  @khanhicetea  License MIT License</description>
+    </item>
+    
+  </channel>
+</rss>
