@@ -32,6 +32,7 @@ Nếu danh từ có độ khó nhớ vì độ da đạng về số lượng th�
 Thì (hoặc thời trong **thời gian**) là một thuật ngữ trong ngữ pháp để chỉ một trạng thái của động từ theo thời gian. Vì thế chỉ cần nhìn vào động từ trong câu và cấu trúc câu là ta biết được câu đang đề cập về thời gian nào.
 
 | Thì | Thời gian đề cập | Ví dụ |
+| ------ | ---------- | --------- |
 | Simple Present | Hiện tại, Quá khứ lặp đi lặp lại cho tới nay | I write blog everyday |
 | Present Continuous | Hiện tại | I'm writing this word |
 | Simple Past | Quá khứ | I writed "Noun" article last month |
