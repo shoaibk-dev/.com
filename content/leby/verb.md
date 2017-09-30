@@ -1,5 +1,5 @@
 ---
-title: "Verb"
+title: "#LEBY : Động từ"
 date: 2017-09-30T19:37:06+07:00
 description: "Verb (noun)"
 categories: ["English"]
