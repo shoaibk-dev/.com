@@ -6,10 +6,21 @@
     <description>Recent content in Networking on KhanhIceTea B(rain)-log</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 07 Sep 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 04 Oct 2017 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://khanhicetea.com/categories/networking/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>What I learned in 2017-10-04</title>
+      <link>https://khanhicetea.com/til/2017-10-04/</link>
+      <pubDate>Wed, 04 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://khanhicetea.com/til/2017-10-04/</guid>
+      <description>NETWORKING How SMTP works When a email send through an SMTP (with authentication), every SMTP server is a hop in mail routing. So it will transfer to localmail or forward the email to next hop (shortest distance via DNS MX record).
+And standard port of SMTP is 25 (unsecured, but can upgrade to TLS via STARTTLS command).
+$ nslookup -type=mx gmail.com 8.8.8.8 Server: 8.8.8.8 Address: 8.8.8.8#53 Non-authoritative answer: gmail.com mail exchanger = 20 alt2.</description>
+    </item>
     
     <item>
       <title>What I learned in 2017-09-07</title>
