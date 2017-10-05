@@ -6,10 +6,24 @@
     <description>Recent content in English on KhanhIceTea B(rain)-log</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 29 Sep 2017 22:26:54 +0700</lastBuildDate>
+    <lastBuildDate>Thu, 05 Oct 2017 15:50:00 +0700</lastBuildDate>
     
 	<atom:link href="https://khanhicetea.com/tags/english/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Learn Webpack Basics in 2 days</title>
+      <link>https://khanhicetea.com/xiny/how-i-learn-webpack-basics-in-2-days/</link>
+      <pubDate>Thu, 05 Oct 2017 15:50:00 +0700</pubDate>
+      
+      <guid>https://khanhicetea.com/xiny/how-i-learn-webpack-basics-in-2-days/</guid>
+      <description>Introduction Learn from https://webpack.js.org/guides/getting-started/
+Clone my repo to follow commit hash by section : https://github.com/khanhicetea/learn-n-earn
+Day 1 ,  webpack.config.js
+const path = require(&#39;path&#39;); module.exports = { entry: &#39;./src/index.js&#39;, output: { filename: &#39;bundle.js&#39;, path: path.resolve(__dirname, &#39;dist&#39;) } };  Bash
+$ ./node_modules/.bin/webpack --config webpack.config.js  Learned
+ entry : start point to dive in dependency graph. output : output after pack the web modules  filename : bundle filename path : dist path   Day 2 Import assets ,   CSS file : use style-loader and css-loader Image file : use file-loader WebFont file : use file-loader Data file use json-loader, xml-loader or csv-loader  module: { rules: [ { test: /\.</description>
+    </item>
     
     <item>
       <title>SMTPor : Dead simple SMTP testing tool</title>

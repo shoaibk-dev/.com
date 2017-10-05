@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="generator" content="Hugo 0.26" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+    <link rel="author" href="../../humans.txt" />
+    <link href="//fonts.googleapis.com/css?family=Patrick+Hand+SC|Fira+Sans:400,400i,700&amp;subset=vietnamese" rel="stylesheet">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.11.0/styles/monokai-sublime.min.css">
+    <link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="../../css/styles.css?v=2">
+    <link rel="stylesheet" href="../../css/custom.css?v=3">
+    <link rel="alternate" type="application/rss+xml" title="RSS" href="https://khanhicetea.com/index.xml">
+
+    <link rel="apple-touch-icon" sizes="57x57" href="../../favicons/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="../../favicons/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="../../favicons/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="../../favicons/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="../../favicons/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="../../favicons/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="../../favicons/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="../../favicons/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="../../favicons/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="../../favicons/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../../favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="../../favicons/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../../favicons/favicon-16x16.png">
+    <link rel="manifest" href="../../favicons/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/favicons/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    
+    <title>Learn Webpack Basics in 2 days - KhanhIceTea B(rain)-log</title>
+    <meta property='og:title' content="Learn Webpack Basics in 2 days - KhanhIceTea B(rain)-log">
+    <meta property="og:type" content="article">
+    
+
+    <meta property="og:url" content="https://khanhicetea.com/xiny/how-i-learn-webpack-basics-in-2-days/">
+    
+        <meta name="description" content="How did I learn webpack basics in 2 days">
+        <meta property="og:description" content="How did I learn webpack basics in 2 days">
+    
+    <meta property="og:image" content="https://khanhicetea.com/images/xiny.jpg">
+
+  </head>
+
+  <body>
+
+    <header class="site">
+        <div class="title">
+          <a href="https://khanhicetea.com/">KhanhIceTea B(rain)-log</a>
+          <p class="lead">Does it matter ? ¯\_(ツ)_/¯</p>
+        </div>
+    </header>
+
+    <div class="container site">
+
+
+<div class="row">
+<div class="col-sm-9">
+
+    <article class="single" itemscope="itemscope" itemtype="http://schema.org/Article">
+
+    <meta itemprop="mainEntityOfPage"  itemType="https://schema.org/WebPage" content="https://khanhicetea.com/"/>
+    <meta itemprop="dateModified" content="2017-10-05T15:50:00&#43;07:00">
+    <meta itemprop="headline" content="Learn Webpack Basics in 2 days">
+    <meta itemprop="description" content="Introduction Learn from https://webpack.js.org/guides/getting-started/
+Clone my repo to follow commit hash by section : https://github.com/khanhicetea/learn-n-earn
+Day 1 ,  webpack.config.js
+const path = require(&#39;path&#39;); module.exports = { entry: &#39;./src/index.js&#39;, output: { filename: &#39;bundle.js&#39;, path: path.resolve(__dirname, &#39;dist&#39;) } };  Bash
+$ ./node_modules/.bin/webpack --config webpack.config.js  Learned
+ entry : start point to dive in dependency graph. output : output after pack the web modules  filename : bundle filename path : dist path   Day 2 Import assets ,   CSS file : use style-loader and css-loader Image file : use file-loader WebFont file : use file-loader Data file use json-loader, xml-loader or csv-loader  module: { rules: [ { test: /\.">
+    <meta itemprop="url" content="https://khanhicetea.com/xiny/how-i-learn-webpack-basics-in-2-days/">
+    <div itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
+        <meta itemprop="url" content="https://khanhicetea.com/images/xiny.jpg" />
+        <meta itemprop="width" content="800">
+        <meta itemprop="height" content="800">
+    </div>
+    <div itemprop="publisher" itemscope itemtype="https://schema.org/Organization">
+        <div itemprop="logo" itemscope itemtype="https://schema.org/ImageObject">
+        <meta itemprop="url" content="https://khanhicetea.com/images/logo.jpg">
+        <meta itemprop="width" content="100">
+        <meta itemprop="height" content="100">
+        </div>
+        <meta itemprop="name" content="KhanhIceTea B(rain)-log">
+    </div>
+    <div itemprop="author" itemscope itemtype="https://schema.org/Person">
+        <meta itemprop="name" content="KhanhIceTea">
+    </div>
+
+    <div class="image" style="background-image: url(https://khanhicetea.com/images/xiny.jpg);"></div>
+
+    <header class="article-header">
+        <time itemprop="datePublished" pubdate="pubdate" datetime="2017-10-05T15:50:00&#43;07:00">Thu, Oct 5, 2017</time>
+        <h1 class="article-title">Learn Webpack Basics in 2 days</h1>
+    </header>
+
+    <div class="article-body" itemprop="articleBody">
+        
+
+<h2 id="introduction">Introduction</h2>
+
+<p>Learn from <a href="https://webpack.js.org/guides/getting-started/">https://webpack.js.org/guides/getting-started/</a></p>
+
+<p>Clone my repo to follow commit hash by section : <a href="https://github.com/khanhicetea/learn-n-earn">https://github.com/khanhicetea/learn-n-earn</a></p>
+
+<h2 id="day-1-51ede10-https-github-com-khanhicetea-learn-n-earn-commit-51ede10678b1d63dc57cea2556cb225c86b27853">Day 1 , <a href="https://github.com/khanhicetea/learn-n-earn/commit/51ede10678b1d63dc57cea2556cb225c86b27853"><51ede10></a></h2>
+
+<p><strong>webpack.config.js</strong></p>
+
+<pre><code class="language-js">const path = require('path');
+
+module.exports = {
+  entry: './src/index.js',
+  output: {
+    filename: 'bundle.js',
+    path: path.resolve(__dirname, 'dist')
+  }
+};
+</code></pre>
+
+<p><strong>Bash</strong></p>
+
+<pre><code class="language-bash">$ ./node_modules/.bin/webpack --config webpack.config.js
+</code></pre>
+
+<p><strong>Learned</strong></p>
+
+<ul>
+<li>entry : start point to dive in dependency graph.</li>
+<li>output : output after pack the web modules
+
+<ul>
+<li>filename : bundle filename</li>
+<li>path : dist path</li>
+</ul></li>
+</ul>
+
+<h2 id="day-2">Day 2</h2>
+
+<h3 id="import-assets-07591ed-https-github-com-khanhicetea-learn-n-earn-commit-07591ed6f8398827e3e1ff22c49b005c262206d8">Import assets , <a href="https://github.com/khanhicetea/learn-n-earn/commit/07591ed6f8398827e3e1ff22c49b005c262206d8"><07591ed></a></h3>
+
+<ul>
+<li><strong>CSS file</strong> : use <code>style-loader</code> and <code>css-loader</code></li>
+<li><strong>Image file</strong> : use <code>file-loader</code></li>
+<li><strong>WebFont file</strong> : use <code>file-loader</code></li>
+<li><strong>Data file</strong> use <code>json-loader</code>, <code>xml-loader</code> or <code>csv-loader</code></li>
+</ul>
+
+<pre><code class="language-js">module: {
+    rules: [
+      {
+        test: /\.css$/,
+        use: [
+          'style-loader',
+          'css-loader'
+        ],
+      },
+      {
+        test: /\.(png|jpe?g|gif|webp)$/,
+        use: [
+          'file-loader'
+        ],
+      },
+      {
+        test: /\.(woff|woff2|eot|ttf|otf)$/,
+        use: [
+          'file-loader'
+        ]
+      }
+    ]
+  }
+</code></pre>
+
+<h3 id="dynamic-output-and-entry-d543b28-https-github-com-khanhicetea-learn-n-earn-commit-d543b28987f6c9563ed0a967116e1b190c5ea949">Dynamic output and entry , <a href="https://github.com/khanhicetea/learn-n-earn/commit/d543b28987f6c9563ed0a967116e1b190c5ea949"><d543b28></a></h3>
+
+<p><code>entry</code> config can be a dictionary where key is entry name and value is entry file path
+<code>output.filename</code> could use <code>[name]</code> in syntax to generate dynamic output filename</p>
+
+<pre><code class="language-js">module.exports = {
+  entry: {
+    app: './src/index.js',
+    print: './src/print.js'
+  },
+  output: {
+    filename: '[name].bundle.js',
+    path: path.resolve(__dirname, 'dist')
+  }
+};
+</code></pre>
+
+<h3 id="htmlwebpackplugin">HtmlWebpackPlugin</h3>
+
+<p><code>HtmlWebpackPlugin</code> by default will generate its own <code>index.html</code> file, even though we already have one in the <code>dist/</code> folder</p>
+
+<pre><code class="language-bash">npm install html-webpack-plugin --save-dev
+</code></pre>
+
+<h3 id="cleaning-dist-folder">Cleaning /dist folder</h3>
+
+<p>To clean up <code>dist</code> folder automatically !</p>
+
+<pre><code class="language-bash">npm install clean-webpack-plugin --save-dev
+</code></pre>
+
+<pre><code class="language-js">const CleanWebpackPlugin = require('clean-webpack-plugin');
+
+...
+plugins: [
+  new HtmlWebpackPlugin(['dist']),
+],
+</code></pre>
+
+<h3 id="development">Development</h3>
+
+<h4 id="source-map-4eea0dc-https-github-com-khanhicetea-learn-n-earn-commit-4eea0dc3e0ffe570c14887cd56a2a5bf6966edc8">Source map , <a href="https://github.com/khanhicetea/learn-n-earn/commit/4eea0dc3e0ffe570c14887cd56a2a5bf6966edc8"><4eea0dc></a></h4>
+
+<p>To enable source map for js and css file, use <code>inline-source-map</code> option in <code>devtool</code> config</p>
+
+<pre><code class="language-js">...
+devtool: 'inline-source-map',
+plugins: [
+  ...
+],
+</code></pre>
+
+<blockquote>
+<p>ONLY USE THIS OPTION FOR DEVELOPMENT MODE</p>
+</blockquote>
+
+<h4 id="development-server-watch-file-changes-a3a2cee-https-github-com-khanhicetea-learn-n-earn-commit-a3a2cee61c63b42babeee68e183b57254f130388">Development server (watch file changes) , <a href="https://github.com/khanhicetea/learn-n-earn/commit/a3a2cee61c63b42babeee68e183b57254f130388"><a3a2cee></a></h4>
+
+<ul>
+<li><strong>watch mode</strong> : add option <code>--watch</code> to <code>webpack</code> cli run command</li>
+<li><strong>webpack-dev-server</strong> : use npm package <code>webpack-dev-server</code> and add <code>devServer: { contentBase: './dist' }</code> to webpack config, when start a dev server use another command instead <code>webpack-dev-server --open</code></li>
+<li><strong>express webpack-dev-middleware</strong> : use <a href="https://www.npmjs.com/package/webpack-dev-middleware">webpack-dev-middleware</a> as Express middleware</li>
+</ul>
+
+<h3 id="ready-for-production-1ddcee3-https-github-com-khanhicetea-learn-n-earn-commit-1ddcee368dee73a09a577f079d8eec2e6153cb61">Ready for production , <a href="https://github.com/khanhicetea/learn-n-earn/commit/1ddcee368dee73a09a577f079d8eec2e6153cb61"><1ddcee3></a></h3>
+
+<h4 id="tree-shaking">Tree shaking</h4>
+
+<p><strong>Tree shaking</strong> is a term commonly used in the JavaScript context for dead-code elimination. It relies on the static structure of <strong>ES2015</strong> module syntax, i.e. <code>import</code> and <code>export</code>.</p>
+
+<pre><code class="language-bash">$ npm install --save-dev uglifyjs-webpack-plugin
+</code></pre>
+
+<pre><code class="language-js">const UglifyJSPlugin = require('uglifyjs-webpack-plugin');
+
+...
+plugins: [
+    ...
+    new UglifyJSPlugin(),
+]
+</code></pre>
+
+<blockquote>
+<p>ONLY USE IN PRODUCTION WEBPACK CONFIG</p>
+</blockquote>
+
+<h3 id="setup-multi-environments-a2d0cc9-https-github-com-khanhicetea-learn-n-earn-commit-a2d0cc98b3e64af02cc735a9d888ed5948e5673f">Setup multi environments , <a href="https://github.com/khanhicetea/learn-n-earn/commit/a2d0cc98b3e64af02cc735a9d888ed5948e5673f"><a2d0cc9></a></h3>
+
+<pre><code class="language-bash">$ npm install --save-dev webpack-merge
+</code></pre>
+
+<p><strong>webpack.common.js</strong></p>
+
+<pre><code class="language-js">const path = require('path');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
+const CleanWebpackPlugin = require('clean-webpack-plugin');
+
+module.exports = {
+  entry: {
+    app: './src/index.js',
+    print: './src/print.js'
+  },
+  plugins: [
+    new HtmlWebpackPlugin(['dist']),
+    new HtmlWebpackPlugin({
+      title: 'Output Management'
+    }),
+  ],
+  output: {
+    filename: '[name].bundle.js',
+    path: path.resolve(__dirname, 'dist')
+  }
+};
+</code></pre>
+
+<p><strong>webpack.dev.js</strong></p>
+
+<pre><code class="language-js">const merge = require('webpack-merge');
+const common = require('./webpack.common.js');
+
+module.exports = merge(common, {
+    devtool: 'inline-source-map',
+    devServer: {
+      contentBase: './dist'
+    }
+});
+</code></pre>
+
+<p><strong>webpack.prod.js</strong></p>
+
+<pre><code class="language-js">const merge = require('webpack-merge');
+const common = require('./webpack.common.js');
+const UglifyJSPlugin = require('uglifyjs-webpack-plugin');
+
+module.exports = merge(common, {
+    plugins: [
+        new UglifyJSPlugin()
+    ]
+});
+</code></pre>
+
+<p><strong>package.json</strong></p>
+
+<pre><code class="language-json">  &quot;scripts&quot;: {
+    &quot;build&quot;: &quot;webpack --config webpack.prod.js&quot;,
+    &quot;dev&quot;: &quot;webpack-dev-server --open --config webpack.dev.js&quot;
+  }
+</code></pre>
+
+<p><strong>Run command</strong></p>
+
+<ul>
+<li><code>npm run dev</code> : running dev server with hot reload</li>
+<li><code>npm run build</code> : build production dist</li>
+</ul>
+
+<h3 id="specify-the-environment">Specify the Environment</h3>
+
+<p>Many libraries will key off the <code>process.env.NODE_ENV</code> variable to determine what should be included in the library. We can use webpack&rsquo;s built in <code>DefinePlugin</code> to define this variable for all our dependencies</p>
+
+<p><strong>webpack.prod.js</strong></p>
+
+<pre><code class="language-js">const webpack = require('webpack');
+const merge = require('webpack-merge');
+const common = require('./webpack.common.js');
+const UglifyJSPlugin = require('uglifyjs-webpack-plugin');
+
+module.exports = merge(common, {
+  plugins: [
+      new UglifyJSPlugin(),
+      new webpack.DefinePlugin({
+        'process.env': {
+          'NODE_ENV': JSON.stringify('production')
+        }
+      })
+  ]
+});
+</code></pre>
+
+    </div>
+
+    <div id="author-info">
+    <img alt="author profile picture" class="avatar avatar-120 photo" src="../../images/profile_pic.jpg">
+    <h5>Khanh Nguyen,</h5>
+    <p>A human, walker, full-stack developer and writer. I love sharing ideas by writing and contributing open source on <a href="https://github.com/khanhicetea" target="_blank">Github</a>. My motto : <i>"Everything is trade-off".</i><br />Subscribe and follow with <a href="https://feeds.feedburner.com/khanhicetea" rel="nofollow" target="_blank">RSS</a> | <a href="https://twitter.com/khanhicetea" rel="nofollow" target="_blank"> Twitter </a></p>
+</div>
+
+    <aside>
+    <div class="section"><a href="https://khanhicetea.com/tags/english" class="label label-info">english</a> <a href="https://khanhicetea.com/tags/js" class="label label-info">js</a> <a href="https://khanhicetea.com/tags/xiny" class="label label-info">xiny</a> </div>
+
+    <nav>
+        <ul class="pager">
+            
+            <li class="previous"><a href="https://khanhicetea.com/til/2017-10-04/"><span aria-hidden="true">&larr;</span> \b</a></li>
+            
+            
+        </ul>
+    </nav>
+
+    <div class="section share">
+    <a href="http://www.facebook.com/sharer.php?src=bm&u=https%3a%2f%2fkhanhicetea.com%2fxiny%2fhow-i-learn-webpack-basics-in-2-days%2f&t=Learn%20Webpack%20Basics%20in%202%20days" onclick="window.open(this.href, 'PCwindow', 'width=550, height=350, menubar=no, toolbar=no, scrollbars=yes'); return false;"><i class="fa fa-facebook"></i></a>
+    <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fkhanhicetea.com%2fxiny%2fhow-i-learn-webpack-basics-in-2-days%2f&text=Learn%20Webpack%20Basics%20in%202%20days&tw_p=tweetbutton" onclick="window.open(this.href, 'PCwindow', 'width=550, height=350, menubar=no, toolbar=no, scrollbars=yes'); return false;"><i class="fa fa-twitter"></i></a>
+    <a href="https://plus.google.com/share?url=https%3a%2f%2fkhanhicetea.com%2fxiny%2fhow-i-learn-webpack-basics-in-2-days%2f" onclick="window.open(this.href, 'PCwindow', 'width=550, height=350, menubar=no, toolbar=no, scrollbars=yes'); return false;"><i class="fa fa-google-plus"></i></a>
+    <a href="http://getpocket.com/edit?url=https%3a%2f%2fkhanhicetea.com%2fxiny%2fhow-i-learn-webpack-basics-in-2-days%2f&title=Learn%20Webpack%20Basics%20in%202%20days" onclick="window.open(this.href, 'PCwindow', 'width=550, height=350, menubar=no, toolbar=no, scrollbars=yes'); return false;"><i class="fa fa-get-pocket"></i></a>
+    </div>
+
+    
+    
+    <div id="disqus_thread"></div>
+    <script type="text/javascript">
+(function() {
+var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+var disqus_shortname = 'khanhicetea';
+dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+})();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    <a href="http://disqus.com/" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+    
+    
+</aside>
+    
+
+    </article>
+</div>
+
+<div class="col-sm-3">
+    <aside class="site">
+
+  
+  <div class="section">
+    <header><div class="title">TableOfContents</div></header>
+    <div class="list-default"><nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li><a href="#introduction">Introduction</a></li>
+<li><a href="#day-1-51ede10-https-github-com-khanhicetea-learn-n-earn-commit-51ede10678b1d63dc57cea2556cb225c86b27853">Day 1 , <a href="https://github.com/khanhicetea/learn-n-earn/commit/51ede10678b1d63dc57cea2556cb225c86b27853"><51ede10></a></a></li>
+<li><a href="#day-2">Day 2</a>
+<ul>
+<li><a href="#import-assets-07591ed-https-github-com-khanhicetea-learn-n-earn-commit-07591ed6f8398827e3e1ff22c49b005c262206d8">Import assets , <a href="https://github.com/khanhicetea/learn-n-earn/commit/07591ed6f8398827e3e1ff22c49b005c262206d8"><07591ed></a></a></li>
+<li><a href="#dynamic-output-and-entry-d543b28-https-github-com-khanhicetea-learn-n-earn-commit-d543b28987f6c9563ed0a967116e1b190c5ea949">Dynamic output and entry , <a href="https://github.com/khanhicetea/learn-n-earn/commit/d543b28987f6c9563ed0a967116e1b190c5ea949"><d543b28></a></a></li>
+<li><a href="#htmlwebpackplugin">HtmlWebpackPlugin</a></li>
+<li><a href="#cleaning-dist-folder">Cleaning /dist folder</a></li>
+<li><a href="#development">Development</a>
+<ul>
+<li><a href="#source-map-4eea0dc-https-github-com-khanhicetea-learn-n-earn-commit-4eea0dc3e0ffe570c14887cd56a2a5bf6966edc8">Source map , <a href="https://github.com/khanhicetea/learn-n-earn/commit/4eea0dc3e0ffe570c14887cd56a2a5bf6966edc8"><4eea0dc></a></a></li>
+<li><a href="#development-server-watch-file-changes-a3a2cee-https-github-com-khanhicetea-learn-n-earn-commit-a3a2cee61c63b42babeee68e183b57254f130388">Development server (watch file changes) , <a href="https://github.com/khanhicetea/learn-n-earn/commit/a3a2cee61c63b42babeee68e183b57254f130388"><a3a2cee></a></a></li>
+</ul></li>
+<li><a href="#ready-for-production-1ddcee3-https-github-com-khanhicetea-learn-n-earn-commit-1ddcee368dee73a09a577f079d8eec2e6153cb61">Ready for production , <a href="https://github.com/khanhicetea/learn-n-earn/commit/1ddcee368dee73a09a577f079d8eec2e6153cb61"><1ddcee3></a></a>
+<ul>
+<li><a href="#tree-shaking">Tree shaking</a></li>
+</ul></li>
+<li><a href="#setup-multi-environments-a2d0cc9-https-github-com-khanhicetea-learn-n-earn-commit-a2d0cc98b3e64af02cc735a9d888ed5948e5673f">Setup multi environments , <a href="https://github.com/khanhicetea/learn-n-earn/commit/a2d0cc98b3e64af02cc735a9d888ed5948e5673f"><a2d0cc9></a></a></li>
+<li><a href="#specify-the-environment">Specify the Environment</a></li>
+</ul></li>
+</ul></li>
+</ul>
+</nav></div>
+  </div>
+  
+
+  
+
+  
+  <div class="section">
+    <header><div class="title">Latest Logs</div></header>
+    <div class="content">
+      
+      <div class="sm"><article class="li">
+  <a href="https://khanhicetea.com/xiny/how-i-learn-webpack-basics-in-2-days/" class="clearfix">
+    <div class="image" style="background-image: url(https://khanhicetea.com/images/xiny.jpg);"></div>
+    <div class="detail">
+      <h2 class="title">Learn Webpack Basics in 2 days</h2>
+      <time>Thu, Oct 5, 2017</time>
+      <div class="summary">How did I learn webpack basics in 2 days</div>
+    </div>
+  </a>
+</article>
+</div>
+      
+      <div class="sm"><article class="li">
+  <a href="https://khanhicetea.com/til/2017-10-04/" class="clearfix">
+    <div class="image" style="background-image: url(https://khanhicetea.com/images/kit_logo.png);"></div>
+    <div class="detail">
+      <h2 class="title">What I learned in 2017-10-04</h2>
+      <time>Wed, Oct 4, 2017</time>
+      <div class="summary">I learned in 2017-10-04 about sysadmin, networking, smtp, til, time, mail, cpu</div>
+    </div>
+  </a>
+</article>
+</div>
+      
+      <div class="sm"><article class="li">
+  <a href="https://khanhicetea.com/leby/verb/" class="clearfix">
+    <div class="image" style="background-image: url(https://khanhicetea.com/images/kit_logo.png);"></div>
+    <div class="detail">
+      <h2 class="title">#LEBY : Động từ</h2>
+      <time>Sat, Sep 30, 2017</time>
+      <div class="summary">Verb (noun)</div>
+    </div>
+  </a>
+</article>
+</div>
+      
+      <div class="sm"><article class="li">
+  <a href="https://khanhicetea.com/post/smtpor-dead-simple-smtp-testing/" class="clearfix">
+    <div class="image" style="background-image: url(https://khanhicetea.com/images/2017/09/mail-send.png);"></div>
+    <div class="detail">
+      <h2 class="title">SMTPor : Dead simple SMTP testing tool</h2>
+      <time>Fri, Sep 29, 2017</time>
+      <div class="summary">Never need a bigass mail client to test your SMTP config</div>
+    </div>
+  </a>
+</article>
+</div>
+      
+      <div class="sm"><article class="li">
+  <a href="https://khanhicetea.com/post/reading-nfc-card-id-on-ubuntu/" class="clearfix">
+    <div class="image" style="background-image: url(https://khanhicetea.com/images/2017/09/NFC-technology-business-cards.jpg);"></div>
+    <div class="detail">
+      <h2 class="title">Reading NFC Card ID on Ubuntu</h2>
+      <time>Wed, Sep 27, 2017</time>
+      <div class="summary">You just bought a new NFC card reader with USB port. And you want expose only its data to file or send to server for processing ?</div>
+    </div>
+  </a>
+</article>
+</div>
+      
+    </div>
+  </div>
+  
+
+  
+  <div class="section taxonomies">
+    <header><div class="title">Categories</div></header>
+    <div class="content">
+      <a href="https://khanhicetea.com/categories/today-i-learned">today-i-learned [32]</a><a href="https://khanhicetea.com/categories/life">life [30]</a><a href="https://khanhicetea.com/categories/sysadmin">sysadmin [17]</a><a href="https://khanhicetea.com/categories/php">php [8]</a><a href="https://khanhicetea.com/categories/english">english [6]</a><a href="https://khanhicetea.com/categories/linux">linux [5]</a><a href="https://khanhicetea.com/categories/mysql">mysql [5]</a><a href="https://khanhicetea.com/categories/python">python [5]</a><a href="https://khanhicetea.com/categories/tech">tech [4]</a><a href="https://khanhicetea.com/categories/docker">docker [3]</a>
+    </div>
+  </div>
+  
+  <div class="section taxonomies">
+    <header><div class="title">Tags</div></header>
+    <div class="content">
+      <a href="https://khanhicetea.com/tags/english">english [36]</a><a href="https://khanhicetea.com/tags/til">til [32]</a><a href="https://khanhicetea.com/tags/life">life [29]</a><a href="https://khanhicetea.com/tags/random">random [21]</a><a href="https://khanhicetea.com/tags/sysadmin">sysadmin [19]</a><a href="https://khanhicetea.com/tags/vietnamese">vietnamese [12]</a><a href="https://khanhicetea.com/tags/php">php [11]</a><a href="https://khanhicetea.com/tags/bash">bash [8]</a><a href="https://khanhicetea.com/tags/linux">linux [6]</a><a href="https://khanhicetea.com/tags/mysql">mysql [6]</a>
+    </div>
+  </div>
+  
+
+  <div class="section taxonomies">
+    <header><div class="title">whoami</div></header>
+    <div class="content">
+      <a href="../../humans.txt"><i class="fa fa-user-circle-o"></i> I am a human ! I make misstakes. Oops..I made it</a>
+      
+      <a href="https://github.com/khanhicetea"><i class="fa fa-github"></i> Github</a>
+      
+      <a href="https://libraries.io/github/khanhicetea"><i class="fa fa-th-list"></i> Libraries.io</a>
+      
+      <a href="https://vn.linkedin.com/in/khanhicetea"><i class="fa fa-linkedin-square"></i> LinkedIn</a>
+      
+    </div>
+  </div>
+
+  
+
+</aside>
+
+</div>
+
+</div>
+
+    </div>
+
+    <footer class="site">
+      <p><strong>- In God We Trust -</strong></p>
+      <p>&copy; 2017 KhanhIceTea B(rain)-log</p>
+      <p>Licensed under <a href="http://creativecommons.org/licenses/by-nc-nd/3.0/" target="_blank">CC BY-NC-ND 3.0</a></p>
+      <p>Powered by <a href="http://gohugo.io" target="_blank">Hugo</a> and <a href="https://github.com/khanhicetea/.com" target="_blank">GitHub Pages</a></p>
+      <p>Theme <a href="https://github.com/dim0627/hugo_theme_robust" target="_blank">Robust</a> designed by <a href="http://yet.unresolved.xyz" target="_blank">Daisuke Tsuji</a>, background texture <a href="http://www.freepik.com/free-vector/unevenly-painted-wall-texture_769342.htm">designed by Freepik</a>, the little prince art by <a href="http://princekido.deviantart.com/art/The-Little-Prince-and-the-Fox-in-the-Light-603126189">princekido</a></p>
+    </footer>
+
+    <script src="//code.jquery.com/jquery-2.1.3.min.js"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.10.0/highlight.min.js"></script>
+    <script>
+      $(document).ready(function() {
+        $('.article-body pre code').each(function(i, block) {
+          hljs.highlightBlock(block);
+        });
+        $(".article-body p").has("img").css('text-align', "center");
+        $(".article-body a").attr('target','_blank');
+        $(".article-body table").addClass('table').addClass('table-bordered');
+      });
+    </script>
+
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-50390703-1', 'auto');
+
+      jQuery.getJSON("https://api.ipify.org?format=json", function(data) {
+        ga('set', 'dimension1', data.ip);
+        ga('send', 'pageview');
+        setInterval(function() {
+            ga('send', 'pageview');
+        }, 60000);
+      });
+
+    </script>
+
+  </body>
+</html>
+
