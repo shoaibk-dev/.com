@@ -6,9 +6,19 @@
     <description>Recent content in Categories on KhanhIceTea B(rain)-log</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate>Thu, 05 Oct 2017 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://khanhicetea.com/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Bash</title>
+      <link>https://khanhicetea.com/categories/bash/</link>
+      <pubDate>Thu, 05 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://khanhicetea.com/categories/bash/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Chrome Dev</title>
@@ -193,7 +203,7 @@
     <item>
       <title>Sysadmin</title>
       <link>https://khanhicetea.com/categories/sysadmin/</link>
-      <pubDate>Wed, 04 Oct 2017 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 07 Oct 2017 00:00:00 +0000</pubDate>
       
       <guid>https://khanhicetea.com/categories/sysadmin/</guid>
       <description></description>
@@ -220,7 +230,7 @@
     <item>
       <title>Today I Learned</title>
       <link>https://khanhicetea.com/categories/today-i-learned/</link>
-      <pubDate>Wed, 04 Oct 2017 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 07 Oct 2017 00:00:00 +0000</pubDate>
       
       <guid>https://khanhicetea.com/categories/today-i-learned/</guid>
       <description></description>
