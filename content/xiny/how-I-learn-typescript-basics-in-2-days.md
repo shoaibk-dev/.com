@@ -27,7 +27,7 @@ Use **VisualStudioCode**
 
 View [**day2.ts**](https://github.com/khanhicetea/learn-n-earn/blob/master/typescript/day2.ts) file
 
-```ts
+```typescript
 // Data types in TypeScript
 let a: boolean = false;
 let b: number = 42;
