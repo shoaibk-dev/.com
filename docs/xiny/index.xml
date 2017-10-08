@@ -6,10 +6,21 @@
     <description>Recent content in Xinies on KhanhIceTea B(rain)-log</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 05 Oct 2017 15:50:00 +0700</lastBuildDate>
+    <lastBuildDate>Sun, 08 Oct 2017 23:30:00 +0700</lastBuildDate>
     
 	<atom:link href="https://khanhicetea.com/xiny/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Learn TypeScript Basics in 2 days</title>
+      <link>https://khanhicetea.com/xiny/how-i-learn-typescript-basics-in-2-days/</link>
+      <pubDate>Sun, 08 Oct 2017 23:30:00 +0700</pubDate>
+      
+      <guid>https://khanhicetea.com/xiny/how-i-learn-typescript-basics-in-2-days/</guid>
+      <description>Install TypeScript and TSLint $ npm install -g typescript tslint  Compile ts files on changes $ tsc -w  Recommended editor Use VisualStudioCode
+Basics View day2.ts file
+// Data types in TypeScript let a: boolean = false; let b: number = 42; let c: string = &amp;quot;Helo&amp;quot;; let d: any = &amp;quot;this is anything but not `never`&amp;quot; let e: never; // Can not assign to never type // Function Interface let f: Function = function f() {}; // Ommit data type (TypeScript auto detect it if it can) let g = &amp;quot;YOLO, Who needs type ?</description>
+    </item>
     
     <item>
       <title>Learn Webpack Basics in 2 days</title>
