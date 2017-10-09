@@ -102,8 +102,16 @@ let cubicEasing: EasingFunction;
 cubicEasing = function(currentTime: number, startValue: number, endValue: number, duration: number): number {
     const t = currentTime / duration;
     const distance = endValue - startValue;
-  return distance*t*t*t + startValue;
+	return distance*t*t*t + startValue;
 }
+
+// Short interface for function
+let f5: (x: number) => void = (x: number) => { console.log(x) }
+f5(123);
+let f6 = (x: number) => { console.log(x) }
+f6(456);
+let f7 = () => { console.log('Inferred interface') }
+f7();
 
 // Classes
 class Point {
