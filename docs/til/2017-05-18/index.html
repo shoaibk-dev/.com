@@ -41,8 +41,8 @@
 
     <meta property="og:url" content="https://khanhicetea.com/til/2017-05-18/">
     
-        <meta name="description" content="I learned in 2017-05-18 about web, sysadmin, error, til, linux, cloudflare">
-        <meta property="og:description" content="I learned in 2017-05-18 about web, sysadmin, error, til, linux, cloudflare">
+        <meta name="description" content="I learned in 2017-05-18 about sysadmin, web, linux, til, error, cloudflare">
+        <meta property="og:description" content="I learned in 2017-05-18 about sysadmin, web, linux, til, error, cloudflare">
     
     
 
@@ -68,9 +68,9 @@
     <meta itemprop="mainEntityOfPage"  itemType="https://schema.org/WebPage" content="https://khanhicetea.com/"/>
     <meta itemprop="dateModified" content="2017-05-18T00:00:00&#43;00:00">
     <meta itemprop="headline" content="What I learned in 2017-05-18">
-    <meta itemprop="description" content="WEB Cloudflare Error 522 Connection Time out If you are using Cloudflare as a proxied web server, it will provide many benefits about performance (assets caching, prevent DDOS and cheap CDN). But sometimes, you will face to this error &ldquo;522 Connection Time out&rdquo;.
-The problems caused by :
- Networking (CF can&rsquo;t touch origin server : Firewall blocking, Network Layer #1,#2,#3 issue) Timeout (origin server process too long than 90 seconds) Empty or invalid response from origin server No or big HTTP headers (&gt; 8Kb) Failed TCP handshake  Ref:">
+    <meta itemprop="description" content="SYSADMIN Grant user to use sudo without password This is bad practice but it&rsquo;s kind of hacky thing if you YOLO
+# Create a user with home dir and bash shell (if you don&#39;t have yet) $ useradd -m YOURUSERNAME -s /bin/bash $ sudo vi /etc/sudoers  Add this line below root ALL=(ALL:ALL) ALL (User privilege specification section)
+$ YOUR_USERNAME ALL=(ALL:ALL) NOPASSWD:ALL  Then press :wq! to force saving the file">
     <meta itemprop="url" content="https://khanhicetea.com/til/2017-05-18/">
     <div itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
         <meta itemprop="url" content="https://khanhicetea.com/images/never_stop_learning.jpg" />
@@ -99,6 +99,28 @@ The problems caused by :
     <div class="article-body" itemprop="articleBody">
         
 
+<h1 id="sysadmin">SYSADMIN</h1>
+
+<h2 id="grant-user-to-use-sudo-without-password">Grant user to use sudo without password</h2>
+
+<p>This is bad practice but it&rsquo;s kind of hacky thing if you YOLO</p>
+
+<pre><code class="language-bash"># Create a user with home dir and bash shell (if you don't have yet)
+$ useradd -m YOURUSERNAME -s /bin/bash
+$ sudo vi /etc/sudoers
+</code></pre>
+
+<p>Add this line below <code>root    ALL=(ALL:ALL) ALL</code> (<strong>User privilege specification</strong> section)</p>
+
+<pre><code class="language-bash">$ YOUR_USERNAME     ALL=(ALL:ALL) NOPASSWD:ALL
+</code></pre>
+
+<p>Then press <code>:wq!</code> to force saving the file</p>
+
+<p><img src="https://imgs.xkcd.com/comics/sandwich.png" alt="make me a sandwich sudo" /></p>
+
+<p>Enjoy sudo !</p>
+
 <h1 id="web">WEB</h1>
 
 <h2 id="cloudflare-error-522-connection-time-out">Cloudflare Error 522 Connection Time out</h2>
@@ -122,28 +144,6 @@ The problems caused by :
 <li><a href="https://support.cloudflare.com/hc/en-us/articles/200171936-Error-520-Web-server-is-returning-an-unknown-error">https://support.cloudflare.com/hc/en-us/articles/200171936-Error-520-Web-server-is-returning-an-unknown-error</a></li>
 </ul>
 
-<h1 id="sysadmin">SYSADMIN</h1>
-
-<h2 id="grant-user-to-use-sudo-without-password">Grant user to use sudo without password</h2>
-
-<p>This is bad practice but it&rsquo;s kind of hacky thing if you YOLO</p>
-
-<pre><code class="language-bash"># Create a user with home dir and bash shell (if you don't have yet)
-$ useradd -m YOURUSERNAME -s /bin/bash
-$ sudo vi /etc/sudoers
-</code></pre>
-
-<p>Add this line below <code>root    ALL=(ALL:ALL) ALL</code> (<strong>User privilege specification</strong> section)</p>
-
-<pre><code class="language-bash">$ YOUR_USERNAME     ALL=(ALL:ALL) NOPASSWD:ALL
-</code></pre>
-
-<p>Then press <code>:wq!</code> to force saving the file</p>
-
-<p><img src="https://imgs.xkcd.com/comics/sandwich.png" alt="make me a sandwich sudo" /></p>
-
-<p>Enjoy sudo !</p>
-
     </div>
 
     <div id="author-info">
@@ -153,7 +153,7 @@ $ sudo vi /etc/sudoers
 </div>
 
     <aside>
-    <div class="section"><a href="https://khanhicetea.com/tags/web" class="label label-info">web</a> <a href="https://khanhicetea.com/tags/sysadmin" class="label label-info">sysadmin</a> <a href="https://khanhicetea.com/tags/error" class="label label-info">error</a> <a href="https://khanhicetea.com/tags/til" class="label label-info">til</a> <a href="https://khanhicetea.com/tags/linux" class="label label-info">linux</a> <a href="https://khanhicetea.com/tags/cloudflare" class="label label-info">cloudflare</a> </div>
+    <div class="section"><a href="https://khanhicetea.com/tags/sysadmin" class="label label-info">sysadmin</a> <a href="https://khanhicetea.com/tags/web" class="label label-info">web</a> <a href="https://khanhicetea.com/tags/linux" class="label label-info">linux</a> <a href="https://khanhicetea.com/tags/til" class="label label-info">til</a> <a href="https://khanhicetea.com/tags/error" class="label label-info">error</a> <a href="https://khanhicetea.com/tags/cloudflare" class="label label-info">cloudflare</a> </div>
 
     <nav>
         <ul class="pager">
@@ -201,13 +201,13 @@ dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
     <header><div class="title">TableOfContents</div></header>
     <div class="list-default"><nav id="TableOfContents">
 <ul>
-<li><a href="#web">WEB</a>
-<ul>
-<li><a href="#cloudflare-error-522-connection-time-out">Cloudflare Error 522 Connection Time out</a></li>
-</ul></li>
 <li><a href="#sysadmin">SYSADMIN</a>
 <ul>
 <li><a href="#grant-user-to-use-sudo-without-password">Grant user to use sudo without password</a></li>
+</ul></li>
+<li><a href="#web">WEB</a>
+<ul>
+<li><a href="#cloudflare-error-522-connection-time-out">Cloudflare Error 522 Connection Time out</a></li>
 </ul></li>
 </ul>
 </nav></div>

@@ -68,10 +68,10 @@
     <meta itemprop="mainEntityOfPage"  itemType="https://schema.org/WebPage" content="https://khanhicetea.com/"/>
     <meta itemprop="dateModified" content="2017-08-06T00:00:00&#43;00:00">
     <meta itemprop="headline" content="What I learned in 2017-08-06">
-    <meta itemprop="description" content="PHP realpath function If you pass a non-exists path to function realpath, it returns empty string. So please don&rsquo;t do something like :
-function storage_path($folder) { return realpath(__DIR__.&#39;/storage/&#39;.$folder); }  if you expect it return full path of new folder !
-JAVA Runing old java applets on brower Mostly morden browser has stop support Java plugins, so you can&rsquo;t run Java applet on browser.
-Temporary way : - run in IE or Safari - run in an old Firefox (version 23)">
+    <meta itemprop="description" content="JAVA Runing old java applets on brower Mostly morden browser has stop support Java plugins, so you can&rsquo;t run Java applet on browser.
+Temporary way : - run in IE or Safari - run in an old Firefox (version 23)
+And what if old java applet can&rsquo;t be runned on Java 8 because of weak signature algorithm. Try this
+ Open java.security file :  In MacOS, located in /Library/Java/JavaVirtualMachines/jdk[jdk-version].">
     <meta itemprop="url" content="https://khanhicetea.com/til/2017-08-06/">
     <div itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
         <meta itemprop="url" content="https://khanhicetea.com/images/never_stop_learning.jpg" />
@@ -100,19 +100,6 @@ Temporary way : - run in IE or Safari - run in an old Firefox (version 23)">
     <div class="article-body" itemprop="articleBody">
         
 
-<h1 id="php">PHP</h1>
-
-<h2 id="realpath-function">realpath function</h2>
-
-<p>If you pass a non-exists path to function <code>realpath</code>, it returns empty string. So please don&rsquo;t do something like :</p>
-
-<pre><code class="language-php">function storage_path($folder) {
-	return realpath(__DIR__.'/storage/'.$folder);
-}
-</code></pre>
-
-<p>if you expect it return full path of new folder !</p>
-
 <h1 id="java">JAVA</h1>
 
 <h2 id="runing-old-java-applets-on-brower">Runing old java applets on brower</h2>
@@ -135,6 +122,19 @@ Temporary way : - run in IE or Safari - run in an old Firefox (version 23)">
 <li>Comment this line, <code>jdk.certpath.disabledAlgorithms=MD2, MD5, RSA keySize &lt; 1024</code></li>
 <li>Rerun applet</li>
 </ul>
+
+<h1 id="php">PHP</h1>
+
+<h2 id="realpath-function">realpath function</h2>
+
+<p>If you pass a non-exists path to function <code>realpath</code>, it returns empty string. So please don&rsquo;t do something like :</p>
+
+<pre><code class="language-php">function storage_path($folder) {
+	return realpath(__DIR__.'/storage/'.$folder);
+}
+</code></pre>
+
+<p>if you expect it return full path of new folder !</p>
 
 <h1 id="sysadmin">SYSADMIN</h1>
 
@@ -224,13 +224,13 @@ dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
     <header><div class="title">TableOfContents</div></header>
     <div class="list-default"><nav id="TableOfContents">
 <ul>
-<li><a href="#php">PHP</a>
-<ul>
-<li><a href="#realpath-function">realpath function</a></li>
-</ul></li>
 <li><a href="#java">JAVA</a>
 <ul>
 <li><a href="#runing-old-java-applets-on-brower">Runing old java applets on brower</a></li>
+</ul></li>
+<li><a href="#php">PHP</a>
+<ul>
+<li><a href="#realpath-function">realpath function</a></li>
 </ul></li>
 <li><a href="#sysadmin">SYSADMIN</a>
 <ul>

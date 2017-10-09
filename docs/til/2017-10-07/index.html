@@ -73,7 +73,7 @@ Examples :
 Scan ports
 $ nc -zv 127.0.0.1 20-80  Check redis status
 $ echo &#39;info&#39; | nc 127.0.0.1 6379  Retrieve http response
-$ printf &quot;GET /xinchao HTTP/1.1\r\n\r\n&quot; | nc 127.0.0.1 8000 | cat xinchao.">
+$ printf &quot;GET /xinchao HTTP/1.1\r\n\r\n&quot; | nc 127.0.0.1 8000 | tee xinchao.">
     <meta itemprop="url" content="https://khanhicetea.com/til/2017-10-07/">
     <div itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
         <meta itemprop="url" content="https://khanhicetea.com/images/never_stop_learning.jpg" />
@@ -122,7 +122,7 @@ $ printf &quot;GET /xinchao HTTP/1.1\r\n\r\n&quot; | nc 127.0.0.1 8000 | cat xin
 
 <p>Retrieve http response</p>
 
-<pre><code class="language-bash">$ printf &quot;GET /xinchao HTTP/1.1\r\n\r\n&quot; | nc 127.0.0.1 8000 | cat xinchao.txt
+<pre><code class="language-bash">$ printf &quot;GET /xinchao HTTP/1.1\r\n\r\n&quot; | nc 127.0.0.1 8000 | tee xinchao.txt
 </code></pre>
 
 <p>Change to IPv6 : <code>nc -6</code></p>

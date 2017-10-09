@@ -22,7 +22,7 @@ Examples :
 Scan ports
 $ nc -zv 127.0.0.1 20-80  Check redis status
 $ echo &#39;info&#39; | nc 127.0.0.1 6379  Retrieve http response
-$ printf &amp;quot;GET /xinchao HTTP/1.1\r\n\r\n&amp;quot; | nc 127.0.0.1 8000 | cat xinchao.</description>
+$ printf &amp;quot;GET /xinchao HTTP/1.1\r\n\r\n&amp;quot; | nc 127.0.0.1 8000 | tee xinchao.</description>
     </item>
     
     <item>

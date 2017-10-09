@@ -68,9 +68,9 @@
     <meta itemprop="mainEntityOfPage"  itemType="https://schema.org/WebPage" content="https://khanhicetea.com/"/>
     <meta itemprop="dateModified" content="2017-05-24T00:00:00&#43;00:00">
     <meta itemprop="headline" content="What I learned in 2017-05-24">
-    <meta itemprop="description" content="DOCKER Reducing docker image the right way When building an image, Docker engine commit file system layer on every command (RUN, ADD, COPY). So next time you installing packages from package manager likes apt, yum, pacman, &hellip;remember clean their cache in same line.
-BAD WAY
-RUN apt-get update RUN apt-get install git # Something here # End of file RUN apt-get clean &amp;&amp; rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*  RIGHT WAY">
+    <meta itemprop="description" content="DOCKER Changing channel from alpha to stable will remove ALL DATA On MacOS, changing Docker channel will remove all data (includes volumes, images, networks and &hellip; everything).
+Because Docker on Mac using a minimal Linux machine to host docker engine, so changing machine means discarding all old data. So BECAREFUL !
+DOCKER Reducing docker image the right way When building an image, Docker engine commit file system layer on every command (RUN, ADD, COPY).">
     <meta itemprop="url" content="https://khanhicetea.com/til/2017-05-24/">
     <div itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
         <meta itemprop="url" content="https://khanhicetea.com/images/never_stop_learning.jpg" />
@@ -101,6 +101,14 @@ RUN apt-get update RUN apt-get install git # Something here # End of file RUN ap
 
 <h1 id="docker">DOCKER</h1>
 
+<h2 id="changing-channel-from-alpha-to-stable-will-remove-all-data">Changing channel from alpha to stable will remove ALL DATA</h2>
+
+<p>On MacOS, changing Docker channel will remove all data (includes volumes, images, networks and &hellip; everything).</p>
+
+<p>Because Docker on Mac using a minimal Linux machine to host docker engine, so changing machine means discarding all old data. So BECAREFUL !</p>
+
+<h1 id="docker-1">DOCKER</h1>
+
 <h2 id="reducing-docker-image-the-right-way">Reducing docker image the right way</h2>
 
 <p>When building an image, Docker engine commit file system layer on every command (RUN, ADD, COPY). So next time you installing packages from package manager likes apt, yum, pacman, &hellip;remember clean their cache in same line.</p>
@@ -120,14 +128,6 @@ RUN apt-get clean &amp;&amp; rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
 <pre><code>RUN apt-get update &amp;&amp; apt-get install -y git zip unzip &amp;&amp; apt-get clean &amp;&amp; rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 </code></pre>
-
-<h1 id="docker-1">DOCKER</h1>
-
-<h2 id="changing-channel-from-alpha-to-stable-will-remove-all-data">Changing channel from alpha to stable will remove ALL DATA</h2>
-
-<p>On MacOS, changing Docker channel will remove all data (includes volumes, images, networks and &hellip; everything).</p>
-
-<p>Because Docker on Mac using a minimal Linux machine to host docker engine, so changing machine means discarding all old data. So BECAREFUL !</p>
 
     </div>
 
@@ -188,11 +188,11 @@ dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
 <ul>
 <li><a href="#docker">DOCKER</a>
 <ul>
-<li><a href="#reducing-docker-image-the-right-way">Reducing docker image the right way</a></li>
+<li><a href="#changing-channel-from-alpha-to-stable-will-remove-all-data">Changing channel from alpha to stable will remove ALL DATA</a></li>
 </ul></li>
 <li><a href="#docker-1">DOCKER</a>
 <ul>
-<li><a href="#changing-channel-from-alpha-to-stable-will-remove-all-data">Changing channel from alpha to stable will remove ALL DATA</a></li>
+<li><a href="#reducing-docker-image-the-right-way">Reducing docker image the right way</a></li>
 </ul></li>
 </ul>
 </nav></div>
