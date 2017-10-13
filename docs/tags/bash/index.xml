@@ -40,9 +40,9 @@ So I dove in and look for all set options of BASH.</description>
       <pubDate>Tue, 26 Sep 2017 00:00:00 +0000</pubDate>
       
       <guid>https://khanhicetea.com/til/2017-09-26/</guid>
-      <description>SYSADMIN BASH exiting on first error Setting a flag set -e to bash script will let the script exit on first error occurs, so if you want to ignore a command just adding || true to suffix
-set -e errorCmd $1 || true echo &amp;quot;Run here !&amp;quot;  And opposite of set -e is set +e, haha of course !
-set +e errorCmd $1 echo &amp;quot;Still run here !&amp;quot;  SYSADMIN BASH return a value in function Creating function is a good way to refactor your bash script.</description>
+      <description>SYSADMIN BASH return a value in function Creating function is a good way to refactor your bash script. But BASH doesn&amp;rsquo;t support returning a value in true way, so it makes a bit of challenge to handle that.
+You can use this trick
+hello() { echo &amp;quot;Hello $1&amp;quot; } hw=$(hello &amp;quot;KhanhIceTea&amp;quot;) echo $hw  But what if you want to echo log message in hello function, it will be merged to returned value.</description>
     </item>
     
     <item>

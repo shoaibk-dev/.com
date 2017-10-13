@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <meta name="generator" content="Hugo 0.27.1" />
+    <meta name="generator" content="Hugo 0.26" />
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
     <link rel="author" href="../../humans.txt" />
@@ -41,8 +41,8 @@
 
     <meta property="og:url" content="https://khanhicetea.com/til/2017-05-18/">
     
-        <meta name="description" content="I learned in 2017-05-18 about sysadmin, web, linux, til, error, cloudflare">
-        <meta property="og:description" content="I learned in 2017-05-18 about sysadmin, web, linux, til, error, cloudflare">
+        <meta name="description" content="I learned in 2017-05-18 about web, sysadmin, error, til, linux, cloudflare">
+        <meta property="og:description" content="I learned in 2017-05-18 about web, sysadmin, error, til, linux, cloudflare">
     
     
 
@@ -68,9 +68,9 @@
     <meta itemprop="mainEntityOfPage"  itemType="https://schema.org/WebPage" content="https://khanhicetea.com/"/>
     <meta itemprop="dateModified" content="2017-05-18T00:00:00&#43;00:00">
     <meta itemprop="headline" content="What I learned in 2017-05-18">
-    <meta itemprop="description" content="SYSADMIN Grant user to use sudo without password This is bad practice but it&rsquo;s kind of hacky thing if you YOLO
-# Create a user with home dir and bash shell (if you don&#39;t have yet) $ useradd -m YOURUSERNAME -s /bin/bash $ sudo vi /etc/sudoers  Add this line below root ALL=(ALL:ALL) ALL (User privilege specification section)
-$ YOUR_USERNAME ALL=(ALL:ALL) NOPASSWD:ALL  Then press :wq! to force saving the file">
+    <meta itemprop="description" content="WEB Cloudflare Error 522 Connection Time out If you are using Cloudflare as a proxied web server, it will provide many benefits about performance (assets caching, prevent DDOS and cheap CDN). But sometimes, you will face to this error &ldquo;522 Connection Time out&rdquo;.
+The problems caused by :
+ Networking (CF can&rsquo;t touch origin server : Firewall blocking, Network Layer #1,#2,#3 issue) Timeout (origin server process too long than 90 seconds) Empty or invalid response from origin server No or big HTTP headers (&gt; 8Kb) Failed TCP handshake  Ref:">
     <meta itemprop="url" content="https://khanhicetea.com/til/2017-05-18/">
     <div itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
         <meta itemprop="url" content="https://khanhicetea.com/images/never_stop_learning.jpg" />
@@ -99,28 +99,6 @@ $ YOUR_USERNAME ALL=(ALL:ALL) NOPASSWD:ALL  Then press :wq! to force saving the 
     <div class="article-body" itemprop="articleBody">
         
 
-<h1 id="sysadmin">SYSADMIN</h1>
-
-<h2 id="grant-user-to-use-sudo-without-password">Grant user to use sudo without password</h2>
-
-<p>This is bad practice but it&rsquo;s kind of hacky thing if you YOLO</p>
-
-<pre><code class="language-bash"># Create a user with home dir and bash shell (if you don't have yet)
-$ useradd -m YOURUSERNAME -s /bin/bash
-$ sudo vi /etc/sudoers
-</code></pre>
-
-<p>Add this line below <code>root    ALL=(ALL:ALL) ALL</code> (<strong>User privilege specification</strong> section)</p>
-
-<pre><code class="language-bash">$ YOUR_USERNAME     ALL=(ALL:ALL) NOPASSWD:ALL
-</code></pre>
-
-<p>Then press <code>:wq!</code> to force saving the file</p>
-
-<p><img src="https://imgs.xkcd.com/comics/sandwich.png" alt="make me a sandwich sudo" /></p>
-
-<p>Enjoy sudo !</p>
-
 <h1 id="web">WEB</h1>
 
 <h2 id="cloudflare-error-522-connection-time-out">Cloudflare Error 522 Connection Time out</h2>
@@ -144,6 +122,28 @@ $ sudo vi /etc/sudoers
 <li><a href="https://support.cloudflare.com/hc/en-us/articles/200171936-Error-520-Web-server-is-returning-an-unknown-error">https://support.cloudflare.com/hc/en-us/articles/200171936-Error-520-Web-server-is-returning-an-unknown-error</a></li>
 </ul>
 
+<h1 id="sysadmin">SYSADMIN</h1>
+
+<h2 id="grant-user-to-use-sudo-without-password">Grant user to use sudo without password</h2>
+
+<p>This is bad practice but it&rsquo;s kind of hacky thing if you YOLO</p>
+
+<pre><code class="language-bash"># Create a user with home dir and bash shell (if you don't have yet)
+$ useradd -m YOURUSERNAME -s /bin/bash
+$ sudo vi /etc/sudoers
+</code></pre>
+
+<p>Add this line below <code>root    ALL=(ALL:ALL) ALL</code> (<strong>User privilege specification</strong> section)</p>
+
+<pre><code class="language-bash">$ YOUR_USERNAME     ALL=(ALL:ALL) NOPASSWD:ALL
+</code></pre>
+
+<p>Then press <code>:wq!</code> to force saving the file</p>
+
+<p><img src="https://imgs.xkcd.com/comics/sandwich.png" alt="make me a sandwich sudo" /></p>
+
+<p>Enjoy sudo !</p>
+
     </div>
 
     <div id="author-info">
@@ -153,7 +153,7 @@ $ sudo vi /etc/sudoers
 </div>
 
     <aside>
-    <div class="section"><a href="https://khanhicetea.com/tags/sysadmin" class="label label-info">sysadmin</a> <a href="https://khanhicetea.com/tags/web" class="label label-info">web</a> <a href="https://khanhicetea.com/tags/linux" class="label label-info">linux</a> <a href="https://khanhicetea.com/tags/til" class="label label-info">til</a> <a href="https://khanhicetea.com/tags/error" class="label label-info">error</a> <a href="https://khanhicetea.com/tags/cloudflare" class="label label-info">cloudflare</a> </div>
+    <div class="section"><a href="https://khanhicetea.com/tags/web" class="label label-info">web</a> <a href="https://khanhicetea.com/tags/sysadmin" class="label label-info">sysadmin</a> <a href="https://khanhicetea.com/tags/error" class="label label-info">error</a> <a href="https://khanhicetea.com/tags/til" class="label label-info">til</a> <a href="https://khanhicetea.com/tags/linux" class="label label-info">linux</a> <a href="https://khanhicetea.com/tags/cloudflare" class="label label-info">cloudflare</a> </div>
 
     <nav>
         <ul class="pager">
@@ -201,13 +201,13 @@ dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
     <header><div class="title">TableOfContents</div></header>
     <div class="list-default"><nav id="TableOfContents">
 <ul>
-<li><a href="#sysadmin">SYSADMIN</a>
-<ul>
-<li><a href="#grant-user-to-use-sudo-without-password">Grant user to use sudo without password</a></li>
-</ul></li>
 <li><a href="#web">WEB</a>
 <ul>
 <li><a href="#cloudflare-error-522-connection-time-out">Cloudflare Error 522 Connection Time out</a></li>
+</ul></li>
+<li><a href="#sysadmin">SYSADMIN</a>
+<ul>
+<li><a href="#grant-user-to-use-sudo-without-password">Grant user to use sudo without password</a></li>
 </ul></li>
 </ul>
 </nav></div>
@@ -220,6 +220,18 @@ dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
   <div class="section">
     <header><div class="title">Latest Logs</div></header>
     <div class="content">
+      
+      <div class="sm"><article class="li">
+  <a href="https://khanhicetea.com/til/2017-10-13/" class="clearfix">
+    <div class="image" style="background-image: url(https://khanhicetea.com/images/kit_logo.png);"></div>
+    <div class="detail">
+      <h2 class="title">What I learned in 2017-10-13</h2>
+      <time>Fri, Oct 13, 2017</time>
+      <div class="summary">I learned in 2017-10-13 about ci, database, devops, indexes, til, netcat</div>
+    </div>
+  </a>
+</article>
+</div>
       
       <div class="sm"><article class="li">
   <a href="https://khanhicetea.com/xiny/how-i-learn-typescript-basics-in-2-days/" class="clearfix">
@@ -269,18 +281,6 @@ dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
 </article>
 </div>
       
-      <div class="sm"><article class="li">
-  <a href="https://khanhicetea.com/til/2017-10-04/" class="clearfix">
-    <div class="image" style="background-image: url(https://khanhicetea.com/images/kit_logo.png);"></div>
-    <div class="detail">
-      <h2 class="title">What I learned in 2017-10-04</h2>
-      <time>Wed, Oct 4, 2017</time>
-      <div class="summary">I learned in 2017-10-04 about sysadmin, networking, smtp, til, time, mail, cpu</div>
-    </div>
-  </a>
-</article>
-</div>
-      
     </div>
   </div>
   
@@ -289,14 +289,14 @@ dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
   <div class="section taxonomies">
     <header><div class="title">Categories</div></header>
     <div class="content">
-      <a href="https://khanhicetea.com/categories/today-i-learned">today-i-learned [34]</a><a href="https://khanhicetea.com/categories/life">life [30]</a><a href="https://khanhicetea.com/categories/sysadmin">sysadmin [18]</a><a href="https://khanhicetea.com/categories/php">php [8]</a><a href="https://khanhicetea.com/categories/english">english [7]</a><a href="https://khanhicetea.com/categories/linux">linux [5]</a><a href="https://khanhicetea.com/categories/mysql">mysql [5]</a><a href="https://khanhicetea.com/categories/python">python [5]</a><a href="https://khanhicetea.com/categories/tech">tech [4]</a><a href="https://khanhicetea.com/categories/docker">docker [3]</a>
+      <a href="https://khanhicetea.com/categories/today-i-learned">today-i-learned [35]</a><a href="https://khanhicetea.com/categories/life">life [30]</a><a href="https://khanhicetea.com/categories/sysadmin">sysadmin [18]</a><a href="https://khanhicetea.com/categories/php">php [8]</a><a href="https://khanhicetea.com/categories/english">english [7]</a><a href="https://khanhicetea.com/categories/linux">linux [5]</a><a href="https://khanhicetea.com/categories/mysql">mysql [5]</a><a href="https://khanhicetea.com/categories/python">python [5]</a><a href="https://khanhicetea.com/categories/tech">tech [4]</a><a href="https://khanhicetea.com/categories/database">database [3]</a>
     </div>
   </div>
   
   <div class="section taxonomies">
     <header><div class="title">Tags</div></header>
     <div class="content">
-      <a href="https://khanhicetea.com/tags/english">english [37]</a><a href="https://khanhicetea.com/tags/til">til [34]</a><a href="https://khanhicetea.com/tags/life">life [29]</a><a href="https://khanhicetea.com/tags/random">random [21]</a><a href="https://khanhicetea.com/tags/sysadmin">sysadmin [20]</a><a href="https://khanhicetea.com/tags/vietnamese">vietnamese [12]</a><a href="https://khanhicetea.com/tags/php">php [11]</a><a href="https://khanhicetea.com/tags/bash">bash [9]</a><a href="https://khanhicetea.com/tags/linux">linux [6]</a><a href="https://khanhicetea.com/tags/mysql">mysql [6]</a>
+      <a href="https://khanhicetea.com/tags/english">english [37]</a><a href="https://khanhicetea.com/tags/til">til [35]</a><a href="https://khanhicetea.com/tags/life">life [29]</a><a href="https://khanhicetea.com/tags/random">random [21]</a><a href="https://khanhicetea.com/tags/sysadmin">sysadmin [20]</a><a href="https://khanhicetea.com/tags/vietnamese">vietnamese [12]</a><a href="https://khanhicetea.com/tags/php">php [11]</a><a href="https://khanhicetea.com/tags/bash">bash [9]</a><a href="https://khanhicetea.com/tags/devops">devops [6]</a><a href="https://khanhicetea.com/tags/linux">linux [6]</a>
     </div>
   </div>
   

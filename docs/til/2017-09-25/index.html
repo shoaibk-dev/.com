@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <meta name="generator" content="Hugo 0.27.1" />
+    <meta name="generator" content="Hugo 0.26" />
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
     <link rel="author" href="../../humans.txt" />
@@ -68,10 +68,11 @@
     <meta itemprop="mainEntityOfPage"  itemType="https://schema.org/WebPage" content="https://khanhicetea.com/"/>
     <meta itemprop="dateModified" content="2017-09-25T00:00:00&#43;00:00">
     <meta itemprop="headline" content="What I learned in 2017-09-25">
-    <meta itemprop="description" content="SYSADMIN Blocking specified country to prevent from DDOS Last day I checked system logs and got a lot of warning messages mentioned that my server has been attack via Brute-force. So I decided to blocked some countries from connecting to attacked ports (21, 25). They are China, Russia and US.
-This site provides a list of IP blocks of specified country
-http://www.ipdeny.com/ipblocks/
-TOOLS Zip compressing list of files To specify a list of compressed files when using zip cli tool, you could use -@ [file_list] flag.">
+    <meta itemprop="description" content="TOOLS Zip compressing list of files To specify a list of compressed files when using zip cli tool, you could use -@ [file_list] flag. And file_list is a file contains list of compressed file (new line separated)
+Example
+$ zip changed.zip -@ changed_files.txt  Or use stdin pipe
+$ find . -mmin -60 -print | zip changed_1_hour_ago -@  This will zip all changed files 1 hour ago
+SYSADMIN Blocking specified country to prevent from DDOS Last day I checked system logs and got a lot of warning messages mentioned that my server has been attack via Brute-force.">
     <meta itemprop="url" content="https://khanhicetea.com/til/2017-09-25/">
     <div itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
         <meta itemprop="url" content="https://khanhicetea.com/images/never_stop_learning.jpg" />
@@ -100,16 +101,6 @@ TOOLS Zip compressing list of files To specify a list of compressed files when u
     <div class="article-body" itemprop="articleBody">
         
 
-<h1 id="sysadmin">SYSADMIN</h1>
-
-<h2 id="blocking-specified-country-to-prevent-from-ddos">Blocking specified country to prevent from DDOS</h2>
-
-<p>Last day I checked system logs and got a lot of warning messages mentioned that my server has been attack via Brute-force. So I decided to blocked some countries from connecting to attacked ports (21, 25). They are China, Russia and US.</p>
-
-<p>This site provides a list of IP blocks of specified country</p>
-
-<p><a href="http://www.ipdeny.com/ipblocks/">http://www.ipdeny.com/ipblocks/</a></p>
-
 <h1 id="tools">TOOLS</h1>
 
 <h2 id="zip-compressing-list-of-files">Zip compressing list of files</h2>
@@ -127,6 +118,16 @@ TOOLS Zip compressing list of files To specify a list of compressed files when u
 </code></pre>
 
 <p>This will zip all changed files 1 hour ago</p>
+
+<h1 id="sysadmin">SYSADMIN</h1>
+
+<h2 id="blocking-specified-country-to-prevent-from-ddos">Blocking specified country to prevent from DDOS</h2>
+
+<p>Last day I checked system logs and got a lot of warning messages mentioned that my server has been attack via Brute-force. So I decided to blocked some countries from connecting to attacked ports (21, 25). They are China, Russia and US.</p>
+
+<p>This site provides a list of IP blocks of specified country</p>
+
+<p><a href="http://www.ipdeny.com/ipblocks/">http://www.ipdeny.com/ipblocks/</a></p>
 
     </div>
 
@@ -185,13 +186,13 @@ dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
     <header><div class="title">TableOfContents</div></header>
     <div class="list-default"><nav id="TableOfContents">
 <ul>
-<li><a href="#sysadmin">SYSADMIN</a>
-<ul>
-<li><a href="#blocking-specified-country-to-prevent-from-ddos">Blocking specified country to prevent from DDOS</a></li>
-</ul></li>
 <li><a href="#tools">TOOLS</a>
 <ul>
 <li><a href="#zip-compressing-list-of-files">Zip compressing list of files</a></li>
+</ul></li>
+<li><a href="#sysadmin">SYSADMIN</a>
+<ul>
+<li><a href="#blocking-specified-country-to-prevent-from-ddos">Blocking specified country to prevent from DDOS</a></li>
 </ul></li>
 </ul>
 </nav></div>
@@ -204,6 +205,18 @@ dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
   <div class="section">
     <header><div class="title">Latest Logs</div></header>
     <div class="content">
+      
+      <div class="sm"><article class="li">
+  <a href="https://khanhicetea.com/til/2017-10-13/" class="clearfix">
+    <div class="image" style="background-image: url(https://khanhicetea.com/images/kit_logo.png);"></div>
+    <div class="detail">
+      <h2 class="title">What I learned in 2017-10-13</h2>
+      <time>Fri, Oct 13, 2017</time>
+      <div class="summary">I learned in 2017-10-13 about ci, database, devops, indexes, til, netcat</div>
+    </div>
+  </a>
+</article>
+</div>
       
       <div class="sm"><article class="li">
   <a href="https://khanhicetea.com/xiny/how-i-learn-typescript-basics-in-2-days/" class="clearfix">
@@ -253,18 +266,6 @@ dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
 </article>
 </div>
       
-      <div class="sm"><article class="li">
-  <a href="https://khanhicetea.com/til/2017-10-04/" class="clearfix">
-    <div class="image" style="background-image: url(https://khanhicetea.com/images/kit_logo.png);"></div>
-    <div class="detail">
-      <h2 class="title">What I learned in 2017-10-04</h2>
-      <time>Wed, Oct 4, 2017</time>
-      <div class="summary">I learned in 2017-10-04 about sysadmin, networking, smtp, til, time, mail, cpu</div>
-    </div>
-  </a>
-</article>
-</div>
-      
     </div>
   </div>
   
@@ -273,14 +274,14 @@ dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
   <div class="section taxonomies">
     <header><div class="title">Categories</div></header>
     <div class="content">
-      <a href="https://khanhicetea.com/categories/today-i-learned">today-i-learned [34]</a><a href="https://khanhicetea.com/categories/life">life [30]</a><a href="https://khanhicetea.com/categories/sysadmin">sysadmin [18]</a><a href="https://khanhicetea.com/categories/php">php [8]</a><a href="https://khanhicetea.com/categories/english">english [7]</a><a href="https://khanhicetea.com/categories/linux">linux [5]</a><a href="https://khanhicetea.com/categories/mysql">mysql [5]</a><a href="https://khanhicetea.com/categories/python">python [5]</a><a href="https://khanhicetea.com/categories/tech">tech [4]</a><a href="https://khanhicetea.com/categories/docker">docker [3]</a>
+      <a href="https://khanhicetea.com/categories/today-i-learned">today-i-learned [35]</a><a href="https://khanhicetea.com/categories/life">life [30]</a><a href="https://khanhicetea.com/categories/sysadmin">sysadmin [18]</a><a href="https://khanhicetea.com/categories/php">php [8]</a><a href="https://khanhicetea.com/categories/english">english [7]</a><a href="https://khanhicetea.com/categories/linux">linux [5]</a><a href="https://khanhicetea.com/categories/mysql">mysql [5]</a><a href="https://khanhicetea.com/categories/python">python [5]</a><a href="https://khanhicetea.com/categories/tech">tech [4]</a><a href="https://khanhicetea.com/categories/database">database [3]</a>
     </div>
   </div>
   
   <div class="section taxonomies">
     <header><div class="title">Tags</div></header>
     <div class="content">
-      <a href="https://khanhicetea.com/tags/english">english [37]</a><a href="https://khanhicetea.com/tags/til">til [34]</a><a href="https://khanhicetea.com/tags/life">life [29]</a><a href="https://khanhicetea.com/tags/random">random [21]</a><a href="https://khanhicetea.com/tags/sysadmin">sysadmin [20]</a><a href="https://khanhicetea.com/tags/vietnamese">vietnamese [12]</a><a href="https://khanhicetea.com/tags/php">php [11]</a><a href="https://khanhicetea.com/tags/bash">bash [9]</a><a href="https://khanhicetea.com/tags/linux">linux [6]</a><a href="https://khanhicetea.com/tags/mysql">mysql [6]</a>
+      <a href="https://khanhicetea.com/tags/english">english [37]</a><a href="https://khanhicetea.com/tags/til">til [35]</a><a href="https://khanhicetea.com/tags/life">life [29]</a><a href="https://khanhicetea.com/tags/random">random [21]</a><a href="https://khanhicetea.com/tags/sysadmin">sysadmin [20]</a><a href="https://khanhicetea.com/tags/vietnamese">vietnamese [12]</a><a href="https://khanhicetea.com/tags/php">php [11]</a><a href="https://khanhicetea.com/tags/bash">bash [9]</a><a href="https://khanhicetea.com/tags/devops">devops [6]</a><a href="https://khanhicetea.com/tags/linux">linux [6]</a>
     </div>
   </div>
   

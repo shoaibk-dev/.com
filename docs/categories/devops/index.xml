@@ -6,10 +6,20 @@
     <description>Recent content in Devops on KhanhIceTea B(rain)-log</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 04 Aug 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 13 Oct 2017 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://khanhicetea.com/categories/devops/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>What I learned in 2017-10-13</title>
+      <link>https://khanhicetea.com/til/2017-10-13/</link>
+      <pubDate>Fri, 13 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://khanhicetea.com/til/2017-10-13/</guid>
+      <description>DATABASE Indexes on multiple columns Let&amp;rsquo;s say you have an indexes on 2 columns (A, B) of the table (X). So this is three use cases happen :
+ You query data based on both of 2 columns =&amp;gt; Indexes will be considered You query data based on (A) =&amp;gt; Indexes will be considered You query data based on (B) =&amp;gt; Indexes will be ignored because database indexes your data by B-tree algo.</description>
+    </item>
     
     <item>
       <title>What I learned in 2017-08-04</title>
