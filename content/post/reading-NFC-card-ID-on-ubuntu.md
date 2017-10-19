@@ -131,3 +131,12 @@ This is my demo application that using card ID like a user password, so I can un
 
 {{< youtube PAOxEXvbvAY >}}
 
+### It Just Works
+
+If you want a "just-work" solution, checkout this [repo](https://github.com/inventid/rfid-reader2keyboard). It is built on Java smartcardio.
+
+```bash
+$ java -jar rfid-reader2keyboard.jar
+```
+
+Good luck ! ;)
