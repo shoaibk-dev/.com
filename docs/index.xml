@@ -6,10 +6,23 @@
     <description>Recent content on KhanhIceTea B(rain)-log</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 20 Oct 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 21 Oct 2017 00:10:31 +0700</lastBuildDate>
     
 	<atom:link href="https://khanhicetea.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>How I Learn Golang Basics in 1 Day</title>
+      <link>https://khanhicetea.com/xiny/how-i-learn-golang-basics-in-1-day/</link>
+      <pubDate>Sat, 21 Oct 2017 00:10:31 +0700</pubDate>
+      
+      <guid>https://khanhicetea.com/xiny/how-i-learn-golang-basics-in-1-day/</guid>
+      <description>Structure is based on Learn Go in Y Minutes
+Install Go Follow this guide : https://golang.org/doc/install
+Compile and Run go code every 1 second $ watch -d -t -n 1 go run day1.go  Recommended editor Use VisualStudio Code
+Basics View day1.go file
+package main import ( &amp;quot;fmt&amp;quot; // Formatting standard library m &amp;quot;math&amp;quot; // Alias an imported lib &amp;quot;strconv&amp;quot; // String conversion lib &amp;quot;net/http&amp;quot; &amp;quot;io/ioutil&amp;quot; ) func main() { fmt.</description>
+    </item>
     
     <item>
       <title>What I learned in 2017-10-20</title>
