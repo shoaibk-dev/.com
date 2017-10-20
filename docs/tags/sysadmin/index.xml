@@ -55,9 +55,9 @@ So I dove in and look for all set options of BASH.</description>
       <pubDate>Tue, 26 Sep 2017 00:00:00 +0000</pubDate>
       
       <guid>https://khanhicetea.com/til/2017-09-26/</guid>
-      <description>SYSADMIN BASH return a value in function Creating function is a good way to refactor your bash script. But BASH doesn&amp;rsquo;t support returning a value in true way, so it makes a bit of challenge to handle that.
-You can use this trick
-hello() { echo &amp;quot;Hello $1&amp;quot; } hw=$(hello &amp;quot;KhanhIceTea&amp;quot;) echo $hw  But what if you want to echo log message in hello function, it will be merged to returned value.</description>
+      <description>SYSADMIN BASH exiting on first error Setting a flag set -e to bash script will let the script exit on first error occurs, so if you want to ignore a command just adding || true to suffix
+set -e errorCmd $1 || true echo &amp;quot;Run here !&amp;quot;  And opposite of set -e is set +e, haha of course !
+set +e errorCmd $1 echo &amp;quot;Still run here !&amp;quot;  SYSADMIN BASH return a value in function Creating function is a good way to refactor your bash script.</description>
     </item>
     
     <item>
@@ -66,11 +66,10 @@ hello() { echo &amp;quot;Hello $1&amp;quot; } hw=$(hello &amp;quot;KhanhIceTea&a
       <pubDate>Mon, 25 Sep 2017 00:00:00 +0000</pubDate>
       
       <guid>https://khanhicetea.com/til/2017-09-25/</guid>
-      <description>TOOLS Zip compressing list of files To specify a list of compressed files when using zip cli tool, you could use -@ [file_list] flag. And file_list is a file contains list of compressed file (new line separated)
-Example
-$ zip changed.zip -@ changed_files.txt  Or use stdin pipe
-$ find . -mmin -60 -print | zip changed_1_hour_ago -@  This will zip all changed files 1 hour ago
-SYSADMIN Blocking specified country to prevent from DDOS Last day I checked system logs and got a lot of warning messages mentioned that my server has been attack via Brute-force.</description>
+      <description>SYSADMIN Blocking specified country to prevent from DDOS Last day I checked system logs and got a lot of warning messages mentioned that my server has been attack via Brute-force. So I decided to blocked some countries from connecting to attacked ports (21, 25). They are China, Russia and US.
+This site provides a list of IP blocks of specified country
+http://www.ipdeny.com/ipblocks/
+TOOLS Zip compressing list of files To specify a list of compressed files when using zip cli tool, you could use -@ [file_list] flag.</description>
     </item>
     
     <item>
@@ -116,10 +115,10 @@ SYSADMIN Create SSH tunnel manually SSH Tunnel is a fast way to transfer traffic
       <pubDate>Sun, 06 Aug 2017 00:00:00 +0000</pubDate>
       
       <guid>https://khanhicetea.com/til/2017-08-06/</guid>
-      <description>PHP realpath function If you pass a non-exists path to function realpath, it returns empty string. So please don&amp;rsquo;t do something like :
-function storage_path($folder) { return realpath(__DIR__.&#39;/storage/&#39;.$folder); }  if you expect it return full path of new folder !
-JAVA Runing old java applets on brower Mostly morden browser has stop support Java plugins, so you can&amp;rsquo;t run Java applet on browser.
-Temporary way : - run in IE or Safari - run in an old Firefox (version 23)</description>
+      <description>JAVA Runing old java applets on brower Mostly morden browser has stop support Java plugins, so you can&amp;rsquo;t run Java applet on browser.
+Temporary way : - run in IE or Safari - run in an old Firefox (version 23)
+And what if old java applet can&amp;rsquo;t be runned on Java 8 because of weak signature algorithm. Try this
+ Open java.security file :  In MacOS, located in /Library/Java/JavaVirtualMachines/jdk[jdk-version].</description>
     </item>
     
     <item>
@@ -152,9 +151,9 @@ grep -lr &#39;&amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt;&#39; . | 
       <pubDate>Wed, 24 May 2017 00:00:00 +0000</pubDate>
       
       <guid>https://khanhicetea.com/til/2017-05-24/</guid>
-      <description>DOCKER Reducing docker image the right way When building an image, Docker engine commit file system layer on every command (RUN, ADD, COPY). So next time you installing packages from package manager likes apt, yum, pacman, &amp;hellip;remember clean their cache in same line.
-BAD WAY
-RUN apt-get update RUN apt-get install git # Something here # End of file RUN apt-get clean &amp;amp;&amp;amp; rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*  RIGHT WAY</description>
+      <description>DOCKER Changing channel from alpha to stable will remove ALL DATA On MacOS, changing Docker channel will remove all data (includes volumes, images, networks and &amp;hellip; everything).
+Because Docker on Mac using a minimal Linux machine to host docker engine, so changing machine means discarding all old data. So BECAREFUL !
+DOCKER Reducing docker image the right way When building an image, Docker engine commit file system layer on every command (RUN, ADD, COPY).</description>
     </item>
     
     <item>
@@ -186,9 +185,9 @@ So checking the conflicts code is required step before testing backend and deplo
       <pubDate>Thu, 18 May 2017 00:00:00 +0000</pubDate>
       
       <guid>https://khanhicetea.com/til/2017-05-18/</guid>
-      <description>WEB Cloudflare Error 522 Connection Time out If you are using Cloudflare as a proxied web server, it will provide many benefits about performance (assets caching, prevent DDOS and cheap CDN). But sometimes, you will face to this error &amp;ldquo;522 Connection Time out&amp;rdquo;.
-The problems caused by :
- Networking (CF can&amp;rsquo;t touch origin server : Firewall blocking, Network Layer #1,#2,#3 issue) Timeout (origin server process too long than 90 seconds) Empty or invalid response from origin server No or big HTTP headers (&amp;gt; 8Kb) Failed TCP handshake  Ref:</description>
+      <description>SYSADMIN Grant user to use sudo without password This is bad practice but it&amp;rsquo;s kind of hacky thing if you YOLO
+# Create a user with home dir and bash shell (if you don&#39;t have yet) $ useradd -m YOURUSERNAME -s /bin/bash $ sudo vi /etc/sudoers  Add this line below root ALL=(ALL:ALL) ALL (User privilege specification section)
+$ YOUR_USERNAME ALL=(ALL:ALL) NOPASSWD:ALL  Then press :wq! to force saving the file</description>
     </item>
     
     <item>
