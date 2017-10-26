@@ -253,7 +253,7 @@ func oopsSomethingWrong() {
 
 func goToWWW() {
 	go func() {
-		err:= http.ListenAndServe("127.0.0.1:8888", WebServer{"KhanhIceTea server"})
+		err:= http.ListenAndServe("127.0.0.1:8888", &WebServer{"KhanhIceTea server"})
 		fmt.Println(err)
 	}()
 
@@ -264,7 +264,7 @@ type WebServer struct {
 	name string
 }
 
-func (ws WebServer) ServeHTTP(w http.ResponseWriter, r *http.Request) {
+func (ws *WebServer) ServeHTTP(w http.ResponseWriter, r *http.Request) {
 	w.Write([]byte("Hello from "))
 	w.Write([]byte(ws.name))
 }
