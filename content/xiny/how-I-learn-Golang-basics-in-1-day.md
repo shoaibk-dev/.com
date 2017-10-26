@@ -280,3 +280,5 @@ func crawlWeb() {
 
 
 > Please ! Teach me !
+
+[*> Learn Golang Goroutines and Concurrent here*](/xiny/how-i-learn-golang-goroutines-in-1-day/)

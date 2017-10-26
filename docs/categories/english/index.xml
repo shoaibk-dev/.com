@@ -6,10 +6,21 @@
     <description>Recent content in English on KhanhIceTea B(rain)-log</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 21 Oct 2017 00:10:31 +0700</lastBuildDate>
+    <lastBuildDate>Thu, 26 Oct 2017 18:56:33 +0700</lastBuildDate>
     
 	<atom:link href="https://khanhicetea.com/categories/english/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>How I Learn Golang Goroutines in 1 Day</title>
+      <link>https://khanhicetea.com/xiny/how-i-learn-golang-goroutines-in-1-day/</link>
+      <pubDate>Thu, 26 Oct 2017 18:56:33 +0700</pubDate>
+      
+      <guid>https://khanhicetea.com/xiny/how-i-learn-golang-goroutines-in-1-day/</guid>
+      <description>&amp;gt; Learn Golang Basics here
+Goroutines &amp;amp; Concurrent View day2.go file
+package main import ( &amp;quot;fmt&amp;quot; &amp;quot;time&amp;quot; ) func main() { chanChanChanChan() bufferedChan() synchronizeTask() pingPongGame() selectChannel() outOfTime() nonBlockingChannelWithSelect() closeChannel() rangeOverChannel() doSomethingLater() doInterval() } func chanChanChanChan() { chan1 := make(chan string) chan2 := make(chan string) // By default sends and receives block until both the sender and receiver are ready. go func() { fmt.Println(&amp;quot;[1] Passing chan2 !&amp;quot;) chan2 &amp;lt;- &amp;quot;Chan2&amp;quot; fmt.</description>
+    </item>
     
     <item>
       <title>How I Learn Golang Basics in 1 Day</title>

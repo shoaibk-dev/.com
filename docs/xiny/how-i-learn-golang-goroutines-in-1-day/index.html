@@ -34,17 +34,17 @@
     <meta name="theme-color" content="#ffffff">
 
     
-    <title>What I learned in 2015-11-30 - KhanhIceTea B(rain)-log</title>
-    <meta property='og:title' content="What I learned in 2015-11-30 - KhanhIceTea B(rain)-log">
+    <title>How I Learn Golang Goroutines in 1 Day - KhanhIceTea B(rain)-log</title>
+    <meta property='og:title' content="How I Learn Golang Goroutines in 1 Day - KhanhIceTea B(rain)-log">
     <meta property="og:type" content="article">
     
 
-    <meta property="og:url" content="https://khanhicetea.com/til/2015-11-30/">
+    <meta property="og:url" content="https://khanhicetea.com/xiny/how-i-learn-golang-goroutines-in-1-day/">
     
-        <meta name="description" content="I learned in 2015-11-30 about shortcut-key, productivity, chrome-extension, til, mac-osx, chrome-dev">
-        <meta property="og:description" content="I learned in 2015-11-30 about shortcut-key, productivity, chrome-extension, til, mac-osx, chrome-dev">
+        <meta name="description" content="How did I learn Goroutines in 1 day">
+        <meta property="og:description" content="How did I learn Goroutines in 1 day">
     
-    
+    <meta property="og:image" content="https://khanhicetea.com/images/xiny.jpg">
 
   </head>
 
@@ -66,12 +66,14 @@
     <article class="single" itemscope="itemscope" itemtype="http://schema.org/Article">
 
     <meta itemprop="mainEntityOfPage"  itemType="https://schema.org/WebPage" content="https://khanhicetea.com/"/>
-    <meta itemprop="dateModified" content="2015-11-30T00:00:00&#43;00:00">
-    <meta itemprop="headline" content="What I learned in 2015-11-30">
-    <meta itemprop="description" content="CHROME-DEV Debugging Chrome extension  To open directly the Console Dev Tools, press Cmd &#43; Opt &#43; J in MacOSX. To debug easily the any files of extension, open the url chrome-extension://&lt;extension-id&gt;/&lt;file-name&gt; in address bar.  MAC-OSX Shortcut keyboard improve productivity  Open the preference of any Application by Cmd &#43; ,. Press Cmd &#43; ~ to go previous App when switching App on Cmd &#43; Tab Copy screenshot to clipboard by Cmd &#43; Ctl &#43; Shift &#43; 3 Press Option when click to notification center is putting it on “Do no disturb” mode.">
-    <meta itemprop="url" content="https://khanhicetea.com/til/2015-11-30/">
+    <meta itemprop="dateModified" content="2017-10-26T18:56:33&#43;07:00">
+    <meta itemprop="headline" content="How I Learn Golang Goroutines in 1 Day">
+    <meta itemprop="description" content="&gt; Learn Golang Basics here
+Goroutines &amp; Concurrent View day2.go file
+package main import ( &quot;fmt&quot; &quot;time&quot; ) func main() { chanChanChanChan() bufferedChan() synchronizeTask() pingPongGame() selectChannel() outOfTime() nonBlockingChannelWithSelect() closeChannel() rangeOverChannel() doSomethingLater() doInterval() } func chanChanChanChan() { chan1 := make(chan string) chan2 := make(chan string) // By default sends and receives block until both the sender and receiver are ready. go func() { fmt.Println(&quot;[1] Passing chan2 !&quot;) chan2 &lt;- &quot;Chan2&quot; fmt.">
+    <meta itemprop="url" content="https://khanhicetea.com/xiny/how-i-learn-golang-goroutines-in-1-day/">
     <div itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
-        <meta itemprop="url" content="https://khanhicetea.com/images/never_stop_learning.jpg" />
+        <meta itemprop="url" content="https://khanhicetea.com/images/xiny.jpg" />
         <meta itemprop="width" content="800">
         <meta itemprop="height" content="800">
     </div>
@@ -87,34 +89,255 @@
         <meta itemprop="name" content="KhanhIceTea">
     </div>
 
-    <div class="image" style="background-image: url(https://khanhicetea.com/images/never_stop_learning.jpg);"></div>
+    <div class="image" style="background-image: url(https://khanhicetea.com/images/xiny.jpg);"></div>
 
     <header class="article-header">
-        <time itemprop="datePublished" pubdate="pubdate" datetime="2015-11-30T00:00:00&#43;00:00">Mon, Nov 30, 2015</time>
-        <h1 class="article-title">What I learned in 2015-11-30</h1>
+        <time itemprop="datePublished" pubdate="pubdate" datetime="2017-10-26T18:56:33&#43;07:00">Thu, Oct 26, 2017</time>
+        <h1 class="article-title">How I Learn Golang Goroutines in 1 Day</h1>
     </header>
 
     <div class="article-body" itemprop="articleBody">
         
 
-<h1 id="chrome-dev">CHROME-DEV</h1>
+<p><a href="../../xiny/how-i-learn-golang-basics-in-1-day/"><em>&gt; Learn Golang Basics here</em></a></p>
 
-<h2 id="debugging-chrome-extension">Debugging Chrome extension</h2>
+<h2 id="goroutines-concurrent">Goroutines &amp; Concurrent</h2>
+
+<p><img src="https://user-images.githubusercontent.com/4528223/32051797-3a0de658-ba80-11e7-8f45-202c1b5c6066.jpg" alt="Goroutines" /></p>
+
+<p>View <a href="https://github.com/khanhicetea/learn-n-earn/blob/master/golang/day2.go"><strong>day2.go</strong></a> file</p>
+
+<pre><code class="language-go">package main
+
+import (
+	&quot;fmt&quot;
+	&quot;time&quot;
+)
+
+func main() {
+	chanChanChanChan()
+	bufferedChan()
+	synchronizeTask()
+	pingPongGame()
+	selectChannel()
+	outOfTime()
+	nonBlockingChannelWithSelect()
+	closeChannel()
+	rangeOverChannel()
+	doSomethingLater()
+	doInterval()
+}
+
+func chanChanChanChan() {
+	chan1 := make(chan string)
+	chan2 := make(chan string)
+
+	// By default sends and receives block until both the sender and receiver are ready.
+	go func() {
+		fmt.Println(&quot;[1] Passing chan2 !&quot;)
+		chan2 &lt;- &quot;Chan2&quot;
+		fmt.Println(&quot;[1] Passed chan2 !&quot;)
+	}()
+
+	go func() {
+		fmt.Println(&quot;[1] Receiving chan2 !&quot;)
+		chan2Msg := &lt;-chan2
+		fmt.Println(&quot;[1] Received chan2 !&quot;)
+
+		chan2Msg += &quot; Chan1&quot;
+
+		fmt.Println(&quot;[1] Passing chan1 !&quot;)
+		chan1 &lt;- chan2Msg
+		fmt.Println(&quot;[1] Passed chan1 !&quot;)
+	}()
+
+	fmt.Println(&quot;[1] Waiting for chan1 message ...&quot;)
+	msg := &lt;-chan1
+	fmt.Println(&quot;[1] Message from goroutines :&quot;, msg)
+}
+
+func bufferedChan() {
+	chan1 := make(chan string, 2) // second parameter is number of messages the channel will handle, it creates Buffered Channel
+
+	go func() {
+		fmt.Println(&quot;[2] Passing chan2 !&quot;)
+		chan1 &lt;- &quot;Chan2&quot; // Buffered Chan doesn't need to wait concurrent receiving
+		fmt.Println(&quot;[2] Passed chan2 !&quot;)
+	}()
+
+	go func() {
+		fmt.Println(&quot;[2] Passing chan1 !&quot;)
+		chan1 &lt;- &quot;Chan1&quot; // Buffered Chan doesn't need to wait concurrent receiving
+		fmt.Println(&quot;[2] Passed chan1 !&quot;)
+	}()
+
+	fmt.Println(&quot;[2] Waiting for chan1 message ...&quot;)
+	time.Sleep(time.Second * 3) // Wait 3 seconds to wait message passing to buff chan
+	msg := &lt;-chan1
+	msg += &lt;-chan1
+	fmt.Println(&quot;[2] Message from buffered chan :&quot;)
+}
+
+func synchronizeTask() {
+	done := make(chan bool)
+
+	go func(ok chan bool) {
+		fmt.Println(&quot;[3] Working ...&quot;)
+		time.Sleep(time.Second)
+		fmt.Println(&quot;[3] Done ...&quot;)
+
+		ok &lt;- true
+	}(done)
+
+	&lt;-done
+	fmt.Println(&quot;[3] Lets relax !&quot;)
+}
+
+// Channel direction
+func ping(rchan chan&lt;- string, msg string) {
+	rchan &lt;- msg
+}
+
+func pong(rchan &lt;-chan string, schan chan&lt;- string) {
+	tmp := &lt;-rchan
+	schan &lt;- tmp
+}
+
+func pingPongGame() {
+	chan1 := make(chan string, 1)
+	chan2 := make(chan string, 1)
+
+	ping(chan1, &quot;Game over !&quot;)
+	pong(chan1, chan2)
+	pingPongMsg := &lt;-chan2
+	fmt.Println(&quot;[4] Ping pong message :&quot;, pingPongMsg)
+}
+
+func selectChannel() {
+	c1 := make(chan string)
+	c2 := make(chan string)
+
+	go func() {
+		time.Sleep(time.Second)
+		c1 &lt;- &quot;msg1&quot;
+	}()
+
+	go func() {
+		time.Sleep(time.Second * 2)
+		c2 &lt;- &quot;msg2&quot;
+	}()
+
+	// Wait multi channel, whole func take ~2 seconds because of sleeping concurrently
+	for i := 0; i &lt; 2; i++ {
+		select {
+		case msg1 := &lt;-c1:
+			fmt.Println(&quot;[5] Received :&quot;, msg1)
+		case msg2 := &lt;-c2:
+			fmt.Println(&quot;[5] Received :&quot;, msg2)
+		}
+	}
+}
+
+func outOfTime() { // Timeout using select channel
+	chan1 := make(chan string)
+
+	go func() {
+		time.Sleep(time.Second * 2)
+		chan1 &lt;- &quot;here result after 2 seconds&quot;
+	}()
+
+	select {
+	case msg := &lt;-chan1:
+		fmt.Println(&quot;[6] Message from chan1&quot;, msg)
+	case &lt;-time.After(time.Second):
+		fmt.Println(&quot;[6] Your time is out ! You only have 1 second !&quot;)
+	}
+}
+
+func nonBlockingChannelWithSelect() {
+	chan1 := make(chan string)
+
+	select {
+	case msg := &lt;-chan1:
+		fmt.Println(&quot;[7] Ahh... got it !&quot;, msg)
+	default:
+		fmt.Println(&quot;[7] Nothing here !&quot;)
+	}
+}
+
+func closeChannel() {
+	jobs := make(chan string, 3)
+	done := make(chan bool)
+
+	go func() {
+		for {
+			j, more := &lt;-jobs
+			if more {
+				fmt.Println(&quot;[8] received a job&quot;, j)
+			} else {
+				fmt.Println(&quot;[8] received all jobs&quot;)
+				done &lt;- true
+			}
+		}
+	}()
+
+	for i := 0; i &lt; 3; i++ {
+		jobs &lt;- &quot;hahaha&quot;
+		fmt.Println(&quot;[8] sent a job&quot;)
+	}
+	close(jobs)
+	fmt.Println(&quot;[8] sent all jobs&quot;)
+
+	&lt;-done
+}
+
+func rangeOverChannel() {
+	chan1 := make(chan string, 3)
+	chan1 &lt;- &quot;1&quot;
+	chan1 &lt;- &quot;2&quot;
+	chan1 &lt;- &quot;3&quot;
+
+	close(chan1)
+	for msg := range chan1 {
+		fmt.Println(&quot;[9] range over :&quot;, msg)
+	}
+}
+
+func doSomethingLater() {
+	timer1 := time.NewTimer(time.Second * 2)
+
+	&lt;-timer1.C
+	fmt.Println(&quot;[10] timer1 is expired&quot;)
+
+	timer2 := time.NewTicker(time.Second * 2)
+	go func() {
+		&lt;-timer2.C
+		fmt.Println(&quot;[10] timer2 is expired&quot;)
+	}()
+	timer2.Stop()
+	fmt.Println(&quot;[10] timer2 is stopped&quot;)
+}
+
+func doInterval() {
+	ticker := time.NewTicker(time.Millisecond * 500)
+	go func() {
+		for t := range ticker.C {
+			fmt.Println(&quot;[11] do job interval at&quot;, t)
+		}
+	}()
+	time.Sleep(time.Second * 3)
+	ticker.Stop()
+	fmt.Println(&quot;[11] Ticker is stopped&quot;)
+}
+</code></pre>
+
+<hr />
+
+<p><strong>Ref:</strong></p>
 
 <ul>
-<li>To open directly the Console Dev Tools, press <code>Cmd + Opt + J</code> in MacOSX.</li>
-<li>To debug easily the any files of extension, open the url <code>chrome-extension://&lt;extension-id&gt;/&lt;file-name&gt;</code> in address bar.</li>
-</ul>
-
-<h1 id="mac-osx">MAC-OSX</h1>
-
-<h2 id="shortcut-keyboard-improve-productivity">Shortcut keyboard improve productivity</h2>
-
-<ul>
-<li>Open the preference of any Application by <code>Cmd + ,</code>.</li>
-<li>Press <code>Cmd + ~</code> to go previous App when switching App on <code>Cmd + Tab</code></li>
-<li>Copy screenshot to clipboard by <code>Cmd + Ctl + Shift + 3</code></li>
-<li>Press <code>Option</code> when click to notification center is putting it on “Do no disturb” mode.</li>
+<li>Lesson structure by gobyexample(dot)com</li>
+<li>Photo by tensor-programming(dot)com</li>
 </ul>
 
     </div>
@@ -126,22 +349,22 @@
 </div>
 
     <aside>
-    <div class="section"><a href="https://khanhicetea.com/tags/shortcut-key" class="label label-info">shortcut-key</a> <a href="https://khanhicetea.com/tags/productivity" class="label label-info">productivity</a> <a href="https://khanhicetea.com/tags/chrome-extension" class="label label-info">chrome-extension</a> <a href="https://khanhicetea.com/tags/til" class="label label-info">til</a> <a href="https://khanhicetea.com/tags/mac-osx" class="label label-info">mac-osx</a> <a href="https://khanhicetea.com/tags/chrome-dev" class="label label-info">chrome-dev</a> </div>
+    <div class="section"><a href="https://khanhicetea.com/tags/english" class="label label-info">english</a> <a href="https://khanhicetea.com/tags/go" class="label label-info">go</a> <a href="https://khanhicetea.com/tags/xiny" class="label label-info">xiny</a> </div>
 
     <nav>
         <ul class="pager">
             
+            <li class="previous"><a href="https://khanhicetea.com/xiny/how-i-learn-golang-basics-in-1-day/"><span aria-hidden="true">&larr;</span> \b</a></li>
             
-            <li class="next"><a href="https://khanhicetea.com/post/today-i-learned/"><span aria-hidden="true">&rarr;</span> Today I Learned - automated tool helps you learn everyday.</a></li>
             
         </ul>
     </nav>
 
     <div class="section share">
-    <a href="http://www.facebook.com/sharer.php?src=bm&u=https%3a%2f%2fkhanhicetea.com%2ftil%2f2015-11-30%2f&t=What%20I%20learned%20in%202015-11-30" onclick="window.open(this.href, 'PCwindow', 'width=550, height=350, menubar=no, toolbar=no, scrollbars=yes'); return false;"><i class="fa fa-facebook"></i></a>
-    <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fkhanhicetea.com%2ftil%2f2015-11-30%2f&text=What%20I%20learned%20in%202015-11-30&tw_p=tweetbutton" onclick="window.open(this.href, 'PCwindow', 'width=550, height=350, menubar=no, toolbar=no, scrollbars=yes'); return false;"><i class="fa fa-twitter"></i></a>
-    <a href="https://plus.google.com/share?url=https%3a%2f%2fkhanhicetea.com%2ftil%2f2015-11-30%2f" onclick="window.open(this.href, 'PCwindow', 'width=550, height=350, menubar=no, toolbar=no, scrollbars=yes'); return false;"><i class="fa fa-google-plus"></i></a>
-    <a href="http://getpocket.com/edit?url=https%3a%2f%2fkhanhicetea.com%2ftil%2f2015-11-30%2f&title=What%20I%20learned%20in%202015-11-30" onclick="window.open(this.href, 'PCwindow', 'width=550, height=350, menubar=no, toolbar=no, scrollbars=yes'); return false;"><i class="fa fa-get-pocket"></i></a>
+    <a href="http://www.facebook.com/sharer.php?src=bm&u=https%3a%2f%2fkhanhicetea.com%2fxiny%2fhow-i-learn-golang-goroutines-in-1-day%2f&t=How%20I%20Learn%20Golang%20Goroutines%20in%201%20Day" onclick="window.open(this.href, 'PCwindow', 'width=550, height=350, menubar=no, toolbar=no, scrollbars=yes'); return false;"><i class="fa fa-facebook"></i></a>
+    <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fkhanhicetea.com%2fxiny%2fhow-i-learn-golang-goroutines-in-1-day%2f&text=How%20I%20Learn%20Golang%20Goroutines%20in%201%20Day&tw_p=tweetbutton" onclick="window.open(this.href, 'PCwindow', 'width=550, height=350, menubar=no, toolbar=no, scrollbars=yes'); return false;"><i class="fa fa-twitter"></i></a>
+    <a href="https://plus.google.com/share?url=https%3a%2f%2fkhanhicetea.com%2fxiny%2fhow-i-learn-golang-goroutines-in-1-day%2f" onclick="window.open(this.href, 'PCwindow', 'width=550, height=350, menubar=no, toolbar=no, scrollbars=yes'); return false;"><i class="fa fa-google-plus"></i></a>
+    <a href="http://getpocket.com/edit?url=https%3a%2f%2fkhanhicetea.com%2fxiny%2fhow-i-learn-golang-goroutines-in-1-day%2f&title=How%20I%20Learn%20Golang%20Goroutines%20in%201%20Day" onclick="window.open(this.href, 'PCwindow', 'width=550, height=350, menubar=no, toolbar=no, scrollbars=yes'); return false;"><i class="fa fa-get-pocket"></i></a>
     </div>
 
     
@@ -160,6 +383,7 @@ dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
     
     
 </aside>
+    
 
     </article>
 </div>
@@ -172,13 +396,9 @@ dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
     <header><div class="title">TableOfContents</div></header>
     <div class="list-default"><nav id="TableOfContents">
 <ul>
-<li><a href="#chrome-dev">CHROME-DEV</a>
+<li>
 <ul>
-<li><a href="#debugging-chrome-extension">Debugging Chrome extension</a></li>
-</ul></li>
-<li><a href="#mac-osx">MAC-OSX</a>
-<ul>
-<li><a href="#shortcut-keyboard-improve-productivity">Shortcut keyboard improve productivity</a></li>
+<li><a href="#goroutines-concurrent">Goroutines &amp; Concurrent</a></li>
 </ul></li>
 </ul>
 </nav></div>
