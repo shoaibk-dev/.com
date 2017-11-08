@@ -3,6 +3,13 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://khanhicetea.com/post/building-automated-ci-server-with-drone-and-docker/</loc>
+    <lastmod>2017-11-08T17:20:46+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <url>
     <loc>https://khanhicetea.com/xiny/how-i-learn-golang-goroutines-in-1-day/</loc>
     <lastmod>2017-10-26T18:56:33+07:00</lastmod>
     <changefreq>daily</changefreq>
@@ -718,7 +725,7 @@
   
   <url>
     <loc>https://khanhicetea.com/tags/ci/</loc>
-    <lastmod>2017-10-13T00:00:00+00:00</lastmod>
+    <lastmod>2017-11-08T17:20:46+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0</priority>
   </url>
@@ -851,14 +858,14 @@
   
   <url>
     <loc>https://khanhicetea.com/tags/docker/</loc>
-    <lastmod>2017-05-24T00:00:00+00:00</lastmod>
+    <lastmod>2017-11-08T17:20:46+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://khanhicetea.com/categories/docker/</loc>
-    <lastmod>2017-05-24T00:00:00+00:00</lastmod>
+    <lastmod>2017-11-08T17:20:46+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0</priority>
   </url>
@@ -886,7 +893,7 @@
   
   <url>
     <loc>https://khanhicetea.com/tags/english/</loc>
-    <lastmod>2017-10-26T18:56:33+07:00</lastmod>
+    <lastmod>2017-11-08T17:20:46+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0</priority>
   </url>
@@ -1089,7 +1096,7 @@
   
   <url>
     <loc>https://khanhicetea.com/</loc>
-    <lastmod>2017-10-26T18:56:33+07:00</lastmod>
+    <lastmod>2017-11-08T17:20:46+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0</priority>
   </url>
@@ -1292,7 +1299,7 @@
   
   <url>
     <loc>https://khanhicetea.com/post/</loc>
-    <lastmod>2017-09-29T22:26:54+07:00</lastmod>
+    <lastmod>2017-11-08T17:20:46+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0</priority>
   </url>
@@ -1495,7 +1502,7 @@
   
   <url>
     <loc>https://khanhicetea.com/categories/sysadmin/</loc>
-    <lastmod>2017-10-07T00:00:00+00:00</lastmod>
+    <lastmod>2017-11-08T17:20:46+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0</priority>
   </url>
@@ -1530,7 +1537,7 @@
   
   <url>
     <loc>https://khanhicetea.com/tags/testing/</loc>
-    <lastmod>2017-05-19T00:00:00+00:00</lastmod>
+    <lastmod>2017-11-08T17:20:46+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0</priority>
   </url>
