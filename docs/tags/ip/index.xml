@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ip on KhanhIceTea B(rain)-log</title>
+    <link>https://khanhicetea.com/tags/ip/</link>
+    <description>Recent content in Ip on KhanhIceTea B(rain)-log</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 13 Nov 2017 16:31:08 +0700</lastBuildDate>
+    
+	<atom:link href="https://khanhicetea.com/tags/ip/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Getting AWS, GCP and Azure IP ranges</title>
+      <link>https://khanhicetea.com/post/aws-gcp-azure-ip-ranges/</link>
+      <pubDate>Mon, 13 Nov 2017 16:31:08 +0700</pubDate>
+      
+      <guid>https://khanhicetea.com/post/aws-gcp-azure-ip-ranges/</guid>
+      <description>TL;DR This is my gist of result
+https://gist.github.com/khanhicetea/c6cc74b99ab336d58c2da7929c2de709
+Introdution These are 3 biggest cloud providers (from Amazon, Google and Microsoft). This is the way to get their IP ranges (IPv4).
+Amazon Web Service AWS update its IP ranges on this link : https://ip-ranges.amazonaws.com/ip-ranges.json
+# download ip-ranges.json file curl -o aws.json https://ip-ranges.amazonaws.com/ip-ranges.json # parse ip range with grep tool grep -o -E &#39;\d+\.\d+\.\d+\.\d+/\d+&#39; aws.json &amp;gt; aws.txt  The result are in aws.</description>
+    </item>
+    
+  </channel>
+</rss>
