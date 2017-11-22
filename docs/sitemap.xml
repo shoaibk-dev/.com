@@ -3,6 +3,13 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://khanhicetea.com/til/2017-11-22/</loc>
+    <lastmod>2017-11-22T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <url>
     <loc>https://khanhicetea.com/post/aws-gcp-azure-ip-ranges/</loc>
     <lastmod>2017-11-13T16:31:08+07:00</lastmod>
     <changefreq>daily</changefreq>
@@ -640,6 +647,13 @@
   </url>
   
   <url>
+    <loc>https://khanhicetea.com/tags/automation/</loc>
+    <lastmod>2017-11-22T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://khanhicetea.com/tags/b-happy/</loc>
     <lastmod>2017-02-26T20:41:11+07:00</lastmod>
     <changefreq>daily</changefreq>
@@ -732,7 +746,7 @@
   
   <url>
     <loc>https://khanhicetea.com/tags/ci/</loc>
-    <lastmod>2017-11-08T17:20:46+07:00</lastmod>
+    <lastmod>2017-11-22T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0</priority>
   </url>
@@ -858,7 +872,7 @@
   
   <url>
     <loc>https://khanhicetea.com/tags/devops/</loc>
-    <lastmod>2017-10-13T00:00:00+00:00</lastmod>
+    <lastmod>2017-11-22T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0</priority>
   </url>
@@ -879,14 +893,14 @@
   
   <url>
     <loc>https://khanhicetea.com/tags/docker/</loc>
-    <lastmod>2017-11-08T17:20:46+07:00</lastmod>
+    <lastmod>2017-11-22T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://khanhicetea.com/categories/docker/</loc>
-    <lastmod>2017-11-08T17:20:46+07:00</lastmod>
+    <lastmod>2017-11-22T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0</priority>
   </url>
@@ -970,14 +984,14 @@
   
   <url>
     <loc>https://khanhicetea.com/tags/git/</loc>
-    <lastmod>2017-06-13T00:00:00+00:00</lastmod>
+    <lastmod>2017-11-22T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://khanhicetea.com/categories/git/</loc>
-    <lastmod>2017-06-13T00:00:00+00:00</lastmod>
+    <lastmod>2017-11-22T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0</priority>
   </url>
@@ -1124,7 +1138,7 @@
   
   <url>
     <loc>https://khanhicetea.com/</loc>
-    <lastmod>2017-11-13T16:31:08+07:00</lastmod>
+    <lastmod>2017-11-22T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0</priority>
   </url>
@@ -1572,14 +1586,14 @@
   
   <url>
     <loc>https://khanhicetea.com/tags/til/</loc>
-    <lastmod>2017-10-20T00:00:00+00:00</lastmod>
+    <lastmod>2017-11-22T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://khanhicetea.com/til/</loc>
-    <lastmod>2017-10-20T00:00:00+00:00</lastmod>
+    <lastmod>2017-11-22T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0</priority>
   </url>
@@ -1593,7 +1607,7 @@
   
   <url>
     <loc>https://khanhicetea.com/categories/today-i-learned/</loc>
-    <lastmod>2017-10-20T00:00:00+00:00</lastmod>
+    <lastmod>2017-11-22T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0</priority>
   </url>
@@ -1685,6 +1699,13 @@
   <url>
     <loc>https://khanhicetea.com/tags/websocket/</loc>
     <lastmod>2015-12-04T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://khanhicetea.com/tags/workflow/</loc>
+    <lastmod>2017-11-22T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0</priority>
   </url>
