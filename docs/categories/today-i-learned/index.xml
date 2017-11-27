@@ -6,10 +6,21 @@
     <description>Recent content in Today I Learned on KhanhIceTea B(rain)-log</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 24 Nov 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 27 Nov 2017 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://khanhicetea.com/categories/today-i-learned/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>What I learned in 2017-11-27</title>
+      <link>https://khanhicetea.com/til/2017-11-27/</link>
+      <pubDate>Mon, 27 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://khanhicetea.com/til/2017-11-27/</guid>
+      <description>GIT Fastly conflict detector script Last month, I built a CI solution for our project and adding a conflict detector to our build commands. This script runned so slow because it will check all application files (and our application codebase has many of css, js files).
+This was the script
+#!/bin/bash grep -rli --exclude=conflict_detector.sh --exclude-dir={.git,vendor,node_modules} &amp;quot;&amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt; HEAD&amp;quot; . if [ $? -eq 0 ]; then exit 1 else exit 0 fi  Today, I think why don&amp;rsquo;t we just check recently updated files (in the latest commit) ?</description>
+    </item>
     
     <item>
       <title>What I learned in 2017-11-24</title>

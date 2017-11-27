@@ -34,17 +34,17 @@
     <meta name="theme-color" content="#ffffff">
 
     
-    <title>Random week #3 - KhanhIceTea B(rain)-log</title>
-    <meta property='og:title' content="Random week #3 - KhanhIceTea B(rain)-log">
+    <title>What I learned in 2017-11-27 - KhanhIceTea B(rain)-log</title>
+    <meta property='og:title' content="What I learned in 2017-11-27 - KhanhIceTea B(rain)-log">
     <meta property="og:type" content="article">
     
 
-    <meta property="og:url" content="https://khanhicetea.com/post/random-week-3/">
+    <meta property="og:url" content="https://khanhicetea.com/til/2017-11-27/">
     
-        <meta name="description" content="My third random week">
-        <meta property="og:description" content="My third random week">
+        <meta name="description" content="I learned in 2017-11-27 about til, ci, git, automation">
+        <meta property="og:description" content="I learned in 2017-11-27 about til, ci, git, automation">
     
-    <meta property="og:image" content="https://khanhicetea.com/images/2017/02/2-most-important-things.jpg">
+    
 
   </head>
 
@@ -61,19 +61,19 @@
 
 
 <div class="row">
-<div class="col-sm-9 single-post">
+<div class="col-sm-9">
 
     <article class="single" itemscope="itemscope" itemtype="http://schema.org/Article">
 
     <meta itemprop="mainEntityOfPage"  itemType="https://schema.org/WebPage" content="https://khanhicetea.com/"/>
-    <meta itemprop="dateModified" content="2017-02-26T00:00:00&#43;07:00">
-    <meta itemprop="headline" content="Random week #3">
-    <meta itemprop="description" content="Random game Last 2 days, my team went to play bowling. That was the first time we playing it. We had a good time to enjoy the moment playing together. The game is fun and interesting :D If you haven&rsquo;t try it yet, TRY IT ASAP !!!
-So what make this game interesting ?
- It&rsquo;s DEAD SIMPLE, just throw the ball, that&rsquo;s all It makes you feel like you throw your mood to destroy sorrowful, stressful and hateful.">
-    <meta itemprop="url" content="https://khanhicetea.com/post/random-week-3/">
+    <meta itemprop="dateModified" content="2017-11-27T00:00:00&#43;00:00">
+    <meta itemprop="headline" content="What I learned in 2017-11-27">
+    <meta itemprop="description" content="GIT Fastly conflict detector script Last month, I built a CI solution for our project and adding a conflict detector to our build commands. This script runned so slow because it will check all application files (and our application codebase has many of css, js files).
+This was the script
+#!/bin/bash grep -rli --exclude=conflict_detector.sh --exclude-dir={.git,vendor,node_modules} &quot;&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD&quot; . if [ $? -eq 0 ]; then exit 1 else exit 0 fi  Today, I think why don&rsquo;t we just check recently updated files (in the latest commit) ?">
+    <meta itemprop="url" content="https://khanhicetea.com/til/2017-11-27/">
     <div itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
-        <meta itemprop="url" content="https://khanhicetea.com/images/2017/02/2-most-important-things.jpg" />
+        <meta itemprop="url" content="https://khanhicetea.com/images/never_stop_learning.jpg" />
         <meta itemprop="width" content="800">
         <meta itemprop="height" content="800">
     </div>
@@ -89,80 +89,74 @@ So what make this game interesting ?
         <meta itemprop="name" content="KhanhIceTea">
     </div>
 
-    <div class="image" style="background-image: url(https://khanhicetea.com/images/2017/02/2-most-important-things.jpg);"></div>
+    <div class="image" style="background-image: url(https://khanhicetea.com/images/never_stop_learning.jpg);"></div>
 
     <header class="article-header">
-        <time class="label label-primary" itemprop="datePublished" pubdate="pubdate" datetime="2017-02-26T00:00:00&#43;07:00">Sun, Feb 26 2017, 00:00</time>
-        <h1 class="article-title">Random week #3</h1>
+        <time itemprop="datePublished" pubdate="pubdate" datetime="2017-11-27T00:00:00&#43;00:00">Mon, Nov 27, 2017</time>
+        <h1 class="article-title">What I learned in 2017-11-27</h1>
     </header>
 
     <div class="article-body" itemprop="articleBody">
         
 
-<h1 id="random-game">Random game</h1>
+<h1 id="git">GIT</h1>
 
-<p>Last 2 days, my team went to play bowling. That was the first time we playing it. We had a good time to enjoy the moment playing together. The game is fun and interesting :D If you haven&rsquo;t try it yet, TRY IT ASAP !!!</p>
+<h2 id="fastly-conflict-detector-script">Fastly conflict detector script</h2>
 
-<p>So what make this game interesting ?</p>
+<p>Last month, I built a CI solution for our project and adding a conflict detector to our build commands. This script runned so slow because it will check all application files (and our application codebase has many of css, js files).</p>
 
-<ol>
-<li>It&rsquo;s DEAD SIMPLE, just throw the ball, that&rsquo;s all</li>
-<li>It makes you feel like you throw your mood to destroy sorrowful, stressful and hateful. Trust me, people like destroying, somehow.</li>
-<li>It&rsquo;s unpredictable, don&rsquo;t believe it ? <a href="https://www.youtube.com/watch?v=KNUR8wT1UM8">Check this out</a></li>
-</ol>
+<p>This was the script</p>
 
-<p>Below is my team video :D</p>
+<pre><code class="language-bash">#!/bin/bash
 
+grep -rli --exclude=conflict_detector.sh --exclude-dir={.git,vendor,node_modules} &quot;&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD&quot; .
 
-<div style="position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;">
-  <iframe src="//www.youtube.com/embed/cDrqJs-jymU" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" allowfullscreen frameborder="0" title="YouTube Video"></iframe>
- </div>
+if [ $? -eq 0 ]; then
+    exit 1
+else
+    exit 0
+fi
+</code></pre>
 
+<p>Today, I think why don&rsquo;t we just check recently updated files (in the latest commit) ??? Then I have this new script</p>
 
-<h1 id="random-routine">Random routine</h1>
+<pre><code class="language-bash">#!/bin/bash
 
-<ul>
-<li>Wake up at 7:00AM, drink water (me and a flower), then push up 20 times</li>
-<li>Practice deep breathing</li>
-<li>Write down what I learned everyday (#til)</li>
-</ul>
+# New way :D
+CHANGED_FILES=$(git log --pretty=format: --name-only HEAD^..HEAD | sort | uniq)
 
-<p><em>After one week, my colleague goes to church after work with me everyday. This make me realize every idea or problem needs a frontier to do thing. NO FRONTIER NO CHANGE !</em></p>
+for f in $CHANGED_FILES
+do
+    if grep --exclude=conflict_detector.sh -q &quot;&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD&quot; $f
+    then
+        exit 1
+    fi
+done
 
-<p>Ah, this is <strong>BAO DOI flower</strong> mentioned above 😄</p>
+exit 0
+</code></pre>
 
-<p><img src="../../images/2017/02/hoa-bao-doi.jpg" alt="Hoa Bao Doi" /></p>
+<p><code>conflict_detector.sh</code> is the filename of script, we exclude it from check to make sure changing this file doesn&rsquo;t make it failed.</p>
 
-<h1 id="random-quote">Random quote</h1>
-
-<blockquote>
-<p>In theory of life, you want to GET thing, you have to GIVE something. In mathematics, want to forGET =&gt; have to forGIVE. - KhanhIceTea</p>
-</blockquote>
-
-<p>And the most important : forgive for yourself, first.</p>
-
-<h1 id="random-song">Random song</h1>
-
-
-<div style="position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;">
-  <iframe src="//www.youtube.com/embed/_6hv57b8tBM" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" allowfullscreen frameborder="0" title="YouTube Video"></iframe>
- </div>
-
-
-<blockquote>
-<p>Ngày bé cứ thích trò chơi trốn tìm. Lớn rồi mới thấy khó lắm ai ơi &hellip;</p>
-</blockquote>
-
-<p>&hellip;</p>
-
-<p><em>Khó là vì còn thuộc bảng cửu chương cmn đâu mà đọc năm, mười, mười lăm, ba mươi 🙄</em></p>
-
-<p><strong>Ref:</strong></p>
+<p><strong>Result</strong> (in my context) :</p>
 
 <ul>
-<li>Cover photo from <a href="https://quotefancy.com/quote/10325/Mark-Twain-The-two-most-important-days-in-your-life-are-the-day-you-are-born-and-the-day">QuoteFancy</a></li>
+<li>Old script : 12 seconds</li>
+<li>New script : ~ 50ms (200 times faster)</li>
 </ul>
 
+<blockquote>
+<p>be Automated, be Fast, but be Careful !</p>
+</blockquote>
+
+
+        <p>----------------------------</p>
+        <p>
+            // We constantly learn new things. I shared all of them on 
+            <a target="_blank" href="../../tags/til/">here</a> 
+            and 
+            <a target="_blank" href="https://github.com/khanhicetea/today-i-learned#what-i-learned">there</a>.
+        </p>
     </div>
 
     <div id="author-info">
@@ -172,24 +166,22 @@ So what make this game interesting ?
 </div>
 
     <aside>
-    <div class="section"><a href="https://khanhicetea.com/tags/random" class="label label-info">random</a> <a href="https://khanhicetea.com/tags/life" class="label label-info">life</a> <a href="https://khanhicetea.com/tags/english" class="label label-info">english</a> </div>
+    <div class="section"><a href="https://khanhicetea.com/tags/til" class="label label-info">til</a> <a href="https://khanhicetea.com/tags/ci" class="label label-info">ci</a> <a href="https://khanhicetea.com/tags/git" class="label label-info">git</a> <a href="https://khanhicetea.com/tags/automation" class="label label-info">automation</a> </div>
 
     <nav>
         <ul class="pager">
             
-            <li class="previous"><a href="https://khanhicetea.com/til/2017-02-23/"><span aria-hidden="true">&larr;</span> \b</a></li>
+            <li class="previous"><a href="https://khanhicetea.com/til/2017-11-24/"><span aria-hidden="true">&larr;</span> \b</a></li>
             
-            
-            <li class="next"><a href="https://khanhicetea.com/post/do-not-worry/"><span aria-hidden="true">&rarr;</span> Do not worry</a></li>
             
         </ul>
     </nav>
 
     <div class="section share">
-    <a href="http://www.facebook.com/sharer.php?src=bm&u=https%3a%2f%2fkhanhicetea.com%2fpost%2frandom-week-3%2f&t=Random%20week%20%233" onclick="window.open(this.href, 'PCwindow', 'width=550, height=350, menubar=no, toolbar=no, scrollbars=yes'); return false;"><i class="fa fa-facebook"></i></a>
-    <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fkhanhicetea.com%2fpost%2frandom-week-3%2f&text=Random%20week%20%233&tw_p=tweetbutton" onclick="window.open(this.href, 'PCwindow', 'width=550, height=350, menubar=no, toolbar=no, scrollbars=yes'); return false;"><i class="fa fa-twitter"></i></a>
-    <a href="https://plus.google.com/share?url=https%3a%2f%2fkhanhicetea.com%2fpost%2frandom-week-3%2f" onclick="window.open(this.href, 'PCwindow', 'width=550, height=350, menubar=no, toolbar=no, scrollbars=yes'); return false;"><i class="fa fa-google-plus"></i></a>
-    <a href="http://getpocket.com/edit?url=https%3a%2f%2fkhanhicetea.com%2fpost%2frandom-week-3%2f&title=Random%20week%20%233" onclick="window.open(this.href, 'PCwindow', 'width=550, height=350, menubar=no, toolbar=no, scrollbars=yes'); return false;"><i class="fa fa-get-pocket"></i></a>
+    <a href="http://www.facebook.com/sharer.php?src=bm&u=https%3a%2f%2fkhanhicetea.com%2ftil%2f2017-11-27%2f&t=What%20I%20learned%20in%202017-11-27" onclick="window.open(this.href, 'PCwindow', 'width=550, height=350, menubar=no, toolbar=no, scrollbars=yes'); return false;"><i class="fa fa-facebook"></i></a>
+    <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fkhanhicetea.com%2ftil%2f2017-11-27%2f&text=What%20I%20learned%20in%202017-11-27&tw_p=tweetbutton" onclick="window.open(this.href, 'PCwindow', 'width=550, height=350, menubar=no, toolbar=no, scrollbars=yes'); return false;"><i class="fa fa-twitter"></i></a>
+    <a href="https://plus.google.com/share?url=https%3a%2f%2fkhanhicetea.com%2ftil%2f2017-11-27%2f" onclick="window.open(this.href, 'PCwindow', 'width=550, height=350, menubar=no, toolbar=no, scrollbars=yes'); return false;"><i class="fa fa-google-plus"></i></a>
+    <a href="http://getpocket.com/edit?url=https%3a%2f%2fkhanhicetea.com%2ftil%2f2017-11-27%2f&title=What%20I%20learned%20in%202017-11-27" onclick="window.open(this.href, 'PCwindow', 'width=550, height=350, menubar=no, toolbar=no, scrollbars=yes'); return false;"><i class="fa fa-get-pocket"></i></a>
     </div>
 
     
@@ -220,10 +212,10 @@ dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
     <header><div class="title">TableOfContents</div></header>
     <div class="list-default"><nav id="TableOfContents">
 <ul>
-<li><a href="#random-game">Random game</a></li>
-<li><a href="#random-routine">Random routine</a></li>
-<li><a href="#random-quote">Random quote</a></li>
-<li><a href="#random-song">Random song</a></li>
+<li><a href="#git">GIT</a>
+<ul>
+<li><a href="#fastly-conflict-detector-script">Fastly conflict detector script</a></li>
+</ul></li>
 </ul>
 </nav></div>
   </div>
@@ -383,3 +375,4 @@ dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
 
   </body>
 </html>
+
