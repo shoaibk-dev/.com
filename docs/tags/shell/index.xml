@@ -12,7 +12,7 @@
     
     
     <item>
-      <title>What I learned in 2017-09-27</title>
+      <title>#TIL 2017-09-27 : sysadmin, shell, linux, til, keyboard, bash</title>
       <link>https://khanhicetea.com/til/2017-09-27/</link>
       <pubDate>Wed, 27 Sep 2017 00:00:00 +0000</pubDate>
       
@@ -25,7 +25,7 @@ So I dove in and look for all set options of BASH.</description>
     </item>
     
     <item>
-      <title>What I learned in 2017-09-26</title>
+      <title>#TIL 2017-09-26 : til, sysadmin, shell, bash</title>
       <link>https://khanhicetea.com/til/2017-09-26/</link>
       <pubDate>Tue, 26 Sep 2017 00:00:00 +0000</pubDate>
       
@@ -36,7 +36,7 @@ set +e errorCmd $1 echo &amp;quot;Still run here !&amp;quot;  SYSADMIN BASH retu
     </item>
     
     <item>
-      <title>What I learned in 2017-05-22</title>
+      <title>#TIL 2017-05-22 : sysadmin, shell, util, tool, compressing, til, bash</title>
       <link>https://khanhicetea.com/til/2017-05-22/</link>
       <pubDate>Mon, 22 May 2017 00:00:00 +0000</pubDate>
       
@@ -48,7 +48,7 @@ $ find [find_path] -name &amp;quot;*.php&amp;quot; -type [file_type] -exec [comm
     </item>
     
     <item>
-      <title>What I learned in 2017-05-19</title>
+      <title>#TIL 2017-05-19 : sysadmin, shell, testing, devops, til, automated, bash</title>
       <link>https://khanhicetea.com/til/2017-05-19/</link>
       <pubDate>Fri, 19 May 2017 00:00:00 +0000</pubDate>
       
@@ -59,7 +59,7 @@ So checking the conflicts code is required step before testing backend and deplo
     </item>
     
     <item>
-      <title>What I learned in 2016-03-26</title>
+      <title>#TIL 2016-03-26 : sysadmin, shell, command-line, shortcuts, til, bash</title>
       <link>https://khanhicetea.com/til/2016-03-26/</link>
       <pubDate>Sat, 26 Mar 2016 00:00:00 +0000</pubDate>
       

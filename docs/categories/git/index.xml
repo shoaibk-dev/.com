@@ -12,7 +12,7 @@
     
     
     <item>
-      <title>What I learned in 2017-11-27</title>
+      <title>#TIL 2017-11-27 : til, ci, git, automation</title>
       <link>https://khanhicetea.com/til/2017-11-27/</link>
       <pubDate>Mon, 27 Nov 2017 00:00:00 +0000</pubDate>
       
@@ -23,7 +23,7 @@ This was the script
     </item>
     
     <item>
-      <title>What I learned in 2017-11-22</title>
+      <title>#TIL 2017-11-22 : ci, git, workflow, devops, automation, til, docker</title>
       <link>https://khanhicetea.com/til/2017-11-22/</link>
       <pubDate>Wed, 22 Nov 2017 00:00:00 +0000</pubDate>
       
@@ -34,7 +34,7 @@ FROM mysql:5.7 # Remove mysql_ssl_rsa_setup to ignore setup SSL certs RUN rm -f 
     </item>
     
     <item>
-      <title>What I learned in 2017-06-13</title>
+      <title>#TIL 2017-06-13 : til, sysadmin, git, dev</title>
       <link>https://khanhicetea.com/til/2017-06-13/</link>
       <pubDate>Tue, 13 Jun 2017 00:00:00 +0000</pubDate>
       

@@ -12,7 +12,7 @@
     
     
     <item>
-      <title>What I learned in 2017-08-06</title>
+      <title>#TIL 2017-08-06 : sysadmin, java, kernel, til, linux, security, php, mistake</title>
       <link>https://khanhicetea.com/til/2017-08-06/</link>
       <pubDate>Sun, 06 Aug 2017 00:00:00 +0000</pubDate>
       
@@ -48,7 +48,7 @@ Of course, the working task will be fucked up. Database transaction, database mi
     </item>
     
     <item>
-      <title>What I learned in 2017-02-28</title>
+      <title>#TIL 2017-02-28 : til, database, php, mysql</title>
       <link>https://khanhicetea.com/til/2017-02-28/</link>
       <pubDate>Tue, 28 Feb 2017 00:00:00 +0000</pubDate>
       
@@ -60,7 +60,7 @@ Example code:
     </item>
     
     <item>
-      <title>What I learned in 2017-02-23</title>
+      <title>#TIL 2017-02-23 : english, database, quote, testing, til, phpunit, mysql, php, mistake</title>
       <link>https://khanhicetea.com/til/2017-02-23/</link>
       <pubDate>Thu, 23 Feb 2017 00:00:00 +0000</pubDate>
       
@@ -91,7 +91,7 @@ $ Virtualbox -h  Open the terminal and try this command to verify Vagrant is rea
     </item>
     
     <item>
-      <title>What I learned in 2016-03-08</title>
+      <title>#TIL 2016-03-08 : til, input, php, post-data</title>
       <link>https://khanhicetea.com/til/2016-03-08/</link>
       <pubDate>Tue, 08 Mar 2016 00:00:00 +0000</pubDate>
       
@@ -112,7 +112,7 @@ Let&amp;rsquo;s start pull PHP images docker pull php:5.6 docker pull php:7  Cha
     </item>
     
     <item>
-      <title>What I learned in 2015-12-04</title>
+      <title>#TIL 2015-12-04 : sysadmin, websocket, log, python, clone, ref-var, til, cli-server, docker, php</title>
       <link>https://khanhicetea.com/til/2015-12-04/</link>
       <pubDate>Fri, 04 Dec 2015 00:00:00 +0000</pubDate>
       
@@ -124,7 +124,7 @@ docker run -it -p 8080:8080 -v `pwd`:/code php:7 php -S 0.0.0.0:8080 -t /code/we
     </item>
     
     <item>
-      <title>What I learned in 2015-12-02</title>
+      <title>#TIL 2015-12-02 : til, php, eloquent</title>
       <link>https://khanhicetea.com/til/2015-12-02/</link>
       <pubDate>Wed, 02 Dec 2015 00:00:00 +0000</pubDate>
       

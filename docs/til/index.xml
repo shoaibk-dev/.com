@@ -12,7 +12,7 @@
     
     
     <item>
-      <title>What I learned in 2017-11-27</title>
+      <title>#TIL 2017-11-27 : til, ci, git, automation</title>
       <link>https://khanhicetea.com/til/2017-11-27/</link>
       <pubDate>Mon, 27 Nov 2017 00:00:00 +0000</pubDate>
       
@@ -23,7 +23,7 @@ This was the script
     </item>
     
     <item>
-      <title>What I learned in 2017-11-24</title>
+      <title>#TIL 2017-11-24 : til, sysadmin, dns, ip</title>
       <link>https://khanhicetea.com/til/2017-11-24/</link>
       <pubDate>Fri, 24 Nov 2017 00:00:00 +0000</pubDate>
       
@@ -33,7 +33,7 @@ This was the script
     </item>
     
     <item>
-      <title>What I learned in 2017-11-22</title>
+      <title>#TIL 2017-11-22 : ci, git, workflow, devops, automation, til, docker</title>
       <link>https://khanhicetea.com/til/2017-11-22/</link>
       <pubDate>Wed, 22 Nov 2017 00:00:00 +0000</pubDate>
       
@@ -44,7 +44,7 @@ FROM mysql:5.7 # Remove mysql_ssl_rsa_setup to ignore setup SSL certs RUN rm -f 
     </item>
     
     <item>
-      <title>What I learned in 2017-10-20</title>
+      <title>#TIL 2017-10-20 : til, tool, watch, linux</title>
       <link>https://khanhicetea.com/til/2017-10-20/</link>
       <pubDate>Fri, 20 Oct 2017 00:00:00 +0000</pubDate>
       
@@ -56,7 +56,7 @@ $ watch -n 1 -d go run learn.go  This command will compile and run learn.</descr
     </item>
     
     <item>
-      <title>What I learned in 2017-10-13</title>
+      <title>#TIL 2017-10-13 : ci, database, devops, indexes, til, netcat</title>
       <link>https://khanhicetea.com/til/2017-10-13/</link>
       <pubDate>Fri, 13 Oct 2017 00:00:00 +0000</pubDate>
       
@@ -66,7 +66,7 @@ $ watch -n 1 -d go run learn.go  This command will compile and run learn.</descr
     </item>
     
     <item>
-      <title>What I learned in 2017-10-07</title>
+      <title>#TIL 2017-10-07 : til, sysadmin, tool, networking</title>
       <link>https://khanhicetea.com/til/2017-10-07/</link>
       <pubDate>Sat, 07 Oct 2017 00:00:00 +0000</pubDate>
       
@@ -80,7 +80,7 @@ $ printf &amp;quot;GET /xinchao HTTP/1.1\r\n\r\n&amp;quot; | nc 127.0.0.1 8000 |
     </item>
     
     <item>
-      <title>What I learned in 2017-10-05</title>
+      <title>#TIL 2017-10-05 : til, python, bash</title>
       <link>https://khanhicetea.com/til/2017-10-05/</link>
       <pubDate>Thu, 05 Oct 2017 00:00:00 +0000</pubDate>
       
@@ -90,7 +90,7 @@ function server() { local port=&amp;quot;${1:-8000}&amp;quot; # Getting port num
     </item>
     
     <item>
-      <title>What I learned in 2017-10-04</title>
+      <title>#TIL 2017-10-04 : sysadmin, networking, smtp, til, time, mail, cpu</title>
       <link>https://khanhicetea.com/til/2017-10-04/</link>
       <pubDate>Wed, 04 Oct 2017 00:00:00 +0000</pubDate>
       
@@ -101,7 +101,7 @@ $ nslookup -type=mx gmail.com 8.8.8.8 Server: 8.8.8.8 Address: 8.8.8.8#53 Non-au
     </item>
     
     <item>
-      <title>What I learned in 2017-09-27</title>
+      <title>#TIL 2017-09-27 : sysadmin, shell, linux, til, keyboard, bash</title>
       <link>https://khanhicetea.com/til/2017-09-27/</link>
       <pubDate>Wed, 27 Sep 2017 00:00:00 +0000</pubDate>
       
@@ -114,7 +114,7 @@ So I dove in and look for all set options of BASH.</description>
     </item>
     
     <item>
-      <title>What I learned in 2017-09-26</title>
+      <title>#TIL 2017-09-26 : til, sysadmin, shell, bash</title>
       <link>https://khanhicetea.com/til/2017-09-26/</link>
       <pubDate>Tue, 26 Sep 2017 00:00:00 +0000</pubDate>
       
@@ -125,7 +125,7 @@ set +e errorCmd $1 echo &amp;quot;Still run here !&amp;quot;  SYSADMIN BASH retu
     </item>
     
     <item>
-      <title>What I learned in 2017-09-25</title>
+      <title>#TIL 2017-09-25 : sysadmin, networking, zip, firewall, compress, til, tools</title>
       <link>https://khanhicetea.com/til/2017-09-25/</link>
       <pubDate>Mon, 25 Sep 2017 00:00:00 +0000</pubDate>
       
@@ -137,7 +137,7 @@ TOOLS Zip compressing list of files To specify a list of compressed files when u
     </item>
     
     <item>
-      <title>What I learned in 2017-09-07</title>
+      <title>#TIL 2017-09-07 : til, sysadmin, networking</title>
       <link>https://khanhicetea.com/til/2017-09-07/</link>
       <pubDate>Thu, 07 Sep 2017 00:00:00 +0000</pubDate>
       
@@ -148,7 +148,7 @@ SYSADMIN Generate dhparam file faster openssl uses strong prime (which is useles
     </item>
     
     <item>
-      <title>What I learned in 2017-09-05</title>
+      <title>#TIL 2017-09-05 : til, sysadmin, ansible, grep</title>
       <link>https://khanhicetea.com/til/2017-09-05/</link>
       <pubDate>Tue, 05 Sep 2017 00:00:00 +0000</pubDate>
       
@@ -160,7 +160,7 @@ $ grep -nr &#39;[string]&#39; [folder]  If you want to show surrounding lines th
     </item>
     
     <item>
-      <title>What I learned in 2017-09-01</title>
+      <title>#TIL 2017-09-01 : sysadmin, cli, web, til, ssh, mysql, security, proxy</title>
       <link>https://khanhicetea.com/til/2017-09-01/</link>
       <pubDate>Fri, 01 Sep 2017 00:00:00 +0000</pubDate>
       
@@ -174,7 +174,7 @@ SYSADMIN Create SSH tunnel manually SSH Tunnel is a fast way to transfer traffic
     </item>
     
     <item>
-      <title>What I learned in 2017-08-10</title>
+      <title>#TIL 2017-08-10 : til, javascript</title>
       <link>https://khanhicetea.com/til/2017-08-10/</link>
       <pubDate>Thu, 10 Aug 2017 00:00:00 +0000</pubDate>
       
@@ -187,7 +187,7 @@ for (var i=1; i&amp;lt;=5; i++) { setTimeout( function timer(){ console.log( i )
     </item>
     
     <item>
-      <title>What I learned in 2017-08-08</title>
+      <title>#TIL 2017-08-08 : til, web, keyboard, google, linux</title>
       <link>https://khanhicetea.com/til/2017-08-08/</link>
       <pubDate>Tue, 08 Aug 2017 00:00:00 +0000</pubDate>
       
@@ -200,7 +200,7 @@ This is a example XMLRPC request (HTTP POST request with xml body)</description>
     </item>
     
     <item>
-      <title>What I learned in 2017-08-06</title>
+      <title>#TIL 2017-08-06 : sysadmin, java, kernel, til, linux, security, php, mistake</title>
       <link>https://khanhicetea.com/til/2017-08-06/</link>
       <pubDate>Sun, 06 Aug 2017 00:00:00 +0000</pubDate>
       
@@ -212,7 +212,7 @@ And what if old java applet can&amp;rsquo;t be runned on Java 8 because of weak 
     </item>
     
     <item>
-      <title>What I learned in 2017-08-04</title>
+      <title>#TIL 2017-08-04 : python, devops, free, til, heroku, http2, requests</title>
       <link>https://khanhicetea.com/til/2017-08-04/</link>
       <pubDate>Fri, 04 Aug 2017 00:00:00 +0000</pubDate>
       
@@ -224,7 +224,7 @@ Btw, I don&amp;rsquo;t recommend you keep service live but no use, it makes Hero
     </item>
     
     <item>
-      <title>What I learned in 2017-06-15</title>
+      <title>#TIL 2017-06-15 : til, sysadmin, gearman, queue</title>
       <link>https://khanhicetea.com/til/2017-06-15/</link>
       <pubDate>Thu, 15 Jun 2017 00:00:00 +0000</pubDate>
       
@@ -237,7 +237,7 @@ worker.sh
     </item>
     
     <item>
-      <title>What I learned in 2017-06-13</title>
+      <title>#TIL 2017-06-13 : til, sysadmin, git, dev</title>
       <link>https://khanhicetea.com/til/2017-06-13/</link>
       <pubDate>Tue, 13 Jun 2017 00:00:00 +0000</pubDate>
       
@@ -248,7 +248,7 @@ grep -lr &#39;&amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt;&#39; . | 
     </item>
     
     <item>
-      <title>What I learned in 2017-05-24</title>
+      <title>#TIL 2017-05-24 : til, sysadmin, docker</title>
       <link>https://khanhicetea.com/til/2017-05-24/</link>
       <pubDate>Wed, 24 May 2017 00:00:00 +0000</pubDate>
       
@@ -259,7 +259,7 @@ DOCKER Reducing docker image the right way When building an image, Docker engine
     </item>
     
     <item>
-      <title>What I learned in 2017-05-22</title>
+      <title>#TIL 2017-05-22 : sysadmin, shell, util, tool, compressing, til, bash</title>
       <link>https://khanhicetea.com/til/2017-05-22/</link>
       <pubDate>Mon, 22 May 2017 00:00:00 +0000</pubDate>
       
@@ -271,7 +271,7 @@ $ find [find_path] -name &amp;quot;*.php&amp;quot; -type [file_type] -exec [comm
     </item>
     
     <item>
-      <title>What I learned in 2017-05-19</title>
+      <title>#TIL 2017-05-19 : sysadmin, shell, testing, devops, til, automated, bash</title>
       <link>https://khanhicetea.com/til/2017-05-19/</link>
       <pubDate>Fri, 19 May 2017 00:00:00 +0000</pubDate>
       
@@ -282,7 +282,7 @@ So checking the conflicts code is required step before testing backend and deplo
     </item>
     
     <item>
-      <title>What I learned in 2017-05-18</title>
+      <title>#TIL 2017-05-18 : sysadmin, web, linux, til, error, cloudflare</title>
       <link>https://khanhicetea.com/til/2017-05-18/</link>
       <pubDate>Thu, 18 May 2017 00:00:00 +0000</pubDate>
       
@@ -293,7 +293,7 @@ $ YOUR_USERNAME ALL=(ALL:ALL) NOPASSWD:ALL  Then press :wq! to force saving the 
     </item>
     
     <item>
-      <title>What I learned in 2017-05-17</title>
+      <title>#TIL 2017-05-17 : til, sysadmin, compressing, rar, mysql</title>
       <link>https://khanhicetea.com/til/2017-05-17/</link>
       <pubDate>Wed, 17 May 2017 00:00:00 +0000</pubDate>
       
@@ -305,7 +305,7 @@ Notice rar and unrar in Linux isn&amp;rsquo;t same version and so don&amp;rsquo;
     </item>
     
     <item>
-      <title>What I learned in 2017-04-25</title>
+      <title>#TIL 2017-04-25 : til, sqlite, database</title>
       <link>https://khanhicetea.com/til/2017-04-25/</link>
       <pubDate>Tue, 25 Apr 2017 00:00:00 +0000</pubDate>
       
@@ -315,7 +315,7 @@ View all table : .tables Truncate table : delete from [table_name]; then run vac
     </item>
     
     <item>
-      <title>What I learned in 2017-04-21</title>
+      <title>#TIL 2017-04-21 : web, http, encoding, benchmark, til, tools</title>
       <link>https://khanhicetea.com/til/2017-04-21/</link>
       <pubDate>Fri, 21 Apr 2017 00:00:00 +0000</pubDate>
       
@@ -328,7 +328,7 @@ from flask import Flask from random import randint app = Flask(__name__) @app.</
     </item>
     
     <item>
-      <title>What I learned in 2017-02-28</title>
+      <title>#TIL 2017-02-28 : til, database, php, mysql</title>
       <link>https://khanhicetea.com/til/2017-02-28/</link>
       <pubDate>Tue, 28 Feb 2017 00:00:00 +0000</pubDate>
       
@@ -340,7 +340,7 @@ Example code:
     </item>
     
     <item>
-      <title>What I learned in 2017-02-23</title>
+      <title>#TIL 2017-02-23 : english, database, quote, testing, til, phpunit, mysql, php, mistake</title>
       <link>https://khanhicetea.com/til/2017-02-23/</link>
       <pubDate>Thu, 23 Feb 2017 00:00:00 +0000</pubDate>
       
@@ -351,7 +351,7 @@ mysql&amp;gt; select &#39;1&#39;, &#39;2&#39; union select &#39;2&#39;, &#39;1&#
     </item>
     
     <item>
-      <title>What I learned in 2017-02-17</title>
+      <title>#TIL 2017-02-17 : til, string, bug, mysql</title>
       <link>https://khanhicetea.com/til/2017-02-17/</link>
       <pubDate>Fri, 17 Feb 2017 00:00:00 +0000</pubDate>
       
@@ -360,7 +360,7 @@ mysql&amp;gt; select &#39;1&#39;, &#39;2&#39; union select &#39;2&#39;, &#39;1&#
     </item>
     
     <item>
-      <title>What I learned in 2016-03-26</title>
+      <title>#TIL 2016-03-26 : sysadmin, shell, command-line, shortcuts, til, bash</title>
       <link>https://khanhicetea.com/til/2016-03-26/</link>
       <pubDate>Sat, 26 Mar 2016 00:00:00 +0000</pubDate>
       
@@ -369,7 +369,7 @@ mysql&amp;gt; select &#39;1&#39;, &#39;2&#39; union select &#39;2&#39;, &#39;1&#
     </item>
     
     <item>
-      <title>What I learned in 2016-03-08</title>
+      <title>#TIL 2016-03-08 : til, input, php, post-data</title>
       <link>https://khanhicetea.com/til/2016-03-08/</link>
       <pubDate>Tue, 08 Mar 2016 00:00:00 +0000</pubDate>
       
@@ -379,7 +379,7 @@ I tried to config NGINX and PHPFPM max_post_size, client_max_body_size but they 
     </item>
     
     <item>
-      <title>What I learned in 2015-12-30</title>
+      <title>#TIL 2015-12-30 : til, sysadmin, command-line, bash</title>
       <link>https://khanhicetea.com/til/2015-12-30/</link>
       <pubDate>Wed, 30 Dec 2015 00:00:00 +0000</pubDate>
       
@@ -390,7 +390,7 @@ Eg:
     </item>
     
     <item>
-      <title>What I learned in 2015-12-04</title>
+      <title>#TIL 2015-12-04 : sysadmin, websocket, log, python, clone, ref-var, til, cli-server, docker, php</title>
       <link>https://khanhicetea.com/til/2015-12-04/</link>
       <pubDate>Fri, 04 Dec 2015 00:00:00 +0000</pubDate>
       
@@ -402,7 +402,7 @@ docker run -it -p 8080:8080 -v `pwd`:/code php:7 php -S 0.0.0.0:8080 -t /code/we
     </item>
     
     <item>
-      <title>What I learned in 2015-12-03</title>
+      <title>#TIL 2015-12-03 : til, sysadmin, curl, ftp</title>
       <link>https://khanhicetea.com/til/2015-12-03/</link>
       <pubDate>Thu, 03 Dec 2015 00:00:00 +0000</pubDate>
       
@@ -412,7 +412,7 @@ curl -T file_need_to_upload ftp://hostname --user user:passwd  </description>
     </item>
     
     <item>
-      <title>What I learned in 2015-12-02</title>
+      <title>#TIL 2015-12-02 : til, php, eloquent</title>
       <link>https://khanhicetea.com/til/2015-12-02/</link>
       <pubDate>Wed, 02 Dec 2015 00:00:00 +0000</pubDate>
       
@@ -423,7 +423,7 @@ We have the db schema :
     </item>
     
     <item>
-      <title>What I learned in 2015-12-01</title>
+      <title>#TIL 2015-12-01 : index, string, python, mysql, til, unicode, sql</title>
       <link>https://khanhicetea.com/til/2015-12-01/</link>
       <pubDate>Tue, 01 Dec 2015 00:00:00 +0000</pubDate>
       
@@ -434,7 +434,7 @@ WHERE `date` &amp;gt;= &#39;2015-11-01&#39; AND `date` &amp;lt; &#39;2015-12-01&
     </item>
     
     <item>
-      <title>What I learned in 2015-11-30</title>
+      <title>#TIL 2015-11-30 : shortcut-key, productivity, chrome-extension, til, mac-osx, chrome-dev</title>
       <link>https://khanhicetea.com/til/2015-11-30/</link>
       <pubDate>Mon, 30 Nov 2015 00:00:00 +0000</pubDate>
       

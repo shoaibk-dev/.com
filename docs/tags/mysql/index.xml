@@ -12,7 +12,7 @@
     
     
     <item>
-      <title>What I learned in 2017-09-01</title>
+      <title>#TIL 2017-09-01 : sysadmin, cli, web, til, ssh, mysql, security, proxy</title>
       <link>https://khanhicetea.com/til/2017-09-01/</link>
       <pubDate>Fri, 01 Sep 2017 00:00:00 +0000</pubDate>
       
@@ -26,7 +26,7 @@ SYSADMIN Create SSH tunnel manually SSH Tunnel is a fast way to transfer traffic
     </item>
     
     <item>
-      <title>What I learned in 2017-05-17</title>
+      <title>#TIL 2017-05-17 : til, sysadmin, compressing, rar, mysql</title>
       <link>https://khanhicetea.com/til/2017-05-17/</link>
       <pubDate>Wed, 17 May 2017 00:00:00 +0000</pubDate>
       
@@ -38,7 +38,7 @@ Notice rar and unrar in Linux isn&amp;rsquo;t same version and so don&amp;rsquo;
     </item>
     
     <item>
-      <title>What I learned in 2017-02-28</title>
+      <title>#TIL 2017-02-28 : til, database, php, mysql</title>
       <link>https://khanhicetea.com/til/2017-02-28/</link>
       <pubDate>Tue, 28 Feb 2017 00:00:00 +0000</pubDate>
       
@@ -50,7 +50,7 @@ Example code:
     </item>
     
     <item>
-      <title>What I learned in 2017-02-23</title>
+      <title>#TIL 2017-02-23 : english, database, quote, testing, til, phpunit, mysql, php, mistake</title>
       <link>https://khanhicetea.com/til/2017-02-23/</link>
       <pubDate>Thu, 23 Feb 2017 00:00:00 +0000</pubDate>
       
@@ -61,7 +61,7 @@ mysql&amp;gt; select &#39;1&#39;, &#39;2&#39; union select &#39;2&#39;, &#39;1&#
     </item>
     
     <item>
-      <title>What I learned in 2017-02-17</title>
+      <title>#TIL 2017-02-17 : til, string, bug, mysql</title>
       <link>https://khanhicetea.com/til/2017-02-17/</link>
       <pubDate>Fri, 17 Feb 2017 00:00:00 +0000</pubDate>
       
@@ -70,7 +70,7 @@ mysql&amp;gt; select &#39;1&#39;, &#39;2&#39; union select &#39;2&#39;, &#39;1&#
     </item>
     
     <item>
-      <title>What I learned in 2015-12-01</title>
+      <title>#TIL 2015-12-01 : index, string, python, mysql, til, unicode, sql</title>
       <link>https://khanhicetea.com/til/2015-12-01/</link>
       <pubDate>Tue, 01 Dec 2015 00:00:00 +0000</pubDate>
       

@@ -12,7 +12,7 @@
     
     
     <item>
-      <title>What I learned in 2017-10-07</title>
+      <title>#TIL 2017-10-07 : til, sysadmin, tool, networking</title>
       <link>https://khanhicetea.com/til/2017-10-07/</link>
       <pubDate>Sat, 07 Oct 2017 00:00:00 +0000</pubDate>
       
@@ -26,7 +26,7 @@ $ printf &amp;quot;GET /xinchao HTTP/1.1\r\n\r\n&amp;quot; | nc 127.0.0.1 8000 |
     </item>
     
     <item>
-      <title>What I learned in 2017-10-04</title>
+      <title>#TIL 2017-10-04 : sysadmin, networking, smtp, til, time, mail, cpu</title>
       <link>https://khanhicetea.com/til/2017-10-04/</link>
       <pubDate>Wed, 04 Oct 2017 00:00:00 +0000</pubDate>
       
@@ -37,7 +37,7 @@ $ nslookup -type=mx gmail.com 8.8.8.8 Server: 8.8.8.8 Address: 8.8.8.8#53 Non-au
     </item>
     
     <item>
-      <title>What I learned in 2017-09-25</title>
+      <title>#TIL 2017-09-25 : sysadmin, networking, zip, firewall, compress, til, tools</title>
       <link>https://khanhicetea.com/til/2017-09-25/</link>
       <pubDate>Mon, 25 Sep 2017 00:00:00 +0000</pubDate>
       
@@ -49,7 +49,7 @@ TOOLS Zip compressing list of files To specify a list of compressed files when u
     </item>
     
     <item>
-      <title>What I learned in 2017-09-07</title>
+      <title>#TIL 2017-09-07 : til, sysadmin, networking</title>
       <link>https://khanhicetea.com/til/2017-09-07/</link>
       <pubDate>Thu, 07 Sep 2017 00:00:00 +0000</pubDate>
       
