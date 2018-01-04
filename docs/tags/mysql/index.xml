@@ -6,10 +6,21 @@
     <description>Recent content in Mysql on KhanhIceTea B(rain)-log</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 01 Sep 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 04 Jan 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://khanhicetea.com/tags/mysql/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>#TIL 2018-01-04 : til, web, db, mysql</title>
+      <link>https://khanhicetea.com/til/2018-01-04/</link>
+      <pubDate>Thu, 04 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://khanhicetea.com/til/2018-01-04/</guid>
+      <description>MYSQL Sleeping connections in MySQL When you check your MySQL process list via command show processlist;, it will show you a useful table which provide all current connection details.
+&amp;ldquo;Sleep&amp;rdquo; state connections are most connection pointer waiting for the timeout to terminate. Then they still count as a connection. (Can cause MySQL connection limit error, which default equal 150 connections)
+So next time, remember to close your connection before terminating your app.</description>
+    </item>
     
     <item>
       <title>#TIL 2017-09-01 : sysadmin, cli, web, til, ssh, mysql, security, proxy</title>
