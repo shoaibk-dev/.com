@@ -388,14 +388,19 @@ dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
 
       ga('create', 'UA-50390703-1', 'auto');
 
-      jQuery.getJSON("https://api.ipify.org?format=json", function(data) {
-        ga('set', 'dimension1', data.ip);
-        ga('send', 'pageview');
-        setInterval(function() {
-            ga('send', 'pageview');
-        }, 60000);
+      jQuery.ajax({
+        url: "https://freegeoip.net/json/",
+        jsonp: "callback",
+        dataType: "jsonp",
+        success: function(geoip) {
+          ga('set', 'dimension1', geoip.ip);
+          ga('set', 'dimension2', geoip.city + ' - ' + geoip.country_name);
+          ga('send', 'pageview');
+          setInterval(function() {
+              ga('send', 'pageview');
+          }, 60000);
+        }
       });
-
     </script>
 
   </body>
