@@ -3,6 +3,13 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://khanhicetea.com/til/2018-01-10/</loc>
+    <lastmod>2018-01-10T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <url>
     <loc>https://khanhicetea.com/til/2018-01-08/</loc>
     <lastmod>2018-01-08T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
@@ -921,7 +928,7 @@
   
   <url>
     <loc>https://khanhicetea.com/tags/debug/</loc>
-    <lastmod>2018-01-07T00:00:00+00:00</lastmod>
+    <lastmod>2018-01-10T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0</priority>
   </url>
@@ -1187,14 +1194,14 @@
   
   <url>
     <loc>https://khanhicetea.com/tags/javascript/</loc>
-    <lastmod>2018-01-08T00:00:00+00:00</lastmod>
+    <lastmod>2018-01-10T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://khanhicetea.com/categories/javascript/</loc>
-    <lastmod>2018-01-07T00:00:00+00:00</lastmod>
+    <lastmod>2018-01-10T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0</priority>
   </url>
@@ -1229,7 +1236,7 @@
   
   <url>
     <loc>https://khanhicetea.com/</loc>
-    <lastmod>2018-01-08T00:00:00+00:00</lastmod>
+    <lastmod>2018-01-10T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0</priority>
   </url>
@@ -1684,14 +1691,14 @@
   
   <url>
     <loc>https://khanhicetea.com/tags/til/</loc>
-    <lastmod>2018-01-08T00:00:00+00:00</lastmod>
+    <lastmod>2018-01-10T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://khanhicetea.com/til/</loc>
-    <lastmod>2018-01-08T00:00:00+00:00</lastmod>
+    <lastmod>2018-01-10T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0</priority>
   </url>
@@ -1705,7 +1712,7 @@
   
   <url>
     <loc>https://khanhicetea.com/categories/today-i-learned/</loc>
-    <lastmod>2018-01-08T00:00:00+00:00</lastmod>
+    <lastmod>2018-01-10T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0</priority>
   </url>
@@ -1775,7 +1782,7 @@
   
   <url>
     <loc>https://khanhicetea.com/tags/web/</loc>
-    <lastmod>2018-01-08T00:00:00+00:00</lastmod>
+    <lastmod>2018-01-10T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0</priority>
   </url>

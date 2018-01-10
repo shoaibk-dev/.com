@@ -6,10 +6,20 @@
     <description>Recent content in Javascript on KhanhIceTea B(rain)-log</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 07 Jan 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 10 Jan 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://khanhicetea.com/categories/javascript/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>#TIL 2018-01-10 : til, web, javascript, debug</title>
+      <link>https://khanhicetea.com/til/2018-01-10/</link>
+      <pubDate>Wed, 10 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://khanhicetea.com/til/2018-01-10/</guid>
+      <description>JAVASCRIPT Tracking changes of cookie on webpage Using Object.defineProperty helper function as I wrote 3 days ago. We could track the changes of cookie on webpage.
+var cookieSetterOrig = document.__lookupSetter__(&amp;quot;cookie&amp;quot;); // get origin setter function var cookieGetterOrig = document.__lookupGetter__(&amp;quot;cookie&amp;quot;); // get origin getter function Object.defineProperty(document, &amp;quot;cookie&amp;quot;, { get: function () { console.trace(); return cookieGetterOrig.apply(document); }, set: function () { console.log(arguments); console.trace(); return cookieSetterOrig.apply(document, arguments); }, configurable: true });  Notice : This code only works if cookie is changed by javascript, not http header request !</description>
+    </item>
     
     <item>
       <title>#TIL 2018-01-07 : til, debug, javascript</title>
