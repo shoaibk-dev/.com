@@ -69,7 +69,7 @@
     <meta itemprop="dateModified" content="2018-01-10T00:00:00&#43;00:00">
     <meta itemprop="headline" content="#TIL 2018-01-10 : til, web, javascript, debug">
     <meta itemprop="description" content="JAVASCRIPT Tracking changes of cookie on webpage Using Object.defineProperty helper function as I wrote 3 days ago. We could track the changes of cookie on webpage.
-var cookieSetterOrig = document.__lookupSetter__(&quot;cookie&quot;); // get origin setter function var cookieGetterOrig = document.__lookupGetter__(&quot;cookie&quot;); // get origin getter function Object.defineProperty(document, &quot;cookie&quot;, { get: function () { console.trace(); return cookieGetterOrig.apply(document); }, set: function () { console.log(arguments); console.trace(); return cookieSetterOrig.apply(document, arguments); }, configurable: true });  Notice : This code only works if cookie is changed by javascript, not http header request !">
+// Based on Vlad Shevchenko&#39;s script at https://stackoverflow.com/a/36826049 var cookieSetterOrig = document.__lookupSetter__(&quot;cookie&quot;); // get origin setter function var cookieGetterOrig = document.__lookupGetter__(&quot;cookie&quot;); // get origin getter function Object.defineProperty(document, &quot;cookie&quot;, { get: function () { console.trace(); return cookieGetterOrig.apply(document); }, set: function () { console.log(arguments); console.trace(); return cookieSetterOrig.">
     <meta itemprop="url" content="https://khanhicetea.com/til/2018-01-10/">
     <div itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
         <meta itemprop="url" content="https://khanhicetea.com/images/never_stop_learning.jpg" />
@@ -104,7 +104,9 @@ var cookieSetterOrig = document.__lookupSetter__(&quot;cookie&quot;); // get ori
 
 <p>Using <code>Object.defineProperty</code> helper function as I wrote 3 days ago. We could track the changes of cookie on webpage.</p>
 
-<pre><code class="language-js">var cookieSetterOrig = document.__lookupSetter__(&quot;cookie&quot;); // get origin setter function
+<pre><code class="language-js">// Based on Vlad Shevchenko's script at https://stackoverflow.com/a/36826049
+
+var cookieSetterOrig = document.__lookupSetter__(&quot;cookie&quot;); // get origin setter function
 var cookieGetterOrig = document.__lookupGetter__(&quot;cookie&quot;); // get origin getter function
 Object.defineProperty(document, &quot;cookie&quot;, {
     get: function () {
