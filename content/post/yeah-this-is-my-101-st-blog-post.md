@@ -13,7 +13,7 @@ I start this blog from Nov 30, 2015. It means I have taken a **777-day journey**
 
 > 777 / 101 = 7.(6930)(6930)(6930)(6930)... days per post 😱 
 
-You know, sometimes we can't archive without help from the others. And yes, it's from you - who reading this line. You are the purpose, the Y (why) I wrote this thing.
+You know, sometimes we can't archive without help from the others. And yes, it's from you - who reading this line. You are the purpose, the (why) I wrote this thing.
 
 I know my writing skill isn't good, my ideas aren't new, unique or shiny, but I believe that I gave you something (at least for entertainment or wasting your time, haha). I believe that I will improve it as long as I write. Btw, I have a plan to stop writing when no one reads this blog for a month. Maybe the plan will never come true! Maybe not ?! 😜
 
