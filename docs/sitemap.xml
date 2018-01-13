@@ -3,6 +3,13 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://khanhicetea.com/post/yeah-this-is-my-101-st-blog-post/</loc>
+    <lastmod>2018-01-14T00:14:06+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <url>
     <loc>https://khanhicetea.com/til/2018-01-10/</loc>
     <lastmod>2018-01-10T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
@@ -1019,7 +1026,7 @@
   
   <url>
     <loc>https://khanhicetea.com/tags/english/</loc>
-    <lastmod>2017-12-14T22:00:00+07:00</lastmod>
+    <lastmod>2018-01-14T00:14:06+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0</priority>
   </url>
@@ -1166,7 +1173,7 @@
   
   <url>
     <loc>https://khanhicetea.com/tags/inspiration/</loc>
-    <lastmod>2017-12-31T23:59:59+07:00</lastmod>
+    <lastmod>2018-01-14T00:14:06+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0</priority>
   </url>
@@ -1236,7 +1243,7 @@
   
   <url>
     <loc>https://khanhicetea.com/</loc>
-    <lastmod>2018-01-10T00:00:00+00:00</lastmod>
+    <lastmod>2018-01-14T00:14:06+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0</priority>
   </url>
@@ -1264,14 +1271,14 @@
   
   <url>
     <loc>https://khanhicetea.com/tags/life/</loc>
-    <lastmod>2017-12-31T23:59:59+07:00</lastmod>
+    <lastmod>2018-01-14T00:14:06+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://khanhicetea.com/categories/life/</loc>
-    <lastmod>2017-12-31T23:59:59+07:00</lastmod>
+    <lastmod>2018-01-14T00:14:06+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0</priority>
   </url>
@@ -1446,7 +1453,7 @@
   
   <url>
     <loc>https://khanhicetea.com/post/</loc>
-    <lastmod>2017-12-31T23:59:59+07:00</lastmod>
+    <lastmod>2018-01-14T00:14:06+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0</priority>
   </url>
@@ -1811,6 +1818,13 @@
   <url>
     <loc>https://khanhicetea.com/tags/workflow/</loc>
     <lastmod>2017-11-22T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://khanhicetea.com/tags/writing/</loc>
+    <lastmod>2018-01-14T00:14:06+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0</priority>
   </url>

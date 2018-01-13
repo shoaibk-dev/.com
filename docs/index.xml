@@ -6,10 +6,22 @@
     <description>Recent content on KhanhIceTea B(rain)-log</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 10 Jan 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 14 Jan 2018 00:14:06 +0700</lastBuildDate>
     
 	<atom:link href="https://khanhicetea.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Yay ! This&#39;s my 101st blog post</title>
+      <link>https://khanhicetea.com/post/yeah-this-is-my-101-st-blog-post/</link>
+      <pubDate>Sun, 14 Jan 2018 00:14:06 +0700</pubDate>
+      
+      <guid>https://khanhicetea.com/post/yeah-this-is-my-101-st-blog-post/</guid>
+      <description>Hi there,
+I start this blog from Nov 30, 2015. It means I have taken a 777-day journey through every line, every single word of this blog. (Oh man ! It&amp;rsquo;s a lucky number !!!)
+ 777 / 101 = 7.(6930)(6930)(6930)(6930)&amp;hellip; days per post 😱
+ You know, sometimes we can&amp;rsquo;t archive without help from the others. And yes, it&amp;rsquo;s from you - who reading this line. You are the purpose, the Y (why) I wrote this thing.</description>
+    </item>
     
     <item>
       <title>#TIL 2018-01-10 : til, web, javascript, debug</title>
