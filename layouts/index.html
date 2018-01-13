@@ -1,7 +1,13 @@
 {{ partial "default_head.html" . }}
 <div class="row">
 <div class="col-sm-9">
-
+    <blockquote>
+        <p><span id="currentStatus"></span></p>
+    </blockquote>
+    <script>
+        window.typedString = ['{{ index $.Site.Data.timeline.stories 0 }}'];
+    </script>
+    <hr />
     <div class="articles">
     <div class="row">
         {{ range $key, $value := .Paginator.Pages }}
