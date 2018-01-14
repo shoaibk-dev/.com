@@ -104,7 +104,7 @@
     <item>
       <title>Javascript</title>
       <link>https://khanhicetea.com/categories/javascript/</link>
-      <pubDate>Wed, 10 Jan 2018 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 14 Jan 2018 00:00:00 +0000</pubDate>
       
       <guid>https://khanhicetea.com/categories/javascript/</guid>
       <description></description>
@@ -143,6 +143,15 @@
       <pubDate>Thu, 04 Jan 2018 00:00:00 +0000</pubDate>
       
       <guid>https://khanhicetea.com/categories/mysql/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Nature</title>
+      <link>https://khanhicetea.com/categories/nature/</link>
+      <pubDate>Sun, 14 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://khanhicetea.com/categories/nature/</guid>
       <description></description>
     </item>
     
@@ -239,7 +248,7 @@
     <item>
       <title>Today I Learned</title>
       <link>https://khanhicetea.com/categories/today-i-learned/</link>
-      <pubDate>Wed, 10 Jan 2018 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 14 Jan 2018 00:00:00 +0000</pubDate>
       
       <guid>https://khanhicetea.com/categories/today-i-learned/</guid>
       <description></description>

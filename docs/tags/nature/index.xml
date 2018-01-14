@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Nature on KhanhIceTea B(rain)-log</title>
+    <link>https://khanhicetea.com/tags/nature/</link>
+    <description>Recent content in Nature on KhanhIceTea B(rain)-log</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 14 Jan 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://khanhicetea.com/tags/nature/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>#TIL 2018-01-14 : til, jquery, emyeukhoahoc, javascript, nature</title>
+      <link>https://khanhicetea.com/til/2018-01-14/</link>
+      <pubDate>Sun, 14 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://khanhicetea.com/til/2018-01-14/</guid>
+      <description>JAVASCRIPT Trigger event after setting val in jQuery After setting value of an input via val method, we should call the change chaining method to trigger the onChange event of element.
+$(&#39;#selectCity&#39;).change(function() { console.log($(this).val()); }); $(&#39;#selectCity&#39;).val(&#39;HaNoi&#39;); // No trigger $(&#39;#selectCity&#39;).val(&#39;HoChiMinh&#39;).change(); // Fire trigger  NATURE Tại sao biển xanh lại mặn ? :lol: TLDR;
+ Biển xanh lại mặn bởi vì đá ở mặt đất cọ xát với mưa trên trời (chứ không phải cá nó đái 😂 )</description>
+    </item>
+    
+  </channel>
+</rss>
