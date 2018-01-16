@@ -6,10 +6,22 @@
     <description>Recent content in Security on KhanhIceTea B(rain)-log</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 03 Jan 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 16 Jan 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://khanhicetea.com/tags/security/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>#TIL 2018-01-16 : til, firewall, security, networking, linux</title>
+      <link>https://khanhicetea.com/til/2018-01-16/</link>
+      <pubDate>Tue, 16 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://khanhicetea.com/til/2018-01-16/</guid>
+      <description>LINUX Disable IPv6 to stop getting stuck in network I know IPv6 will be future for networking, but at this moment &amp;ldquo;It&amp;rsquo;s suck !&amp;rdquo; :(
+Some service will be failed when trying to connect IPv6 destination :
+ apt package manager smtp curl  So I decided to disable IPv6 on every production server.
+$ echo &amp;quot;net.ipv6.conf.all.disable_ipv6 = 1&amp;quot; | sudo tee -a /etc/sysctl.conf $ echo &amp;quot;net.ipv6.conf.default.disable_ipv6 = 1&amp;quot; | sudo tee -a /etc/sysctl.</description>
+    </item>
     
     <item>
       <title>#TIL 2018-01-03 : web, product, http, mobile, til, security</title>
