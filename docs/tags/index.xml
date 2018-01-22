@@ -6,7 +6,7 @@
     <description>Recent content in Tags on KhanhIceTea B(rain)-log</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 05 Sep 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 22 Jan 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://khanhicetea.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,7 +14,7 @@
     <item>
       <title>Ansible</title>
       <link>https://khanhicetea.com/tags/ansible/</link>
-      <pubDate>Tue, 05 Sep 2017 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 22 Jan 2018 00:00:00 +0000</pubDate>
       
       <guid>https://khanhicetea.com/tags/ansible/</guid>
       <description></description>
@@ -293,7 +293,7 @@
     <item>
       <title>Devops</title>
       <link>https://khanhicetea.com/tags/devops/</link>
-      <pubDate>Wed, 22 Nov 2017 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 22 Jan 2018 00:00:00 +0000</pubDate>
       
       <guid>https://khanhicetea.com/tags/devops/</guid>
       <description></description>
@@ -647,6 +647,15 @@
       <pubDate>Fri, 04 Dec 2015 00:00:00 +0000</pubDate>
       
       <guid>https://khanhicetea.com/tags/log/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Logging</title>
+      <link>https://khanhicetea.com/tags/logging/</link>
+      <pubDate>Mon, 22 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://khanhicetea.com/tags/logging/</guid>
       <description></description>
     </item>
     
@@ -1013,7 +1022,7 @@
     <item>
       <title>Sysadmin</title>
       <link>https://khanhicetea.com/tags/sysadmin/</link>
-      <pubDate>Fri, 24 Nov 2017 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 22 Jan 2018 00:00:00 +0000</pubDate>
       
       <guid>https://khanhicetea.com/tags/sysadmin/</guid>
       <description></description>
@@ -1040,7 +1049,7 @@
     <item>
       <title>Til</title>
       <link>https://khanhicetea.com/tags/til/</link>
-      <pubDate>Tue, 16 Jan 2018 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 22 Jan 2018 00:00:00 +0000</pubDate>
       
       <guid>https://khanhicetea.com/tags/til/</guid>
       <description></description>

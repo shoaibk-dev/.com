@@ -6,10 +6,21 @@
     <description>Recent content in Sysadmin on KhanhIceTea B(rain)-log</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 24 Nov 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 22 Jan 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://khanhicetea.com/tags/sysadmin/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>#TIL 2018-01-22 : til, sysadmin, ansible, logging, devops</title>
+      <link>https://khanhicetea.com/til/2018-01-22/</link>
+      <pubDate>Mon, 22 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://khanhicetea.com/til/2018-01-22/</guid>
+      <description>DEVOPS Ansible running host pattern Ansible supports pattern to select and filter running hosts from all hosts. Here is some common pattern
+ * : wildcard, standalone mean all group1,group2 : run hosts belong to group1 or group2 *.web : run hosts belongs to group matches pattern. Ex: backend.web, frontend.web all:!abc : run all hosts exclude hosts belongs to group abc   Infrastructure by code ;)
+ SYSADMIN Use journalctl to check system logs Logging and Monitoring are important factor for system admin.</description>
+    </item>
     
     <item>
       <title>#TIL 2017-11-24 : til, sysadmin, dns, ip</title>
