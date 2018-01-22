@@ -23,6 +23,7 @@ Too tired for doing same tasks over and over again. I made this script to help m
 - PHP 7.1 (with production .ini)
 - Composer (PHP package manager)
 - AND last but not least, **a congratuation message** !
+- Fully and updated script : [check my repo here](https://github.com/khanhicetea/kops)
 
 **Here is the script :**
 
