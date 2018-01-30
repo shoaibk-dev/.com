@@ -6,10 +6,21 @@
     <description>Recent content on KhanhIceTea B(rain)-log</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 25 Jan 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 30 Jan 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://khanhicetea.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>#TIL 2018-01-30 : til, editor, vim</title>
+      <link>https://khanhicetea.com/til/2018-01-30/</link>
+      <pubDate>Tue, 30 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://khanhicetea.com/til/2018-01-30/</guid>
+      <description>VIM Using mark to bookmark checkpoints in files Bookmarking a checkpoint will help you get back to it intermidately. Ex: your have to find some text to replace something but want to return back current position.
+Set a mark - [NORMAL MODE] , type m then follow by a letter from a-z (lowercase is filescope, uppercase for global scope - vim scope)
+Go to a mark - [NORMAL MODE] , type backstick ` then follow by the letter your marked above.</description>
+    </item>
     
     <item>
       <title>#TIL 2018-01-25 : til, logging, elasticsearch, system</title>

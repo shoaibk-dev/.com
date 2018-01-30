@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Vim on KhanhIceTea B(rain)-log</title>
+    <link>https://khanhicetea.com/categories/vim/</link>
+    <description>Recent content in Vim on KhanhIceTea B(rain)-log</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 30 Jan 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://khanhicetea.com/categories/vim/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>#TIL 2018-01-30 : til, editor, vim</title>
+      <link>https://khanhicetea.com/til/2018-01-30/</link>
+      <pubDate>Tue, 30 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://khanhicetea.com/til/2018-01-30/</guid>
+      <description>VIM Using mark to bookmark checkpoints in files Bookmarking a checkpoint will help you get back to it intermidately. Ex: your have to find some text to replace something but want to return back current position.
+Set a mark - [NORMAL MODE] , type m then follow by a letter from a-z (lowercase is filescope, uppercase for global scope - vim scope)
+Go to a mark - [NORMAL MODE] , type backstick ` then follow by the letter your marked above.</description>
+    </item>
+    
+  </channel>
+</rss>

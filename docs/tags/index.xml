@@ -327,6 +327,15 @@
     </item>
     
     <item>
+      <title>Editor</title>
+      <link>https://khanhicetea.com/tags/editor/</link>
+      <pubDate>Tue, 30 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://khanhicetea.com/tags/editor/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Elasticsearch</title>
       <link>https://khanhicetea.com/tags/elasticsearch/</link>
       <pubDate>Thu, 25 Jan 2018 00:00:00 +0000</pubDate>
@@ -1049,7 +1058,7 @@
     <item>
       <title>Til</title>
       <link>https://khanhicetea.com/tags/til/</link>
-      <pubDate>Thu, 25 Jan 2018 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 30 Jan 2018 00:00:00 +0000</pubDate>
       
       <guid>https://khanhicetea.com/tags/til/</guid>
       <description></description>
@@ -1124,6 +1133,15 @@
       <pubDate>Sun, 31 Dec 2017 23:59:59 +0700</pubDate>
       
       <guid>https://khanhicetea.com/tags/vietnamese/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Vim</title>
+      <link>https://khanhicetea.com/tags/vim/</link>
+      <pubDate>Tue, 30 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://khanhicetea.com/tags/vim/</guid>
       <description></description>
     </item>
     

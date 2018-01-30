@@ -257,7 +257,7 @@
     <item>
       <title>Today I Learned</title>
       <link>https://khanhicetea.com/categories/today-i-learned/</link>
-      <pubDate>Thu, 25 Jan 2018 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 30 Jan 2018 00:00:00 +0000</pubDate>
       
       <guid>https://khanhicetea.com/categories/today-i-learned/</guid>
       <description></description>
@@ -269,6 +269,15 @@
       <pubDate>Mon, 25 Sep 2017 00:00:00 +0000</pubDate>
       
       <guid>https://khanhicetea.com/categories/tools/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Vim</title>
+      <link>https://khanhicetea.com/categories/vim/</link>
+      <pubDate>Tue, 30 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://khanhicetea.com/categories/vim/</guid>
       <description></description>
     </item>
     
