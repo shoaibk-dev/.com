@@ -219,6 +219,15 @@
     </item>
     
     <item>
+      <title>Redis</title>
+      <link>https://khanhicetea.com/categories/redis/</link>
+      <pubDate>Wed, 31 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://khanhicetea.com/categories/redis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Skill</title>
       <link>https://khanhicetea.com/categories/skill/</link>
       <pubDate>Thu, 25 Aug 2016 00:36:10 +0700</pubDate>
@@ -257,7 +266,7 @@
     <item>
       <title>Today I Learned</title>
       <link>https://khanhicetea.com/categories/today-i-learned/</link>
-      <pubDate>Tue, 30 Jan 2018 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 31 Jan 2018 00:00:00 +0000</pubDate>
       
       <guid>https://khanhicetea.com/categories/today-i-learned/</guid>
       <description></description>
@@ -269,6 +278,15 @@
       <pubDate>Mon, 25 Sep 2017 00:00:00 +0000</pubDate>
       
       <guid>https://khanhicetea.com/categories/tools/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Varnish</title>
+      <link>https://khanhicetea.com/categories/varnish/</link>
+      <pubDate>Wed, 31 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://khanhicetea.com/categories/varnish/</guid>
       <description></description>
     </item>
     

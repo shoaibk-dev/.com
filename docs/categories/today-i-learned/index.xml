@@ -6,10 +6,21 @@
     <description>Recent content in Today I Learned on KhanhIceTea B(rain)-log</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 30 Jan 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 31 Jan 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://khanhicetea.com/categories/today-i-learned/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>#TIL 2018-01-31 : til, varnish, transaction, redis</title>
+      <link>https://khanhicetea.com/til/2018-01-31/</link>
+      <pubDate>Wed, 31 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://khanhicetea.com/til/2018-01-31/</guid>
+      <description>REDIS Transaction style in Redis In Redis, you can use transaction-style (mean queue commands then flush it once). It will improve performance in many case where latency or networking is slow.
+&amp;gt; SET hoge 2 OK &amp;gt; MULTI OK &amp;gt; INCR foo QUEUED &amp;gt; INCR hoge QUEUED &amp;gt; EXEC 1) (integer) 1 2) (integer) 1  MULTI command is begin transaction and EXEC command is commit transaction
+The result will be returned in order your command queue list.</description>
+    </item>
     
     <item>
       <title>#TIL 2018-01-30 : til, editor, vim</title>
