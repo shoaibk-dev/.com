@@ -6,10 +6,23 @@
     <description>Recent content in Networking on KhanhIceTea B(rain)-log</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 16 Jan 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 21 Feb 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://khanhicetea.com/categories/networking/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>#TIL 2018-02-21 : til, networking, vim</title>
+      <link>https://khanhicetea.com/til/2018-02-21/</link>
+      <pubDate>Wed, 21 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://khanhicetea.com/til/2018-02-21/</guid>
+      <description>NETWORKING List opening ports or listening UNIX sockets In Linux, you can use netstat to list all opening ports and listening UNIX sockets
+$ sudo netstat -npl  Tip to remember command : network stattistic - natual languge processing
+;)
+VIM Convert tabs to spaces This is my config to use 4 spaces instead tab
+filetype plugin indent on set tabstop=4 set shiftwidth=4 set expandtab  To convert existing file from tabs to spaces, use this command</description>
+    </item>
     
     <item>
       <title>#TIL 2018-01-16 : til, firewall, security, networking, linux</title>
