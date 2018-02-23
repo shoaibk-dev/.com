@@ -6,10 +6,23 @@
     <description>Recent content in Til on KhanhIceTea B(rain)-log</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 21 Feb 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 23 Feb 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://khanhicetea.com/tags/til/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>#TIL 2018-02-23 : til, docker, devops</title>
+      <link>https://khanhicetea.com/til/2018-02-23/</link>
+      <pubDate>Fri, 23 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://khanhicetea.com/til/2018-02-23/</guid>
+      <description>DOCKER Build lightweight image by using multistage Docker is great tool to build a pull-n-run application. But sometime, your image will be large if you build image from a big base image which has compliling toolbox.
+Ex:
+One-stage build
+FROM golang:1.9.2 WORKDIR /go/src/github.com/khanhicetea/test/ COPY . . RUN CGO_ENABLED=0 GOOS=linux go build . ENTRYPOINT [&amp;quot;/go/src/github.com/khanhicetea/test/test&amp;quot;]  Multi-stage builds
+FROM golang:1.9.2 WORKDIR /go/src/github.com/khanhicetea/test/ COPY . . RUN CGO_ENABLED=0 GOOS=linux go build .</description>
+    </item>
     
     <item>
       <title>#TIL 2018-02-21 : til, networking, vim</title>
