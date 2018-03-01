@@ -17,11 +17,10 @@
       <pubDate>Wed, 21 Feb 2018 00:00:00 +0000</pubDate>
       
       <guid>https://khanhicetea.com/til/2018-02-21/</guid>
-      <description>NETWORKING List opening ports or listening UNIX sockets In Linux, you can use netstat to list all opening ports and listening UNIX sockets
-$ sudo netstat -npl  Tip to remember command : network statistics - natual languge processing
-;)
-VIM Convert tabs to spaces This is my config to use 4 spaces instead tab
-filetype plugin indent on set tabstop=4 set shiftwidth=4 set expandtab  To convert existing file from tabs to spaces, use this command</description>
+      <description>VIM Convert tabs to spaces This is my config to use 4 spaces instead tab
+filetype plugin indent on set tabstop=4 set shiftwidth=4 set expandtab  To convert existing file from tabs to spaces, use this command
+:%retab  NETWORKING List opening ports or listening UNIX sockets In Linux, you can use netstat to list all opening ports and listening UNIX sockets
+$ sudo netstat -npl  Tip to remember command : network statistics - natual languge processing</description>
     </item>
     
     <item>

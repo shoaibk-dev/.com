@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <meta name="generator" content="Hugo 0.34" />
+    <meta name="generator" content="Hugo 0.26" />
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
     <link rel="author" href="../../humans.txt" />
@@ -41,8 +41,8 @@
 
     <meta property="og:url" content="https://khanhicetea.com/til/2017-05-24/">
     
-        <meta name="description" content="I learned in 2017-05-24 about Changing channel from alpha to stable will remove ALL DATA; Reducing docker image the right way">
-        <meta property="og:description" content="I learned in 2017-05-24 about Changing channel from alpha to stable will remove ALL DATA; Reducing docker image the right way">
+        <meta name="description" content="I learned in 2017-05-24 about Reducing docker image the right way; Changing channel from alpha to stable will remove ALL DATA">
+        <meta property="og:description" content="I learned in 2017-05-24 about Reducing docker image the right way; Changing channel from alpha to stable will remove ALL DATA">
     
     
 
@@ -68,9 +68,9 @@
     <meta itemprop="mainEntityOfPage"  itemType="https://schema.org/WebPage" content="https://khanhicetea.com/"/>
     <meta itemprop="dateModified" content="2017-05-24T00:00:00&#43;00:00">
     <meta itemprop="headline" content="#TIL 2017-05-24 : til, sysadmin, docker">
-    <meta itemprop="description" content="DOCKER Changing channel from alpha to stable will remove ALL DATA On MacOS, changing Docker channel will remove all data (includes volumes, images, networks and &hellip; everything).
-Because Docker on Mac using a minimal Linux machine to host docker engine, so changing machine means discarding all old data. So BECAREFUL !
-DOCKER Reducing docker image the right way When building an image, Docker engine commit file system layer on every command (RUN, ADD, COPY).">
+    <meta itemprop="description" content="DOCKER Reducing docker image the right way When building an image, Docker engine commit file system layer on every command (RUN, ADD, COPY). So next time you installing packages from package manager likes apt, yum, pacman, &hellip;remember clean their cache in same line.
+BAD WAY
+RUN apt-get update RUN apt-get install git # Something here # End of file RUN apt-get clean &amp;&amp; rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*  RIGHT WAY">
     <meta itemprop="url" content="https://khanhicetea.com/til/2017-05-24/">
     <div itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
         <meta itemprop="url" content="https://khanhicetea.com/images/never_stop_learning.jpg" />
@@ -101,14 +101,6 @@ DOCKER Reducing docker image the right way When building an image, Docker engine
 
 <h1 id="docker">DOCKER</h1>
 
-<h2 id="changing-channel-from-alpha-to-stable-will-remove-all-data">Changing channel from alpha to stable will remove ALL DATA</h2>
-
-<p>On MacOS, changing Docker channel will remove all data (includes volumes, images, networks and &hellip; everything).</p>
-
-<p>Because Docker on Mac using a minimal Linux machine to host docker engine, so changing machine means discarding all old data. So BECAREFUL !</p>
-
-<h1 id="docker-1">DOCKER</h1>
-
 <h2 id="reducing-docker-image-the-right-way">Reducing docker image the right way</h2>
 
 <p>When building an image, Docker engine commit file system layer on every command (RUN, ADD, COPY). So next time you installing packages from package manager likes apt, yum, pacman, &hellip;remember clean their cache in same line.</p>
@@ -128,6 +120,14 @@ RUN apt-get clean &amp;&amp; rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
 <pre><code>RUN apt-get update &amp;&amp; apt-get install -y git zip unzip &amp;&amp; apt-get clean &amp;&amp; rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 </code></pre>
+
+<h1 id="docker-1">DOCKER</h1>
+
+<h2 id="changing-channel-from-alpha-to-stable-will-remove-all-data">Changing channel from alpha to stable will remove ALL DATA</h2>
+
+<p>On MacOS, changing Docker channel will remove all data (includes volumes, images, networks and &hellip; everything).</p>
+
+<p>Because Docker on Mac using a minimal Linux machine to host docker engine, so changing machine means discarding all old data. So BECAREFUL !</p>
 
 
         <p>----------------------------</p>
@@ -196,11 +196,11 @@ dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
 <ul>
 <li><a href="#docker">DOCKER</a>
 <ul>
-<li><a href="#changing-channel-from-alpha-to-stable-will-remove-all-data">Changing channel from alpha to stable will remove ALL DATA</a></li>
+<li><a href="#reducing-docker-image-the-right-way">Reducing docker image the right way</a></li>
 </ul></li>
 <li><a href="#docker-1">DOCKER</a>
 <ul>
-<li><a href="#reducing-docker-image-the-right-way">Reducing docker image the right way</a></li>
+<li><a href="#changing-channel-from-alpha-to-stable-will-remove-all-data">Changing channel from alpha to stable will remove ALL DATA</a></li>
 </ul></li>
 </ul>
 </nav></div>
@@ -213,6 +213,18 @@ dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
   <div class="section">
     <header><div class="title">Latest Logs</div></header>
     <div class="content">
+      
+      <div class="sm"><article class="li">
+  <a href="https://khanhicetea.com/til/2018-03-01/" class="clearfix">
+    <div class="image" style="background-image: url(https://khanhicetea.com/images/kit_logo.png);"></div>
+    <div class="detail">
+      <h2 class="title">#TIL 2018-03-01 : web, sysadmin, http, til, security, hacking, browser</h2>
+      <time>Thu, Mar 1, 2018</time>
+      <div class="summary">I learned in 2018-03-01 about Sending Cookie in AJAX CORs request; Prevent source hacking from .git directory exposing</div>
+    </div>
+  </a>
+</article>
+</div>
       
       <div class="sm"><article class="li">
   <a href="https://khanhicetea.com/post/tan-man-1-nhanh-vs-cham/" class="clearfix">
@@ -244,7 +256,7 @@ dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
     <div class="detail">
       <h2 class="title">#TIL 2018-02-21 : til, networking, vim</h2>
       <time>Wed, Feb 21, 2018</time>
-      <div class="summary">I learned in 2018-02-21 about List opening ports or listening UNIX sockets; Convert tabs to spaces</div>
+      <div class="summary">I learned in 2018-02-21 about Convert tabs to spaces; List opening ports or listening UNIX sockets</div>
     </div>
   </a>
 </article>
@@ -262,18 +274,6 @@ dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
 </article>
 </div>
       
-      <div class="sm"><article class="li">
-  <a href="https://khanhicetea.com/post/hoc-nhung-ky-nang-nay-truoc-khi-ban-ngom/" class="clearfix">
-    <div class="image" style="background-image: url(https://khanhicetea.com/images/2018/02/learn-everything.jpeg);"></div>
-    <div class="detail">
-      <h2 class="title">Học những thứ này trước khi ngỏm !</h2>
-      <time>Thu, Feb 1, 2018</time>
-      <div class="summary">Học, học nữa, hộc máu ... </div>
-    </div>
-  </a>
-</article>
-</div>
-      
     </div>
   </div>
   
@@ -282,14 +282,14 @@ dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
   <div class="section taxonomies">
     <header><div class="title">Categories</div></header>
     <div class="content">
-      <a href="https://khanhicetea.com/categories/today-i-learned">today-i-learned [53]</a><a href="https://khanhicetea.com/categories/life">life [36]</a><a href="https://khanhicetea.com/categories/sysadmin">sysadmin [22]</a><a href="https://khanhicetea.com/categories/english">english [9]</a><a href="https://khanhicetea.com/categories/php">php [8]</a><a href="https://khanhicetea.com/categories/linux">linux [7]</a><a href="https://khanhicetea.com/categories/docker">docker [6]</a><a href="https://khanhicetea.com/categories/mysql">mysql [6]</a><a href="https://khanhicetea.com/categories/web">web [6]</a><a href="https://khanhicetea.com/categories/python">python [5]</a>
+      <a href="https://khanhicetea.com/categories/today-i-learned">today-i-learned [54]</a><a href="https://khanhicetea.com/categories/life">life [36]</a><a href="https://khanhicetea.com/categories/sysadmin">sysadmin [23]</a><a href="https://khanhicetea.com/categories/english">english [9]</a><a href="https://khanhicetea.com/categories/php">php [8]</a><a href="https://khanhicetea.com/categories/linux">linux [7]</a><a href="https://khanhicetea.com/categories/web">web [7]</a><a href="https://khanhicetea.com/categories/docker">docker [6]</a><a href="https://khanhicetea.com/categories/mysql">mysql [6]</a><a href="https://khanhicetea.com/categories/python">python [5]</a>
     </div>
   </div>
   
   <div class="section taxonomies">
     <header><div class="title">Tags</div></header>
     <div class="content">
-      <a href="https://khanhicetea.com/tags/til">til [53]</a><a href="https://khanhicetea.com/tags/english">english [43]</a><a href="https://khanhicetea.com/tags/life">life [35]</a><a href="https://khanhicetea.com/tags/sysadmin">sysadmin [23]</a><a href="https://khanhicetea.com/tags/random">random [21]</a><a href="https://khanhicetea.com/tags/vietnamese">vietnamese [16]</a><a href="https://khanhicetea.com/tags/php">php [11]</a><a href="https://khanhicetea.com/tags/web">web [10]</a><a href="https://khanhicetea.com/tags/bash">bash [9]</a><a href="https://khanhicetea.com/tags/devops">devops [9]</a>
+      <a href="https://khanhicetea.com/tags/til">til [54]</a><a href="https://khanhicetea.com/tags/english">english [43]</a><a href="https://khanhicetea.com/tags/life">life [35]</a><a href="https://khanhicetea.com/tags/sysadmin">sysadmin [24]</a><a href="https://khanhicetea.com/tags/random">random [21]</a><a href="https://khanhicetea.com/tags/vietnamese">vietnamese [16]</a><a href="https://khanhicetea.com/tags/php">php [11]</a><a href="https://khanhicetea.com/tags/web">web [11]</a><a href="https://khanhicetea.com/tags/bash">bash [9]</a><a href="https://khanhicetea.com/tags/devops">devops [9]</a>
     </div>
   </div>
   

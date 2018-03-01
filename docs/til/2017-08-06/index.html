@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <meta name="generator" content="Hugo 0.34" />
+    <meta name="generator" content="Hugo 0.26" />
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
     <link rel="author" href="../../humans.txt" />
@@ -41,8 +41,8 @@
 
     <meta property="og:url" content="https://khanhicetea.com/til/2017-08-06/">
     
-        <meta name="description" content="I learned in 2017-08-06 about Runing old java applets on brower; realpath function; Cleaning up old linux kernels">
-        <meta property="og:description" content="I learned in 2017-08-06 about Runing old java applets on brower; realpath function; Cleaning up old linux kernels">
+        <meta name="description" content="I learned in 2017-08-06 about realpath function; Runing old java applets on brower; Cleaning up old linux kernels">
+        <meta property="og:description" content="I learned in 2017-08-06 about realpath function; Runing old java applets on brower; Cleaning up old linux kernels">
     
     
 
@@ -68,10 +68,10 @@
     <meta itemprop="mainEntityOfPage"  itemType="https://schema.org/WebPage" content="https://khanhicetea.com/"/>
     <meta itemprop="dateModified" content="2017-08-06T00:00:00&#43;00:00">
     <meta itemprop="headline" content="#TIL 2017-08-06 : sysadmin, java, kernel, til, linux, security, php, mistake">
-    <meta itemprop="description" content="JAVA Runing old java applets on brower Mostly morden browser has stop support Java plugins, so you can&rsquo;t run Java applet on browser.
-Temporary way : - run in IE or Safari - run in an old Firefox (version 23)
-And what if old java applet can&rsquo;t be runned on Java 8 because of weak signature algorithm. Try this
- Open java.security file :  In MacOS, located in /Library/Java/JavaVirtualMachines/jdk[jdk-version].">
+    <meta itemprop="description" content="PHP realpath function If you pass a non-exists path to function realpath, it returns empty string. So please don&rsquo;t do something like :
+function storage_path($folder) { return realpath(__DIR__.&#39;/storage/&#39;.$folder); }  if you expect it return full path of new folder !
+JAVA Runing old java applets on brower Mostly morden browser has stop support Java plugins, so you can&rsquo;t run Java applet on browser.
+Temporary way : - run in IE or Safari - run in an old Firefox (version 23)">
     <meta itemprop="url" content="https://khanhicetea.com/til/2017-08-06/">
     <div itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
         <meta itemprop="url" content="https://khanhicetea.com/images/never_stop_learning.jpg" />
@@ -100,6 +100,19 @@ And what if old java applet can&rsquo;t be runned on Java 8 because of weak sign
     <div class="article-body" itemprop="articleBody">
         
 
+<h1 id="php">PHP</h1>
+
+<h2 id="realpath-function">realpath function</h2>
+
+<p>If you pass a non-exists path to function <code>realpath</code>, it returns empty string. So please don&rsquo;t do something like :</p>
+
+<pre><code class="language-php">function storage_path($folder) {
+	return realpath(__DIR__.'/storage/'.$folder);
+}
+</code></pre>
+
+<p>if you expect it return full path of new folder !</p>
+
 <h1 id="java">JAVA</h1>
 
 <h2 id="runing-old-java-applets-on-brower">Runing old java applets on brower</h2>
@@ -122,19 +135,6 @@ And what if old java applet can&rsquo;t be runned on Java 8 because of weak sign
 <li>Comment this line, <code>jdk.certpath.disabledAlgorithms=MD2, MD5, RSA keySize &lt; 1024</code></li>
 <li>Rerun applet</li>
 </ul>
-
-<h1 id="php">PHP</h1>
-
-<h2 id="realpath-function">realpath function</h2>
-
-<p>If you pass a non-exists path to function <code>realpath</code>, it returns empty string. So please don&rsquo;t do something like :</p>
-
-<pre><code class="language-php">function storage_path($folder) {
-	return realpath(__DIR__.'/storage/'.$folder);
-}
-</code></pre>
-
-<p>if you expect it return full path of new folder !</p>
 
 <h1 id="sysadmin">SYSADMIN</h1>
 
@@ -232,13 +232,13 @@ dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
     <header><div class="title">TableOfContents</div></header>
     <div class="list-default"><nav id="TableOfContents">
 <ul>
-<li><a href="#java">JAVA</a>
-<ul>
-<li><a href="#runing-old-java-applets-on-brower">Runing old java applets on brower</a></li>
-</ul></li>
 <li><a href="#php">PHP</a>
 <ul>
 <li><a href="#realpath-function">realpath function</a></li>
+</ul></li>
+<li><a href="#java">JAVA</a>
+<ul>
+<li><a href="#runing-old-java-applets-on-brower">Runing old java applets on brower</a></li>
 </ul></li>
 <li><a href="#sysadmin">SYSADMIN</a>
 <ul>
@@ -255,6 +255,18 @@ dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
   <div class="section">
     <header><div class="title">Latest Logs</div></header>
     <div class="content">
+      
+      <div class="sm"><article class="li">
+  <a href="https://khanhicetea.com/til/2018-03-01/" class="clearfix">
+    <div class="image" style="background-image: url(https://khanhicetea.com/images/kit_logo.png);"></div>
+    <div class="detail">
+      <h2 class="title">#TIL 2018-03-01 : web, sysadmin, http, til, security, hacking, browser</h2>
+      <time>Thu, Mar 1, 2018</time>
+      <div class="summary">I learned in 2018-03-01 about Sending Cookie in AJAX CORs request; Prevent source hacking from .git directory exposing</div>
+    </div>
+  </a>
+</article>
+</div>
       
       <div class="sm"><article class="li">
   <a href="https://khanhicetea.com/post/tan-man-1-nhanh-vs-cham/" class="clearfix">
@@ -286,7 +298,7 @@ dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
     <div class="detail">
       <h2 class="title">#TIL 2018-02-21 : til, networking, vim</h2>
       <time>Wed, Feb 21, 2018</time>
-      <div class="summary">I learned in 2018-02-21 about List opening ports or listening UNIX sockets; Convert tabs to spaces</div>
+      <div class="summary">I learned in 2018-02-21 about Convert tabs to spaces; List opening ports or listening UNIX sockets</div>
     </div>
   </a>
 </article>
@@ -304,18 +316,6 @@ dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
 </article>
 </div>
       
-      <div class="sm"><article class="li">
-  <a href="https://khanhicetea.com/post/hoc-nhung-ky-nang-nay-truoc-khi-ban-ngom/" class="clearfix">
-    <div class="image" style="background-image: url(https://khanhicetea.com/images/2018/02/learn-everything.jpeg);"></div>
-    <div class="detail">
-      <h2 class="title">Học những thứ này trước khi ngỏm !</h2>
-      <time>Thu, Feb 1, 2018</time>
-      <div class="summary">Học, học nữa, hộc máu ... </div>
-    </div>
-  </a>
-</article>
-</div>
-      
     </div>
   </div>
   
@@ -324,14 +324,14 @@ dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
   <div class="section taxonomies">
     <header><div class="title">Categories</div></header>
     <div class="content">
-      <a href="https://khanhicetea.com/categories/today-i-learned">today-i-learned [53]</a><a href="https://khanhicetea.com/categories/life">life [36]</a><a href="https://khanhicetea.com/categories/sysadmin">sysadmin [22]</a><a href="https://khanhicetea.com/categories/english">english [9]</a><a href="https://khanhicetea.com/categories/php">php [8]</a><a href="https://khanhicetea.com/categories/linux">linux [7]</a><a href="https://khanhicetea.com/categories/docker">docker [6]</a><a href="https://khanhicetea.com/categories/mysql">mysql [6]</a><a href="https://khanhicetea.com/categories/web">web [6]</a><a href="https://khanhicetea.com/categories/python">python [5]</a>
+      <a href="https://khanhicetea.com/categories/today-i-learned">today-i-learned [54]</a><a href="https://khanhicetea.com/categories/life">life [36]</a><a href="https://khanhicetea.com/categories/sysadmin">sysadmin [23]</a><a href="https://khanhicetea.com/categories/english">english [9]</a><a href="https://khanhicetea.com/categories/php">php [8]</a><a href="https://khanhicetea.com/categories/linux">linux [7]</a><a href="https://khanhicetea.com/categories/web">web [7]</a><a href="https://khanhicetea.com/categories/docker">docker [6]</a><a href="https://khanhicetea.com/categories/mysql">mysql [6]</a><a href="https://khanhicetea.com/categories/python">python [5]</a>
     </div>
   </div>
   
   <div class="section taxonomies">
     <header><div class="title">Tags</div></header>
     <div class="content">
-      <a href="https://khanhicetea.com/tags/til">til [53]</a><a href="https://khanhicetea.com/tags/english">english [43]</a><a href="https://khanhicetea.com/tags/life">life [35]</a><a href="https://khanhicetea.com/tags/sysadmin">sysadmin [23]</a><a href="https://khanhicetea.com/tags/random">random [21]</a><a href="https://khanhicetea.com/tags/vietnamese">vietnamese [16]</a><a href="https://khanhicetea.com/tags/php">php [11]</a><a href="https://khanhicetea.com/tags/web">web [10]</a><a href="https://khanhicetea.com/tags/bash">bash [9]</a><a href="https://khanhicetea.com/tags/devops">devops [9]</a>
+      <a href="https://khanhicetea.com/tags/til">til [54]</a><a href="https://khanhicetea.com/tags/english">english [43]</a><a href="https://khanhicetea.com/tags/life">life [35]</a><a href="https://khanhicetea.com/tags/sysadmin">sysadmin [24]</a><a href="https://khanhicetea.com/tags/random">random [21]</a><a href="https://khanhicetea.com/tags/vietnamese">vietnamese [16]</a><a href="https://khanhicetea.com/tags/php">php [11]</a><a href="https://khanhicetea.com/tags/web">web [11]</a><a href="https://khanhicetea.com/tags/bash">bash [9]</a><a href="https://khanhicetea.com/tags/devops">devops [9]</a>
     </div>
   </div>
   

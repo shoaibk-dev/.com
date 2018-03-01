@@ -6,10 +6,21 @@
     <description>Recent content in Security on KhanhIceTea B(rain)-log</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 16 Jan 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 01 Mar 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://khanhicetea.com/tags/security/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>#TIL 2018-03-01 : web, sysadmin, http, til, security, hacking, browser</title>
+      <link>https://khanhicetea.com/til/2018-03-01/</link>
+      <pubDate>Thu, 01 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://khanhicetea.com/til/2018-03-01/</guid>
+      <description>WEB Sending Cookie in AJAX CORs request By default, browser will remove the cookie and authorization header from AJAX CORs request. So before sending out the request, make sure withCredentials must be true.
+In this case, CORs response must specify which origin is allowed (mean no wildcard allowed origin rule).
+SYSADMIN Prevent source hacking from .git directory exposing Many web project use Git as source version control tools. So in production server, we could expose the hidden .</description>
+    </item>
     
     <item>
       <title>#TIL 2018-01-16 : til, firewall, security, networking, linux</title>
@@ -54,10 +65,10 @@ SYSADMIN Create SSH tunnel manually SSH Tunnel is a fast way to transfer traffic
       <pubDate>Sun, 06 Aug 2017 00:00:00 +0000</pubDate>
       
       <guid>https://khanhicetea.com/til/2017-08-06/</guid>
-      <description>JAVA Runing old java applets on brower Mostly morden browser has stop support Java plugins, so you can&amp;rsquo;t run Java applet on browser.
-Temporary way : - run in IE or Safari - run in an old Firefox (version 23)
-And what if old java applet can&amp;rsquo;t be runned on Java 8 because of weak signature algorithm. Try this
- Open java.security file :  In MacOS, located in /Library/Java/JavaVirtualMachines/jdk[jdk-version].</description>
+      <description>PHP realpath function If you pass a non-exists path to function realpath, it returns empty string. So please don&amp;rsquo;t do something like :
+function storage_path($folder) { return realpath(__DIR__.&#39;/storage/&#39;.$folder); }  if you expect it return full path of new folder !
+JAVA Runing old java applets on brower Mostly morden browser has stop support Java plugins, so you can&amp;rsquo;t run Java applet on browser.
+Temporary way : - run in IE or Safari - run in an old Firefox (version 23)</description>
     </item>
     
   </channel>

@@ -6,10 +6,21 @@
     <description>Recent content in Http on KhanhIceTea B(rain)-log</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 03 Jan 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 01 Mar 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://khanhicetea.com/tags/http/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>#TIL 2018-03-01 : web, sysadmin, http, til, security, hacking, browser</title>
+      <link>https://khanhicetea.com/til/2018-03-01/</link>
+      <pubDate>Thu, 01 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://khanhicetea.com/til/2018-03-01/</guid>
+      <description>WEB Sending Cookie in AJAX CORs request By default, browser will remove the cookie and authorization header from AJAX CORs request. So before sending out the request, make sure withCredentials must be true.
+In this case, CORs response must specify which origin is allowed (mean no wildcard allowed origin rule).
+SYSADMIN Prevent source hacking from .git directory exposing Many web project use Git as source version control tools. So in production server, we could expose the hidden .</description>
+    </item>
     
     <item>
       <title>#TIL 2018-01-03 : web, product, http, mobile, til, security</title>
@@ -28,11 +39,9 @@ The key of problem is detecting user platform, which can be done by extracting t
       <pubDate>Fri, 21 Apr 2017 00:00:00 +0000</pubDate>
       
       <guid>https://khanhicetea.com/til/2017-04-21/</guid>
-      <description>HTTP ab failed responses When benchmarking a HTTP application server using ab tool, you shouldn&amp;rsquo;t only care about how many requests per second, but percentage of Success responses.
-A notice that you must have the same content-length in responses, because ab tool will assume response having different content-length from Document Length (in ab result) is failed response.
-Example
-Webserver using Flask
-from flask import Flask from random import randint app = Flask(__name__) @app.</description>
+      <description>TOOLS Base 64 encode and decode builtin tool Browsers have helpers function to encode and decode base64 :
+ btoa : base64 encode atob : base64 decode  &amp;gt; btoa(&#39;Hello world&#39;) &amp;quot;SGVsbG8gV29ybGQgIQ==&amp;quot; &amp;gt; atob(&#39;SW4gR29kIFdlIFRydXN0ICE=&#39;) &amp;quot;In God We Trust !&amp;quot;  HTTP ab failed responses When benchmarking a HTTP application server using ab tool, you shouldn&amp;rsquo;t only care about how many requests per second, but percentage of Success responses.
+A notice that you must have the same content-length in responses, because ab tool will assume response having different content-length from Document Length (in ab result) is failed response.</description>
     </item>
     
   </channel>
