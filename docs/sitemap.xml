@@ -3,6 +3,13 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://khanhicetea.com/post/di-cam/</loc>
+    <lastmod>2018-03-19T23:21:18+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <url>
     <loc>https://khanhicetea.com/til/2018-03-14/</loc>
     <lastmod>2018-03-14T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
@@ -1355,7 +1362,7 @@
   
   <url>
     <loc>https://khanhicetea.com/tags/journey/</loc>
-    <lastmod>2018-02-14T23:04:54+07:00</lastmod>
+    <lastmod>2018-03-19T23:21:18+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0</priority>
   </url>
@@ -1397,7 +1404,7 @@
   
   <url>
     <loc>https://khanhicetea.com/</loc>
-    <lastmod>2018-03-14T00:00:00+00:00</lastmod>
+    <lastmod>2018-03-19T23:21:18+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0</priority>
   </url>
@@ -1432,14 +1439,14 @@
   
   <url>
     <loc>https://khanhicetea.com/tags/life/</loc>
-    <lastmod>2018-02-23T23:44:52+07:00</lastmod>
+    <lastmod>2018-03-19T23:21:18+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://khanhicetea.com/categories/life/</loc>
-    <lastmod>2018-02-23T23:44:52+07:00</lastmod>
+    <lastmod>2018-03-19T23:21:18+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0</priority>
   </url>
@@ -1635,7 +1642,7 @@
   
   <url>
     <loc>https://khanhicetea.com/post/</loc>
-    <lastmod>2018-02-23T23:44:52+07:00</lastmod>
+    <lastmod>2018-03-19T23:21:18+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0</priority>
   </url>
@@ -2013,7 +2020,7 @@
   
   <url>
     <loc>https://khanhicetea.com/tags/vietnamese/</loc>
-    <lastmod>2018-02-23T23:44:52+07:00</lastmod>
+    <lastmod>2018-03-19T23:21:18+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0</priority>
   </url>
