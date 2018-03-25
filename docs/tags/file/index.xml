@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>File on KhanhIceTea B(rain)-log</title>
+    <link>https://khanhicetea.com/tags/file/</link>
+    <description>Recent content in File on KhanhIceTea B(rain)-log</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 25 Mar 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://khanhicetea.com/tags/file/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>#TIL 2018-03-25 : til, sysadmin, string, file</title>
+      <link>https://khanhicetea.com/til/2018-03-25/</link>
+      <pubDate>Sun, 25 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://khanhicetea.com/til/2018-03-25/</guid>
+      <description>SYSADMIN Create a sequence of numbers In the past, every time I want to create a sequence of numbers. I have to use something like MS EXCEL, then copy it and paste to text editor. It&amp;rsquo;s tricky way and slow !
+Now, I can use the handy tool seq to achieve that
+man seq
+SEQ(1) User Commands SEQ(1) NAME seq - print a sequence of numbers SYNOPSIS seq [OPTION]... LAST seq [OPTION].</description>
+    </item>
+    
+  </channel>
+</rss>

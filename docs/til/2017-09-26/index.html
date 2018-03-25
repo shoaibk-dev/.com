@@ -41,8 +41,8 @@
 
     <meta property="og:url" content="https://khanhicetea.com/til/2017-09-26/">
     
-        <meta name="description" content="I learned in 2017-09-26 about BASH return a value in function; BASH exiting on first error">
-        <meta property="og:description" content="I learned in 2017-09-26 about BASH return a value in function; BASH exiting on first error">
+        <meta name="description" content="I learned in 2017-09-26 about BASH exiting on first error; BASH return a value in function">
+        <meta property="og:description" content="I learned in 2017-09-26 about BASH exiting on first error; BASH return a value in function">
     
     
 
@@ -68,9 +68,9 @@
     <meta itemprop="mainEntityOfPage"  itemType="https://schema.org/WebPage" content="https://khanhicetea.com/"/>
     <meta itemprop="dateModified" content="2017-09-26T00:00:00&#43;00:00">
     <meta itemprop="headline" content="#TIL 2017-09-26 : til, sysadmin, shell, bash">
-    <meta itemprop="description" content="SYSADMIN BASH return a value in function Creating function is a good way to refactor your bash script. But BASH doesn&rsquo;t support returning a value in true way, so it makes a bit of challenge to handle that.
-You can use this trick
-hello() { echo &quot;Hello $1&quot; } hw=$(hello &quot;KhanhIceTea&quot;) echo $hw  But what if you want to echo log message in hello function, it will be merged to returned value.">
+    <meta itemprop="description" content="SYSADMIN BASH exiting on first error Setting a flag set -e to bash script will let the script exit on first error occurs, so if you want to ignore a command just adding || true to suffix
+set -e errorCmd $1 || true echo &quot;Run here !&quot;  And opposite of set -e is set &#43;e, haha of course !
+set &#43;e errorCmd $1 echo &quot;Still run here !&quot;  SYSADMIN BASH return a value in function Creating function is a good way to refactor your bash script.">
     <meta itemprop="url" content="https://khanhicetea.com/til/2017-09-26/">
     <div itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
         <meta itemprop="url" content="https://khanhicetea.com/images/never_stop_learning.jpg" />
@@ -100,6 +100,26 @@ hello() { echo &quot;Hello $1&quot; } hw=$(hello &quot;KhanhIceTea&quot;) echo $
         
 
 <h1 id="sysadmin">SYSADMIN</h1>
+
+<h2 id="bash-exiting-on-first-error">BASH exiting on first error</h2>
+
+<p>Setting a flag <code>set -e</code> to bash script will let the script exit on first error occurs, so if you want to ignore a command just adding <code>|| true</code> to suffix</p>
+
+<pre><code class="language-bash">set -e
+
+errorCmd $1 || true
+echo &quot;Run here !&quot;
+</code></pre>
+
+<p>And opposite of <code>set -e</code> is <code>set +e</code>, haha of course !</p>
+
+<pre><code class="language-bash">set +e
+
+errorCmd $1
+echo &quot;Still run here !&quot;
+</code></pre>
+
+<h1 id="sysadmin-1">SYSADMIN</h1>
 
 <h2 id="bash-return-a-value-in-function">BASH return a value in function</h2>
 
@@ -142,26 +162,6 @@ echo $hw
 <blockquote>
 <p>Where there is a shell, there is a way !</p>
 </blockquote>
-
-<h1 id="sysadmin-1">SYSADMIN</h1>
-
-<h2 id="bash-exiting-on-first-error">BASH exiting on first error</h2>
-
-<p>Setting a flag <code>set -e</code> to bash script will let the script exit on first error occurs, so if you want to ignore a command just adding <code>|| true</code> to suffix</p>
-
-<pre><code class="language-bash">set -e
-
-errorCmd $1 || true
-echo &quot;Run here !&quot;
-</code></pre>
-
-<p>And opposite of <code>set -e</code> is <code>set +e</code>, haha of course !</p>
-
-<pre><code class="language-bash">set +e
-
-errorCmd $1
-echo &quot;Still run here !&quot;
-</code></pre>
 
 
         <p>----------------------------</p>
@@ -230,11 +230,11 @@ dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
 <ul>
 <li><a href="#sysadmin">SYSADMIN</a>
 <ul>
-<li><a href="#bash-return-a-value-in-function">BASH return a value in function</a></li>
+<li><a href="#bash-exiting-on-first-error">BASH exiting on first error</a></li>
 </ul></li>
 <li><a href="#sysadmin-1">SYSADMIN</a>
 <ul>
-<li><a href="#bash-exiting-on-first-error">BASH exiting on first error</a></li>
+<li><a href="#bash-return-a-value-in-function">BASH return a value in function</a></li>
 </ul></li>
 </ul>
 </nav></div>
@@ -247,6 +247,18 @@ dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
   <div class="section">
     <header><div class="title">Latest Logs</div></header>
     <div class="content">
+      
+      <div class="sm"><article class="li">
+  <a href="https://khanhicetea.com/til/2018-03-25/" class="clearfix">
+    <div class="image" style="background-image: url(https://khanhicetea.com/images/kit_logo.png);"></div>
+    <div class="detail">
+      <h2 class="title">#TIL 2018-03-25 : til, sysadmin, string, file</h2>
+      <time>Sun, Mar 25, 2018</time>
+      <div class="summary">I learned in 2018-03-25 about Create a sequence of numbers; Cut file content from line to line; Prepend line number to file</div>
+    </div>
+  </a>
+</article>
+</div>
       
       <div class="sm"><article class="li">
   <a href="https://khanhicetea.com/post/di-cam/" class="clearfix">
@@ -266,7 +278,7 @@ dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
     <div class="detail">
       <h2 class="title">#TIL 2018-03-14 : til, ssl, security, ios, dns</h2>
       <time>Wed, Mar 14, 2018</time>
-      <div class="summary">I learned in 2018-03-14 about Install CA root certificate on iOS device; Flush DNS cache on iOS device</div>
+      <div class="summary">I learned in 2018-03-14 about Flush DNS cache on iOS device; Install CA root certificate on iOS device</div>
     </div>
   </a>
 </article>
@@ -276,9 +288,9 @@ dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
   <a href="https://khanhicetea.com/til/2018-03-01/" class="clearfix">
     <div class="image" style="background-image: url(https://khanhicetea.com/images/kit_logo.png);"></div>
     <div class="detail">
-      <h2 class="title">#TIL 2018-03-01 : web, sysadmin, http, til, security, hacking, browser</h2>
+      <h2 class="title">#TIL 2018-03-01 : sysadmin, http, web, til, security, hacking, browser</h2>
       <time>Thu, Mar 1, 2018</time>
-      <div class="summary">I learned in 2018-03-01 about Sending Cookie in AJAX CORs request; Prevent source hacking from .git directory exposing</div>
+      <div class="summary">I learned in 2018-03-01 about Prevent source hacking from .git directory exposing; Sending Cookie in AJAX CORs request</div>
     </div>
   </a>
 </article>
@@ -296,18 +308,6 @@ dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
 </article>
 </div>
       
-      <div class="sm"><article class="li">
-  <a href="https://khanhicetea.com/til/2018-02-23/" class="clearfix">
-    <div class="image" style="background-image: url(https://khanhicetea.com/images/kit_logo.png);"></div>
-    <div class="detail">
-      <h2 class="title">#TIL 2018-02-23 : til, docker, devops</h2>
-      <time>Fri, Feb 23, 2018</time>
-      <div class="summary">I learned in 2018-02-23 about Build lightweight image by using multistage</div>
-    </div>
-  </a>
-</article>
-</div>
-      
     </div>
   </div>
   
@@ -316,14 +316,14 @@ dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
   <div class="section taxonomies">
     <header><div class="title">Categories</div></header>
     <div class="content">
-      <a href="https://khanhicetea.com/categories/today-i-learned">today-i-learned [55]</a><a href="https://khanhicetea.com/categories/life">life [37]</a><a href="https://khanhicetea.com/categories/sysadmin">sysadmin [23]</a><a href="https://khanhicetea.com/categories/english">english [9]</a><a href="https://khanhicetea.com/categories/php">php [8]</a><a href="https://khanhicetea.com/categories/linux">linux [7]</a><a href="https://khanhicetea.com/categories/web">web [7]</a><a href="https://khanhicetea.com/categories/docker">docker [6]</a><a href="https://khanhicetea.com/categories/mysql">mysql [6]</a><a href="https://khanhicetea.com/categories/python">python [5]</a>
+      <a href="https://khanhicetea.com/categories/today-i-learned">today-i-learned [56]</a><a href="https://khanhicetea.com/categories/life">life [37]</a><a href="https://khanhicetea.com/categories/sysadmin">sysadmin [24]</a><a href="https://khanhicetea.com/categories/english">english [9]</a><a href="https://khanhicetea.com/categories/php">php [8]</a><a href="https://khanhicetea.com/categories/linux">linux [7]</a><a href="https://khanhicetea.com/categories/web">web [7]</a><a href="https://khanhicetea.com/categories/docker">docker [6]</a><a href="https://khanhicetea.com/categories/mysql">mysql [6]</a><a href="https://khanhicetea.com/categories/python">python [5]</a>
     </div>
   </div>
   
   <div class="section taxonomies">
     <header><div class="title">Tags</div></header>
     <div class="content">
-      <a href="https://khanhicetea.com/tags/til">til [55]</a><a href="https://khanhicetea.com/tags/english">english [43]</a><a href="https://khanhicetea.com/tags/life">life [36]</a><a href="https://khanhicetea.com/tags/sysadmin">sysadmin [24]</a><a href="https://khanhicetea.com/tags/random">random [21]</a><a href="https://khanhicetea.com/tags/vietnamese">vietnamese [17]</a><a href="https://khanhicetea.com/tags/php">php [11]</a><a href="https://khanhicetea.com/tags/web">web [11]</a><a href="https://khanhicetea.com/tags/bash">bash [9]</a><a href="https://khanhicetea.com/tags/devops">devops [9]</a>
+      <a href="https://khanhicetea.com/tags/til">til [56]</a><a href="https://khanhicetea.com/tags/english">english [43]</a><a href="https://khanhicetea.com/tags/life">life [36]</a><a href="https://khanhicetea.com/tags/sysadmin">sysadmin [25]</a><a href="https://khanhicetea.com/tags/random">random [21]</a><a href="https://khanhicetea.com/tags/vietnamese">vietnamese [17]</a><a href="https://khanhicetea.com/tags/php">php [11]</a><a href="https://khanhicetea.com/tags/web">web [11]</a><a href="https://khanhicetea.com/tags/bash">bash [9]</a><a href="https://khanhicetea.com/tags/devops">devops [9]</a>
     </div>
   </div>
   

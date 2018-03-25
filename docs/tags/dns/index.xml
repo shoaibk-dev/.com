@@ -17,9 +17,8 @@
       <pubDate>Wed, 14 Mar 2018 00:00:00 +0000</pubDate>
       
       <guid>https://khanhicetea.com/til/2018-03-14/</guid>
-      <description>IOS Install CA root certificate on iOS device Disclaimer : ⚠️ You can do it, but it&amp;rsquo;s at your own risk !
-Sometimes you want to accept a SSL firewall proxy or self-MITM proxy, the important step is installing its CA root certificate to your device. Because iOS apps almost use all https connections (that&amp;rsquo;s new rule).
-This is the way to install and enable custom CA Root cert :</description>
+      <description>IOS Flush DNS cache on iOS device There are 2 simple ways to clear DNS cache on iOS devices :
+ (FASTER) Just enable the Airplane Mode, wait 10 seconds and disable it (SLOWER) Reboot the device ! ;) You know this always be classic answer for many questions :D  IOS Install CA root certificate on iOS device Disclaimer : ⚠️ You can do it, but it&amp;rsquo;s at your own risk !</description>
     </item>
     
     <item>

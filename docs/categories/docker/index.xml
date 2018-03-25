@@ -52,9 +52,9 @@ Setup This guide will assume you already have Docker and Docker Compose tool.</d
       <pubDate>Wed, 24 May 2017 00:00:00 +0000</pubDate>
       
       <guid>https://khanhicetea.com/til/2017-05-24/</guid>
-      <description>DOCKER Reducing docker image the right way When building an image, Docker engine commit file system layer on every command (RUN, ADD, COPY). So next time you installing packages from package manager likes apt, yum, pacman, &amp;hellip;remember clean their cache in same line.
-BAD WAY
-RUN apt-get update RUN apt-get install git # Something here # End of file RUN apt-get clean &amp;amp;&amp;amp; rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*  RIGHT WAY</description>
+      <description>DOCKER Changing channel from alpha to stable will remove ALL DATA On MacOS, changing Docker channel will remove all data (includes volumes, images, networks and &amp;hellip; everything).
+Because Docker on Mac using a minimal Linux machine to host docker engine, so changing machine means discarding all old data. So BECAREFUL !
+DOCKER Reducing docker image the right way When building an image, Docker engine commit file system layer on every command (RUN, ADD, COPY).</description>
     </item>
     
     <item>

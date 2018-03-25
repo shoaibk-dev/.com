@@ -34,15 +34,15 @@
     <meta name="theme-color" content="#ffffff">
 
     
-    <title>#TIL 2018-03-01 : web, sysadmin, http, til, security, hacking, browser - KhanhIceTea B(rain)-log</title>
-    <meta property='og:title' content="#TIL 2018-03-01 : web, sysadmin, http, til, security, hacking, browser - KhanhIceTea B(rain)-log">
+    <title>#TIL 2018-03-01 : sysadmin, http, web, til, security, hacking, browser - KhanhIceTea B(rain)-log</title>
+    <meta property='og:title' content="#TIL 2018-03-01 : sysadmin, http, web, til, security, hacking, browser - KhanhIceTea B(rain)-log">
     <meta property="og:type" content="article">
     
 
     <meta property="og:url" content="https://khanhicetea.com/til/2018-03-01/">
     
-        <meta name="description" content="I learned in 2018-03-01 about Sending Cookie in AJAX CORs request; Prevent source hacking from .git directory exposing">
-        <meta property="og:description" content="I learned in 2018-03-01 about Sending Cookie in AJAX CORs request; Prevent source hacking from .git directory exposing">
+        <meta name="description" content="I learned in 2018-03-01 about Prevent source hacking from .git directory exposing; Sending Cookie in AJAX CORs request">
+        <meta property="og:description" content="I learned in 2018-03-01 about Prevent source hacking from .git directory exposing; Sending Cookie in AJAX CORs request">
     
     
 
@@ -67,10 +67,10 @@
 
     <meta itemprop="mainEntityOfPage"  itemType="https://schema.org/WebPage" content="https://khanhicetea.com/"/>
     <meta itemprop="dateModified" content="2018-03-01T00:00:00&#43;00:00">
-    <meta itemprop="headline" content="#TIL 2018-03-01 : web, sysadmin, http, til, security, hacking, browser">
-    <meta itemprop="description" content="WEB Sending Cookie in AJAX CORs request By default, browser will remove the cookie and authorization header from AJAX CORs request. So before sending out the request, make sure withCredentials must be true.
-In this case, CORs response must specify which origin is allowed (mean no wildcard allowed origin rule).
-SYSADMIN Prevent source hacking from .git directory exposing Many web project use Git as source version control tools. So in production server, we could expose the hidden .">
+    <meta itemprop="headline" content="#TIL 2018-03-01 : sysadmin, http, web, til, security, hacking, browser">
+    <meta itemprop="description" content="SYSADMIN Prevent source hacking from .git directory exposing Many web project use Git as source version control tools. So in production server, we could expose the hidden .git directory - which contains all most infomation about project source code.
+To &ldquo;rip&rdquo; a source code from a vulnerable website, we can use this tool : https://github.com/kost/dvcs-ripper#git
+So to prevent this happens, try to deny all http access to hidden files and directories (usually starts by .">
     <meta itemprop="url" content="https://khanhicetea.com/til/2018-03-01/">
     <div itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
         <meta itemprop="url" content="https://khanhicetea.com/images/never_stop_learning.jpg" />
@@ -93,21 +93,11 @@ SYSADMIN Prevent source hacking from .git directory exposing Many web project us
 
     <header class="article-header">
         <time itemprop="datePublished" pubdate="pubdate" datetime="2018-03-01T00:00:00&#43;00:00">Thu, Mar 1, 2018</time>
-        <h1 class="article-title">#TIL 2018-03-01 : web, sysadmin, http, til, security, hacking, browser</h1>
+        <h1 class="article-title">#TIL 2018-03-01 : sysadmin, http, web, til, security, hacking, browser</h1>
     </header>
 
     <div class="article-body" itemprop="articleBody">
         
-
-<h1 id="web">WEB</h1>
-
-<h2 id="sending-cookie-in-ajax-cors-request">Sending Cookie in AJAX CORs request</h2>
-
-<p>By default, browser will remove the cookie and authorization header from AJAX CORs request. So
-before sending out the request, make sure <code>withCredentials</code> must be true.</p>
-
-<p>In this case, CORs response must specify which origin is allowed (mean
-no wildcard allowed origin rule).</p>
 
 <h1 id="sysadmin">SYSADMIN</h1>
 
@@ -129,6 +119,16 @@ directories (usually starts by <code>.</code> character)</p>
 }
 </code></pre>
 
+<h1 id="web">WEB</h1>
+
+<h2 id="sending-cookie-in-ajax-cors-request">Sending Cookie in AJAX CORs request</h2>
+
+<p>By default, browser will remove the cookie and authorization header from AJAX CORs request. So
+before sending out the request, make sure <code>withCredentials</code> must be true.</p>
+
+<p>In this case, CORs response must specify which origin is allowed (mean
+no wildcard allowed origin rule).</p>
+
 
         <p>----------------------------</p>
         <p>
@@ -146,7 +146,7 @@ directories (usually starts by <code>.</code> character)</p>
 </div>
 
     <aside>
-    <div class="section"><a href="https://khanhicetea.com/tags/web" class="label label-info">web</a> <a href="https://khanhicetea.com/tags/sysadmin" class="label label-info">sysadmin</a> <a href="https://khanhicetea.com/tags/http" class="label label-info">http</a> <a href="https://khanhicetea.com/tags/til" class="label label-info">til</a> <a href="https://khanhicetea.com/tags/security" class="label label-info">security</a> <a href="https://khanhicetea.com/tags/hacking" class="label label-info">hacking</a> <a href="https://khanhicetea.com/tags/browser" class="label label-info">browser</a> </div>
+    <div class="section"><a href="https://khanhicetea.com/tags/sysadmin" class="label label-info">sysadmin</a> <a href="https://khanhicetea.com/tags/http" class="label label-info">http</a> <a href="https://khanhicetea.com/tags/web" class="label label-info">web</a> <a href="https://khanhicetea.com/tags/til" class="label label-info">til</a> <a href="https://khanhicetea.com/tags/security" class="label label-info">security</a> <a href="https://khanhicetea.com/tags/hacking" class="label label-info">hacking</a> <a href="https://khanhicetea.com/tags/browser" class="label label-info">browser</a> </div>
 
     <nav>
         <ul class="pager">
@@ -160,10 +160,10 @@ directories (usually starts by <code>.</code> character)</p>
     </nav>
 
     <div class="section share">
-    <a href="http://www.facebook.com/sharer.php?src=bm&u=https%3a%2f%2fkhanhicetea.com%2ftil%2f2018-03-01%2f&t=%23TIL%202018-03-01%20%3a%20web%2c%20sysadmin%2c%20http%2c%20til%2c%20security%2c%20hacking%2c%20browser" onclick="window.open(this.href, 'PCwindow', 'width=550, height=350, menubar=no, toolbar=no, scrollbars=yes'); return false;"><i class="fa fa-facebook"></i></a>
-    <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fkhanhicetea.com%2ftil%2f2018-03-01%2f&text=%23TIL%202018-03-01%20%3a%20web%2c%20sysadmin%2c%20http%2c%20til%2c%20security%2c%20hacking%2c%20browser&tw_p=tweetbutton" onclick="window.open(this.href, 'PCwindow', 'width=550, height=350, menubar=no, toolbar=no, scrollbars=yes'); return false;"><i class="fa fa-twitter"></i></a>
+    <a href="http://www.facebook.com/sharer.php?src=bm&u=https%3a%2f%2fkhanhicetea.com%2ftil%2f2018-03-01%2f&t=%23TIL%202018-03-01%20%3a%20sysadmin%2c%20http%2c%20web%2c%20til%2c%20security%2c%20hacking%2c%20browser" onclick="window.open(this.href, 'PCwindow', 'width=550, height=350, menubar=no, toolbar=no, scrollbars=yes'); return false;"><i class="fa fa-facebook"></i></a>
+    <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fkhanhicetea.com%2ftil%2f2018-03-01%2f&text=%23TIL%202018-03-01%20%3a%20sysadmin%2c%20http%2c%20web%2c%20til%2c%20security%2c%20hacking%2c%20browser&tw_p=tweetbutton" onclick="window.open(this.href, 'PCwindow', 'width=550, height=350, menubar=no, toolbar=no, scrollbars=yes'); return false;"><i class="fa fa-twitter"></i></a>
     <a href="https://plus.google.com/share?url=https%3a%2f%2fkhanhicetea.com%2ftil%2f2018-03-01%2f" onclick="window.open(this.href, 'PCwindow', 'width=550, height=350, menubar=no, toolbar=no, scrollbars=yes'); return false;"><i class="fa fa-google-plus"></i></a>
-    <a href="http://getpocket.com/edit?url=https%3a%2f%2fkhanhicetea.com%2ftil%2f2018-03-01%2f&title=%23TIL%202018-03-01%20%3a%20web%2c%20sysadmin%2c%20http%2c%20til%2c%20security%2c%20hacking%2c%20browser" onclick="window.open(this.href, 'PCwindow', 'width=550, height=350, menubar=no, toolbar=no, scrollbars=yes'); return false;"><i class="fa fa-get-pocket"></i></a>
+    <a href="http://getpocket.com/edit?url=https%3a%2f%2fkhanhicetea.com%2ftil%2f2018-03-01%2f&title=%23TIL%202018-03-01%20%3a%20sysadmin%2c%20http%2c%20web%2c%20til%2c%20security%2c%20hacking%2c%20browser" onclick="window.open(this.href, 'PCwindow', 'width=550, height=350, menubar=no, toolbar=no, scrollbars=yes'); return false;"><i class="fa fa-get-pocket"></i></a>
     </div>
 
     
@@ -194,13 +194,13 @@ dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
     <header><div class="title">TableOfContents</div></header>
     <div class="list-default"><nav id="TableOfContents">
 <ul>
-<li><a href="#web">WEB</a>
-<ul>
-<li><a href="#sending-cookie-in-ajax-cors-request">Sending Cookie in AJAX CORs request</a></li>
-</ul></li>
 <li><a href="#sysadmin">SYSADMIN</a>
 <ul>
 <li><a href="#prevent-source-hacking-from-git-directory-exposing">Prevent source hacking from .git directory exposing</a></li>
+</ul></li>
+<li><a href="#web">WEB</a>
+<ul>
+<li><a href="#sending-cookie-in-ajax-cors-request">Sending Cookie in AJAX CORs request</a></li>
 </ul></li>
 </ul>
 </nav></div>
@@ -213,6 +213,18 @@ dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
   <div class="section">
     <header><div class="title">Latest Logs</div></header>
     <div class="content">
+      
+      <div class="sm"><article class="li">
+  <a href="https://khanhicetea.com/til/2018-03-25/" class="clearfix">
+    <div class="image" style="background-image: url(https://khanhicetea.com/images/kit_logo.png);"></div>
+    <div class="detail">
+      <h2 class="title">#TIL 2018-03-25 : til, sysadmin, string, file</h2>
+      <time>Sun, Mar 25, 2018</time>
+      <div class="summary">I learned in 2018-03-25 about Create a sequence of numbers; Cut file content from line to line; Prepend line number to file</div>
+    </div>
+  </a>
+</article>
+</div>
       
       <div class="sm"><article class="li">
   <a href="https://khanhicetea.com/post/di-cam/" class="clearfix">
@@ -232,7 +244,7 @@ dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
     <div class="detail">
       <h2 class="title">#TIL 2018-03-14 : til, ssl, security, ios, dns</h2>
       <time>Wed, Mar 14, 2018</time>
-      <div class="summary">I learned in 2018-03-14 about Install CA root certificate on iOS device; Flush DNS cache on iOS device</div>
+      <div class="summary">I learned in 2018-03-14 about Flush DNS cache on iOS device; Install CA root certificate on iOS device</div>
     </div>
   </a>
 </article>
@@ -242,9 +254,9 @@ dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
   <a href="https://khanhicetea.com/til/2018-03-01/" class="clearfix">
     <div class="image" style="background-image: url(https://khanhicetea.com/images/kit_logo.png);"></div>
     <div class="detail">
-      <h2 class="title">#TIL 2018-03-01 : web, sysadmin, http, til, security, hacking, browser</h2>
+      <h2 class="title">#TIL 2018-03-01 : sysadmin, http, web, til, security, hacking, browser</h2>
       <time>Thu, Mar 1, 2018</time>
-      <div class="summary">I learned in 2018-03-01 about Sending Cookie in AJAX CORs request; Prevent source hacking from .git directory exposing</div>
+      <div class="summary">I learned in 2018-03-01 about Prevent source hacking from .git directory exposing; Sending Cookie in AJAX CORs request</div>
     </div>
   </a>
 </article>
@@ -262,18 +274,6 @@ dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
 </article>
 </div>
       
-      <div class="sm"><article class="li">
-  <a href="https://khanhicetea.com/til/2018-02-23/" class="clearfix">
-    <div class="image" style="background-image: url(https://khanhicetea.com/images/kit_logo.png);"></div>
-    <div class="detail">
-      <h2 class="title">#TIL 2018-02-23 : til, docker, devops</h2>
-      <time>Fri, Feb 23, 2018</time>
-      <div class="summary">I learned in 2018-02-23 about Build lightweight image by using multistage</div>
-    </div>
-  </a>
-</article>
-</div>
-      
     </div>
   </div>
   
@@ -282,14 +282,14 @@ dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
   <div class="section taxonomies">
     <header><div class="title">Categories</div></header>
     <div class="content">
-      <a href="https://khanhicetea.com/categories/today-i-learned">today-i-learned [55]</a><a href="https://khanhicetea.com/categories/life">life [37]</a><a href="https://khanhicetea.com/categories/sysadmin">sysadmin [23]</a><a href="https://khanhicetea.com/categories/english">english [9]</a><a href="https://khanhicetea.com/categories/php">php [8]</a><a href="https://khanhicetea.com/categories/linux">linux [7]</a><a href="https://khanhicetea.com/categories/web">web [7]</a><a href="https://khanhicetea.com/categories/docker">docker [6]</a><a href="https://khanhicetea.com/categories/mysql">mysql [6]</a><a href="https://khanhicetea.com/categories/python">python [5]</a>
+      <a href="https://khanhicetea.com/categories/today-i-learned">today-i-learned [56]</a><a href="https://khanhicetea.com/categories/life">life [37]</a><a href="https://khanhicetea.com/categories/sysadmin">sysadmin [24]</a><a href="https://khanhicetea.com/categories/english">english [9]</a><a href="https://khanhicetea.com/categories/php">php [8]</a><a href="https://khanhicetea.com/categories/linux">linux [7]</a><a href="https://khanhicetea.com/categories/web">web [7]</a><a href="https://khanhicetea.com/categories/docker">docker [6]</a><a href="https://khanhicetea.com/categories/mysql">mysql [6]</a><a href="https://khanhicetea.com/categories/python">python [5]</a>
     </div>
   </div>
   
   <div class="section taxonomies">
     <header><div class="title">Tags</div></header>
     <div class="content">
-      <a href="https://khanhicetea.com/tags/til">til [55]</a><a href="https://khanhicetea.com/tags/english">english [43]</a><a href="https://khanhicetea.com/tags/life">life [36]</a><a href="https://khanhicetea.com/tags/sysadmin">sysadmin [24]</a><a href="https://khanhicetea.com/tags/random">random [21]</a><a href="https://khanhicetea.com/tags/vietnamese">vietnamese [17]</a><a href="https://khanhicetea.com/tags/php">php [11]</a><a href="https://khanhicetea.com/tags/web">web [11]</a><a href="https://khanhicetea.com/tags/bash">bash [9]</a><a href="https://khanhicetea.com/tags/devops">devops [9]</a>
+      <a href="https://khanhicetea.com/tags/til">til [56]</a><a href="https://khanhicetea.com/tags/english">english [43]</a><a href="https://khanhicetea.com/tags/life">life [36]</a><a href="https://khanhicetea.com/tags/sysadmin">sysadmin [25]</a><a href="https://khanhicetea.com/tags/random">random [21]</a><a href="https://khanhicetea.com/tags/vietnamese">vietnamese [17]</a><a href="https://khanhicetea.com/tags/php">php [11]</a><a href="https://khanhicetea.com/tags/web">web [11]</a><a href="https://khanhicetea.com/tags/bash">bash [9]</a><a href="https://khanhicetea.com/tags/devops">devops [9]</a>
     </div>
   </div>
   
