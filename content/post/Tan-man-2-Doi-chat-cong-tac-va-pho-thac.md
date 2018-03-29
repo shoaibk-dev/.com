@@ -56,7 +56,9 @@ Theo tôi, đã không tin thì thôi, đã tin thì nên tin đến cùng ! Đ�
 - Tín thác : Tin cho tới chết (theo KhanhKiKi)
 - **Phó thác có thể hiểu là nỗ lực cộng tác trong niềm tin kiên vững không đổi. Ngược hoàn toàn với THOÁI THÁC** 
 
-Til next time !
+*Tản mạn thành ra nó chuối chuối, rời rời và đời đời một chút*
+
+Hết.
 
 -----------------------
 
