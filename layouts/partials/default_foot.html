@@ -55,7 +55,7 @@
       ga('create', '{{ $.Site.GoogleAnalytics }}', 'auto');
 
       jQuery.ajax({
-        url: "https://freegeoip.net/json/",
+        url: "https://ipapi.co/jsonp/",
         jsonp: "callback",
         dataType: "jsonp",
         success: function(geoip) {
