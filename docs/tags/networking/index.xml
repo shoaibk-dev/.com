@@ -6,10 +6,22 @@
     <description>Recent content in Networking on KhanhIceTea B(rain)-log</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 21 Feb 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 10 Apr 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://khanhicetea.com/tags/networking/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>#TIL 2018-04-10 : til, sysadmin, networking, trick, messaging</title>
+      <link>https://khanhicetea.com/til/2018-04-10/</link>
+      <pubDate>Tue, 10 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://khanhicetea.com/til/2018-04-10/</guid>
+      <description>SYSADMIN Create tiny chat channel via netcat In a network, you can create a tiny chatting channel using netcat. It&amp;rsquo;s lightweight TCP protocol with plain-text transmission, so be carefully on using.
+First, create a channel by picking port number (ex: 7777)
+$ sudo nc -l 0.0.0.0 7777  Then, tell you friend your IP and channel port. He will use this info to connect the channel
+$ nc 192.168.1.2 7777  Finnally, start chatting !</description>
+    </item>
     
     <item>
       <title>#TIL 2018-02-21 : til, networking, vim</title>
