@@ -3,6 +3,13 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://khanhicetea.com/post/learn-sketch-day-2/</loc>
+    <lastmod>2018-04-11T23:50:34+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <url>
     <loc>https://khanhicetea.com/post/learn-sketch-day-1/</loc>
     <lastmod>2018-04-10T23:41:34+07:00</lastmod>
     <changefreq>daily</changefreq>
@@ -871,14 +878,14 @@
   </url>
   
   <url>
-    <loc>https://khanhicetea.com/categories/bash/</loc>
+    <loc>https://khanhicetea.com/tags/bash/</loc>
     <lastmod>2017-10-05T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://khanhicetea.com/tags/bash/</loc>
+    <loc>https://khanhicetea.com/categories/bash/</loc>
     <lastmod>2017-10-05T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0</priority>
@@ -934,14 +941,14 @@
   </url>
   
   <url>
-    <loc>https://khanhicetea.com/categories/chrome-dev/</loc>
+    <loc>https://khanhicetea.com/tags/chrome-dev/</loc>
     <lastmod>2015-11-30T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://khanhicetea.com/tags/chrome-dev/</loc>
+    <loc>https://khanhicetea.com/categories/chrome-dev/</loc>
     <lastmod>2015-11-30T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0</priority>
@@ -983,14 +990,14 @@
   </url>
   
   <url>
-    <loc>https://khanhicetea.com/categories/cloud/</loc>
+    <loc>https://khanhicetea.com/tags/cloud/</loc>
     <lastmod>2017-11-13T16:31:08+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://khanhicetea.com/tags/cloud/</loc>
+    <loc>https://khanhicetea.com/categories/cloud/</loc>
     <lastmod>2017-11-13T16:31:08+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0</priority>
@@ -1046,14 +1053,14 @@
   </url>
   
   <url>
-    <loc>https://khanhicetea.com/categories/database/</loc>
+    <loc>https://khanhicetea.com/tags/database/</loc>
     <lastmod>2017-10-13T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://khanhicetea.com/tags/database/</loc>
+    <loc>https://khanhicetea.com/categories/database/</loc>
     <lastmod>2017-10-13T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0</priority>
@@ -1095,15 +1102,15 @@
   </url>
   
   <url>
-    <loc>https://khanhicetea.com/categories/devops/</loc>
-    <lastmod>2018-01-22T00:00:00+00:00</lastmod>
+    <loc>https://khanhicetea.com/tags/devops/</loc>
+    <lastmod>2018-02-23T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://khanhicetea.com/tags/devops/</loc>
-    <lastmod>2018-02-23T00:00:00+00:00</lastmod>
+    <loc>https://khanhicetea.com/categories/devops/</loc>
+    <lastmod>2018-01-22T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0</priority>
   </url>
@@ -1123,14 +1130,14 @@
   </url>
   
   <url>
-    <loc>https://khanhicetea.com/categories/docker/</loc>
+    <loc>https://khanhicetea.com/tags/docker/</loc>
     <lastmod>2018-02-23T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://khanhicetea.com/tags/docker/</loc>
+    <loc>https://khanhicetea.com/categories/docker/</loc>
     <lastmod>2018-02-23T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0</priority>
@@ -1144,14 +1151,14 @@
   </url>
   
   <url>
-    <loc>https://khanhicetea.com/categories/elasticsearch/</loc>
+    <loc>https://khanhicetea.com/tags/elasticsearch/</loc>
     <lastmod>2018-01-25T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://khanhicetea.com/tags/elasticsearch/</loc>
+    <loc>https://khanhicetea.com/categories/elasticsearch/</loc>
     <lastmod>2018-01-25T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0</priority>
@@ -1179,15 +1186,15 @@
   </url>
   
   <url>
-    <loc>https://khanhicetea.com/categories/english/</loc>
-    <lastmod>2017-10-26T18:56:33+07:00</lastmod>
+    <loc>https://khanhicetea.com/tags/english/</loc>
+    <lastmod>2018-04-11T23:50:34+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://khanhicetea.com/tags/english/</loc>
-    <lastmod>2018-04-10T23:41:34+07:00</lastmod>
+    <loc>https://khanhicetea.com/categories/english/</loc>
+    <lastmod>2017-10-26T18:56:33+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0</priority>
   </url>
@@ -1242,14 +1249,14 @@
   </url>
   
   <url>
-    <loc>https://khanhicetea.com/categories/git/</loc>
+    <loc>https://khanhicetea.com/tags/git/</loc>
     <lastmod>2017-11-27T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://khanhicetea.com/tags/git/</loc>
+    <loc>https://khanhicetea.com/categories/git/</loc>
     <lastmod>2017-11-27T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0</priority>
@@ -1298,15 +1305,15 @@
   </url>
   
   <url>
-    <loc>https://khanhicetea.com/categories/http/</loc>
-    <lastmod>2018-01-03T00:00:00+00:00</lastmod>
+    <loc>https://khanhicetea.com/tags/http/</loc>
+    <lastmod>2018-03-01T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://khanhicetea.com/tags/http/</loc>
-    <lastmod>2018-03-01T00:00:00+00:00</lastmod>
+    <loc>https://khanhicetea.com/categories/http/</loc>
+    <lastmod>2018-01-03T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0</priority>
   </url>
@@ -1347,14 +1354,14 @@
   </url>
   
   <url>
-    <loc>https://khanhicetea.com/categories/ios/</loc>
+    <loc>https://khanhicetea.com/tags/ios/</loc>
     <lastmod>2018-03-14T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://khanhicetea.com/tags/ios/</loc>
+    <loc>https://khanhicetea.com/categories/ios/</loc>
     <lastmod>2018-03-14T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0</priority>
@@ -1368,13 +1375,6 @@
   </url>
   
   <url>
-    <loc>https://khanhicetea.com/categories/java/</loc>
-    <lastmod>2017-08-06T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://khanhicetea.com/tags/java/</loc>
     <lastmod>2017-08-06T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
@@ -1382,14 +1382,21 @@
   </url>
   
   <url>
-    <loc>https://khanhicetea.com/categories/javascript/</loc>
-    <lastmod>2018-01-14T00:00:00+00:00</lastmod>
+    <loc>https://khanhicetea.com/categories/java/</loc>
+    <lastmod>2017-08-06T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://khanhicetea.com/tags/javascript/</loc>
+    <lastmod>2018-01-14T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://khanhicetea.com/categories/javascript/</loc>
     <lastmod>2018-01-14T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0</priority>
@@ -1439,21 +1446,21 @@
   
   <url>
     <loc>https://khanhicetea.com/</loc>
-    <lastmod>2018-04-10T23:41:34+07:00</lastmod>
+    <lastmod>2018-04-11T23:50:34+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://khanhicetea.com/tags/learn/</loc>
-    <lastmod>2018-04-10T23:41:34+07:00</lastmod>
+    <lastmod>2018-04-11T23:50:34+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://khanhicetea.com/categories/learneveryday/</loc>
-    <lastmod>2018-04-10T23:41:34+07:00</lastmod>
+    <lastmod>2018-04-11T23:50:34+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0</priority>
   </url>
@@ -1487,13 +1494,6 @@
   </url>
   
   <url>
-    <loc>https://khanhicetea.com/categories/life/</loc>
-    <lastmod>2018-03-29T22:24:48+07:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://khanhicetea.com/tags/life/</loc>
     <lastmod>2018-03-29T22:24:48+07:00</lastmod>
     <changefreq>daily</changefreq>
@@ -1501,14 +1501,21 @@
   </url>
   
   <url>
-    <loc>https://khanhicetea.com/categories/linux/</loc>
-    <lastmod>2018-01-16T00:00:00+00:00</lastmod>
+    <loc>https://khanhicetea.com/categories/life/</loc>
+    <lastmod>2018-03-29T22:24:48+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://khanhicetea.com/tags/linux/</loc>
+    <lastmod>2018-01-16T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://khanhicetea.com/categories/linux/</loc>
     <lastmod>2018-01-16T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0</priority>
@@ -1529,14 +1536,14 @@
   </url>
   
   <url>
-    <loc>https://khanhicetea.com/categories/mac-osx/</loc>
+    <loc>https://khanhicetea.com/tags/mac-osx/</loc>
     <lastmod>2015-11-30T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://khanhicetea.com/tags/mac-osx/</loc>
+    <loc>https://khanhicetea.com/categories/mac-osx/</loc>
     <lastmod>2015-11-30T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0</priority>
@@ -1578,13 +1585,6 @@
   </url>
   
   <url>
-    <loc>https://khanhicetea.com/categories/mysql/</loc>
-    <lastmod>2018-01-04T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://khanhicetea.com/tags/mysql/</loc>
     <lastmod>2018-01-04T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
@@ -1592,14 +1592,21 @@
   </url>
   
   <url>
-    <loc>https://khanhicetea.com/categories/nature/</loc>
-    <lastmod>2018-01-14T00:00:00+00:00</lastmod>
+    <loc>https://khanhicetea.com/categories/mysql/</loc>
+    <lastmod>2018-01-04T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://khanhicetea.com/tags/nature/</loc>
+    <lastmod>2018-01-14T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://khanhicetea.com/categories/nature/</loc>
     <lastmod>2018-01-14T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0</priority>
@@ -1613,15 +1620,15 @@
   </url>
   
   <url>
-    <loc>https://khanhicetea.com/categories/networking/</loc>
-    <lastmod>2018-02-21T00:00:00+00:00</lastmod>
+    <loc>https://khanhicetea.com/tags/networking/</loc>
+    <lastmod>2018-04-10T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://khanhicetea.com/tags/networking/</loc>
-    <lastmod>2018-04-10T00:00:00+00:00</lastmod>
+    <loc>https://khanhicetea.com/categories/networking/</loc>
+    <lastmod>2018-02-21T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0</priority>
   </url>
@@ -1648,13 +1655,6 @@
   </url>
   
   <url>
-    <loc>https://khanhicetea.com/categories/nodejs/</loc>
-    <lastmod>2017-09-29T22:26:54+07:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://khanhicetea.com/tags/nodejs/</loc>
     <lastmod>2017-09-29T22:26:54+07:00</lastmod>
     <changefreq>daily</changefreq>
@@ -1662,14 +1662,21 @@
   </url>
   
   <url>
-    <loc>https://khanhicetea.com/categories/php/</loc>
-    <lastmod>2017-08-06T00:00:00+00:00</lastmod>
+    <loc>https://khanhicetea.com/categories/nodejs/</loc>
+    <lastmod>2017-09-29T22:26:54+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://khanhicetea.com/tags/php/</loc>
+    <lastmod>2017-08-06T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://khanhicetea.com/categories/php/</loc>
     <lastmod>2017-08-06T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0</priority>
@@ -1698,7 +1705,7 @@
   
   <url>
     <loc>https://khanhicetea.com/post/</loc>
-    <lastmod>2018-04-10T23:41:34+07:00</lastmod>
+    <lastmod>2018-04-11T23:50:34+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0</priority>
   </url>
@@ -1711,14 +1718,14 @@
   </url>
   
   <url>
-    <loc>https://khanhicetea.com/categories/productivity/</loc>
+    <loc>https://khanhicetea.com/tags/productivity/</loc>
     <lastmod>2015-11-30T17:22:46+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://khanhicetea.com/tags/productivity/</loc>
+    <loc>https://khanhicetea.com/categories/productivity/</loc>
     <lastmod>2015-11-30T17:22:46+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0</priority>
@@ -1732,15 +1739,15 @@
   </url>
   
   <url>
-    <loc>https://khanhicetea.com/categories/python/</loc>
-    <lastmod>2017-09-27T17:00:00+07:00</lastmod>
+    <loc>https://khanhicetea.com/tags/python/</loc>
+    <lastmod>2017-10-05T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://khanhicetea.com/tags/python/</loc>
-    <lastmod>2017-10-05T00:00:00+00:00</lastmod>
+    <loc>https://khanhicetea.com/categories/python/</loc>
+    <lastmod>2017-09-27T17:00:00+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0</priority>
   </url>
@@ -1753,14 +1760,14 @@
   </url>
   
   <url>
-    <loc>https://khanhicetea.com/categories/quote/</loc>
+    <loc>https://khanhicetea.com/tags/quote/</loc>
     <lastmod>2017-02-23T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://khanhicetea.com/tags/quote/</loc>
+    <loc>https://khanhicetea.com/categories/quote/</loc>
     <lastmod>2017-02-23T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0</priority>
@@ -1781,14 +1788,14 @@
   </url>
   
   <url>
-    <loc>https://khanhicetea.com/categories/redis/</loc>
+    <loc>https://khanhicetea.com/tags/redis/</loc>
     <lastmod>2018-01-31T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://khanhicetea.com/tags/redis/</loc>
+    <loc>https://khanhicetea.com/categories/redis/</loc>
     <lastmod>2018-01-31T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0</priority>
@@ -1852,14 +1859,7 @@
   
   <url>
     <loc>https://khanhicetea.com/tags/sketch/</loc>
-    <lastmod>2018-04-10T23:41:34+07:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://khanhicetea.com/categories/skill/</loc>
-    <lastmod>2018-04-10T23:41:34+07:00</lastmod>
+    <lastmod>2018-04-11T23:50:34+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0</priority>
   </url>
@@ -1867,6 +1867,13 @@
   <url>
     <loc>https://khanhicetea.com/tags/skill/</loc>
     <lastmod>2016-08-25T00:36:10+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://khanhicetea.com/categories/skill/</loc>
+    <lastmod>2018-04-11T23:50:34+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0</priority>
   </url>
@@ -1928,13 +1935,6 @@
   </url>
   
   <url>
-    <loc>https://khanhicetea.com/categories/sysadmin/</loc>
-    <lastmod>2018-04-10T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://khanhicetea.com/tags/sysadmin/</loc>
     <lastmod>2018-04-10T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
@@ -1942,8 +1942,8 @@
   </url>
   
   <url>
-    <loc>https://khanhicetea.com/categories/system/</loc>
-    <lastmod>2017-04-24T14:19:39+07:00</lastmod>
+    <loc>https://khanhicetea.com/categories/sysadmin/</loc>
+    <lastmod>2018-04-10T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0</priority>
   </url>
@@ -1956,6 +1956,13 @@
   </url>
   
   <url>
+    <loc>https://khanhicetea.com/categories/system/</loc>
+    <lastmod>2017-04-24T14:19:39+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://khanhicetea.com/tags/</loc>
     <lastmod>2018-01-22T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
@@ -1963,14 +1970,14 @@
   </url>
   
   <url>
-    <loc>https://khanhicetea.com/categories/tanmanlangmang/</loc>
+    <loc>https://khanhicetea.com/tags/tanmanlangmang/</loc>
     <lastmod>2018-03-29T22:24:48+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://khanhicetea.com/tags/tanmanlangmang/</loc>
+    <loc>https://khanhicetea.com/categories/tanmanlangmang/</loc>
     <lastmod>2018-03-29T22:24:48+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0</priority>
@@ -2026,14 +2033,14 @@
   </url>
   
   <url>
-    <loc>https://khanhicetea.com/categories/tools/</loc>
+    <loc>https://khanhicetea.com/tags/tools/</loc>
     <lastmod>2017-09-25T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://khanhicetea.com/tags/tools/</loc>
+    <loc>https://khanhicetea.com/categories/tools/</loc>
     <lastmod>2017-09-25T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0</priority>
@@ -2082,14 +2089,14 @@
   </url>
   
   <url>
-    <loc>https://khanhicetea.com/categories/varnish/</loc>
+    <loc>https://khanhicetea.com/tags/varnish/</loc>
     <lastmod>2018-01-31T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://khanhicetea.com/tags/varnish/</loc>
+    <loc>https://khanhicetea.com/categories/varnish/</loc>
     <lastmod>2018-01-31T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0</priority>
@@ -2103,14 +2110,14 @@
   </url>
   
   <url>
-    <loc>https://khanhicetea.com/categories/vim/</loc>
+    <loc>https://khanhicetea.com/tags/vim/</loc>
     <lastmod>2018-02-21T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://khanhicetea.com/tags/vim/</loc>
+    <loc>https://khanhicetea.com/categories/vim/</loc>
     <lastmod>2018-02-21T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0</priority>
@@ -2124,14 +2131,14 @@
   </url>
   
   <url>
-    <loc>https://khanhicetea.com/categories/web/</loc>
+    <loc>https://khanhicetea.com/tags/web/</loc>
     <lastmod>2018-03-01T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://khanhicetea.com/tags/web/</loc>
+    <loc>https://khanhicetea.com/categories/web/</loc>
     <lastmod>2018-03-01T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0</priority>
@@ -2173,14 +2180,14 @@
   </url>
   
   <url>
-    <loc>https://khanhicetea.com/categories/xiny/</loc>
+    <loc>https://khanhicetea.com/tags/xiny/</loc>
     <lastmod>2017-10-26T18:56:33+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://khanhicetea.com/tags/xiny/</loc>
+    <loc>https://khanhicetea.com/categories/xiny/</loc>
     <lastmod>2017-10-26T18:56:33+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0</priority>
