@@ -6,79 +6,79 @@
     <description>Recent content in Security on KhanhIceTea B(rain)-log</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 14 Mar 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 14 Mar 2018 23:59:59 +0000</lastBuildDate>
     
 	<atom:link href="https://khanhicetea.com/tags/security/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>#TIL 2018-03-14 : til, ssl, security, ios, dns</title>
-      <link>https://khanhicetea.com/til/2018-03-14/</link>
-      <pubDate>Wed, 14 Mar 2018 00:00:00 +0000</pubDate>
+      <title>#TIL 2018-03-14 : Install CA root certificate on iOS device</title>
+      <link>https://khanhicetea.com/til/2018-03-14-install-ca-root-certificate-on-ios-device/</link>
+      <pubDate>Wed, 14 Mar 2018 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2018-03-14/</guid>
-      <description>IOS Flush DNS cache on iOS device There are 2 simple ways to clear DNS cache on iOS devices :
- (FASTER) Just enable the Airplane Mode, wait 10 seconds and disable it (SLOWER) Reboot the device ! ;) You know this always be classic answer for many questions :D  IOS Install CA root certificate on iOS device Disclaimer : ⚠️ You can do it, but it&amp;rsquo;s at your own risk !</description>
+      <guid>https://khanhicetea.com/til/2018-03-14-install-ca-root-certificate-on-ios-device/</guid>
+      <description>Install CA root certificate on iOS device Disclaimer : ⚠️ You can do it, but it&amp;rsquo;s at your own risk !
+Sometimes you want to accept a SSL firewall proxy or self-MITM proxy, the important step is installing its CA root certificate to your device. Because iOS apps almost use all https connections (that&amp;rsquo;s new rule).
+This is the way to install and enable custom CA Root cert :</description>
     </item>
     
     <item>
-      <title>#TIL 2018-03-01 : sysadmin, http, web, til, security, hacking, browser</title>
-      <link>https://khanhicetea.com/til/2018-03-01/</link>
-      <pubDate>Thu, 01 Mar 2018 00:00:00 +0000</pubDate>
+      <title>#TIL 2018-03-01 : Prevent source hacking from .git directory exposing</title>
+      <link>https://khanhicetea.com/til/2018-03-01-prevent-source-hacking-from-git-directory-exposing/</link>
+      <pubDate>Thu, 01 Mar 2018 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2018-03-01/</guid>
-      <description>SYSADMIN Prevent source hacking from .git directory exposing Many web project use Git as source version control tools. So in production server, we could expose the hidden .git directory - which contains all most infomation about project source code.
+      <guid>https://khanhicetea.com/til/2018-03-01-prevent-source-hacking-from-git-directory-exposing/</guid>
+      <description>Prevent source hacking from .git directory exposing Many web project use Git as source version control tools. So in production server, we could expose the hidden .git directory - which contains all most infomation about project source code.
 To &amp;ldquo;rip&amp;rdquo; a source code from a vulnerable website, we can use this tool : https://github.com/kost/dvcs-ripper#git
 So to prevent this happens, try to deny all http access to hidden files and directories (usually starts by .</description>
     </item>
     
     <item>
-      <title>#TIL 2018-01-16 : til, firewall, security, networking, linux</title>
-      <link>https://khanhicetea.com/til/2018-01-16/</link>
-      <pubDate>Tue, 16 Jan 2018 00:00:00 +0000</pubDate>
+      <title>#TIL 2018-01-16 : Set up simple rate limiting on specified port using UFW</title>
+      <link>https://khanhicetea.com/til/2018-01-16-set-up-simple-rate-limiting-on-specified-port-using-ufw/</link>
+      <pubDate>Tue, 16 Jan 2018 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2018-01-16/</guid>
-      <description>LINUX Disable IPv6 to stop getting stuck in network I know IPv6 will be future for networking, but at this moment &amp;ldquo;It&amp;rsquo;s suck !&amp;rdquo; :(
-Some service will be failed when trying to connect IPv6 destination :
- apt package manager smtp curl  So I decided to disable IPv6 on every production server.
-$ echo &amp;quot;net.ipv6.conf.all.disable_ipv6 = 1&amp;quot; | sudo tee -a /etc/sysctl.conf $ echo &amp;quot;net.ipv6.conf.default.disable_ipv6 = 1&amp;quot; | sudo tee -a /etc/sysctl.</description>
+      <guid>https://khanhicetea.com/til/2018-01-16-set-up-simple-rate-limiting-on-specified-port-using-ufw/</guid>
+      <description>Set up simple rate limiting on specified port using UFW Allow unmetrered connections on networking is so risky. Attacker can use the brute-force attacks to comprosise your service (or simple DOS).
+Linux has a cool firewall to hanlde this, via ip-tables. But it&amp;rsquo;s so complicated to remember all the rule and syntax. That&amp;rsquo;s why UFW was born to save us. :D
+You can use simple command to manage your firewall</description>
     </item>
     
     <item>
-      <title>#TIL 2018-01-03 : web, product, http, mobile, til, security</title>
-      <link>https://khanhicetea.com/til/2018-01-03/</link>
-      <pubDate>Wed, 03 Jan 2018 00:00:00 +0000</pubDate>
+      <title>#TIL 2018-01-03 : HSTS rule in browser</title>
+      <link>https://khanhicetea.com/til/2018-01-03-hsts-rule-in-browser/</link>
+      <pubDate>Wed, 03 Jan 2018 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2018-01-03/</guid>
-      <description>HTTP Create cross-platform downloading app URL You have a mobile app for both platforms iOS and Android, each platform has different download URL. But your user doesn&amp;rsquo;t know which platform he using. Clicking wrong URL will lead to user bounce-rate.
-Solution is making only 1 URL to download your app, which can redirect to right place depends on using platform. So how we achieve this ??
-The key of problem is detecting user platform, which can be done by extracting the User-Agent header from http request.</description>
+      <guid>https://khanhicetea.com/til/2018-01-03-hsts-rule-in-browser/</guid>
+      <description>HSTS rule in browser HTTP Strict Transport Security (HSTS) is a web security policy mechanism which helps to protect websites against protocol downgrade attacks and cookie hijacking.
+Enabling HSTS on your web will make your browser validate every SSL issues more strictly :
+ User can not visit http version on browser User can not add SSL exception for the domain to ignore the warning. (when SSL cert expire or invalid common name)  Note : You can manually remove a domain from HSTS in Chrome by accessing this page URL chrome://net-internals/#hsts</description>
     </item>
     
     <item>
-      <title>#TIL 2017-09-01 : sysadmin, cli, web, til, ssh, mysql, security, proxy</title>
-      <link>https://khanhicetea.com/til/2017-09-01/</link>
-      <pubDate>Fri, 01 Sep 2017 00:00:00 +0000</pubDate>
+      <title>#TIL 2017-09-01 : Create SSH tunnel manually</title>
+      <link>https://khanhicetea.com/til/2017-09-01-create-ssh-tunnel-manually/</link>
+      <pubDate>Fri, 01 Sep 2017 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2017-09-01/</guid>
-      <description>MYSQL Mycli : a new good cli MySql Client This tool is written in Python with super cool features (auto-complete and colors).
-Worth a shot !
-Install
-$ pip install mycli  Usage
-$ mycli -h 127.0.0.1 -P 3306 -u root  Screencast
-SYSADMIN Create SSH tunnel manually SSH Tunnel is a fast way to transfer traffic through unsafe internet today. It would be used in MySQL connect, FTP connect or HTTP connect, &amp;hellip;</description>
+      <guid>https://khanhicetea.com/til/2017-09-01-create-ssh-tunnel-manually/</guid>
+      <description>Create SSH tunnel manually SSH Tunnel is a fast way to transfer traffic through unsafe internet today. It would be used in MySQL connect, FTP connect or HTTP connect, &amp;hellip;
+Syntax :
+$ ssh -L [local_port]:[remote_endpoint]:[remote_port] [ssh_user]:[ssh_ip]  Example :
+Lets say you have a EC2 instance (123.45.67.89) and remote DB instance (98.76.54.32) listening port 3306
+$ ssh -L 3307:98.76.54.32:3306 root@123.45.67.89  Testing ssh tunnel
+$ telnet 127.0.0.1 3307 $ # or $ mysql -h 127.</description>
     </item>
     
     <item>
-      <title>#TIL 2017-08-06 : sysadmin, java, kernel, til, linux, security, php, mistake</title>
-      <link>https://khanhicetea.com/til/2017-08-06/</link>
-      <pubDate>Sun, 06 Aug 2017 00:00:00 +0000</pubDate>
+      <title>#TIL 2017-08-06 : Runing old java applets on brower</title>
+      <link>https://khanhicetea.com/til/2017-08-06-runing-old-java-applets-on-brower/</link>
+      <pubDate>Sun, 06 Aug 2017 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2017-08-06/</guid>
-      <description>JAVA Runing old java applets on brower Mostly morden browser has stop support Java plugins, so you can&amp;rsquo;t run Java applet on browser.
+      <guid>https://khanhicetea.com/til/2017-08-06-runing-old-java-applets-on-brower/</guid>
+      <description>Runing old java applets on brower Mostly morden browser has stop support Java plugins, so you can&amp;rsquo;t run Java applet on browser.
 Temporary way : - run in IE or Safari - run in an old Firefox (version 23)
 And what if old java applet can&amp;rsquo;t be runned on Java 8 because of weak signature algorithm. Try this
- Open java.security file :  In MacOS, located in /Library/Java/JavaVirtualMachines/jdk[jdk-version].</description>
+ Open java.security file :  In MacOS, located in /Library/Java/JavaVirtualMachines/jdk[jdk-version].jdk/Contents/Home/jre/lib/security In Windows, located in C:\Program File x86\Java\jre\lib\security  Comment this line, jdk.</description>
     </item>
     
   </channel>

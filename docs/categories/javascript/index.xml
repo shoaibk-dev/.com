@@ -6,55 +6,76 @@
     <description>Recent content in Javascript on KhanhIceTea B(rain)-log</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 14 Jan 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 14 Jan 2018 23:59:59 +0000</lastBuildDate>
     
 	<atom:link href="https://khanhicetea.com/categories/javascript/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>#TIL 2018-01-14 : til, jquery, emyeukhoahoc, javascript, nature</title>
-      <link>https://khanhicetea.com/til/2018-01-14/</link>
-      <pubDate>Sun, 14 Jan 2018 00:00:00 +0000</pubDate>
+      <title>#TIL 2018-01-14 : Trigger event after setting val in jQuery</title>
+      <link>https://khanhicetea.com/til/2018-01-14-trigger-event-after-setting-val-in-jquery/</link>
+      <pubDate>Sun, 14 Jan 2018 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2018-01-14/</guid>
-      <description>JAVASCRIPT Trigger event after setting val in jQuery After setting value of an input via val method, we should call the change chaining method to trigger the onChange event of element.
-$(&#39;#selectCity&#39;).change(function() { console.log($(this).val()); }); $(&#39;#selectCity&#39;).val(&#39;HaNoi&#39;); // No trigger $(&#39;#selectCity&#39;).val(&#39;HoChiMinh&#39;).change(); // Fire trigger  NATURE Tại sao biển xanh lại mặn ? :lol: TLDR;
- Biển xanh lại mặn bởi vì đá ở mặt đất cọ xát với mưa trên trời (chứ không phải cá nó đái 😂 )</description>
+      <guid>https://khanhicetea.com/til/2018-01-14-trigger-event-after-setting-val-in-jquery/</guid>
+      <description> Trigger event after setting val in jQuery After setting value of an input via val method, we should call the change chaining method to trigger the onChange event of element.
+$(&#39;#selectCity&#39;).change(function() { console.log($(this).val()); }); $(&#39;#selectCity&#39;).val(&#39;HaNoi&#39;); // No trigger $(&#39;#selectCity&#39;).val(&#39;HoChiMinh&#39;).change(); // Fire trigger  </description>
     </item>
     
     <item>
-      <title>#TIL 2018-01-10 : til, web, javascript, debug</title>
-      <link>https://khanhicetea.com/til/2018-01-10/</link>
-      <pubDate>Wed, 10 Jan 2018 00:00:00 +0000</pubDate>
+      <title>#TIL 2018-01-10 : Tracking changes of cookie on webpage</title>
+      <link>https://khanhicetea.com/til/2018-01-10-tracking-changes-of-cookie-on-webpage/</link>
+      <pubDate>Wed, 10 Jan 2018 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2018-01-10/</guid>
-      <description>JAVASCRIPT Tracking changes of cookie on webpage Using Object.defineProperty helper function as I wrote 3 days ago. We could track the changes of cookie on webpage.
+      <guid>https://khanhicetea.com/til/2018-01-10-tracking-changes-of-cookie-on-webpage/</guid>
+      <description>Tracking changes of cookie on webpage Using Object.defineProperty helper function as I wrote 3 days ago. We could track the changes of cookie on webpage.
 // Based on Vlad Shevchenko&#39;s script at https://stackoverflow.com/a/36826049 var cookieSetterOrig = document.__lookupSetter__(&amp;quot;cookie&amp;quot;); // get origin setter function var cookieGetterOrig = document.__lookupGetter__(&amp;quot;cookie&amp;quot;); // get origin getter function Object.defineProperty(document, &amp;quot;cookie&amp;quot;, { get: function () { console.trace(); return cookieGetterOrig.apply(document); }, set: function () { console.log(arguments); console.trace(); return cookieSetterOrig.</description>
     </item>
     
     <item>
-      <title>#TIL 2018-01-07 : til, debug, javascript</title>
-      <link>https://khanhicetea.com/til/2018-01-07/</link>
-      <pubDate>Sun, 07 Jan 2018 00:00:00 +0000</pubDate>
+      <title>#TIL 2018-01-07 : Debug js code using console.trace</title>
+      <link>https://khanhicetea.com/til/2018-01-07-debug-js-code-using-console-trace/</link>
+      <pubDate>Sun, 07 Jan 2018 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2018-01-07/</guid>
-      <description>JAVASCRIPT Debug js code using console.trace Browsers provide an useful function help you debug easier than using simple console.log function.
+      <guid>https://khanhicetea.com/til/2018-01-07-debug-js-code-using-console-trace/</guid>
+      <description> Debug js code using console.trace Browsers provide an useful function help you debug easier than using simple console.log function.
 That is console.trace, which prints a stack trace to called function.
 Example :
-function foo() { var a = 1; bar(a); } function bar(x) { console.log(x); console.trace(); } foo();  JAVASCRIPT Define property of an object in hacking way Sometimes, we want to define a property of an advanced object (has setter and getter function).</description>
+function foo() { var a = 1; bar(a); } function bar(x) { console.log(x); console.trace(); } foo();  </description>
     </item>
     
     <item>
-      <title>#TIL 2017-08-10 : til, javascript</title>
-      <link>https://khanhicetea.com/til/2017-08-10/</link>
-      <pubDate>Thu, 10 Aug 2017 00:00:00 +0000</pubDate>
+      <title>#TIL 2018-01-07 : Define property of an object in hacking way</title>
+      <link>https://khanhicetea.com/til/2018-01-07-define-property-of-an-object-in-hacking-way/</link>
+      <pubDate>Sun, 07 Jan 2018 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2017-08-10/</guid>
-      <description>JAVASCRIPT Eval function and with block JS code will be slower if engine detects any of &amp;lsquo;eval&amp;rsquo; function or &amp;lsquo;with&amp;rsquo; block b/c compiler stop optimizing the code
-JAVASCRIPT Scope and Closure Run this code
+      <guid>https://khanhicetea.com/til/2018-01-07-define-property-of-an-object-in-hacking-way/</guid>
+      <description>Define property of an object in hacking way Sometimes, we want to define a property of an advanced object (has setter and getter function).
+Now, we could use this helper function Object.defineProperty to define property of an object in a cool way.
+Example :
+const foo = {}; Object.defineProperty(a, &#39;bar&#39;, { value: &#39;hogehoge&#39;, writable: false, }); console.log(foo.bar); // &#39;hogehoge&#39; foo.bar = &#39;foo bar&#39;; // throw an error in strict mode console.</description>
+    </item>
+    
+    <item>
+      <title>#TIL 2017-08-10 : Eval function and with block</title>
+      <link>https://khanhicetea.com/til/2017-08-10-eval-function-and-with-block/</link>
+      <pubDate>Thu, 10 Aug 2017 23:59:59 +0000</pubDate>
+      
+      <guid>https://khanhicetea.com/til/2017-08-10-eval-function-and-with-block/</guid>
+      <description>Eval function and with block JS code will be slower if engine detects any of &amp;lsquo;eval&amp;rsquo; function or &amp;lsquo;with&amp;rsquo; block b/c compiler stop optimizing the code</description>
+    </item>
+    
+    <item>
+      <title>#TIL 2017-08-10 : Scope and Closure</title>
+      <link>https://khanhicetea.com/til/2017-08-10-scope-and-closure/</link>
+      <pubDate>Thu, 10 Aug 2017 23:59:59 +0000</pubDate>
+      
+      <guid>https://khanhicetea.com/til/2017-08-10-scope-and-closure/</guid>
+      <description>Scope and Closure Run this code
 for (var i=1; i&amp;lt;=5; i++) { setTimeout( function timer(){ console.log( i ); }, i*1000 ); }  What you expected
 1 2 3 4 5  But, result is
-6 6 6 6 6  Solution is</description>
+6 6 6 6 6  Solution is
+for (var i = 1; i &amp;lt;= 5; i++) { setTimeout((function timer(j) { return function() { console.log(j); } })(i), i * 1000); }  or
+for (var i=1; i&amp;lt;=5; i++) { (function(j){ setTimeout( function timer(){ console.</description>
     </item>
     
   </channel>

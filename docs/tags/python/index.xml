@@ -6,18 +6,18 @@
     <description>Recent content in Python on KhanhIceTea B(rain)-log</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 05 Oct 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 05 Oct 2017 23:59:59 +0000</lastBuildDate>
     
 	<atom:link href="https://khanhicetea.com/tags/python/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>#TIL 2017-10-05 : til, python, bash</title>
-      <link>https://khanhicetea.com/til/2017-10-05/</link>
-      <pubDate>Thu, 05 Oct 2017 00:00:00 +0000</pubDate>
+      <title>#TIL 2017-10-05 : Simple HTTP server function helper</title>
+      <link>https://khanhicetea.com/til/2017-10-05-simple-http-server-function-helper/</link>
+      <pubDate>Thu, 05 Oct 2017 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2017-10-05/</guid>
-      <description> BASH Simple HTTP server function helper I use python3 (3.4+) to create a bash function to help me start quickly a simple http server on specified port
+      <guid>https://khanhicetea.com/til/2017-10-05-simple-http-server-function-helper/</guid>
+      <description> Simple HTTP server function helper I use python3 (3.4+) to create a bash function to help me start quickly a simple http server on specified port
 function server() { local port=&amp;quot;${1:-8000}&amp;quot; # Getting port number google-chrome &amp;quot;http://127.0.0.1:$port&amp;quot; # Open URL in browser, could change to firefox --new-tab &amp;quot;http://127.0.0.1:$port&amp;quot; python3 -m http.server $port --bind 127.0.0.1 }  </description>
     </item>
     
@@ -32,15 +32,13 @@ Kernel modules # echo &amp;quot;uinput&amp;quot; &amp;gt;&amp;gt; /etc/modules #
     </item>
     
     <item>
-      <title>#TIL 2017-08-04 : python, devops, free, til, heroku, http2, requests</title>
-      <link>https://khanhicetea.com/til/2017-08-04/</link>
-      <pubDate>Fri, 04 Aug 2017 00:00:00 +0000</pubDate>
+      <title>#TIL 2017-08-04 : HTTP2 supported for python requests library</title>
+      <link>https://khanhicetea.com/til/2017-08-04-http2-supported-for-python-requests-library/</link>
+      <pubDate>Fri, 04 Aug 2017 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2017-08-04/</guid>
-      <description>DEVOPS Free sandbox server for development We can use Heroku as a forever-free sandbox solution for testing or hosting micro service. Adding a credit card to have 1000 free computing hours.
-Heroku will make a service down if no received request come. We can use a cronjob-like service to check service health and keep it live !!! ;)
-Cronjob check health SASS : pingdom, statuscake, port-monitor, uptimerobot
-Btw, I don&amp;rsquo;t recommend you keep service live but no use, it makes Heroku infrastructure heavy and THAT&amp;rsquo;S NOT FAIR for them !</description>
+      <guid>https://khanhicetea.com/til/2017-08-04-http2-supported-for-python-requests-library/</guid>
+      <description>HTTP2 supported for python requests library The sophisticated http client in Python is requests, it has simple API but powerful features. You can use it for crawling, sending request to third-party API or writing tests.
+Btw, at this moment it doesn&amp;rsquo;t support HTTP/2 protocol (actually we often doesn&amp;rsquo;t need its Server Push or Multi resource stream features). But sometime the API endpoint only supports HTTP/2 like Akamai Load Balacing service.</description>
     </item>
     
     <item>
@@ -54,26 +52,25 @@ This tutorial can help you make a program can exclusive receive input data from 
     </item>
     
     <item>
-      <title>#TIL 2015-12-04 : sysadmin, websocket, log, python, clone, ref-var, til, cli-server, docker, php</title>
-      <link>https://khanhicetea.com/til/2015-12-04/</link>
-      <pubDate>Fri, 04 Dec 2015 00:00:00 +0000</pubDate>
+      <title>#TIL 2015-12-04 : Reference assign object variable</title>
+      <link>https://khanhicetea.com/til/2015-12-04-reference-assign-object-variable/</link>
+      <pubDate>Fri, 04 Dec 2015 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2015-12-04/</guid>
-      <description>PHP Run built-in server via Docker Docker is the fast and clean way to run Linux programs.
-We can run a PHP project via PHP built-in server and Docker.
-docker run -it -p 8080:8080 -v `pwd`:/code php:7 php -S 0.0.0.0:8080 -t /code/web /code/web/server.php  With server.php content is
-&amp;lt;?php $filename = __DIR__.preg_replace(&#39;#(\?.*)$#&#39;, &#39;&#39;, $_SERVER[&#39;REQUEST_URI&#39;]); if (php_sapi_name() === &#39;cli-server&#39; &amp;amp;&amp;amp; is_file($filename)) { return false; } // Run application below $app = new Application(); $app-&amp;gt;run();  PYTHON Reference assign object variable When you have a object x and assign y = x, y will be a ref of x (it looks like pointer of C).</description>
+      <guid>https://khanhicetea.com/til/2015-12-04-reference-assign-object-variable/</guid>
+      <description>Reference assign object variable When you have a object x and assign y = x, y will be a ref of x (it looks like pointer of C). So changing property of y means changing property of x.
+Ex :
+x = {&amp;quot;a&amp;quot;: 1, &amp;quot;b&amp;quot;: 2} y = x y[&#39;a&#39;] = 100 print x[&#39;a&#39;] # Result is 100  So if you want clone the value, use copy lib :</description>
     </item>
     
     <item>
-      <title>#TIL 2015-12-01 : index, string, python, mysql, til, unicode, sql</title>
-      <link>https://khanhicetea.com/til/2015-12-01/</link>
-      <pubDate>Tue, 01 Dec 2015 00:00:00 +0000</pubDate>
+      <title>#TIL 2015-12-01 : String Format Unicode params</title>
+      <link>https://khanhicetea.com/til/2015-12-01-string-format-unicode-params/</link>
+      <pubDate>Tue, 01 Dec 2015 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2015-12-01/</guid>
-      <description>MYSQL Index is useless when use function on indexed field Reality, if using function on indexed field, you will broke indexing by accident. Eg:
-WHERE MONTH(`date`) = 11 AND YEAR(`date`) = 2015  Solution is transform the query to comparison query, like this :
-WHERE `date` &amp;gt;= &#39;2015-11-01&#39; AND `date` &amp;lt; &#39;2015-12-01&#39;  PYTHON String Format Unicode params unicode_thing = u&amp;quot;Xin chào mọi người&amp;quot; a = &#39;{}&#39;.format(unicode_thing)  will cause the error UnicodeEncodeError: &#39;ascii&#39; codec can&#39;t encode character u&#39;\xe0&#39; in position 6: ordinal not in range(128)</description>
+      <guid>https://khanhicetea.com/til/2015-12-01-string-format-unicode-params/</guid>
+      <description> String Format Unicode params unicode_thing = u&amp;quot;Xin chào mọi người&amp;quot; a = &#39;{}&#39;.format(unicode_thing)  will cause the error UnicodeEncodeError: &#39;ascii&#39; codec can&#39;t encode character u&#39;\xe0&#39; in position 6: ordinal not in range(128)
+The solution is add u prefix the pattern (it means using unicode pattern) :
+unicode_thing = u&amp;quot;Xin chào mọi người&amp;quot; a = u&#39;{}&#39;.format(unicode_thing)  </description>
     </item>
     
   </channel>

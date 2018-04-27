@@ -6,18 +6,18 @@
     <description>Recent content in Bug on KhanhIceTea B(rain)-log</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 17 Feb 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 17 Feb 2017 23:59:59 +0000</lastBuildDate>
     
 	<atom:link href="https://khanhicetea.com/tags/bug/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>#TIL 2017-02-17 : til, string, bug, mysql</title>
-      <link>https://khanhicetea.com/til/2017-02-17/</link>
-      <pubDate>Fri, 17 Feb 2017 00:00:00 +0000</pubDate>
+      <title>#TIL 2017-02-17 : String problems can cause logical bugs in application</title>
+      <link>https://khanhicetea.com/til/2017-02-17-string-problems-can-cause-logical-bugs-in-application/</link>
+      <pubDate>Fri, 17 Feb 2017 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2017-02-17/</guid>
-      <description>MYSQL String problems can cause logical bugs in application Example table mysql&amp;gt; describe `test`; +------------+-------------+------+-----+-------------------+----------------+ | Field | Type | Null | Key | Default | Extra | +------------+-------------+------+-----+-------------------+----------------+ | id | smallint(6) | NO | PRI | NULL | auto_increment | | name | varchar(50) | NO | | NULL | | | created_at | timestamp | YES | MUL | CURRENT_TIMESTAMP | | +------------+-------------+------+-----+-------------------+----------------+ 3 rows in set (0.</description>
+      <guid>https://khanhicetea.com/til/2017-02-17-string-problems-can-cause-logical-bugs-in-application/</guid>
+      <description>String problems can cause logical bugs in application Example table mysql&amp;gt; describe `test`; +------------+-------------+------+-----+-------------------+----------------+ | Field | Type | Null | Key | Default | Extra | +------------+-------------+------+-----+-------------------+----------------+ | id | smallint(6) | NO | PRI | NULL | auto_increment | | name | varchar(50) | NO | | NULL | | | created_at | timestamp | YES | MUL | CURRENT_TIMESTAMP | | +------------+-------------+------+-----+-------------------+----------------+ 3 rows in set (0.</description>
     </item>
     
   </channel>

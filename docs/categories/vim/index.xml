@@ -6,31 +6,29 @@
     <description>Recent content in Vim on KhanhIceTea B(rain)-log</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 21 Feb 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 21 Feb 2018 23:59:59 +0000</lastBuildDate>
     
 	<atom:link href="https://khanhicetea.com/categories/vim/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>#TIL 2018-02-21 : til, networking, vim</title>
-      <link>https://khanhicetea.com/til/2018-02-21/</link>
-      <pubDate>Wed, 21 Feb 2018 00:00:00 +0000</pubDate>
+      <title>#TIL 2018-02-21 : Convert tabs to spaces</title>
+      <link>https://khanhicetea.com/til/2018-02-21-convert-tabs-to-spaces/</link>
+      <pubDate>Wed, 21 Feb 2018 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2018-02-21/</guid>
-      <description>NETWORKING List opening ports or listening UNIX sockets In Linux, you can use netstat to list all opening ports and listening UNIX sockets
-$ sudo netstat -npl  Tip to remember command : network statistics - natual languge processing
-;)
-VIM Convert tabs to spaces This is my config to use 4 spaces instead tab
-filetype plugin indent on set tabstop=4 set shiftwidth=4 set expandtab  To convert existing file from tabs to spaces, use this command</description>
+      <guid>https://khanhicetea.com/til/2018-02-21-convert-tabs-to-spaces/</guid>
+      <description> Convert tabs to spaces This is my config to use 4 spaces instead tab
+filetype plugin indent on set tabstop=4 set shiftwidth=4 set expandtab  To convert existing file from tabs to spaces, use this command
+:%retab  </description>
     </item>
     
     <item>
-      <title>#TIL 2018-01-30 : til, editor, vim</title>
-      <link>https://khanhicetea.com/til/2018-01-30/</link>
-      <pubDate>Tue, 30 Jan 2018 00:00:00 +0000</pubDate>
+      <title>#TIL 2018-01-30 : Using mark to bookmark checkpoints in files</title>
+      <link>https://khanhicetea.com/til/2018-01-30-using-mark-to-bookmark-checkpoints-in-files/</link>
+      <pubDate>Tue, 30 Jan 2018 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2018-01-30/</guid>
-      <description>VIM Using mark to bookmark checkpoints in files Bookmarking a checkpoint will help you get back to it intermidately. Ex: your have to find some text to replace something but want to return back current position.
+      <guid>https://khanhicetea.com/til/2018-01-30-using-mark-to-bookmark-checkpoints-in-files/</guid>
+      <description>Using mark to bookmark checkpoints in files Bookmarking a checkpoint will help you get back to it intermidately. Ex: your have to find some text to replace something but want to return back current position.
 Set a mark - [NORMAL MODE] , type m then follow by a letter from a-z (lowercase is filescope, uppercase for global scope - vim scope)
 Go to a mark - [NORMAL MODE] , type backstick ` then follow by the letter your marked above.</description>
     </item>

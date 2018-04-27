@@ -6,18 +6,18 @@
     <description>Recent content in Watch on KhanhIceTea B(rain)-log</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 20 Oct 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 20 Oct 2017 23:59:59 +0000</lastBuildDate>
     
 	<atom:link href="https://khanhicetea.com/tags/watch/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>#TIL 2017-10-20 : til, tool, watch, linux</title>
-      <link>https://khanhicetea.com/til/2017-10-20/</link>
-      <pubDate>Fri, 20 Oct 2017 00:00:00 +0000</pubDate>
+      <title>#TIL 2017-10-20 : Using watch command to tracking changes in period time</title>
+      <link>https://khanhicetea.com/til/2017-10-20-using-watch-command-to-tracking-changes-in-period-time/</link>
+      <pubDate>Fri, 20 Oct 2017 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2017-10-20/</guid>
-      <description>LINUX Using watch command to tracking changes in period time watch to a good command to run a command every N seconds.
+      <guid>https://khanhicetea.com/til/2017-10-20-using-watch-command-to-tracking-changes-in-period-time/</guid>
+      <description>Using watch command to tracking changes in period time watch to a good command to run a command every N seconds.
 And like its name, means you can watch something, its output changes with flag -d
 It&amp;rsquo;s a great tool to help you learn a new language without hitting compile and run everytime you save a file.
 $ watch -n 1 -d go run learn.go  This command will compile and run learn.</description>

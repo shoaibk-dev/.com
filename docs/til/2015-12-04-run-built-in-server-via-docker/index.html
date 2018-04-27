@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="generator" content="Hugo 0.34" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+    <link rel="author" href="../../humans.txt" />
+    <link href="//fonts.googleapis.com/css?family=Patrick+Hand+SC|Fira+Sans:400,400i,700&amp;subset=vietnamese" rel="stylesheet">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/monokai-sublime.min.css">
+    <link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="../../css/styles.css?v=3">
+    <link rel="stylesheet" href="../../css/custom.css?v=4">
+    <link rel="alternate" type="application/rss+xml" title="RSS" href="https://khanhicetea.com/index.xml">
+
+    <link rel="apple-touch-icon" sizes="57x57" href="../../favicons/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="../../favicons/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="../../favicons/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="../../favicons/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="../../favicons/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="../../favicons/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="../../favicons/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="../../favicons/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="../../favicons/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="../../favicons/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../../favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="../../favicons/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../../favicons/favicon-16x16.png">
+    <link rel="manifest" href="../../favicons/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/favicons/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    
+    <title>#TIL 2015-12-04 : Run built-in server via Docker - KhanhIceTea B(rain)-log</title>
+    <meta property='og:title' content="#TIL 2015-12-04 : Run built-in server via Docker - KhanhIceTea B(rain)-log">
+    <meta property="og:type" content="article">
+    
+
+    <meta property="og:url" content="https://khanhicetea.com/til/2015-12-04-run-built-in-server-via-docker/">
+    
+        <meta name="description" content="I learned in 2015-12-04 about docker, php, cli-server">
+        <meta property="og:description" content="I learned in 2015-12-04 about docker, php, cli-server">
+    
+    
+
+  </head>
+
+  <body>
+
+    <header class="site">
+        <div class="title">
+          <a href="https://khanhicetea.com/">KhanhIceTea B(rain)-log</a>
+          <p class="lead">Does it matter ? ¯\_(ツ)_/¯</p>
+        </div>
+    </header>
+
+    <div class="container site">
+
+
+<div class="row">
+<div class="col-sm-9">
+
+    <article class="single" itemscope="itemscope" itemtype="http://schema.org/Article">
+
+    <meta itemprop="mainEntityOfPage"  itemType="https://schema.org/WebPage" content="https://khanhicetea.com/"/>
+    <meta itemprop="dateModified" content="2015-12-04T23:59:59&#43;00:00">
+    <meta itemprop="headline" content="#TIL 2015-12-04 : Run built-in server via Docker">
+    <meta itemprop="description" content=" Run built-in server via Docker Docker is the fast and clean way to run Linux programs.
+We can run a PHP project via PHP built-in server and Docker.
+docker run -it -p 8080:8080 -v `pwd`:/code php:7 php -S 0.0.0.0:8080 -t /code/web /code/web/server.php  With server.php content is
+&lt;?php $filename = __DIR__.preg_replace(&#39;#(\?.*)$#&#39;, &#39;&#39;, $_SERVER[&#39;REQUEST_URI&#39;]); if (php_sapi_name() === &#39;cli-server&#39; &amp;&amp; is_file($filename)) { return false; } // Run application below $app = new Application(); $app-&gt;run();  ">
+    <meta itemprop="url" content="https://khanhicetea.com/til/2015-12-04-run-built-in-server-via-docker/">
+    <div itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
+        <meta itemprop="url" content="https://khanhicetea.com/images/never_stop_learning.jpg" />
+        <meta itemprop="width" content="800">
+        <meta itemprop="height" content="800">
+    </div>
+    <div itemprop="publisher" itemscope itemtype="https://schema.org/Organization">
+        <div itemprop="logo" itemscope itemtype="https://schema.org/ImageObject">
+        <meta itemprop="url" content="https://khanhicetea.com/images/logo.jpg">
+        <meta itemprop="width" content="100">
+        <meta itemprop="height" content="100">
+        </div>
+        <meta itemprop="name" content="KhanhIceTea B(rain)-log">
+    </div>
+    <div itemprop="author" itemscope itemtype="https://schema.org/Person">
+        <meta itemprop="name" content="KhanhIceTea">
+    </div>
+
+    <div class="image" style="background-image: url(https://khanhicetea.com/images/never_stop_learning.jpg);"></div>
+
+    <header class="article-header">
+        <time itemprop="datePublished" pubdate="pubdate" datetime="2015-12-04T23:59:59&#43;00:00">Fri, Dec 4, 2015</time>
+        <h1 class="article-title">#TIL 2015-12-04 : Run built-in server via Docker</h1>
+    </header>
+
+    <div class="article-body" itemprop="articleBody">
+        
+
+<h2 id="run-built-in-server-via-docker">Run built-in server via Docker</h2>
+
+<p>Docker is the fast and clean way to run Linux programs.</p>
+
+<p>We can run a PHP project via PHP built-in server and Docker.</p>
+
+<pre><code class="language-bash">docker run -it -p 8080:8080 -v `pwd`:/code php:7 php -S 0.0.0.0:8080 -t /code/web /code/web/server.php
+</code></pre>
+
+<p>With <code>server.php</code> content is</p>
+
+<pre><code class="language-php">&lt;?php
+
+$filename = __DIR__.preg_replace('#(\?.*)$#', '', $_SERVER['REQUEST_URI']);
+if (php_sapi_name() === 'cli-server' &amp;&amp; is_file($filename)) {
+    return false;
+
+}
+
+// Run application below
+$app = new Application();
+$app-&gt;run();
+</code></pre>
+
+
+        <p>----------------------------</p>
+        <p>
+            // We constantly learn new things. I shared all of them on 
+            <a target="_blank" href="../../tags/til/">here</a> 
+            and 
+            <a target="_blank" href="https://github.com/khanhicetea/today-i-learned#what-i-learned">there</a>.
+        </p>
+    </div>
+
+    <div id="author-info">
+    <img alt="author profile picture" class="avatar avatar-120 photo" src="data:image/jpeg;base64,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AAAEeQAAAGQAAABqAAAAAQAAACgAAAABAAAMSwAAAGQAAATzAAAAnwAAAAIAAAABAAAABgAAAAEAAAABAAAAAQAABOMAABaLAAA4jwAAAPYAAN7/AAAA7zIwMTg6MDE6MTIAAAAAABgAAAAB/+ENPGh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8APD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4gPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iWE1QIENvcmUgNS40LjAiPiA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPiA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtbG5zOnBob3Rvc2hvcD0iaHR0cDovL25zLmFkb2JlLmNvbS9waG90b3Nob3AvMS4wLyIgeG1sbnM6bXdnLXJzPSJodHRwOi8vd3d3Lm1ldGFkYXRhd29ya2luZ2dyb3VwLmNvbS9zY2hlbWFzL3JlZ2lvbnMvIiB4bWxuczpzdEFyZWE9Imh0dHA6Ly9ucy5hZG9iZS5jb20veG1wL3NUeXBlL0FyZWEjIiB4bWxuczphcHBsZS1maT0iaHR0cDovL25zLmFwcGxlLmNvbS9mYWNlaW5mby8xLjAvIiB4bWxuczpzdERpbT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL3NUeXBlL0RpbWVuc2lvbnMjIiB4bXA6Q3JlYXRlRGF0ZT0iMjAxOC0wMS0xMlQwOTowNjowMi4zNzciIHhtcDpNb2RpZnlEYXRlPSIyMDE4LTAxLTEyVDA5OjA2OjAyIiB4bXA6Q3JlYXRvclRvb2w9IjEwLjMuMyIgcGhvdG9zaG9wOkRhdGVDcmVhdGVkPSIyMDE4LTAxLTEyVDA5OjA2OjAyLjM3NyI+IDxtd2ctcnM6UmVnaW9ucyByZGY6cGFyc2VUeXBlPSJSZXNvdXJjZSI+IDxtd2ctcnM6UmVnaW9uTGlzdD4gPHJkZjpTZXE+IDxyZGY6bGk+IDxyZGY6RGVzY3JpcHRpb24gbXdnLXJzOlR5cGU9IkZhY2UiPiA8bXdnLXJzOkFyZWEgc3RBcmVhOnk9IjAuNDY5NTAwIiBzdEFyZWE6dz0iMC4zNTUzODYiIHN0QXJlYTp4PSIwLjUzOTI2NiIgc3RBcmVhOmg9IjAuMzU3MDAwIiBzdEFyZWE6dW5pdD0ibm9ybWFsaXplZCIvPiA8bXdnLXJzOkV4dGVuc2lvbnMgYXBwbGUtZmk6QW5nbGVJbmZvWWF3PSIwIiBhcHBsZS1maTpBbmdsZUluZm9Sb2xsPSIyNzAiIGFwcGxlLWZpOkNvbmZpZGVuY2VMZXZlbD0iMjkyIiBhcHBsZS1maTpUaW1lc3RhbXA9IjU4MzY0MTc2NDAzODEiIGFwcGxlLWZpOkZhY2VJRD0iMSIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6bGk+IDwvcmRmOlNlcT4gPC9td2ctcnM6UmVnaW9uTGlzdD4gPG13Zy1yczpBcHBsaWVkVG9EaW1lbnNpb25zIHN0RGltOmg9IjIzMjAiIHN0RGltOnc9IjMwODgiIHN0RGltOnVuaXQ9InBpeGVsIi8+IDwvbXdnLXJzOlJlZ2lvbnM+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDw/eHBhY2tldCBlbmQ9InciPz4A/+0AeFBob3Rvc2hvcCAzLjAAOEJJTQQEAAAAAAA/HAFaAAMbJUccAgAAAgACHAI/AAYwOTA2MDIcAj4ACDIwMTgwMTEyHAI3AAgyMDE4MDExMhwCPAAGMDkwNjAyADhCSU0EJQAA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">
+    <h5>Khanh Nguyen,</h5>
+    <p>A human, walker, full-stack developer and writer. I love sharing ideas by writing and contributing open source on <a href="https://github.com/khanhicetea" target="_blank">Github</a>. My motto : <i>"Everything is trade-off".</i><br />Subscribe and follow with <a href="https://feeds.feedburner.com/khanhicetea" rel="nofollow" target="_blank">RSS</a> | <a href="https://twitter.com/khanhicetea" rel="nofollow" target="_blank"> Twitter </a></p>
+</div>
+
+    <aside>
+    <div class="section"><a href="https://khanhicetea.com/tags/docker" class="label label-info">docker</a> <a href="https://khanhicetea.com/tags/php" class="label label-info">php</a> <a href="https://khanhicetea.com/tags/cli-server" class="label label-info">cli-server</a> </div>
+
+    <nav>
+        <ul class="pager">
+            
+            <li class="previous"><a href="https://khanhicetea.com/til/2015-12-04-view-real-time-logs-using-websocketd/"><span aria-hidden="true">&larr;</span> \b</a></li>
+            
+            
+            <li class="next"><a href="https://khanhicetea.com/til/2015-12-04-reference-assign-object-variable/"><span aria-hidden="true">&rarr;</span> #TIL 2015-12-04 : Reference assign object variable</a></li>
+            
+        </ul>
+    </nav>
+
+    <div class="section share">
+    <a href="http://www.facebook.com/sharer.php?src=bm&u=https%3a%2f%2fkhanhicetea.com%2ftil%2f2015-12-04-run-built-in-server-via-docker%2f&t=%23TIL%202015-12-04%20%3a%20Run%20built-in%20server%20via%20Docker" onclick="window.open(this.href, 'PCwindow', 'width=550, height=350, menubar=no, toolbar=no, scrollbars=yes'); return false;"><i class="fa fa-facebook"></i></a>
+    <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fkhanhicetea.com%2ftil%2f2015-12-04-run-built-in-server-via-docker%2f&text=%23TIL%202015-12-04%20%3a%20Run%20built-in%20server%20via%20Docker&tw_p=tweetbutton" onclick="window.open(this.href, 'PCwindow', 'width=550, height=350, menubar=no, toolbar=no, scrollbars=yes'); return false;"><i class="fa fa-twitter"></i></a>
+    <a href="https://plus.google.com/share?url=https%3a%2f%2fkhanhicetea.com%2ftil%2f2015-12-04-run-built-in-server-via-docker%2f" onclick="window.open(this.href, 'PCwindow', 'width=550, height=350, menubar=no, toolbar=no, scrollbars=yes'); return false;"><i class="fa fa-google-plus"></i></a>
+    <a href="http://getpocket.com/edit?url=https%3a%2f%2fkhanhicetea.com%2ftil%2f2015-12-04-run-built-in-server-via-docker%2f&title=%23TIL%202015-12-04%20%3a%20Run%20built-in%20server%20via%20Docker" onclick="window.open(this.href, 'PCwindow', 'width=550, height=350, menubar=no, toolbar=no, scrollbars=yes'); return false;"><i class="fa fa-get-pocket"></i></a>
+    </div>
+
+    
+    
+    <div id="disqus_thread"></div>
+    <script type="text/javascript">
+(function() {
+var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+var disqus_shortname = 'khanhicetea';
+dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+})();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    <a href="http://disqus.com/" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+    
+    
+</aside>
+
+    </article>
+</div>
+
+<div class="col-sm-3">
+    <aside class="site">
+
+  
+  <div class="section">
+    <header><div class="title">TableOfContents</div></header>
+    <div class="list-default"><nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li><a href="#run-built-in-server-via-docker">Run built-in server via Docker</a></li>
+</ul></li>
+</ul>
+</nav></div>
+  </div>
+  
+
+  
+
+  
+  <div class="section">
+    <header><div class="title">Latest Logs</div></header>
+    <div class="content">
+      
+      <div class="sm"><article class="li">
+  <a href="https://khanhicetea.com/til/2018-04-24-setup-wildcard-domains-test-for-development-in-macos/" class="clearfix">
+    <div class="image" style="background-image: url(https://khanhicetea.com/images/kit_logo.png);"></div>
+    <div class="detail">
+      <h2 class="title">#TIL 2018-04-24 : Setup wildcard domains .test for development in MacOS</h2>
+      <time>Tue, Apr 24, 2018</time>
+      <div class="summary">I learned in 2018-04-24 about development, networking, dns</div>
+    </div>
+  </a>
+</article>
+</div>
+      
+      <div class="sm"><article class="li">
+  <a href="https://khanhicetea.com/post/learn-sketch-day-3/" class="clearfix">
+    <div class="image" style="background-image: url(https://khanhicetea.com/images/2018/04/learn-sketch.jpg);"></div>
+    <div class="detail">
+      <h2 class="title">Learn Sketch : Day #3</h2>
+      <time>Thu, Apr 12, 2018</time>
+      <div class="summary">I believe I can draw !!.</div>
+    </div>
+  </a>
+</article>
+</div>
+      
+      <div class="sm"><article class="li">
+  <a href="https://khanhicetea.com/post/learn-sketch-day-2/" class="clearfix">
+    <div class="image" style="background-image: url(https://khanhicetea.com/images/2018/04/learn-sketch.jpg);"></div>
+    <div class="detail">
+      <h2 class="title">Learn Sketch : Day #2</h2>
+      <time>Wed, Apr 11, 2018</time>
+      <div class="summary">I believe I can draw !!.</div>
+    </div>
+  </a>
+</article>
+</div>
+      
+      <div class="sm"><article class="li">
+  <a href="https://khanhicetea.com/til/2018-04-10-create-tiny-chat-channel-via-netcat/" class="clearfix">
+    <div class="image" style="background-image: url(https://khanhicetea.com/images/kit_logo.png);"></div>
+    <div class="detail">
+      <h2 class="title">#TIL 2018-04-10 : Create tiny chat channel via netcat</h2>
+      <time>Tue, Apr 10, 2018</time>
+      <div class="summary">I learned in 2018-04-10 about sysadmin, trick, messaging</div>
+    </div>
+  </a>
+</article>
+</div>
+      
+      <div class="sm"><article class="li">
+  <a href="https://khanhicetea.com/til/2018-04-10-send-a-file-through-networking-via-netcat/" class="clearfix">
+    <div class="image" style="background-image: url(https://khanhicetea.com/images/kit_logo.png);"></div>
+    <div class="detail">
+      <h2 class="title">#TIL 2018-04-10 : Send a file through networking via netcat</h2>
+      <time>Tue, Apr 10, 2018</time>
+      <div class="summary">I learned in 2018-04-10 about sysadmin, trick, networking</div>
+    </div>
+  </a>
+</article>
+</div>
+      
+    </div>
+  </div>
+  
+
+  
+  <div class="section taxonomies">
+    <header><div class="title">Categories</div></header>
+    <div class="content">
+      <a href="https://khanhicetea.com/categories/today-i-learned">today-i-learned [99]</a><a href="https://khanhicetea.com/categories/life">life [38]</a><a href="https://khanhicetea.com/categories/sysadmin">sysadmin [34]</a><a href="https://khanhicetea.com/categories/english">english [9]</a><a href="https://khanhicetea.com/categories/php">php [8]</a><a href="https://khanhicetea.com/categories/docker">docker [7]</a><a href="https://khanhicetea.com/categories/linux">linux [7]</a><a href="https://khanhicetea.com/categories/web">web [7]</a><a href="https://khanhicetea.com/categories/javascript">javascript [6]</a><a href="https://khanhicetea.com/categories/mysql">mysql [6]</a>
+    </div>
+  </div>
+  
+  <div class="section taxonomies">
+    <header><div class="title">Tags</div></header>
+    <div class="content">
+      <a href="https://khanhicetea.com/tags/english">english [46]</a><a href="https://khanhicetea.com/tags/life">life [37]</a><a href="https://khanhicetea.com/tags/sysadmin">sysadmin [36]</a><a href="https://khanhicetea.com/tags/random">random [21]</a><a href="https://khanhicetea.com/tags/vietnamese">vietnamese [18]</a><a href="https://khanhicetea.com/tags/web">web [12]</a><a href="https://khanhicetea.com/tags/bash">bash [11]</a><a href="https://khanhicetea.com/tags/php">php [11]</a><a href="https://khanhicetea.com/tags/devops">devops [9]</a><a href="https://khanhicetea.com/tags/docker">docker [9]</a>
+    </div>
+  </div>
+  
+
+  <div class="section taxonomies">
+    <header><div class="title">whoami</div></header>
+    <div class="content">
+      <a href="../../humans.txt"><i class="fa fa-user-circle-o"></i> I am a human ! I make misstakes. Oops..I made it</a>
+      
+      <a href="https://github.com/khanhicetea"><i class="fa fa-github"></i> Github</a>
+      
+      <a href="https://libraries.io/github/khanhicetea"><i class="fa fa-th-list"></i> Libraries.io</a>
+      
+      <a href="https://vn.linkedin.com/in/khanhicetea"><i class="fa fa-linkedin-square"></i> LinkedIn</a>
+      
+    </div>
+  </div>
+
+  
+
+</aside>
+
+</div>
+
+</div>
+
+    </div>
+
+    <footer class="site">
+      <p><strong>- In God We Trust -</strong></p>
+      <p>&copy; 2018 KhanhIceTea B(rain)-log</p>
+      <p>Licensed under <a href="http://creativecommons.org/licenses/by-nc-nd/3.0/" target="_blank">CC BY-NC-ND 3.0</a></p>
+      <p>Powered by <a href="http://gohugo.io" target="_blank">Hugo</a> and <a href="https://github.com/khanhicetea/.com" target="_blank">GitHub Pages</a></p>
+      <p>Theme <a href="https://github.com/dim0627/hugo_theme_robust" target="_blank">Robust</a> designed by <a href="http://yet.unresolved.xyz" target="_blank">Daisuke Tsuji</a>, background texture <a href="http://www.freepik.com/free-vector/unevenly-painted-wall-texture_769342.htm">designed by Freepik</a>, the little prince art by <a href="http://princekido.deviantart.com/art/The-Little-Prince-and-the-Fox-in-the-Light-603126189">princekido</a></p>
+    </footer>
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.6/typed.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script src="../../js/highlight.js"></script>
+    <script>
+      $(document).ready(function() {
+        hljs.configure({tabReplace: '    '});
+        $('.article-body pre code').each(function(i, block) {
+          hljs.highlightBlock(block);
+        });
+        $(".article-body p").has("img").css('text-align', "center");
+        $(".article-body a").attr('target','_blank');
+        $(".article-body table").addClass('table').addClass('table-bordered');
+
+        if (window.typedString) {
+          var typed = new Typed('#currentStatus', {
+            strings: window.typedString,
+            typeSpeed: 70,
+            startDelay: 500,
+            showCursor: true,
+            cursorChar: '_',
+            autoInsertCss: true,
+            onComplete: function() {
+              console.log('ok');
+              $('#currentStatus a').click(function(e) {
+                var link = $(this).attr('href');
+                e.preventDefault();
+                ga('send', 'event', 'Timeline', 'click_link', link);
+                setTimeout(function() {
+                  window.location = link;
+                }, 100);
+              });
+            }
+          });
+        }
+      });
+    </script>
+
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-50390703-1', 'auto');
+
+      jQuery.ajax({
+        url: "https://ipapi.co/jsonp/",
+        jsonp: "callback",
+        dataType: "jsonp",
+        success: function(geoip) {
+          ga('set', 'dimension1', geoip.ip);
+          ga('set', 'dimension2', geoip.city + ' - ' + geoip.country_name);
+          ga('send', 'pageview');
+          setInterval(function() {
+              ga('send', 'pageview');
+          }, 60000);
+        }
+      });
+    </script>
+
+  </body>
+</html>
+

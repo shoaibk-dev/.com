@@ -6,38 +6,38 @@
     <description>Recent content in Dns on KhanhIceTea B(rain)-log</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 24 Apr 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 24 Apr 2018 23:59:59 +0000</lastBuildDate>
     
 	<atom:link href="https://khanhicetea.com/tags/dns/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>#TIL 2018-04-24 : til, development, networking, dns</title>
-      <link>https://khanhicetea.com/til/2018-04-24/</link>
-      <pubDate>Tue, 24 Apr 2018 00:00:00 +0000</pubDate>
+      <title>#TIL 2018-04-24 : Setup wildcard domains .test for development in MacOS</title>
+      <link>https://khanhicetea.com/til/2018-04-24-setup-wildcard-domains-test-for-development-in-macos/</link>
+      <pubDate>Tue, 24 Apr 2018 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2018-04-24/</guid>
-      <description>NETWORKING Setup wildcard domains .test for development in MacOS Too tired of setting your local domain each time you create new virtual development domain, etc helloworld.test, unit.test point to 127.0.0.1
+      <guid>https://khanhicetea.com/til/2018-04-24-setup-wildcard-domains-test-for-development-in-macos/</guid>
+      <description>Setup wildcard domains .test for development in MacOS Too tired of setting your local domain each time you create new virtual development domain, etc helloworld.test, unit.test point to 127.0.0.1
 There is a better way to achieve that by using dnsmasq, then set up a wildcard domains for development. In this case I use .test because .dev has been owned by Google and they strictly use HTTPS in mainly browsers.</description>
     </item>
     
     <item>
-      <title>#TIL 2018-03-14 : til, ssl, security, ios, dns</title>
-      <link>https://khanhicetea.com/til/2018-03-14/</link>
-      <pubDate>Wed, 14 Mar 2018 00:00:00 +0000</pubDate>
+      <title>#TIL 2018-03-14 : Flush DNS cache on iOS device</title>
+      <link>https://khanhicetea.com/til/2018-03-14-flush-dns-cache-on-ios-device/</link>
+      <pubDate>Wed, 14 Mar 2018 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2018-03-14/</guid>
-      <description>IOS Flush DNS cache on iOS device There are 2 simple ways to clear DNS cache on iOS devices :
- (FASTER) Just enable the Airplane Mode, wait 10 seconds and disable it (SLOWER) Reboot the device ! ;) You know this always be classic answer for many questions :D  IOS Install CA root certificate on iOS device Disclaimer : ⚠️ You can do it, but it&amp;rsquo;s at your own risk !</description>
+      <guid>https://khanhicetea.com/til/2018-03-14-flush-dns-cache-on-ios-device/</guid>
+      <description> Flush DNS cache on iOS device There are 2 simple ways to clear DNS cache on iOS devices :
+ (FASTER) Just enable the Airplane Mode, wait 10 seconds and disable it (SLOWER) Reboot the device ! ;) You know this always be classic answer for many questions :D  </description>
     </item>
     
     <item>
-      <title>#TIL 2017-11-24 : til, sysadmin, dns, ip</title>
-      <link>https://khanhicetea.com/til/2017-11-24/</link>
-      <pubDate>Fri, 24 Nov 2017 00:00:00 +0000</pubDate>
+      <title>#TIL 2017-11-24 : Getting your external IP</title>
+      <link>https://khanhicetea.com/til/2017-11-24-getting-your-external-ip/</link>
+      <pubDate>Fri, 24 Nov 2017 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2017-11-24/</guid>
-      <description>SYSADMIN Getting your external IP We can get our external IP address by following ways :
+      <guid>https://khanhicetea.com/til/2017-11-24-getting-your-external-ip/</guid>
+      <description>Getting your external IP We can get our external IP address by following ways :
  Call http request : curl http://wtfismyip.com/text or curl http://ifconfig.me/ip Lookup A record for hostname nslookup myip.opendns.com resolver1.opendns.com (this only works when you use resolver of OpenDNS)  Bonus : curl https://v6.ident.me/ for IPv6</description>
     </item>
     

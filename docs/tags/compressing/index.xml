@@ -6,33 +6,35 @@
     <description>Recent content in Compressing on KhanhIceTea B(rain)-log</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 22 May 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 22 May 2017 23:59:59 +0000</lastBuildDate>
     
 	<atom:link href="https://khanhicetea.com/tags/compressing/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>#TIL 2017-05-22 : sysadmin, shell, util, tool, compressing, til, bash</title>
-      <link>https://khanhicetea.com/til/2017-05-22/</link>
-      <pubDate>Mon, 22 May 2017 00:00:00 +0000</pubDate>
+      <title>#TIL 2017-05-22 : zcat : decompressing pipe tool</title>
+      <link>https://khanhicetea.com/til/2017-05-22-zcat-decompressing-pipe-tool/</link>
+      <pubDate>Mon, 22 May 2017 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2017-05-22/</guid>
-      <description>SYSADMIN Using BSD find util to find and exec command on file and folder Simple syntax of find
-$ find [find_path] -type [file_type] -exec [command] {} \;  Add filename matching pattern to filter the result
-$ find [find_path] -name &amp;quot;*.php&amp;quot; -type [file_type] -exec [command] {} \;  Where file_type is :
- b : block special c : character special d : directory f : regular file l : symbolic link p : FIFO s : socket  Examples:</description>
+      <guid>https://khanhicetea.com/til/2017-05-22-zcat-decompressing-pipe-tool/</guid>
+      <description> zcat : decompressing pipe tool zcat is a tool that creates a pipe from gz file. It makes command cleaner and faster (maybe). You don&amp;rsquo;t have to decompress gz file before using next tool.
+Examples :
+Finding string in gzip text file
+$ zcat secret.gz | grep &#39;42&#39;  Importing SQL backup file
+$ mysqldump -u root -p db_name1 | gzip &amp;gt; db_name.sql.gz $ zcat db_name.sql.gz | mysql -u root -p db_name_2  </description>
     </item>
     
     <item>
-      <title>#TIL 2017-05-17 : til, sysadmin, compressing, rar, mysql</title>
-      <link>https://khanhicetea.com/til/2017-05-17/</link>
-      <pubDate>Wed, 17 May 2017 00:00:00 +0000</pubDate>
+      <title>#TIL 2017-05-17 : Compressing and Extracting files with rar in Linux</title>
+      <link>https://khanhicetea.com/til/2017-05-17-compressing-and-extracting-files-with-rar-in-linux/</link>
+      <pubDate>Wed, 17 May 2017 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2017-05-17/</guid>
-      <description>MYSQL Mysql dumping only table structure Adding -D to dump only data structure
-Example :
-$ mysqldump -h 127.0.0.1 -u root -p&amp;quot;something&amp;quot; -D database1 &amp;gt; db.sql  SYSADMIN Compressing and Extracting files with rar in Linux zip and tar disadvantages All unicode filename will be transform to weird character, so it makes broken paths and broken links
-Notice rar and unrar in Linux isn&amp;rsquo;t same version and so don&amp;rsquo;t use unrar to extract archived file by rar (It causes invalid full paths)</description>
+      <guid>https://khanhicetea.com/til/2017-05-17-compressing-and-extracting-files-with-rar-in-linux/</guid>
+      <description>Compressing and Extracting files with rar in Linux zip and tar disadvantages All unicode filename will be transform to weird character, so it makes broken paths and broken links
+Notice rar and unrar in Linux isn&amp;rsquo;t same version and so don&amp;rsquo;t use unrar to extract archived file by rar (It causes invalid full paths)
+Installation Ubuntu :
+$ sudo apt install rar  Redhat ( using RPMForge )
+$ sudo yum install rar  Compressing files, folder Compressing files</description>
     </item>
     
   </channel>

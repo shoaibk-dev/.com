@@ -6,33 +6,31 @@
     <description>Recent content in Proxy on KhanhIceTea B(rain)-log</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 07 Dec 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 07 Dec 2017 23:59:59 +0000</lastBuildDate>
     
 	<atom:link href="https://khanhicetea.com/tags/proxy/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>#TIL 2017-12-07 : til, web, proxy, firewall</title>
-      <link>https://khanhicetea.com/til/2017-12-07/</link>
-      <pubDate>Thu, 07 Dec 2017 00:00:00 +0000</pubDate>
+      <title>#TIL 2017-12-07 : Using web proxy to bypass firewalls</title>
+      <link>https://khanhicetea.com/til/2017-12-07-using-web-proxy-to-bypass-firewalls/</link>
+      <pubDate>Thu, 07 Dec 2017 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2017-12-07/</guid>
-      <description>WEB Using web proxy to bypass firewalls Someday, you will be blocked by a firewall while trying crawling or accessing some website. The reason is they block your IP address from accessing the server.
+      <guid>https://khanhicetea.com/til/2017-12-07-using-web-proxy-to-bypass-firewalls/</guid>
+      <description>Using web proxy to bypass firewalls Someday, you will be blocked by a firewall while trying crawling or accessing some website. The reason is they block your IP address from accessing the server.
 One solution is using a web proxy (http proxy, socks4 or socks5) to bypass the firewall, by adding the middle-man server between you and target. It&amp;rsquo;s a bit unsecured but you could use for https site only.</description>
     </item>
     
     <item>
-      <title>#TIL 2017-09-01 : sysadmin, cli, web, til, ssh, mysql, security, proxy</title>
-      <link>https://khanhicetea.com/til/2017-09-01/</link>
-      <pubDate>Fri, 01 Sep 2017 00:00:00 +0000</pubDate>
+      <title>#TIL 2017-09-01 : Enable reverse proxy in CentOS</title>
+      <link>https://khanhicetea.com/til/2017-09-01-enable-reverse-proxy-in-centos/</link>
+      <pubDate>Fri, 01 Sep 2017 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2017-09-01/</guid>
-      <description>MYSQL Mycli : a new good cli MySql Client This tool is written in Python with super cool features (auto-complete and colors).
-Worth a shot !
-Install
-$ pip install mycli  Usage
-$ mycli -h 127.0.0.1 -P 3306 -u root  Screencast
-SYSADMIN Create SSH tunnel manually SSH Tunnel is a fast way to transfer traffic through unsafe internet today. It would be used in MySQL connect, FTP connect or HTTP connect, &amp;hellip;</description>
+      <guid>https://khanhicetea.com/til/2017-09-01-enable-reverse-proxy-in-centos/</guid>
+      <description> Enable reverse proxy in CentOS CentOS with SELinux enabled by default will block any http proxy connection. So you have to enable this permission.
+Temporary enable
+$ /usr/sbin/setsebool httpd_can_network_connect 1  Permanent enable
+$ /usr/sbin/setsebool -P httpd_can_network_connect 1  </description>
     </item>
     
     <item>

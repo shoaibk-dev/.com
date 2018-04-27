@@ -6,21 +6,22 @@
     <description>Recent content in Rar on KhanhIceTea B(rain)-log</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 17 May 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 17 May 2017 23:59:59 +0000</lastBuildDate>
     
 	<atom:link href="https://khanhicetea.com/tags/rar/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>#TIL 2017-05-17 : til, sysadmin, compressing, rar, mysql</title>
-      <link>https://khanhicetea.com/til/2017-05-17/</link>
-      <pubDate>Wed, 17 May 2017 00:00:00 +0000</pubDate>
+      <title>#TIL 2017-05-17 : Compressing and Extracting files with rar in Linux</title>
+      <link>https://khanhicetea.com/til/2017-05-17-compressing-and-extracting-files-with-rar-in-linux/</link>
+      <pubDate>Wed, 17 May 2017 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2017-05-17/</guid>
-      <description>MYSQL Mysql dumping only table structure Adding -D to dump only data structure
-Example :
-$ mysqldump -h 127.0.0.1 -u root -p&amp;quot;something&amp;quot; -D database1 &amp;gt; db.sql  SYSADMIN Compressing and Extracting files with rar in Linux zip and tar disadvantages All unicode filename will be transform to weird character, so it makes broken paths and broken links
-Notice rar and unrar in Linux isn&amp;rsquo;t same version and so don&amp;rsquo;t use unrar to extract archived file by rar (It causes invalid full paths)</description>
+      <guid>https://khanhicetea.com/til/2017-05-17-compressing-and-extracting-files-with-rar-in-linux/</guid>
+      <description>Compressing and Extracting files with rar in Linux zip and tar disadvantages All unicode filename will be transform to weird character, so it makes broken paths and broken links
+Notice rar and unrar in Linux isn&amp;rsquo;t same version and so don&amp;rsquo;t use unrar to extract archived file by rar (It causes invalid full paths)
+Installation Ubuntu :
+$ sudo apt install rar  Redhat ( using RPMForge )
+$ sudo yum install rar  Compressing files, folder Compressing files</description>
     </item>
     
   </channel>

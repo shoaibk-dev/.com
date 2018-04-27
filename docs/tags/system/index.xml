@@ -6,18 +6,18 @@
     <description>Recent content in System on KhanhIceTea B(rain)-log</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 25 Jan 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 25 Jan 2018 23:59:59 +0000</lastBuildDate>
     
 	<atom:link href="https://khanhicetea.com/tags/system/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>#TIL 2018-01-25 : til, logging, elasticsearch, system</title>
-      <link>https://khanhicetea.com/til/2018-01-25/</link>
-      <pubDate>Thu, 25 Jan 2018 00:00:00 +0000</pubDate>
+      <title>#TIL 2018-01-25 : Basics of Elasticsearch</title>
+      <link>https://khanhicetea.com/til/2018-01-25-basics-of-elasticsearch/</link>
+      <pubDate>Thu, 25 Jan 2018 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2018-01-25/</guid>
-      <description>ELASTICSEARCH Basics of Elasticsearch Last days, I developed a EFK stack to centralize my system logging. I really like the concepts of FluentD, it&amp;rsquo;s better than original stack ELK of elastic company.
+      <guid>https://khanhicetea.com/til/2018-01-25-basics-of-elasticsearch/</guid>
+      <description>Basics of Elasticsearch Last days, I developed a EFK stack to centralize my system logging. I really like the concepts of FluentD, it&amp;rsquo;s better than original stack ELK of elastic company.
 So I need to learn basics about Elasticsearch and Kibana
 This is what I learned :
 # Get all documents from elasticsearch node GET _search { &amp;quot;query&amp;quot;: { &amp;quot;match_all&amp;quot;: {} } } # Check nodes statistics GET /_nodes/stats # Check health of cluster (I don&#39;t know why it is always yello status) GET _cluster/health # Get list of indices (indexes) GET /_cat/indices?</description>

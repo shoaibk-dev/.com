@@ -6,23 +6,22 @@
     <description>Recent content in Cli on KhanhIceTea B(rain)-log</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 01 Sep 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 01 Sep 2017 23:59:59 +0000</lastBuildDate>
     
 	<atom:link href="https://khanhicetea.com/tags/cli/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>#TIL 2017-09-01 : sysadmin, cli, web, til, ssh, mysql, security, proxy</title>
-      <link>https://khanhicetea.com/til/2017-09-01/</link>
-      <pubDate>Fri, 01 Sep 2017 00:00:00 +0000</pubDate>
+      <title>#TIL 2017-09-01 : Mycli : a new good cli MySql Client</title>
+      <link>https://khanhicetea.com/til/2017-09-01-mycli-a-new-good-cli-mysql-client/</link>
+      <pubDate>Fri, 01 Sep 2017 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2017-09-01/</guid>
-      <description>MYSQL Mycli : a new good cli MySql Client This tool is written in Python with super cool features (auto-complete and colors).
+      <guid>https://khanhicetea.com/til/2017-09-01-mycli-a-new-good-cli-mysql-client/</guid>
+      <description>Mycli : a new good cli MySql Client This tool is written in Python with super cool features (auto-complete and colors).
 Worth a shot !
 Install
 $ pip install mycli  Usage
-$ mycli -h 127.0.0.1 -P 3306 -u root  Screencast
-SYSADMIN Create SSH tunnel manually SSH Tunnel is a fast way to transfer traffic through unsafe internet today. It would be used in MySQL connect, FTP connect or HTTP connect, &amp;hellip;</description>
+$ mycli -h 127.0.0.1 -P 3306 -u root  Screencast</description>
     </item>
     
   </channel>

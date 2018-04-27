@@ -6,33 +6,43 @@
     <description>Recent content in Linux on KhanhIceTea B(rain)-log</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 16 Jan 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 16 Jan 2018 23:59:59 +0000</lastBuildDate>
     
 	<atom:link href="https://khanhicetea.com/tags/linux/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>#TIL 2018-01-16 : til, firewall, security, networking, linux</title>
-      <link>https://khanhicetea.com/til/2018-01-16/</link>
-      <pubDate>Tue, 16 Jan 2018 00:00:00 +0000</pubDate>
+      <title>#TIL 2018-01-16 : Disable IPv6 to stop getting stuck in network</title>
+      <link>https://khanhicetea.com/til/2018-01-16-disable-ipv6-to-stop-getting-stuck-in-network/</link>
+      <pubDate>Tue, 16 Jan 2018 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2018-01-16/</guid>
-      <description>LINUX Disable IPv6 to stop getting stuck in network I know IPv6 will be future for networking, but at this moment &amp;ldquo;It&amp;rsquo;s suck !&amp;rdquo; :(
+      <guid>https://khanhicetea.com/til/2018-01-16-disable-ipv6-to-stop-getting-stuck-in-network/</guid>
+      <description>Disable IPv6 to stop getting stuck in network I know IPv6 will be future for networking, but at this moment &amp;ldquo;It&amp;rsquo;s suck !&amp;rdquo; :(
 Some service will be failed when trying to connect IPv6 destination :
  apt package manager smtp curl  So I decided to disable IPv6 on every production server.
 $ echo &amp;quot;net.ipv6.conf.all.disable_ipv6 = 1&amp;quot; | sudo tee -a /etc/sysctl.conf $ echo &amp;quot;net.ipv6.conf.default.disable_ipv6 = 1&amp;quot; | sudo tee -a /etc/sysctl.</description>
     </item>
     
     <item>
-      <title>#TIL 2017-10-20 : til, tool, watch, linux</title>
-      <link>https://khanhicetea.com/til/2017-10-20/</link>
-      <pubDate>Fri, 20 Oct 2017 00:00:00 +0000</pubDate>
+      <title>#TIL 2017-10-20 : Using watch command to tracking changes in period time</title>
+      <link>https://khanhicetea.com/til/2017-10-20-using-watch-command-to-tracking-changes-in-period-time/</link>
+      <pubDate>Fri, 20 Oct 2017 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2017-10-20/</guid>
-      <description>LINUX Using watch command to tracking changes in period time watch to a good command to run a command every N seconds.
+      <guid>https://khanhicetea.com/til/2017-10-20-using-watch-command-to-tracking-changes-in-period-time/</guid>
+      <description>Using watch command to tracking changes in period time watch to a good command to run a command every N seconds.
 And like its name, means you can watch something, its output changes with flag -d
 It&amp;rsquo;s a great tool to help you learn a new language without hitting compile and run everytime you save a file.
 $ watch -n 1 -d go run learn.go  This command will compile and run learn.</description>
+    </item>
+    
+    <item>
+      <title>#TIL 2017-09-27 : Send ENTER key to kernel</title>
+      <link>https://khanhicetea.com/til/2017-09-27-send-enter-key-to-kernel/</link>
+      <pubDate>Wed, 27 Sep 2017 23:59:59 +0000</pubDate>
+      
+      <guid>https://khanhicetea.com/til/2017-09-27-send-enter-key-to-kernel/</guid>
+      <description>Send ENTER key to kernel When you try to send an Enter keyboard to linux kernel, it looks like nothing happens.
+This is because you only send a key press (KEY DOWN) but don&amp;rsquo;t send an key release (KEY UP) event after that.</description>
     </item>
     
     <item>
@@ -46,50 +56,33 @@ Kernel modules # echo &amp;quot;uinput&amp;quot; &amp;gt;&amp;gt; /etc/modules #
     </item>
     
     <item>
-      <title>#TIL 2017-09-27 : sysadmin, shell, linux, til, keyboard, bash</title>
-      <link>https://khanhicetea.com/til/2017-09-27/</link>
-      <pubDate>Wed, 27 Sep 2017 00:00:00 +0000</pubDate>
+      <title>#TIL 2017-08-08 : Remap Capslock to Control key</title>
+      <link>https://khanhicetea.com/til/2017-08-08-remap-capslock-to-control-key/</link>
+      <pubDate>Tue, 08 Aug 2017 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2017-09-27/</guid>
-      <description>LINUX Send ENTER key to kernel When you try to send an Enter keyboard to linux kernel, it looks like nothing happens.
-This is because you only send a key press (KEY DOWN) but don&amp;rsquo;t send an key release (KEY UP) event after that.
-SYSADMIN BASH tracing commands Thank Hiro Ishii for teaching me this
-set -x will print all running commands in your bash script
-So I dove in and look for all set options of BASH.</description>
+      <guid>https://khanhicetea.com/til/2017-08-08-remap-capslock-to-control-key/</guid>
+      <description>Remap Capslock to Control key Edit file /etc/default/keyboard and set
+XKBOPTIONS=&amp;quot;ctrl:nocaps&amp;quot;  Then, logout and log in again to impact</description>
     </item>
     
     <item>
-      <title>#TIL 2017-08-08 : til, web, keyboard, google, linux</title>
-      <link>https://khanhicetea.com/til/2017-08-08/</link>
-      <pubDate>Tue, 08 Aug 2017 00:00:00 +0000</pubDate>
+      <title>#TIL 2017-08-06 : Cleaning up old linux kernels</title>
+      <link>https://khanhicetea.com/til/2017-08-06-cleaning-up-old-linux-kernels/</link>
+      <pubDate>Sun, 06 Aug 2017 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2017-08-08/</guid>
-      <description>LINUX Remap Capslock to Control key Edit file /etc/default/keyboard and set
-XKBOPTIONS=&amp;quot;ctrl:nocaps&amp;quot;  Then, logout and log in again to impact
-WEB Ping Google to crawl updated content When you post new content to your website, the fastest way is ping search engines to notify them. After that, they will try to crawl and index your page.
-One way to ping search engines is using XMLRPC ping
-This is a example XMLRPC request (HTTP POST request with xml body)</description>
+      <guid>https://khanhicetea.com/til/2017-08-06-cleaning-up-old-linux-kernels/</guid>
+      <description>Cleaning up old linux kernels Last day, I try to reboot a production server which has out-of-space /boot (I upgraded many kernels without rebooting, so system doesn&amp;rsquo;t clean up old ones). And in the end, doom day had come ! It installed new kernel failed and booting to that kernel. My system crashed !
+So, I learned from it :
+ Never ever upgrade kernel without cleaning up old ones (just reboot) Never ever reboot a production without backup MORE IMPORTANT, NEVER do 2 above things at same time in the weekend !</description>
     </item>
     
     <item>
-      <title>#TIL 2017-08-06 : sysadmin, java, kernel, til, linux, security, php, mistake</title>
-      <link>https://khanhicetea.com/til/2017-08-06/</link>
-      <pubDate>Sun, 06 Aug 2017 00:00:00 +0000</pubDate>
+      <title>#TIL 2017-05-18 : Grant user to use sudo without password</title>
+      <link>https://khanhicetea.com/til/2017-05-18-grant-user-to-use-sudo-without-password/</link>
+      <pubDate>Thu, 18 May 2017 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2017-08-06/</guid>
-      <description>JAVA Runing old java applets on brower Mostly morden browser has stop support Java plugins, so you can&amp;rsquo;t run Java applet on browser.
-Temporary way : - run in IE or Safari - run in an old Firefox (version 23)
-And what if old java applet can&amp;rsquo;t be runned on Java 8 because of weak signature algorithm. Try this
- Open java.security file :  In MacOS, located in /Library/Java/JavaVirtualMachines/jdk[jdk-version].</description>
-    </item>
-    
-    <item>
-      <title>#TIL 2017-05-18 : sysadmin, web, linux, til, error, cloudflare</title>
-      <link>https://khanhicetea.com/til/2017-05-18/</link>
-      <pubDate>Thu, 18 May 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://khanhicetea.com/til/2017-05-18/</guid>
-      <description>SYSADMIN Grant user to use sudo without password This is bad practice but it&amp;rsquo;s kind of hacky thing if you YOLO
+      <guid>https://khanhicetea.com/til/2017-05-18-grant-user-to-use-sudo-without-password/</guid>
+      <description>Grant user to use sudo without password This is bad practice but it&amp;rsquo;s kind of hacky thing if you YOLO
 # Create a user with home dir and bash shell (if you don&#39;t have yet) $ useradd -m YOURUSERNAME -s /bin/bash $ sudo vi /etc/sudoers  Add this line below root ALL=(ALL:ALL) ALL (User privilege specification section)
 $ YOUR_USERNAME ALL=(ALL:ALL) NOPASSWD:ALL  Then press :wq! to force saving the file</description>
     </item>

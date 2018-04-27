@@ -135,7 +135,7 @@ div.list header.title {
 }
 
 article.li {
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
   background-color: #fff;
 }
 
@@ -172,14 +172,15 @@ article.li time {
 }
 
 article.li .title {
-  white-space: nowrap;
+  /* white-space: nowrap; */
   text-overflow: ellipsis;
   overflow: hidden;
+  height: 70px;
 }
 
 article.li .summary {
   word-break: break-all;
-  height: 5rem;
+  height: 3rem;
   overflow: hidden;
   color: #999;
   font-size: .8rem;

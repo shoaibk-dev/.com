@@ -6,21 +6,21 @@
     <description>Recent content in Java on KhanhIceTea B(rain)-log</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 06 Aug 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 06 Aug 2017 23:59:59 +0000</lastBuildDate>
     
 	<atom:link href="https://khanhicetea.com/tags/java/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>#TIL 2017-08-06 : sysadmin, java, kernel, til, linux, security, php, mistake</title>
-      <link>https://khanhicetea.com/til/2017-08-06/</link>
-      <pubDate>Sun, 06 Aug 2017 00:00:00 +0000</pubDate>
+      <title>#TIL 2017-08-06 : Runing old java applets on brower</title>
+      <link>https://khanhicetea.com/til/2017-08-06-runing-old-java-applets-on-brower/</link>
+      <pubDate>Sun, 06 Aug 2017 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2017-08-06/</guid>
-      <description>JAVA Runing old java applets on brower Mostly morden browser has stop support Java plugins, so you can&amp;rsquo;t run Java applet on browser.
+      <guid>https://khanhicetea.com/til/2017-08-06-runing-old-java-applets-on-brower/</guid>
+      <description>Runing old java applets on brower Mostly morden browser has stop support Java plugins, so you can&amp;rsquo;t run Java applet on browser.
 Temporary way : - run in IE or Safari - run in an old Firefox (version 23)
 And what if old java applet can&amp;rsquo;t be runned on Java 8 because of weak signature algorithm. Try this
- Open java.security file :  In MacOS, located in /Library/Java/JavaVirtualMachines/jdk[jdk-version].</description>
+ Open java.security file :  In MacOS, located in /Library/Java/JavaVirtualMachines/jdk[jdk-version].jdk/Contents/Home/jre/lib/security In Windows, located in C:\Program File x86\Java\jre\lib\security  Comment this line, jdk.</description>
     </item>
     
   </channel>

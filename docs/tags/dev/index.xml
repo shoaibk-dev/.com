@@ -6,18 +6,18 @@
     <description>Recent content in Dev on KhanhIceTea B(rain)-log</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 13 Jun 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 13 Jun 2017 23:59:59 +0000</lastBuildDate>
     
 	<atom:link href="https://khanhicetea.com/tags/dev/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>#TIL 2017-06-13 : til, sysadmin, git, dev</title>
-      <link>https://khanhicetea.com/til/2017-06-13/</link>
-      <pubDate>Tue, 13 Jun 2017 00:00:00 +0000</pubDate>
+      <title>#TIL 2017-06-13 : Resolving conflict like a boss</title>
+      <link>https://khanhicetea.com/til/2017-06-13-resolving-conflict-like-a-boss/</link>
+      <pubDate>Tue, 13 Jun 2017 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2017-06-13/</guid>
-      <description>GIT Resolving conflict like a boss When using git merge new branch to old branch, you just want use all ours or theirs version but be lazy to update every conflicted file.
+      <guid>https://khanhicetea.com/til/2017-06-13-resolving-conflict-like-a-boss/</guid>
+      <description>Resolving conflict like a boss When using git merge new branch to old branch, you just want use all ours or theirs version but be lazy to update every conflicted file.
 grep -lr &#39;&amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt;&#39; . | xargs git checkout --ours  Or
 grep -lr &#39;&amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt;&#39; . | xargs git checkout --theirs  Explain : these commands will find any file contains &amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt; string (conflicted file) and run git checkout --[side]</description>
     </item>

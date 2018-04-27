@@ -6,35 +6,29 @@
     <description>Recent content in Keyboard on KhanhIceTea B(rain)-log</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 27 Sep 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 27 Sep 2017 23:59:59 +0000</lastBuildDate>
     
 	<atom:link href="https://khanhicetea.com/tags/keyboard/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>#TIL 2017-09-27 : sysadmin, shell, linux, til, keyboard, bash</title>
-      <link>https://khanhicetea.com/til/2017-09-27/</link>
-      <pubDate>Wed, 27 Sep 2017 00:00:00 +0000</pubDate>
+      <title>#TIL 2017-09-27 : Send ENTER key to kernel</title>
+      <link>https://khanhicetea.com/til/2017-09-27-send-enter-key-to-kernel/</link>
+      <pubDate>Wed, 27 Sep 2017 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2017-09-27/</guid>
-      <description>LINUX Send ENTER key to kernel When you try to send an Enter keyboard to linux kernel, it looks like nothing happens.
-This is because you only send a key press (KEY DOWN) but don&amp;rsquo;t send an key release (KEY UP) event after that.
-SYSADMIN BASH tracing commands Thank Hiro Ishii for teaching me this
-set -x will print all running commands in your bash script
-So I dove in and look for all set options of BASH.</description>
+      <guid>https://khanhicetea.com/til/2017-09-27-send-enter-key-to-kernel/</guid>
+      <description>Send ENTER key to kernel When you try to send an Enter keyboard to linux kernel, it looks like nothing happens.
+This is because you only send a key press (KEY DOWN) but don&amp;rsquo;t send an key release (KEY UP) event after that.</description>
     </item>
     
     <item>
-      <title>#TIL 2017-08-08 : til, web, keyboard, google, linux</title>
-      <link>https://khanhicetea.com/til/2017-08-08/</link>
-      <pubDate>Tue, 08 Aug 2017 00:00:00 +0000</pubDate>
+      <title>#TIL 2017-08-08 : Remap Capslock to Control key</title>
+      <link>https://khanhicetea.com/til/2017-08-08-remap-capslock-to-control-key/</link>
+      <pubDate>Tue, 08 Aug 2017 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2017-08-08/</guid>
-      <description>LINUX Remap Capslock to Control key Edit file /etc/default/keyboard and set
-XKBOPTIONS=&amp;quot;ctrl:nocaps&amp;quot;  Then, logout and log in again to impact
-WEB Ping Google to crawl updated content When you post new content to your website, the fastest way is ping search engines to notify them. After that, they will try to crawl and index your page.
-One way to ping search engines is using XMLRPC ping
-This is a example XMLRPC request (HTTP POST request with xml body)</description>
+      <guid>https://khanhicetea.com/til/2017-08-08-remap-capslock-to-control-key/</guid>
+      <description>Remap Capslock to Control key Edit file /etc/default/keyboard and set
+XKBOPTIONS=&amp;quot;ctrl:nocaps&amp;quot;  Then, logout and log in again to impact</description>
     </item>
     
   </channel>

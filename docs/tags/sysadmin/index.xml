@@ -6,64 +6,98 @@
     <description>Recent content in Sysadmin on KhanhIceTea B(rain)-log</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 10 Apr 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 10 Apr 2018 23:59:59 +0000</lastBuildDate>
     
 	<atom:link href="https://khanhicetea.com/tags/sysadmin/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>#TIL 2018-04-10 : til, sysadmin, networking, trick, messaging</title>
-      <link>https://khanhicetea.com/til/2018-04-10/</link>
-      <pubDate>Tue, 10 Apr 2018 00:00:00 +0000</pubDate>
+      <title>#TIL 2018-04-10 : Create tiny chat channel via netcat</title>
+      <link>https://khanhicetea.com/til/2018-04-10-create-tiny-chat-channel-via-netcat/</link>
+      <pubDate>Tue, 10 Apr 2018 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2018-04-10/</guid>
-      <description>SYSADMIN Create tiny chat channel via netcat In a network, you can create a tiny chatting channel using netcat. It&amp;rsquo;s lightweight TCP protocol with plain-text transmission, so be carefully on using.
+      <guid>https://khanhicetea.com/til/2018-04-10-create-tiny-chat-channel-via-netcat/</guid>
+      <description>Create tiny chat channel via netcat In a network, you can create a tiny chatting channel using netcat. It&amp;rsquo;s lightweight TCP protocol with plain-text transmission, so be carefully on using.
 First, create a channel by picking port number (ex: 7777)
 $ sudo nc -l 0.0.0.0 7777  Then, tell you friend your IP and channel port. He will use this info to connect the channel
 $ nc 192.168.1.2 7777  Finnally, start chatting !</description>
     </item>
     
     <item>
-      <title>#TIL 2018-03-25 : til, sysadmin, string, file</title>
-      <link>https://khanhicetea.com/til/2018-03-25/</link>
-      <pubDate>Sun, 25 Mar 2018 00:00:00 +0000</pubDate>
+      <title>#TIL 2018-04-10 : Send a file through networking via netcat</title>
+      <link>https://khanhicetea.com/til/2018-04-10-send-a-file-through-networking-via-netcat/</link>
+      <pubDate>Tue, 10 Apr 2018 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2018-03-25/</guid>
-      <description>SYSADMIN Create a sequence of numbers In the past, every time I want to create a sequence of numbers. I have to use something like MS EXCEL, then copy it and paste to text editor. It&amp;rsquo;s tricky way and slow !
+      <guid>https://khanhicetea.com/til/2018-04-10-send-a-file-through-networking-via-netcat/</guid>
+      <description>Send a file through networking via netcat If you&amp;rsquo;re working on 2 machines in same networking and want to send a file from machine A to machine B. But you don&amp;rsquo;t have USB, floopy disk :lol: or insanse Bluetooth. There is simple way to send a file to another computer without setting up SSH or SMB (althrough these way are safer than it).
+On the machine A (with IP address : 192.</description>
+    </item>
+    
+    <item>
+      <title>#TIL 2018-03-25 : Create a sequence of numbers</title>
+      <link>https://khanhicetea.com/til/2018-03-25-create-a-sequence-of-numbers/</link>
+      <pubDate>Sun, 25 Mar 2018 23:59:59 +0000</pubDate>
+      
+      <guid>https://khanhicetea.com/til/2018-03-25-create-a-sequence-of-numbers/</guid>
+      <description>Create a sequence of numbers In the past, every time I want to create a sequence of numbers. I have to use something like MS EXCEL, then copy it and paste to text editor. It&amp;rsquo;s tricky way and slow !
 Now, I can use the handy tool seq to achieve that
 man seq
 SEQ(1) User Commands SEQ(1) NAME seq - print a sequence of numbers SYNOPSIS seq [OPTION]... LAST seq [OPTION].</description>
     </item>
     
     <item>
-      <title>#TIL 2018-03-01 : sysadmin, http, web, til, security, hacking, browser</title>
-      <link>https://khanhicetea.com/til/2018-03-01/</link>
-      <pubDate>Thu, 01 Mar 2018 00:00:00 +0000</pubDate>
+      <title>#TIL 2018-03-25 : Cut file content from line to line</title>
+      <link>https://khanhicetea.com/til/2018-03-25-cut-file-content-from-line-to-line/</link>
+      <pubDate>Sun, 25 Mar 2018 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2018-03-01/</guid>
-      <description>SYSADMIN Prevent source hacking from .git directory exposing Many web project use Git as source version control tools. So in production server, we could expose the hidden .git directory - which contains all most infomation about project source code.
+      <guid>https://khanhicetea.com/til/2018-03-25-cut-file-content-from-line-to-line/</guid>
+      <description>Cut file content from line to line In case you have a big file which contains a lot of content (2+ GB). And you only need a small part from the file (the part is continuous string from line X to line Y).
+You have many ways to achieve that :
+ Use vi editor and delete from line 1 to line (X-1) by press [X-1]dd then go to line (Y-X+2) and delete to last line by press dG Use sed -n &#39;[X][Y]p&#39; [input_file] &amp;gt; [output_file].</description>
+    </item>
+    
+    <item>
+      <title>#TIL 2018-03-25 : Prepend line number to file</title>
+      <link>https://khanhicetea.com/til/2018-03-25-prepend-line-number-to-file/</link>
+      <pubDate>Sun, 25 Mar 2018 23:59:59 +0000</pubDate>
+      
+      <guid>https://khanhicetea.com/til/2018-03-25-prepend-line-number-to-file/</guid>
+      <description>Prepend line number to file When you want to prepend line number in every line of file, use the -n flag of cat tool.
+Example :
+cat -n a.txt
+Or even from many file
+cat -n a.txt b.txt c.txt</description>
+    </item>
+    
+    <item>
+      <title>#TIL 2018-03-01 : Prevent source hacking from .git directory exposing</title>
+      <link>https://khanhicetea.com/til/2018-03-01-prevent-source-hacking-from-git-directory-exposing/</link>
+      <pubDate>Thu, 01 Mar 2018 23:59:59 +0000</pubDate>
+      
+      <guid>https://khanhicetea.com/til/2018-03-01-prevent-source-hacking-from-git-directory-exposing/</guid>
+      <description>Prevent source hacking from .git directory exposing Many web project use Git as source version control tools. So in production server, we could expose the hidden .git directory - which contains all most infomation about project source code.
 To &amp;ldquo;rip&amp;rdquo; a source code from a vulnerable website, we can use this tool : https://github.com/kost/dvcs-ripper#git
 So to prevent this happens, try to deny all http access to hidden files and directories (usually starts by .</description>
     </item>
     
     <item>
-      <title>#TIL 2018-01-22 : til, sysadmin, ansible, logging, devops</title>
-      <link>https://khanhicetea.com/til/2018-01-22/</link>
-      <pubDate>Mon, 22 Jan 2018 00:00:00 +0000</pubDate>
+      <title>#TIL 2018-01-22 : Use journalctl to check system logs</title>
+      <link>https://khanhicetea.com/til/2018-01-22-use-journalctl-to-check-system-logs/</link>
+      <pubDate>Mon, 22 Jan 2018 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2018-01-22/</guid>
-      <description>DEVOPS Ansible running host pattern Ansible supports pattern to select and filter running hosts from all hosts. Here is some common pattern
- * : wildcard, standalone mean all group1,group2 : run hosts belong to group1 or group2 *.web : run hosts belongs to group matches pattern. Ex: backend.web, frontend.web all:!abc : run all hosts exclude hosts belongs to group abc   Infrastructure by code ;)
- SYSADMIN Use journalctl to check system logs Logging and Monitoring are important factor for system admin.</description>
+      <guid>https://khanhicetea.com/til/2018-01-22-use-journalctl-to-check-system-logs/</guid>
+      <description>Use journalctl to check system logs Logging and Monitoring are important factor for system admin. Checking the log will help you have a closer look into the issue. One tool could help you will handy features is journalctl.
+Here are simple options :
+ -f : follow the log (tailf) -u [service] : filter to show only [service] logs --since=[date] : Show entries not older than the specified date --until=[date] : Show entries not newer than the specified date  Example :</description>
     </item>
     
     <item>
-      <title>#TIL 2017-11-24 : til, sysadmin, dns, ip</title>
-      <link>https://khanhicetea.com/til/2017-11-24/</link>
-      <pubDate>Fri, 24 Nov 2017 00:00:00 +0000</pubDate>
+      <title>#TIL 2017-11-24 : Getting your external IP</title>
+      <link>https://khanhicetea.com/til/2017-11-24-getting-your-external-ip/</link>
+      <pubDate>Fri, 24 Nov 2017 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2017-11-24/</guid>
-      <description>SYSADMIN Getting your external IP We can get our external IP address by following ways :
+      <guid>https://khanhicetea.com/til/2017-11-24-getting-your-external-ip/</guid>
+      <description>Getting your external IP We can get our external IP address by following ways :
  Call http request : curl http://wtfismyip.com/text or curl http://ifconfig.me/ip Lookup A record for hostname nslookup myip.opendns.com resolver1.opendns.com (this only works when you use resolver of OpenDNS)  Bonus : curl https://v6.ident.me/ for IPv6</description>
     </item>
     
@@ -81,12 +115,12 @@ Amazon Web Service AWS update its IP ranges on this link : https://ip-ranges.ama
     </item>
     
     <item>
-      <title>#TIL 2017-10-07 : til, sysadmin, tool, networking</title>
-      <link>https://khanhicetea.com/til/2017-10-07/</link>
-      <pubDate>Sat, 07 Oct 2017 00:00:00 +0000</pubDate>
+      <title>#TIL 2017-10-07 : Using netcat as tiny TCP debug tool</title>
+      <link>https://khanhicetea.com/til/2017-10-07-using-netcat-as-tiny-tcp-debug-tool/</link>
+      <pubDate>Sat, 07 Oct 2017 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2017-10-07/</guid>
-      <description>SYSADMIN Using netcat as tiny TCP debug tool You can use netcat or nc as a debugging TCP tool. It can be a TCP sender and receiver with a short session (auto close when connection is closed)
+      <guid>https://khanhicetea.com/til/2017-10-07-using-netcat-as-tiny-tcp-debug-tool/</guid>
+      <description>Using netcat as tiny TCP debug tool You can use netcat or nc as a debugging TCP tool. It can be a TCP sender and receiver with a short session (auto close when connection is closed)
 Examples :
 Scan ports
 $ nc -zv 127.0.0.1 20-80  Check redis status
@@ -95,108 +129,148 @@ $ printf &amp;quot;GET /xinchao HTTP/1.1\r\n\r\n&amp;quot; | nc 127.0.0.1 8000 |
     </item>
     
     <item>
-      <title>#TIL 2017-10-04 : sysadmin, networking, smtp, til, time, mail, cpu</title>
-      <link>https://khanhicetea.com/til/2017-10-04/</link>
-      <pubDate>Wed, 04 Oct 2017 00:00:00 +0000</pubDate>
+      <title>#TIL 2017-10-04 : TIME command output meaning</title>
+      <link>https://khanhicetea.com/til/2017-10-04-time-command-output-meaning/</link>
+      <pubDate>Wed, 04 Oct 2017 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2017-10-04/</guid>
-      <description>NETWORKING How SMTP works When a email send through an SMTP (with authentication), every SMTP server is a hop in mail routing. So it will transfer to localmail or forward the email to next hop (shortest distance via DNS MX record).
-And standard port of SMTP is 25 (unsecured, but can upgrade to TLS via STARTTLS command).
-$ nslookup -type=mx gmail.com 8.8.8.8 Server: 8.8.8.8 Address: 8.8.8.8#53 Non-authoritative answer: gmail.com mail exchanger = 20 alt2.</description>
+      <guid>https://khanhicetea.com/til/2017-10-04-time-command-output-meaning/</guid>
+      <description>TIME command output meaning When you want to know how long does it take to run a process, just use time command as a prefix
+$ time my_program arg1 arg2 real 0m0.003s user 0m0.000s sys 0m0.004s   real : wall clock time, mean time to start to finish your process user : CPUs-time outside the kernel sys : CPUs-time within the kernel  real+sys result is total multi CPUs time (so if you have a multi core CPUs, it is often bigger than real)</description>
     </item>
     
     <item>
-      <title>#TIL 2017-09-27 : sysadmin, shell, linux, til, keyboard, bash</title>
-      <link>https://khanhicetea.com/til/2017-09-27/</link>
-      <pubDate>Wed, 27 Sep 2017 00:00:00 +0000</pubDate>
+      <title>#TIL 2017-09-27 : BASH tracing commands</title>
+      <link>https://khanhicetea.com/til/2017-09-27-bash-tracing-commands/</link>
+      <pubDate>Wed, 27 Sep 2017 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2017-09-27/</guid>
-      <description>LINUX Send ENTER key to kernel When you try to send an Enter keyboard to linux kernel, it looks like nothing happens.
-This is because you only send a key press (KEY DOWN) but don&amp;rsquo;t send an key release (KEY UP) event after that.
-SYSADMIN BASH tracing commands Thank Hiro Ishii for teaching me this
+      <guid>https://khanhicetea.com/til/2017-09-27-bash-tracing-commands/</guid>
+      <description>BASH tracing commands Thank Hiro Ishii for teaching me this
 set -x will print all running commands in your bash script
-So I dove in and look for all set options of BASH.</description>
+So I dove in and look for all set options of BASH.
+And this is what I got , http://www.gnu.org/software/bash/manual/html_node/The-Set-Builtin.html</description>
     </item>
     
     <item>
-      <title>#TIL 2017-09-26 : til, sysadmin, shell, bash</title>
-      <link>https://khanhicetea.com/til/2017-09-26/</link>
-      <pubDate>Tue, 26 Sep 2017 00:00:00 +0000</pubDate>
+      <title>#TIL 2017-09-26 : BASH exiting on first error</title>
+      <link>https://khanhicetea.com/til/2017-09-26-bash-exiting-on-first-error/</link>
+      <pubDate>Tue, 26 Sep 2017 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2017-09-26/</guid>
-      <description>SYSADMIN BASH exiting on first error Setting a flag set -e to bash script will let the script exit on first error occurs, so if you want to ignore a command just adding || true to suffix
+      <guid>https://khanhicetea.com/til/2017-09-26-bash-exiting-on-first-error/</guid>
+      <description> BASH exiting on first error Setting a flag set -e to bash script will let the script exit on first error occurs, so if you want to ignore a command just adding || true to suffix
 set -e errorCmd $1 || true echo &amp;quot;Run here !&amp;quot;  And opposite of set -e is set +e, haha of course !
-set +e errorCmd $1 echo &amp;quot;Still run here !&amp;quot;  SYSADMIN BASH return a value in function Creating function is a good way to refactor your bash script.</description>
+set +e errorCmd $1 echo &amp;quot;Still run here !&amp;quot;  </description>
     </item>
     
     <item>
-      <title>#TIL 2017-09-25 : sysadmin, networking, zip, firewall, compress, til, tools</title>
-      <link>https://khanhicetea.com/til/2017-09-25/</link>
-      <pubDate>Mon, 25 Sep 2017 00:00:00 +0000</pubDate>
+      <title>#TIL 2017-09-26 : BASH return a value in function</title>
+      <link>https://khanhicetea.com/til/2017-09-26-bash-return-a-value-in-function/</link>
+      <pubDate>Tue, 26 Sep 2017 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2017-09-25/</guid>
-      <description>SYSADMIN Blocking specified country to prevent from DDOS Last day I checked system logs and got a lot of warning messages mentioned that my server has been attack via Brute-force. So I decided to blocked some countries from connecting to attacked ports (21, 25). They are China, Russia and US.
+      <guid>https://khanhicetea.com/til/2017-09-26-bash-return-a-value-in-function/</guid>
+      <description>BASH return a value in function Creating function is a good way to refactor your bash script. But BASH doesn&amp;rsquo;t support returning a value in true way, so it makes a bit of challenge to handle that.
+You can use this trick
+hello() { echo &amp;quot;Hello $1&amp;quot; } hw=$(hello &amp;quot;KhanhIceTea&amp;quot;) echo $hw  But what if you want to echo log message in hello function, it will be merged to returned value.</description>
+    </item>
+    
+    <item>
+      <title>#TIL 2017-09-25 : Blocking specified country to prevent from DDOS</title>
+      <link>https://khanhicetea.com/til/2017-09-25-blocking-specified-country-to-prevent-from-ddos/</link>
+      <pubDate>Mon, 25 Sep 2017 23:59:59 +0000</pubDate>
+      
+      <guid>https://khanhicetea.com/til/2017-09-25-blocking-specified-country-to-prevent-from-ddos/</guid>
+      <description>Blocking specified country to prevent from DDOS Last day I checked system logs and got a lot of warning messages mentioned that my server has been attack via Brute-force. So I decided to blocked some countries from connecting to attacked ports (21, 25). They are China, Russia and US.
 This site provides a list of IP blocks of specified country
-http://www.ipdeny.com/ipblocks/
-TOOLS Zip compressing list of files To specify a list of compressed files when using zip cli tool, you could use -@ [file_list] flag.</description>
+http://www.ipdeny.com/ipblocks/</description>
     </item>
     
     <item>
-      <title>#TIL 2017-09-07 : til, sysadmin, networking</title>
-      <link>https://khanhicetea.com/til/2017-09-07/</link>
-      <pubDate>Thu, 07 Sep 2017 00:00:00 +0000</pubDate>
+      <title>#TIL 2017-09-07 : Generate dhparam file faster</title>
+      <link>https://khanhicetea.com/til/2017-09-07-generate-dhparam-file-faster/</link>
+      <pubDate>Thu, 07 Sep 2017 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2017-09-07/</guid>
-      <description>NETWORKING TCP FIN timeout The TCP FIN timeout belays the amount of time a port must be inactive before it can reused for another connection. The default is often 60 seconds, but can normally be safely reduced to 30 or even 15 seconds:
-net.ipv4.tcp_fin_timeout = 15  Ref : https://www.linode.com/docs/web-servers/nginx/configure-nginx-for-optimized-performance
-SYSADMIN Generate dhparam file faster openssl uses strong prime (which is useless for security but requires an awful lot more computational effort.</description>
+      <guid>https://khanhicetea.com/til/2017-09-07-generate-dhparam-file-faster/</guid>
+      <description>Generate dhparam file faster openssl uses strong prime (which is useless for security but requires an awful lot more computational effort. A &amp;ldquo;strong prime&amp;rdquo; is a prime p such that (p-1)/2 is also prime). So it will be faster if we add option -dsaparam to the command
+$ openssl dhparam -dsaparam -out /etc/ssl/private/dhparam.pem 4096  Ref : https://security.stackexchange.com/a/95184</description>
     </item>
     
     <item>
-      <title>#TIL 2017-09-05 : til, sysadmin, ansible, grep</title>
-      <link>https://khanhicetea.com/til/2017-09-05/</link>
-      <pubDate>Tue, 05 Sep 2017 00:00:00 +0000</pubDate>
+      <title>#TIL 2017-09-07 : Lock and unlock a user password</title>
+      <link>https://khanhicetea.com/til/2017-09-07-lock-and-unlock-a-user-password/</link>
+      <pubDate>Thu, 07 Sep 2017 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2017-09-05/</guid>
-      <description>SYSADMIN Ansible playbook : skip to task You can skip to a task by its name by adding parameter --start-at
-$ ansible-playbook playbook.yml --start-at=&amp;quot;[your task name]&amp;quot;  SYSADMIN Grep : find a string in folder Grep is a greate tool for searching a string in files.
+      <guid>https://khanhicetea.com/til/2017-09-07-lock-and-unlock-a-user-password/</guid>
+      <description> Lock and unlock a user password In Linux, you can prevent a user from login by locking it.
+Lock
+$ sudo passwd -l [user]  Unlock
+$ sudo passwd -u [user]  </description>
+    </item>
+    
+    <item>
+      <title>#TIL 2017-09-05 : Ansible playbook : skip to task</title>
+      <link>https://khanhicetea.com/til/2017-09-05-ansible-playbook-skip-to-task/</link>
+      <pubDate>Tue, 05 Sep 2017 23:59:59 +0000</pubDate>
+      
+      <guid>https://khanhicetea.com/til/2017-09-05-ansible-playbook-skip-to-task/</guid>
+      <description> Ansible playbook : skip to task You can skip to a task by its name by adding parameter --start-at
+$ ansible-playbook playbook.yml --start-at=&amp;quot;[your task name]&amp;quot;  </description>
+    </item>
+    
+    <item>
+      <title>#TIL 2017-09-05 : Grep : find a string in folder</title>
+      <link>https://khanhicetea.com/til/2017-09-05-grep-find-a-string-in-folder/</link>
+      <pubDate>Tue, 05 Sep 2017 23:59:59 +0000</pubDate>
+      
+      <guid>https://khanhicetea.com/til/2017-09-05-grep-find-a-string-in-folder/</guid>
+      <description> Grep : find a string in folder Grep is a greate tool for searching a string in files.
 Syntax
-$ grep -nr &#39;[string]&#39; [folder]  If you want to show surrounding lines the result, add flag -C [number] to the command</description>
+$ grep -nr &#39;[string]&#39; [folder]  If you want to show surrounding lines the result, add flag -C [number] to the command
+$ grep -nr -C 3 &#39;hello&#39; src  </description>
     </item>
     
     <item>
-      <title>#TIL 2017-09-01 : sysadmin, cli, web, til, ssh, mysql, security, proxy</title>
-      <link>https://khanhicetea.com/til/2017-09-01/</link>
-      <pubDate>Fri, 01 Sep 2017 00:00:00 +0000</pubDate>
+      <title>#TIL 2017-09-01 : Create SSH tunnel manually</title>
+      <link>https://khanhicetea.com/til/2017-09-01-create-ssh-tunnel-manually/</link>
+      <pubDate>Fri, 01 Sep 2017 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2017-09-01/</guid>
-      <description>MYSQL Mycli : a new good cli MySql Client This tool is written in Python with super cool features (auto-complete and colors).
-Worth a shot !
-Install
-$ pip install mycli  Usage
-$ mycli -h 127.0.0.1 -P 3306 -u root  Screencast
-SYSADMIN Create SSH tunnel manually SSH Tunnel is a fast way to transfer traffic through unsafe internet today. It would be used in MySQL connect, FTP connect or HTTP connect, &amp;hellip;</description>
+      <guid>https://khanhicetea.com/til/2017-09-01-create-ssh-tunnel-manually/</guid>
+      <description>Create SSH tunnel manually SSH Tunnel is a fast way to transfer traffic through unsafe internet today. It would be used in MySQL connect, FTP connect or HTTP connect, &amp;hellip;
+Syntax :
+$ ssh -L [local_port]:[remote_endpoint]:[remote_port] [ssh_user]:[ssh_ip]  Example :
+Lets say you have a EC2 instance (123.45.67.89) and remote DB instance (98.76.54.32) listening port 3306
+$ ssh -L 3307:98.76.54.32:3306 root@123.45.67.89  Testing ssh tunnel
+$ telnet 127.0.0.1 3307 $ # or $ mysql -h 127.</description>
     </item>
     
     <item>
-      <title>#TIL 2017-08-06 : sysadmin, java, kernel, til, linux, security, php, mistake</title>
-      <link>https://khanhicetea.com/til/2017-08-06/</link>
-      <pubDate>Sun, 06 Aug 2017 00:00:00 +0000</pubDate>
+      <title>#TIL 2017-09-01 : Enable reverse proxy in CentOS</title>
+      <link>https://khanhicetea.com/til/2017-09-01-enable-reverse-proxy-in-centos/</link>
+      <pubDate>Fri, 01 Sep 2017 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2017-08-06/</guid>
-      <description>JAVA Runing old java applets on brower Mostly morden browser has stop support Java plugins, so you can&amp;rsquo;t run Java applet on browser.
-Temporary way : - run in IE or Safari - run in an old Firefox (version 23)
-And what if old java applet can&amp;rsquo;t be runned on Java 8 because of weak signature algorithm. Try this
- Open java.security file :  In MacOS, located in /Library/Java/JavaVirtualMachines/jdk[jdk-version].</description>
+      <guid>https://khanhicetea.com/til/2017-09-01-enable-reverse-proxy-in-centos/</guid>
+      <description> Enable reverse proxy in CentOS CentOS with SELinux enabled by default will block any http proxy connection. So you have to enable this permission.
+Temporary enable
+$ /usr/sbin/setsebool httpd_can_network_connect 1  Permanent enable
+$ /usr/sbin/setsebool -P httpd_can_network_connect 1  </description>
     </item>
     
     <item>
-      <title>#TIL 2017-06-15 : til, sysadmin, gearman, queue</title>
-      <link>https://khanhicetea.com/til/2017-06-15/</link>
-      <pubDate>Thu, 15 Jun 2017 00:00:00 +0000</pubDate>
+      <title>#TIL 2017-08-06 : Cleaning up old linux kernels</title>
+      <link>https://khanhicetea.com/til/2017-08-06-cleaning-up-old-linux-kernels/</link>
+      <pubDate>Sun, 06 Aug 2017 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2017-06-15/</guid>
-      <description>SYSADMIN Gearman bash worker and client Gearman is a awesome job queue service that helps you scale your system. In smaller context, it can help us to run a background woker for minor tasks like backup data, cleaning system.
+      <guid>https://khanhicetea.com/til/2017-08-06-cleaning-up-old-linux-kernels/</guid>
+      <description>Cleaning up old linux kernels Last day, I try to reboot a production server which has out-of-space /boot (I upgraded many kernels without rebooting, so system doesn&amp;rsquo;t clean up old ones). And in the end, doom day had come ! It installed new kernel failed and booting to that kernel. My system crashed !
+So, I learned from it :
+ Never ever upgrade kernel without cleaning up old ones (just reboot) Never ever reboot a production without backup MORE IMPORTANT, NEVER do 2 above things at same time in the weekend !</description>
+    </item>
+    
+    <item>
+      <title>#TIL 2017-06-15 : Gearman bash worker and client</title>
+      <link>https://khanhicetea.com/til/2017-06-15-gearman-bash-worker-and-client/</link>
+      <pubDate>Thu, 15 Jun 2017 23:59:59 +0000</pubDate>
+      
+      <guid>https://khanhicetea.com/til/2017-06-15-gearman-bash-worker-and-client/</guid>
+      <description>Gearman bash worker and client Gearman is a awesome job queue service that helps you scale your system. In smaller context, it can help us to run a background woker for minor tasks like backup data, cleaning system.
 Install :
 $ sudo apt install gearman-job-server gearman-tools  Create a worker bash script
 worker.sh
@@ -204,112 +278,145 @@ worker.sh
     </item>
     
     <item>
-      <title>#TIL 2017-06-13 : til, sysadmin, git, dev</title>
-      <link>https://khanhicetea.com/til/2017-06-13/</link>
-      <pubDate>Tue, 13 Jun 2017 00:00:00 +0000</pubDate>
+      <title>#TIL 2017-06-13 : Resolving conflict like a boss</title>
+      <link>https://khanhicetea.com/til/2017-06-13-resolving-conflict-like-a-boss/</link>
+      <pubDate>Tue, 13 Jun 2017 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2017-06-13/</guid>
-      <description>GIT Resolving conflict like a boss When using git merge new branch to old branch, you just want use all ours or theirs version but be lazy to update every conflicted file.
+      <guid>https://khanhicetea.com/til/2017-06-13-resolving-conflict-like-a-boss/</guid>
+      <description>Resolving conflict like a boss When using git merge new branch to old branch, you just want use all ours or theirs version but be lazy to update every conflicted file.
 grep -lr &#39;&amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt;&#39; . | xargs git checkout --ours  Or
 grep -lr &#39;&amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt;&#39; . | xargs git checkout --theirs  Explain : these commands will find any file contains &amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt; string (conflicted file) and run git checkout --[side]</description>
     </item>
     
     <item>
-      <title>#TIL 2017-05-24 : til, sysadmin, docker</title>
-      <link>https://khanhicetea.com/til/2017-05-24/</link>
-      <pubDate>Wed, 24 May 2017 00:00:00 +0000</pubDate>
+      <title>#TIL 2017-05-24 : Changing channel from alpha to stable will remove ALL DATA</title>
+      <link>https://khanhicetea.com/til/2017-05-24-changing-channel-from-alpha-to-stable-will-remove-all-data/</link>
+      <pubDate>Wed, 24 May 2017 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2017-05-24/</guid>
-      <description>DOCKER Changing channel from alpha to stable will remove ALL DATA On MacOS, changing Docker channel will remove all data (includes volumes, images, networks and &amp;hellip; everything).
-Because Docker on Mac using a minimal Linux machine to host docker engine, so changing machine means discarding all old data. So BECAREFUL !
-DOCKER Reducing docker image the right way When building an image, Docker engine commit file system layer on every command (RUN, ADD, COPY).</description>
+      <guid>https://khanhicetea.com/til/2017-05-24-changing-channel-from-alpha-to-stable-will-remove-all-data/</guid>
+      <description>Changing channel from alpha to stable will remove ALL DATA On MacOS, changing Docker channel will remove all data (includes volumes, images, networks and &amp;hellip; everything).
+Because Docker on Mac using a minimal Linux machine to host docker engine, so changing machine means discarding all old data. So BECAREFUL !</description>
     </item>
     
     <item>
-      <title>#TIL 2017-05-22 : sysadmin, shell, util, tool, compressing, til, bash</title>
-      <link>https://khanhicetea.com/til/2017-05-22/</link>
-      <pubDate>Mon, 22 May 2017 00:00:00 +0000</pubDate>
+      <title>#TIL 2017-05-24 : Reducing docker image the right way</title>
+      <link>https://khanhicetea.com/til/2017-05-24-reducing-docker-image-the-right-way/</link>
+      <pubDate>Wed, 24 May 2017 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2017-05-22/</guid>
-      <description>SYSADMIN Using BSD find util to find and exec command on file and folder Simple syntax of find
+      <guid>https://khanhicetea.com/til/2017-05-24-reducing-docker-image-the-right-way/</guid>
+      <description>Reducing docker image the right way When building an image, Docker engine commit file system layer on every command (RUN, ADD, COPY). So next time you installing packages from package manager likes apt, yum, pacman, &amp;hellip;remember clean their cache in same line.
+BAD WAY
+RUN apt-get update RUN apt-get install git # Something here # End of file RUN apt-get clean &amp;amp;&amp;amp; rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*  RIGHT WAY</description>
+    </item>
+    
+    <item>
+      <title>#TIL 2017-05-22 : Using BSD find util to find and exec command on file and folder</title>
+      <link>https://khanhicetea.com/til/2017-05-22-using-bsd-find-util-to-find-and-exec-command-on-file-and-folder/</link>
+      <pubDate>Mon, 22 May 2017 23:59:59 +0000</pubDate>
+      
+      <guid>https://khanhicetea.com/til/2017-05-22-using-bsd-find-util-to-find-and-exec-command-on-file-and-folder/</guid>
+      <description>Using BSD find util to find and exec command on file and folder Simple syntax of find
 $ find [find_path] -type [file_type] -exec [command] {} \;  Add filename matching pattern to filter the result
 $ find [find_path] -name &amp;quot;*.php&amp;quot; -type [file_type] -exec [command] {} \;  Where file_type is :
  b : block special c : character special d : directory f : regular file l : symbolic link p : FIFO s : socket  Examples:</description>
     </item>
     
     <item>
-      <title>#TIL 2017-05-19 : sysadmin, shell, testing, devops, til, automated, bash</title>
-      <link>https://khanhicetea.com/til/2017-05-19/</link>
-      <pubDate>Fri, 19 May 2017 00:00:00 +0000</pubDate>
+      <title>#TIL 2017-05-22 : zcat : decompressing pipe tool</title>
+      <link>https://khanhicetea.com/til/2017-05-22-zcat-decompressing-pipe-tool/</link>
+      <pubDate>Mon, 22 May 2017 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2017-05-19/</guid>
-      <description>DEVOPS Checking forced push conflicts on source code in auto testing Using automated CI solution likes Travis, Jenkins, DroneCI, &amp;hellip; is good solution to ensure quality of software and no breaks in deployment.
-Sometimes, developers force push conflicts part to production branch of source code. If the CI tests only backend (python, ruby, php, go, ..) and forget about frontend code, then your application will be exploded !
-So checking the conflicts code is required step before testing backend and deployment.</description>
+      <guid>https://khanhicetea.com/til/2017-05-22-zcat-decompressing-pipe-tool/</guid>
+      <description> zcat : decompressing pipe tool zcat is a tool that creates a pipe from gz file. It makes command cleaner and faster (maybe). You don&amp;rsquo;t have to decompress gz file before using next tool.
+Examples :
+Finding string in gzip text file
+$ zcat secret.gz | grep &#39;42&#39;  Importing SQL backup file
+$ mysqldump -u root -p db_name1 | gzip &amp;gt; db_name.sql.gz $ zcat db_name.sql.gz | mysql -u root -p db_name_2  </description>
     </item>
     
     <item>
-      <title>#TIL 2017-05-18 : sysadmin, web, linux, til, error, cloudflare</title>
-      <link>https://khanhicetea.com/til/2017-05-18/</link>
-      <pubDate>Thu, 18 May 2017 00:00:00 +0000</pubDate>
+      <title>#TIL 2017-05-19 : wget Output flag</title>
+      <link>https://khanhicetea.com/til/2017-05-19-wget-output-flag/</link>
+      <pubDate>Fri, 19 May 2017 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2017-05-18/</guid>
-      <description>SYSADMIN Grant user to use sudo without password This is bad practice but it&amp;rsquo;s kind of hacky thing if you YOLO
+      <guid>https://khanhicetea.com/til/2017-05-19-wget-output-flag/</guid>
+      <description> wget Output flag -O means output
+$ # output file will be index.html or based on header filename $ wget -O www.abc.xyz  $ # output file will be filename.html $ wget -O filename.html www.abc.xyz  $ # output to stdout $ wget -O- www.abc.xyz $ wget -O- https://gist.githubusercontent.com/khanhicetea/4fa9f5103cd7fbc2d2270abce05c9c2b/raw/helloworld.sh | bash  </description>
+    </item>
+    
+    <item>
+      <title>#TIL 2017-05-18 : Grant user to use sudo without password</title>
+      <link>https://khanhicetea.com/til/2017-05-18-grant-user-to-use-sudo-without-password/</link>
+      <pubDate>Thu, 18 May 2017 23:59:59 +0000</pubDate>
+      
+      <guid>https://khanhicetea.com/til/2017-05-18-grant-user-to-use-sudo-without-password/</guid>
+      <description>Grant user to use sudo without password This is bad practice but it&amp;rsquo;s kind of hacky thing if you YOLO
 # Create a user with home dir and bash shell (if you don&#39;t have yet) $ useradd -m YOURUSERNAME -s /bin/bash $ sudo vi /etc/sudoers  Add this line below root ALL=(ALL:ALL) ALL (User privilege specification section)
 $ YOUR_USERNAME ALL=(ALL:ALL) NOPASSWD:ALL  Then press :wq! to force saving the file</description>
     </item>
     
     <item>
-      <title>#TIL 2017-05-17 : til, sysadmin, compressing, rar, mysql</title>
-      <link>https://khanhicetea.com/til/2017-05-17/</link>
-      <pubDate>Wed, 17 May 2017 00:00:00 +0000</pubDate>
+      <title>#TIL 2017-05-17 : Compressing and Extracting files with rar in Linux</title>
+      <link>https://khanhicetea.com/til/2017-05-17-compressing-and-extracting-files-with-rar-in-linux/</link>
+      <pubDate>Wed, 17 May 2017 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2017-05-17/</guid>
-      <description>MYSQL Mysql dumping only table structure Adding -D to dump only data structure
-Example :
-$ mysqldump -h 127.0.0.1 -u root -p&amp;quot;something&amp;quot; -D database1 &amp;gt; db.sql  SYSADMIN Compressing and Extracting files with rar in Linux zip and tar disadvantages All unicode filename will be transform to weird character, so it makes broken paths and broken links
-Notice rar and unrar in Linux isn&amp;rsquo;t same version and so don&amp;rsquo;t use unrar to extract archived file by rar (It causes invalid full paths)</description>
+      <guid>https://khanhicetea.com/til/2017-05-17-compressing-and-extracting-files-with-rar-in-linux/</guid>
+      <description>Compressing and Extracting files with rar in Linux zip and tar disadvantages All unicode filename will be transform to weird character, so it makes broken paths and broken links
+Notice rar and unrar in Linux isn&amp;rsquo;t same version and so don&amp;rsquo;t use unrar to extract archived file by rar (It causes invalid full paths)
+Installation Ubuntu :
+$ sudo apt install rar  Redhat ( using RPMForge )
+$ sudo yum install rar  Compressing files, folder Compressing files</description>
     </item>
     
     <item>
-      <title>#TIL 2016-03-26 : sysadmin, shell, command-line, shortcuts, til, bash</title>
-      <link>https://khanhicetea.com/til/2016-03-26/</link>
-      <pubDate>Sat, 26 Mar 2016 00:00:00 +0000</pubDate>
+      <title>#TIL 2016-03-26 : Bash shell shortcuts</title>
+      <link>https://khanhicetea.com/til/2016-03-26-bash-shell-shortcuts/</link>
+      <pubDate>Sat, 26 Mar 2016 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2016-03-26/</guid>
-      <description>SYSADMIN Bash shell shortcuts  Ctrl + e : jump cursor to EOL Ctrl + a : jump cursor to BOL (beginning of line) Ctrl + u : delete all from cursor to BOL Ctrl + k : delete all from cursor to EOL Ctrl + r : search history, press again for next search Ctrl + l : clear shell screen Ctrl + c : terminate the command (sometimes have to press twice) Ctrl + z : suspend the command, back to shell.</description>
+      <guid>https://khanhicetea.com/til/2016-03-26-bash-shell-shortcuts/</guid>
+      <description>Bash shell shortcuts  Ctrl + e : jump cursor to EOL Ctrl + a : jump cursor to BOL (beginning of line) Ctrl + u : delete all from cursor to BOL Ctrl + k : delete all from cursor to EOL Ctrl + r : search history, press again for next search Ctrl + l : clear shell screen Ctrl + c : terminate the command (sometimes have to press twice) Ctrl + z : suspend the command, back to shell.</description>
     </item>
     
     <item>
-      <title>#TIL 2015-12-30 : til, sysadmin, command-line, bash</title>
-      <link>https://khanhicetea.com/til/2015-12-30/</link>
-      <pubDate>Wed, 30 Dec 2015 00:00:00 +0000</pubDate>
+      <title>#TIL 2016-03-26 : Stats your top-10 frequently commands</title>
+      <link>https://khanhicetea.com/til/2016-03-26-stats-your-top-10-frequently-commands/</link>
+      <pubDate>Sat, 26 Mar 2016 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2015-12-30/</guid>
-      <description> SYSADMIN Commands Command lsof List all opened files, sockets, pipes
+      <guid>https://khanhicetea.com/til/2016-03-26-stats-your-top-10-frequently-commands/</guid>
+      <description> Stats your top-10 frequently commands Run this command, it will show top-10 frequently commands, explain shell
+$ history | awk &#39;{print $2}&#39; | sort | uniq -c | sort -nr | head  Example result
+2064 git 1284 ls 826 cd 700 ssh 602 clear 491 python 473 exit 341 vagrant 242 export 167 ping  </description>
+    </item>
+    
+    <item>
+      <title>#TIL 2015-12-30 : Commands</title>
+      <link>https://khanhicetea.com/til/2015-12-30-commands/</link>
+      <pubDate>Wed, 30 Dec 2015 23:59:59 +0000</pubDate>
+      
+      <guid>https://khanhicetea.com/til/2015-12-30-commands/</guid>
+      <description> Commands Command lsof List all opened files, sockets, pipes
 Eg:
  List processes are using port 80 (need root if port between 1-1023)  # sudo lsof -i:80   List processes are using /bin/bash  # lsof /bin/bash  </description>
     </item>
     
     <item>
-      <title>#TIL 2015-12-04 : sysadmin, websocket, log, python, clone, ref-var, til, cli-server, docker, php</title>
-      <link>https://khanhicetea.com/til/2015-12-04/</link>
-      <pubDate>Fri, 04 Dec 2015 00:00:00 +0000</pubDate>
+      <title>#TIL 2015-12-04 : View real-time logs using websocketd</title>
+      <link>https://khanhicetea.com/til/2015-12-04-view-real-time-logs-using-websocketd/</link>
+      <pubDate>Fri, 04 Dec 2015 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2015-12-04/</guid>
-      <description>PHP Run built-in server via Docker Docker is the fast and clean way to run Linux programs.
-We can run a PHP project via PHP built-in server and Docker.
-docker run -it -p 8080:8080 -v `pwd`:/code php:7 php -S 0.0.0.0:8080 -t /code/web /code/web/server.php  With server.php content is
-&amp;lt;?php $filename = __DIR__.preg_replace(&#39;#(\?.*)$#&#39;, &#39;&#39;, $_SERVER[&#39;REQUEST_URI&#39;]); if (php_sapi_name() === &#39;cli-server&#39; &amp;amp;&amp;amp; is_file($filename)) { return false; } // Run application below $app = new Application(); $app-&amp;gt;run();  PYTHON Reference assign object variable When you have a object x and assign y = x, y will be a ref of x (it looks like pointer of C).</description>
+      <guid>https://khanhicetea.com/til/2015-12-04-view-real-time-logs-using-websocketd/</guid>
+      <description>View real-time logs using websocketd I found a handy tool for making a websocket right on your shell. It is websocketd : http://websocketd.com/
+Its phisolophy is so simple : &amp;gt; Just read incoming text from stdin and write outgoing text to stdout. Messaging is simple.
+Read its docs, I follow the ez tutorial 10 second tutorial and see how cool does it work. Let make something cool with this, we got a UNIX tool that print out to stdout in real-time with changes of end file.</description>
     </item>
     
     <item>
-      <title>#TIL 2015-12-03 : til, sysadmin, curl, ftp</title>
-      <link>https://khanhicetea.com/til/2015-12-03/</link>
-      <pubDate>Thu, 03 Dec 2015 00:00:00 +0000</pubDate>
+      <title>#TIL 2015-12-03 : FTP via curl tool</title>
+      <link>https://khanhicetea.com/til/2015-12-03-ftp-via-curl-tool/</link>
+      <pubDate>Thu, 03 Dec 2015 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2015-12-03/</guid>
-      <description> SYSADMIN FTP via curl tool Can upload an file via FTP by curl tool with handy script :
+      <guid>https://khanhicetea.com/til/2015-12-03-ftp-via-curl-tool/</guid>
+      <description> FTP via curl tool Can upload an file via FTP by curl tool with handy script :
 curl -T file_need_to_upload ftp://hostname --user user:passwd  </description>
     </item>
     

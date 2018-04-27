@@ -6,20 +6,20 @@
     <description>Recent content in Index on KhanhIceTea B(rain)-log</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 01 Dec 2015 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 01 Dec 2015 23:59:59 +0000</lastBuildDate>
     
 	<atom:link href="https://khanhicetea.com/tags/index/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>#TIL 2015-12-01 : index, string, python, mysql, til, unicode, sql</title>
-      <link>https://khanhicetea.com/til/2015-12-01/</link>
-      <pubDate>Tue, 01 Dec 2015 00:00:00 +0000</pubDate>
+      <title>#TIL 2015-12-01 : Index is useless when use function on indexed field</title>
+      <link>https://khanhicetea.com/til/2015-12-01-index-is-useless-when-use-function-on-indexed-field/</link>
+      <pubDate>Tue, 01 Dec 2015 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2015-12-01/</guid>
-      <description>MYSQL Index is useless when use function on indexed field Reality, if using function on indexed field, you will broke indexing by accident. Eg:
+      <guid>https://khanhicetea.com/til/2015-12-01-index-is-useless-when-use-function-on-indexed-field/</guid>
+      <description> Index is useless when use function on indexed field Reality, if using function on indexed field, you will broke indexing by accident. Eg:
 WHERE MONTH(`date`) = 11 AND YEAR(`date`) = 2015  Solution is transform the query to comparison query, like this :
-WHERE `date` &amp;gt;= &#39;2015-11-01&#39; AND `date` &amp;lt; &#39;2015-12-01&#39;  PYTHON String Format Unicode params unicode_thing = u&amp;quot;Xin chào mọi người&amp;quot; a = &#39;{}&#39;.format(unicode_thing)  will cause the error UnicodeEncodeError: &#39;ascii&#39; codec can&#39;t encode character u&#39;\xe0&#39; in position 6: ordinal not in range(128)</description>
+WHERE `date` &amp;gt;= &#39;2015-11-01&#39; AND `date` &amp;lt; &#39;2015-12-01&#39;  </description>
     </item>
     
   </channel>

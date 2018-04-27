@@ -6,18 +6,18 @@
     <description>Recent content in Shortcuts on KhanhIceTea B(rain)-log</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 26 Mar 2016 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 26 Mar 2016 23:59:59 +0000</lastBuildDate>
     
 	<atom:link href="https://khanhicetea.com/tags/shortcuts/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>#TIL 2016-03-26 : sysadmin, shell, command-line, shortcuts, til, bash</title>
-      <link>https://khanhicetea.com/til/2016-03-26/</link>
-      <pubDate>Sat, 26 Mar 2016 00:00:00 +0000</pubDate>
+      <title>#TIL 2016-03-26 : Bash shell shortcuts</title>
+      <link>https://khanhicetea.com/til/2016-03-26-bash-shell-shortcuts/</link>
+      <pubDate>Sat, 26 Mar 2016 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2016-03-26/</guid>
-      <description>SYSADMIN Bash shell shortcuts  Ctrl + e : jump cursor to EOL Ctrl + a : jump cursor to BOL (beginning of line) Ctrl + u : delete all from cursor to BOL Ctrl + k : delete all from cursor to EOL Ctrl + r : search history, press again for next search Ctrl + l : clear shell screen Ctrl + c : terminate the command (sometimes have to press twice) Ctrl + z : suspend the command, back to shell.</description>
+      <guid>https://khanhicetea.com/til/2016-03-26-bash-shell-shortcuts/</guid>
+      <description>Bash shell shortcuts  Ctrl + e : jump cursor to EOL Ctrl + a : jump cursor to BOL (beginning of line) Ctrl + u : delete all from cursor to BOL Ctrl + k : delete all from cursor to EOL Ctrl + r : search history, press again for next search Ctrl + l : clear shell screen Ctrl + c : terminate the command (sometimes have to press twice) Ctrl + z : suspend the command, back to shell.</description>
     </item>
     
   </channel>

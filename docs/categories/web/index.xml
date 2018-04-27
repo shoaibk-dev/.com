@@ -6,75 +6,74 @@
     <description>Recent content in Web on KhanhIceTea B(rain)-log</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 01 Mar 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 01 Mar 2018 23:59:59 +0000</lastBuildDate>
     
 	<atom:link href="https://khanhicetea.com/categories/web/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>#TIL 2018-03-01 : sysadmin, http, web, til, security, hacking, browser</title>
-      <link>https://khanhicetea.com/til/2018-03-01/</link>
-      <pubDate>Thu, 01 Mar 2018 00:00:00 +0000</pubDate>
+      <title>#TIL 2018-03-01 : Sending Cookie in AJAX CORs request</title>
+      <link>https://khanhicetea.com/til/2018-03-01-sending-cookie-in-ajax-cors-request/</link>
+      <pubDate>Thu, 01 Mar 2018 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2018-03-01/</guid>
-      <description>SYSADMIN Prevent source hacking from .git directory exposing Many web project use Git as source version control tools. So in production server, we could expose the hidden .git directory - which contains all most infomation about project source code.
-To &amp;ldquo;rip&amp;rdquo; a source code from a vulnerable website, we can use this tool : https://github.com/kost/dvcs-ripper#git
-So to prevent this happens, try to deny all http access to hidden files and directories (usually starts by .</description>
+      <guid>https://khanhicetea.com/til/2018-03-01-sending-cookie-in-ajax-cors-request/</guid>
+      <description>Sending Cookie in AJAX CORs request By default, browser will remove the cookie and authorization header from AJAX CORs request. So before sending out the request, make sure withCredentials must be true.
+In this case, CORs response must specify which origin is allowed (mean no wildcard allowed origin rule).</description>
     </item>
     
     <item>
-      <title>#TIL 2018-01-08 : til, web, javascript, jsonp</title>
-      <link>https://khanhicetea.com/til/2018-01-08/</link>
-      <pubDate>Mon, 08 Jan 2018 00:00:00 +0000</pubDate>
+      <title>#TIL 2018-01-08 : Bypass CORS by using JSONP callback</title>
+      <link>https://khanhicetea.com/til/2018-01-08-bypass-cors-by-using-jsonp-callback/</link>
+      <pubDate>Mon, 08 Jan 2018 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2018-01-08/</guid>
-      <description>WEB Bypass CORS by using JSONP callback Sometimes you are blocked from request a cross-origin resource. Instead of adding our domain to allowed list of them, we can use another way to retrieve data from their API by using JSONP (in case they support it).
+      <guid>https://khanhicetea.com/til/2018-01-08-bypass-cors-by-using-jsonp-callback/</guid>
+      <description>Bypass CORS by using JSONP callback Sometimes you are blocked from request a cross-origin resource. Instead of adding our domain to allowed list of them, we can use another way to retrieve data from their API by using JSONP (in case they support it).
 The mechanism of JSONP is simple, instead of returning a JSON data. It will return a javascript text with passing your data into a function, whose name is declared in query string.</description>
     </item>
     
     <item>
-      <title>#TIL 2018-01-03 : web, product, http, mobile, til, security</title>
-      <link>https://khanhicetea.com/til/2018-01-03/</link>
-      <pubDate>Wed, 03 Jan 2018 00:00:00 +0000</pubDate>
+      <title>#TIL 2018-01-03 : HSTS rule in browser</title>
+      <link>https://khanhicetea.com/til/2018-01-03-hsts-rule-in-browser/</link>
+      <pubDate>Wed, 03 Jan 2018 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2018-01-03/</guid>
-      <description>HTTP Create cross-platform downloading app URL You have a mobile app for both platforms iOS and Android, each platform has different download URL. But your user doesn&amp;rsquo;t know which platform he using. Clicking wrong URL will lead to user bounce-rate.
-Solution is making only 1 URL to download your app, which can redirect to right place depends on using platform. So how we achieve this ??
-The key of problem is detecting user platform, which can be done by extracting the User-Agent header from http request.</description>
+      <guid>https://khanhicetea.com/til/2018-01-03-hsts-rule-in-browser/</guid>
+      <description>HSTS rule in browser HTTP Strict Transport Security (HSTS) is a web security policy mechanism which helps to protect websites against protocol downgrade attacks and cookie hijacking.
+Enabling HSTS on your web will make your browser validate every SSL issues more strictly :
+ User can not visit http version on browser User can not add SSL exception for the domain to ignore the warning. (when SSL cert expire or invalid common name)  Note : You can manually remove a domain from HSTS in Chrome by accessing this page URL chrome://net-internals/#hsts</description>
     </item>
     
     <item>
-      <title>#TIL 2017-12-07 : til, web, proxy, firewall</title>
-      <link>https://khanhicetea.com/til/2017-12-07/</link>
-      <pubDate>Thu, 07 Dec 2017 00:00:00 +0000</pubDate>
+      <title>#TIL 2017-12-07 : Using web proxy to bypass firewalls</title>
+      <link>https://khanhicetea.com/til/2017-12-07-using-web-proxy-to-bypass-firewalls/</link>
+      <pubDate>Thu, 07 Dec 2017 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2017-12-07/</guid>
-      <description>WEB Using web proxy to bypass firewalls Someday, you will be blocked by a firewall while trying crawling or accessing some website. The reason is they block your IP address from accessing the server.
+      <guid>https://khanhicetea.com/til/2017-12-07-using-web-proxy-to-bypass-firewalls/</guid>
+      <description>Using web proxy to bypass firewalls Someday, you will be blocked by a firewall while trying crawling or accessing some website. The reason is they block your IP address from accessing the server.
 One solution is using a web proxy (http proxy, socks4 or socks5) to bypass the firewall, by adding the middle-man server between you and target. It&amp;rsquo;s a bit unsecured but you could use for https site only.</description>
     </item>
     
     <item>
-      <title>#TIL 2017-08-08 : til, web, keyboard, google, linux</title>
-      <link>https://khanhicetea.com/til/2017-08-08/</link>
-      <pubDate>Tue, 08 Aug 2017 00:00:00 +0000</pubDate>
+      <title>#TIL 2017-08-08 : Ping Google to crawl updated content</title>
+      <link>https://khanhicetea.com/til/2017-08-08-ping-google-to-crawl-updated-content/</link>
+      <pubDate>Tue, 08 Aug 2017 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2017-08-08/</guid>
-      <description>LINUX Remap Capslock to Control key Edit file /etc/default/keyboard and set
-XKBOPTIONS=&amp;quot;ctrl:nocaps&amp;quot;  Then, logout and log in again to impact
-WEB Ping Google to crawl updated content When you post new content to your website, the fastest way is ping search engines to notify them. After that, they will try to crawl and index your page.
+      <guid>https://khanhicetea.com/til/2017-08-08-ping-google-to-crawl-updated-content/</guid>
+      <description>Ping Google to crawl updated content When you post new content to your website, the fastest way is ping search engines to notify them. After that, they will try to crawl and index your page.
 One way to ping search engines is using XMLRPC ping
-This is a example XMLRPC request (HTTP POST request with xml body)</description>
+This is a example XMLRPC request (HTTP POST request with xml body)
+Request
+&amp;gt; POST /ping/RPC2 HTTP/1.1 &amp;gt; Host: blogsearch.google.com &amp;gt; User-Agent: curl/7.47.0 &amp;gt; Accept: */* &amp;gt; content-type: application/xml &amp;gt; Content-Length: 239 &amp;gt; &amp;lt;?</description>
     </item>
     
     <item>
-      <title>#TIL 2017-05-18 : sysadmin, web, linux, til, error, cloudflare</title>
-      <link>https://khanhicetea.com/til/2017-05-18/</link>
-      <pubDate>Thu, 18 May 2017 00:00:00 +0000</pubDate>
+      <title>#TIL 2017-05-18 : Cloudflare Error 522 Connection Time out</title>
+      <link>https://khanhicetea.com/til/2017-05-18-cloudflare-error-522-connection-time-out/</link>
+      <pubDate>Thu, 18 May 2017 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2017-05-18/</guid>
-      <description>SYSADMIN Grant user to use sudo without password This is bad practice but it&amp;rsquo;s kind of hacky thing if you YOLO
-# Create a user with home dir and bash shell (if you don&#39;t have yet) $ useradd -m YOURUSERNAME -s /bin/bash $ sudo vi /etc/sudoers  Add this line below root ALL=(ALL:ALL) ALL (User privilege specification section)
-$ YOUR_USERNAME ALL=(ALL:ALL) NOPASSWD:ALL  Then press :wq! to force saving the file</description>
+      <guid>https://khanhicetea.com/til/2017-05-18-cloudflare-error-522-connection-time-out/</guid>
+      <description>Cloudflare Error 522 Connection Time out If you are using Cloudflare as a proxied web server, it will provide many benefits about performance (assets caching, prevent DDOS and cheap CDN). But sometimes, you will face to this error &amp;ldquo;522 Connection Time out&amp;rdquo;.
+The problems caused by :
+ Networking (CF can&amp;rsquo;t touch origin server : Firewall blocking, Network Layer #1,#2,#3 issue) Timeout (origin server process too long than 90 seconds) Empty or invalid response from origin server No or big HTTP headers (&amp;gt; 8Kb) Failed TCP handshake  Ref:</description>
     </item>
     
     <item>

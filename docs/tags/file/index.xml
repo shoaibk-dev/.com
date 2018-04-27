@@ -6,21 +6,33 @@
     <description>Recent content in File on KhanhIceTea B(rain)-log</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 25 Mar 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 25 Mar 2018 23:59:59 +0000</lastBuildDate>
     
 	<atom:link href="https://khanhicetea.com/tags/file/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>#TIL 2018-03-25 : til, sysadmin, string, file</title>
-      <link>https://khanhicetea.com/til/2018-03-25/</link>
-      <pubDate>Sun, 25 Mar 2018 00:00:00 +0000</pubDate>
+      <title>#TIL 2018-03-25 : Cut file content from line to line</title>
+      <link>https://khanhicetea.com/til/2018-03-25-cut-file-content-from-line-to-line/</link>
+      <pubDate>Sun, 25 Mar 2018 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2018-03-25/</guid>
-      <description>SYSADMIN Create a sequence of numbers In the past, every time I want to create a sequence of numbers. I have to use something like MS EXCEL, then copy it and paste to text editor. It&amp;rsquo;s tricky way and slow !
-Now, I can use the handy tool seq to achieve that
-man seq
-SEQ(1) User Commands SEQ(1) NAME seq - print a sequence of numbers SYNOPSIS seq [OPTION]... LAST seq [OPTION].</description>
+      <guid>https://khanhicetea.com/til/2018-03-25-cut-file-content-from-line-to-line/</guid>
+      <description>Cut file content from line to line In case you have a big file which contains a lot of content (2+ GB). And you only need a small part from the file (the part is continuous string from line X to line Y).
+You have many ways to achieve that :
+ Use vi editor and delete from line 1 to line (X-1) by press [X-1]dd then go to line (Y-X+2) and delete to last line by press dG Use sed -n &#39;[X][Y]p&#39; [input_file] &amp;gt; [output_file].</description>
+    </item>
+    
+    <item>
+      <title>#TIL 2018-03-25 : Prepend line number to file</title>
+      <link>https://khanhicetea.com/til/2018-03-25-prepend-line-number-to-file/</link>
+      <pubDate>Sun, 25 Mar 2018 23:59:59 +0000</pubDate>
+      
+      <guid>https://khanhicetea.com/til/2018-03-25-prepend-line-number-to-file/</guid>
+      <description>Prepend line number to file When you want to prepend line number in every line of file, use the -n flag of cat tool.
+Example :
+cat -n a.txt
+Or even from many file
+cat -n a.txt b.txt c.txt</description>
     </item>
     
   </channel>

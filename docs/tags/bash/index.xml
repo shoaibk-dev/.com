@@ -6,64 +6,75 @@
     <description>Recent content in Bash on KhanhIceTea B(rain)-log</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 05 Oct 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 05 Oct 2017 23:59:59 +0000</lastBuildDate>
     
 	<atom:link href="https://khanhicetea.com/tags/bash/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>#TIL 2017-10-05 : til, python, bash</title>
-      <link>https://khanhicetea.com/til/2017-10-05/</link>
-      <pubDate>Thu, 05 Oct 2017 00:00:00 +0000</pubDate>
+      <title>#TIL 2017-10-05 : Simple HTTP server function helper</title>
+      <link>https://khanhicetea.com/til/2017-10-05-simple-http-server-function-helper/</link>
+      <pubDate>Thu, 05 Oct 2017 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2017-10-05/</guid>
-      <description> BASH Simple HTTP server function helper I use python3 (3.4+) to create a bash function to help me start quickly a simple http server on specified port
+      <guid>https://khanhicetea.com/til/2017-10-05-simple-http-server-function-helper/</guid>
+      <description> Simple HTTP server function helper I use python3 (3.4+) to create a bash function to help me start quickly a simple http server on specified port
 function server() { local port=&amp;quot;${1:-8000}&amp;quot; # Getting port number google-chrome &amp;quot;http://127.0.0.1:$port&amp;quot; # Open URL in browser, could change to firefox --new-tab &amp;quot;http://127.0.0.1:$port&amp;quot; python3 -m http.server $port --bind 127.0.0.1 }  </description>
     </item>
     
     <item>
-      <title>#TIL 2017-09-27 : sysadmin, shell, linux, til, keyboard, bash</title>
-      <link>https://khanhicetea.com/til/2017-09-27/</link>
-      <pubDate>Wed, 27 Sep 2017 00:00:00 +0000</pubDate>
+      <title>#TIL 2017-09-27 : BASH tracing commands</title>
+      <link>https://khanhicetea.com/til/2017-09-27-bash-tracing-commands/</link>
+      <pubDate>Wed, 27 Sep 2017 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2017-09-27/</guid>
-      <description>LINUX Send ENTER key to kernel When you try to send an Enter keyboard to linux kernel, it looks like nothing happens.
-This is because you only send a key press (KEY DOWN) but don&amp;rsquo;t send an key release (KEY UP) event after that.
-SYSADMIN BASH tracing commands Thank Hiro Ishii for teaching me this
+      <guid>https://khanhicetea.com/til/2017-09-27-bash-tracing-commands/</guid>
+      <description>BASH tracing commands Thank Hiro Ishii for teaching me this
 set -x will print all running commands in your bash script
-So I dove in and look for all set options of BASH.</description>
+So I dove in and look for all set options of BASH.
+And this is what I got , http://www.gnu.org/software/bash/manual/html_node/The-Set-Builtin.html</description>
     </item>
     
     <item>
-      <title>#TIL 2017-09-26 : til, sysadmin, shell, bash</title>
-      <link>https://khanhicetea.com/til/2017-09-26/</link>
-      <pubDate>Tue, 26 Sep 2017 00:00:00 +0000</pubDate>
+      <title>#TIL 2017-09-26 : BASH exiting on first error</title>
+      <link>https://khanhicetea.com/til/2017-09-26-bash-exiting-on-first-error/</link>
+      <pubDate>Tue, 26 Sep 2017 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2017-09-26/</guid>
-      <description>SYSADMIN BASH exiting on first error Setting a flag set -e to bash script will let the script exit on first error occurs, so if you want to ignore a command just adding || true to suffix
+      <guid>https://khanhicetea.com/til/2017-09-26-bash-exiting-on-first-error/</guid>
+      <description> BASH exiting on first error Setting a flag set -e to bash script will let the script exit on first error occurs, so if you want to ignore a command just adding || true to suffix
 set -e errorCmd $1 || true echo &amp;quot;Run here !&amp;quot;  And opposite of set -e is set +e, haha of course !
-set +e errorCmd $1 echo &amp;quot;Still run here !&amp;quot;  SYSADMIN BASH return a value in function Creating function is a good way to refactor your bash script.</description>
+set +e errorCmd $1 echo &amp;quot;Still run here !&amp;quot;  </description>
     </item>
     
     <item>
-      <title>#TIL 2017-05-22 : sysadmin, shell, util, tool, compressing, til, bash</title>
-      <link>https://khanhicetea.com/til/2017-05-22/</link>
-      <pubDate>Mon, 22 May 2017 00:00:00 +0000</pubDate>
+      <title>#TIL 2017-09-26 : BASH return a value in function</title>
+      <link>https://khanhicetea.com/til/2017-09-26-bash-return-a-value-in-function/</link>
+      <pubDate>Tue, 26 Sep 2017 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2017-05-22/</guid>
-      <description>SYSADMIN Using BSD find util to find and exec command on file and folder Simple syntax of find
-$ find [find_path] -type [file_type] -exec [command] {} \;  Add filename matching pattern to filter the result
-$ find [find_path] -name &amp;quot;*.php&amp;quot; -type [file_type] -exec [command] {} \;  Where file_type is :
- b : block special c : character special d : directory f : regular file l : symbolic link p : FIFO s : socket  Examples:</description>
+      <guid>https://khanhicetea.com/til/2017-09-26-bash-return-a-value-in-function/</guid>
+      <description>BASH return a value in function Creating function is a good way to refactor your bash script. But BASH doesn&amp;rsquo;t support returning a value in true way, so it makes a bit of challenge to handle that.
+You can use this trick
+hello() { echo &amp;quot;Hello $1&amp;quot; } hw=$(hello &amp;quot;KhanhIceTea&amp;quot;) echo $hw  But what if you want to echo log message in hello function, it will be merged to returned value.</description>
     </item>
     
     <item>
-      <title>#TIL 2017-05-19 : sysadmin, shell, testing, devops, til, automated, bash</title>
-      <link>https://khanhicetea.com/til/2017-05-19/</link>
-      <pubDate>Fri, 19 May 2017 00:00:00 +0000</pubDate>
+      <title>#TIL 2017-05-22 : zcat : decompressing pipe tool</title>
+      <link>https://khanhicetea.com/til/2017-05-22-zcat-decompressing-pipe-tool/</link>
+      <pubDate>Mon, 22 May 2017 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2017-05-19/</guid>
-      <description>DEVOPS Checking forced push conflicts on source code in auto testing Using automated CI solution likes Travis, Jenkins, DroneCI, &amp;hellip; is good solution to ensure quality of software and no breaks in deployment.
+      <guid>https://khanhicetea.com/til/2017-05-22-zcat-decompressing-pipe-tool/</guid>
+      <description> zcat : decompressing pipe tool zcat is a tool that creates a pipe from gz file. It makes command cleaner and faster (maybe). You don&amp;rsquo;t have to decompress gz file before using next tool.
+Examples :
+Finding string in gzip text file
+$ zcat secret.gz | grep &#39;42&#39;  Importing SQL backup file
+$ mysqldump -u root -p db_name1 | gzip &amp;gt; db_name.sql.gz $ zcat db_name.sql.gz | mysql -u root -p db_name_2  </description>
+    </item>
+    
+    <item>
+      <title>#TIL 2017-05-19 : Checking forced push conflicts on source code in auto testing</title>
+      <link>https://khanhicetea.com/til/2017-05-19-checking-forced-push-conflicts-on-source-code-in-auto-testing/</link>
+      <pubDate>Fri, 19 May 2017 23:59:59 +0000</pubDate>
+      
+      <guid>https://khanhicetea.com/til/2017-05-19-checking-forced-push-conflicts-on-source-code-in-auto-testing/</guid>
+      <description>Checking forced push conflicts on source code in auto testing Using automated CI solution likes Travis, Jenkins, DroneCI, &amp;hellip; is good solution to ensure quality of software and no breaks in deployment.
 Sometimes, developers force push conflicts part to production branch of source code. If the CI tests only backend (python, ruby, php, go, ..) and forget about frontend code, then your application will be exploded !
 So checking the conflicts code is required step before testing backend and deployment.</description>
     </item>
@@ -94,21 +105,32 @@ What does script do :
     </item>
     
     <item>
-      <title>#TIL 2016-03-26 : sysadmin, shell, command-line, shortcuts, til, bash</title>
-      <link>https://khanhicetea.com/til/2016-03-26/</link>
-      <pubDate>Sat, 26 Mar 2016 00:00:00 +0000</pubDate>
+      <title>#TIL 2016-03-26 : Bash shell shortcuts</title>
+      <link>https://khanhicetea.com/til/2016-03-26-bash-shell-shortcuts/</link>
+      <pubDate>Sat, 26 Mar 2016 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2016-03-26/</guid>
-      <description>SYSADMIN Bash shell shortcuts  Ctrl + e : jump cursor to EOL Ctrl + a : jump cursor to BOL (beginning of line) Ctrl + u : delete all from cursor to BOL Ctrl + k : delete all from cursor to EOL Ctrl + r : search history, press again for next search Ctrl + l : clear shell screen Ctrl + c : terminate the command (sometimes have to press twice) Ctrl + z : suspend the command, back to shell.</description>
+      <guid>https://khanhicetea.com/til/2016-03-26-bash-shell-shortcuts/</guid>
+      <description>Bash shell shortcuts  Ctrl + e : jump cursor to EOL Ctrl + a : jump cursor to BOL (beginning of line) Ctrl + u : delete all from cursor to BOL Ctrl + k : delete all from cursor to EOL Ctrl + r : search history, press again for next search Ctrl + l : clear shell screen Ctrl + c : terminate the command (sometimes have to press twice) Ctrl + z : suspend the command, back to shell.</description>
     </item>
     
     <item>
-      <title>#TIL 2015-12-30 : til, sysadmin, command-line, bash</title>
-      <link>https://khanhicetea.com/til/2015-12-30/</link>
-      <pubDate>Wed, 30 Dec 2015 00:00:00 +0000</pubDate>
+      <title>#TIL 2016-03-26 : Stats your top-10 frequently commands</title>
+      <link>https://khanhicetea.com/til/2016-03-26-stats-your-top-10-frequently-commands/</link>
+      <pubDate>Sat, 26 Mar 2016 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2015-12-30/</guid>
-      <description> SYSADMIN Commands Command lsof List all opened files, sockets, pipes
+      <guid>https://khanhicetea.com/til/2016-03-26-stats-your-top-10-frequently-commands/</guid>
+      <description> Stats your top-10 frequently commands Run this command, it will show top-10 frequently commands, explain shell
+$ history | awk &#39;{print $2}&#39; | sort | uniq -c | sort -nr | head  Example result
+2064 git 1284 ls 826 cd 700 ssh 602 clear 491 python 473 exit 341 vagrant 242 export 167 ping  </description>
+    </item>
+    
+    <item>
+      <title>#TIL 2015-12-30 : Commands</title>
+      <link>https://khanhicetea.com/til/2015-12-30-commands/</link>
+      <pubDate>Wed, 30 Dec 2015 23:59:59 +0000</pubDate>
+      
+      <guid>https://khanhicetea.com/til/2015-12-30-commands/</guid>
+      <description> Commands Command lsof List all opened files, sockets, pipes
 Eg:
  List processes are using port 80 (need root if port between 1-1023)  # sudo lsof -i:80   List processes are using /bin/bash  # lsof /bin/bash  </description>
     </item>

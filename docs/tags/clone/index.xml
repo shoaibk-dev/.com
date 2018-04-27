@@ -6,21 +6,20 @@
     <description>Recent content in Clone on KhanhIceTea B(rain)-log</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 04 Dec 2015 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 04 Dec 2015 23:59:59 +0000</lastBuildDate>
     
 	<atom:link href="https://khanhicetea.com/tags/clone/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>#TIL 2015-12-04 : sysadmin, websocket, log, python, clone, ref-var, til, cli-server, docker, php</title>
-      <link>https://khanhicetea.com/til/2015-12-04/</link>
-      <pubDate>Fri, 04 Dec 2015 00:00:00 +0000</pubDate>
+      <title>#TIL 2015-12-04 : Reference assign object variable</title>
+      <link>https://khanhicetea.com/til/2015-12-04-reference-assign-object-variable/</link>
+      <pubDate>Fri, 04 Dec 2015 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2015-12-04/</guid>
-      <description>PHP Run built-in server via Docker Docker is the fast and clean way to run Linux programs.
-We can run a PHP project via PHP built-in server and Docker.
-docker run -it -p 8080:8080 -v `pwd`:/code php:7 php -S 0.0.0.0:8080 -t /code/web /code/web/server.php  With server.php content is
-&amp;lt;?php $filename = __DIR__.preg_replace(&#39;#(\?.*)$#&#39;, &#39;&#39;, $_SERVER[&#39;REQUEST_URI&#39;]); if (php_sapi_name() === &#39;cli-server&#39; &amp;amp;&amp;amp; is_file($filename)) { return false; } // Run application below $app = new Application(); $app-&amp;gt;run();  PYTHON Reference assign object variable When you have a object x and assign y = x, y will be a ref of x (it looks like pointer of C).</description>
+      <guid>https://khanhicetea.com/til/2015-12-04-reference-assign-object-variable/</guid>
+      <description>Reference assign object variable When you have a object x and assign y = x, y will be a ref of x (it looks like pointer of C). So changing property of y means changing property of x.
+Ex :
+x = {&amp;quot;a&amp;quot;: 1, &amp;quot;b&amp;quot;: 2} y = x y[&#39;a&#39;] = 100 print x[&#39;a&#39;] # Result is 100  So if you want clone the value, use copy lib :</description>
     </item>
     
   </channel>

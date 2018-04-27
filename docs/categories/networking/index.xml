@@ -6,66 +6,62 @@
     <description>Recent content in Networking on KhanhIceTea B(rain)-log</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 24 Apr 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 24 Apr 2018 23:59:59 +0000</lastBuildDate>
     
 	<atom:link href="https://khanhicetea.com/categories/networking/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>#TIL 2018-04-24 : til, development, networking, dns</title>
-      <link>https://khanhicetea.com/til/2018-04-24/</link>
-      <pubDate>Tue, 24 Apr 2018 00:00:00 +0000</pubDate>
+      <title>#TIL 2018-04-24 : Setup wildcard domains .test for development in MacOS</title>
+      <link>https://khanhicetea.com/til/2018-04-24-setup-wildcard-domains-test-for-development-in-macos/</link>
+      <pubDate>Tue, 24 Apr 2018 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2018-04-24/</guid>
-      <description>NETWORKING Setup wildcard domains .test for development in MacOS Too tired of setting your local domain each time you create new virtual development domain, etc helloworld.test, unit.test point to 127.0.0.1
+      <guid>https://khanhicetea.com/til/2018-04-24-setup-wildcard-domains-test-for-development-in-macos/</guid>
+      <description>Setup wildcard domains .test for development in MacOS Too tired of setting your local domain each time you create new virtual development domain, etc helloworld.test, unit.test point to 127.0.0.1
 There is a better way to achieve that by using dnsmasq, then set up a wildcard domains for development. In this case I use .test because .dev has been owned by Google and they strictly use HTTPS in mainly browsers.</description>
     </item>
     
     <item>
-      <title>#TIL 2018-02-21 : til, networking, vim</title>
-      <link>https://khanhicetea.com/til/2018-02-21/</link>
-      <pubDate>Wed, 21 Feb 2018 00:00:00 +0000</pubDate>
+      <title>#TIL 2018-02-21 : List opening ports or listening UNIX sockets</title>
+      <link>https://khanhicetea.com/til/2018-02-21-list-opening-ports-or-listening-unix-sockets/</link>
+      <pubDate>Wed, 21 Feb 2018 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2018-02-21/</guid>
-      <description>NETWORKING List opening ports or listening UNIX sockets In Linux, you can use netstat to list all opening ports and listening UNIX sockets
+      <guid>https://khanhicetea.com/til/2018-02-21-list-opening-ports-or-listening-unix-sockets/</guid>
+      <description>List opening ports or listening UNIX sockets In Linux, you can use netstat to list all opening ports and listening UNIX sockets
 $ sudo netstat -npl  Tip to remember command : network statistics - natual languge processing
-;)
-VIM Convert tabs to spaces This is my config to use 4 spaces instead tab
-filetype plugin indent on set tabstop=4 set shiftwidth=4 set expandtab  To convert existing file from tabs to spaces, use this command</description>
+;)</description>
     </item>
     
     <item>
-      <title>#TIL 2018-01-16 : til, firewall, security, networking, linux</title>
-      <link>https://khanhicetea.com/til/2018-01-16/</link>
-      <pubDate>Tue, 16 Jan 2018 00:00:00 +0000</pubDate>
+      <title>#TIL 2018-01-16 : Set up simple rate limiting on specified port using UFW</title>
+      <link>https://khanhicetea.com/til/2018-01-16-set-up-simple-rate-limiting-on-specified-port-using-ufw/</link>
+      <pubDate>Tue, 16 Jan 2018 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2018-01-16/</guid>
-      <description>LINUX Disable IPv6 to stop getting stuck in network I know IPv6 will be future for networking, but at this moment &amp;ldquo;It&amp;rsquo;s suck !&amp;rdquo; :(
-Some service will be failed when trying to connect IPv6 destination :
- apt package manager smtp curl  So I decided to disable IPv6 on every production server.
-$ echo &amp;quot;net.ipv6.conf.all.disable_ipv6 = 1&amp;quot; | sudo tee -a /etc/sysctl.conf $ echo &amp;quot;net.ipv6.conf.default.disable_ipv6 = 1&amp;quot; | sudo tee -a /etc/sysctl.</description>
+      <guid>https://khanhicetea.com/til/2018-01-16-set-up-simple-rate-limiting-on-specified-port-using-ufw/</guid>
+      <description>Set up simple rate limiting on specified port using UFW Allow unmetrered connections on networking is so risky. Attacker can use the brute-force attacks to comprosise your service (or simple DOS).
+Linux has a cool firewall to hanlde this, via ip-tables. But it&amp;rsquo;s so complicated to remember all the rule and syntax. That&amp;rsquo;s why UFW was born to save us. :D
+You can use simple command to manage your firewall</description>
     </item>
     
     <item>
-      <title>#TIL 2017-10-04 : sysadmin, networking, smtp, til, time, mail, cpu</title>
-      <link>https://khanhicetea.com/til/2017-10-04/</link>
-      <pubDate>Wed, 04 Oct 2017 00:00:00 +0000</pubDate>
+      <title>#TIL 2017-10-04 : How SMTP works</title>
+      <link>https://khanhicetea.com/til/2017-10-04-how-smtp-works/</link>
+      <pubDate>Wed, 04 Oct 2017 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2017-10-04/</guid>
-      <description>NETWORKING How SMTP works When a email send through an SMTP (with authentication), every SMTP server is a hop in mail routing. So it will transfer to localmail or forward the email to next hop (shortest distance via DNS MX record).
+      <guid>https://khanhicetea.com/til/2017-10-04-how-smtp-works/</guid>
+      <description>How SMTP works When a email send through an SMTP (with authentication), every SMTP server is a hop in mail routing. So it will transfer to localmail or forward the email to next hop (shortest distance via DNS MX record).
 And standard port of SMTP is 25 (unsecured, but can upgrade to TLS via STARTTLS command).
 $ nslookup -type=mx gmail.com 8.8.8.8 Server: 8.8.8.8 Address: 8.8.8.8#53 Non-authoritative answer: gmail.com mail exchanger = 20 alt2.</description>
     </item>
     
     <item>
-      <title>#TIL 2017-09-07 : til, sysadmin, networking</title>
-      <link>https://khanhicetea.com/til/2017-09-07/</link>
-      <pubDate>Thu, 07 Sep 2017 00:00:00 +0000</pubDate>
+      <title>#TIL 2017-09-07 : TCP FIN timeout</title>
+      <link>https://khanhicetea.com/til/2017-09-07-tcp-fin-timeout/</link>
+      <pubDate>Thu, 07 Sep 2017 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2017-09-07/</guid>
-      <description>NETWORKING TCP FIN timeout The TCP FIN timeout belays the amount of time a port must be inactive before it can reused for another connection. The default is often 60 seconds, but can normally be safely reduced to 30 or even 15 seconds:
-net.ipv4.tcp_fin_timeout = 15  Ref : https://www.linode.com/docs/web-servers/nginx/configure-nginx-for-optimized-performance
-SYSADMIN Generate dhparam file faster openssl uses strong prime (which is useless for security but requires an awful lot more computational effort.</description>
+      <guid>https://khanhicetea.com/til/2017-09-07-tcp-fin-timeout/</guid>
+      <description>TCP FIN timeout The TCP FIN timeout belays the amount of time a port must be inactive before it can reused for another connection. The default is often 60 seconds, but can normally be safely reduced to 30 or even 15 seconds:
+net.ipv4.tcp_fin_timeout = 15  Ref : https://www.linode.com/docs/web-servers/nginx/configure-nginx-for-optimized-performance</description>
     </item>
     
   </channel>

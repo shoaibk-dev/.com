@@ -6,21 +6,19 @@
     <description>Recent content in Http2 on KhanhIceTea B(rain)-log</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 04 Aug 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 04 Aug 2017 23:59:59 +0000</lastBuildDate>
     
 	<atom:link href="https://khanhicetea.com/tags/http2/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>#TIL 2017-08-04 : python, devops, free, til, heroku, http2, requests</title>
-      <link>https://khanhicetea.com/til/2017-08-04/</link>
-      <pubDate>Fri, 04 Aug 2017 00:00:00 +0000</pubDate>
+      <title>#TIL 2017-08-04 : HTTP2 supported for python requests library</title>
+      <link>https://khanhicetea.com/til/2017-08-04-http2-supported-for-python-requests-library/</link>
+      <pubDate>Fri, 04 Aug 2017 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2017-08-04/</guid>
-      <description>DEVOPS Free sandbox server for development We can use Heroku as a forever-free sandbox solution for testing or hosting micro service. Adding a credit card to have 1000 free computing hours.
-Heroku will make a service down if no received request come. We can use a cronjob-like service to check service health and keep it live !!! ;)
-Cronjob check health SASS : pingdom, statuscake, port-monitor, uptimerobot
-Btw, I don&amp;rsquo;t recommend you keep service live but no use, it makes Heroku infrastructure heavy and THAT&amp;rsquo;S NOT FAIR for them !</description>
+      <guid>https://khanhicetea.com/til/2017-08-04-http2-supported-for-python-requests-library/</guid>
+      <description>HTTP2 supported for python requests library The sophisticated http client in Python is requests, it has simple API but powerful features. You can use it for crawling, sending request to third-party API or writing tests.
+Btw, at this moment it doesn&amp;rsquo;t support HTTP/2 protocol (actually we often doesn&amp;rsquo;t need its Server Push or Multi resource stream features). But sometime the API endpoint only supports HTTP/2 like Akamai Load Balacing service.</description>
     </item>
     
   </channel>

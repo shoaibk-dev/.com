@@ -6,27 +6,29 @@
     <description>Recent content in Command Line on KhanhIceTea B(rain)-log</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 26 Mar 2016 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 26 Mar 2016 23:59:59 +0000</lastBuildDate>
     
 	<atom:link href="https://khanhicetea.com/tags/command-line/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>#TIL 2016-03-26 : sysadmin, shell, command-line, shortcuts, til, bash</title>
-      <link>https://khanhicetea.com/til/2016-03-26/</link>
-      <pubDate>Sat, 26 Mar 2016 00:00:00 +0000</pubDate>
+      <title>#TIL 2016-03-26 : Stats your top-10 frequently commands</title>
+      <link>https://khanhicetea.com/til/2016-03-26-stats-your-top-10-frequently-commands/</link>
+      <pubDate>Sat, 26 Mar 2016 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2016-03-26/</guid>
-      <description>SYSADMIN Bash shell shortcuts  Ctrl + e : jump cursor to EOL Ctrl + a : jump cursor to BOL (beginning of line) Ctrl + u : delete all from cursor to BOL Ctrl + k : delete all from cursor to EOL Ctrl + r : search history, press again for next search Ctrl + l : clear shell screen Ctrl + c : terminate the command (sometimes have to press twice) Ctrl + z : suspend the command, back to shell.</description>
+      <guid>https://khanhicetea.com/til/2016-03-26-stats-your-top-10-frequently-commands/</guid>
+      <description> Stats your top-10 frequently commands Run this command, it will show top-10 frequently commands, explain shell
+$ history | awk &#39;{print $2}&#39; | sort | uniq -c | sort -nr | head  Example result
+2064 git 1284 ls 826 cd 700 ssh 602 clear 491 python 473 exit 341 vagrant 242 export 167 ping  </description>
     </item>
     
     <item>
-      <title>#TIL 2015-12-30 : til, sysadmin, command-line, bash</title>
-      <link>https://khanhicetea.com/til/2015-12-30/</link>
-      <pubDate>Wed, 30 Dec 2015 00:00:00 +0000</pubDate>
+      <title>#TIL 2015-12-30 : Commands</title>
+      <link>https://khanhicetea.com/til/2015-12-30-commands/</link>
+      <pubDate>Wed, 30 Dec 2015 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2015-12-30/</guid>
-      <description> SYSADMIN Commands Command lsof List all opened files, sockets, pipes
+      <guid>https://khanhicetea.com/til/2015-12-30-commands/</guid>
+      <description> Commands Command lsof List all opened files, sockets, pipes
 Eg:
  List processes are using port 80 (need root if port between 1-1023)  # sudo lsof -i:80   List processes are using /bin/bash  # lsof /bin/bash  </description>
     </item>

@@ -6,22 +6,19 @@
     <description>Recent content in Encoding on KhanhIceTea B(rain)-log</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 21 Apr 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 21 Apr 2017 23:59:59 +0000</lastBuildDate>
     
 	<atom:link href="https://khanhicetea.com/tags/encoding/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>#TIL 2017-04-21 : web, http, encoding, benchmark, til, tools</title>
-      <link>https://khanhicetea.com/til/2017-04-21/</link>
-      <pubDate>Fri, 21 Apr 2017 00:00:00 +0000</pubDate>
+      <title>#TIL 2017-04-21 : Base 64 encode and decode builtin tool</title>
+      <link>https://khanhicetea.com/til/2017-04-21-base-64-encode-and-decode-builtin-tool/</link>
+      <pubDate>Fri, 21 Apr 2017 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2017-04-21/</guid>
-      <description>HTTP ab failed responses When benchmarking a HTTP application server using ab tool, you shouldn&amp;rsquo;t only care about how many requests per second, but percentage of Success responses.
-A notice that you must have the same content-length in responses, because ab tool will assume response having different content-length from Document Length (in ab result) is failed response.
-Example
-Webserver using Flask
-from flask import Flask from random import randint app = Flask(__name__) @app.</description>
+      <guid>https://khanhicetea.com/til/2017-04-21-base-64-encode-and-decode-builtin-tool/</guid>
+      <description> Base 64 encode and decode builtin tool Browsers have helpers function to encode and decode base64 :
+ btoa : base64 encode atob : base64 decode  &amp;gt; btoa(&#39;Hello world&#39;) &amp;quot;SGVsbG8gV29ybGQgIQ==&amp;quot; &amp;gt; atob(&#39;SW4gR29kIFdlIFRydXN0ICE=&#39;) &amp;quot;In God We Trust !&amp;quot;  </description>
     </item>
     
   </channel>

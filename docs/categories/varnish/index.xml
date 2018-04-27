@@ -6,20 +6,20 @@
     <description>Recent content in Varnish on KhanhIceTea B(rain)-log</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 31 Jan 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 31 Jan 2018 23:59:59 +0000</lastBuildDate>
     
 	<atom:link href="https://khanhicetea.com/categories/varnish/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>#TIL 2018-01-31 : til, varnish, transaction, redis</title>
-      <link>https://khanhicetea.com/til/2018-01-31/</link>
-      <pubDate>Wed, 31 Jan 2018 00:00:00 +0000</pubDate>
+      <title>#TIL 2018-01-31 : Check vcl file syntax before restarting</title>
+      <link>https://khanhicetea.com/til/2018-01-31-check-vcl-file-syntax-before-restarting/</link>
+      <pubDate>Wed, 31 Jan 2018 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2018-01-31/</guid>
-      <description>REDIS Transaction style in Redis In Redis, you can use transaction-style (mean queue commands then flush it once). It will improve performance in many case where latency or networking is slow.
-&amp;gt; SET hoge 2 OK &amp;gt; MULTI OK &amp;gt; INCR foo QUEUED &amp;gt; INCR hoge QUEUED &amp;gt; EXEC 1) (integer) 1 2) (integer) 1  MULTI command is begin transaction and EXEC command is commit transaction
-The result will be returned in order your command queue list.</description>
+      <guid>https://khanhicetea.com/til/2018-01-31-check-vcl-file-syntax-before-restarting/</guid>
+      <description>Check vcl file syntax before restarting Like NginX, Varnish has a syntax checker function that helps us test the syntactic correctness.
+$ varnishd -C -f [vcl file path]  Varnish will compile the file and output the result to stdout. If something goes wrong, it will throw a message like
+&amp;gt; Message from VCC-compiler: &amp;gt; Expected an action, &#39;if&#39;, &#39;{&#39; or &#39;}&#39; &amp;gt; (&#39;input&#39; Line 74 Pos 6) &amp;gt; vcl_hash(req.</description>
     </item>
     
   </channel>

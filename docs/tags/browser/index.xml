@@ -6,20 +6,19 @@
     <description>Recent content in Browser on KhanhIceTea B(rain)-log</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 01 Mar 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 01 Mar 2018 23:59:59 +0000</lastBuildDate>
     
 	<atom:link href="https://khanhicetea.com/tags/browser/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>#TIL 2018-03-01 : sysadmin, http, web, til, security, hacking, browser</title>
-      <link>https://khanhicetea.com/til/2018-03-01/</link>
-      <pubDate>Thu, 01 Mar 2018 00:00:00 +0000</pubDate>
+      <title>#TIL 2018-03-01 : Sending Cookie in AJAX CORs request</title>
+      <link>https://khanhicetea.com/til/2018-03-01-sending-cookie-in-ajax-cors-request/</link>
+      <pubDate>Thu, 01 Mar 2018 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2018-03-01/</guid>
-      <description>SYSADMIN Prevent source hacking from .git directory exposing Many web project use Git as source version control tools. So in production server, we could expose the hidden .git directory - which contains all most infomation about project source code.
-To &amp;ldquo;rip&amp;rdquo; a source code from a vulnerable website, we can use this tool : https://github.com/kost/dvcs-ripper#git
-So to prevent this happens, try to deny all http access to hidden files and directories (usually starts by .</description>
+      <guid>https://khanhicetea.com/til/2018-03-01-sending-cookie-in-ajax-cors-request/</guid>
+      <description>Sending Cookie in AJAX CORs request By default, browser will remove the cookie and authorization header from AJAX CORs request. So before sending out the request, make sure withCredentials must be true.
+In this case, CORs response must specify which origin is allowed (mean no wildcard allowed origin rule).</description>
     </item>
     
   </channel>

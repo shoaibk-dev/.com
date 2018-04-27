@@ -6,30 +6,30 @@
     <description>Recent content in Tool on KhanhIceTea B(rain)-log</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 20 Oct 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 20 Oct 2017 23:59:59 +0000</lastBuildDate>
     
 	<atom:link href="https://khanhicetea.com/tags/tool/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>#TIL 2017-10-20 : til, tool, watch, linux</title>
-      <link>https://khanhicetea.com/til/2017-10-20/</link>
-      <pubDate>Fri, 20 Oct 2017 00:00:00 +0000</pubDate>
+      <title>#TIL 2017-10-20 : Using watch command to tracking changes in period time</title>
+      <link>https://khanhicetea.com/til/2017-10-20-using-watch-command-to-tracking-changes-in-period-time/</link>
+      <pubDate>Fri, 20 Oct 2017 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2017-10-20/</guid>
-      <description>LINUX Using watch command to tracking changes in period time watch to a good command to run a command every N seconds.
+      <guid>https://khanhicetea.com/til/2017-10-20-using-watch-command-to-tracking-changes-in-period-time/</guid>
+      <description>Using watch command to tracking changes in period time watch to a good command to run a command every N seconds.
 And like its name, means you can watch something, its output changes with flag -d
 It&amp;rsquo;s a great tool to help you learn a new language without hitting compile and run everytime you save a file.
 $ watch -n 1 -d go run learn.go  This command will compile and run learn.</description>
     </item>
     
     <item>
-      <title>#TIL 2017-10-07 : til, sysadmin, tool, networking</title>
-      <link>https://khanhicetea.com/til/2017-10-07/</link>
-      <pubDate>Sat, 07 Oct 2017 00:00:00 +0000</pubDate>
+      <title>#TIL 2017-10-07 : Using netcat as tiny TCP debug tool</title>
+      <link>https://khanhicetea.com/til/2017-10-07-using-netcat-as-tiny-tcp-debug-tool/</link>
+      <pubDate>Sat, 07 Oct 2017 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2017-10-07/</guid>
-      <description>SYSADMIN Using netcat as tiny TCP debug tool You can use netcat or nc as a debugging TCP tool. It can be a TCP sender and receiver with a short session (auto close when connection is closed)
+      <guid>https://khanhicetea.com/til/2017-10-07-using-netcat-as-tiny-tcp-debug-tool/</guid>
+      <description>Using netcat as tiny TCP debug tool You can use netcat or nc as a debugging TCP tool. It can be a TCP sender and receiver with a short session (auto close when connection is closed)
 Examples :
 Scan ports
 $ nc -zv 127.0.0.1 20-80  Check redis status
@@ -38,15 +38,16 @@ $ printf &amp;quot;GET /xinchao HTTP/1.1\r\n\r\n&amp;quot; | nc 127.0.0.1 8000 |
     </item>
     
     <item>
-      <title>#TIL 2017-05-22 : sysadmin, shell, util, tool, compressing, til, bash</title>
-      <link>https://khanhicetea.com/til/2017-05-22/</link>
-      <pubDate>Mon, 22 May 2017 00:00:00 +0000</pubDate>
+      <title>#TIL 2017-05-22 : zcat : decompressing pipe tool</title>
+      <link>https://khanhicetea.com/til/2017-05-22-zcat-decompressing-pipe-tool/</link>
+      <pubDate>Mon, 22 May 2017 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2017-05-22/</guid>
-      <description>SYSADMIN Using BSD find util to find and exec command on file and folder Simple syntax of find
-$ find [find_path] -type [file_type] -exec [command] {} \;  Add filename matching pattern to filter the result
-$ find [find_path] -name &amp;quot;*.php&amp;quot; -type [file_type] -exec [command] {} \;  Where file_type is :
- b : block special c : character special d : directory f : regular file l : symbolic link p : FIFO s : socket  Examples:</description>
+      <guid>https://khanhicetea.com/til/2017-05-22-zcat-decompressing-pipe-tool/</guid>
+      <description> zcat : decompressing pipe tool zcat is a tool that creates a pipe from gz file. It makes command cleaner and faster (maybe). You don&amp;rsquo;t have to decompress gz file before using next tool.
+Examples :
+Finding string in gzip text file
+$ zcat secret.gz | grep &#39;42&#39;  Importing SQL backup file
+$ mysqldump -u root -p db_name1 | gzip &amp;gt; db_name.sql.gz $ zcat db_name.sql.gz | mysql -u root -p db_name_2  </description>
     </item>
     
   </channel>
