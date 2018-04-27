@@ -172,10 +172,9 @@ article.li time {
 }
 
 article.li .title {
-  /* white-space: nowrap; */
+  white-space: nowrap;
   text-overflow: ellipsis;
   overflow: hidden;
-  height: 70px;
 }
 
 article.li .summary {

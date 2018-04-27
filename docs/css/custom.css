@@ -237,3 +237,8 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
   -webkit-animation: 0;
           animation: 0;
 }
+
+.articles article.li .title {
+  white-space: normal;
+  height: 70px;
+}
