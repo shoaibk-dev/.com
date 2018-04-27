@@ -17,7 +17,7 @@ Và đây là thước phim được ghi lại trong hành trình **Lost In Japa
 
 {{< youtube vFFnaLAMFdA >}}
 
-Bonus thêm nhân vật khá nổi tiếng cái bản này :
+Bonus thêm nhân vật khá nổi tiếng cái bản này mà mình mới vẽ :
 
 ![Pikachu](/images/2018/04/pikapikachu.jpg)
 
