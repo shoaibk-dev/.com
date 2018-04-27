@@ -13,10 +13,10 @@
     
     <item>
       <title>#TIL 2017-04-21 : ab failed responses</title>
-      <link>https://khanhicetea.com/til/2017-04-21-ab-failed-responses/</link>
+      <link>https://khanhicetea.com/til/til-2017-04-21-ab-failed-responses/</link>
       <pubDate>Fri, 21 Apr 2017 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2017-04-21-ab-failed-responses/</guid>
+      <guid>https://khanhicetea.com/til/til-2017-04-21-ab-failed-responses/</guid>
       <description>ab failed responses When benchmarking a HTTP application server using ab tool, you shouldn&amp;rsquo;t only care about how many requests per second, but percentage of Success responses.
 A notice that you must have the same content-length in responses, because ab tool will assume response having different content-length from Document Length (in ab result) is failed response.
 Example

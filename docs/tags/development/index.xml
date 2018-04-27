@@ -13,10 +13,10 @@
     
     <item>
       <title>#TIL 2018-04-24 : Setup wildcard domains .test for development in MacOS</title>
-      <link>https://khanhicetea.com/til/2018-04-24-setup-wildcard-domains-test-for-development-in-macos/</link>
+      <link>https://khanhicetea.com/til/til-2018-04-24-setup-wildcard-domains-test-for-development-in-macos/</link>
       <pubDate>Tue, 24 Apr 2018 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2018-04-24-setup-wildcard-domains-test-for-development-in-macos/</guid>
+      <guid>https://khanhicetea.com/til/til-2018-04-24-setup-wildcard-domains-test-for-development-in-macos/</guid>
       <description>Setup wildcard domains .test for development in MacOS Too tired of setting your local domain each time you create new virtual development domain, etc helloworld.test, unit.test point to 127.0.0.1
 There is a better way to achieve that by using dnsmasq, then set up a wildcard domains for development. In this case I use .test because .dev has been owned by Google and they strictly use HTTPS in mainly browsers.</description>
     </item>

@@ -24,10 +24,10 @@ Setup This guide will assume you already have Docker and Docker Compose tool.</d
     
     <item>
       <title>#TIL 2017-05-19 : Checking forced push conflicts on source code in auto testing</title>
-      <link>https://khanhicetea.com/til/2017-05-19-checking-forced-push-conflicts-on-source-code-in-auto-testing/</link>
+      <link>https://khanhicetea.com/til/til-2017-05-19-checking-forced-push-conflicts-on-source-code-in-auto-testing/</link>
       <pubDate>Fri, 19 May 2017 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2017-05-19-checking-forced-push-conflicts-on-source-code-in-auto-testing/</guid>
+      <guid>https://khanhicetea.com/til/til-2017-05-19-checking-forced-push-conflicts-on-source-code-in-auto-testing/</guid>
       <description>Checking forced push conflicts on source code in auto testing Using automated CI solution likes Travis, Jenkins, DroneCI, &amp;hellip; is good solution to ensure quality of software and no breaks in deployment.
 Sometimes, developers force push conflicts part to production branch of source code. If the CI tests only backend (python, ruby, php, go, ..) and forget about frontend code, then your application will be exploded !
 So checking the conflicts code is required step before testing backend and deployment.</description>
@@ -35,10 +35,10 @@ So checking the conflicts code is required step before testing backend and deplo
     
     <item>
       <title>#TIL 2017-02-23 : Using VarDumper in PHPUnit</title>
-      <link>https://khanhicetea.com/til/2017-02-23-using-vardumper-in-phpunit/</link>
+      <link>https://khanhicetea.com/til/til-2017-02-23-using-vardumper-in-phpunit/</link>
       <pubDate>Thu, 23 Feb 2017 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2017-02-23-using-vardumper-in-phpunit/</guid>
+      <guid>https://khanhicetea.com/til/til-2017-02-23-using-vardumper-in-phpunit/</guid>
       <description> Using VarDumper in PHPUnit The trick is writing the output to STDERR stream, I wrote a helper function below
 function phpunit_dump() { $cloner = new \Symfony\Component\VarDumper\Cloner\VarCloner(); $dumper = new \Symfony\Component\VarDumper\Dumper\CliDumper(STDERR); foreach (func_get_args() as $var) { $dumper-&amp;gt;dump($cloner-&amp;gt;cloneVar($var)); } }  How to use it ?
 // Something magic here :D phpunit_dump($magic_var1, $magic_var2, $magic_of_magic); // So much magic below, can&#39;t understand anymore  </description>

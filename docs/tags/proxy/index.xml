@@ -13,20 +13,20 @@
     
     <item>
       <title>#TIL 2017-12-07 : Using web proxy to bypass firewalls</title>
-      <link>https://khanhicetea.com/til/2017-12-07-using-web-proxy-to-bypass-firewalls/</link>
+      <link>https://khanhicetea.com/til/til-2017-12-07-using-web-proxy-to-bypass-firewalls/</link>
       <pubDate>Thu, 07 Dec 2017 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2017-12-07-using-web-proxy-to-bypass-firewalls/</guid>
+      <guid>https://khanhicetea.com/til/til-2017-12-07-using-web-proxy-to-bypass-firewalls/</guid>
       <description>Using web proxy to bypass firewalls Someday, you will be blocked by a firewall while trying crawling or accessing some website. The reason is they block your IP address from accessing the server.
 One solution is using a web proxy (http proxy, socks4 or socks5) to bypass the firewall, by adding the middle-man server between you and target. It&amp;rsquo;s a bit unsecured but you could use for https site only.</description>
     </item>
     
     <item>
       <title>#TIL 2017-09-01 : Enable reverse proxy in CentOS</title>
-      <link>https://khanhicetea.com/til/2017-09-01-enable-reverse-proxy-in-centos/</link>
+      <link>https://khanhicetea.com/til/til-2017-09-01-enable-reverse-proxy-in-centos/</link>
       <pubDate>Fri, 01 Sep 2017 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2017-09-01-enable-reverse-proxy-in-centos/</guid>
+      <guid>https://khanhicetea.com/til/til-2017-09-01-enable-reverse-proxy-in-centos/</guid>
       <description> Enable reverse proxy in CentOS CentOS with SELinux enabled by default will block any http proxy connection. So you have to enable this permission.
 Temporary enable
 $ /usr/sbin/setsebool httpd_can_network_connect 1  Permanent enable

@@ -13,10 +13,10 @@
     
     <item>
       <title>#TIL 2017-10-05 : Simple HTTP server function helper</title>
-      <link>https://khanhicetea.com/til/2017-10-05-simple-http-server-function-helper/</link>
+      <link>https://khanhicetea.com/til/til-2017-10-05-simple-http-server-function-helper/</link>
       <pubDate>Thu, 05 Oct 2017 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2017-10-05-simple-http-server-function-helper/</guid>
+      <guid>https://khanhicetea.com/til/til-2017-10-05-simple-http-server-function-helper/</guid>
       <description> Simple HTTP server function helper I use python3 (3.4+) to create a bash function to help me start quickly a simple http server on specified port
 function server() { local port=&amp;quot;${1:-8000}&amp;quot; # Getting port number google-chrome &amp;quot;http://127.0.0.1:$port&amp;quot; # Open URL in browser, could change to firefox --new-tab &amp;quot;http://127.0.0.1:$port&amp;quot; python3 -m http.server $port --bind 127.0.0.1 }  </description>
     </item>

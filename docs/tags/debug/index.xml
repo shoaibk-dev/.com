@@ -13,20 +13,20 @@
     
     <item>
       <title>#TIL 2018-01-10 : Tracking changes of cookie on webpage</title>
-      <link>https://khanhicetea.com/til/2018-01-10-tracking-changes-of-cookie-on-webpage/</link>
+      <link>https://khanhicetea.com/til/til-2018-01-10-tracking-changes-of-cookie-on-webpage/</link>
       <pubDate>Wed, 10 Jan 2018 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2018-01-10-tracking-changes-of-cookie-on-webpage/</guid>
+      <guid>https://khanhicetea.com/til/til-2018-01-10-tracking-changes-of-cookie-on-webpage/</guid>
       <description>Tracking changes of cookie on webpage Using Object.defineProperty helper function as I wrote 3 days ago. We could track the changes of cookie on webpage.
 // Based on Vlad Shevchenko&#39;s script at https://stackoverflow.com/a/36826049 var cookieSetterOrig = document.__lookupSetter__(&amp;quot;cookie&amp;quot;); // get origin setter function var cookieGetterOrig = document.__lookupGetter__(&amp;quot;cookie&amp;quot;); // get origin getter function Object.defineProperty(document, &amp;quot;cookie&amp;quot;, { get: function () { console.trace(); return cookieGetterOrig.apply(document); }, set: function () { console.log(arguments); console.trace(); return cookieSetterOrig.</description>
     </item>
     
     <item>
       <title>#TIL 2018-01-07 : Debug js code using console.trace</title>
-      <link>https://khanhicetea.com/til/2018-01-07-debug-js-code-using-console-trace/</link>
+      <link>https://khanhicetea.com/til/til-2018-01-07-debug-js-code-using-console-trace/</link>
       <pubDate>Sun, 07 Jan 2018 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2018-01-07-debug-js-code-using-console-trace/</guid>
+      <guid>https://khanhicetea.com/til/til-2018-01-07-debug-js-code-using-console-trace/</guid>
       <description> Debug js code using console.trace Browsers provide an useful function help you debug easier than using simple console.log function.
 That is console.trace, which prints a stack trace to called function.
 Example :

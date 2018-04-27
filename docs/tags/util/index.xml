@@ -13,10 +13,10 @@
     
     <item>
       <title>#TIL 2017-05-22 : Using BSD find util to find and exec command on file and folder</title>
-      <link>https://khanhicetea.com/til/2017-05-22-using-bsd-find-util-to-find-and-exec-command-on-file-and-folder/</link>
+      <link>https://khanhicetea.com/til/til-2017-05-22-using-bsd-find-util-to-find-and-exec-command-on-file-and-folder/</link>
       <pubDate>Mon, 22 May 2017 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2017-05-22-using-bsd-find-util-to-find-and-exec-command-on-file-and-folder/</guid>
+      <guid>https://khanhicetea.com/til/til-2017-05-22-using-bsd-find-util-to-find-and-exec-command-on-file-and-folder/</guid>
       <description>Using BSD find util to find and exec command on file and folder Simple syntax of find
 $ find [find_path] -type [file_type] -exec [command] {} \;  Add filename matching pattern to filter the result
 $ find [find_path] -name &amp;quot;*.php&amp;quot; -type [file_type] -exec [command] {} \;  Where file_type is :

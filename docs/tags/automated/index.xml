@@ -13,10 +13,10 @@
     
     <item>
       <title>#TIL 2017-05-19 : Checking forced push conflicts on source code in auto testing</title>
-      <link>https://khanhicetea.com/til/2017-05-19-checking-forced-push-conflicts-on-source-code-in-auto-testing/</link>
+      <link>https://khanhicetea.com/til/til-2017-05-19-checking-forced-push-conflicts-on-source-code-in-auto-testing/</link>
       <pubDate>Fri, 19 May 2017 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2017-05-19-checking-forced-push-conflicts-on-source-code-in-auto-testing/</guid>
+      <guid>https://khanhicetea.com/til/til-2017-05-19-checking-forced-push-conflicts-on-source-code-in-auto-testing/</guid>
       <description>Checking forced push conflicts on source code in auto testing Using automated CI solution likes Travis, Jenkins, DroneCI, &amp;hellip; is good solution to ensure quality of software and no breaks in deployment.
 Sometimes, developers force push conflicts part to production branch of source code. If the CI tests only backend (python, ruby, php, go, ..) and forget about frontend code, then your application will be exploded !
 So checking the conflicts code is required step before testing backend and deployment.</description>

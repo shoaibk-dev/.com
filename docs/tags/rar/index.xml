@@ -13,10 +13,10 @@
     
     <item>
       <title>#TIL 2017-05-17 : Compressing and Extracting files with rar in Linux</title>
-      <link>https://khanhicetea.com/til/2017-05-17-compressing-and-extracting-files-with-rar-in-linux/</link>
+      <link>https://khanhicetea.com/til/til-2017-05-17-compressing-and-extracting-files-with-rar-in-linux/</link>
       <pubDate>Wed, 17 May 2017 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2017-05-17-compressing-and-extracting-files-with-rar-in-linux/</guid>
+      <guid>https://khanhicetea.com/til/til-2017-05-17-compressing-and-extracting-files-with-rar-in-linux/</guid>
       <description>Compressing and Extracting files with rar in Linux zip and tar disadvantages All unicode filename will be transform to weird character, so it makes broken paths and broken links
 Notice rar and unrar in Linux isn&amp;rsquo;t same version and so don&amp;rsquo;t use unrar to extract archived file by rar (It causes invalid full paths)
 Installation Ubuntu :

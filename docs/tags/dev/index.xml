@@ -13,10 +13,10 @@
     
     <item>
       <title>#TIL 2017-06-13 : Resolving conflict like a boss</title>
-      <link>https://khanhicetea.com/til/2017-06-13-resolving-conflict-like-a-boss/</link>
+      <link>https://khanhicetea.com/til/til-2017-06-13-resolving-conflict-like-a-boss/</link>
       <pubDate>Tue, 13 Jun 2017 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2017-06-13-resolving-conflict-like-a-boss/</guid>
+      <guid>https://khanhicetea.com/til/til-2017-06-13-resolving-conflict-like-a-boss/</guid>
       <description>Resolving conflict like a boss When using git merge new branch to old branch, you just want use all ours or theirs version but be lazy to update every conflicted file.
 grep -lr &#39;&amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt;&#39; . | xargs git checkout --ours  Or
 grep -lr &#39;&amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt;&#39; . | xargs git checkout --theirs  Explain : these commands will find any file contains &amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt; string (conflicted file) and run git checkout --[side]</description>

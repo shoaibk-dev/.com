@@ -13,10 +13,10 @@
     
     <item>
       <title>#TIL 2017-06-15 : Gearman bash worker and client</title>
-      <link>https://khanhicetea.com/til/2017-06-15-gearman-bash-worker-and-client/</link>
+      <link>https://khanhicetea.com/til/til-2017-06-15-gearman-bash-worker-and-client/</link>
       <pubDate>Thu, 15 Jun 2017 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2017-06-15-gearman-bash-worker-and-client/</guid>
+      <guid>https://khanhicetea.com/til/til-2017-06-15-gearman-bash-worker-and-client/</guid>
       <description>Gearman bash worker and client Gearman is a awesome job queue service that helps you scale your system. In smaller context, it can help us to run a background woker for minor tasks like backup data, cleaning system.
 Install :
 $ sudo apt install gearman-job-server gearman-tools  Create a worker bash script

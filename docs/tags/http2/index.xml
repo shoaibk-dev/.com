@@ -13,10 +13,10 @@
     
     <item>
       <title>#TIL 2017-08-04 : HTTP2 supported for python requests library</title>
-      <link>https://khanhicetea.com/til/2017-08-04-http2-supported-for-python-requests-library/</link>
+      <link>https://khanhicetea.com/til/til-2017-08-04-http2-supported-for-python-requests-library/</link>
       <pubDate>Fri, 04 Aug 2017 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2017-08-04-http2-supported-for-python-requests-library/</guid>
+      <guid>https://khanhicetea.com/til/til-2017-08-04-http2-supported-for-python-requests-library/</guid>
       <description>HTTP2 supported for python requests library The sophisticated http client in Python is requests, it has simple API but powerful features. You can use it for crawling, sending request to third-party API or writing tests.
 Btw, at this moment it doesn&amp;rsquo;t support HTTP/2 protocol (actually we often doesn&amp;rsquo;t need its Server Push or Multi resource stream features). But sometime the API endpoint only supports HTTP/2 like Akamai Load Balacing service.</description>
     </item>

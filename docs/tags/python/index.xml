@@ -13,10 +13,10 @@
     
     <item>
       <title>#TIL 2017-10-05 : Simple HTTP server function helper</title>
-      <link>https://khanhicetea.com/til/2017-10-05-simple-http-server-function-helper/</link>
+      <link>https://khanhicetea.com/til/til-2017-10-05-simple-http-server-function-helper/</link>
       <pubDate>Thu, 05 Oct 2017 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2017-10-05-simple-http-server-function-helper/</guid>
+      <guid>https://khanhicetea.com/til/til-2017-10-05-simple-http-server-function-helper/</guid>
       <description> Simple HTTP server function helper I use python3 (3.4+) to create a bash function to help me start quickly a simple http server on specified port
 function server() { local port=&amp;quot;${1:-8000}&amp;quot; # Getting port number google-chrome &amp;quot;http://127.0.0.1:$port&amp;quot; # Open URL in browser, could change to firefox --new-tab &amp;quot;http://127.0.0.1:$port&amp;quot; python3 -m http.server $port --bind 127.0.0.1 }  </description>
     </item>
@@ -33,10 +33,10 @@ Kernel modules # echo &amp;quot;uinput&amp;quot; &amp;gt;&amp;gt; /etc/modules #
     
     <item>
       <title>#TIL 2017-08-04 : HTTP2 supported for python requests library</title>
-      <link>https://khanhicetea.com/til/2017-08-04-http2-supported-for-python-requests-library/</link>
+      <link>https://khanhicetea.com/til/til-2017-08-04-http2-supported-for-python-requests-library/</link>
       <pubDate>Fri, 04 Aug 2017 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2017-08-04-http2-supported-for-python-requests-library/</guid>
+      <guid>https://khanhicetea.com/til/til-2017-08-04-http2-supported-for-python-requests-library/</guid>
       <description>HTTP2 supported for python requests library The sophisticated http client in Python is requests, it has simple API but powerful features. You can use it for crawling, sending request to third-party API or writing tests.
 Btw, at this moment it doesn&amp;rsquo;t support HTTP/2 protocol (actually we often doesn&amp;rsquo;t need its Server Push or Multi resource stream features). But sometime the API endpoint only supports HTTP/2 like Akamai Load Balacing service.</description>
     </item>
@@ -53,10 +53,10 @@ This tutorial can help you make a program can exclusive receive input data from 
     
     <item>
       <title>#TIL 2015-12-04 : Reference assign object variable</title>
-      <link>https://khanhicetea.com/til/2015-12-04-reference-assign-object-variable/</link>
+      <link>https://khanhicetea.com/til/til-2015-12-04-reference-assign-object-variable/</link>
       <pubDate>Fri, 04 Dec 2015 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2015-12-04-reference-assign-object-variable/</guid>
+      <guid>https://khanhicetea.com/til/til-2015-12-04-reference-assign-object-variable/</guid>
       <description>Reference assign object variable When you have a object x and assign y = x, y will be a ref of x (it looks like pointer of C). So changing property of y means changing property of x.
 Ex :
 x = {&amp;quot;a&amp;quot;: 1, &amp;quot;b&amp;quot;: 2} y = x y[&#39;a&#39;] = 100 print x[&#39;a&#39;] # Result is 100  So if you want clone the value, use copy lib :</description>
@@ -64,10 +64,10 @@ x = {&amp;quot;a&amp;quot;: 1, &amp;quot;b&amp;quot;: 2} y = x y[&#39;a&#39;] = 
     
     <item>
       <title>#TIL 2015-12-01 : String Format Unicode params</title>
-      <link>https://khanhicetea.com/til/2015-12-01-string-format-unicode-params/</link>
+      <link>https://khanhicetea.com/til/til-2015-12-01-string-format-unicode-params/</link>
       <pubDate>Tue, 01 Dec 2015 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2015-12-01-string-format-unicode-params/</guid>
+      <guid>https://khanhicetea.com/til/til-2015-12-01-string-format-unicode-params/</guid>
       <description> String Format Unicode params unicode_thing = u&amp;quot;Xin chào mọi người&amp;quot; a = &#39;{}&#39;.format(unicode_thing)  will cause the error UnicodeEncodeError: &#39;ascii&#39; codec can&#39;t encode character u&#39;\xe0&#39; in position 6: ordinal not in range(128)
 The solution is add u prefix the pattern (it means using unicode pattern) :
 unicode_thing = u&amp;quot;Xin chào mọi người&amp;quot; a = u&#39;{}&#39;.format(unicode_thing)  </description>

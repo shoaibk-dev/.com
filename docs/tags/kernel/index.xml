@@ -13,10 +13,10 @@
     
     <item>
       <title>#TIL 2017-08-06 : Cleaning up old linux kernels</title>
-      <link>https://khanhicetea.com/til/2017-08-06-cleaning-up-old-linux-kernels/</link>
+      <link>https://khanhicetea.com/til/til-2017-08-06-cleaning-up-old-linux-kernels/</link>
       <pubDate>Sun, 06 Aug 2017 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2017-08-06-cleaning-up-old-linux-kernels/</guid>
+      <guid>https://khanhicetea.com/til/til-2017-08-06-cleaning-up-old-linux-kernels/</guid>
       <description>Cleaning up old linux kernels Last day, I try to reboot a production server which has out-of-space /boot (I upgraded many kernels without rebooting, so system doesn&amp;rsquo;t clean up old ones). And in the end, doom day had come ! It installed new kernel failed and booting to that kernel. My system crashed !
 So, I learned from it :
  Never ever upgrade kernel without cleaning up old ones (just reboot) Never ever reboot a production without backup MORE IMPORTANT, NEVER do 2 above things at same time in the weekend !</description>

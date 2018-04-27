@@ -13,10 +13,10 @@
     
     <item>
       <title>#TIL 2018-04-24 : Setup wildcard domains .test for development in MacOS</title>
-      <link>https://khanhicetea.com/til/2018-04-24-setup-wildcard-domains-test-for-development-in-macos/</link>
+      <link>https://khanhicetea.com/til/til-2018-04-24-setup-wildcard-domains-test-for-development-in-macos/</link>
       <pubDate>Tue, 24 Apr 2018 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2018-04-24-setup-wildcard-domains-test-for-development-in-macos/</guid>
+      <guid>https://khanhicetea.com/til/til-2018-04-24-setup-wildcard-domains-test-for-development-in-macos/</guid>
       <description>Setup wildcard domains .test for development in MacOS Too tired of setting your local domain each time you create new virtual development domain, etc helloworld.test, unit.test point to 127.0.0.1
 There is a better way to achieve that by using dnsmasq, then set up a wildcard domains for development. In this case I use .test because .dev has been owned by Google and they strictly use HTTPS in mainly browsers.</description>
     </item>
@@ -43,10 +43,10 @@ Til next time !</description>
     
     <item>
       <title>#TIL 2018-04-10 : Create tiny chat channel via netcat</title>
-      <link>https://khanhicetea.com/til/2018-04-10-create-tiny-chat-channel-via-netcat/</link>
+      <link>https://khanhicetea.com/til/til-2018-04-10-create-tiny-chat-channel-via-netcat/</link>
       <pubDate>Tue, 10 Apr 2018 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2018-04-10-create-tiny-chat-channel-via-netcat/</guid>
+      <guid>https://khanhicetea.com/til/til-2018-04-10-create-tiny-chat-channel-via-netcat/</guid>
       <description>Create tiny chat channel via netcat In a network, you can create a tiny chatting channel using netcat. It&amp;rsquo;s lightweight TCP protocol with plain-text transmission, so be carefully on using.
 First, create a channel by picking port number (ex: 7777)
 $ sudo nc -l 0.0.0.0 7777  Then, tell you friend your IP and channel port. He will use this info to connect the channel
@@ -55,10 +55,10 @@ $ nc 192.168.1.2 7777  Finnally, start chatting !</description>
     
     <item>
       <title>#TIL 2018-04-10 : Send a file through networking via netcat</title>
-      <link>https://khanhicetea.com/til/2018-04-10-send-a-file-through-networking-via-netcat/</link>
+      <link>https://khanhicetea.com/til/til-2018-04-10-send-a-file-through-networking-via-netcat/</link>
       <pubDate>Tue, 10 Apr 2018 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2018-04-10-send-a-file-through-networking-via-netcat/</guid>
+      <guid>https://khanhicetea.com/til/til-2018-04-10-send-a-file-through-networking-via-netcat/</guid>
       <description>Send a file through networking via netcat If you&amp;rsquo;re working on 2 machines in same networking and want to send a file from machine A to machine B. But you don&amp;rsquo;t have USB, floopy disk :lol: or insanse Bluetooth. There is simple way to send a file to another computer without setting up SSH or SMB (althrough these way are safer than it).
 On the machine A (with IP address : 192.</description>
     </item>
@@ -85,10 +85,10 @@ Til next time !</description>
     
     <item>
       <title>#TIL 2018-03-25 : Create a sequence of numbers</title>
-      <link>https://khanhicetea.com/til/2018-03-25-create-a-sequence-of-numbers/</link>
+      <link>https://khanhicetea.com/til/til-2018-03-25-create-a-sequence-of-numbers/</link>
       <pubDate>Sun, 25 Mar 2018 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2018-03-25-create-a-sequence-of-numbers/</guid>
+      <guid>https://khanhicetea.com/til/til-2018-03-25-create-a-sequence-of-numbers/</guid>
       <description>Create a sequence of numbers In the past, every time I want to create a sequence of numbers. I have to use something like MS EXCEL, then copy it and paste to text editor. It&amp;rsquo;s tricky way and slow !
 Now, I can use the handy tool seq to achieve that
 man seq
@@ -97,10 +97,10 @@ SEQ(1) User Commands SEQ(1) NAME seq - print a sequence of numbers SYNOPSIS seq 
     
     <item>
       <title>#TIL 2018-03-25 : Cut file content from line to line</title>
-      <link>https://khanhicetea.com/til/2018-03-25-cut-file-content-from-line-to-line/</link>
+      <link>https://khanhicetea.com/til/til-2018-03-25-cut-file-content-from-line-to-line/</link>
       <pubDate>Sun, 25 Mar 2018 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2018-03-25-cut-file-content-from-line-to-line/</guid>
+      <guid>https://khanhicetea.com/til/til-2018-03-25-cut-file-content-from-line-to-line/</guid>
       <description>Cut file content from line to line In case you have a big file which contains a lot of content (2+ GB). And you only need a small part from the file (the part is continuous string from line X to line Y).
 You have many ways to achieve that :
  Use vi editor and delete from line 1 to line (X-1) by press [X-1]dd then go to line (Y-X+2) and delete to last line by press dG Use sed -n &#39;[X][Y]p&#39; [input_file] &amp;gt; [output_file].</description>
@@ -108,10 +108,10 @@ You have many ways to achieve that :
     
     <item>
       <title>#TIL 2018-03-25 : Prepend line number to file</title>
-      <link>https://khanhicetea.com/til/2018-03-25-prepend-line-number-to-file/</link>
+      <link>https://khanhicetea.com/til/til-2018-03-25-prepend-line-number-to-file/</link>
       <pubDate>Sun, 25 Mar 2018 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2018-03-25-prepend-line-number-to-file/</guid>
+      <guid>https://khanhicetea.com/til/til-2018-03-25-prepend-line-number-to-file/</guid>
       <description>Prepend line number to file When you want to prepend line number in every line of file, use the -n flag of cat tool.
 Example :
 cat -n a.txt
@@ -131,20 +131,20 @@ Sân Bay Bay từ SGN đến sân bay PNH thuộc thủ đô Phnong Penh, tuyế
     
     <item>
       <title>#TIL 2018-03-14 : Flush DNS cache on iOS device</title>
-      <link>https://khanhicetea.com/til/2018-03-14-flush-dns-cache-on-ios-device/</link>
+      <link>https://khanhicetea.com/til/til-2018-03-14-flush-dns-cache-on-ios-device/</link>
       <pubDate>Wed, 14 Mar 2018 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2018-03-14-flush-dns-cache-on-ios-device/</guid>
+      <guid>https://khanhicetea.com/til/til-2018-03-14-flush-dns-cache-on-ios-device/</guid>
       <description> Flush DNS cache on iOS device There are 2 simple ways to clear DNS cache on iOS devices :
  (FASTER) Just enable the Airplane Mode, wait 10 seconds and disable it (SLOWER) Reboot the device ! ;) You know this always be classic answer for many questions :D  </description>
     </item>
     
     <item>
       <title>#TIL 2018-03-14 : Install CA root certificate on iOS device</title>
-      <link>https://khanhicetea.com/til/2018-03-14-install-ca-root-certificate-on-ios-device/</link>
+      <link>https://khanhicetea.com/til/til-2018-03-14-install-ca-root-certificate-on-ios-device/</link>
       <pubDate>Wed, 14 Mar 2018 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2018-03-14-install-ca-root-certificate-on-ios-device/</guid>
+      <guid>https://khanhicetea.com/til/til-2018-03-14-install-ca-root-certificate-on-ios-device/</guid>
       <description>Install CA root certificate on iOS device Disclaimer : ⚠️ You can do it, but it&amp;rsquo;s at your own risk !
 Sometimes you want to accept a SSL firewall proxy or self-MITM proxy, the important step is installing its CA root certificate to your device. Because iOS apps almost use all https connections (that&amp;rsquo;s new rule).
 This is the way to install and enable custom CA Root cert :</description>
@@ -152,10 +152,10 @@ This is the way to install and enable custom CA Root cert :</description>
     
     <item>
       <title>#TIL 2018-03-01 : Prevent source hacking from .git directory exposing</title>
-      <link>https://khanhicetea.com/til/2018-03-01-prevent-source-hacking-from-git-directory-exposing/</link>
+      <link>https://khanhicetea.com/til/til-2018-03-01-prevent-source-hacking-from-git-directory-exposing/</link>
       <pubDate>Thu, 01 Mar 2018 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2018-03-01-prevent-source-hacking-from-git-directory-exposing/</guid>
+      <guid>https://khanhicetea.com/til/til-2018-03-01-prevent-source-hacking-from-git-directory-exposing/</guid>
       <description>Prevent source hacking from .git directory exposing Many web project use Git as source version control tools. So in production server, we could expose the hidden .git directory - which contains all most infomation about project source code.
 To &amp;ldquo;rip&amp;rdquo; a source code from a vulnerable website, we can use this tool : https://github.com/kost/dvcs-ripper#git
 So to prevent this happens, try to deny all http access to hidden files and directories (usually starts by .</description>
@@ -163,20 +163,20 @@ So to prevent this happens, try to deny all http access to hidden files and dire
     
     <item>
       <title>#TIL 2018-03-01 : Sending Cookie in AJAX CORs request</title>
-      <link>https://khanhicetea.com/til/2018-03-01-sending-cookie-in-ajax-cors-request/</link>
+      <link>https://khanhicetea.com/til/til-2018-03-01-sending-cookie-in-ajax-cors-request/</link>
       <pubDate>Thu, 01 Mar 2018 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2018-03-01-sending-cookie-in-ajax-cors-request/</guid>
+      <guid>https://khanhicetea.com/til/til-2018-03-01-sending-cookie-in-ajax-cors-request/</guid>
       <description>Sending Cookie in AJAX CORs request By default, browser will remove the cookie and authorization header from AJAX CORs request. So before sending out the request, make sure withCredentials must be true.
 In this case, CORs response must specify which origin is allowed (mean no wildcard allowed origin rule).</description>
     </item>
     
     <item>
       <title>#TIL 2018-02-23 : Build lightweight image by using multistage</title>
-      <link>https://khanhicetea.com/til/2018-02-23-build-lightweight-image-by-using-multistage/</link>
+      <link>https://khanhicetea.com/til/til-2018-02-23-build-lightweight-image-by-using-multistage/</link>
       <pubDate>Fri, 23 Feb 2018 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2018-02-23-build-lightweight-image-by-using-multistage/</guid>
+      <guid>https://khanhicetea.com/til/til-2018-02-23-build-lightweight-image-by-using-multistage/</guid>
       <description>Build lightweight image by using multistage Docker is great tool to build a pull-n-run application. But sometimes, your image will be large if you build image from a big base image which has heavy compliling toolbox.
 Ex:
 One-stage build
@@ -196,10 +196,10 @@ Ngẫm nghĩ lại thì tôi thấy chậm chạp thì thua thiệt nhưng đôi
     
     <item>
       <title>#TIL 2018-02-21 : Convert tabs to spaces</title>
-      <link>https://khanhicetea.com/til/2018-02-21-convert-tabs-to-spaces/</link>
+      <link>https://khanhicetea.com/til/til-2018-02-21-convert-tabs-to-spaces/</link>
       <pubDate>Wed, 21 Feb 2018 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2018-02-21-convert-tabs-to-spaces/</guid>
+      <guid>https://khanhicetea.com/til/til-2018-02-21-convert-tabs-to-spaces/</guid>
       <description> Convert tabs to spaces This is my config to use 4 spaces instead tab
 filetype plugin indent on set tabstop=4 set shiftwidth=4 set expandtab  To convert existing file from tabs to spaces, use this command
 :%retab  </description>
@@ -207,10 +207,10 @@ filetype plugin indent on set tabstop=4 set shiftwidth=4 set expandtab  To conve
     
     <item>
       <title>#TIL 2018-02-21 : List opening ports or listening UNIX sockets</title>
-      <link>https://khanhicetea.com/til/2018-02-21-list-opening-ports-or-listening-unix-sockets/</link>
+      <link>https://khanhicetea.com/til/til-2018-02-21-list-opening-ports-or-listening-unix-sockets/</link>
       <pubDate>Wed, 21 Feb 2018 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2018-02-21-list-opening-ports-or-listening-unix-sockets/</guid>
+      <guid>https://khanhicetea.com/til/til-2018-02-21-list-opening-ports-or-listening-unix-sockets/</guid>
       <description>List opening ports or listening UNIX sockets In Linux, you can use netstat to list all opening ports and listening UNIX sockets
 $ sudo netstat -npl  Tip to remember command : network statistics - natual languge processing
 ;)</description>
@@ -240,10 +240,10 @@ Bài gốc là Learn these programming skills before your inevitable death!, c�
     
     <item>
       <title>#TIL 2018-01-31 : Check vcl file syntax before restarting</title>
-      <link>https://khanhicetea.com/til/2018-01-31-check-vcl-file-syntax-before-restarting/</link>
+      <link>https://khanhicetea.com/til/til-2018-01-31-check-vcl-file-syntax-before-restarting/</link>
       <pubDate>Wed, 31 Jan 2018 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2018-01-31-check-vcl-file-syntax-before-restarting/</guid>
+      <guid>https://khanhicetea.com/til/til-2018-01-31-check-vcl-file-syntax-before-restarting/</guid>
       <description>Check vcl file syntax before restarting Like NginX, Varnish has a syntax checker function that helps us test the syntactic correctness.
 $ varnishd -C -f [vcl file path]  Varnish will compile the file and output the result to stdout. If something goes wrong, it will throw a message like
 &amp;gt; Message from VCC-compiler: &amp;gt; Expected an action, &#39;if&#39;, &#39;{&#39; or &#39;}&#39; &amp;gt; (&#39;input&#39; Line 74 Pos 6) &amp;gt; vcl_hash(req.</description>
@@ -251,10 +251,10 @@ $ varnishd -C -f [vcl file path]  Varnish will compile the file and output the r
     
     <item>
       <title>#TIL 2018-01-31 : Transaction style in Redis</title>
-      <link>https://khanhicetea.com/til/2018-01-31-transaction-style-in-redis/</link>
+      <link>https://khanhicetea.com/til/til-2018-01-31-transaction-style-in-redis/</link>
       <pubDate>Wed, 31 Jan 2018 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2018-01-31-transaction-style-in-redis/</guid>
+      <guid>https://khanhicetea.com/til/til-2018-01-31-transaction-style-in-redis/</guid>
       <description>Transaction style in Redis In Redis, you can use transaction-style (mean queue commands then flush it once). It will improve performance in many case where latency or networking is slow.
 &amp;gt; SET hoge 2 OK &amp;gt; MULTI OK &amp;gt; INCR foo QUEUED &amp;gt; INCR hoge QUEUED &amp;gt; EXEC 1) (integer) 1 2) (integer) 1  MULTI command is begin transaction and EXEC command is commit transaction
 The result will be returned in order your command queue list.</description>
@@ -262,10 +262,10 @@ The result will be returned in order your command queue list.</description>
     
     <item>
       <title>#TIL 2018-01-30 : Using mark to bookmark checkpoints in files</title>
-      <link>https://khanhicetea.com/til/2018-01-30-using-mark-to-bookmark-checkpoints-in-files/</link>
+      <link>https://khanhicetea.com/til/til-2018-01-30-using-mark-to-bookmark-checkpoints-in-files/</link>
       <pubDate>Tue, 30 Jan 2018 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2018-01-30-using-mark-to-bookmark-checkpoints-in-files/</guid>
+      <guid>https://khanhicetea.com/til/til-2018-01-30-using-mark-to-bookmark-checkpoints-in-files/</guid>
       <description>Using mark to bookmark checkpoints in files Bookmarking a checkpoint will help you get back to it intermidately. Ex: your have to find some text to replace something but want to return back current position.
 Set a mark - [NORMAL MODE] , type m then follow by a letter from a-z (lowercase is filescope, uppercase for global scope - vim scope)
 Go to a mark - [NORMAL MODE] , type backstick ` then follow by the letter your marked above.</description>
@@ -273,10 +273,10 @@ Go to a mark - [NORMAL MODE] , type backstick ` then follow by the letter your m
     
     <item>
       <title>#TIL 2018-01-25 : Basics of Elasticsearch</title>
-      <link>https://khanhicetea.com/til/2018-01-25-basics-of-elasticsearch/</link>
+      <link>https://khanhicetea.com/til/til-2018-01-25-basics-of-elasticsearch/</link>
       <pubDate>Thu, 25 Jan 2018 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2018-01-25-basics-of-elasticsearch/</guid>
+      <guid>https://khanhicetea.com/til/til-2018-01-25-basics-of-elasticsearch/</guid>
       <description>Basics of Elasticsearch Last days, I developed a EFK stack to centralize my system logging. I really like the concepts of FluentD, it&amp;rsquo;s better than original stack ELK of elastic company.
 So I need to learn basics about Elasticsearch and Kibana
 This is what I learned :
@@ -285,10 +285,10 @@ This is what I learned :
     
     <item>
       <title>#TIL 2018-01-22 : Ansible running host pattern</title>
-      <link>https://khanhicetea.com/til/2018-01-22-ansible-running-host-pattern/</link>
+      <link>https://khanhicetea.com/til/til-2018-01-22-ansible-running-host-pattern/</link>
       <pubDate>Mon, 22 Jan 2018 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2018-01-22-ansible-running-host-pattern/</guid>
+      <guid>https://khanhicetea.com/til/til-2018-01-22-ansible-running-host-pattern/</guid>
       <description> Ansible running host pattern Ansible supports pattern to select and filter running hosts from all hosts. Here is some common pattern
  * : wildcard, standalone mean all group1,group2 : run hosts belong to group1 or group2 *.web : run hosts belongs to group matches pattern. Ex: backend.web, frontend.web all:!abc : run all hosts exclude hosts belongs to group abc   Infrastructure by code ;)
  </description>
@@ -296,10 +296,10 @@ This is what I learned :
     
     <item>
       <title>#TIL 2018-01-22 : Use journalctl to check system logs</title>
-      <link>https://khanhicetea.com/til/2018-01-22-use-journalctl-to-check-system-logs/</link>
+      <link>https://khanhicetea.com/til/til-2018-01-22-use-journalctl-to-check-system-logs/</link>
       <pubDate>Mon, 22 Jan 2018 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2018-01-22-use-journalctl-to-check-system-logs/</guid>
+      <guid>https://khanhicetea.com/til/til-2018-01-22-use-journalctl-to-check-system-logs/</guid>
       <description>Use journalctl to check system logs Logging and Monitoring are important factor for system admin. Checking the log will help you have a closer look into the issue. One tool could help you will handy features is journalctl.
 Here are simple options :
  -f : follow the log (tailf) -u [service] : filter to show only [service] logs --since=[date] : Show entries not older than the specified date --until=[date] : Show entries not newer than the specified date  Example :</description>
@@ -307,10 +307,10 @@ Here are simple options :
     
     <item>
       <title>#TIL 2018-01-16 : Disable IPv6 to stop getting stuck in network</title>
-      <link>https://khanhicetea.com/til/2018-01-16-disable-ipv6-to-stop-getting-stuck-in-network/</link>
+      <link>https://khanhicetea.com/til/til-2018-01-16-disable-ipv6-to-stop-getting-stuck-in-network/</link>
       <pubDate>Tue, 16 Jan 2018 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2018-01-16-disable-ipv6-to-stop-getting-stuck-in-network/</guid>
+      <guid>https://khanhicetea.com/til/til-2018-01-16-disable-ipv6-to-stop-getting-stuck-in-network/</guid>
       <description>Disable IPv6 to stop getting stuck in network I know IPv6 will be future for networking, but at this moment &amp;ldquo;It&amp;rsquo;s suck !&amp;rdquo; :(
 Some service will be failed when trying to connect IPv6 destination :
  apt package manager smtp curl  So I decided to disable IPv6 on every production server.
@@ -319,10 +319,10 @@ $ echo &amp;quot;net.ipv6.conf.all.disable_ipv6 = 1&amp;quot; | sudo tee -a /etc
     
     <item>
       <title>#TIL 2018-01-16 : Set up simple rate limiting on specified port using UFW</title>
-      <link>https://khanhicetea.com/til/2018-01-16-set-up-simple-rate-limiting-on-specified-port-using-ufw/</link>
+      <link>https://khanhicetea.com/til/til-2018-01-16-set-up-simple-rate-limiting-on-specified-port-using-ufw/</link>
       <pubDate>Tue, 16 Jan 2018 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2018-01-16-set-up-simple-rate-limiting-on-specified-port-using-ufw/</guid>
+      <guid>https://khanhicetea.com/til/til-2018-01-16-set-up-simple-rate-limiting-on-specified-port-using-ufw/</guid>
       <description>Set up simple rate limiting on specified port using UFW Allow unmetrered connections on networking is so risky. Attacker can use the brute-force attacks to comprosise your service (or simple DOS).
 Linux has a cool firewall to hanlde this, via ip-tables. But it&amp;rsquo;s so complicated to remember all the rule and syntax. That&amp;rsquo;s why UFW was born to save us. :D
 You can use simple command to manage your firewall</description>
@@ -330,20 +330,20 @@ You can use simple command to manage your firewall</description>
     
     <item>
       <title>#TIL 2018-01-14 : Trigger event after setting val in jQuery</title>
-      <link>https://khanhicetea.com/til/2018-01-14-trigger-event-after-setting-val-in-jquery/</link>
+      <link>https://khanhicetea.com/til/til-2018-01-14-trigger-event-after-setting-val-in-jquery/</link>
       <pubDate>Sun, 14 Jan 2018 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2018-01-14-trigger-event-after-setting-val-in-jquery/</guid>
+      <guid>https://khanhicetea.com/til/til-2018-01-14-trigger-event-after-setting-val-in-jquery/</guid>
       <description> Trigger event after setting val in jQuery After setting value of an input via val method, we should call the change chaining method to trigger the onChange event of element.
 $(&#39;#selectCity&#39;).change(function() { console.log($(this).val()); }); $(&#39;#selectCity&#39;).val(&#39;HaNoi&#39;); // No trigger $(&#39;#selectCity&#39;).val(&#39;HoChiMinh&#39;).change(); // Fire trigger  </description>
     </item>
     
     <item>
       <title>#TIL 2018-01-14 : Tại sao biển xanh lại mặn ? :lol:</title>
-      <link>https://khanhicetea.com/til/2018-01-14-ti-sao-bin-xanh-li-mn-lol/</link>
+      <link>https://khanhicetea.com/til/til-2018-01-14-ti-sao-bin-xanh-li-mn-lol/</link>
       <pubDate>Sun, 14 Jan 2018 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2018-01-14-ti-sao-bin-xanh-li-mn-lol/</guid>
+      <guid>https://khanhicetea.com/til/til-2018-01-14-ti-sao-bin-xanh-li-mn-lol/</guid>
       <description>Tại sao biển xanh lại mặn ? :lol: TLDR;
  Biển xanh lại mặn bởi vì đá ở mặt đất cọ xát với mưa trên trời (chứ không phải cá nó đái 😂 )
  Read more : https://oceanservice.noaa.gov/facts/whysalty.html</description>
@@ -363,30 +363,30 @@ I start this blog from Nov 30, 2015. It means I have taken a 777-day journey thr
     
     <item>
       <title>#TIL 2018-01-10 : Tracking changes of cookie on webpage</title>
-      <link>https://khanhicetea.com/til/2018-01-10-tracking-changes-of-cookie-on-webpage/</link>
+      <link>https://khanhicetea.com/til/til-2018-01-10-tracking-changes-of-cookie-on-webpage/</link>
       <pubDate>Wed, 10 Jan 2018 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2018-01-10-tracking-changes-of-cookie-on-webpage/</guid>
+      <guid>https://khanhicetea.com/til/til-2018-01-10-tracking-changes-of-cookie-on-webpage/</guid>
       <description>Tracking changes of cookie on webpage Using Object.defineProperty helper function as I wrote 3 days ago. We could track the changes of cookie on webpage.
 // Based on Vlad Shevchenko&#39;s script at https://stackoverflow.com/a/36826049 var cookieSetterOrig = document.__lookupSetter__(&amp;quot;cookie&amp;quot;); // get origin setter function var cookieGetterOrig = document.__lookupGetter__(&amp;quot;cookie&amp;quot;); // get origin getter function Object.defineProperty(document, &amp;quot;cookie&amp;quot;, { get: function () { console.trace(); return cookieGetterOrig.apply(document); }, set: function () { console.log(arguments); console.trace(); return cookieSetterOrig.</description>
     </item>
     
     <item>
       <title>#TIL 2018-01-08 : Bypass CORS by using JSONP callback</title>
-      <link>https://khanhicetea.com/til/2018-01-08-bypass-cors-by-using-jsonp-callback/</link>
+      <link>https://khanhicetea.com/til/til-2018-01-08-bypass-cors-by-using-jsonp-callback/</link>
       <pubDate>Mon, 08 Jan 2018 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2018-01-08-bypass-cors-by-using-jsonp-callback/</guid>
+      <guid>https://khanhicetea.com/til/til-2018-01-08-bypass-cors-by-using-jsonp-callback/</guid>
       <description>Bypass CORS by using JSONP callback Sometimes you are blocked from request a cross-origin resource. Instead of adding our domain to allowed list of them, we can use another way to retrieve data from their API by using JSONP (in case they support it).
 The mechanism of JSONP is simple, instead of returning a JSON data. It will return a javascript text with passing your data into a function, whose name is declared in query string.</description>
     </item>
     
     <item>
       <title>#TIL 2018-01-07 : Debug js code using console.trace</title>
-      <link>https://khanhicetea.com/til/2018-01-07-debug-js-code-using-console-trace/</link>
+      <link>https://khanhicetea.com/til/til-2018-01-07-debug-js-code-using-console-trace/</link>
       <pubDate>Sun, 07 Jan 2018 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2018-01-07-debug-js-code-using-console-trace/</guid>
+      <guid>https://khanhicetea.com/til/til-2018-01-07-debug-js-code-using-console-trace/</guid>
       <description> Debug js code using console.trace Browsers provide an useful function help you debug easier than using simple console.log function.
 That is console.trace, which prints a stack trace to called function.
 Example :
@@ -395,10 +395,10 @@ function foo() { var a = 1; bar(a); } function bar(x) { console.log(x); console.
     
     <item>
       <title>#TIL 2018-01-07 : Define property of an object in hacking way</title>
-      <link>https://khanhicetea.com/til/2018-01-07-define-property-of-an-object-in-hacking-way/</link>
+      <link>https://khanhicetea.com/til/til-2018-01-07-define-property-of-an-object-in-hacking-way/</link>
       <pubDate>Sun, 07 Jan 2018 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2018-01-07-define-property-of-an-object-in-hacking-way/</guid>
+      <guid>https://khanhicetea.com/til/til-2018-01-07-define-property-of-an-object-in-hacking-way/</guid>
       <description>Define property of an object in hacking way Sometimes, we want to define a property of an advanced object (has setter and getter function).
 Now, we could use this helper function Object.defineProperty to define property of an object in a cool way.
 Example :
@@ -407,10 +407,10 @@ const foo = {}; Object.defineProperty(a, &#39;bar&#39;, { value: &#39;hogehoge&#
     
     <item>
       <title>#TIL 2018-01-04 : Sleeping connections in MySQL</title>
-      <link>https://khanhicetea.com/til/2018-01-04-sleeping-connections-in-mysql/</link>
+      <link>https://khanhicetea.com/til/til-2018-01-04-sleeping-connections-in-mysql/</link>
       <pubDate>Thu, 04 Jan 2018 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2018-01-04-sleeping-connections-in-mysql/</guid>
+      <guid>https://khanhicetea.com/til/til-2018-01-04-sleeping-connections-in-mysql/</guid>
       <description>Sleeping connections in MySQL When you check your MySQL process list via command show processlist;, it will show you a useful table which provide all current connection details.
 &amp;ldquo;Sleep&amp;rdquo; state connections are most connection pointer waiting for the timeout to terminate. Then they still count as a connection. (Can cause MySQL connection limit error, which default equal 150 connections)
 So next time, remember to close your connection before terminating your app.</description>
@@ -418,10 +418,10 @@ So next time, remember to close your connection before terminating your app.</de
     
     <item>
       <title>#TIL 2018-01-03 : Create cross-platform downloading app URL</title>
-      <link>https://khanhicetea.com/til/2018-01-03-create-cross-platform-downloading-app-url/</link>
+      <link>https://khanhicetea.com/til/til-2018-01-03-create-cross-platform-downloading-app-url/</link>
       <pubDate>Wed, 03 Jan 2018 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2018-01-03-create-cross-platform-downloading-app-url/</guid>
+      <guid>https://khanhicetea.com/til/til-2018-01-03-create-cross-platform-downloading-app-url/</guid>
       <description>Create cross-platform downloading app URL You have a mobile app for both platforms iOS and Android, each platform has different download URL. But your user doesn&amp;rsquo;t know which platform he using. Clicking wrong URL will lead to user bounce-rate.
 Solution is making only 1 URL to download your app, which can redirect to right place depends on using platform. So how we achieve this ??
 The key of problem is detecting user platform, which can be done by extracting the User-Agent header from http request.</description>
@@ -429,10 +429,10 @@ The key of problem is detecting user platform, which can be done by extracting t
     
     <item>
       <title>#TIL 2018-01-03 : HSTS rule in browser</title>
-      <link>https://khanhicetea.com/til/2018-01-03-hsts-rule-in-browser/</link>
+      <link>https://khanhicetea.com/til/til-2018-01-03-hsts-rule-in-browser/</link>
       <pubDate>Wed, 03 Jan 2018 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2018-01-03-hsts-rule-in-browser/</guid>
+      <guid>https://khanhicetea.com/til/til-2018-01-03-hsts-rule-in-browser/</guid>
       <description>HSTS rule in browser HTTP Strict Transport Security (HSTS) is a web security policy mechanism which helps to protect websites against protocol downgrade attacks and cookie hijacking.
 Enabling HSTS on your web will make your browser validate every SSL issues more strictly :
  User can not visit http version on browser User can not add SSL exception for the domain to ignore the warning. (when SSL cert expire or invalid common name)  Note : You can manually remove a domain from HSTS in Chrome by accessing this page URL chrome://net-internals/#hsts</description>
@@ -462,20 +462,20 @@ I think about this, and I have a question &amp;ldquo;So what are the best things
     
     <item>
       <title>#TIL 2017-12-07 : Using web proxy to bypass firewalls</title>
-      <link>https://khanhicetea.com/til/2017-12-07-using-web-proxy-to-bypass-firewalls/</link>
+      <link>https://khanhicetea.com/til/til-2017-12-07-using-web-proxy-to-bypass-firewalls/</link>
       <pubDate>Thu, 07 Dec 2017 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2017-12-07-using-web-proxy-to-bypass-firewalls/</guid>
+      <guid>https://khanhicetea.com/til/til-2017-12-07-using-web-proxy-to-bypass-firewalls/</guid>
       <description>Using web proxy to bypass firewalls Someday, you will be blocked by a firewall while trying crawling or accessing some website. The reason is they block your IP address from accessing the server.
 One solution is using a web proxy (http proxy, socks4 or socks5) to bypass the firewall, by adding the middle-man server between you and target. It&amp;rsquo;s a bit unsecured but you could use for https site only.</description>
     </item>
     
     <item>
       <title>#TIL 2017-11-27 : Fastly conflict detector script</title>
-      <link>https://khanhicetea.com/til/2017-11-27-fastly-conflict-detector-script/</link>
+      <link>https://khanhicetea.com/til/til-2017-11-27-fastly-conflict-detector-script/</link>
       <pubDate>Mon, 27 Nov 2017 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2017-11-27-fastly-conflict-detector-script/</guid>
+      <guid>https://khanhicetea.com/til/til-2017-11-27-fastly-conflict-detector-script/</guid>
       <description>Fastly conflict detector script Last month, I built a CI solution for our project and adding a conflict detector to our build commands. This script runned so slow because it will check all application files (and our application codebase has many of css, js files).
 This was the script
 #!/bin/bash grep -rli --exclude=conflict_detector.sh --exclude-dir={.git,vendor,node_modules} &amp;quot;&amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt; HEAD&amp;quot; . if [ $? -eq 0 ]; then exit 1 else exit 0 fi  Today, I think why don&amp;rsquo;t we just check recently updated files (in the latest commit) ?</description>
@@ -483,20 +483,20 @@ This was the script
     
     <item>
       <title>#TIL 2017-11-24 : Getting your external IP</title>
-      <link>https://khanhicetea.com/til/2017-11-24-getting-your-external-ip/</link>
+      <link>https://khanhicetea.com/til/til-2017-11-24-getting-your-external-ip/</link>
       <pubDate>Fri, 24 Nov 2017 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2017-11-24-getting-your-external-ip/</guid>
+      <guid>https://khanhicetea.com/til/til-2017-11-24-getting-your-external-ip/</guid>
       <description>Getting your external IP We can get our external IP address by following ways :
  Call http request : curl http://wtfismyip.com/text or curl http://ifconfig.me/ip Lookup A record for hostname nslookup myip.opendns.com resolver1.opendns.com (this only works when you use resolver of OpenDNS)  Bonus : curl https://v6.ident.me/ for IPv6</description>
     </item>
     
     <item>
       <title>#TIL 2017-11-22 : Reduce init time MySQL docker image</title>
-      <link>https://khanhicetea.com/til/2017-11-22-reduce-init-time-mysql-docker-image/</link>
+      <link>https://khanhicetea.com/til/til-2017-11-22-reduce-init-time-mysql-docker-image/</link>
       <pubDate>Wed, 22 Nov 2017 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2017-11-22-reduce-init-time-mysql-docker-image/</guid>
+      <guid>https://khanhicetea.com/til/til-2017-11-22-reduce-init-time-mysql-docker-image/</guid>
       <description>Reduce init time MySQL docker image Original MySQL docker image uses a script to generate ssl certificates for service. Sometime we don&amp;rsquo;t really need it (connect via a docker network link or need a fast enough database service to build a automated test).
 We can reduce init time by removing the script from original Docker image
 FROM mysql:5.7 # Remove mysql_ssl_rsa_setup to ignore setup SSL certs RUN rm -f /usr/bin/mysql_ssl_rsa_setup   FAST as a FEATURE !</description>
@@ -504,10 +504,10 @@ FROM mysql:5.7 # Remove mysql_ssl_rsa_setup to ignore setup SSL certs RUN rm -f 
     
     <item>
       <title>#TIL 2017-11-22 : using git hooks to improve working flow</title>
-      <link>https://khanhicetea.com/til/2017-11-22-using-git-hooks-to-improve-working-flow/</link>
+      <link>https://khanhicetea.com/til/til-2017-11-22-using-git-hooks-to-improve-working-flow/</link>
       <pubDate>Wed, 22 Nov 2017 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2017-11-22-using-git-hooks-to-improve-working-flow/</guid>
+      <guid>https://khanhicetea.com/til/til-2017-11-22-using-git-hooks-to-improve-working-flow/</guid>
       <description>using git hooks to improve working flow We can improve our team workflow by defining some git hooks that trigger on specified events. You can read all events and their usecases here : https://www.digitalocean.com/community/tutorials/how-to-use-git-hooks-to-automate-development-and-deployment-tasks
 This is what I implemented to my today-i-learned repo. I used pre-commit to update Table of Contents in the README.md file, so every content in my repo will be updated on Github repo page.
 $ ln pre-commit .</description>
@@ -550,10 +550,10 @@ package main import ( &amp;quot;fmt&amp;quot; &amp;quot;time&amp;quot; ) func ma
     
     <item>
       <title>#TIL 2017-10-20 : Using watch command to tracking changes in period time</title>
-      <link>https://khanhicetea.com/til/2017-10-20-using-watch-command-to-tracking-changes-in-period-time/</link>
+      <link>https://khanhicetea.com/til/til-2017-10-20-using-watch-command-to-tracking-changes-in-period-time/</link>
       <pubDate>Fri, 20 Oct 2017 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2017-10-20-using-watch-command-to-tracking-changes-in-period-time/</guid>
+      <guid>https://khanhicetea.com/til/til-2017-10-20-using-watch-command-to-tracking-changes-in-period-time/</guid>
       <description>Using watch command to tracking changes in period time watch to a good command to run a command every N seconds.
 And like its name, means you can watch something, its output changes with flag -d
 It&amp;rsquo;s a great tool to help you learn a new language without hitting compile and run everytime you save a file.
@@ -575,20 +575,20 @@ package main import ( &amp;quot;fmt&amp;quot; // Formatting standard library m &
     
     <item>
       <title>#TIL 2017-10-13 : Indexes on multiple columns</title>
-      <link>https://khanhicetea.com/til/2017-10-13-indexes-on-multiple-columns/</link>
+      <link>https://khanhicetea.com/til/til-2017-10-13-indexes-on-multiple-columns/</link>
       <pubDate>Fri, 13 Oct 2017 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2017-10-13-indexes-on-multiple-columns/</guid>
+      <guid>https://khanhicetea.com/til/til-2017-10-13-indexes-on-multiple-columns/</guid>
       <description>Indexes on multiple columns Let&amp;rsquo;s say you have an indexes on 2 columns (A, B) of the table (X). So this is three use cases happen :
  You query data based on both of 2 columns =&amp;gt; Indexes will be considered You query data based on (A) =&amp;gt; Indexes will be considered You query data based on (B) =&amp;gt; Indexes will be ignored because database indexes your data by B-tree algo.</description>
     </item>
     
     <item>
       <title>#TIL 2017-10-13 : Using netcat to wait a TCP service</title>
-      <link>https://khanhicetea.com/til/2017-10-13-using-netcat-to-wait-a-tcp-service/</link>
+      <link>https://khanhicetea.com/til/til-2017-10-13-using-netcat-to-wait-a-tcp-service/</link>
       <pubDate>Fri, 13 Oct 2017 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2017-10-13-using-netcat-to-wait-a-tcp-service/</guid>
+      <guid>https://khanhicetea.com/til/til-2017-10-13-using-netcat-to-wait-a-tcp-service/</guid>
       <description>Using netcat to wait a TCP service When doing a CI/CD testing, you would need to connect a external service (RDBMS, HTTP server or generic TCP server service). So you need waiting the service before running your test app.
 One way to do right waiting instead of sleep for a specified time is using netcat tool
 $ while ! echo -e &#39;\x04&#39; | nc [service_host] [service_port]; do sleep 1; done;  Examples</description>
@@ -607,10 +607,10 @@ Basics View day2.ts file
     
     <item>
       <title>#TIL 2017-10-07 : Using netcat as tiny TCP debug tool</title>
-      <link>https://khanhicetea.com/til/2017-10-07-using-netcat-as-tiny-tcp-debug-tool/</link>
+      <link>https://khanhicetea.com/til/til-2017-10-07-using-netcat-as-tiny-tcp-debug-tool/</link>
       <pubDate>Sat, 07 Oct 2017 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2017-10-07-using-netcat-as-tiny-tcp-debug-tool/</guid>
+      <guid>https://khanhicetea.com/til/til-2017-10-07-using-netcat-as-tiny-tcp-debug-tool/</guid>
       <description>Using netcat as tiny TCP debug tool You can use netcat or nc as a debugging TCP tool. It can be a TCP sender and receiver with a short session (auto close when connection is closed)
 Examples :
 Scan ports
@@ -621,10 +621,10 @@ $ printf &amp;quot;GET /xinchao HTTP/1.1\r\n\r\n&amp;quot; | nc 127.0.0.1 8000 |
     
     <item>
       <title>#TIL 2017-10-05 : Simple HTTP server function helper</title>
-      <link>https://khanhicetea.com/til/2017-10-05-simple-http-server-function-helper/</link>
+      <link>https://khanhicetea.com/til/til-2017-10-05-simple-http-server-function-helper/</link>
       <pubDate>Thu, 05 Oct 2017 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2017-10-05-simple-http-server-function-helper/</guid>
+      <guid>https://khanhicetea.com/til/til-2017-10-05-simple-http-server-function-helper/</guid>
       <description> Simple HTTP server function helper I use python3 (3.4+) to create a bash function to help me start quickly a simple http server on specified port
 function server() { local port=&amp;quot;${1:-8000}&amp;quot; # Getting port number google-chrome &amp;quot;http://127.0.0.1:$port&amp;quot; # Open URL in browser, could change to firefox --new-tab &amp;quot;http://127.0.0.1:$port&amp;quot; python3 -m http.server $port --bind 127.0.0.1 }  </description>
     </item>
@@ -645,10 +645,10 @@ $ ./node_modules/.bin/webpack --config webpack.config.js  Learned
     
     <item>
       <title>#TIL 2017-10-04 : How SMTP works</title>
-      <link>https://khanhicetea.com/til/2017-10-04-how-smtp-works/</link>
+      <link>https://khanhicetea.com/til/til-2017-10-04-how-smtp-works/</link>
       <pubDate>Wed, 04 Oct 2017 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2017-10-04-how-smtp-works/</guid>
+      <guid>https://khanhicetea.com/til/til-2017-10-04-how-smtp-works/</guid>
       <description>How SMTP works When a email send through an SMTP (with authentication), every SMTP server is a hop in mail routing. So it will transfer to localmail or forward the email to next hop (shortest distance via DNS MX record).
 And standard port of SMTP is 25 (unsecured, but can upgrade to TLS via STARTTLS command).
 $ nslookup -type=mx gmail.com 8.8.8.8 Server: 8.8.8.8 Address: 8.8.8.8#53 Non-authoritative answer: gmail.com mail exchanger = 20 alt2.</description>
@@ -656,10 +656,10 @@ $ nslookup -type=mx gmail.com 8.8.8.8 Server: 8.8.8.8 Address: 8.8.8.8#53 Non-au
     
     <item>
       <title>#TIL 2017-10-04 : TIME command output meaning</title>
-      <link>https://khanhicetea.com/til/2017-10-04-time-command-output-meaning/</link>
+      <link>https://khanhicetea.com/til/til-2017-10-04-time-command-output-meaning/</link>
       <pubDate>Wed, 04 Oct 2017 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2017-10-04-time-command-output-meaning/</guid>
+      <guid>https://khanhicetea.com/til/til-2017-10-04-time-command-output-meaning/</guid>
       <description>TIME command output meaning When you want to know how long does it take to run a process, just use time command as a prefix
 $ time my_program arg1 arg2 real 0m0.003s user 0m0.000s sys 0m0.004s   real : wall clock time, mean time to start to finish your process user : CPUs-time outside the kernel sys : CPUs-time within the kernel  real+sys result is total multi CPUs time (so if you have a multi core CPUs, it is often bigger than real)</description>
     </item>
@@ -689,10 +689,10 @@ Install &amp;amp; Start $ npm install $ npm start  Heroku Deploying $ heroku log
     
     <item>
       <title>#TIL 2017-09-27 : BASH tracing commands</title>
-      <link>https://khanhicetea.com/til/2017-09-27-bash-tracing-commands/</link>
+      <link>https://khanhicetea.com/til/til-2017-09-27-bash-tracing-commands/</link>
       <pubDate>Wed, 27 Sep 2017 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2017-09-27-bash-tracing-commands/</guid>
+      <guid>https://khanhicetea.com/til/til-2017-09-27-bash-tracing-commands/</guid>
       <description>BASH tracing commands Thank Hiro Ishii for teaching me this
 set -x will print all running commands in your bash script
 So I dove in and look for all set options of BASH.
@@ -701,10 +701,10 @@ And this is what I got , http://www.gnu.org/software/bash/manual/html_node/The-S
     
     <item>
       <title>#TIL 2017-09-27 : Send ENTER key to kernel</title>
-      <link>https://khanhicetea.com/til/2017-09-27-send-enter-key-to-kernel/</link>
+      <link>https://khanhicetea.com/til/til-2017-09-27-send-enter-key-to-kernel/</link>
       <pubDate>Wed, 27 Sep 2017 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2017-09-27-send-enter-key-to-kernel/</guid>
+      <guid>https://khanhicetea.com/til/til-2017-09-27-send-enter-key-to-kernel/</guid>
       <description>Send ENTER key to kernel When you try to send an Enter keyboard to linux kernel, it looks like nothing happens.
 This is because you only send a key press (KEY DOWN) but don&amp;rsquo;t send an key release (KEY UP) event after that.</description>
     </item>
@@ -721,10 +721,10 @@ Kernel modules # echo &amp;quot;uinput&amp;quot; &amp;gt;&amp;gt; /etc/modules #
     
     <item>
       <title>#TIL 2017-09-26 : BASH exiting on first error</title>
-      <link>https://khanhicetea.com/til/2017-09-26-bash-exiting-on-first-error/</link>
+      <link>https://khanhicetea.com/til/til-2017-09-26-bash-exiting-on-first-error/</link>
       <pubDate>Tue, 26 Sep 2017 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2017-09-26-bash-exiting-on-first-error/</guid>
+      <guid>https://khanhicetea.com/til/til-2017-09-26-bash-exiting-on-first-error/</guid>
       <description> BASH exiting on first error Setting a flag set -e to bash script will let the script exit on first error occurs, so if you want to ignore a command just adding || true to suffix
 set -e errorCmd $1 || true echo &amp;quot;Run here !&amp;quot;  And opposite of set -e is set +e, haha of course !
 set +e errorCmd $1 echo &amp;quot;Still run here !&amp;quot;  </description>
@@ -732,10 +732,10 @@ set +e errorCmd $1 echo &amp;quot;Still run here !&amp;quot;  </description>
     
     <item>
       <title>#TIL 2017-09-26 : BASH return a value in function</title>
-      <link>https://khanhicetea.com/til/2017-09-26-bash-return-a-value-in-function/</link>
+      <link>https://khanhicetea.com/til/til-2017-09-26-bash-return-a-value-in-function/</link>
       <pubDate>Tue, 26 Sep 2017 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2017-09-26-bash-return-a-value-in-function/</guid>
+      <guid>https://khanhicetea.com/til/til-2017-09-26-bash-return-a-value-in-function/</guid>
       <description>BASH return a value in function Creating function is a good way to refactor your bash script. But BASH doesn&amp;rsquo;t support returning a value in true way, so it makes a bit of challenge to handle that.
 You can use this trick
 hello() { echo &amp;quot;Hello $1&amp;quot; } hw=$(hello &amp;quot;KhanhIceTea&amp;quot;) echo $hw  But what if you want to echo log message in hello function, it will be merged to returned value.</description>
@@ -743,10 +743,10 @@ hello() { echo &amp;quot;Hello $1&amp;quot; } hw=$(hello &amp;quot;KhanhIceTea&a
     
     <item>
       <title>#TIL 2017-09-25 : Blocking specified country to prevent from DDOS</title>
-      <link>https://khanhicetea.com/til/2017-09-25-blocking-specified-country-to-prevent-from-ddos/</link>
+      <link>https://khanhicetea.com/til/til-2017-09-25-blocking-specified-country-to-prevent-from-ddos/</link>
       <pubDate>Mon, 25 Sep 2017 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2017-09-25-blocking-specified-country-to-prevent-from-ddos/</guid>
+      <guid>https://khanhicetea.com/til/til-2017-09-25-blocking-specified-country-to-prevent-from-ddos/</guid>
       <description>Blocking specified country to prevent from DDOS Last day I checked system logs and got a lot of warning messages mentioned that my server has been attack via Brute-force. So I decided to blocked some countries from connecting to attacked ports (21, 25). They are China, Russia and US.
 This site provides a list of IP blocks of specified country
 http://www.ipdeny.com/ipblocks/</description>
@@ -754,10 +754,10 @@ http://www.ipdeny.com/ipblocks/</description>
     
     <item>
       <title>#TIL 2017-09-25 : Zip compressing list of files</title>
-      <link>https://khanhicetea.com/til/2017-09-25-zip-compressing-list-of-files/</link>
+      <link>https://khanhicetea.com/til/til-2017-09-25-zip-compressing-list-of-files/</link>
       <pubDate>Mon, 25 Sep 2017 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2017-09-25-zip-compressing-list-of-files/</guid>
+      <guid>https://khanhicetea.com/til/til-2017-09-25-zip-compressing-list-of-files/</guid>
       <description>Zip compressing list of files To specify a list of compressed files when using zip cli tool, you could use -@ [file_list] flag. And file_list is a file contains list of compressed file (new line separated)
 Example
 $ zip changed.zip -@ changed_files.txt  Or use stdin pipe
@@ -766,20 +766,20 @@ $ find . -mmin -60 -print | zip changed_1_hour_ago -@  This will zip all changed
     
     <item>
       <title>#TIL 2017-09-07 : Generate dhparam file faster</title>
-      <link>https://khanhicetea.com/til/2017-09-07-generate-dhparam-file-faster/</link>
+      <link>https://khanhicetea.com/til/til-2017-09-07-generate-dhparam-file-faster/</link>
       <pubDate>Thu, 07 Sep 2017 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2017-09-07-generate-dhparam-file-faster/</guid>
+      <guid>https://khanhicetea.com/til/til-2017-09-07-generate-dhparam-file-faster/</guid>
       <description>Generate dhparam file faster openssl uses strong prime (which is useless for security but requires an awful lot more computational effort. A &amp;ldquo;strong prime&amp;rdquo; is a prime p such that (p-1)/2 is also prime). So it will be faster if we add option -dsaparam to the command
 $ openssl dhparam -dsaparam -out /etc/ssl/private/dhparam.pem 4096  Ref : https://security.stackexchange.com/a/95184</description>
     </item>
     
     <item>
       <title>#TIL 2017-09-07 : Lock and unlock a user password</title>
-      <link>https://khanhicetea.com/til/2017-09-07-lock-and-unlock-a-user-password/</link>
+      <link>https://khanhicetea.com/til/til-2017-09-07-lock-and-unlock-a-user-password/</link>
       <pubDate>Thu, 07 Sep 2017 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2017-09-07-lock-and-unlock-a-user-password/</guid>
+      <guid>https://khanhicetea.com/til/til-2017-09-07-lock-and-unlock-a-user-password/</guid>
       <description> Lock and unlock a user password In Linux, you can prevent a user from login by locking it.
 Lock
 $ sudo passwd -l [user]  Unlock
@@ -788,30 +788,30 @@ $ sudo passwd -u [user]  </description>
     
     <item>
       <title>#TIL 2017-09-07 : TCP FIN timeout</title>
-      <link>https://khanhicetea.com/til/2017-09-07-tcp-fin-timeout/</link>
+      <link>https://khanhicetea.com/til/til-2017-09-07-tcp-fin-timeout/</link>
       <pubDate>Thu, 07 Sep 2017 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2017-09-07-tcp-fin-timeout/</guid>
+      <guid>https://khanhicetea.com/til/til-2017-09-07-tcp-fin-timeout/</guid>
       <description>TCP FIN timeout The TCP FIN timeout belays the amount of time a port must be inactive before it can reused for another connection. The default is often 60 seconds, but can normally be safely reduced to 30 or even 15 seconds:
 net.ipv4.tcp_fin_timeout = 15  Ref : https://www.linode.com/docs/web-servers/nginx/configure-nginx-for-optimized-performance</description>
     </item>
     
     <item>
       <title>#TIL 2017-09-05 : Ansible playbook : skip to task</title>
-      <link>https://khanhicetea.com/til/2017-09-05-ansible-playbook-skip-to-task/</link>
+      <link>https://khanhicetea.com/til/til-2017-09-05-ansible-playbook-skip-to-task/</link>
       <pubDate>Tue, 05 Sep 2017 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2017-09-05-ansible-playbook-skip-to-task/</guid>
+      <guid>https://khanhicetea.com/til/til-2017-09-05-ansible-playbook-skip-to-task/</guid>
       <description> Ansible playbook : skip to task You can skip to a task by its name by adding parameter --start-at
 $ ansible-playbook playbook.yml --start-at=&amp;quot;[your task name]&amp;quot;  </description>
     </item>
     
     <item>
       <title>#TIL 2017-09-05 : Grep : find a string in folder</title>
-      <link>https://khanhicetea.com/til/2017-09-05-grep-find-a-string-in-folder/</link>
+      <link>https://khanhicetea.com/til/til-2017-09-05-grep-find-a-string-in-folder/</link>
       <pubDate>Tue, 05 Sep 2017 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2017-09-05-grep-find-a-string-in-folder/</guid>
+      <guid>https://khanhicetea.com/til/til-2017-09-05-grep-find-a-string-in-folder/</guid>
       <description> Grep : find a string in folder Grep is a greate tool for searching a string in files.
 Syntax
 $ grep -nr &#39;[string]&#39; [folder]  If you want to show surrounding lines the result, add flag -C [number] to the command
@@ -820,10 +820,10 @@ $ grep -nr -C 3 &#39;hello&#39; src  </description>
     
     <item>
       <title>#TIL 2017-09-01 : Create SSH tunnel manually</title>
-      <link>https://khanhicetea.com/til/2017-09-01-create-ssh-tunnel-manually/</link>
+      <link>https://khanhicetea.com/til/til-2017-09-01-create-ssh-tunnel-manually/</link>
       <pubDate>Fri, 01 Sep 2017 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2017-09-01-create-ssh-tunnel-manually/</guid>
+      <guid>https://khanhicetea.com/til/til-2017-09-01-create-ssh-tunnel-manually/</guid>
       <description>Create SSH tunnel manually SSH Tunnel is a fast way to transfer traffic through unsafe internet today. It would be used in MySQL connect, FTP connect or HTTP connect, &amp;hellip;
 Syntax :
 $ ssh -L [local_port]:[remote_endpoint]:[remote_port] [ssh_user]:[ssh_ip]  Example :
@@ -834,10 +834,10 @@ $ telnet 127.0.0.1 3307 $ # or $ mysql -h 127.</description>
     
     <item>
       <title>#TIL 2017-09-01 : Enable reverse proxy in CentOS</title>
-      <link>https://khanhicetea.com/til/2017-09-01-enable-reverse-proxy-in-centos/</link>
+      <link>https://khanhicetea.com/til/til-2017-09-01-enable-reverse-proxy-in-centos/</link>
       <pubDate>Fri, 01 Sep 2017 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2017-09-01-enable-reverse-proxy-in-centos/</guid>
+      <guid>https://khanhicetea.com/til/til-2017-09-01-enable-reverse-proxy-in-centos/</guid>
       <description> Enable reverse proxy in CentOS CentOS with SELinux enabled by default will block any http proxy connection. So you have to enable this permission.
 Temporary enable
 $ /usr/sbin/setsebool httpd_can_network_connect 1  Permanent enable
@@ -846,10 +846,10 @@ $ /usr/sbin/setsebool -P httpd_can_network_connect 1  </description>
     
     <item>
       <title>#TIL 2017-09-01 : Mycli : a new good cli MySql Client</title>
-      <link>https://khanhicetea.com/til/2017-09-01-mycli-a-new-good-cli-mysql-client/</link>
+      <link>https://khanhicetea.com/til/til-2017-09-01-mycli-a-new-good-cli-mysql-client/</link>
       <pubDate>Fri, 01 Sep 2017 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2017-09-01-mycli-a-new-good-cli-mysql-client/</guid>
+      <guid>https://khanhicetea.com/til/til-2017-09-01-mycli-a-new-good-cli-mysql-client/</guid>
       <description>Mycli : a new good cli MySql Client This tool is written in Python with super cool features (auto-complete and colors).
 Worth a shot !
 Install
@@ -911,19 +911,19 @@ But  It&amp;rsquo;s a tracking endpoint (collect data to Google) Network latency
     
     <item>
       <title>#TIL 2017-08-10 : Eval function and with block</title>
-      <link>https://khanhicetea.com/til/2017-08-10-eval-function-and-with-block/</link>
+      <link>https://khanhicetea.com/til/til-2017-08-10-eval-function-and-with-block/</link>
       <pubDate>Thu, 10 Aug 2017 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2017-08-10-eval-function-and-with-block/</guid>
+      <guid>https://khanhicetea.com/til/til-2017-08-10-eval-function-and-with-block/</guid>
       <description>Eval function and with block JS code will be slower if engine detects any of &amp;lsquo;eval&amp;rsquo; function or &amp;lsquo;with&amp;rsquo; block b/c compiler stop optimizing the code</description>
     </item>
     
     <item>
       <title>#TIL 2017-08-10 : Scope and Closure</title>
-      <link>https://khanhicetea.com/til/2017-08-10-scope-and-closure/</link>
+      <link>https://khanhicetea.com/til/til-2017-08-10-scope-and-closure/</link>
       <pubDate>Thu, 10 Aug 2017 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2017-08-10-scope-and-closure/</guid>
+      <guid>https://khanhicetea.com/til/til-2017-08-10-scope-and-closure/</guid>
       <description>Scope and Closure Run this code
 for (var i=1; i&amp;lt;=5; i++) { setTimeout( function timer(){ console.log( i ); }, i*1000 ); }  What you expected
 1 2 3 4 5  But, result is
@@ -934,10 +934,10 @@ for (var i=1; i&amp;lt;=5; i++) { (function(j){ setTimeout( function timer(){ co
     
     <item>
       <title>#TIL 2017-08-08 : Ping Google to crawl updated content</title>
-      <link>https://khanhicetea.com/til/2017-08-08-ping-google-to-crawl-updated-content/</link>
+      <link>https://khanhicetea.com/til/til-2017-08-08-ping-google-to-crawl-updated-content/</link>
       <pubDate>Tue, 08 Aug 2017 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2017-08-08-ping-google-to-crawl-updated-content/</guid>
+      <guid>https://khanhicetea.com/til/til-2017-08-08-ping-google-to-crawl-updated-content/</guid>
       <description>Ping Google to crawl updated content When you post new content to your website, the fastest way is ping search engines to notify them. After that, they will try to crawl and index your page.
 One way to ping search engines is using XMLRPC ping
 This is a example XMLRPC request (HTTP POST request with xml body)
@@ -947,20 +947,20 @@ Request
     
     <item>
       <title>#TIL 2017-08-08 : Remap Capslock to Control key</title>
-      <link>https://khanhicetea.com/til/2017-08-08-remap-capslock-to-control-key/</link>
+      <link>https://khanhicetea.com/til/til-2017-08-08-remap-capslock-to-control-key/</link>
       <pubDate>Tue, 08 Aug 2017 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2017-08-08-remap-capslock-to-control-key/</guid>
+      <guid>https://khanhicetea.com/til/til-2017-08-08-remap-capslock-to-control-key/</guid>
       <description>Remap Capslock to Control key Edit file /etc/default/keyboard and set
 XKBOPTIONS=&amp;quot;ctrl:nocaps&amp;quot;  Then, logout and log in again to impact</description>
     </item>
     
     <item>
       <title>#TIL 2017-08-06 : Cleaning up old linux kernels</title>
-      <link>https://khanhicetea.com/til/2017-08-06-cleaning-up-old-linux-kernels/</link>
+      <link>https://khanhicetea.com/til/til-2017-08-06-cleaning-up-old-linux-kernels/</link>
       <pubDate>Sun, 06 Aug 2017 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2017-08-06-cleaning-up-old-linux-kernels/</guid>
+      <guid>https://khanhicetea.com/til/til-2017-08-06-cleaning-up-old-linux-kernels/</guid>
       <description>Cleaning up old linux kernels Last day, I try to reboot a production server which has out-of-space /boot (I upgraded many kernels without rebooting, so system doesn&amp;rsquo;t clean up old ones). And in the end, doom day had come ! It installed new kernel failed and booting to that kernel. My system crashed !
 So, I learned from it :
  Never ever upgrade kernel without cleaning up old ones (just reboot) Never ever reboot a production without backup MORE IMPORTANT, NEVER do 2 above things at same time in the weekend !</description>
@@ -968,10 +968,10 @@ So, I learned from it :
     
     <item>
       <title>#TIL 2017-08-06 : Runing old java applets on brower</title>
-      <link>https://khanhicetea.com/til/2017-08-06-runing-old-java-applets-on-brower/</link>
+      <link>https://khanhicetea.com/til/til-2017-08-06-runing-old-java-applets-on-brower/</link>
       <pubDate>Sun, 06 Aug 2017 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2017-08-06-runing-old-java-applets-on-brower/</guid>
+      <guid>https://khanhicetea.com/til/til-2017-08-06-runing-old-java-applets-on-brower/</guid>
       <description>Runing old java applets on brower Mostly morden browser has stop support Java plugins, so you can&amp;rsquo;t run Java applet on browser.
 Temporary way : - run in IE or Safari - run in an old Firefox (version 23)
 And what if old java applet can&amp;rsquo;t be runned on Java 8 because of weak signature algorithm. Try this
@@ -980,20 +980,20 @@ And what if old java applet can&amp;rsquo;t be runned on Java 8 because of weak 
     
     <item>
       <title>#TIL 2017-08-06 : realpath function</title>
-      <link>https://khanhicetea.com/til/2017-08-06-realpath-function/</link>
+      <link>https://khanhicetea.com/til/til-2017-08-06-realpath-function/</link>
       <pubDate>Sun, 06 Aug 2017 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2017-08-06-realpath-function/</guid>
+      <guid>https://khanhicetea.com/til/til-2017-08-06-realpath-function/</guid>
       <description>realpath function If you pass a non-exists path to function realpath, it returns empty string. So please don&amp;rsquo;t do something like :
 function storage_path($folder) { return realpath(__DIR__.&#39;/storage/&#39;.$folder); }  if you expect it return full path of new folder !</description>
     </item>
     
     <item>
       <title>#TIL 2017-08-04 : Free sandbox server for development</title>
-      <link>https://khanhicetea.com/til/2017-08-04-free-sandbox-server-for-development/</link>
+      <link>https://khanhicetea.com/til/til-2017-08-04-free-sandbox-server-for-development/</link>
       <pubDate>Fri, 04 Aug 2017 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2017-08-04-free-sandbox-server-for-development/</guid>
+      <guid>https://khanhicetea.com/til/til-2017-08-04-free-sandbox-server-for-development/</guid>
       <description>Free sandbox server for development We can use Heroku as a forever-free sandbox solution for testing or hosting micro service. Adding a credit card to have 1000 free computing hours.
 Heroku will make a service down if no received request come. We can use a cronjob-like service to check service health and keep it live !!! ;)
 Cronjob check health SASS : pingdom, statuscake, port-monitor, uptimerobot
@@ -1002,10 +1002,10 @@ Btw, I don&amp;rsquo;t recommend you keep service live but no use, it makes Hero
     
     <item>
       <title>#TIL 2017-08-04 : HTTP2 supported for python requests library</title>
-      <link>https://khanhicetea.com/til/2017-08-04-http2-supported-for-python-requests-library/</link>
+      <link>https://khanhicetea.com/til/til-2017-08-04-http2-supported-for-python-requests-library/</link>
       <pubDate>Fri, 04 Aug 2017 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2017-08-04-http2-supported-for-python-requests-library/</guid>
+      <guid>https://khanhicetea.com/til/til-2017-08-04-http2-supported-for-python-requests-library/</guid>
       <description>HTTP2 supported for python requests library The sophisticated http client in Python is requests, it has simple API but powerful features. You can use it for crawling, sending request to third-party API or writing tests.
 Btw, at this moment it doesn&amp;rsquo;t support HTTP/2 protocol (actually we often doesn&amp;rsquo;t need its Server Push or Multi resource stream features). But sometime the API endpoint only supports HTTP/2 like Akamai Load Balacing service.</description>
     </item>
@@ -1032,10 +1032,10 @@ The reason of the feeling is every day, when I can take breath, feel the pains, 
     
     <item>
       <title>#TIL 2017-06-15 : Gearman bash worker and client</title>
-      <link>https://khanhicetea.com/til/2017-06-15-gearman-bash-worker-and-client/</link>
+      <link>https://khanhicetea.com/til/til-2017-06-15-gearman-bash-worker-and-client/</link>
       <pubDate>Thu, 15 Jun 2017 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2017-06-15-gearman-bash-worker-and-client/</guid>
+      <guid>https://khanhicetea.com/til/til-2017-06-15-gearman-bash-worker-and-client/</guid>
       <description>Gearman bash worker and client Gearman is a awesome job queue service that helps you scale your system. In smaller context, it can help us to run a background woker for minor tasks like backup data, cleaning system.
 Install :
 $ sudo apt install gearman-job-server gearman-tools  Create a worker bash script
@@ -1045,10 +1045,10 @@ worker.sh
     
     <item>
       <title>#TIL 2017-06-13 : Resolving conflict like a boss</title>
-      <link>https://khanhicetea.com/til/2017-06-13-resolving-conflict-like-a-boss/</link>
+      <link>https://khanhicetea.com/til/til-2017-06-13-resolving-conflict-like-a-boss/</link>
       <pubDate>Tue, 13 Jun 2017 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2017-06-13-resolving-conflict-like-a-boss/</guid>
+      <guid>https://khanhicetea.com/til/til-2017-06-13-resolving-conflict-like-a-boss/</guid>
       <description>Resolving conflict like a boss When using git merge new branch to old branch, you just want use all ours or theirs version but be lazy to update every conflicted file.
 grep -lr &#39;&amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt;&#39; . | xargs git checkout --ours  Or
 grep -lr &#39;&amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt;&#39; . | xargs git checkout --theirs  Explain : these commands will find any file contains &amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt; string (conflicted file) and run git checkout --[side]</description>
@@ -1094,20 +1094,20 @@ Transitive Property of Equality : If a = b and b = c then a = c</description>
     
     <item>
       <title>#TIL 2017-05-24 : Changing channel from alpha to stable will remove ALL DATA</title>
-      <link>https://khanhicetea.com/til/2017-05-24-changing-channel-from-alpha-to-stable-will-remove-all-data/</link>
+      <link>https://khanhicetea.com/til/til-2017-05-24-changing-channel-from-alpha-to-stable-will-remove-all-data/</link>
       <pubDate>Wed, 24 May 2017 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2017-05-24-changing-channel-from-alpha-to-stable-will-remove-all-data/</guid>
+      <guid>https://khanhicetea.com/til/til-2017-05-24-changing-channel-from-alpha-to-stable-will-remove-all-data/</guid>
       <description>Changing channel from alpha to stable will remove ALL DATA On MacOS, changing Docker channel will remove all data (includes volumes, images, networks and &amp;hellip; everything).
 Because Docker on Mac using a minimal Linux machine to host docker engine, so changing machine means discarding all old data. So BECAREFUL !</description>
     </item>
     
     <item>
       <title>#TIL 2017-05-24 : Reducing docker image the right way</title>
-      <link>https://khanhicetea.com/til/2017-05-24-reducing-docker-image-the-right-way/</link>
+      <link>https://khanhicetea.com/til/til-2017-05-24-reducing-docker-image-the-right-way/</link>
       <pubDate>Wed, 24 May 2017 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2017-05-24-reducing-docker-image-the-right-way/</guid>
+      <guid>https://khanhicetea.com/til/til-2017-05-24-reducing-docker-image-the-right-way/</guid>
       <description>Reducing docker image the right way When building an image, Docker engine commit file system layer on every command (RUN, ADD, COPY). So next time you installing packages from package manager likes apt, yum, pacman, &amp;hellip;remember clean their cache in same line.
 BAD WAY
 RUN apt-get update RUN apt-get install git # Something here # End of file RUN apt-get clean &amp;amp;&amp;amp; rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*  RIGHT WAY</description>
@@ -1115,10 +1115,10 @@ RUN apt-get update RUN apt-get install git # Something here # End of file RUN ap
     
     <item>
       <title>#TIL 2017-05-22 : Using BSD find util to find and exec command on file and folder</title>
-      <link>https://khanhicetea.com/til/2017-05-22-using-bsd-find-util-to-find-and-exec-command-on-file-and-folder/</link>
+      <link>https://khanhicetea.com/til/til-2017-05-22-using-bsd-find-util-to-find-and-exec-command-on-file-and-folder/</link>
       <pubDate>Mon, 22 May 2017 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2017-05-22-using-bsd-find-util-to-find-and-exec-command-on-file-and-folder/</guid>
+      <guid>https://khanhicetea.com/til/til-2017-05-22-using-bsd-find-util-to-find-and-exec-command-on-file-and-folder/</guid>
       <description>Using BSD find util to find and exec command on file and folder Simple syntax of find
 $ find [find_path] -type [file_type] -exec [command] {} \;  Add filename matching pattern to filter the result
 $ find [find_path] -name &amp;quot;*.php&amp;quot; -type [file_type] -exec [command] {} \;  Where file_type is :
@@ -1127,10 +1127,10 @@ $ find [find_path] -name &amp;quot;*.php&amp;quot; -type [file_type] -exec [comm
     
     <item>
       <title>#TIL 2017-05-22 : zcat : decompressing pipe tool</title>
-      <link>https://khanhicetea.com/til/2017-05-22-zcat-decompressing-pipe-tool/</link>
+      <link>https://khanhicetea.com/til/til-2017-05-22-zcat-decompressing-pipe-tool/</link>
       <pubDate>Mon, 22 May 2017 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2017-05-22-zcat-decompressing-pipe-tool/</guid>
+      <guid>https://khanhicetea.com/til/til-2017-05-22-zcat-decompressing-pipe-tool/</guid>
       <description> zcat : decompressing pipe tool zcat is a tool that creates a pipe from gz file. It makes command cleaner and faster (maybe). You don&amp;rsquo;t have to decompress gz file before using next tool.
 Examples :
 Finding string in gzip text file
@@ -1153,10 +1153,10 @@ Random idea I&amp;rsquo;m bad in English for sharing (sharing requires writing a
     
     <item>
       <title>#TIL 2017-05-19 : Checking forced push conflicts on source code in auto testing</title>
-      <link>https://khanhicetea.com/til/2017-05-19-checking-forced-push-conflicts-on-source-code-in-auto-testing/</link>
+      <link>https://khanhicetea.com/til/til-2017-05-19-checking-forced-push-conflicts-on-source-code-in-auto-testing/</link>
       <pubDate>Fri, 19 May 2017 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2017-05-19-checking-forced-push-conflicts-on-source-code-in-auto-testing/</guid>
+      <guid>https://khanhicetea.com/til/til-2017-05-19-checking-forced-push-conflicts-on-source-code-in-auto-testing/</guid>
       <description>Checking forced push conflicts on source code in auto testing Using automated CI solution likes Travis, Jenkins, DroneCI, &amp;hellip; is good solution to ensure quality of software and no breaks in deployment.
 Sometimes, developers force push conflicts part to production branch of source code. If the CI tests only backend (python, ruby, php, go, ..) and forget about frontend code, then your application will be exploded !
 So checking the conflicts code is required step before testing backend and deployment.</description>
@@ -1164,20 +1164,20 @@ So checking the conflicts code is required step before testing backend and deplo
     
     <item>
       <title>#TIL 2017-05-19 : wget Output flag</title>
-      <link>https://khanhicetea.com/til/2017-05-19-wget-output-flag/</link>
+      <link>https://khanhicetea.com/til/til-2017-05-19-wget-output-flag/</link>
       <pubDate>Fri, 19 May 2017 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2017-05-19-wget-output-flag/</guid>
+      <guid>https://khanhicetea.com/til/til-2017-05-19-wget-output-flag/</guid>
       <description> wget Output flag -O means output
 $ # output file will be index.html or based on header filename $ wget -O www.abc.xyz  $ # output file will be filename.html $ wget -O filename.html www.abc.xyz  $ # output to stdout $ wget -O- www.abc.xyz $ wget -O- https://gist.githubusercontent.com/khanhicetea/4fa9f5103cd7fbc2d2270abce05c9c2b/raw/helloworld.sh | bash  </description>
     </item>
     
     <item>
       <title>#TIL 2017-05-18 : Cloudflare Error 522 Connection Time out</title>
-      <link>https://khanhicetea.com/til/2017-05-18-cloudflare-error-522-connection-time-out/</link>
+      <link>https://khanhicetea.com/til/til-2017-05-18-cloudflare-error-522-connection-time-out/</link>
       <pubDate>Thu, 18 May 2017 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2017-05-18-cloudflare-error-522-connection-time-out/</guid>
+      <guid>https://khanhicetea.com/til/til-2017-05-18-cloudflare-error-522-connection-time-out/</guid>
       <description>Cloudflare Error 522 Connection Time out If you are using Cloudflare as a proxied web server, it will provide many benefits about performance (assets caching, prevent DDOS and cheap CDN). But sometimes, you will face to this error &amp;ldquo;522 Connection Time out&amp;rdquo;.
 The problems caused by :
  Networking (CF can&amp;rsquo;t touch origin server : Firewall blocking, Network Layer #1,#2,#3 issue) Timeout (origin server process too long than 90 seconds) Empty or invalid response from origin server No or big HTTP headers (&amp;gt; 8Kb) Failed TCP handshake  Ref:</description>
@@ -1185,10 +1185,10 @@ The problems caused by :
     
     <item>
       <title>#TIL 2017-05-18 : Grant user to use sudo without password</title>
-      <link>https://khanhicetea.com/til/2017-05-18-grant-user-to-use-sudo-without-password/</link>
+      <link>https://khanhicetea.com/til/til-2017-05-18-grant-user-to-use-sudo-without-password/</link>
       <pubDate>Thu, 18 May 2017 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2017-05-18-grant-user-to-use-sudo-without-password/</guid>
+      <guid>https://khanhicetea.com/til/til-2017-05-18-grant-user-to-use-sudo-without-password/</guid>
       <description>Grant user to use sudo without password This is bad practice but it&amp;rsquo;s kind of hacky thing if you YOLO
 # Create a user with home dir and bash shell (if you don&#39;t have yet) $ useradd -m YOURUSERNAME -s /bin/bash $ sudo vi /etc/sudoers  Add this line below root ALL=(ALL:ALL) ALL (User privilege specification section)
 $ YOUR_USERNAME ALL=(ALL:ALL) NOPASSWD:ALL  Then press :wq! to force saving the file</description>
@@ -1196,10 +1196,10 @@ $ YOUR_USERNAME ALL=(ALL:ALL) NOPASSWD:ALL  Then press :wq! to force saving the 
     
     <item>
       <title>#TIL 2017-05-17 : Compressing and Extracting files with rar in Linux</title>
-      <link>https://khanhicetea.com/til/2017-05-17-compressing-and-extracting-files-with-rar-in-linux/</link>
+      <link>https://khanhicetea.com/til/til-2017-05-17-compressing-and-extracting-files-with-rar-in-linux/</link>
       <pubDate>Wed, 17 May 2017 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2017-05-17-compressing-and-extracting-files-with-rar-in-linux/</guid>
+      <guid>https://khanhicetea.com/til/til-2017-05-17-compressing-and-extracting-files-with-rar-in-linux/</guid>
       <description>Compressing and Extracting files with rar in Linux zip and tar disadvantages All unicode filename will be transform to weird character, so it makes broken paths and broken links
 Notice rar and unrar in Linux isn&amp;rsquo;t same version and so don&amp;rsquo;t use unrar to extract archived file by rar (It causes invalid full paths)
 Installation Ubuntu :
@@ -1209,10 +1209,10 @@ $ sudo yum install rar  Compressing files, folder Compressing files</description
     
     <item>
       <title>#TIL 2017-05-17 : Mysql dumping only table structure</title>
-      <link>https://khanhicetea.com/til/2017-05-17-mysql-dumping-only-table-structure/</link>
+      <link>https://khanhicetea.com/til/til-2017-05-17-mysql-dumping-only-table-structure/</link>
       <pubDate>Wed, 17 May 2017 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2017-05-17-mysql-dumping-only-table-structure/</guid>
+      <guid>https://khanhicetea.com/til/til-2017-05-17-mysql-dumping-only-table-structure/</guid>
       <description> Mysql dumping only table structure Adding -D to dump only data structure
 Example :
 $ mysqldump -h 127.0.0.1 -u root -p&amp;quot;something&amp;quot; -D database1 &amp;gt; db.sql  </description>
@@ -1272,10 +1272,10 @@ BTW, I PREFER THE FOX OVER IT.
     
     <item>
       <title>#TIL 2017-04-25 : Basics about sqlite command line tool</title>
-      <link>https://khanhicetea.com/til/2017-04-25-basics-about-sqlite-command-line-tool/</link>
+      <link>https://khanhicetea.com/til/til-2017-04-25-basics-about-sqlite-command-line-tool/</link>
       <pubDate>Tue, 25 Apr 2017 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2017-04-25-basics-about-sqlite-command-line-tool/</guid>
+      <guid>https://khanhicetea.com/til/til-2017-04-25-basics-about-sqlite-command-line-tool/</guid>
       <description>Basics about sqlite command line tool We can use sqlite3 command line tool to run SQL statement in sqlite3 file.
 View all table : .tables Truncate table : delete from [table_name]; then run vacuum; to clear space Close : press Ctrl ^ D to escape $ sqlite3 database.sqlite SQLite version 3.8.10.2 2015-05-20 18:17:19 Enter &amp;quot;.help&amp;quot; for usage hints. sqlite&amp;gt; .tables auth_group backend_church auth_group_permissions backend_masstime auth_permission django_admin_log auth_user django_content_type auth_user_groups django_migrations auth_user_user_permissions django_session backend_area sqlite&amp;gt; select * from auth_user; 1|pbkdf2_sha256$30000$QQSOJMiXmNly$mWUlYwZnaQGsv9UVZcdTb29P7IHrgnd7ja3T/uwFqvw=|2017-03-25 15:06:40.</description>
     </item>
@@ -1307,20 +1307,20 @@ Last 2 days, my high school friend, &amp;hellip;. committed suicide. He wasn&amp
     
     <item>
       <title>#TIL 2017-04-21 : Base 64 encode and decode builtin tool</title>
-      <link>https://khanhicetea.com/til/2017-04-21-base-64-encode-and-decode-builtin-tool/</link>
+      <link>https://khanhicetea.com/til/til-2017-04-21-base-64-encode-and-decode-builtin-tool/</link>
       <pubDate>Fri, 21 Apr 2017 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2017-04-21-base-64-encode-and-decode-builtin-tool/</guid>
+      <guid>https://khanhicetea.com/til/til-2017-04-21-base-64-encode-and-decode-builtin-tool/</guid>
       <description> Base 64 encode and decode builtin tool Browsers have helpers function to encode and decode base64 :
  btoa : base64 encode atob : base64 decode  &amp;gt; btoa(&#39;Hello world&#39;) &amp;quot;SGVsbG8gV29ybGQgIQ==&amp;quot; &amp;gt; atob(&#39;SW4gR29kIFdlIFRydXN0ICE=&#39;) &amp;quot;In God We Trust !&amp;quot;  </description>
     </item>
     
     <item>
       <title>#TIL 2017-04-21 : ab failed responses</title>
-      <link>https://khanhicetea.com/til/2017-04-21-ab-failed-responses/</link>
+      <link>https://khanhicetea.com/til/til-2017-04-21-ab-failed-responses/</link>
       <pubDate>Fri, 21 Apr 2017 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2017-04-21-ab-failed-responses/</guid>
+      <guid>https://khanhicetea.com/til/til-2017-04-21-ab-failed-responses/</guid>
       <description>ab failed responses When benchmarking a HTTP application server using ab tool, you shouldn&amp;rsquo;t only care about how many requests per second, but percentage of Success responses.
 A notice that you must have the same content-length in responses, because ab tool will assume response having different content-length from Document Length (in ab result) is failed response.
 Example
@@ -1492,10 +1492,10 @@ Ref:</description>
     
     <item>
       <title>#TIL 2017-02-28 : Persistent connection to MySQL</title>
-      <link>https://khanhicetea.com/til/2017-02-28-persistent-connection-to-mysql/</link>
+      <link>https://khanhicetea.com/til/til-2017-02-28-persistent-connection-to-mysql/</link>
       <pubDate>Tue, 28 Feb 2017 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2017-02-28-persistent-connection-to-mysql/</guid>
+      <guid>https://khanhicetea.com/til/til-2017-02-28-persistent-connection-to-mysql/</guid>
       <description>Persistent connection to MySQL When a PHP process connects to MySQL server, the connection can be persistent if your PHP config has mysql.allow_persistent or mysqli.allow_persistent. (PDO has the attribute ATTR_PERSISTENT)
 $dbh = new PDO(&#39;DSN&#39;, &#39;KhanhDepZai&#39;, &#39;QuenMatKhauCMNR&#39;, [PDO::ATTR_PERSISTENT =&amp;gt; TRUE]);  Object destruction PHP destruct an object automatically when an object lost all its references.
 Example code:
@@ -1526,20 +1526,20 @@ So what make this game interesting ?
     
     <item>
       <title>#TIL 2017-02-23 : Random quote 23 Feb 2017</title>
-      <link>https://khanhicetea.com/til/2017-02-23-random-quote-23-feb-2017/</link>
+      <link>https://khanhicetea.com/til/til-2017-02-23-random-quote-23-feb-2017/</link>
       <pubDate>Thu, 23 Feb 2017 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2017-02-23-random-quote-23-feb-2017/</guid>
+      <guid>https://khanhicetea.com/til/til-2017-02-23-random-quote-23-feb-2017/</guid>
       <description>Random quote 23 Feb 2017  A computer lets you make more mistakes faster than any other invention in human history, with the possible exceptions of handguns and tequila. - Mitch Ratcliffe
  Haha, it&amp;rsquo;s totally true ! And it makes me remember this meme when I was little bit drunk !</description>
     </item>
     
     <item>
       <title>#TIL 2017-02-23 : UNION vs UNION ALL</title>
-      <link>https://khanhicetea.com/til/2017-02-23-union-vs-union-all/</link>
+      <link>https://khanhicetea.com/til/til-2017-02-23-union-vs-union-all/</link>
       <pubDate>Thu, 23 Feb 2017 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2017-02-23-union-vs-union-all/</guid>
+      <guid>https://khanhicetea.com/til/til-2017-02-23-union-vs-union-all/</guid>
       <description>UNION vs UNION ALL The difference is UNION command will sort and remove duplicated rows (RETURNED ONLY DISTINCT ROWS)
 Examples :
 mysql&amp;gt; select &#39;1&#39;, &#39;2&#39; union select &#39;2&#39;, &#39;1&#39; union select &#39;3&#39;, &#39;4&#39; union select &#39;1&#39;, &#39;2&#39;; +---+---+ | 1 | 2 | +---+---+ | 1 | 2 | | 2 | 1 | | 3 | 4 | +---+---+ 3 rows in set (0.00 sec) mysql&amp;gt; select &#39;1&#39;, &#39;2&#39; union select &#39;2&#39;, &#39;1&#39; union select &#39;3&#39;, &#39;4&#39; union select &#39;1&#39;, &#39;3&#39;; +---+---+ | 1 | 2 | +---+---+ | 1 | 2 | | 2 | 1 | | 3 | 4 | | 1 | 3 | +---+---+ 4 rows in set (0.</description>
@@ -1547,10 +1547,10 @@ mysql&amp;gt; select &#39;1&#39;, &#39;2&#39; union select &#39;2&#39;, &#39;1&#
     
     <item>
       <title>#TIL 2017-02-23 : Using VarDumper in PHPUnit</title>
-      <link>https://khanhicetea.com/til/2017-02-23-using-vardumper-in-phpunit/</link>
+      <link>https://khanhicetea.com/til/til-2017-02-23-using-vardumper-in-phpunit/</link>
       <pubDate>Thu, 23 Feb 2017 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2017-02-23-using-vardumper-in-phpunit/</guid>
+      <guid>https://khanhicetea.com/til/til-2017-02-23-using-vardumper-in-phpunit/</guid>
       <description> Using VarDumper in PHPUnit The trick is writing the output to STDERR stream, I wrote a helper function below
 function phpunit_dump() { $cloner = new \Symfony\Component\VarDumper\Cloner\VarCloner(); $dumper = new \Symfony\Component\VarDumper\Dumper\CliDumper(STDERR); foreach (func_get_args() as $var) { $dumper-&amp;gt;dump($cloner-&amp;gt;cloneVar($var)); } }  How to use it ?
 // Something magic here :D phpunit_dump($magic_var1, $magic_var2, $magic_of_magic); // So much magic below, can&#39;t understand anymore  </description>
@@ -1578,10 +1578,10 @@ In article, the author led me to his book (his marketing strategy works on me). 
     
     <item>
       <title>#TIL 2017-02-17 : String problems can cause logical bugs in application</title>
-      <link>https://khanhicetea.com/til/2017-02-17-string-problems-can-cause-logical-bugs-in-application/</link>
+      <link>https://khanhicetea.com/til/til-2017-02-17-string-problems-can-cause-logical-bugs-in-application/</link>
       <pubDate>Fri, 17 Feb 2017 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2017-02-17-string-problems-can-cause-logical-bugs-in-application/</guid>
+      <guid>https://khanhicetea.com/til/til-2017-02-17-string-problems-can-cause-logical-bugs-in-application/</guid>
       <description>String problems can cause logical bugs in application Example table mysql&amp;gt; describe `test`; +------------+-------------+------+-----+-------------------+----------------+ | Field | Type | Null | Key | Default | Extra | +------------+-------------+------+-----+-------------------+----------------+ | id | smallint(6) | NO | PRI | NULL | auto_increment | | name | varchar(50) | NO | | NULL | | | created_at | timestamp | YES | MUL | CURRENT_TIMESTAMP | | +------------+-------------+------+-----+-------------------+----------------+ 3 rows in set (0.</description>
     </item>
     
@@ -1647,19 +1647,19 @@ Sử dụng bộ khung sườn (boiler-plate) này, sẽ giúp bạn hạn chế
     
     <item>
       <title>#TIL 2016-03-26 : Bash shell shortcuts</title>
-      <link>https://khanhicetea.com/til/2016-03-26-bash-shell-shortcuts/</link>
+      <link>https://khanhicetea.com/til/til-2016-03-26-bash-shell-shortcuts/</link>
       <pubDate>Sat, 26 Mar 2016 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2016-03-26-bash-shell-shortcuts/</guid>
+      <guid>https://khanhicetea.com/til/til-2016-03-26-bash-shell-shortcuts/</guid>
       <description>Bash shell shortcuts  Ctrl + e : jump cursor to EOL Ctrl + a : jump cursor to BOL (beginning of line) Ctrl + u : delete all from cursor to BOL Ctrl + k : delete all from cursor to EOL Ctrl + r : search history, press again for next search Ctrl + l : clear shell screen Ctrl + c : terminate the command (sometimes have to press twice) Ctrl + z : suspend the command, back to shell.</description>
     </item>
     
     <item>
       <title>#TIL 2016-03-26 : Stats your top-10 frequently commands</title>
-      <link>https://khanhicetea.com/til/2016-03-26-stats-your-top-10-frequently-commands/</link>
+      <link>https://khanhicetea.com/til/til-2016-03-26-stats-your-top-10-frequently-commands/</link>
       <pubDate>Sat, 26 Mar 2016 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2016-03-26-stats-your-top-10-frequently-commands/</guid>
+      <guid>https://khanhicetea.com/til/til-2016-03-26-stats-your-top-10-frequently-commands/</guid>
       <description> Stats your top-10 frequently commands Run this command, it will show top-10 frequently commands, explain shell
 $ history | awk &#39;{print $2}&#39; | sort | uniq -c | sort -nr | head  Example result
 2064 git 1284 ls 826 cd 700 ssh 602 clear 491 python 473 exit 341 vagrant 242 export 167 ping  </description>
@@ -1699,20 +1699,20 @@ Instruction Prepare a Docker image You can build manually its Docker image by</d
     
     <item>
       <title>#TIL 2016-03-08 : F-cking stupid limit of input vars</title>
-      <link>https://khanhicetea.com/til/2016-03-08-f-cking-stupid-limit-of-input-vars/</link>
+      <link>https://khanhicetea.com/til/til-2016-03-08-f-cking-stupid-limit-of-input-vars/</link>
       <pubDate>Tue, 08 Mar 2016 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2016-03-08-f-cking-stupid-limit-of-input-vars/</guid>
+      <guid>https://khanhicetea.com/til/til-2016-03-08-f-cking-stupid-limit-of-input-vars/</guid>
       <description>F-cking stupid limit of input vars Today, I tried to debug many hours to find out why my POST request missing some data (specify _token hidden field). :disappointed:
 I tried to config NGINX and PHPFPM max_post_size, client_max_body_size but they still gone. After 2-3 hours searching on Google, I found the link from PHP.net, it has a config value about limiting max input vars (default = 1000), so it causes the problem about missing data.</description>
     </item>
     
     <item>
       <title>#TIL 2015-12-30 : Commands</title>
-      <link>https://khanhicetea.com/til/2015-12-30-commands/</link>
+      <link>https://khanhicetea.com/til/til-2015-12-30-commands/</link>
       <pubDate>Wed, 30 Dec 2015 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2015-12-30-commands/</guid>
+      <guid>https://khanhicetea.com/til/til-2015-12-30-commands/</guid>
       <description> Commands Command lsof List all opened files, sockets, pipes
 Eg:
  List processes are using port 80 (need root if port between 1-1023)  # sudo lsof -i:80   List processes are using /bin/bash  # lsof /bin/bash  </description>
@@ -1720,10 +1720,10 @@ Eg:
     
     <item>
       <title>#TIL 2015-12-04 : Reference assign object variable</title>
-      <link>https://khanhicetea.com/til/2015-12-04-reference-assign-object-variable/</link>
+      <link>https://khanhicetea.com/til/til-2015-12-04-reference-assign-object-variable/</link>
       <pubDate>Fri, 04 Dec 2015 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2015-12-04-reference-assign-object-variable/</guid>
+      <guid>https://khanhicetea.com/til/til-2015-12-04-reference-assign-object-variable/</guid>
       <description>Reference assign object variable When you have a object x and assign y = x, y will be a ref of x (it looks like pointer of C). So changing property of y means changing property of x.
 Ex :
 x = {&amp;quot;a&amp;quot;: 1, &amp;quot;b&amp;quot;: 2} y = x y[&#39;a&#39;] = 100 print x[&#39;a&#39;] # Result is 100  So if you want clone the value, use copy lib :</description>
@@ -1731,10 +1731,10 @@ x = {&amp;quot;a&amp;quot;: 1, &amp;quot;b&amp;quot;: 2} y = x y[&#39;a&#39;] = 
     
     <item>
       <title>#TIL 2015-12-04 : Run built-in server via Docker</title>
-      <link>https://khanhicetea.com/til/2015-12-04-run-built-in-server-via-docker/</link>
+      <link>https://khanhicetea.com/til/til-2015-12-04-run-built-in-server-via-docker/</link>
       <pubDate>Fri, 04 Dec 2015 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2015-12-04-run-built-in-server-via-docker/</guid>
+      <guid>https://khanhicetea.com/til/til-2015-12-04-run-built-in-server-via-docker/</guid>
       <description> Run built-in server via Docker Docker is the fast and clean way to run Linux programs.
 We can run a PHP project via PHP built-in server and Docker.
 docker run -it -p 8080:8080 -v `pwd`:/code php:7 php -S 0.0.0.0:8080 -t /code/web /code/web/server.php  With server.php content is
@@ -1743,10 +1743,10 @@ docker run -it -p 8080:8080 -v `pwd`:/code php:7 php -S 0.0.0.0:8080 -t /code/we
     
     <item>
       <title>#TIL 2015-12-04 : View real-time logs using websocketd</title>
-      <link>https://khanhicetea.com/til/2015-12-04-view-real-time-logs-using-websocketd/</link>
+      <link>https://khanhicetea.com/til/til-2015-12-04-view-real-time-logs-using-websocketd/</link>
       <pubDate>Fri, 04 Dec 2015 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2015-12-04-view-real-time-logs-using-websocketd/</guid>
+      <guid>https://khanhicetea.com/til/til-2015-12-04-view-real-time-logs-using-websocketd/</guid>
       <description>View real-time logs using websocketd I found a handy tool for making a websocket right on your shell. It is websocketd : http://websocketd.com/
 Its phisolophy is so simple : &amp;gt; Just read incoming text from stdin and write outgoing text to stdout. Messaging is simple.
 Read its docs, I follow the ez tutorial 10 second tutorial and see how cool does it work. Let make something cool with this, we got a UNIX tool that print out to stdout in real-time with changes of end file.</description>
@@ -1765,20 +1765,20 @@ Let&amp;rsquo;s start pull PHP images docker pull php:5.6 docker pull php:7  Cha
     
     <item>
       <title>#TIL 2015-12-03 : FTP via curl tool</title>
-      <link>https://khanhicetea.com/til/2015-12-03-ftp-via-curl-tool/</link>
+      <link>https://khanhicetea.com/til/til-2015-12-03-ftp-via-curl-tool/</link>
       <pubDate>Thu, 03 Dec 2015 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2015-12-03-ftp-via-curl-tool/</guid>
+      <guid>https://khanhicetea.com/til/til-2015-12-03-ftp-via-curl-tool/</guid>
       <description> FTP via curl tool Can upload an file via FTP by curl tool with handy script :
 curl -T file_need_to_upload ftp://hostname --user user:passwd  </description>
     </item>
     
     <item>
       <title>#TIL 2015-12-02 : Eloquent Many-to-Many Relationship</title>
-      <link>https://khanhicetea.com/til/2015-12-02-eloquent-many-to-many-relationship/</link>
+      <link>https://khanhicetea.com/til/til-2015-12-02-eloquent-many-to-many-relationship/</link>
       <pubDate>Wed, 02 Dec 2015 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2015-12-02-eloquent-many-to-many-relationship/</guid>
+      <guid>https://khanhicetea.com/til/til-2015-12-02-eloquent-many-to-many-relationship/</guid>
       <description>Eloquent Many-to-Many Relationship To create the n-to-m relationship in Eloquent, we create a table stand between 2 tables. Eg:
 We have the db schema :
    post post_tag tag     id (PK) id (PK) id (PK)   title post_id (Index) name (Unique)   content tag_id (Index)     In the model Post and Tag, we define a relation :
@@ -1787,10 +1787,10 @@ We have the db schema :
     
     <item>
       <title>#TIL 2015-12-01 : Index is useless when use function on indexed field</title>
-      <link>https://khanhicetea.com/til/2015-12-01-index-is-useless-when-use-function-on-indexed-field/</link>
+      <link>https://khanhicetea.com/til/til-2015-12-01-index-is-useless-when-use-function-on-indexed-field/</link>
       <pubDate>Tue, 01 Dec 2015 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2015-12-01-index-is-useless-when-use-function-on-indexed-field/</guid>
+      <guid>https://khanhicetea.com/til/til-2015-12-01-index-is-useless-when-use-function-on-indexed-field/</guid>
       <description> Index is useless when use function on indexed field Reality, if using function on indexed field, you will broke indexing by accident. Eg:
 WHERE MONTH(`date`) = 11 AND YEAR(`date`) = 2015  Solution is transform the query to comparison query, like this :
 WHERE `date` &amp;gt;= &#39;2015-11-01&#39; AND `date` &amp;lt; &#39;2015-12-01&#39;  </description>
@@ -1798,10 +1798,10 @@ WHERE `date` &amp;gt;= &#39;2015-11-01&#39; AND `date` &amp;lt; &#39;2015-12-01&
     
     <item>
       <title>#TIL 2015-12-01 : String Format Unicode params</title>
-      <link>https://khanhicetea.com/til/2015-12-01-string-format-unicode-params/</link>
+      <link>https://khanhicetea.com/til/til-2015-12-01-string-format-unicode-params/</link>
       <pubDate>Tue, 01 Dec 2015 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2015-12-01-string-format-unicode-params/</guid>
+      <guid>https://khanhicetea.com/til/til-2015-12-01-string-format-unicode-params/</guid>
       <description> String Format Unicode params unicode_thing = u&amp;quot;Xin chào mọi người&amp;quot; a = &#39;{}&#39;.format(unicode_thing)  will cause the error UnicodeEncodeError: &#39;ascii&#39; codec can&#39;t encode character u&#39;\xe0&#39; in position 6: ordinal not in range(128)
 The solution is add u prefix the pattern (it means using unicode pattern) :
 unicode_thing = u&amp;quot;Xin chào mọi người&amp;quot; a = u&#39;{}&#39;.format(unicode_thing)  </description>
@@ -1809,19 +1809,19 @@ unicode_thing = u&amp;quot;Xin chào mọi người&amp;quot; a = u&#39;{}&#39;.
     
     <item>
       <title>#TIL 2015-11-30 : Debugging Chrome extension</title>
-      <link>https://khanhicetea.com/til/2015-11-30-debugging-chrome-extension/</link>
+      <link>https://khanhicetea.com/til/til-2015-11-30-debugging-chrome-extension/</link>
       <pubDate>Mon, 30 Nov 2015 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2015-11-30-debugging-chrome-extension/</guid>
+      <guid>https://khanhicetea.com/til/til-2015-11-30-debugging-chrome-extension/</guid>
       <description> Debugging Chrome extension  To open directly the Console Dev Tools, press Cmd + Opt + J in MacOSX. To debug easily the any files of extension, open the url chrome-extension://&amp;lt;extension-id&amp;gt;/&amp;lt;file-name&amp;gt; in address bar.  </description>
     </item>
     
     <item>
       <title>#TIL 2015-11-30 : Shortcut keyboard improve productivity</title>
-      <link>https://khanhicetea.com/til/2015-11-30-shortcut-keyboard-improve-productivity/</link>
+      <link>https://khanhicetea.com/til/til-2015-11-30-shortcut-keyboard-improve-productivity/</link>
       <pubDate>Mon, 30 Nov 2015 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2015-11-30-shortcut-keyboard-improve-productivity/</guid>
+      <guid>https://khanhicetea.com/til/til-2015-11-30-shortcut-keyboard-improve-productivity/</guid>
       <description> Shortcut keyboard improve productivity  Open the preference of any Application by Cmd + ,. Press Cmd + ~ to go previous App when switching App on Cmd + Tab Copy screenshot to clipboard by Cmd + Ctl + Shift + 3 Press Option when click to notification center is putting it on “Do no disturb” mode.  </description>
     </item>
     

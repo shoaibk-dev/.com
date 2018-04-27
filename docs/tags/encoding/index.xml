@@ -13,10 +13,10 @@
     
     <item>
       <title>#TIL 2017-04-21 : Base 64 encode and decode builtin tool</title>
-      <link>https://khanhicetea.com/til/2017-04-21-base-64-encode-and-decode-builtin-tool/</link>
+      <link>https://khanhicetea.com/til/til-2017-04-21-base-64-encode-and-decode-builtin-tool/</link>
       <pubDate>Fri, 21 Apr 2017 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2017-04-21-base-64-encode-and-decode-builtin-tool/</guid>
+      <guid>https://khanhicetea.com/til/til-2017-04-21-base-64-encode-and-decode-builtin-tool/</guid>
       <description> Base 64 encode and decode builtin tool Browsers have helpers function to encode and decode base64 :
  btoa : base64 encode atob : base64 decode  &amp;gt; btoa(&#39;Hello world&#39;) &amp;quot;SGVsbG8gV29ybGQgIQ==&amp;quot; &amp;gt; atob(&#39;SW4gR29kIFdlIFRydXN0ICE=&#39;) &amp;quot;In God We Trust !&amp;quot;  </description>
     </item>

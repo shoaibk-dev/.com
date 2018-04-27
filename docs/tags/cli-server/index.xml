@@ -13,10 +13,10 @@
     
     <item>
       <title>#TIL 2015-12-04 : Run built-in server via Docker</title>
-      <link>https://khanhicetea.com/til/2015-12-04-run-built-in-server-via-docker/</link>
+      <link>https://khanhicetea.com/til/til-2015-12-04-run-built-in-server-via-docker/</link>
       <pubDate>Fri, 04 Dec 2015 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2015-12-04-run-built-in-server-via-docker/</guid>
+      <guid>https://khanhicetea.com/til/til-2015-12-04-run-built-in-server-via-docker/</guid>
       <description> Run built-in server via Docker Docker is the fast and clean way to run Linux programs.
 We can run a PHP project via PHP built-in server and Docker.
 docker run -it -p 8080:8080 -v `pwd`:/code php:7 php -S 0.0.0.0:8080 -t /code/web /code/web/server.php  With server.php content is

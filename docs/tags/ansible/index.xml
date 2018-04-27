@@ -13,10 +13,10 @@
     
     <item>
       <title>#TIL 2018-01-22 : Ansible running host pattern</title>
-      <link>https://khanhicetea.com/til/2018-01-22-ansible-running-host-pattern/</link>
+      <link>https://khanhicetea.com/til/til-2018-01-22-ansible-running-host-pattern/</link>
       <pubDate>Mon, 22 Jan 2018 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2018-01-22-ansible-running-host-pattern/</guid>
+      <guid>https://khanhicetea.com/til/til-2018-01-22-ansible-running-host-pattern/</guid>
       <description> Ansible running host pattern Ansible supports pattern to select and filter running hosts from all hosts. Here is some common pattern
  * : wildcard, standalone mean all group1,group2 : run hosts belong to group1 or group2 *.web : run hosts belongs to group matches pattern. Ex: backend.web, frontend.web all:!abc : run all hosts exclude hosts belongs to group abc   Infrastructure by code ;)
  </description>
@@ -24,10 +24,10 @@
     
     <item>
       <title>#TIL 2017-09-05 : Ansible playbook : skip to task</title>
-      <link>https://khanhicetea.com/til/2017-09-05-ansible-playbook-skip-to-task/</link>
+      <link>https://khanhicetea.com/til/til-2017-09-05-ansible-playbook-skip-to-task/</link>
       <pubDate>Tue, 05 Sep 2017 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2017-09-05-ansible-playbook-skip-to-task/</guid>
+      <guid>https://khanhicetea.com/til/til-2017-09-05-ansible-playbook-skip-to-task/</guid>
       <description> Ansible playbook : skip to task You can skip to a task by its name by adding parameter --start-at
 $ ansible-playbook playbook.yml --start-at=&amp;quot;[your task name]&amp;quot;  </description>
     </item>

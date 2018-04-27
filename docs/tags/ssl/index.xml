@@ -13,10 +13,10 @@
     
     <item>
       <title>#TIL 2018-03-14 : Install CA root certificate on iOS device</title>
-      <link>https://khanhicetea.com/til/2018-03-14-install-ca-root-certificate-on-ios-device/</link>
+      <link>https://khanhicetea.com/til/til-2018-03-14-install-ca-root-certificate-on-ios-device/</link>
       <pubDate>Wed, 14 Mar 2018 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2018-03-14-install-ca-root-certificate-on-ios-device/</guid>
+      <guid>https://khanhicetea.com/til/til-2018-03-14-install-ca-root-certificate-on-ios-device/</guid>
       <description>Install CA root certificate on iOS device Disclaimer : ⚠️ You can do it, but it&amp;rsquo;s at your own risk !
 Sometimes you want to accept a SSL firewall proxy or self-MITM proxy, the important step is installing its CA root certificate to your device. Because iOS apps almost use all https connections (that&amp;rsquo;s new rule).
 This is the way to install and enable custom CA Root cert :</description>

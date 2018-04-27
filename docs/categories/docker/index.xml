@@ -13,10 +13,10 @@
     
     <item>
       <title>#TIL 2018-02-23 : Build lightweight image by using multistage</title>
-      <link>https://khanhicetea.com/til/2018-02-23-build-lightweight-image-by-using-multistage/</link>
+      <link>https://khanhicetea.com/til/til-2018-02-23-build-lightweight-image-by-using-multistage/</link>
       <pubDate>Fri, 23 Feb 2018 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2018-02-23-build-lightweight-image-by-using-multistage/</guid>
+      <guid>https://khanhicetea.com/til/til-2018-02-23-build-lightweight-image-by-using-multistage/</guid>
       <description>Build lightweight image by using multistage Docker is great tool to build a pull-n-run application. But sometimes, your image will be large if you build image from a big base image which has heavy compliling toolbox.
 Ex:
 One-stage build
@@ -26,10 +26,10 @@ FROM golang:1.9.2 WORKDIR /go/src/github.com/khanhicetea/test/ COPY . . RUN CGO_
     
     <item>
       <title>#TIL 2017-11-22 : Reduce init time MySQL docker image</title>
-      <link>https://khanhicetea.com/til/2017-11-22-reduce-init-time-mysql-docker-image/</link>
+      <link>https://khanhicetea.com/til/til-2017-11-22-reduce-init-time-mysql-docker-image/</link>
       <pubDate>Wed, 22 Nov 2017 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2017-11-22-reduce-init-time-mysql-docker-image/</guid>
+      <guid>https://khanhicetea.com/til/til-2017-11-22-reduce-init-time-mysql-docker-image/</guid>
       <description>Reduce init time MySQL docker image Original MySQL docker image uses a script to generate ssl certificates for service. Sometime we don&amp;rsquo;t really need it (connect via a docker network link or need a fast enough database service to build a automated test).
 We can reduce init time by removing the script from original Docker image
 FROM mysql:5.7 # Remove mysql_ssl_rsa_setup to ignore setup SSL certs RUN rm -f /usr/bin/mysql_ssl_rsa_setup   FAST as a FEATURE !</description>
@@ -48,20 +48,20 @@ Setup This guide will assume you already have Docker and Docker Compose tool.</d
     
     <item>
       <title>#TIL 2017-05-24 : Changing channel from alpha to stable will remove ALL DATA</title>
-      <link>https://khanhicetea.com/til/2017-05-24-changing-channel-from-alpha-to-stable-will-remove-all-data/</link>
+      <link>https://khanhicetea.com/til/til-2017-05-24-changing-channel-from-alpha-to-stable-will-remove-all-data/</link>
       <pubDate>Wed, 24 May 2017 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2017-05-24-changing-channel-from-alpha-to-stable-will-remove-all-data/</guid>
+      <guid>https://khanhicetea.com/til/til-2017-05-24-changing-channel-from-alpha-to-stable-will-remove-all-data/</guid>
       <description>Changing channel from alpha to stable will remove ALL DATA On MacOS, changing Docker channel will remove all data (includes volumes, images, networks and &amp;hellip; everything).
 Because Docker on Mac using a minimal Linux machine to host docker engine, so changing machine means discarding all old data. So BECAREFUL !</description>
     </item>
     
     <item>
       <title>#TIL 2017-05-24 : Reducing docker image the right way</title>
-      <link>https://khanhicetea.com/til/2017-05-24-reducing-docker-image-the-right-way/</link>
+      <link>https://khanhicetea.com/til/til-2017-05-24-reducing-docker-image-the-right-way/</link>
       <pubDate>Wed, 24 May 2017 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2017-05-24-reducing-docker-image-the-right-way/</guid>
+      <guid>https://khanhicetea.com/til/til-2017-05-24-reducing-docker-image-the-right-way/</guid>
       <description>Reducing docker image the right way When building an image, Docker engine commit file system layer on every command (RUN, ADD, COPY). So next time you installing packages from package manager likes apt, yum, pacman, &amp;hellip;remember clean their cache in same line.
 BAD WAY
 RUN apt-get update RUN apt-get install git # Something here # End of file RUN apt-get clean &amp;amp;&amp;amp; rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*  RIGHT WAY</description>

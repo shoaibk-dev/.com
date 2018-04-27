@@ -13,10 +13,10 @@
     
     <item>
       <title>#TIL 2018-01-25 : Basics of Elasticsearch</title>
-      <link>https://khanhicetea.com/til/2018-01-25-basics-of-elasticsearch/</link>
+      <link>https://khanhicetea.com/til/til-2018-01-25-basics-of-elasticsearch/</link>
       <pubDate>Thu, 25 Jan 2018 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2018-01-25-basics-of-elasticsearch/</guid>
+      <guid>https://khanhicetea.com/til/til-2018-01-25-basics-of-elasticsearch/</guid>
       <description>Basics of Elasticsearch Last days, I developed a EFK stack to centralize my system logging. I really like the concepts of FluentD, it&amp;rsquo;s better than original stack ELK of elastic company.
 So I need to learn basics about Elasticsearch and Kibana
 This is what I learned :

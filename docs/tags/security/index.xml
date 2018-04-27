@@ -13,10 +13,10 @@
     
     <item>
       <title>#TIL 2018-03-14 : Install CA root certificate on iOS device</title>
-      <link>https://khanhicetea.com/til/2018-03-14-install-ca-root-certificate-on-ios-device/</link>
+      <link>https://khanhicetea.com/til/til-2018-03-14-install-ca-root-certificate-on-ios-device/</link>
       <pubDate>Wed, 14 Mar 2018 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2018-03-14-install-ca-root-certificate-on-ios-device/</guid>
+      <guid>https://khanhicetea.com/til/til-2018-03-14-install-ca-root-certificate-on-ios-device/</guid>
       <description>Install CA root certificate on iOS device Disclaimer : ⚠️ You can do it, but it&amp;rsquo;s at your own risk !
 Sometimes you want to accept a SSL firewall proxy or self-MITM proxy, the important step is installing its CA root certificate to your device. Because iOS apps almost use all https connections (that&amp;rsquo;s new rule).
 This is the way to install and enable custom CA Root cert :</description>
@@ -24,10 +24,10 @@ This is the way to install and enable custom CA Root cert :</description>
     
     <item>
       <title>#TIL 2018-03-01 : Prevent source hacking from .git directory exposing</title>
-      <link>https://khanhicetea.com/til/2018-03-01-prevent-source-hacking-from-git-directory-exposing/</link>
+      <link>https://khanhicetea.com/til/til-2018-03-01-prevent-source-hacking-from-git-directory-exposing/</link>
       <pubDate>Thu, 01 Mar 2018 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2018-03-01-prevent-source-hacking-from-git-directory-exposing/</guid>
+      <guid>https://khanhicetea.com/til/til-2018-03-01-prevent-source-hacking-from-git-directory-exposing/</guid>
       <description>Prevent source hacking from .git directory exposing Many web project use Git as source version control tools. So in production server, we could expose the hidden .git directory - which contains all most infomation about project source code.
 To &amp;ldquo;rip&amp;rdquo; a source code from a vulnerable website, we can use this tool : https://github.com/kost/dvcs-ripper#git
 So to prevent this happens, try to deny all http access to hidden files and directories (usually starts by .</description>
@@ -35,10 +35,10 @@ So to prevent this happens, try to deny all http access to hidden files and dire
     
     <item>
       <title>#TIL 2018-01-16 : Set up simple rate limiting on specified port using UFW</title>
-      <link>https://khanhicetea.com/til/2018-01-16-set-up-simple-rate-limiting-on-specified-port-using-ufw/</link>
+      <link>https://khanhicetea.com/til/til-2018-01-16-set-up-simple-rate-limiting-on-specified-port-using-ufw/</link>
       <pubDate>Tue, 16 Jan 2018 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2018-01-16-set-up-simple-rate-limiting-on-specified-port-using-ufw/</guid>
+      <guid>https://khanhicetea.com/til/til-2018-01-16-set-up-simple-rate-limiting-on-specified-port-using-ufw/</guid>
       <description>Set up simple rate limiting on specified port using UFW Allow unmetrered connections on networking is so risky. Attacker can use the brute-force attacks to comprosise your service (or simple DOS).
 Linux has a cool firewall to hanlde this, via ip-tables. But it&amp;rsquo;s so complicated to remember all the rule and syntax. That&amp;rsquo;s why UFW was born to save us. :D
 You can use simple command to manage your firewall</description>
@@ -46,10 +46,10 @@ You can use simple command to manage your firewall</description>
     
     <item>
       <title>#TIL 2018-01-03 : HSTS rule in browser</title>
-      <link>https://khanhicetea.com/til/2018-01-03-hsts-rule-in-browser/</link>
+      <link>https://khanhicetea.com/til/til-2018-01-03-hsts-rule-in-browser/</link>
       <pubDate>Wed, 03 Jan 2018 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2018-01-03-hsts-rule-in-browser/</guid>
+      <guid>https://khanhicetea.com/til/til-2018-01-03-hsts-rule-in-browser/</guid>
       <description>HSTS rule in browser HTTP Strict Transport Security (HSTS) is a web security policy mechanism which helps to protect websites against protocol downgrade attacks and cookie hijacking.
 Enabling HSTS on your web will make your browser validate every SSL issues more strictly :
  User can not visit http version on browser User can not add SSL exception for the domain to ignore the warning. (when SSL cert expire or invalid common name)  Note : You can manually remove a domain from HSTS in Chrome by accessing this page URL chrome://net-internals/#hsts</description>
@@ -57,10 +57,10 @@ Enabling HSTS on your web will make your browser validate every SSL issues more 
     
     <item>
       <title>#TIL 2017-09-01 : Create SSH tunnel manually</title>
-      <link>https://khanhicetea.com/til/2017-09-01-create-ssh-tunnel-manually/</link>
+      <link>https://khanhicetea.com/til/til-2017-09-01-create-ssh-tunnel-manually/</link>
       <pubDate>Fri, 01 Sep 2017 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2017-09-01-create-ssh-tunnel-manually/</guid>
+      <guid>https://khanhicetea.com/til/til-2017-09-01-create-ssh-tunnel-manually/</guid>
       <description>Create SSH tunnel manually SSH Tunnel is a fast way to transfer traffic through unsafe internet today. It would be used in MySQL connect, FTP connect or HTTP connect, &amp;hellip;
 Syntax :
 $ ssh -L [local_port]:[remote_endpoint]:[remote_port] [ssh_user]:[ssh_ip]  Example :
@@ -71,10 +71,10 @@ $ telnet 127.0.0.1 3307 $ # or $ mysql -h 127.</description>
     
     <item>
       <title>#TIL 2017-08-06 : Runing old java applets on brower</title>
-      <link>https://khanhicetea.com/til/2017-08-06-runing-old-java-applets-on-brower/</link>
+      <link>https://khanhicetea.com/til/til-2017-08-06-runing-old-java-applets-on-brower/</link>
       <pubDate>Sun, 06 Aug 2017 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2017-08-06-runing-old-java-applets-on-brower/</guid>
+      <guid>https://khanhicetea.com/til/til-2017-08-06-runing-old-java-applets-on-brower/</guid>
       <description>Runing old java applets on brower Mostly morden browser has stop support Java plugins, so you can&amp;rsquo;t run Java applet on browser.
 Temporary way : - run in IE or Safari - run in an old Firefox (version 23)
 And what if old java applet can&amp;rsquo;t be runned on Java 8 because of weak signature algorithm. Try this

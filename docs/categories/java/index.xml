@@ -13,10 +13,10 @@
     
     <item>
       <title>#TIL 2017-08-06 : Runing old java applets on brower</title>
-      <link>https://khanhicetea.com/til/2017-08-06-runing-old-java-applets-on-brower/</link>
+      <link>https://khanhicetea.com/til/til-2017-08-06-runing-old-java-applets-on-brower/</link>
       <pubDate>Sun, 06 Aug 2017 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2017-08-06-runing-old-java-applets-on-brower/</guid>
+      <guid>https://khanhicetea.com/til/til-2017-08-06-runing-old-java-applets-on-brower/</guid>
       <description>Runing old java applets on brower Mostly morden browser has stop support Java plugins, so you can&amp;rsquo;t run Java applet on browser.
 Temporary way : - run in IE or Safari - run in an old Firefox (version 23)
 And what if old java applet can&amp;rsquo;t be runned on Java 8 because of weak signature algorithm. Try this

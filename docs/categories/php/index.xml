@@ -13,20 +13,20 @@
     
     <item>
       <title>#TIL 2017-08-06 : realpath function</title>
-      <link>https://khanhicetea.com/til/2017-08-06-realpath-function/</link>
+      <link>https://khanhicetea.com/til/til-2017-08-06-realpath-function/</link>
       <pubDate>Sun, 06 Aug 2017 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2017-08-06-realpath-function/</guid>
+      <guid>https://khanhicetea.com/til/til-2017-08-06-realpath-function/</guid>
       <description>realpath function If you pass a non-exists path to function realpath, it returns empty string. So please don&amp;rsquo;t do something like :
 function storage_path($folder) { return realpath(__DIR__.&#39;/storage/&#39;.$folder); }  if you expect it return full path of new folder !</description>
     </item>
     
     <item>
       <title>#TIL 2017-02-28 : Persistent connection to MySQL</title>
-      <link>https://khanhicetea.com/til/2017-02-28-persistent-connection-to-mysql/</link>
+      <link>https://khanhicetea.com/til/til-2017-02-28-persistent-connection-to-mysql/</link>
       <pubDate>Tue, 28 Feb 2017 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2017-02-28-persistent-connection-to-mysql/</guid>
+      <guid>https://khanhicetea.com/til/til-2017-02-28-persistent-connection-to-mysql/</guid>
       <description>Persistent connection to MySQL When a PHP process connects to MySQL server, the connection can be persistent if your PHP config has mysql.allow_persistent or mysqli.allow_persistent. (PDO has the attribute ATTR_PERSISTENT)
 $dbh = new PDO(&#39;DSN&#39;, &#39;KhanhDepZai&#39;, &#39;QuenMatKhauCMNR&#39;, [PDO::ATTR_PERSISTENT =&amp;gt; TRUE]);  Object destruction PHP destruct an object automatically when an object lost all its references.
 Example code:
@@ -35,10 +35,10 @@ Example code:
     
     <item>
       <title>#TIL 2017-02-23 : Using VarDumper in PHPUnit</title>
-      <link>https://khanhicetea.com/til/2017-02-23-using-vardumper-in-phpunit/</link>
+      <link>https://khanhicetea.com/til/til-2017-02-23-using-vardumper-in-phpunit/</link>
       <pubDate>Thu, 23 Feb 2017 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2017-02-23-using-vardumper-in-phpunit/</guid>
+      <guid>https://khanhicetea.com/til/til-2017-02-23-using-vardumper-in-phpunit/</guid>
       <description> Using VarDumper in PHPUnit The trick is writing the output to STDERR stream, I wrote a helper function below
 function phpunit_dump() { $cloner = new \Symfony\Component\VarDumper\Cloner\VarCloner(); $dumper = new \Symfony\Component\VarDumper\Dumper\CliDumper(STDERR); foreach (func_get_args() as $var) { $dumper-&amp;gt;dump($cloner-&amp;gt;cloneVar($var)); } }  How to use it ?
 // Something magic here :D phpunit_dump($magic_var1, $magic_var2, $magic_of_magic); // So much magic below, can&#39;t understand anymore  </description>
@@ -56,20 +56,20 @@ $ Virtualbox -h  Open the terminal and try this command to verify Vagrant is rea
     
     <item>
       <title>#TIL 2016-03-08 : F-cking stupid limit of input vars</title>
-      <link>https://khanhicetea.com/til/2016-03-08-f-cking-stupid-limit-of-input-vars/</link>
+      <link>https://khanhicetea.com/til/til-2016-03-08-f-cking-stupid-limit-of-input-vars/</link>
       <pubDate>Tue, 08 Mar 2016 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2016-03-08-f-cking-stupid-limit-of-input-vars/</guid>
+      <guid>https://khanhicetea.com/til/til-2016-03-08-f-cking-stupid-limit-of-input-vars/</guid>
       <description>F-cking stupid limit of input vars Today, I tried to debug many hours to find out why my POST request missing some data (specify _token hidden field). :disappointed:
 I tried to config NGINX and PHPFPM max_post_size, client_max_body_size but they still gone. After 2-3 hours searching on Google, I found the link from PHP.net, it has a config value about limiting max input vars (default = 1000), so it causes the problem about missing data.</description>
     </item>
     
     <item>
       <title>#TIL 2015-12-04 : Run built-in server via Docker</title>
-      <link>https://khanhicetea.com/til/2015-12-04-run-built-in-server-via-docker/</link>
+      <link>https://khanhicetea.com/til/til-2015-12-04-run-built-in-server-via-docker/</link>
       <pubDate>Fri, 04 Dec 2015 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2015-12-04-run-built-in-server-via-docker/</guid>
+      <guid>https://khanhicetea.com/til/til-2015-12-04-run-built-in-server-via-docker/</guid>
       <description> Run built-in server via Docker Docker is the fast and clean way to run Linux programs.
 We can run a PHP project via PHP built-in server and Docker.
 docker run -it -p 8080:8080 -v `pwd`:/code php:7 php -S 0.0.0.0:8080 -t /code/web /code/web/server.php  With server.php content is
@@ -89,10 +89,10 @@ Let&amp;rsquo;s start pull PHP images docker pull php:5.6 docker pull php:7  Cha
     
     <item>
       <title>#TIL 2015-12-02 : Eloquent Many-to-Many Relationship</title>
-      <link>https://khanhicetea.com/til/2015-12-02-eloquent-many-to-many-relationship/</link>
+      <link>https://khanhicetea.com/til/til-2015-12-02-eloquent-many-to-many-relationship/</link>
       <pubDate>Wed, 02 Dec 2015 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2015-12-02-eloquent-many-to-many-relationship/</guid>
+      <guid>https://khanhicetea.com/til/til-2015-12-02-eloquent-many-to-many-relationship/</guid>
       <description>Eloquent Many-to-Many Relationship To create the n-to-m relationship in Eloquent, we create a table stand between 2 tables. Eg:
 We have the db schema :
    post post_tag tag     id (PK) id (PK) id (PK)   title post_id (Index) name (Unique)   content tag_id (Index)     In the model Post and Tag, we define a relation :

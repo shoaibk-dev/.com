@@ -13,20 +13,20 @@
     
     <item>
       <title>#TIL 2018-03-01 : Sending Cookie in AJAX CORs request</title>
-      <link>https://khanhicetea.com/til/2018-03-01-sending-cookie-in-ajax-cors-request/</link>
+      <link>https://khanhicetea.com/til/til-2018-03-01-sending-cookie-in-ajax-cors-request/</link>
       <pubDate>Thu, 01 Mar 2018 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2018-03-01-sending-cookie-in-ajax-cors-request/</guid>
+      <guid>https://khanhicetea.com/til/til-2018-03-01-sending-cookie-in-ajax-cors-request/</guid>
       <description>Sending Cookie in AJAX CORs request By default, browser will remove the cookie and authorization header from AJAX CORs request. So before sending out the request, make sure withCredentials must be true.
 In this case, CORs response must specify which origin is allowed (mean no wildcard allowed origin rule).</description>
     </item>
     
     <item>
       <title>#TIL 2018-01-03 : Create cross-platform downloading app URL</title>
-      <link>https://khanhicetea.com/til/2018-01-03-create-cross-platform-downloading-app-url/</link>
+      <link>https://khanhicetea.com/til/til-2018-01-03-create-cross-platform-downloading-app-url/</link>
       <pubDate>Wed, 03 Jan 2018 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2018-01-03-create-cross-platform-downloading-app-url/</guid>
+      <guid>https://khanhicetea.com/til/til-2018-01-03-create-cross-platform-downloading-app-url/</guid>
       <description>Create cross-platform downloading app URL You have a mobile app for both platforms iOS and Android, each platform has different download URL. But your user doesn&amp;rsquo;t know which platform he using. Clicking wrong URL will lead to user bounce-rate.
 Solution is making only 1 URL to download your app, which can redirect to right place depends on using platform. So how we achieve this ??
 The key of problem is detecting user platform, which can be done by extracting the User-Agent header from http request.</description>
@@ -34,10 +34,10 @@ The key of problem is detecting user platform, which can be done by extracting t
     
     <item>
       <title>#TIL 2017-04-21 : ab failed responses</title>
-      <link>https://khanhicetea.com/til/2017-04-21-ab-failed-responses/</link>
+      <link>https://khanhicetea.com/til/til-2017-04-21-ab-failed-responses/</link>
       <pubDate>Fri, 21 Apr 2017 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2017-04-21-ab-failed-responses/</guid>
+      <guid>https://khanhicetea.com/til/til-2017-04-21-ab-failed-responses/</guid>
       <description>ab failed responses When benchmarking a HTTP application server using ab tool, you shouldn&amp;rsquo;t only care about how many requests per second, but percentage of Success responses.
 A notice that you must have the same content-length in responses, because ab tool will assume response having different content-length from Document Length (in ab result) is failed response.
 Example

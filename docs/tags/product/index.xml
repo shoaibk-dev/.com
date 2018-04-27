@@ -13,10 +13,10 @@
     
     <item>
       <title>#TIL 2018-01-03 : Create cross-platform downloading app URL</title>
-      <link>https://khanhicetea.com/til/2018-01-03-create-cross-platform-downloading-app-url/</link>
+      <link>https://khanhicetea.com/til/til-2018-01-03-create-cross-platform-downloading-app-url/</link>
       <pubDate>Wed, 03 Jan 2018 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/2018-01-03-create-cross-platform-downloading-app-url/</guid>
+      <guid>https://khanhicetea.com/til/til-2018-01-03-create-cross-platform-downloading-app-url/</guid>
       <description>Create cross-platform downloading app URL You have a mobile app for both platforms iOS and Android, each platform has different download URL. But your user doesn&amp;rsquo;t know which platform he using. Clicking wrong URL will lead to user bounce-rate.
 Solution is making only 1 URL to download your app, which can redirect to right place depends on using platform. So how we achieve this ??
 The key of problem is detecting user platform, which can be done by extracting the User-Agent header from http request.</description>
