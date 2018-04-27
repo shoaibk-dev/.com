@@ -13,10 +13,10 @@
     
     <item>
       <title>#TIL 2017-02-17 : String problems can cause logical bugs in application</title>
-      <link>https://khanhicetea.com/til/til-2017-02-17-string-problems-can-cause-logical-bugs-in-application/</link>
+      <link>https://khanhicetea.com/til/2017-02-17-string-problems-can-cause-logical-bugs-in-application/</link>
       <pubDate>Fri, 17 Feb 2017 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/til-2017-02-17-string-problems-can-cause-logical-bugs-in-application/</guid>
+      <guid>https://khanhicetea.com/til/2017-02-17-string-problems-can-cause-logical-bugs-in-application/</guid>
       <description>String problems can cause logical bugs in application Example table mysql&amp;gt; describe `test`; +------------+-------------+------+-----+-------------------+----------------+ | Field | Type | Null | Key | Default | Extra | +------------+-------------+------+-----+-------------------+----------------+ | id | smallint(6) | NO | PRI | NULL | auto_increment | | name | varchar(50) | NO | | NULL | | | created_at | timestamp | YES | MUL | CURRENT_TIMESTAMP | | +------------+-------------+------+-----+-------------------+----------------+ 3 rows in set (0.</description>
     </item>
     

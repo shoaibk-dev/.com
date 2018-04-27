@@ -13,10 +13,10 @@
     
     <item>
       <title>#TIL 2015-12-03 : FTP via curl tool</title>
-      <link>https://khanhicetea.com/til/til-2015-12-03-ftp-via-curl-tool/</link>
+      <link>https://khanhicetea.com/til/2015-12-03-ftp-via-curl-tool/</link>
       <pubDate>Thu, 03 Dec 2015 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/til-2015-12-03-ftp-via-curl-tool/</guid>
+      <guid>https://khanhicetea.com/til/2015-12-03-ftp-via-curl-tool/</guid>
       <description> FTP via curl tool Can upload an file via FTP by curl tool with handy script :
 curl -T file_need_to_upload ftp://hostname --user user:passwd  </description>
     </item>

@@ -13,10 +13,10 @@
     
     <item>
       <title>#TIL 2017-08-08 : Ping Google to crawl updated content</title>
-      <link>https://khanhicetea.com/til/til-2017-08-08-ping-google-to-crawl-updated-content/</link>
+      <link>https://khanhicetea.com/til/2017-08-08-ping-google-to-crawl-updated-content/</link>
       <pubDate>Tue, 08 Aug 2017 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/til-2017-08-08-ping-google-to-crawl-updated-content/</guid>
+      <guid>https://khanhicetea.com/til/2017-08-08-ping-google-to-crawl-updated-content/</guid>
       <description>Ping Google to crawl updated content When you post new content to your website, the fastest way is ping search engines to notify them. After that, they will try to crawl and index your page.
 One way to ping search engines is using XMLRPC ping
 This is a example XMLRPC request (HTTP POST request with xml body)

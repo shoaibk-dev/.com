@@ -13,10 +13,10 @@
     
     <item>
       <title>#TIL 2015-12-01 : String Format Unicode params</title>
-      <link>https://khanhicetea.com/til/til-2015-12-01-string-format-unicode-params/</link>
+      <link>https://khanhicetea.com/til/2015-12-01-string-format-unicode-params/</link>
       <pubDate>Tue, 01 Dec 2015 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/til-2015-12-01-string-format-unicode-params/</guid>
+      <guid>https://khanhicetea.com/til/2015-12-01-string-format-unicode-params/</guid>
       <description> String Format Unicode params unicode_thing = u&amp;quot;Xin chào mọi người&amp;quot; a = &#39;{}&#39;.format(unicode_thing)  will cause the error UnicodeEncodeError: &#39;ascii&#39; codec can&#39;t encode character u&#39;\xe0&#39; in position 6: ordinal not in range(128)
 The solution is add u prefix the pattern (it means using unicode pattern) :
 unicode_thing = u&amp;quot;Xin chào mọi người&amp;quot; a = u&#39;{}&#39;.format(unicode_thing)  </description>

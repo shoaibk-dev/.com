@@ -13,10 +13,10 @@
     
     <item>
       <title>#TIL 2015-11-30 : Debugging Chrome extension</title>
-      <link>https://khanhicetea.com/til/til-2015-11-30-debugging-chrome-extension/</link>
+      <link>https://khanhicetea.com/til/2015-11-30-debugging-chrome-extension/</link>
       <pubDate>Mon, 30 Nov 2015 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/til-2015-11-30-debugging-chrome-extension/</guid>
+      <guid>https://khanhicetea.com/til/2015-11-30-debugging-chrome-extension/</guid>
       <description> Debugging Chrome extension  To open directly the Console Dev Tools, press Cmd + Opt + J in MacOSX. To debug easily the any files of extension, open the url chrome-extension://&amp;lt;extension-id&amp;gt;/&amp;lt;file-name&amp;gt; in address bar.  </description>
     </item>
     

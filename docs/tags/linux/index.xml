@@ -13,10 +13,10 @@
     
     <item>
       <title>#TIL 2018-01-16 : Disable IPv6 to stop getting stuck in network</title>
-      <link>https://khanhicetea.com/til/til-2018-01-16-disable-ipv6-to-stop-getting-stuck-in-network/</link>
+      <link>https://khanhicetea.com/til/2018-01-16-disable-ipv6-to-stop-getting-stuck-in-network/</link>
       <pubDate>Tue, 16 Jan 2018 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/til-2018-01-16-disable-ipv6-to-stop-getting-stuck-in-network/</guid>
+      <guid>https://khanhicetea.com/til/2018-01-16-disable-ipv6-to-stop-getting-stuck-in-network/</guid>
       <description>Disable IPv6 to stop getting stuck in network I know IPv6 will be future for networking, but at this moment &amp;ldquo;It&amp;rsquo;s suck !&amp;rdquo; :(
 Some service will be failed when trying to connect IPv6 destination :
  apt package manager smtp curl  So I decided to disable IPv6 on every production server.
@@ -25,10 +25,10 @@ $ echo &amp;quot;net.ipv6.conf.all.disable_ipv6 = 1&amp;quot; | sudo tee -a /etc
     
     <item>
       <title>#TIL 2017-10-20 : Using watch command to tracking changes in period time</title>
-      <link>https://khanhicetea.com/til/til-2017-10-20-using-watch-command-to-tracking-changes-in-period-time/</link>
+      <link>https://khanhicetea.com/til/2017-10-20-using-watch-command-to-tracking-changes-in-period-time/</link>
       <pubDate>Fri, 20 Oct 2017 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/til-2017-10-20-using-watch-command-to-tracking-changes-in-period-time/</guid>
+      <guid>https://khanhicetea.com/til/2017-10-20-using-watch-command-to-tracking-changes-in-period-time/</guid>
       <description>Using watch command to tracking changes in period time watch to a good command to run a command every N seconds.
 And like its name, means you can watch something, its output changes with flag -d
 It&amp;rsquo;s a great tool to help you learn a new language without hitting compile and run everytime you save a file.
@@ -37,10 +37,10 @@ $ watch -n 1 -d go run learn.go  This command will compile and run learn.</descr
     
     <item>
       <title>#TIL 2017-09-27 : Send ENTER key to kernel</title>
-      <link>https://khanhicetea.com/til/til-2017-09-27-send-enter-key-to-kernel/</link>
+      <link>https://khanhicetea.com/til/2017-09-27-send-enter-key-to-kernel/</link>
       <pubDate>Wed, 27 Sep 2017 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/til-2017-09-27-send-enter-key-to-kernel/</guid>
+      <guid>https://khanhicetea.com/til/2017-09-27-send-enter-key-to-kernel/</guid>
       <description>Send ENTER key to kernel When you try to send an Enter keyboard to linux kernel, it looks like nothing happens.
 This is because you only send a key press (KEY DOWN) but don&amp;rsquo;t send an key release (KEY UP) event after that.</description>
     </item>
@@ -57,20 +57,20 @@ Kernel modules # echo &amp;quot;uinput&amp;quot; &amp;gt;&amp;gt; /etc/modules #
     
     <item>
       <title>#TIL 2017-08-08 : Remap Capslock to Control key</title>
-      <link>https://khanhicetea.com/til/til-2017-08-08-remap-capslock-to-control-key/</link>
+      <link>https://khanhicetea.com/til/2017-08-08-remap-capslock-to-control-key/</link>
       <pubDate>Tue, 08 Aug 2017 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/til-2017-08-08-remap-capslock-to-control-key/</guid>
+      <guid>https://khanhicetea.com/til/2017-08-08-remap-capslock-to-control-key/</guid>
       <description>Remap Capslock to Control key Edit file /etc/default/keyboard and set
 XKBOPTIONS=&amp;quot;ctrl:nocaps&amp;quot;  Then, logout and log in again to impact</description>
     </item>
     
     <item>
       <title>#TIL 2017-08-06 : Cleaning up old linux kernels</title>
-      <link>https://khanhicetea.com/til/til-2017-08-06-cleaning-up-old-linux-kernels/</link>
+      <link>https://khanhicetea.com/til/2017-08-06-cleaning-up-old-linux-kernels/</link>
       <pubDate>Sun, 06 Aug 2017 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/til-2017-08-06-cleaning-up-old-linux-kernels/</guid>
+      <guid>https://khanhicetea.com/til/2017-08-06-cleaning-up-old-linux-kernels/</guid>
       <description>Cleaning up old linux kernels Last day, I try to reboot a production server which has out-of-space /boot (I upgraded many kernels without rebooting, so system doesn&amp;rsquo;t clean up old ones). And in the end, doom day had come ! It installed new kernel failed and booting to that kernel. My system crashed !
 So, I learned from it :
  Never ever upgrade kernel without cleaning up old ones (just reboot) Never ever reboot a production without backup MORE IMPORTANT, NEVER do 2 above things at same time in the weekend !</description>
@@ -78,10 +78,10 @@ So, I learned from it :
     
     <item>
       <title>#TIL 2017-05-18 : Grant user to use sudo without password</title>
-      <link>https://khanhicetea.com/til/til-2017-05-18-grant-user-to-use-sudo-without-password/</link>
+      <link>https://khanhicetea.com/til/2017-05-18-grant-user-to-use-sudo-without-password/</link>
       <pubDate>Thu, 18 May 2017 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/til-2017-05-18-grant-user-to-use-sudo-without-password/</guid>
+      <guid>https://khanhicetea.com/til/2017-05-18-grant-user-to-use-sudo-without-password/</guid>
       <description>Grant user to use sudo without password This is bad practice but it&amp;rsquo;s kind of hacky thing if you YOLO
 # Create a user with home dir and bash shell (if you don&#39;t have yet) $ useradd -m YOURUSERNAME -s /bin/bash $ sudo vi /etc/sudoers  Add this line below root ALL=(ALL:ALL) ALL (User privilege specification section)
 $ YOUR_USERNAME ALL=(ALL:ALL) NOPASSWD:ALL  Then press :wq! to force saving the file</description>

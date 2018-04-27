@@ -13,20 +13,20 @@
     
     <item>
       <title>#TIL 2018-04-24 : Setup wildcard domains .test for development in MacOS</title>
-      <link>https://khanhicetea.com/til/til-2018-04-24-setup-wildcard-domains-test-for-development-in-macos/</link>
+      <link>https://khanhicetea.com/til/2018-04-24-setup-wildcard-domains-test-for-development-in-macos/</link>
       <pubDate>Tue, 24 Apr 2018 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/til-2018-04-24-setup-wildcard-domains-test-for-development-in-macos/</guid>
+      <guid>https://khanhicetea.com/til/2018-04-24-setup-wildcard-domains-test-for-development-in-macos/</guid>
       <description>Setup wildcard domains .test for development in MacOS Too tired of setting your local domain each time you create new virtual development domain, etc helloworld.test, unit.test point to 127.0.0.1
 There is a better way to achieve that by using dnsmasq, then set up a wildcard domains for development. In this case I use .test because .dev has been owned by Google and they strictly use HTTPS in mainly browsers.</description>
     </item>
     
     <item>
       <title>#TIL 2018-02-21 : List opening ports or listening UNIX sockets</title>
-      <link>https://khanhicetea.com/til/til-2018-02-21-list-opening-ports-or-listening-unix-sockets/</link>
+      <link>https://khanhicetea.com/til/2018-02-21-list-opening-ports-or-listening-unix-sockets/</link>
       <pubDate>Wed, 21 Feb 2018 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/til-2018-02-21-list-opening-ports-or-listening-unix-sockets/</guid>
+      <guid>https://khanhicetea.com/til/2018-02-21-list-opening-ports-or-listening-unix-sockets/</guid>
       <description>List opening ports or listening UNIX sockets In Linux, you can use netstat to list all opening ports and listening UNIX sockets
 $ sudo netstat -npl  Tip to remember command : network statistics - natual languge processing
 ;)</description>
@@ -34,10 +34,10 @@ $ sudo netstat -npl  Tip to remember command : network statistics - natual langu
     
     <item>
       <title>#TIL 2018-01-16 : Set up simple rate limiting on specified port using UFW</title>
-      <link>https://khanhicetea.com/til/til-2018-01-16-set-up-simple-rate-limiting-on-specified-port-using-ufw/</link>
+      <link>https://khanhicetea.com/til/2018-01-16-set-up-simple-rate-limiting-on-specified-port-using-ufw/</link>
       <pubDate>Tue, 16 Jan 2018 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/til-2018-01-16-set-up-simple-rate-limiting-on-specified-port-using-ufw/</guid>
+      <guid>https://khanhicetea.com/til/2018-01-16-set-up-simple-rate-limiting-on-specified-port-using-ufw/</guid>
       <description>Set up simple rate limiting on specified port using UFW Allow unmetrered connections on networking is so risky. Attacker can use the brute-force attacks to comprosise your service (or simple DOS).
 Linux has a cool firewall to hanlde this, via ip-tables. But it&amp;rsquo;s so complicated to remember all the rule and syntax. That&amp;rsquo;s why UFW was born to save us. :D
 You can use simple command to manage your firewall</description>
@@ -45,10 +45,10 @@ You can use simple command to manage your firewall</description>
     
     <item>
       <title>#TIL 2017-10-04 : How SMTP works</title>
-      <link>https://khanhicetea.com/til/til-2017-10-04-how-smtp-works/</link>
+      <link>https://khanhicetea.com/til/2017-10-04-how-smtp-works/</link>
       <pubDate>Wed, 04 Oct 2017 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/til-2017-10-04-how-smtp-works/</guid>
+      <guid>https://khanhicetea.com/til/2017-10-04-how-smtp-works/</guid>
       <description>How SMTP works When a email send through an SMTP (with authentication), every SMTP server is a hop in mail routing. So it will transfer to localmail or forward the email to next hop (shortest distance via DNS MX record).
 And standard port of SMTP is 25 (unsecured, but can upgrade to TLS via STARTTLS command).
 $ nslookup -type=mx gmail.com 8.8.8.8 Server: 8.8.8.8 Address: 8.8.8.8#53 Non-authoritative answer: gmail.com mail exchanger = 20 alt2.</description>
@@ -56,10 +56,10 @@ $ nslookup -type=mx gmail.com 8.8.8.8 Server: 8.8.8.8 Address: 8.8.8.8#53 Non-au
     
     <item>
       <title>#TIL 2017-09-07 : TCP FIN timeout</title>
-      <link>https://khanhicetea.com/til/til-2017-09-07-tcp-fin-timeout/</link>
+      <link>https://khanhicetea.com/til/2017-09-07-tcp-fin-timeout/</link>
       <pubDate>Thu, 07 Sep 2017 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/til-2017-09-07-tcp-fin-timeout/</guid>
+      <guid>https://khanhicetea.com/til/2017-09-07-tcp-fin-timeout/</guid>
       <description>TCP FIN timeout The TCP FIN timeout belays the amount of time a port must be inactive before it can reused for another connection. The default is often 60 seconds, but can normally be safely reduced to 30 or even 15 seconds:
 net.ipv4.tcp_fin_timeout = 15  Ref : https://www.linode.com/docs/web-servers/nginx/configure-nginx-for-optimized-performance</description>
     </item>

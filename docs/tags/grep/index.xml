@@ -13,10 +13,10 @@
     
     <item>
       <title>#TIL 2017-09-05 : Grep : find a string in folder</title>
-      <link>https://khanhicetea.com/til/til-2017-09-05-grep-find-a-string-in-folder/</link>
+      <link>https://khanhicetea.com/til/2017-09-05-grep-find-a-string-in-folder/</link>
       <pubDate>Tue, 05 Sep 2017 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/til-2017-09-05-grep-find-a-string-in-folder/</guid>
+      <guid>https://khanhicetea.com/til/2017-09-05-grep-find-a-string-in-folder/</guid>
       <description> Grep : find a string in folder Grep is a greate tool for searching a string in files.
 Syntax
 $ grep -nr &#39;[string]&#39; [folder]  If you want to show surrounding lines the result, add flag -C [number] to the command

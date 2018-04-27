@@ -13,10 +13,10 @@
     
     <item>
       <title>#TIL 2017-09-01 : Create SSH tunnel manually</title>
-      <link>https://khanhicetea.com/til/til-2017-09-01-create-ssh-tunnel-manually/</link>
+      <link>https://khanhicetea.com/til/2017-09-01-create-ssh-tunnel-manually/</link>
       <pubDate>Fri, 01 Sep 2017 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/til-2017-09-01-create-ssh-tunnel-manually/</guid>
+      <guid>https://khanhicetea.com/til/2017-09-01-create-ssh-tunnel-manually/</guid>
       <description>Create SSH tunnel manually SSH Tunnel is a fast way to transfer traffic through unsafe internet today. It would be used in MySQL connect, FTP connect or HTTP connect, &amp;hellip;
 Syntax :
 $ ssh -L [local_port]:[remote_endpoint]:[remote_port] [ssh_user]:[ssh_ip]  Example :

@@ -13,10 +13,10 @@
     
     <item>
       <title>#TIL 2017-09-01 : Mycli : a new good cli MySql Client</title>
-      <link>https://khanhicetea.com/til/til-2017-09-01-mycli-a-new-good-cli-mysql-client/</link>
+      <link>https://khanhicetea.com/til/2017-09-01-mycli-a-new-good-cli-mysql-client/</link>
       <pubDate>Fri, 01 Sep 2017 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/til-2017-09-01-mycli-a-new-good-cli-mysql-client/</guid>
+      <guid>https://khanhicetea.com/til/2017-09-01-mycli-a-new-good-cli-mysql-client/</guid>
       <description>Mycli : a new good cli MySql Client This tool is written in Python with super cool features (auto-complete and colors).
 Worth a shot !
 Install

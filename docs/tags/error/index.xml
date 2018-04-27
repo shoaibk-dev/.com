@@ -13,10 +13,10 @@
     
     <item>
       <title>#TIL 2017-05-18 : Cloudflare Error 522 Connection Time out</title>
-      <link>https://khanhicetea.com/til/til-2017-05-18-cloudflare-error-522-connection-time-out/</link>
+      <link>https://khanhicetea.com/til/2017-05-18-cloudflare-error-522-connection-time-out/</link>
       <pubDate>Thu, 18 May 2017 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/til-2017-05-18-cloudflare-error-522-connection-time-out/</guid>
+      <guid>https://khanhicetea.com/til/2017-05-18-cloudflare-error-522-connection-time-out/</guid>
       <description>Cloudflare Error 522 Connection Time out If you are using Cloudflare as a proxied web server, it will provide many benefits about performance (assets caching, prevent DDOS and cheap CDN). But sometimes, you will face to this error &amp;ldquo;522 Connection Time out&amp;rdquo;.
 The problems caused by :
  Networking (CF can&amp;rsquo;t touch origin server : Firewall blocking, Network Layer #1,#2,#3 issue) Timeout (origin server process too long than 90 seconds) Empty or invalid response from origin server No or big HTTP headers (&amp;gt; 8Kb) Failed TCP handshake  Ref:</description>

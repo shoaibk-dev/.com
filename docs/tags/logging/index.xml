@@ -13,10 +13,10 @@
     
     <item>
       <title>#TIL 2018-01-25 : Basics of Elasticsearch</title>
-      <link>https://khanhicetea.com/til/til-2018-01-25-basics-of-elasticsearch/</link>
+      <link>https://khanhicetea.com/til/2018-01-25-basics-of-elasticsearch/</link>
       <pubDate>Thu, 25 Jan 2018 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/til-2018-01-25-basics-of-elasticsearch/</guid>
+      <guid>https://khanhicetea.com/til/2018-01-25-basics-of-elasticsearch/</guid>
       <description>Basics of Elasticsearch Last days, I developed a EFK stack to centralize my system logging. I really like the concepts of FluentD, it&amp;rsquo;s better than original stack ELK of elastic company.
 So I need to learn basics about Elasticsearch and Kibana
 This is what I learned :
@@ -25,10 +25,10 @@ This is what I learned :
     
     <item>
       <title>#TIL 2018-01-22 : Use journalctl to check system logs</title>
-      <link>https://khanhicetea.com/til/til-2018-01-22-use-journalctl-to-check-system-logs/</link>
+      <link>https://khanhicetea.com/til/2018-01-22-use-journalctl-to-check-system-logs/</link>
       <pubDate>Mon, 22 Jan 2018 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/til-2018-01-22-use-journalctl-to-check-system-logs/</guid>
+      <guid>https://khanhicetea.com/til/2018-01-22-use-journalctl-to-check-system-logs/</guid>
       <description>Use journalctl to check system logs Logging and Monitoring are important factor for system admin. Checking the log will help you have a closer look into the issue. One tool could help you will handy features is journalctl.
 Here are simple options :
  -f : follow the log (tailf) -u [service] : filter to show only [service] logs --since=[date] : Show entries not older than the specified date --until=[date] : Show entries not newer than the specified date  Example :</description>

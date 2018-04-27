@@ -13,10 +13,10 @@
     
     <item>
       <title>#TIL 2018-01-08 : Bypass CORS by using JSONP callback</title>
-      <link>https://khanhicetea.com/til/til-2018-01-08-bypass-cors-by-using-jsonp-callback/</link>
+      <link>https://khanhicetea.com/til/2018-01-08-bypass-cors-by-using-jsonp-callback/</link>
       <pubDate>Mon, 08 Jan 2018 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/til-2018-01-08-bypass-cors-by-using-jsonp-callback/</guid>
+      <guid>https://khanhicetea.com/til/2018-01-08-bypass-cors-by-using-jsonp-callback/</guid>
       <description>Bypass CORS by using JSONP callback Sometimes you are blocked from request a cross-origin resource. Instead of adding our domain to allowed list of them, we can use another way to retrieve data from their API by using JSONP (in case they support it).
 The mechanism of JSONP is simple, instead of returning a JSON data. It will return a javascript text with passing your data into a function, whose name is declared in query string.</description>
     </item>

@@ -13,10 +13,10 @@
     
     <item>
       <title>#TIL 2017-09-27 : BASH tracing commands</title>
-      <link>https://khanhicetea.com/til/til-2017-09-27-bash-tracing-commands/</link>
+      <link>https://khanhicetea.com/til/2017-09-27-bash-tracing-commands/</link>
       <pubDate>Wed, 27 Sep 2017 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/til-2017-09-27-bash-tracing-commands/</guid>
+      <guid>https://khanhicetea.com/til/2017-09-27-bash-tracing-commands/</guid>
       <description>BASH tracing commands Thank Hiro Ishii for teaching me this
 set -x will print all running commands in your bash script
 So I dove in and look for all set options of BASH.
@@ -25,10 +25,10 @@ And this is what I got , http://www.gnu.org/software/bash/manual/html_node/The-S
     
     <item>
       <title>#TIL 2017-09-26 : BASH exiting on first error</title>
-      <link>https://khanhicetea.com/til/til-2017-09-26-bash-exiting-on-first-error/</link>
+      <link>https://khanhicetea.com/til/2017-09-26-bash-exiting-on-first-error/</link>
       <pubDate>Tue, 26 Sep 2017 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/til-2017-09-26-bash-exiting-on-first-error/</guid>
+      <guid>https://khanhicetea.com/til/2017-09-26-bash-exiting-on-first-error/</guid>
       <description> BASH exiting on first error Setting a flag set -e to bash script will let the script exit on first error occurs, so if you want to ignore a command just adding || true to suffix
 set -e errorCmd $1 || true echo &amp;quot;Run here !&amp;quot;  And opposite of set -e is set +e, haha of course !
 set +e errorCmd $1 echo &amp;quot;Still run here !&amp;quot;  </description>
@@ -36,10 +36,10 @@ set +e errorCmd $1 echo &amp;quot;Still run here !&amp;quot;  </description>
     
     <item>
       <title>#TIL 2017-09-26 : BASH return a value in function</title>
-      <link>https://khanhicetea.com/til/til-2017-09-26-bash-return-a-value-in-function/</link>
+      <link>https://khanhicetea.com/til/2017-09-26-bash-return-a-value-in-function/</link>
       <pubDate>Tue, 26 Sep 2017 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/til-2017-09-26-bash-return-a-value-in-function/</guid>
+      <guid>https://khanhicetea.com/til/2017-09-26-bash-return-a-value-in-function/</guid>
       <description>BASH return a value in function Creating function is a good way to refactor your bash script. But BASH doesn&amp;rsquo;t support returning a value in true way, so it makes a bit of challenge to handle that.
 You can use this trick
 hello() { echo &amp;quot;Hello $1&amp;quot; } hw=$(hello &amp;quot;KhanhIceTea&amp;quot;) echo $hw  But what if you want to echo log message in hello function, it will be merged to returned value.</description>
@@ -47,10 +47,10 @@ hello() { echo &amp;quot;Hello $1&amp;quot; } hw=$(hello &amp;quot;KhanhIceTea&a
     
     <item>
       <title>#TIL 2017-05-22 : Using BSD find util to find and exec command on file and folder</title>
-      <link>https://khanhicetea.com/til/til-2017-05-22-using-bsd-find-util-to-find-and-exec-command-on-file-and-folder/</link>
+      <link>https://khanhicetea.com/til/2017-05-22-using-bsd-find-util-to-find-and-exec-command-on-file-and-folder/</link>
       <pubDate>Mon, 22 May 2017 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/til-2017-05-22-using-bsd-find-util-to-find-and-exec-command-on-file-and-folder/</guid>
+      <guid>https://khanhicetea.com/til/2017-05-22-using-bsd-find-util-to-find-and-exec-command-on-file-and-folder/</guid>
       <description>Using BSD find util to find and exec command on file and folder Simple syntax of find
 $ find [find_path] -type [file_type] -exec [command] {} \;  Add filename matching pattern to filter the result
 $ find [find_path] -name &amp;quot;*.php&amp;quot; -type [file_type] -exec [command] {} \;  Where file_type is :
@@ -59,20 +59,20 @@ $ find [find_path] -name &amp;quot;*.php&amp;quot; -type [file_type] -exec [comm
     
     <item>
       <title>#TIL 2017-05-19 : wget Output flag</title>
-      <link>https://khanhicetea.com/til/til-2017-05-19-wget-output-flag/</link>
+      <link>https://khanhicetea.com/til/2017-05-19-wget-output-flag/</link>
       <pubDate>Fri, 19 May 2017 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/til-2017-05-19-wget-output-flag/</guid>
+      <guid>https://khanhicetea.com/til/2017-05-19-wget-output-flag/</guid>
       <description> wget Output flag -O means output
 $ # output file will be index.html or based on header filename $ wget -O www.abc.xyz  $ # output file will be filename.html $ wget -O filename.html www.abc.xyz  $ # output to stdout $ wget -O- www.abc.xyz $ wget -O- https://gist.githubusercontent.com/khanhicetea/4fa9f5103cd7fbc2d2270abce05c9c2b/raw/helloworld.sh | bash  </description>
     </item>
     
     <item>
       <title>#TIL 2016-03-26 : Bash shell shortcuts</title>
-      <link>https://khanhicetea.com/til/til-2016-03-26-bash-shell-shortcuts/</link>
+      <link>https://khanhicetea.com/til/2016-03-26-bash-shell-shortcuts/</link>
       <pubDate>Sat, 26 Mar 2016 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/til-2016-03-26-bash-shell-shortcuts/</guid>
+      <guid>https://khanhicetea.com/til/2016-03-26-bash-shell-shortcuts/</guid>
       <description>Bash shell shortcuts  Ctrl + e : jump cursor to EOL Ctrl + a : jump cursor to BOL (beginning of line) Ctrl + u : delete all from cursor to BOL Ctrl + k : delete all from cursor to EOL Ctrl + r : search history, press again for next search Ctrl + l : clear shell screen Ctrl + c : terminate the command (sometimes have to press twice) Ctrl + z : suspend the command, back to shell.</description>
     </item>
     

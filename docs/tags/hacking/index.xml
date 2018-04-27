@@ -13,10 +13,10 @@
     
     <item>
       <title>#TIL 2018-03-01 : Prevent source hacking from .git directory exposing</title>
-      <link>https://khanhicetea.com/til/til-2018-03-01-prevent-source-hacking-from-git-directory-exposing/</link>
+      <link>https://khanhicetea.com/til/2018-03-01-prevent-source-hacking-from-git-directory-exposing/</link>
       <pubDate>Thu, 01 Mar 2018 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/til-2018-03-01-prevent-source-hacking-from-git-directory-exposing/</guid>
+      <guid>https://khanhicetea.com/til/2018-03-01-prevent-source-hacking-from-git-directory-exposing/</guid>
       <description>Prevent source hacking from .git directory exposing Many web project use Git as source version control tools. So in production server, we could expose the hidden .git directory - which contains all most infomation about project source code.
 To &amp;ldquo;rip&amp;rdquo; a source code from a vulnerable website, we can use this tool : https://github.com/kost/dvcs-ripper#git
 So to prevent this happens, try to deny all http access to hidden files and directories (usually starts by .</description>

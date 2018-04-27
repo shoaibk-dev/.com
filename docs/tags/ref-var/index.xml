@@ -13,10 +13,10 @@
     
     <item>
       <title>#TIL 2015-12-04 : Reference assign object variable</title>
-      <link>https://khanhicetea.com/til/til-2015-12-04-reference-assign-object-variable/</link>
+      <link>https://khanhicetea.com/til/2015-12-04-reference-assign-object-variable/</link>
       <pubDate>Fri, 04 Dec 2015 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/til-2015-12-04-reference-assign-object-variable/</guid>
+      <guid>https://khanhicetea.com/til/2015-12-04-reference-assign-object-variable/</guid>
       <description>Reference assign object variable When you have a object x and assign y = x, y will be a ref of x (it looks like pointer of C). So changing property of y means changing property of x.
 Ex :
 x = {&amp;quot;a&amp;quot;: 1, &amp;quot;b&amp;quot;: 2} y = x y[&#39;a&#39;] = 100 print x[&#39;a&#39;] # Result is 100  So if you want clone the value, use copy lib :</description>

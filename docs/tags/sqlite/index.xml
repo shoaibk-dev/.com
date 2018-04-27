@@ -13,10 +13,10 @@
     
     <item>
       <title>#TIL 2017-04-25 : Basics about sqlite command line tool</title>
-      <link>https://khanhicetea.com/til/til-2017-04-25-basics-about-sqlite-command-line-tool/</link>
+      <link>https://khanhicetea.com/til/2017-04-25-basics-about-sqlite-command-line-tool/</link>
       <pubDate>Tue, 25 Apr 2017 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/til-2017-04-25-basics-about-sqlite-command-line-tool/</guid>
+      <guid>https://khanhicetea.com/til/2017-04-25-basics-about-sqlite-command-line-tool/</guid>
       <description>Basics about sqlite command line tool We can use sqlite3 command line tool to run SQL statement in sqlite3 file.
 View all table : .tables Truncate table : delete from [table_name]; then run vacuum; to clear space Close : press Ctrl ^ D to escape $ sqlite3 database.sqlite SQLite version 3.8.10.2 2015-05-20 18:17:19 Enter &amp;quot;.help&amp;quot; for usage hints. sqlite&amp;gt; .tables auth_group backend_church auth_group_permissions backend_masstime auth_permission django_admin_log auth_user django_content_type auth_user_groups django_migrations auth_user_user_permissions django_session backend_area sqlite&amp;gt; select * from auth_user; 1|pbkdf2_sha256$30000$QQSOJMiXmNly$mWUlYwZnaQGsv9UVZcdTb29P7IHrgnd7ja3T/uwFqvw=|2017-03-25 15:06:40.</description>
     </item>

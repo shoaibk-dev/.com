@@ -13,10 +13,10 @@
     
     <item>
       <title>#TIL 2018-04-10 : Create tiny chat channel via netcat</title>
-      <link>https://khanhicetea.com/til/til-2018-04-10-create-tiny-chat-channel-via-netcat/</link>
+      <link>https://khanhicetea.com/til/2018-04-10-create-tiny-chat-channel-via-netcat/</link>
       <pubDate>Tue, 10 Apr 2018 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/til-2018-04-10-create-tiny-chat-channel-via-netcat/</guid>
+      <guid>https://khanhicetea.com/til/2018-04-10-create-tiny-chat-channel-via-netcat/</guid>
       <description>Create tiny chat channel via netcat In a network, you can create a tiny chatting channel using netcat. It&amp;rsquo;s lightweight TCP protocol with plain-text transmission, so be carefully on using.
 First, create a channel by picking port number (ex: 7777)
 $ sudo nc -l 0.0.0.0 7777  Then, tell you friend your IP and channel port. He will use this info to connect the channel

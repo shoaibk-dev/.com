@@ -13,10 +13,10 @@
     
     <item>
       <title>#TIL 2016-03-26 : Stats your top-10 frequently commands</title>
-      <link>https://khanhicetea.com/til/til-2016-03-26-stats-your-top-10-frequently-commands/</link>
+      <link>https://khanhicetea.com/til/2016-03-26-stats-your-top-10-frequently-commands/</link>
       <pubDate>Sat, 26 Mar 2016 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/til-2016-03-26-stats-your-top-10-frequently-commands/</guid>
+      <guid>https://khanhicetea.com/til/2016-03-26-stats-your-top-10-frequently-commands/</guid>
       <description> Stats your top-10 frequently commands Run this command, it will show top-10 frequently commands, explain shell
 $ history | awk &#39;{print $2}&#39; | sort | uniq -c | sort -nr | head  Example result
 2064 git 1284 ls 826 cd 700 ssh 602 clear 491 python 473 exit 341 vagrant 242 export 167 ping  </description>
@@ -24,10 +24,10 @@ $ history | awk &#39;{print $2}&#39; | sort | uniq -c | sort -nr | head  Example
     
     <item>
       <title>#TIL 2015-12-30 : Commands</title>
-      <link>https://khanhicetea.com/til/til-2015-12-30-commands/</link>
+      <link>https://khanhicetea.com/til/2015-12-30-commands/</link>
       <pubDate>Wed, 30 Dec 2015 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/til-2015-12-30-commands/</guid>
+      <guid>https://khanhicetea.com/til/2015-12-30-commands/</guid>
       <description> Commands Command lsof List all opened files, sockets, pipes
 Eg:
  List processes are using port 80 (need root if port between 1-1023)  # sudo lsof -i:80   List processes are using /bin/bash  # lsof /bin/bash  </description>

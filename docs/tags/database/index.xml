@@ -13,30 +13,30 @@
     
     <item>
       <title>#TIL 2017-10-13 : Indexes on multiple columns</title>
-      <link>https://khanhicetea.com/til/til-2017-10-13-indexes-on-multiple-columns/</link>
+      <link>https://khanhicetea.com/til/2017-10-13-indexes-on-multiple-columns/</link>
       <pubDate>Fri, 13 Oct 2017 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/til-2017-10-13-indexes-on-multiple-columns/</guid>
+      <guid>https://khanhicetea.com/til/2017-10-13-indexes-on-multiple-columns/</guid>
       <description>Indexes on multiple columns Let&amp;rsquo;s say you have an indexes on 2 columns (A, B) of the table (X). So this is three use cases happen :
  You query data based on both of 2 columns =&amp;gt; Indexes will be considered You query data based on (A) =&amp;gt; Indexes will be considered You query data based on (B) =&amp;gt; Indexes will be ignored because database indexes your data by B-tree algo.</description>
     </item>
     
     <item>
       <title>#TIL 2017-04-25 : Basics about sqlite command line tool</title>
-      <link>https://khanhicetea.com/til/til-2017-04-25-basics-about-sqlite-command-line-tool/</link>
+      <link>https://khanhicetea.com/til/2017-04-25-basics-about-sqlite-command-line-tool/</link>
       <pubDate>Tue, 25 Apr 2017 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/til-2017-04-25-basics-about-sqlite-command-line-tool/</guid>
+      <guid>https://khanhicetea.com/til/2017-04-25-basics-about-sqlite-command-line-tool/</guid>
       <description>Basics about sqlite command line tool We can use sqlite3 command line tool to run SQL statement in sqlite3 file.
 View all table : .tables Truncate table : delete from [table_name]; then run vacuum; to clear space Close : press Ctrl ^ D to escape $ sqlite3 database.sqlite SQLite version 3.8.10.2 2015-05-20 18:17:19 Enter &amp;quot;.help&amp;quot; for usage hints. sqlite&amp;gt; .tables auth_group backend_church auth_group_permissions backend_masstime auth_permission django_admin_log auth_user django_content_type auth_user_groups django_migrations auth_user_user_permissions django_session backend_area sqlite&amp;gt; select * from auth_user; 1|pbkdf2_sha256$30000$QQSOJMiXmNly$mWUlYwZnaQGsv9UVZcdTb29P7IHrgnd7ja3T/uwFqvw=|2017-03-25 15:06:40.</description>
     </item>
     
     <item>
       <title>#TIL 2017-02-28 : Persistent connection to MySQL</title>
-      <link>https://khanhicetea.com/til/til-2017-02-28-persistent-connection-to-mysql/</link>
+      <link>https://khanhicetea.com/til/2017-02-28-persistent-connection-to-mysql/</link>
       <pubDate>Tue, 28 Feb 2017 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/til-2017-02-28-persistent-connection-to-mysql/</guid>
+      <guid>https://khanhicetea.com/til/2017-02-28-persistent-connection-to-mysql/</guid>
       <description>Persistent connection to MySQL When a PHP process connects to MySQL server, the connection can be persistent if your PHP config has mysql.allow_persistent or mysqli.allow_persistent. (PDO has the attribute ATTR_PERSISTENT)
 $dbh = new PDO(&#39;DSN&#39;, &#39;KhanhDepZai&#39;, &#39;QuenMatKhauCMNR&#39;, [PDO::ATTR_PERSISTENT =&amp;gt; TRUE]);  Object destruction PHP destruct an object automatically when an object lost all its references.
 Example code:
@@ -45,10 +45,10 @@ Example code:
     
     <item>
       <title>#TIL 2017-02-23 : UNION vs UNION ALL</title>
-      <link>https://khanhicetea.com/til/til-2017-02-23-union-vs-union-all/</link>
+      <link>https://khanhicetea.com/til/2017-02-23-union-vs-union-all/</link>
       <pubDate>Thu, 23 Feb 2017 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/til-2017-02-23-union-vs-union-all/</guid>
+      <guid>https://khanhicetea.com/til/2017-02-23-union-vs-union-all/</guid>
       <description>UNION vs UNION ALL The difference is UNION command will sort and remove duplicated rows (RETURNED ONLY DISTINCT ROWS)
 Examples :
 mysql&amp;gt; select &#39;1&#39;, &#39;2&#39; union select &#39;2&#39;, &#39;1&#39; union select &#39;3&#39;, &#39;4&#39; union select &#39;1&#39;, &#39;2&#39;; +---+---+ | 1 | 2 | +---+---+ | 1 | 2 | | 2 | 1 | | 3 | 4 | +---+---+ 3 rows in set (0.00 sec) mysql&amp;gt; select &#39;1&#39;, &#39;2&#39; union select &#39;2&#39;, &#39;1&#39; union select &#39;3&#39;, &#39;4&#39; union select &#39;1&#39;, &#39;3&#39;; +---+---+ | 1 | 2 | +---+---+ | 1 | 2 | | 2 | 1 | | 3 | 4 | | 1 | 3 | +---+---+ 4 rows in set (0.</description>

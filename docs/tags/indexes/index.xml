@@ -13,10 +13,10 @@
     
     <item>
       <title>#TIL 2017-10-13 : Indexes on multiple columns</title>
-      <link>https://khanhicetea.com/til/til-2017-10-13-indexes-on-multiple-columns/</link>
+      <link>https://khanhicetea.com/til/2017-10-13-indexes-on-multiple-columns/</link>
       <pubDate>Fri, 13 Oct 2017 23:59:59 +0000</pubDate>
       
-      <guid>https://khanhicetea.com/til/til-2017-10-13-indexes-on-multiple-columns/</guid>
+      <guid>https://khanhicetea.com/til/2017-10-13-indexes-on-multiple-columns/</guid>
       <description>Indexes on multiple columns Let&amp;rsquo;s say you have an indexes on 2 columns (A, B) of the table (X). So this is three use cases happen :
  You query data based on both of 2 columns =&amp;gt; Indexes will be considered You query data based on (A) =&amp;gt; Indexes will be considered You query data based on (B) =&amp;gt; Indexes will be ignored because database indexes your data by B-tree algo.</description>
     </item>
