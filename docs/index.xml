@@ -6,10 +6,20 @@
     <description>Recent content on KhanhIceTea B(rain)-log</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 28 Apr 2018 00:18:41 +0700</lastBuildDate>
+    <lastBuildDate>Mon, 30 Apr 2018 23:59:59 +0000</lastBuildDate>
     
 	<atom:link href="https://khanhicetea.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>#TIL 2018-04-30 : Exporting environment variables on virtual env activate</title>
+      <link>https://khanhicetea.com/til/2018-04-30-exporting-environment-variables-on-virtual-env-activate/</link>
+      <pubDate>Mon, 30 Apr 2018 23:59:59 +0000</pubDate>
+      
+      <guid>https://khanhicetea.com/til/2018-04-30-exporting-environment-variables-on-virtual-env-activate/</guid>
+      <description> Exporting environment variables on virtual env activate You can put common environment variables to the file venv/bin/activate. So everytime we active the virtual env, everything is on the way
+# venv/bin/active content # export your env vars here export FLASK_APP=hello export FLASK_ENV=development export DATABASE=hello.sqlite3 export SECRET_KEY=secret_key_here  </description>
+    </item>
     
     <item>
       <title>Đi Bản</title>
