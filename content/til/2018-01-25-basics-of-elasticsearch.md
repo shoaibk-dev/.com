@@ -1,6 +1,6 @@
 +++
 date = "2018-01-25T23:59:59"
-title = "#TIL 2018-01-25 : Basics of Elasticsearch"
+title = "#TIL : Basics of Elasticsearch"
 description = "I learned in 2018-01-25 about logging, elasticsearch, system"
 categories = ["Today I learned", "elasticsearch"]
 tags = ["logging", "elasticsearch", "system"]

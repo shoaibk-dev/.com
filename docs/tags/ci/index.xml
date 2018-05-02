@@ -12,7 +12,7 @@
     
     
     <item>
-      <title>#TIL 2017-11-27 : Fastly conflict detector script</title>
+      <title>#TIL : Fastly conflict detector script</title>
       <link>https://khanhicetea.com/til/2017-11-27-fastly-conflict-detector-script/</link>
       <pubDate>Mon, 27 Nov 2017 23:59:59 +0000</pubDate>
       
@@ -23,7 +23,7 @@ This was the script
     </item>
     
     <item>
-      <title>#TIL 2017-11-22 : Reduce init time MySQL docker image</title>
+      <title>#TIL : Reduce init time MySQL docker image</title>
       <link>https://khanhicetea.com/til/2017-11-22-reduce-init-time-mysql-docker-image/</link>
       <pubDate>Wed, 22 Nov 2017 23:59:59 +0000</pubDate>
       
@@ -45,7 +45,7 @@ Setup This guide will assume you already have Docker and Docker Compose tool.</d
     </item>
     
     <item>
-      <title>#TIL 2017-10-13 : Using netcat to wait a TCP service</title>
+      <title>#TIL : Using netcat to wait a TCP service</title>
       <link>https://khanhicetea.com/til/2017-10-13-using-netcat-to-wait-a-tcp-service/</link>
       <pubDate>Fri, 13 Oct 2017 23:59:59 +0000</pubDate>
       

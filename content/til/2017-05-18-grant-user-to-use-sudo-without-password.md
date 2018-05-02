@@ -1,6 +1,6 @@
 +++
 date = "2017-05-18T23:59:59"
-title = "#TIL 2017-05-18 : Grant user to use sudo without password"
+title = "#TIL : Grant user to use sudo without password"
 description = "I learned in 2017-05-18 about sysadmin, linux"
 categories = ["Today I learned", "sysadmin"]
 tags = ["sysadmin", "linux"]

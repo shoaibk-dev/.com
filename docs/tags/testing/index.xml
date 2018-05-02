@@ -23,7 +23,7 @@ Setup This guide will assume you already have Docker and Docker Compose tool.</d
     </item>
     
     <item>
-      <title>#TIL 2017-05-19 : Checking forced push conflicts on source code in auto testing</title>
+      <title>#TIL : Checking forced push conflicts on source code in auto testing</title>
       <link>https://khanhicetea.com/til/2017-05-19-checking-forced-push-conflicts-on-source-code-in-auto-testing/</link>
       <pubDate>Fri, 19 May 2017 23:59:59 +0000</pubDate>
       
@@ -34,7 +34,7 @@ So checking the conflicts code is required step before testing backend and deplo
     </item>
     
     <item>
-      <title>#TIL 2017-02-23 : Using VarDumper in PHPUnit</title>
+      <title>#TIL : Using VarDumper in PHPUnit</title>
       <link>https://khanhicetea.com/til/2017-02-23-using-vardumper-in-phpunit/</link>
       <pubDate>Thu, 23 Feb 2017 23:59:59 +0000</pubDate>
       

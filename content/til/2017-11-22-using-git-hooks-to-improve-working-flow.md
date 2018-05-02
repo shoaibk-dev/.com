@@ -1,6 +1,6 @@
 +++
 date = "2017-11-22T23:59:59"
-title = "#TIL 2017-11-22 : using git hooks to improve working flow"
+title = "#TIL : using git hooks to improve working flow"
 description = "I learned in 2017-11-22 about git, workflow, automation"
 categories = ["Today I learned", "git"]
 tags = ["git", "workflow", "automation"]

@@ -12,7 +12,7 @@
     
     
     <item>
-      <title>#TIL 2017-08-06 : realpath function</title>
+      <title>#TIL : realpath function</title>
       <link>https://khanhicetea.com/til/2017-08-06-realpath-function/</link>
       <pubDate>Sun, 06 Aug 2017 23:59:59 +0000</pubDate>
       
@@ -46,7 +46,7 @@ Of course, the working task will be fucked up. Database transaction, database mi
     </item>
     
     <item>
-      <title>#TIL 2017-02-28 : Persistent connection to MySQL</title>
+      <title>#TIL : Persistent connection to MySQL</title>
       <link>https://khanhicetea.com/til/2017-02-28-persistent-connection-to-mysql/</link>
       <pubDate>Tue, 28 Feb 2017 23:59:59 +0000</pubDate>
       
@@ -58,7 +58,7 @@ Example code:
     </item>
     
     <item>
-      <title>#TIL 2017-02-23 : Using VarDumper in PHPUnit</title>
+      <title>#TIL : Using VarDumper in PHPUnit</title>
       <link>https://khanhicetea.com/til/2017-02-23-using-vardumper-in-phpunit/</link>
       <pubDate>Thu, 23 Feb 2017 23:59:59 +0000</pubDate>
       
@@ -89,7 +89,7 @@ $ Virtualbox -h  Open the terminal and try this command to verify Vagrant is rea
     </item>
     
     <item>
-      <title>#TIL 2016-03-08 : F-cking stupid limit of input vars</title>
+      <title>#TIL : F-cking stupid limit of input vars</title>
       <link>https://khanhicetea.com/til/2016-03-08-f-cking-stupid-limit-of-input-vars/</link>
       <pubDate>Tue, 08 Mar 2016 23:59:59 +0000</pubDate>
       
@@ -99,7 +99,7 @@ I tried to config NGINX and PHPFPM max_post_size, client_max_body_size but they 
     </item>
     
     <item>
-      <title>#TIL 2015-12-04 : Run built-in server via Docker</title>
+      <title>#TIL : Run built-in server via Docker</title>
       <link>https://khanhicetea.com/til/2015-12-04-run-built-in-server-via-docker/</link>
       <pubDate>Fri, 04 Dec 2015 23:59:59 +0000</pubDate>
       
@@ -122,7 +122,7 @@ Let&amp;rsquo;s start pull PHP images docker pull php:5.6 docker pull php:7  Cha
     </item>
     
     <item>
-      <title>#TIL 2015-12-02 : Eloquent Many-to-Many Relationship</title>
+      <title>#TIL : Eloquent Many-to-Many Relationship</title>
       <link>https://khanhicetea.com/til/2015-12-02-eloquent-many-to-many-relationship/</link>
       <pubDate>Wed, 02 Dec 2015 23:59:59 +0000</pubDate>
       

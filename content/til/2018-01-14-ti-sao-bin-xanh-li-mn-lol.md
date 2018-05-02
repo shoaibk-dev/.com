@@ -1,6 +1,6 @@
 +++
 date = "2018-01-14T23:59:59"
-title = "#TIL 2018-01-14 : Tại sao biển xanh lại mặn ? :lol:"
+title = "#TIL : Tại sao biển xanh lại mặn ? :lol:"
 description = "I learned in 2018-01-14 about emyeukhoahoc, nature"
 categories = ["Today I learned", "nature"]
 tags = ["emyeukhoahoc", "nature"]

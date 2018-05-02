@@ -12,7 +12,7 @@
     
     
     <item>
-      <title>#TIL 2018-04-24 : Setup wildcard domains .test for development in MacOS</title>
+      <title>#TIL : Setup wildcard domains .test for development in MacOS</title>
       <link>https://khanhicetea.com/til/2018-04-24-setup-wildcard-domains-test-for-development-in-macos/</link>
       <pubDate>Tue, 24 Apr 2018 23:59:59 +0000</pubDate>
       
@@ -22,7 +22,7 @@ There is a better way to achieve that by using dnsmasq, then set up a wildcard d
     </item>
     
     <item>
-      <title>#TIL 2018-02-21 : List opening ports or listening UNIX sockets</title>
+      <title>#TIL : List opening ports or listening UNIX sockets</title>
       <link>https://khanhicetea.com/til/2018-02-21-list-opening-ports-or-listening-unix-sockets/</link>
       <pubDate>Wed, 21 Feb 2018 23:59:59 +0000</pubDate>
       
@@ -33,7 +33,7 @@ $ sudo netstat -npl  Tip to remember command : network statistics - natual langu
     </item>
     
     <item>
-      <title>#TIL 2018-01-16 : Set up simple rate limiting on specified port using UFW</title>
+      <title>#TIL : Set up simple rate limiting on specified port using UFW</title>
       <link>https://khanhicetea.com/til/2018-01-16-set-up-simple-rate-limiting-on-specified-port-using-ufw/</link>
       <pubDate>Tue, 16 Jan 2018 23:59:59 +0000</pubDate>
       
@@ -44,7 +44,7 @@ You can use simple command to manage your firewall</description>
     </item>
     
     <item>
-      <title>#TIL 2017-10-04 : How SMTP works</title>
+      <title>#TIL : How SMTP works</title>
       <link>https://khanhicetea.com/til/2017-10-04-how-smtp-works/</link>
       <pubDate>Wed, 04 Oct 2017 23:59:59 +0000</pubDate>
       
@@ -55,7 +55,7 @@ $ nslookup -type=mx gmail.com 8.8.8.8 Server: 8.8.8.8 Address: 8.8.8.8#53 Non-au
     </item>
     
     <item>
-      <title>#TIL 2017-09-07 : TCP FIN timeout</title>
+      <title>#TIL : TCP FIN timeout</title>
       <link>https://khanhicetea.com/til/2017-09-07-tcp-fin-timeout/</link>
       <pubDate>Thu, 07 Sep 2017 23:59:59 +0000</pubDate>
       

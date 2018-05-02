@@ -1,6 +1,6 @@
 +++
 date = "2017-10-07T23:59:59"
-title = "#TIL 2017-10-07 : Using netcat as tiny TCP debug tool"
+title = "#TIL : Using netcat as tiny TCP debug tool"
 description = "I learned in 2017-10-07 about sysadmin, tool, networking"
 categories = ["Today I learned", "sysadmin"]
 tags = ["sysadmin", "tool", "networking"]

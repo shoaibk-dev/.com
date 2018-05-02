@@ -1,6 +1,6 @@
 +++
 date = "2018-04-10T23:59:59"
-title = "#TIL 2018-04-10 : Send a file through networking via netcat"
+title = "#TIL : Send a file through networking via netcat"
 description = "I learned in 2018-04-10 about sysadmin, trick, networking"
 categories = ["Today I learned", "sysadmin"]
 tags = ["sysadmin", "trick", "networking"]

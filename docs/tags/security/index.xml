@@ -12,7 +12,7 @@
     
     
     <item>
-      <title>#TIL 2018-03-14 : Install CA root certificate on iOS device</title>
+      <title>#TIL : Install CA root certificate on iOS device</title>
       <link>https://khanhicetea.com/til/2018-03-14-install-ca-root-certificate-on-ios-device/</link>
       <pubDate>Wed, 14 Mar 2018 23:59:59 +0000</pubDate>
       
@@ -23,7 +23,7 @@ This is the way to install and enable custom CA Root cert :</description>
     </item>
     
     <item>
-      <title>#TIL 2018-03-01 : Prevent source hacking from .git directory exposing</title>
+      <title>#TIL : Prevent source hacking from .git directory exposing</title>
       <link>https://khanhicetea.com/til/2018-03-01-prevent-source-hacking-from-git-directory-exposing/</link>
       <pubDate>Thu, 01 Mar 2018 23:59:59 +0000</pubDate>
       
@@ -34,7 +34,7 @@ So to prevent this happens, try to deny all http access to hidden files and dire
     </item>
     
     <item>
-      <title>#TIL 2018-01-16 : Set up simple rate limiting on specified port using UFW</title>
+      <title>#TIL : Set up simple rate limiting on specified port using UFW</title>
       <link>https://khanhicetea.com/til/2018-01-16-set-up-simple-rate-limiting-on-specified-port-using-ufw/</link>
       <pubDate>Tue, 16 Jan 2018 23:59:59 +0000</pubDate>
       
@@ -45,7 +45,7 @@ You can use simple command to manage your firewall</description>
     </item>
     
     <item>
-      <title>#TIL 2018-01-03 : HSTS rule in browser</title>
+      <title>#TIL : HSTS rule in browser</title>
       <link>https://khanhicetea.com/til/2018-01-03-hsts-rule-in-browser/</link>
       <pubDate>Wed, 03 Jan 2018 23:59:59 +0000</pubDate>
       
@@ -56,7 +56,7 @@ Enabling HSTS on your web will make your browser validate every SSL issues more 
     </item>
     
     <item>
-      <title>#TIL 2017-09-01 : Create SSH tunnel manually</title>
+      <title>#TIL : Create SSH tunnel manually</title>
       <link>https://khanhicetea.com/til/2017-09-01-create-ssh-tunnel-manually/</link>
       <pubDate>Fri, 01 Sep 2017 23:59:59 +0000</pubDate>
       
@@ -70,7 +70,7 @@ $ telnet 127.0.0.1 3307 $ # or $ mysql -h 127.</description>
     </item>
     
     <item>
-      <title>#TIL 2017-08-06 : Runing old java applets on brower</title>
+      <title>#TIL : Runing old java applets on brower</title>
       <link>https://khanhicetea.com/til/2017-08-06-runing-old-java-applets-on-brower/</link>
       <pubDate>Sun, 06 Aug 2017 23:59:59 +0000</pubDate>
       

@@ -1,6 +1,6 @@
 +++
 date = "2017-10-13T23:59:59"
-title = "#TIL 2017-10-13 : Indexes on multiple columns"
+title = "#TIL : Indexes on multiple columns"
 description = "I learned in 2017-10-13 about indexes, database"
 categories = ["Today I learned", "database"]
 tags = ["indexes", "database"]

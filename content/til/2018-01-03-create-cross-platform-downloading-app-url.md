@@ -1,6 +1,6 @@
 +++
 date = "2018-01-03T23:59:59"
-title = "#TIL 2018-01-03 : Create cross-platform downloading app URL"
+title = "#TIL : Create cross-platform downloading app URL"
 description = "I learned in 2018-01-03 about mobile, product, http"
 categories = ["Today I learned", "http"]
 tags = ["mobile", "product", "http"]

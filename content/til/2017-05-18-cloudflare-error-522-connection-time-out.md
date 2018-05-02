@@ -1,6 +1,6 @@
 +++
 date = "2017-05-18T23:59:59"
-title = "#TIL 2017-05-18 : Cloudflare Error 522 Connection Time out"
+title = "#TIL : Cloudflare Error 522 Connection Time out"
 description = "I learned in 2017-05-18 about web, cloudflare, error"
 categories = ["Today I learned", "web"]
 tags = ["web", "cloudflare", "error"]

@@ -1,6 +1,6 @@
 +++
 date = "2018-04-10T23:59:59"
-title = "#TIL 2018-04-10 : Create tiny chat channel via netcat"
+title = "#TIL : Create tiny chat channel via netcat"
 description = "I learned in 2018-04-10 about sysadmin, trick, messaging"
 categories = ["Today I learned", "sysadmin"]
 tags = ["sysadmin", "trick", "messaging"]

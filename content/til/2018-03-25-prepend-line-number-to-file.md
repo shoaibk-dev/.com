@@ -1,6 +1,6 @@
 +++
 date = "2018-03-25T23:59:59"
-title = "#TIL 2018-03-25 : Prepend line number to file"
+title = "#TIL : Prepend line number to file"
 description = "I learned in 2018-03-25 about sysadmin, string, file"
 categories = ["Today I learned", "sysadmin"]
 tags = ["sysadmin", "string", "file"]

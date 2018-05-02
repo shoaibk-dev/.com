@@ -12,7 +12,7 @@
     
     
     <item>
-      <title>#TIL 2017-10-05 : Simple HTTP server function helper</title>
+      <title>#TIL : Simple HTTP server function helper</title>
       <link>https://khanhicetea.com/til/2017-10-05-simple-http-server-function-helper/</link>
       <pubDate>Thu, 05 Oct 2017 23:59:59 +0000</pubDate>
       
@@ -22,7 +22,7 @@ function server() { local port=&amp;quot;${1:-8000}&amp;quot; # Getting port num
     </item>
     
     <item>
-      <title>#TIL 2017-09-27 : BASH tracing commands</title>
+      <title>#TIL : BASH tracing commands</title>
       <link>https://khanhicetea.com/til/2017-09-27-bash-tracing-commands/</link>
       <pubDate>Wed, 27 Sep 2017 23:59:59 +0000</pubDate>
       
@@ -34,7 +34,7 @@ And this is what I got , http://www.gnu.org/software/bash/manual/html_node/The-S
     </item>
     
     <item>
-      <title>#TIL 2017-09-26 : BASH exiting on first error</title>
+      <title>#TIL : BASH exiting on first error</title>
       <link>https://khanhicetea.com/til/2017-09-26-bash-exiting-on-first-error/</link>
       <pubDate>Tue, 26 Sep 2017 23:59:59 +0000</pubDate>
       
@@ -45,7 +45,7 @@ set +e errorCmd $1 echo &amp;quot;Still run here !&amp;quot;  </description>
     </item>
     
     <item>
-      <title>#TIL 2017-09-26 : BASH return a value in function</title>
+      <title>#TIL : BASH return a value in function</title>
       <link>https://khanhicetea.com/til/2017-09-26-bash-return-a-value-in-function/</link>
       <pubDate>Tue, 26 Sep 2017 23:59:59 +0000</pubDate>
       
@@ -56,7 +56,7 @@ hello() { echo &amp;quot;Hello $1&amp;quot; } hw=$(hello &amp;quot;KhanhIceTea&a
     </item>
     
     <item>
-      <title>#TIL 2017-05-22 : zcat : decompressing pipe tool</title>
+      <title>#TIL : zcat : decompressing pipe tool</title>
       <link>https://khanhicetea.com/til/2017-05-22-zcat-decompressing-pipe-tool/</link>
       <pubDate>Mon, 22 May 2017 23:59:59 +0000</pubDate>
       
@@ -69,7 +69,7 @@ $ mysqldump -u root -p db_name1 | gzip &amp;gt; db_name.sql.gz $ zcat db_name.sq
     </item>
     
     <item>
-      <title>#TIL 2017-05-19 : Checking forced push conflicts on source code in auto testing</title>
+      <title>#TIL : Checking forced push conflicts on source code in auto testing</title>
       <link>https://khanhicetea.com/til/2017-05-19-checking-forced-push-conflicts-on-source-code-in-auto-testing/</link>
       <pubDate>Fri, 19 May 2017 23:59:59 +0000</pubDate>
       
@@ -105,7 +105,7 @@ What does script do :
     </item>
     
     <item>
-      <title>#TIL 2016-03-26 : Bash shell shortcuts</title>
+      <title>#TIL : Bash shell shortcuts</title>
       <link>https://khanhicetea.com/til/2016-03-26-bash-shell-shortcuts/</link>
       <pubDate>Sat, 26 Mar 2016 23:59:59 +0000</pubDate>
       
@@ -114,7 +114,7 @@ What does script do :
     </item>
     
     <item>
-      <title>#TIL 2016-03-26 : Stats your top-10 frequently commands</title>
+      <title>#TIL : Stats your top-10 frequently commands</title>
       <link>https://khanhicetea.com/til/2016-03-26-stats-your-top-10-frequently-commands/</link>
       <pubDate>Sat, 26 Mar 2016 23:59:59 +0000</pubDate>
       
@@ -125,7 +125,7 @@ $ history | awk &#39;{print $2}&#39; | sort | uniq -c | sort -nr | head  Example
     </item>
     
     <item>
-      <title>#TIL 2015-12-30 : Commands</title>
+      <title>#TIL : Commands</title>
       <link>https://khanhicetea.com/til/2015-12-30-commands/</link>
       <pubDate>Wed, 30 Dec 2015 23:59:59 +0000</pubDate>
       

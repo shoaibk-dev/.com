@@ -1,6 +1,6 @@
 +++
 date = "2016-03-08T23:59:59"
-title = "#TIL 2016-03-08 : F-cking stupid limit of input vars"
+title = "#TIL : F-cking stupid limit of input vars"
 description = "I learned in 2016-03-08 about input, php, post-data"
 categories = ["Today I learned", "php"]
 tags = ["input", "php", "post-data"]

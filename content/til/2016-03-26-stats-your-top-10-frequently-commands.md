@@ -1,6 +1,6 @@
 +++
 date = "2016-03-26T23:59:59"
-title = "#TIL 2016-03-26 : Stats your top-10 frequently commands"
+title = "#TIL : Stats your top-10 frequently commands"
 description = "I learned in 2016-03-26 about sysadmin, command-line, bash"
 categories = ["Today I learned", "sysadmin"]
 tags = ["sysadmin", "command-line", "bash"]

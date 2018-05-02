@@ -1,6 +1,6 @@
 +++
 date = "2017-11-22T23:59:59"
-title = "#TIL 2017-11-22 : Reduce init time MySQL docker image"
+title = "#TIL : Reduce init time MySQL docker image"
 description = "I learned in 2017-11-22 about docker, ci, devops"
 categories = ["Today I learned", "docker"]
 tags = ["docker", "ci", "devops"]

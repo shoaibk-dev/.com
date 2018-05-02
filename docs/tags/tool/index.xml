@@ -12,7 +12,7 @@
     
     
     <item>
-      <title>#TIL 2017-10-20 : Using watch command to tracking changes in period time</title>
+      <title>#TIL : Using watch command to tracking changes in period time</title>
       <link>https://khanhicetea.com/til/2017-10-20-using-watch-command-to-tracking-changes-in-period-time/</link>
       <pubDate>Fri, 20 Oct 2017 23:59:59 +0000</pubDate>
       
@@ -24,7 +24,7 @@ $ watch -n 1 -d go run learn.go  This command will compile and run learn.</descr
     </item>
     
     <item>
-      <title>#TIL 2017-10-07 : Using netcat as tiny TCP debug tool</title>
+      <title>#TIL : Using netcat as tiny TCP debug tool</title>
       <link>https://khanhicetea.com/til/2017-10-07-using-netcat-as-tiny-tcp-debug-tool/</link>
       <pubDate>Sat, 07 Oct 2017 23:59:59 +0000</pubDate>
       
@@ -38,7 +38,7 @@ $ printf &amp;quot;GET /xinchao HTTP/1.1\r\n\r\n&amp;quot; | nc 127.0.0.1 8000 |
     </item>
     
     <item>
-      <title>#TIL 2017-05-22 : zcat : decompressing pipe tool</title>
+      <title>#TIL : zcat : decompressing pipe tool</title>
       <link>https://khanhicetea.com/til/2017-05-22-zcat-decompressing-pipe-tool/</link>
       <pubDate>Mon, 22 May 2017 23:59:59 +0000</pubDate>
       

@@ -1,6 +1,6 @@
 +++
 date = "2017-09-07T23:59:59"
-title = "#TIL 2017-09-07 : Generate dhparam file faster"
+title = "#TIL : Generate dhparam file faster"
 description = "I learned in 2017-09-07 about sysadmin"
 categories = ["Today I learned", "sysadmin"]
 tags = ["sysadmin"]

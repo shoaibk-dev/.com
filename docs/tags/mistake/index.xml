@@ -12,7 +12,7 @@
     
     
     <item>
-      <title>#TIL 2017-08-06 : realpath function</title>
+      <title>#TIL : realpath function</title>
       <link>https://khanhicetea.com/til/2017-08-06-realpath-function/</link>
       <pubDate>Sun, 06 Aug 2017 23:59:59 +0000</pubDate>
       
@@ -22,7 +22,7 @@ function storage_path($folder) { return realpath(__DIR__.&#39;/storage/&#39;.$fo
     </item>
     
     <item>
-      <title>#TIL 2017-02-23 : Random quote 23 Feb 2017</title>
+      <title>#TIL : Random quote 23 Feb 2017</title>
       <link>https://khanhicetea.com/til/2017-02-23-random-quote-23-feb-2017/</link>
       <pubDate>Thu, 23 Feb 2017 23:59:59 +0000</pubDate>
       

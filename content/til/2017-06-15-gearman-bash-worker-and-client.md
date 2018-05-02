@@ -1,6 +1,6 @@
 +++
 date = "2017-06-15T23:59:59"
-title = "#TIL 2017-06-15 : Gearman bash worker and client"
+title = "#TIL : Gearman bash worker and client"
 description = "I learned in 2017-06-15 about sysadmin, gearman, queue"
 categories = ["Today I learned", "sysadmin"]
 tags = ["sysadmin", "gearman", "queue"]

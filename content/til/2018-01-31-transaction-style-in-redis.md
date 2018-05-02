@@ -1,6 +1,6 @@
 +++
 date = "2018-01-31T23:59:59"
-title = "#TIL 2018-01-31 : Transaction style in Redis"
+title = "#TIL : Transaction style in Redis"
 description = "I learned in 2018-01-31 about transaction, redis"
 categories = ["Today I learned", "redis"]
 tags = ["transaction", "redis"]

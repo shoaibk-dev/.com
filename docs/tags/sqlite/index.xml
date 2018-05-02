@@ -12,7 +12,7 @@
     
     
     <item>
-      <title>#TIL 2018-05-02 : Using temporary another database in SQLite</title>
+      <title>#TIL : Using temporary another database in SQLite</title>
       <link>https://khanhicetea.com/til/2018-05-02-using-temporary-another-database-in-sqlite/</link>
       <pubDate>Wed, 02 May 2018 23:59:59 +0000</pubDate>
       
@@ -24,7 +24,7 @@ $ sqlite3 main.sqlite  Then using the ATTACH command to attach another database 
     </item>
     
     <item>
-      <title>#TIL 2017-04-25 : Basics about sqlite command line tool</title>
+      <title>#TIL : Basics about sqlite command line tool</title>
       <link>https://khanhicetea.com/til/2017-04-25-basics-about-sqlite-command-line-tool/</link>
       <pubDate>Tue, 25 Apr 2017 23:59:59 +0000</pubDate>
       

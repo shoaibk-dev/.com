@@ -1,6 +1,6 @@
 +++
 date = "2017-05-19T23:59:59"
-title = "#TIL 2017-05-19 : wget Output flag"
+title = "#TIL : wget Output flag"
 description = "I learned in 2017-05-19 about sysadmin, shell"
 categories = ["Today I learned", "sysadmin"]
 tags = ["sysadmin", "shell"]

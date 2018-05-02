@@ -1,6 +1,6 @@
 +++
 date = "2017-09-26T23:59:59"
-title = "#TIL 2017-09-26 : BASH return a value in function"
+title = "#TIL : BASH return a value in function"
 description = "I learned in 2017-09-26 about sysadmin, shell, bash"
 categories = ["Today I learned", "sysadmin"]
 tags = ["sysadmin", "shell", "bash"]

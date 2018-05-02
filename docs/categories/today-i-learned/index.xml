@@ -12,7 +12,7 @@
     
     
     <item>
-      <title>#TIL 2018-05-02 : Using temporary another database in SQLite</title>
+      <title>#TIL : Using temporary another database in SQLite</title>
       <link>https://khanhicetea.com/til/2018-05-02-using-temporary-another-database-in-sqlite/</link>
       <pubDate>Wed, 02 May 2018 23:59:59 +0000</pubDate>
       
@@ -24,7 +24,7 @@ $ sqlite3 main.sqlite  Then using the ATTACH command to attach another database 
     </item>
     
     <item>
-      <title>#TIL 2018-04-30 : Exporting environment variables on virtual env activate</title>
+      <title>#TIL : Exporting environment variables on virtual env activate</title>
       <link>https://khanhicetea.com/til/2018-04-30-exporting-environment-variables-on-virtual-env-activate/</link>
       <pubDate>Mon, 30 Apr 2018 23:59:59 +0000</pubDate>
       
@@ -34,7 +34,7 @@ $ sqlite3 main.sqlite  Then using the ATTACH command to attach another database 
     </item>
     
     <item>
-      <title>#TIL 2018-04-24 : Setup wildcard domains .test for development in MacOS</title>
+      <title>#TIL : Setup wildcard domains .test for development in MacOS</title>
       <link>https://khanhicetea.com/til/2018-04-24-setup-wildcard-domains-test-for-development-in-macos/</link>
       <pubDate>Tue, 24 Apr 2018 23:59:59 +0000</pubDate>
       
@@ -44,7 +44,7 @@ There is a better way to achieve that by using dnsmasq, then set up a wildcard d
     </item>
     
     <item>
-      <title>#TIL 2018-04-10 : Create tiny chat channel via netcat</title>
+      <title>#TIL : Create tiny chat channel via netcat</title>
       <link>https://khanhicetea.com/til/2018-04-10-create-tiny-chat-channel-via-netcat/</link>
       <pubDate>Tue, 10 Apr 2018 23:59:59 +0000</pubDate>
       
@@ -56,7 +56,7 @@ $ nc 192.168.1.2 7777  Finnally, start chatting !</description>
     </item>
     
     <item>
-      <title>#TIL 2018-04-10 : Send a file through networking via netcat</title>
+      <title>#TIL : Send a file through networking via netcat</title>
       <link>https://khanhicetea.com/til/2018-04-10-send-a-file-through-networking-via-netcat/</link>
       <pubDate>Tue, 10 Apr 2018 23:59:59 +0000</pubDate>
       
@@ -66,7 +66,7 @@ On the machine A (with IP address : 192.</description>
     </item>
     
     <item>
-      <title>#TIL 2018-03-25 : Create a sequence of numbers</title>
+      <title>#TIL : Create a sequence of numbers</title>
       <link>https://khanhicetea.com/til/2018-03-25-create-a-sequence-of-numbers/</link>
       <pubDate>Sun, 25 Mar 2018 23:59:59 +0000</pubDate>
       
@@ -78,7 +78,7 @@ SEQ(1) User Commands SEQ(1) NAME seq - print a sequence of numbers SYNOPSIS seq 
     </item>
     
     <item>
-      <title>#TIL 2018-03-25 : Cut file content from line to line</title>
+      <title>#TIL : Cut file content from line to line</title>
       <link>https://khanhicetea.com/til/2018-03-25-cut-file-content-from-line-to-line/</link>
       <pubDate>Sun, 25 Mar 2018 23:59:59 +0000</pubDate>
       
@@ -89,7 +89,7 @@ You have many ways to achieve that :
     </item>
     
     <item>
-      <title>#TIL 2018-03-25 : Prepend line number to file</title>
+      <title>#TIL : Prepend line number to file</title>
       <link>https://khanhicetea.com/til/2018-03-25-prepend-line-number-to-file/</link>
       <pubDate>Sun, 25 Mar 2018 23:59:59 +0000</pubDate>
       
@@ -102,7 +102,7 @@ cat -n a.txt b.txt c.txt</description>
     </item>
     
     <item>
-      <title>#TIL 2018-03-14 : Flush DNS cache on iOS device</title>
+      <title>#TIL : Flush DNS cache on iOS device</title>
       <link>https://khanhicetea.com/til/2018-03-14-flush-dns-cache-on-ios-device/</link>
       <pubDate>Wed, 14 Mar 2018 23:59:59 +0000</pubDate>
       
@@ -112,7 +112,7 @@ cat -n a.txt b.txt c.txt</description>
     </item>
     
     <item>
-      <title>#TIL 2018-03-14 : Install CA root certificate on iOS device</title>
+      <title>#TIL : Install CA root certificate on iOS device</title>
       <link>https://khanhicetea.com/til/2018-03-14-install-ca-root-certificate-on-ios-device/</link>
       <pubDate>Wed, 14 Mar 2018 23:59:59 +0000</pubDate>
       
@@ -123,7 +123,7 @@ This is the way to install and enable custom CA Root cert :</description>
     </item>
     
     <item>
-      <title>#TIL 2018-03-01 : Prevent source hacking from .git directory exposing</title>
+      <title>#TIL : Prevent source hacking from .git directory exposing</title>
       <link>https://khanhicetea.com/til/2018-03-01-prevent-source-hacking-from-git-directory-exposing/</link>
       <pubDate>Thu, 01 Mar 2018 23:59:59 +0000</pubDate>
       
@@ -134,7 +134,7 @@ So to prevent this happens, try to deny all http access to hidden files and dire
     </item>
     
     <item>
-      <title>#TIL 2018-03-01 : Sending Cookie in AJAX CORs request</title>
+      <title>#TIL : Sending Cookie in AJAX CORs request</title>
       <link>https://khanhicetea.com/til/2018-03-01-sending-cookie-in-ajax-cors-request/</link>
       <pubDate>Thu, 01 Mar 2018 23:59:59 +0000</pubDate>
       
@@ -144,7 +144,7 @@ In this case, CORs response must specify which origin is allowed (mean no wildca
     </item>
     
     <item>
-      <title>#TIL 2018-02-23 : Build lightweight image by using multistage</title>
+      <title>#TIL : Build lightweight image by using multistage</title>
       <link>https://khanhicetea.com/til/2018-02-23-build-lightweight-image-by-using-multistage/</link>
       <pubDate>Fri, 23 Feb 2018 23:59:59 +0000</pubDate>
       
@@ -157,7 +157,7 @@ FROM golang:1.9.2 WORKDIR /go/src/github.com/khanhicetea/test/ COPY . . RUN CGO_
     </item>
     
     <item>
-      <title>#TIL 2018-02-21 : Convert tabs to spaces</title>
+      <title>#TIL : Convert tabs to spaces</title>
       <link>https://khanhicetea.com/til/2018-02-21-convert-tabs-to-spaces/</link>
       <pubDate>Wed, 21 Feb 2018 23:59:59 +0000</pubDate>
       
@@ -168,7 +168,7 @@ filetype plugin indent on set tabstop=4 set shiftwidth=4 set expandtab  To conve
     </item>
     
     <item>
-      <title>#TIL 2018-02-21 : List opening ports or listening UNIX sockets</title>
+      <title>#TIL : List opening ports or listening UNIX sockets</title>
       <link>https://khanhicetea.com/til/2018-02-21-list-opening-ports-or-listening-unix-sockets/</link>
       <pubDate>Wed, 21 Feb 2018 23:59:59 +0000</pubDate>
       
@@ -179,7 +179,7 @@ $ sudo netstat -npl  Tip to remember command : network statistics - natual langu
     </item>
     
     <item>
-      <title>#TIL 2018-01-31 : Check vcl file syntax before restarting</title>
+      <title>#TIL : Check vcl file syntax before restarting</title>
       <link>https://khanhicetea.com/til/2018-01-31-check-vcl-file-syntax-before-restarting/</link>
       <pubDate>Wed, 31 Jan 2018 23:59:59 +0000</pubDate>
       
@@ -190,7 +190,7 @@ $ varnishd -C -f [vcl file path]  Varnish will compile the file and output the r
     </item>
     
     <item>
-      <title>#TIL 2018-01-31 : Transaction style in Redis</title>
+      <title>#TIL : Transaction style in Redis</title>
       <link>https://khanhicetea.com/til/2018-01-31-transaction-style-in-redis/</link>
       <pubDate>Wed, 31 Jan 2018 23:59:59 +0000</pubDate>
       
@@ -201,7 +201,7 @@ The result will be returned in order your command queue list.</description>
     </item>
     
     <item>
-      <title>#TIL 2018-01-30 : Using mark to bookmark checkpoints in files</title>
+      <title>#TIL : Using mark to bookmark checkpoints in files</title>
       <link>https://khanhicetea.com/til/2018-01-30-using-mark-to-bookmark-checkpoints-in-files/</link>
       <pubDate>Tue, 30 Jan 2018 23:59:59 +0000</pubDate>
       
@@ -212,7 +212,7 @@ Go to a mark - [NORMAL MODE] , type backstick ` then follow by the letter your m
     </item>
     
     <item>
-      <title>#TIL 2018-01-25 : Basics of Elasticsearch</title>
+      <title>#TIL : Basics of Elasticsearch</title>
       <link>https://khanhicetea.com/til/2018-01-25-basics-of-elasticsearch/</link>
       <pubDate>Thu, 25 Jan 2018 23:59:59 +0000</pubDate>
       
@@ -224,7 +224,7 @@ This is what I learned :
     </item>
     
     <item>
-      <title>#TIL 2018-01-22 : Ansible running host pattern</title>
+      <title>#TIL : Ansible running host pattern</title>
       <link>https://khanhicetea.com/til/2018-01-22-ansible-running-host-pattern/</link>
       <pubDate>Mon, 22 Jan 2018 23:59:59 +0000</pubDate>
       
@@ -235,7 +235,7 @@ This is what I learned :
     </item>
     
     <item>
-      <title>#TIL 2018-01-22 : Use journalctl to check system logs</title>
+      <title>#TIL : Use journalctl to check system logs</title>
       <link>https://khanhicetea.com/til/2018-01-22-use-journalctl-to-check-system-logs/</link>
       <pubDate>Mon, 22 Jan 2018 23:59:59 +0000</pubDate>
       
@@ -246,7 +246,7 @@ Here are simple options :
     </item>
     
     <item>
-      <title>#TIL 2018-01-16 : Disable IPv6 to stop getting stuck in network</title>
+      <title>#TIL : Disable IPv6 to stop getting stuck in network</title>
       <link>https://khanhicetea.com/til/2018-01-16-disable-ipv6-to-stop-getting-stuck-in-network/</link>
       <pubDate>Tue, 16 Jan 2018 23:59:59 +0000</pubDate>
       
@@ -258,7 +258,7 @@ $ echo &amp;quot;net.ipv6.conf.all.disable_ipv6 = 1&amp;quot; | sudo tee -a /etc
     </item>
     
     <item>
-      <title>#TIL 2018-01-16 : Set up simple rate limiting on specified port using UFW</title>
+      <title>#TIL : Set up simple rate limiting on specified port using UFW</title>
       <link>https://khanhicetea.com/til/2018-01-16-set-up-simple-rate-limiting-on-specified-port-using-ufw/</link>
       <pubDate>Tue, 16 Jan 2018 23:59:59 +0000</pubDate>
       
@@ -269,7 +269,7 @@ You can use simple command to manage your firewall</description>
     </item>
     
     <item>
-      <title>#TIL 2018-01-14 : Trigger event after setting val in jQuery</title>
+      <title>#TIL : Trigger event after setting val in jQuery</title>
       <link>https://khanhicetea.com/til/2018-01-14-trigger-event-after-setting-val-in-jquery/</link>
       <pubDate>Sun, 14 Jan 2018 23:59:59 +0000</pubDate>
       
@@ -279,7 +279,7 @@ $(&#39;#selectCity&#39;).change(function() { console.log($(this).val()); }); $(&
     </item>
     
     <item>
-      <title>#TIL 2018-01-14 : Tại sao biển xanh lại mặn ? :lol:</title>
+      <title>#TIL : Tại sao biển xanh lại mặn ? :lol:</title>
       <link>https://khanhicetea.com/til/2018-01-14-ti-sao-bin-xanh-li-mn-lol/</link>
       <pubDate>Sun, 14 Jan 2018 23:59:59 +0000</pubDate>
       
@@ -290,7 +290,7 @@ $(&#39;#selectCity&#39;).change(function() { console.log($(this).val()); }); $(&
     </item>
     
     <item>
-      <title>#TIL 2018-01-10 : Tracking changes of cookie on webpage</title>
+      <title>#TIL : Tracking changes of cookie on webpage</title>
       <link>https://khanhicetea.com/til/2018-01-10-tracking-changes-of-cookie-on-webpage/</link>
       <pubDate>Wed, 10 Jan 2018 23:59:59 +0000</pubDate>
       
@@ -300,7 +300,7 @@ $(&#39;#selectCity&#39;).change(function() { console.log($(this).val()); }); $(&
     </item>
     
     <item>
-      <title>#TIL 2018-01-08 : Bypass CORS by using JSONP callback</title>
+      <title>#TIL : Bypass CORS by using JSONP callback</title>
       <link>https://khanhicetea.com/til/2018-01-08-bypass-cors-by-using-jsonp-callback/</link>
       <pubDate>Mon, 08 Jan 2018 23:59:59 +0000</pubDate>
       
@@ -310,7 +310,7 @@ The mechanism of JSONP is simple, instead of returning a JSON data. It will retu
     </item>
     
     <item>
-      <title>#TIL 2018-01-07 : Debug js code using console.trace</title>
+      <title>#TIL : Debug js code using console.trace</title>
       <link>https://khanhicetea.com/til/2018-01-07-debug-js-code-using-console-trace/</link>
       <pubDate>Sun, 07 Jan 2018 23:59:59 +0000</pubDate>
       
@@ -322,7 +322,7 @@ function foo() { var a = 1; bar(a); } function bar(x) { console.log(x); console.
     </item>
     
     <item>
-      <title>#TIL 2018-01-07 : Define property of an object in hacking way</title>
+      <title>#TIL : Define property of an object in hacking way</title>
       <link>https://khanhicetea.com/til/2018-01-07-define-property-of-an-object-in-hacking-way/</link>
       <pubDate>Sun, 07 Jan 2018 23:59:59 +0000</pubDate>
       
@@ -334,7 +334,7 @@ const foo = {}; Object.defineProperty(a, &#39;bar&#39;, { value: &#39;hogehoge&#
     </item>
     
     <item>
-      <title>#TIL 2018-01-04 : Sleeping connections in MySQL</title>
+      <title>#TIL : Sleeping connections in MySQL</title>
       <link>https://khanhicetea.com/til/2018-01-04-sleeping-connections-in-mysql/</link>
       <pubDate>Thu, 04 Jan 2018 23:59:59 +0000</pubDate>
       
@@ -345,7 +345,7 @@ So next time, remember to close your connection before terminating your app.</de
     </item>
     
     <item>
-      <title>#TIL 2018-01-03 : Create cross-platform downloading app URL</title>
+      <title>#TIL : Create cross-platform downloading app URL</title>
       <link>https://khanhicetea.com/til/2018-01-03-create-cross-platform-downloading-app-url/</link>
       <pubDate>Wed, 03 Jan 2018 23:59:59 +0000</pubDate>
       
@@ -356,7 +356,7 @@ The key of problem is detecting user platform, which can be done by extracting t
     </item>
     
     <item>
-      <title>#TIL 2018-01-03 : HSTS rule in browser</title>
+      <title>#TIL : HSTS rule in browser</title>
       <link>https://khanhicetea.com/til/2018-01-03-hsts-rule-in-browser/</link>
       <pubDate>Wed, 03 Jan 2018 23:59:59 +0000</pubDate>
       
@@ -367,7 +367,7 @@ Enabling HSTS on your web will make your browser validate every SSL issues more 
     </item>
     
     <item>
-      <title>#TIL 2017-12-07 : Using web proxy to bypass firewalls</title>
+      <title>#TIL : Using web proxy to bypass firewalls</title>
       <link>https://khanhicetea.com/til/2017-12-07-using-web-proxy-to-bypass-firewalls/</link>
       <pubDate>Thu, 07 Dec 2017 23:59:59 +0000</pubDate>
       
@@ -377,7 +377,7 @@ One solution is using a web proxy (http proxy, socks4 or socks5) to bypass the f
     </item>
     
     <item>
-      <title>#TIL 2017-11-27 : Fastly conflict detector script</title>
+      <title>#TIL : Fastly conflict detector script</title>
       <link>https://khanhicetea.com/til/2017-11-27-fastly-conflict-detector-script/</link>
       <pubDate>Mon, 27 Nov 2017 23:59:59 +0000</pubDate>
       
@@ -388,7 +388,7 @@ This was the script
     </item>
     
     <item>
-      <title>#TIL 2017-11-24 : Getting your external IP</title>
+      <title>#TIL : Getting your external IP</title>
       <link>https://khanhicetea.com/til/2017-11-24-getting-your-external-ip/</link>
       <pubDate>Fri, 24 Nov 2017 23:59:59 +0000</pubDate>
       
@@ -398,7 +398,7 @@ This was the script
     </item>
     
     <item>
-      <title>#TIL 2017-11-22 : Reduce init time MySQL docker image</title>
+      <title>#TIL : Reduce init time MySQL docker image</title>
       <link>https://khanhicetea.com/til/2017-11-22-reduce-init-time-mysql-docker-image/</link>
       <pubDate>Wed, 22 Nov 2017 23:59:59 +0000</pubDate>
       
@@ -409,7 +409,7 @@ FROM mysql:5.7 # Remove mysql_ssl_rsa_setup to ignore setup SSL certs RUN rm -f 
     </item>
     
     <item>
-      <title>#TIL 2017-11-22 : using git hooks to improve working flow</title>
+      <title>#TIL : using git hooks to improve working flow</title>
       <link>https://khanhicetea.com/til/2017-11-22-using-git-hooks-to-improve-working-flow/</link>
       <pubDate>Wed, 22 Nov 2017 23:59:59 +0000</pubDate>
       
@@ -420,7 +420,7 @@ $ ln pre-commit .</description>
     </item>
     
     <item>
-      <title>#TIL 2017-10-20 : Using watch command to tracking changes in period time</title>
+      <title>#TIL : Using watch command to tracking changes in period time</title>
       <link>https://khanhicetea.com/til/2017-10-20-using-watch-command-to-tracking-changes-in-period-time/</link>
       <pubDate>Fri, 20 Oct 2017 23:59:59 +0000</pubDate>
       
@@ -432,7 +432,7 @@ $ watch -n 1 -d go run learn.go  This command will compile and run learn.</descr
     </item>
     
     <item>
-      <title>#TIL 2017-10-13 : Indexes on multiple columns</title>
+      <title>#TIL : Indexes on multiple columns</title>
       <link>https://khanhicetea.com/til/2017-10-13-indexes-on-multiple-columns/</link>
       <pubDate>Fri, 13 Oct 2017 23:59:59 +0000</pubDate>
       
@@ -442,7 +442,7 @@ $ watch -n 1 -d go run learn.go  This command will compile and run learn.</descr
     </item>
     
     <item>
-      <title>#TIL 2017-10-13 : Using netcat to wait a TCP service</title>
+      <title>#TIL : Using netcat to wait a TCP service</title>
       <link>https://khanhicetea.com/til/2017-10-13-using-netcat-to-wait-a-tcp-service/</link>
       <pubDate>Fri, 13 Oct 2017 23:59:59 +0000</pubDate>
       
@@ -453,7 +453,7 @@ $ while ! echo -e &#39;\x04&#39; | nc [service_host] [service_port]; do sleep 1;
     </item>
     
     <item>
-      <title>#TIL 2017-10-07 : Using netcat as tiny TCP debug tool</title>
+      <title>#TIL : Using netcat as tiny TCP debug tool</title>
       <link>https://khanhicetea.com/til/2017-10-07-using-netcat-as-tiny-tcp-debug-tool/</link>
       <pubDate>Sat, 07 Oct 2017 23:59:59 +0000</pubDate>
       
@@ -467,7 +467,7 @@ $ printf &amp;quot;GET /xinchao HTTP/1.1\r\n\r\n&amp;quot; | nc 127.0.0.1 8000 |
     </item>
     
     <item>
-      <title>#TIL 2017-10-05 : Simple HTTP server function helper</title>
+      <title>#TIL : Simple HTTP server function helper</title>
       <link>https://khanhicetea.com/til/2017-10-05-simple-http-server-function-helper/</link>
       <pubDate>Thu, 05 Oct 2017 23:59:59 +0000</pubDate>
       
@@ -477,7 +477,7 @@ function server() { local port=&amp;quot;${1:-8000}&amp;quot; # Getting port num
     </item>
     
     <item>
-      <title>#TIL 2017-10-04 : How SMTP works</title>
+      <title>#TIL : How SMTP works</title>
       <link>https://khanhicetea.com/til/2017-10-04-how-smtp-works/</link>
       <pubDate>Wed, 04 Oct 2017 23:59:59 +0000</pubDate>
       
@@ -488,7 +488,7 @@ $ nslookup -type=mx gmail.com 8.8.8.8 Server: 8.8.8.8 Address: 8.8.8.8#53 Non-au
     </item>
     
     <item>
-      <title>#TIL 2017-10-04 : TIME command output meaning</title>
+      <title>#TIL : TIME command output meaning</title>
       <link>https://khanhicetea.com/til/2017-10-04-time-command-output-meaning/</link>
       <pubDate>Wed, 04 Oct 2017 23:59:59 +0000</pubDate>
       
@@ -498,7 +498,7 @@ $ time my_program arg1 arg2 real 0m0.003s user 0m0.000s sys 0m0.004s   real : wa
     </item>
     
     <item>
-      <title>#TIL 2017-09-27 : BASH tracing commands</title>
+      <title>#TIL : BASH tracing commands</title>
       <link>https://khanhicetea.com/til/2017-09-27-bash-tracing-commands/</link>
       <pubDate>Wed, 27 Sep 2017 23:59:59 +0000</pubDate>
       
@@ -510,7 +510,7 @@ And this is what I got , http://www.gnu.org/software/bash/manual/html_node/The-S
     </item>
     
     <item>
-      <title>#TIL 2017-09-27 : Send ENTER key to kernel</title>
+      <title>#TIL : Send ENTER key to kernel</title>
       <link>https://khanhicetea.com/til/2017-09-27-send-enter-key-to-kernel/</link>
       <pubDate>Wed, 27 Sep 2017 23:59:59 +0000</pubDate>
       
@@ -520,7 +520,7 @@ This is because you only send a key press (KEY DOWN) but don&amp;rsquo;t send an
     </item>
     
     <item>
-      <title>#TIL 2017-09-26 : BASH exiting on first error</title>
+      <title>#TIL : BASH exiting on first error</title>
       <link>https://khanhicetea.com/til/2017-09-26-bash-exiting-on-first-error/</link>
       <pubDate>Tue, 26 Sep 2017 23:59:59 +0000</pubDate>
       
@@ -531,7 +531,7 @@ set +e errorCmd $1 echo &amp;quot;Still run here !&amp;quot;  </description>
     </item>
     
     <item>
-      <title>#TIL 2017-09-26 : BASH return a value in function</title>
+      <title>#TIL : BASH return a value in function</title>
       <link>https://khanhicetea.com/til/2017-09-26-bash-return-a-value-in-function/</link>
       <pubDate>Tue, 26 Sep 2017 23:59:59 +0000</pubDate>
       
@@ -542,7 +542,7 @@ hello() { echo &amp;quot;Hello $1&amp;quot; } hw=$(hello &amp;quot;KhanhIceTea&a
     </item>
     
     <item>
-      <title>#TIL 2017-09-25 : Blocking specified country to prevent from DDOS</title>
+      <title>#TIL : Blocking specified country to prevent from DDOS</title>
       <link>https://khanhicetea.com/til/2017-09-25-blocking-specified-country-to-prevent-from-ddos/</link>
       <pubDate>Mon, 25 Sep 2017 23:59:59 +0000</pubDate>
       
@@ -553,7 +553,7 @@ http://www.ipdeny.com/ipblocks/</description>
     </item>
     
     <item>
-      <title>#TIL 2017-09-25 : Zip compressing list of files</title>
+      <title>#TIL : Zip compressing list of files</title>
       <link>https://khanhicetea.com/til/2017-09-25-zip-compressing-list-of-files/</link>
       <pubDate>Mon, 25 Sep 2017 23:59:59 +0000</pubDate>
       
@@ -565,7 +565,7 @@ $ find . -mmin -60 -print | zip changed_1_hour_ago -@  This will zip all changed
     </item>
     
     <item>
-      <title>#TIL 2017-09-07 : Generate dhparam file faster</title>
+      <title>#TIL : Generate dhparam file faster</title>
       <link>https://khanhicetea.com/til/2017-09-07-generate-dhparam-file-faster/</link>
       <pubDate>Thu, 07 Sep 2017 23:59:59 +0000</pubDate>
       
@@ -575,7 +575,7 @@ $ openssl dhparam -dsaparam -out /etc/ssl/private/dhparam.pem 4096  Ref : https:
     </item>
     
     <item>
-      <title>#TIL 2017-09-07 : Lock and unlock a user password</title>
+      <title>#TIL : Lock and unlock a user password</title>
       <link>https://khanhicetea.com/til/2017-09-07-lock-and-unlock-a-user-password/</link>
       <pubDate>Thu, 07 Sep 2017 23:59:59 +0000</pubDate>
       
@@ -587,7 +587,7 @@ $ sudo passwd -u [user]  </description>
     </item>
     
     <item>
-      <title>#TIL 2017-09-07 : TCP FIN timeout</title>
+      <title>#TIL : TCP FIN timeout</title>
       <link>https://khanhicetea.com/til/2017-09-07-tcp-fin-timeout/</link>
       <pubDate>Thu, 07 Sep 2017 23:59:59 +0000</pubDate>
       
@@ -597,7 +597,7 @@ net.ipv4.tcp_fin_timeout = 15  Ref : https://www.linode.com/docs/web-servers/ngi
     </item>
     
     <item>
-      <title>#TIL 2017-09-05 : Ansible playbook : skip to task</title>
+      <title>#TIL : Ansible playbook : skip to task</title>
       <link>https://khanhicetea.com/til/2017-09-05-ansible-playbook-skip-to-task/</link>
       <pubDate>Tue, 05 Sep 2017 23:59:59 +0000</pubDate>
       
@@ -607,7 +607,7 @@ $ ansible-playbook playbook.yml --start-at=&amp;quot;[your task name]&amp;quot; 
     </item>
     
     <item>
-      <title>#TIL 2017-09-05 : Grep : find a string in folder</title>
+      <title>#TIL : Grep : find a string in folder</title>
       <link>https://khanhicetea.com/til/2017-09-05-grep-find-a-string-in-folder/</link>
       <pubDate>Tue, 05 Sep 2017 23:59:59 +0000</pubDate>
       
@@ -619,7 +619,7 @@ $ grep -nr -C 3 &#39;hello&#39; src  </description>
     </item>
     
     <item>
-      <title>#TIL 2017-09-01 : Create SSH tunnel manually</title>
+      <title>#TIL : Create SSH tunnel manually</title>
       <link>https://khanhicetea.com/til/2017-09-01-create-ssh-tunnel-manually/</link>
       <pubDate>Fri, 01 Sep 2017 23:59:59 +0000</pubDate>
       
@@ -633,7 +633,7 @@ $ telnet 127.0.0.1 3307 $ # or $ mysql -h 127.</description>
     </item>
     
     <item>
-      <title>#TIL 2017-09-01 : Enable reverse proxy in CentOS</title>
+      <title>#TIL : Enable reverse proxy in CentOS</title>
       <link>https://khanhicetea.com/til/2017-09-01-enable-reverse-proxy-in-centos/</link>
       <pubDate>Fri, 01 Sep 2017 23:59:59 +0000</pubDate>
       
@@ -645,7 +645,7 @@ $ /usr/sbin/setsebool -P httpd_can_network_connect 1  </description>
     </item>
     
     <item>
-      <title>#TIL 2017-09-01 : Mycli : a new good cli MySql Client</title>
+      <title>#TIL : Mycli : a new good cli MySql Client</title>
       <link>https://khanhicetea.com/til/2017-09-01-mycli-a-new-good-cli-mysql-client/</link>
       <pubDate>Fri, 01 Sep 2017 23:59:59 +0000</pubDate>
       
@@ -658,7 +658,7 @@ $ mycli -h 127.0.0.1 -P 3306 -u root  Screencast</description>
     </item>
     
     <item>
-      <title>#TIL 2017-08-10 : Eval function and with block</title>
+      <title>#TIL : Eval function and with block</title>
       <link>https://khanhicetea.com/til/2017-08-10-eval-function-and-with-block/</link>
       <pubDate>Thu, 10 Aug 2017 23:59:59 +0000</pubDate>
       
@@ -667,7 +667,7 @@ $ mycli -h 127.0.0.1 -P 3306 -u root  Screencast</description>
     </item>
     
     <item>
-      <title>#TIL 2017-08-10 : Scope and Closure</title>
+      <title>#TIL : Scope and Closure</title>
       <link>https://khanhicetea.com/til/2017-08-10-scope-and-closure/</link>
       <pubDate>Thu, 10 Aug 2017 23:59:59 +0000</pubDate>
       
@@ -681,7 +681,7 @@ for (var i=1; i&amp;lt;=5; i++) { (function(j){ setTimeout( function timer(){ co
     </item>
     
     <item>
-      <title>#TIL 2017-08-08 : Ping Google to crawl updated content</title>
+      <title>#TIL : Ping Google to crawl updated content</title>
       <link>https://khanhicetea.com/til/2017-08-08-ping-google-to-crawl-updated-content/</link>
       <pubDate>Tue, 08 Aug 2017 23:59:59 +0000</pubDate>
       
@@ -694,7 +694,7 @@ Request
     </item>
     
     <item>
-      <title>#TIL 2017-08-08 : Remap Capslock to Control key</title>
+      <title>#TIL : Remap Capslock to Control key</title>
       <link>https://khanhicetea.com/til/2017-08-08-remap-capslock-to-control-key/</link>
       <pubDate>Tue, 08 Aug 2017 23:59:59 +0000</pubDate>
       
@@ -704,7 +704,7 @@ XKBOPTIONS=&amp;quot;ctrl:nocaps&amp;quot;  Then, logout and log in again to imp
     </item>
     
     <item>
-      <title>#TIL 2017-08-06 : Cleaning up old linux kernels</title>
+      <title>#TIL : Cleaning up old linux kernels</title>
       <link>https://khanhicetea.com/til/2017-08-06-cleaning-up-old-linux-kernels/</link>
       <pubDate>Sun, 06 Aug 2017 23:59:59 +0000</pubDate>
       
@@ -715,7 +715,7 @@ So, I learned from it :
     </item>
     
     <item>
-      <title>#TIL 2017-08-06 : Runing old java applets on brower</title>
+      <title>#TIL : Runing old java applets on brower</title>
       <link>https://khanhicetea.com/til/2017-08-06-runing-old-java-applets-on-brower/</link>
       <pubDate>Sun, 06 Aug 2017 23:59:59 +0000</pubDate>
       
@@ -727,7 +727,7 @@ And what if old java applet can&amp;rsquo;t be runned on Java 8 because of weak 
     </item>
     
     <item>
-      <title>#TIL 2017-08-06 : realpath function</title>
+      <title>#TIL : realpath function</title>
       <link>https://khanhicetea.com/til/2017-08-06-realpath-function/</link>
       <pubDate>Sun, 06 Aug 2017 23:59:59 +0000</pubDate>
       
@@ -737,7 +737,7 @@ function storage_path($folder) { return realpath(__DIR__.&#39;/storage/&#39;.$fo
     </item>
     
     <item>
-      <title>#TIL 2017-08-04 : Free sandbox server for development</title>
+      <title>#TIL : Free sandbox server for development</title>
       <link>https://khanhicetea.com/til/2017-08-04-free-sandbox-server-for-development/</link>
       <pubDate>Fri, 04 Aug 2017 23:59:59 +0000</pubDate>
       
@@ -749,7 +749,7 @@ Btw, I don&amp;rsquo;t recommend you keep service live but no use, it makes Hero
     </item>
     
     <item>
-      <title>#TIL 2017-08-04 : HTTP2 supported for python requests library</title>
+      <title>#TIL : HTTP2 supported for python requests library</title>
       <link>https://khanhicetea.com/til/2017-08-04-http2-supported-for-python-requests-library/</link>
       <pubDate>Fri, 04 Aug 2017 23:59:59 +0000</pubDate>
       
@@ -759,7 +759,7 @@ Btw, at this moment it doesn&amp;rsquo;t support HTTP/2 protocol (actually we of
     </item>
     
     <item>
-      <title>#TIL 2017-06-15 : Gearman bash worker and client</title>
+      <title>#TIL : Gearman bash worker and client</title>
       <link>https://khanhicetea.com/til/2017-06-15-gearman-bash-worker-and-client/</link>
       <pubDate>Thu, 15 Jun 2017 23:59:59 +0000</pubDate>
       
@@ -772,7 +772,7 @@ worker.sh
     </item>
     
     <item>
-      <title>#TIL 2017-06-13 : Resolving conflict like a boss</title>
+      <title>#TIL : Resolving conflict like a boss</title>
       <link>https://khanhicetea.com/til/2017-06-13-resolving-conflict-like-a-boss/</link>
       <pubDate>Tue, 13 Jun 2017 23:59:59 +0000</pubDate>
       
@@ -783,7 +783,7 @@ grep -lr &#39;&amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt;&#39; . | 
     </item>
     
     <item>
-      <title>#TIL 2017-05-24 : Changing channel from alpha to stable will remove ALL DATA</title>
+      <title>#TIL : Changing channel from alpha to stable will remove ALL DATA</title>
       <link>https://khanhicetea.com/til/2017-05-24-changing-channel-from-alpha-to-stable-will-remove-all-data/</link>
       <pubDate>Wed, 24 May 2017 23:59:59 +0000</pubDate>
       
@@ -793,7 +793,7 @@ Because Docker on Mac using a minimal Linux machine to host docker engine, so ch
     </item>
     
     <item>
-      <title>#TIL 2017-05-24 : Reducing docker image the right way</title>
+      <title>#TIL : Reducing docker image the right way</title>
       <link>https://khanhicetea.com/til/2017-05-24-reducing-docker-image-the-right-way/</link>
       <pubDate>Wed, 24 May 2017 23:59:59 +0000</pubDate>
       
@@ -804,7 +804,7 @@ RUN apt-get update RUN apt-get install git # Something here # End of file RUN ap
     </item>
     
     <item>
-      <title>#TIL 2017-05-22 : Using BSD find util to find and exec command on file and folder</title>
+      <title>#TIL : Using BSD find util to find and exec command on file and folder</title>
       <link>https://khanhicetea.com/til/2017-05-22-using-bsd-find-util-to-find-and-exec-command-on-file-and-folder/</link>
       <pubDate>Mon, 22 May 2017 23:59:59 +0000</pubDate>
       
@@ -816,7 +816,7 @@ $ find [find_path] -name &amp;quot;*.php&amp;quot; -type [file_type] -exec [comm
     </item>
     
     <item>
-      <title>#TIL 2017-05-22 : zcat : decompressing pipe tool</title>
+      <title>#TIL : zcat : decompressing pipe tool</title>
       <link>https://khanhicetea.com/til/2017-05-22-zcat-decompressing-pipe-tool/</link>
       <pubDate>Mon, 22 May 2017 23:59:59 +0000</pubDate>
       
@@ -829,7 +829,7 @@ $ mysqldump -u root -p db_name1 | gzip &amp;gt; db_name.sql.gz $ zcat db_name.sq
     </item>
     
     <item>
-      <title>#TIL 2017-05-19 : Checking forced push conflicts on source code in auto testing</title>
+      <title>#TIL : Checking forced push conflicts on source code in auto testing</title>
       <link>https://khanhicetea.com/til/2017-05-19-checking-forced-push-conflicts-on-source-code-in-auto-testing/</link>
       <pubDate>Fri, 19 May 2017 23:59:59 +0000</pubDate>
       
@@ -840,7 +840,7 @@ So checking the conflicts code is required step before testing backend and deplo
     </item>
     
     <item>
-      <title>#TIL 2017-05-19 : wget Output flag</title>
+      <title>#TIL : wget Output flag</title>
       <link>https://khanhicetea.com/til/2017-05-19-wget-output-flag/</link>
       <pubDate>Fri, 19 May 2017 23:59:59 +0000</pubDate>
       
@@ -850,7 +850,7 @@ $ # output file will be index.html or based on header filename $ wget -O www.abc
     </item>
     
     <item>
-      <title>#TIL 2017-05-18 : Cloudflare Error 522 Connection Time out</title>
+      <title>#TIL : Cloudflare Error 522 Connection Time out</title>
       <link>https://khanhicetea.com/til/2017-05-18-cloudflare-error-522-connection-time-out/</link>
       <pubDate>Thu, 18 May 2017 23:59:59 +0000</pubDate>
       
@@ -861,7 +861,7 @@ The problems caused by :
     </item>
     
     <item>
-      <title>#TIL 2017-05-18 : Grant user to use sudo without password</title>
+      <title>#TIL : Grant user to use sudo without password</title>
       <link>https://khanhicetea.com/til/2017-05-18-grant-user-to-use-sudo-without-password/</link>
       <pubDate>Thu, 18 May 2017 23:59:59 +0000</pubDate>
       
@@ -872,7 +872,7 @@ $ YOUR_USERNAME ALL=(ALL:ALL) NOPASSWD:ALL  Then press :wq! to force saving the 
     </item>
     
     <item>
-      <title>#TIL 2017-05-17 : Compressing and Extracting files with rar in Linux</title>
+      <title>#TIL : Compressing and Extracting files with rar in Linux</title>
       <link>https://khanhicetea.com/til/2017-05-17-compressing-and-extracting-files-with-rar-in-linux/</link>
       <pubDate>Wed, 17 May 2017 23:59:59 +0000</pubDate>
       
@@ -885,7 +885,7 @@ $ sudo yum install rar  Compressing files, folder Compressing files</description
     </item>
     
     <item>
-      <title>#TIL 2017-05-17 : Mysql dumping only table structure</title>
+      <title>#TIL : Mysql dumping only table structure</title>
       <link>https://khanhicetea.com/til/2017-05-17-mysql-dumping-only-table-structure/</link>
       <pubDate>Wed, 17 May 2017 23:59:59 +0000</pubDate>
       
@@ -910,7 +910,7 @@ So, same PROGRAM + same INPUT = same OUTPUT
     </item>
     
     <item>
-      <title>#TIL 2017-04-25 : Basics about sqlite command line tool</title>
+      <title>#TIL : Basics about sqlite command line tool</title>
       <link>https://khanhicetea.com/til/2017-04-25-basics-about-sqlite-command-line-tool/</link>
       <pubDate>Tue, 25 Apr 2017 23:59:59 +0000</pubDate>
       
@@ -920,7 +920,7 @@ View all table : .tables Truncate table : delete from [table_name]; then run vac
     </item>
     
     <item>
-      <title>#TIL 2017-04-21 : Base 64 encode and decode builtin tool</title>
+      <title>#TIL : Base 64 encode and decode builtin tool</title>
       <link>https://khanhicetea.com/til/2017-04-21-base-64-encode-and-decode-builtin-tool/</link>
       <pubDate>Fri, 21 Apr 2017 23:59:59 +0000</pubDate>
       
@@ -930,7 +930,7 @@ View all table : .tables Truncate table : delete from [table_name]; then run vac
     </item>
     
     <item>
-      <title>#TIL 2017-04-21 : ab failed responses</title>
+      <title>#TIL : ab failed responses</title>
       <link>https://khanhicetea.com/til/2017-04-21-ab-failed-responses/</link>
       <pubDate>Fri, 21 Apr 2017 23:59:59 +0000</pubDate>
       
@@ -943,7 +943,7 @@ from flask import Flask from random import randint app = Flask(__name__) @app.</
     </item>
     
     <item>
-      <title>#TIL 2017-02-28 : Persistent connection to MySQL</title>
+      <title>#TIL : Persistent connection to MySQL</title>
       <link>https://khanhicetea.com/til/2017-02-28-persistent-connection-to-mysql/</link>
       <pubDate>Tue, 28 Feb 2017 23:59:59 +0000</pubDate>
       
@@ -955,7 +955,7 @@ Example code:
     </item>
     
     <item>
-      <title>#TIL 2017-02-23 : Random quote 23 Feb 2017</title>
+      <title>#TIL : Random quote 23 Feb 2017</title>
       <link>https://khanhicetea.com/til/2017-02-23-random-quote-23-feb-2017/</link>
       <pubDate>Thu, 23 Feb 2017 23:59:59 +0000</pubDate>
       
@@ -965,7 +965,7 @@ Example code:
     </item>
     
     <item>
-      <title>#TIL 2017-02-23 : UNION vs UNION ALL</title>
+      <title>#TIL : UNION vs UNION ALL</title>
       <link>https://khanhicetea.com/til/2017-02-23-union-vs-union-all/</link>
       <pubDate>Thu, 23 Feb 2017 23:59:59 +0000</pubDate>
       
@@ -976,7 +976,7 @@ mysql&amp;gt; select &#39;1&#39;, &#39;2&#39; union select &#39;2&#39;, &#39;1&#
     </item>
     
     <item>
-      <title>#TIL 2017-02-23 : Using VarDumper in PHPUnit</title>
+      <title>#TIL : Using VarDumper in PHPUnit</title>
       <link>https://khanhicetea.com/til/2017-02-23-using-vardumper-in-phpunit/</link>
       <pubDate>Thu, 23 Feb 2017 23:59:59 +0000</pubDate>
       
@@ -987,7 +987,7 @@ function phpunit_dump() { $cloner = new \Symfony\Component\VarDumper\Cloner\VarC
     </item>
     
     <item>
-      <title>#TIL 2017-02-17 : String problems can cause logical bugs in application</title>
+      <title>#TIL : String problems can cause logical bugs in application</title>
       <link>https://khanhicetea.com/til/2017-02-17-string-problems-can-cause-logical-bugs-in-application/</link>
       <pubDate>Fri, 17 Feb 2017 23:59:59 +0000</pubDate>
       
@@ -996,7 +996,7 @@ function phpunit_dump() { $cloner = new \Symfony\Component\VarDumper\Cloner\VarC
     </item>
     
     <item>
-      <title>#TIL 2016-03-26 : Bash shell shortcuts</title>
+      <title>#TIL : Bash shell shortcuts</title>
       <link>https://khanhicetea.com/til/2016-03-26-bash-shell-shortcuts/</link>
       <pubDate>Sat, 26 Mar 2016 23:59:59 +0000</pubDate>
       
@@ -1005,7 +1005,7 @@ function phpunit_dump() { $cloner = new \Symfony\Component\VarDumper\Cloner\VarC
     </item>
     
     <item>
-      <title>#TIL 2016-03-26 : Stats your top-10 frequently commands</title>
+      <title>#TIL : Stats your top-10 frequently commands</title>
       <link>https://khanhicetea.com/til/2016-03-26-stats-your-top-10-frequently-commands/</link>
       <pubDate>Sat, 26 Mar 2016 23:59:59 +0000</pubDate>
       
@@ -1016,7 +1016,7 @@ $ history | awk &#39;{print $2}&#39; | sort | uniq -c | sort -nr | head  Example
     </item>
     
     <item>
-      <title>#TIL 2016-03-08 : F-cking stupid limit of input vars</title>
+      <title>#TIL : F-cking stupid limit of input vars</title>
       <link>https://khanhicetea.com/til/2016-03-08-f-cking-stupid-limit-of-input-vars/</link>
       <pubDate>Tue, 08 Mar 2016 23:59:59 +0000</pubDate>
       
@@ -1026,7 +1026,7 @@ I tried to config NGINX and PHPFPM max_post_size, client_max_body_size but they 
     </item>
     
     <item>
-      <title>#TIL 2015-12-30 : Commands</title>
+      <title>#TIL : Commands</title>
       <link>https://khanhicetea.com/til/2015-12-30-commands/</link>
       <pubDate>Wed, 30 Dec 2015 23:59:59 +0000</pubDate>
       
@@ -1037,7 +1037,7 @@ Eg:
     </item>
     
     <item>
-      <title>#TIL 2015-12-04 : Reference assign object variable</title>
+      <title>#TIL : Reference assign object variable</title>
       <link>https://khanhicetea.com/til/2015-12-04-reference-assign-object-variable/</link>
       <pubDate>Fri, 04 Dec 2015 23:59:59 +0000</pubDate>
       
@@ -1048,7 +1048,7 @@ x = {&amp;quot;a&amp;quot;: 1, &amp;quot;b&amp;quot;: 2} y = x y[&#39;a&#39;] = 
     </item>
     
     <item>
-      <title>#TIL 2015-12-04 : Run built-in server via Docker</title>
+      <title>#TIL : Run built-in server via Docker</title>
       <link>https://khanhicetea.com/til/2015-12-04-run-built-in-server-via-docker/</link>
       <pubDate>Fri, 04 Dec 2015 23:59:59 +0000</pubDate>
       
@@ -1060,7 +1060,7 @@ docker run -it -p 8080:8080 -v `pwd`:/code php:7 php -S 0.0.0.0:8080 -t /code/we
     </item>
     
     <item>
-      <title>#TIL 2015-12-04 : View real-time logs using websocketd</title>
+      <title>#TIL : View real-time logs using websocketd</title>
       <link>https://khanhicetea.com/til/2015-12-04-view-real-time-logs-using-websocketd/</link>
       <pubDate>Fri, 04 Dec 2015 23:59:59 +0000</pubDate>
       
@@ -1071,7 +1071,7 @@ Read its docs, I follow the ez tutorial 10 second tutorial and see how cool does
     </item>
     
     <item>
-      <title>#TIL 2015-12-03 : FTP via curl tool</title>
+      <title>#TIL : FTP via curl tool</title>
       <link>https://khanhicetea.com/til/2015-12-03-ftp-via-curl-tool/</link>
       <pubDate>Thu, 03 Dec 2015 23:59:59 +0000</pubDate>
       
@@ -1081,7 +1081,7 @@ curl -T file_need_to_upload ftp://hostname --user user:passwd  </description>
     </item>
     
     <item>
-      <title>#TIL 2015-12-02 : Eloquent Many-to-Many Relationship</title>
+      <title>#TIL : Eloquent Many-to-Many Relationship</title>
       <link>https://khanhicetea.com/til/2015-12-02-eloquent-many-to-many-relationship/</link>
       <pubDate>Wed, 02 Dec 2015 23:59:59 +0000</pubDate>
       
@@ -1093,7 +1093,7 @@ We have the db schema :
     </item>
     
     <item>
-      <title>#TIL 2015-12-01 : Index is useless when use function on indexed field</title>
+      <title>#TIL : Index is useless when use function on indexed field</title>
       <link>https://khanhicetea.com/til/2015-12-01-index-is-useless-when-use-function-on-indexed-field/</link>
       <pubDate>Tue, 01 Dec 2015 23:59:59 +0000</pubDate>
       
@@ -1104,7 +1104,7 @@ WHERE `date` &amp;gt;= &#39;2015-11-01&#39; AND `date` &amp;lt; &#39;2015-12-01&
     </item>
     
     <item>
-      <title>#TIL 2015-12-01 : String Format Unicode params</title>
+      <title>#TIL : String Format Unicode params</title>
       <link>https://khanhicetea.com/til/2015-12-01-string-format-unicode-params/</link>
       <pubDate>Tue, 01 Dec 2015 23:59:59 +0000</pubDate>
       
@@ -1115,7 +1115,7 @@ unicode_thing = u&amp;quot;Xin chào mọi người&amp;quot; a = u&#39;{}&#39;.
     </item>
     
     <item>
-      <title>#TIL 2015-11-30 : Debugging Chrome extension</title>
+      <title>#TIL : Debugging Chrome extension</title>
       <link>https://khanhicetea.com/til/2015-11-30-debugging-chrome-extension/</link>
       <pubDate>Mon, 30 Nov 2015 23:59:59 +0000</pubDate>
       
@@ -1124,7 +1124,7 @@ unicode_thing = u&amp;quot;Xin chào mọi người&amp;quot; a = u&#39;{}&#39;.
     </item>
     
     <item>
-      <title>#TIL 2015-11-30 : Shortcut keyboard improve productivity</title>
+      <title>#TIL : Shortcut keyboard improve productivity</title>
       <link>https://khanhicetea.com/til/2015-11-30-shortcut-keyboard-improve-productivity/</link>
       <pubDate>Mon, 30 Nov 2015 23:59:59 +0000</pubDate>
       

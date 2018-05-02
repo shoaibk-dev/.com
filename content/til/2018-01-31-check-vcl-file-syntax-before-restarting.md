@@ -1,6 +1,6 @@
 +++
 date = "2018-01-31T23:59:59"
-title = "#TIL 2018-01-31 : Check vcl file syntax before restarting"
+title = "#TIL : Check vcl file syntax before restarting"
 description = "I learned in 2018-01-31 about varnish"
 categories = ["Today I learned", "varnish"]
 tags = ["varnish"]

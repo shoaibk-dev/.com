@@ -12,7 +12,7 @@
     
     
     <item>
-      <title>#TIL 2018-05-02 : Using temporary another database in SQLite</title>
+      <title>#TIL : Using temporary another database in SQLite</title>
       <link>https://khanhicetea.com/til/2018-05-02-using-temporary-another-database-in-sqlite/</link>
       <pubDate>Wed, 02 May 2018 23:59:59 +0000</pubDate>
       
@@ -24,7 +24,7 @@ $ sqlite3 main.sqlite  Then using the ATTACH command to attach another database 
     </item>
     
     <item>
-      <title>#TIL 2017-10-13 : Indexes on multiple columns</title>
+      <title>#TIL : Indexes on multiple columns</title>
       <link>https://khanhicetea.com/til/2017-10-13-indexes-on-multiple-columns/</link>
       <pubDate>Fri, 13 Oct 2017 23:59:59 +0000</pubDate>
       
@@ -34,7 +34,7 @@ $ sqlite3 main.sqlite  Then using the ATTACH command to attach another database 
     </item>
     
     <item>
-      <title>#TIL 2017-04-25 : Basics about sqlite command line tool</title>
+      <title>#TIL : Basics about sqlite command line tool</title>
       <link>https://khanhicetea.com/til/2017-04-25-basics-about-sqlite-command-line-tool/</link>
       <pubDate>Tue, 25 Apr 2017 23:59:59 +0000</pubDate>
       
@@ -44,7 +44,7 @@ View all table : .tables Truncate table : delete from [table_name]; then run vac
     </item>
     
     <item>
-      <title>#TIL 2017-02-28 : Persistent connection to MySQL</title>
+      <title>#TIL : Persistent connection to MySQL</title>
       <link>https://khanhicetea.com/til/2017-02-28-persistent-connection-to-mysql/</link>
       <pubDate>Tue, 28 Feb 2017 23:59:59 +0000</pubDate>
       
@@ -56,7 +56,7 @@ Example code:
     </item>
     
     <item>
-      <title>#TIL 2017-02-23 : UNION vs UNION ALL</title>
+      <title>#TIL : UNION vs UNION ALL</title>
       <link>https://khanhicetea.com/til/2017-02-23-union-vs-union-all/</link>
       <pubDate>Thu, 23 Feb 2017 23:59:59 +0000</pubDate>
       

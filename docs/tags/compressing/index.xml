@@ -12,7 +12,7 @@
     
     
     <item>
-      <title>#TIL 2017-05-22 : zcat : decompressing pipe tool</title>
+      <title>#TIL : zcat : decompressing pipe tool</title>
       <link>https://khanhicetea.com/til/2017-05-22-zcat-decompressing-pipe-tool/</link>
       <pubDate>Mon, 22 May 2017 23:59:59 +0000</pubDate>
       
@@ -25,7 +25,7 @@ $ mysqldump -u root -p db_name1 | gzip &amp;gt; db_name.sql.gz $ zcat db_name.sq
     </item>
     
     <item>
-      <title>#TIL 2017-05-17 : Compressing and Extracting files with rar in Linux</title>
+      <title>#TIL : Compressing and Extracting files with rar in Linux</title>
       <link>https://khanhicetea.com/til/2017-05-17-compressing-and-extracting-files-with-rar-in-linux/</link>
       <pubDate>Wed, 17 May 2017 23:59:59 +0000</pubDate>
       

@@ -1,6 +1,6 @@
 +++
 date = "2018-01-07T23:59:59"
-title = "#TIL 2018-01-07 : Define property of an object in hacking way"
+title = "#TIL : Define property of an object in hacking way"
 description = "I learned in 2018-01-07 about javascript"
 categories = ["Today I learned", "javascript"]
 tags = ["javascript"]

@@ -1,6 +1,6 @@
 +++
 date = "2017-04-21T23:59:59"
-title = "#TIL 2017-04-21 : ab failed responses"
+title = "#TIL : ab failed responses"
 description = "I learned in 2017-04-21 about benchmark, http, web"
 categories = ["Today I learned", "http"]
 tags = ["benchmark", "http", "web"]

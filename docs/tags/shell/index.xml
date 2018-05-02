@@ -12,7 +12,7 @@
     
     
     <item>
-      <title>#TIL 2017-09-27 : BASH tracing commands</title>
+      <title>#TIL : BASH tracing commands</title>
       <link>https://khanhicetea.com/til/2017-09-27-bash-tracing-commands/</link>
       <pubDate>Wed, 27 Sep 2017 23:59:59 +0000</pubDate>
       
@@ -24,7 +24,7 @@ And this is what I got , http://www.gnu.org/software/bash/manual/html_node/The-S
     </item>
     
     <item>
-      <title>#TIL 2017-09-26 : BASH exiting on first error</title>
+      <title>#TIL : BASH exiting on first error</title>
       <link>https://khanhicetea.com/til/2017-09-26-bash-exiting-on-first-error/</link>
       <pubDate>Tue, 26 Sep 2017 23:59:59 +0000</pubDate>
       
@@ -35,7 +35,7 @@ set +e errorCmd $1 echo &amp;quot;Still run here !&amp;quot;  </description>
     </item>
     
     <item>
-      <title>#TIL 2017-09-26 : BASH return a value in function</title>
+      <title>#TIL : BASH return a value in function</title>
       <link>https://khanhicetea.com/til/2017-09-26-bash-return-a-value-in-function/</link>
       <pubDate>Tue, 26 Sep 2017 23:59:59 +0000</pubDate>
       
@@ -46,7 +46,7 @@ hello() { echo &amp;quot;Hello $1&amp;quot; } hw=$(hello &amp;quot;KhanhIceTea&a
     </item>
     
     <item>
-      <title>#TIL 2017-05-22 : Using BSD find util to find and exec command on file and folder</title>
+      <title>#TIL : Using BSD find util to find and exec command on file and folder</title>
       <link>https://khanhicetea.com/til/2017-05-22-using-bsd-find-util-to-find-and-exec-command-on-file-and-folder/</link>
       <pubDate>Mon, 22 May 2017 23:59:59 +0000</pubDate>
       
@@ -58,7 +58,7 @@ $ find [find_path] -name &amp;quot;*.php&amp;quot; -type [file_type] -exec [comm
     </item>
     
     <item>
-      <title>#TIL 2017-05-19 : wget Output flag</title>
+      <title>#TIL : wget Output flag</title>
       <link>https://khanhicetea.com/til/2017-05-19-wget-output-flag/</link>
       <pubDate>Fri, 19 May 2017 23:59:59 +0000</pubDate>
       
@@ -68,7 +68,7 @@ $ # output file will be index.html or based on header filename $ wget -O www.abc
     </item>
     
     <item>
-      <title>#TIL 2016-03-26 : Bash shell shortcuts</title>
+      <title>#TIL : Bash shell shortcuts</title>
       <link>https://khanhicetea.com/til/2016-03-26-bash-shell-shortcuts/</link>
       <pubDate>Sat, 26 Mar 2016 23:59:59 +0000</pubDate>
       

@@ -12,7 +12,7 @@
     
     
     <item>
-      <title>#TIL 2018-01-16 : Disable IPv6 to stop getting stuck in network</title>
+      <title>#TIL : Disable IPv6 to stop getting stuck in network</title>
       <link>https://khanhicetea.com/til/2018-01-16-disable-ipv6-to-stop-getting-stuck-in-network/</link>
       <pubDate>Tue, 16 Jan 2018 23:59:59 +0000</pubDate>
       
@@ -24,7 +24,7 @@ $ echo &amp;quot;net.ipv6.conf.all.disable_ipv6 = 1&amp;quot; | sudo tee -a /etc
     </item>
     
     <item>
-      <title>#TIL 2017-10-20 : Using watch command to tracking changes in period time</title>
+      <title>#TIL : Using watch command to tracking changes in period time</title>
       <link>https://khanhicetea.com/til/2017-10-20-using-watch-command-to-tracking-changes-in-period-time/</link>
       <pubDate>Fri, 20 Oct 2017 23:59:59 +0000</pubDate>
       
@@ -49,7 +49,7 @@ Install &amp;amp; Start $ npm install $ npm start  Heroku Deploying $ heroku log
     </item>
     
     <item>
-      <title>#TIL 2017-09-27 : Send ENTER key to kernel</title>
+      <title>#TIL : Send ENTER key to kernel</title>
       <link>https://khanhicetea.com/til/2017-09-27-send-enter-key-to-kernel/</link>
       <pubDate>Wed, 27 Sep 2017 23:59:59 +0000</pubDate>
       
@@ -69,7 +69,7 @@ Kernel modules # echo &amp;quot;uinput&amp;quot; &amp;gt;&amp;gt; /etc/modules #
     </item>
     
     <item>
-      <title>#TIL 2017-08-08 : Remap Capslock to Control key</title>
+      <title>#TIL : Remap Capslock to Control key</title>
       <link>https://khanhicetea.com/til/2017-08-08-remap-capslock-to-control-key/</link>
       <pubDate>Tue, 08 Aug 2017 23:59:59 +0000</pubDate>
       

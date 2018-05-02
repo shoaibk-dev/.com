@@ -1,6 +1,6 @@
 +++
 date = "2017-11-27T23:59:59"
-title = "#TIL 2017-11-27 : Fastly conflict detector script"
+title = "#TIL : Fastly conflict detector script"
 description = "I learned in 2017-11-27 about ci, git, automation"
 categories = ["Today I learned", "git"]
 tags = ["ci", "git", "automation"]

@@ -1,6 +1,6 @@
 +++
 date = "2017-04-25T23:59:59"
-title = "#TIL 2017-04-25 : Basics about sqlite command line tool"
+title = "#TIL : Basics about sqlite command line tool"
 description = "I learned in 2017-04-25 about sqlite, database"
 categories = ["Today I learned", "database"]
 tags = ["sqlite", "database"]

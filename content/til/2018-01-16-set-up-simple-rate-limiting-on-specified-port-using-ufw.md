@@ -1,6 +1,6 @@
 +++
 date = "2018-01-16T23:59:59"
-title = "#TIL 2018-01-16 : Set up simple rate limiting on specified port using UFW"
+title = "#TIL : Set up simple rate limiting on specified port using UFW"
 description = "I learned in 2018-01-16 about firewall, security, networking"
 categories = ["Today I learned", "networking"]
 tags = ["firewall", "security", "networking"]

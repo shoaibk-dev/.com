@@ -1,6 +1,6 @@
 +++
 date = "2017-09-27T23:59:59"
-title = "#TIL 2017-09-27 : BASH tracing commands"
+title = "#TIL : BASH tracing commands"
 description = "I learned in 2017-09-27 about sysadmin, shell, bash"
 categories = ["Today I learned", "sysadmin"]
 tags = ["sysadmin", "shell", "bash"]

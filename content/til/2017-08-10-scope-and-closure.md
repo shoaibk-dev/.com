@@ -1,6 +1,6 @@
 +++
 date = "2017-08-10T23:59:59"
-title = "#TIL 2017-08-10 : Scope and Closure"
+title = "#TIL : Scope and Closure"
 description = "I learned in 2017-08-10 about javascript"
 categories = ["Today I learned", "javascript"]
 tags = ["javascript"]

@@ -1,6 +1,6 @@
 +++
 date = "2017-12-07T23:59:59"
-title = "#TIL 2017-12-07 : Using web proxy to bypass firewalls"
+title = "#TIL : Using web proxy to bypass firewalls"
 description = "I learned in 2017-12-07 about firewall, web, proxy"
 categories = ["Today I learned", "web"]
 tags = ["firewall", "web", "proxy"]

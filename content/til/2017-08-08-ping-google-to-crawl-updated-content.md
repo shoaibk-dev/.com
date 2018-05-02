@@ -1,6 +1,6 @@
 +++
 date = "2017-08-08T23:59:59"
-title = "#TIL 2017-08-08 : Ping Google to crawl updated content"
+title = "#TIL : Ping Google to crawl updated content"
 description = "I learned in 2017-08-08 about web, google"
 categories = ["Today I learned", "web"]
 tags = ["web", "google"]

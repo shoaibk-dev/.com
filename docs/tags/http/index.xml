@@ -12,7 +12,7 @@
     
     
     <item>
-      <title>#TIL 2018-03-01 : Sending Cookie in AJAX CORs request</title>
+      <title>#TIL : Sending Cookie in AJAX CORs request</title>
       <link>https://khanhicetea.com/til/2018-03-01-sending-cookie-in-ajax-cors-request/</link>
       <pubDate>Thu, 01 Mar 2018 23:59:59 +0000</pubDate>
       
@@ -22,7 +22,7 @@ In this case, CORs response must specify which origin is allowed (mean no wildca
     </item>
     
     <item>
-      <title>#TIL 2018-01-03 : Create cross-platform downloading app URL</title>
+      <title>#TIL : Create cross-platform downloading app URL</title>
       <link>https://khanhicetea.com/til/2018-01-03-create-cross-platform-downloading-app-url/</link>
       <pubDate>Wed, 03 Jan 2018 23:59:59 +0000</pubDate>
       
@@ -33,7 +33,7 @@ The key of problem is detecting user platform, which can be done by extracting t
     </item>
     
     <item>
-      <title>#TIL 2017-04-21 : ab failed responses</title>
+      <title>#TIL : ab failed responses</title>
       <link>https://khanhicetea.com/til/2017-04-21-ab-failed-responses/</link>
       <pubDate>Fri, 21 Apr 2017 23:59:59 +0000</pubDate>
       

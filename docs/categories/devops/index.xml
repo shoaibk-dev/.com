@@ -12,7 +12,7 @@
     
     
     <item>
-      <title>#TIL 2018-01-22 : Ansible running host pattern</title>
+      <title>#TIL : Ansible running host pattern</title>
       <link>https://khanhicetea.com/til/2018-01-22-ansible-running-host-pattern/</link>
       <pubDate>Mon, 22 Jan 2018 23:59:59 +0000</pubDate>
       
@@ -23,7 +23,7 @@
     </item>
     
     <item>
-      <title>#TIL 2017-10-13 : Using netcat to wait a TCP service</title>
+      <title>#TIL : Using netcat to wait a TCP service</title>
       <link>https://khanhicetea.com/til/2017-10-13-using-netcat-to-wait-a-tcp-service/</link>
       <pubDate>Fri, 13 Oct 2017 23:59:59 +0000</pubDate>
       
@@ -34,7 +34,7 @@ $ while ! echo -e &#39;\x04&#39; | nc [service_host] [service_port]; do sleep 1;
     </item>
     
     <item>
-      <title>#TIL 2017-08-04 : Free sandbox server for development</title>
+      <title>#TIL : Free sandbox server for development</title>
       <link>https://khanhicetea.com/til/2017-08-04-free-sandbox-server-for-development/</link>
       <pubDate>Fri, 04 Aug 2017 23:59:59 +0000</pubDate>
       
@@ -46,7 +46,7 @@ Btw, I don&amp;rsquo;t recommend you keep service live but no use, it makes Hero
     </item>
     
     <item>
-      <title>#TIL 2017-05-19 : Checking forced push conflicts on source code in auto testing</title>
+      <title>#TIL : Checking forced push conflicts on source code in auto testing</title>
       <link>https://khanhicetea.com/til/2017-05-19-checking-forced-push-conflicts-on-source-code-in-auto-testing/</link>
       <pubDate>Fri, 19 May 2017 23:59:59 +0000</pubDate>
       

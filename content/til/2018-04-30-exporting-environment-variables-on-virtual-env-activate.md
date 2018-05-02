@@ -1,6 +1,6 @@
 +++
 date = "2018-04-30T23:59:59"
-title = "#TIL 2018-04-30 : Exporting environment variables on virtual env activate"
+title = "#TIL : Exporting environment variables on virtual env activate"
 description = "I learned in 2018-04-30 about python"
 categories = ["Today I learned", "python"]
 tags = ["python"]

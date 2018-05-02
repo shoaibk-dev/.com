@@ -12,7 +12,7 @@
     
     
     <item>
-      <title>#TIL 2018-01-04 : Sleeping connections in MySQL</title>
+      <title>#TIL : Sleeping connections in MySQL</title>
       <link>https://khanhicetea.com/til/2018-01-04-sleeping-connections-in-mysql/</link>
       <pubDate>Thu, 04 Jan 2018 23:59:59 +0000</pubDate>
       
@@ -23,7 +23,7 @@ So next time, remember to close your connection before terminating your app.</de
     </item>
     
     <item>
-      <title>#TIL 2017-09-01 : Mycli : a new good cli MySql Client</title>
+      <title>#TIL : Mycli : a new good cli MySql Client</title>
       <link>https://khanhicetea.com/til/2017-09-01-mycli-a-new-good-cli-mysql-client/</link>
       <pubDate>Fri, 01 Sep 2017 23:59:59 +0000</pubDate>
       
@@ -36,7 +36,7 @@ $ mycli -h 127.0.0.1 -P 3306 -u root  Screencast</description>
     </item>
     
     <item>
-      <title>#TIL 2017-05-17 : Mysql dumping only table structure</title>
+      <title>#TIL : Mysql dumping only table structure</title>
       <link>https://khanhicetea.com/til/2017-05-17-mysql-dumping-only-table-structure/</link>
       <pubDate>Wed, 17 May 2017 23:59:59 +0000</pubDate>
       
@@ -47,7 +47,7 @@ $ mysqldump -h 127.0.0.1 -u root -p&amp;quot;something&amp;quot; -D database1 &a
     </item>
     
     <item>
-      <title>#TIL 2017-02-23 : UNION vs UNION ALL</title>
+      <title>#TIL : UNION vs UNION ALL</title>
       <link>https://khanhicetea.com/til/2017-02-23-union-vs-union-all/</link>
       <pubDate>Thu, 23 Feb 2017 23:59:59 +0000</pubDate>
       
@@ -58,7 +58,7 @@ mysql&amp;gt; select &#39;1&#39;, &#39;2&#39; union select &#39;2&#39;, &#39;1&#
     </item>
     
     <item>
-      <title>#TIL 2017-02-17 : String problems can cause logical bugs in application</title>
+      <title>#TIL : String problems can cause logical bugs in application</title>
       <link>https://khanhicetea.com/til/2017-02-17-string-problems-can-cause-logical-bugs-in-application/</link>
       <pubDate>Fri, 17 Feb 2017 23:59:59 +0000</pubDate>
       
@@ -67,7 +67,7 @@ mysql&amp;gt; select &#39;1&#39;, &#39;2&#39; union select &#39;2&#39;, &#39;1&#
     </item>
     
     <item>
-      <title>#TIL 2015-12-01 : Index is useless when use function on indexed field</title>
+      <title>#TIL : Index is useless when use function on indexed field</title>
       <link>https://khanhicetea.com/til/2015-12-01-index-is-useless-when-use-function-on-indexed-field/</link>
       <pubDate>Tue, 01 Dec 2015 23:59:59 +0000</pubDate>
       

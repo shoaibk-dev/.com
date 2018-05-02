@@ -12,7 +12,7 @@
     
     
     <item>
-      <title>#TIL 2018-03-01 : Sending Cookie in AJAX CORs request</title>
+      <title>#TIL : Sending Cookie in AJAX CORs request</title>
       <link>https://khanhicetea.com/til/2018-03-01-sending-cookie-in-ajax-cors-request/</link>
       <pubDate>Thu, 01 Mar 2018 23:59:59 +0000</pubDate>
       
@@ -22,7 +22,7 @@ In this case, CORs response must specify which origin is allowed (mean no wildca
     </item>
     
     <item>
-      <title>#TIL 2018-01-08 : Bypass CORS by using JSONP callback</title>
+      <title>#TIL : Bypass CORS by using JSONP callback</title>
       <link>https://khanhicetea.com/til/2018-01-08-bypass-cors-by-using-jsonp-callback/</link>
       <pubDate>Mon, 08 Jan 2018 23:59:59 +0000</pubDate>
       
@@ -32,7 +32,7 @@ The mechanism of JSONP is simple, instead of returning a JSON data. It will retu
     </item>
     
     <item>
-      <title>#TIL 2018-01-03 : HSTS rule in browser</title>
+      <title>#TIL : HSTS rule in browser</title>
       <link>https://khanhicetea.com/til/2018-01-03-hsts-rule-in-browser/</link>
       <pubDate>Wed, 03 Jan 2018 23:59:59 +0000</pubDate>
       
@@ -43,7 +43,7 @@ Enabling HSTS on your web will make your browser validate every SSL issues more 
     </item>
     
     <item>
-      <title>#TIL 2017-12-07 : Using web proxy to bypass firewalls</title>
+      <title>#TIL : Using web proxy to bypass firewalls</title>
       <link>https://khanhicetea.com/til/2017-12-07-using-web-proxy-to-bypass-firewalls/</link>
       <pubDate>Thu, 07 Dec 2017 23:59:59 +0000</pubDate>
       
@@ -53,7 +53,7 @@ One solution is using a web proxy (http proxy, socks4 or socks5) to bypass the f
     </item>
     
     <item>
-      <title>#TIL 2017-08-08 : Ping Google to crawl updated content</title>
+      <title>#TIL : Ping Google to crawl updated content</title>
       <link>https://khanhicetea.com/til/2017-08-08-ping-google-to-crawl-updated-content/</link>
       <pubDate>Tue, 08 Aug 2017 23:59:59 +0000</pubDate>
       
@@ -66,7 +66,7 @@ Request
     </item>
     
     <item>
-      <title>#TIL 2017-05-18 : Cloudflare Error 522 Connection Time out</title>
+      <title>#TIL : Cloudflare Error 522 Connection Time out</title>
       <link>https://khanhicetea.com/til/2017-05-18-cloudflare-error-522-connection-time-out/</link>
       <pubDate>Thu, 18 May 2017 23:59:59 +0000</pubDate>
       

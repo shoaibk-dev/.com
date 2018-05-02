@@ -1,6 +1,6 @@
 +++
 date = "2017-05-22T23:59:59"
-title = "#TIL 2017-05-22 : zcat : decompressing pipe tool"
+title = "#TIL : zcat : decompressing pipe tool"
 description = "I learned in 2017-05-22 about sysadmin, tool, bash, compressing"
 categories = ["Today I learned", "sysadmin"]
 tags = ["sysadmin", "tool", "bash", "compressing"]

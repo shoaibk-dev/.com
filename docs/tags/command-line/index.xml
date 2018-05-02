@@ -12,7 +12,7 @@
     
     
     <item>
-      <title>#TIL 2016-03-26 : Stats your top-10 frequently commands</title>
+      <title>#TIL : Stats your top-10 frequently commands</title>
       <link>https://khanhicetea.com/til/2016-03-26-stats-your-top-10-frequently-commands/</link>
       <pubDate>Sat, 26 Mar 2016 23:59:59 +0000</pubDate>
       
@@ -23,7 +23,7 @@ $ history | awk &#39;{print $2}&#39; | sort | uniq -c | sort -nr | head  Example
     </item>
     
     <item>
-      <title>#TIL 2015-12-30 : Commands</title>
+      <title>#TIL : Commands</title>
       <link>https://khanhicetea.com/til/2015-12-30-commands/</link>
       <pubDate>Wed, 30 Dec 2015 23:59:59 +0000</pubDate>
       

@@ -12,7 +12,7 @@
     
     
     <item>
-      <title>#TIL 2018-04-24 : Setup wildcard domains .test for development in MacOS</title>
+      <title>#TIL : Setup wildcard domains .test for development in MacOS</title>
       <link>https://khanhicetea.com/til/2018-04-24-setup-wildcard-domains-test-for-development-in-macos/</link>
       <pubDate>Tue, 24 Apr 2018 23:59:59 +0000</pubDate>
       
@@ -22,7 +22,7 @@ There is a better way to achieve that by using dnsmasq, then set up a wildcard d
     </item>
     
     <item>
-      <title>#TIL 2018-03-14 : Flush DNS cache on iOS device</title>
+      <title>#TIL : Flush DNS cache on iOS device</title>
       <link>https://khanhicetea.com/til/2018-03-14-flush-dns-cache-on-ios-device/</link>
       <pubDate>Wed, 14 Mar 2018 23:59:59 +0000</pubDate>
       
@@ -32,7 +32,7 @@ There is a better way to achieve that by using dnsmasq, then set up a wildcard d
     </item>
     
     <item>
-      <title>#TIL 2017-11-24 : Getting your external IP</title>
+      <title>#TIL : Getting your external IP</title>
       <link>https://khanhicetea.com/til/2017-11-24-getting-your-external-ip/</link>
       <pubDate>Fri, 24 Nov 2017 23:59:59 +0000</pubDate>
       

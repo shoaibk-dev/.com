@@ -1,6 +1,6 @@
 +++
 date = "2016-03-26T23:59:59"
-title = "#TIL 2016-03-26 : Bash shell shortcuts"
+title = "#TIL : Bash shell shortcuts"
 description = "I learned in 2016-03-26 about sysadmin, shortcuts, shell, bash"
 categories = ["Today I learned", "sysadmin"]
 tags = ["sysadmin", "shortcuts", "shell", "bash"]

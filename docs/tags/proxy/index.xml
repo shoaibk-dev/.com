@@ -12,7 +12,7 @@
     
     
     <item>
-      <title>#TIL 2017-12-07 : Using web proxy to bypass firewalls</title>
+      <title>#TIL : Using web proxy to bypass firewalls</title>
       <link>https://khanhicetea.com/til/2017-12-07-using-web-proxy-to-bypass-firewalls/</link>
       <pubDate>Thu, 07 Dec 2017 23:59:59 +0000</pubDate>
       
@@ -22,7 +22,7 @@ One solution is using a web proxy (http proxy, socks4 or socks5) to bypass the f
     </item>
     
     <item>
-      <title>#TIL 2017-09-01 : Enable reverse proxy in CentOS</title>
+      <title>#TIL : Enable reverse proxy in CentOS</title>
       <link>https://khanhicetea.com/til/2017-09-01-enable-reverse-proxy-in-centos/</link>
       <pubDate>Fri, 01 Sep 2017 23:59:59 +0000</pubDate>
       

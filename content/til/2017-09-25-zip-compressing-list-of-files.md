@@ -1,6 +1,6 @@
 +++
 date = "2017-09-25T23:59:59"
-title = "#TIL 2017-09-25 : Zip compressing list of files"
+title = "#TIL : Zip compressing list of files"
 description = "I learned in 2017-09-25 about compress, tools, zip"
 categories = ["Today I learned", "tools"]
 tags = ["compress", "tools", "zip"]

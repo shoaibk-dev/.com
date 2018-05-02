@@ -12,7 +12,7 @@
     
     
     <item>
-      <title>#TIL 2018-01-16 : Set up simple rate limiting on specified port using UFW</title>
+      <title>#TIL : Set up simple rate limiting on specified port using UFW</title>
       <link>https://khanhicetea.com/til/2018-01-16-set-up-simple-rate-limiting-on-specified-port-using-ufw/</link>
       <pubDate>Tue, 16 Jan 2018 23:59:59 +0000</pubDate>
       
@@ -23,7 +23,7 @@ You can use simple command to manage your firewall</description>
     </item>
     
     <item>
-      <title>#TIL 2017-12-07 : Using web proxy to bypass firewalls</title>
+      <title>#TIL : Using web proxy to bypass firewalls</title>
       <link>https://khanhicetea.com/til/2017-12-07-using-web-proxy-to-bypass-firewalls/</link>
       <pubDate>Thu, 07 Dec 2017 23:59:59 +0000</pubDate>
       
@@ -33,7 +33,7 @@ One solution is using a web proxy (http proxy, socks4 or socks5) to bypass the f
     </item>
     
     <item>
-      <title>#TIL 2017-09-25 : Blocking specified country to prevent from DDOS</title>
+      <title>#TIL : Blocking specified country to prevent from DDOS</title>
       <link>https://khanhicetea.com/til/2017-09-25-blocking-specified-country-to-prevent-from-ddos/</link>
       <pubDate>Mon, 25 Sep 2017 23:59:59 +0000</pubDate>
       

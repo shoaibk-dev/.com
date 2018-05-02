@@ -12,7 +12,7 @@
     
     
     <item>
-      <title>#TIL 2018-03-25 : Create a sequence of numbers</title>
+      <title>#TIL : Create a sequence of numbers</title>
       <link>https://khanhicetea.com/til/2018-03-25-create-a-sequence-of-numbers/</link>
       <pubDate>Sun, 25 Mar 2018 23:59:59 +0000</pubDate>
       
@@ -24,7 +24,7 @@ SEQ(1) User Commands SEQ(1) NAME seq - print a sequence of numbers SYNOPSIS seq 
     </item>
     
     <item>
-      <title>#TIL 2018-03-25 : Cut file content from line to line</title>
+      <title>#TIL : Cut file content from line to line</title>
       <link>https://khanhicetea.com/til/2018-03-25-cut-file-content-from-line-to-line/</link>
       <pubDate>Sun, 25 Mar 2018 23:59:59 +0000</pubDate>
       
@@ -35,7 +35,7 @@ You have many ways to achieve that :
     </item>
     
     <item>
-      <title>#TIL 2018-03-25 : Prepend line number to file</title>
+      <title>#TIL : Prepend line number to file</title>
       <link>https://khanhicetea.com/til/2018-03-25-prepend-line-number-to-file/</link>
       <pubDate>Sun, 25 Mar 2018 23:59:59 +0000</pubDate>
       
@@ -48,7 +48,7 @@ cat -n a.txt b.txt c.txt</description>
     </item>
     
     <item>
-      <title>#TIL 2017-02-17 : String problems can cause logical bugs in application</title>
+      <title>#TIL : String problems can cause logical bugs in application</title>
       <link>https://khanhicetea.com/til/2017-02-17-string-problems-can-cause-logical-bugs-in-application/</link>
       <pubDate>Fri, 17 Feb 2017 23:59:59 +0000</pubDate>
       
@@ -57,7 +57,7 @@ cat -n a.txt b.txt c.txt</description>
     </item>
     
     <item>
-      <title>#TIL 2015-12-01 : String Format Unicode params</title>
+      <title>#TIL : String Format Unicode params</title>
       <link>https://khanhicetea.com/til/2015-12-01-string-format-unicode-params/</link>
       <pubDate>Tue, 01 Dec 2015 23:59:59 +0000</pubDate>
       

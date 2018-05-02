@@ -1,6 +1,6 @@
 +++
 date = "2017-05-19T23:59:59"
-title = "#TIL 2017-05-19 : Checking forced push conflicts on source code in auto testing"
+title = "#TIL : Checking forced push conflicts on source code in auto testing"
 description = "I learned in 2017-05-19 about testing, devops, bash, automated"
 categories = ["Today I learned", "devops"]
 tags = ["testing", "devops", "bash", "automated"]

@@ -1,6 +1,6 @@
 +++
 date = "2018-01-30T23:59:59"
-title = "#TIL 2018-01-30 : Using mark to bookmark checkpoints in files"
+title = "#TIL : Using mark to bookmark checkpoints in files"
 description = "I learned in 2018-01-30 about editor, vim"
 categories = ["Today I learned", "vim"]
 tags = ["editor", "vim"]

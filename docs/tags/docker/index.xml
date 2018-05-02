@@ -12,7 +12,7 @@
     
     
     <item>
-      <title>#TIL 2018-02-23 : Build lightweight image by using multistage</title>
+      <title>#TIL : Build lightweight image by using multistage</title>
       <link>https://khanhicetea.com/til/2018-02-23-build-lightweight-image-by-using-multistage/</link>
       <pubDate>Fri, 23 Feb 2018 23:59:59 +0000</pubDate>
       
@@ -25,7 +25,7 @@ FROM golang:1.9.2 WORKDIR /go/src/github.com/khanhicetea/test/ COPY . . RUN CGO_
     </item>
     
     <item>
-      <title>#TIL 2017-11-22 : Reduce init time MySQL docker image</title>
+      <title>#TIL : Reduce init time MySQL docker image</title>
       <link>https://khanhicetea.com/til/2017-11-22-reduce-init-time-mysql-docker-image/</link>
       <pubDate>Wed, 22 Nov 2017 23:59:59 +0000</pubDate>
       
@@ -47,7 +47,7 @@ Setup This guide will assume you already have Docker and Docker Compose tool.</d
     </item>
     
     <item>
-      <title>#TIL 2017-05-24 : Changing channel from alpha to stable will remove ALL DATA</title>
+      <title>#TIL : Changing channel from alpha to stable will remove ALL DATA</title>
       <link>https://khanhicetea.com/til/2017-05-24-changing-channel-from-alpha-to-stable-will-remove-all-data/</link>
       <pubDate>Wed, 24 May 2017 23:59:59 +0000</pubDate>
       
@@ -57,7 +57,7 @@ Because Docker on Mac using a minimal Linux machine to host docker engine, so ch
     </item>
     
     <item>
-      <title>#TIL 2017-05-24 : Reducing docker image the right way</title>
+      <title>#TIL : Reducing docker image the right way</title>
       <link>https://khanhicetea.com/til/2017-05-24-reducing-docker-image-the-right-way/</link>
       <pubDate>Wed, 24 May 2017 23:59:59 +0000</pubDate>
       
@@ -93,7 +93,7 @@ Instruction Prepare a Docker image You can build manually its Docker image by</d
     </item>
     
     <item>
-      <title>#TIL 2015-12-04 : Run built-in server via Docker</title>
+      <title>#TIL : Run built-in server via Docker</title>
       <link>https://khanhicetea.com/til/2015-12-04-run-built-in-server-via-docker/</link>
       <pubDate>Fri, 04 Dec 2015 23:59:59 +0000</pubDate>
       

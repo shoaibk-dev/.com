@@ -1,6 +1,6 @@
 +++
 date = "2017-02-17T23:59:59"
-title = "#TIL 2017-02-17 : String problems can cause logical bugs in application"
+title = "#TIL : String problems can cause logical bugs in application"
 description = "I learned in 2017-02-17 about string, bug, mysql"
 categories = ["Today I learned", "mysql"]
 tags = ["string", "bug", "mysql"]

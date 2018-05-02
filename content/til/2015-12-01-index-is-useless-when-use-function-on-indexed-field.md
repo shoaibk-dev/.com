@@ -1,6 +1,6 @@
 +++
 date = "2015-12-01T23:59:59"
-title = "#TIL 2015-12-01 : Index is useless when use function on indexed field"
+title = "#TIL : Index is useless when use function on indexed field"
 description = "I learned in 2015-12-01 about index, sql, mysql"
 categories = ["Today I learned", "mysql"]
 tags = ["index", "sql", "mysql"]
