@@ -34,17 +34,17 @@
     <meta name="theme-color" content="#ffffff">
 
     
-    <title>Đi Buôn - KhanhIceTea B(rain)-log</title>
-    <meta property='og:title' content="Đi Buôn - KhanhIceTea B(rain)-log">
+    <title>#TIL 2018-05-02 : Using temporary another database in SQLite - KhanhIceTea B(rain)-log</title>
+    <meta property='og:title' content="#TIL 2018-05-02 : Using temporary another database in SQLite - KhanhIceTea B(rain)-log">
     <meta property="og:type" content="article">
     
 
-    <meta property="og:url" content="https://khanhicetea.com/post/bmv-tour/">
+    <meta property="og:url" content="https://khanhicetea.com/til/2018-05-02-using-temporary-another-database-in-sqlite/">
     
-        <meta name="description" content="Có cái nắng, có cái gió, có nỗi nhớ không mang tên, không mang tên người ơi ...">
-        <meta property="og:description" content="Có cái nắng, có cái gió, có nỗi nhớ không mang tên, không mang tên người ơi ...">
+        <meta name="description" content="I learned in 2018-05-02 about sqlite, database">
+        <meta property="og:description" content="I learned in 2018-05-02 about sqlite, database">
     
-    <meta property="og:image" content="https://khanhicetea.com/images/2018/02/bmt.jpg">
+    
 
   </head>
 
@@ -61,19 +61,20 @@
 
 
 <div class="row">
-<div class="col-sm-9 single-post">
+<div class="col-sm-9">
 
     <article class="single" itemscope="itemscope" itemtype="http://schema.org/Article">
 
     <meta itemprop="mainEntityOfPage"  itemType="https://schema.org/WebPage" content="https://khanhicetea.com/"/>
-    <meta itemprop="dateModified" content="2018-02-14T23:04:54&#43;07:00">
-    <meta itemprop="headline" content="Đi Buôn">
-    <meta itemprop="description" content="Cuối tuần rồi tôi có làm một chuyến đi Buôn (Buôn này to nhất cái Tây Nguyên) - Buôn Mê Thuột.
-Bên dưới là một số trải nghiệm trong chuyến đi :D
-Day 1 Cảnh sân bay Buôn Mê (BMV Airport - tôi hay gọi đùa là Ba Mẹ Vợ Airport). Những sân bay nho nhỏ thế này mỗi ngày chỉ có 6-10 chuyến nên khách đi xuống hay lên tàu bay đều đi bộ là chính (riêng tôi lại thích style này, hơn những style luồng ống hay nhét người vào xe bus như cái ống 😨).">
-    <meta itemprop="url" content="https://khanhicetea.com/post/bmv-tour/">
+    <meta itemprop="dateModified" content="2018-05-02T23:59:59&#43;00:00">
+    <meta itemprop="headline" content="#TIL 2018-05-02 : Using temporary another database in SQLite">
+    <meta itemprop="description" content="Using temporary another database in SQLite Sometimes, we need to use temporarily data from another database file. There is simple and fast way to achieve that without transfering data from file X to file Y.
+We connect to main database
+$ sqlite3 main.sqlite  Then using the ATTACH command to attach another database as an alias in main database
+&gt; ATTACH another_db.sqlite as TEMP;  Let listing the tables">
+    <meta itemprop="url" content="https://khanhicetea.com/til/2018-05-02-using-temporary-another-database-in-sqlite/">
     <div itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
-        <meta itemprop="url" content="https://khanhicetea.com/images/2018/02/bmt.jpg" />
+        <meta itemprop="url" content="https://khanhicetea.com/images/never_stop_learning.jpg" />
         <meta itemprop="width" content="800">
         <meta itemprop="height" content="800">
     </div>
@@ -89,106 +90,55 @@ Day 1 Cảnh sân bay Buôn Mê (BMV Airport - tôi hay gọi đùa là Ba Mẹ 
         <meta itemprop="name" content="KhanhIceTea">
     </div>
 
-    <div class="image" style="background-image: url(https://khanhicetea.com/images/2018/02/bmt.jpg);"></div>
+    <div class="image" style="background-image: url(https://khanhicetea.com/images/never_stop_learning.jpg);"></div>
 
     <header class="article-header">
-        <time class="label label-primary" itemprop="datePublished" pubdate="pubdate" datetime="2018-02-14T23:04:54&#43;07:00">Wed, Feb 14 2018, 23:04</time>
-        <h1 class="article-title">Đi Buôn</h1>
+        <time itemprop="datePublished" pubdate="pubdate" datetime="2018-05-02T23:59:59&#43;00:00">Wed, May 2, 2018</time>
+        <h1 class="article-title">#TIL 2018-05-02 : Using temporary another database in SQLite</h1>
     </header>
 
     <div class="article-body" itemprop="articleBody">
         
 
-<p>Cuối tuần rồi tôi có làm một chuyến đi Buôn (Buôn này to nhất cái Tây Nguyên) - Buôn Mê Thuột.</p>
+<h2 id="using-temporary-another-database-in-sqlite">Using temporary another database in SQLite</h2>
 
-<p>Bên dưới là một số trải nghiệm trong chuyến đi :D</p>
+<p>Sometimes, we need to use temporarily data from another database file. There is simple and fast way to achieve that without transfering data from file X to file Y.</p>
 
-<h2 id="day-1">Day 1</h2>
+<p>We connect to main database</p>
 
-<p><img src="../../images/2018/02/bmv-airport.jpg" alt="BMV Airport" /></p>
+<pre><code class="language-bash">$ sqlite3 main.sqlite
+</code></pre>
 
-<p>Cảnh sân bay Buôn Mê (BMV Airport - tôi hay gọi đùa là Ba Mẹ Vợ Airport). Những sân bay nho nhỏ thế này mỗi ngày chỉ có 6-10 chuyến nên khách đi xuống hay lên tàu bay đều đi bộ là chính (riêng tôi lại thích style này, hơn những style luồng ống hay nhét người vào xe bus như cái ống 😨). Không khí lúc đó trời đang trở lạnh man mát ! Rất cool !</p>
+<p>Then using the <strong>ATTACH</strong> command to attach another database as an alias in main database</p>
 
-<p>Vừa ra sân bay, tôi bắt ngay Taxi tới ngã ba Hoàng Hoa Thám và Y-Ngông gặp anh bạn bên bàn nhậu lai rai cái lẩu bò, làm vài lon bia Sai Gon Larger (không hiểu sao miền núi lại chuộng uống loại bia này).</p>
+<pre><code>&gt; ATTACH another_db.sqlite as TEMP;
+</code></pre>
 
-<p>11PM, tan nhậu !! 😂 Anh em lại kéo nhau đi ăn Bún Đỏ (mấy ông anh khoe rằng đi Buôn Mê mà chưa ăn bún đỏ thì phí). Xui cái là khuya quá nên Bún Đỏ đã bán hết, thế là chuyển qua đi ăn cháo đêm ở đường Y-Jút (tên đường ở đây lắm chữ Y 😅 tạm gọi là Y-Cháo cho dễ nhớ).</p>
+<p>Let listing the tables</p>
 
-<h2 id="day-2">Day 2</h2>
+<pre><code>&gt; .tables
+TEMP.users
+TEMP.posts
+users
+admins
+categories
+</code></pre>
 
-<p>Sau khi ăn sáng nhẹ nhàng với tô bún bò sườn to tổ bố 😳 Tôi được chở đi lòng vòng thành phố tham quan.</p>
+<p>As you can see, we got a list of tables, which are prefixed by defined alias <code>TEMP</code> we used in ATTACH command. So you only need to use these tables as normal tables.</p>
 
-<p>Điểm dừng đầu tiên là quảng trường thành phố, nơi đang diễn ra chợ bông xuân nhộn nhịp. Chúng tôi gửi xe rồi đi bộ dọc đường Trường Chinh để ngắm hoa tết ở đây. Có gì lạ lạ quen quen 🤔</p>
+<p>Example of copying data between 2 tables (same structure) :</p>
 
-
-<div style="position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;">
-  <iframe src="//www.youtube.com/embed/y6Jyhhm-Xl4" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" allowfullscreen frameborder="0" title="YouTube Video"></iframe>
- </div>
-
-
-<p>Hoa ở đây cũng không khác gì ở SG là mấy ngoài loại Lan Hồ Điệp ở đây đẹp hơn do khí hậu mát lạnh hơn.</p>
-
-<p>Tiếp đến, chúng tôi dừng chân ở Làng Cà Phê Trung Nguyên. Chỗ này không khác gì một quán cà phê sân vườn lớn ở quận Gò Vấp là mấy. Chỉ có cái đặc biệt là có gian Bảo tàng Cafe chưng bày một số hiện vật về cafe ở Tây Nguyên.</p>
-
-<p><img src="../../images/2018/02/kaffee-machine.jpg" alt="Kaffee" /></p>
-
-<p>Giờ tôi mới biết được từ &ldquo;Cà Phê&rdquo; bắt nguồn từ đâu (trước giờ chứ nghĩ do ngày trước có cái trái cầm cà cà là nó phê phê 😸 ). KAFFEE tính ra nếu viết bằng kiểu TELEX thì cũng ra đúng chữ KÀFÊ đó chứ :))</p>
-
-<p>Trưa đến, chúng tôi đi tham quan tiếp khu du lịch sinh thái KoTam, vì không phải là fan chụp choẹt nên cũng không hứng thú lắm với những cảnh nửa thật nửa giả ở đây.</p>
+<pre><code>&gt; INSERT INTO users SELECT * FROM TEMP.users
+</code></pre>
 
 
-<div style="position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;">
-  <iframe src="//www.youtube.com/embed/g2i94h_vGNA" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" allowfullscreen frameborder="0" title="YouTube Video"></iframe>
- </div>
-
-
-<p>Chiều tối lại kàfê nhẹ nhàng, đúng là ở Buôn Mê cứ 50m là có một quán kàfê.</p>
-
-<h2 id="day-3">Day 3</h2>
-
-<p>4:30AM dậy sớm đi lễ nhà thờ Kim Mai gần chỗ ở. Đi trễ 2 phút mà nhà thờ bên trong đã kín chỗ (khác xa với SG). Thế là đành ngồi hàng ghế đá ngoài nhà thờ dưới cái rét run cầm cập. 😲</p>
-
-<p>Lễ xong, làm một tô bánh canh cá lóc nóng hổi cho nóng người. Đồ ăn ở đây khá ok và giá rẻ hơn ở SG nhiều. Ăn xong lại kàfê tiếp !</p>
-
-<p>Trưa, anh bạn rủ bạn bè ra vườn nướng gà nhậu vài lon cho vui.</p>
-
-<p><img src="../../images/2018/02/chicken.jpg" alt="Chicken" /></p>
-
-<p>Chiều về nhà ngủ thẳng một giấc tới 11PM quên ăn tối, thế là ngủ tiếp tới sáng với chiếc bụng đói meo 😿</p>
-
-<h2 id="day-4">Day 4</h2>
-
-<p>Lại là tiết mục ăn sáng và kàfê :)))</p>
-
-<p>Tiếp theo chương trình, anh em lại kéo nhau đi câu cá miệt vườn cho nó dân dã. (Kiểu nghĩ tôi là một đứa thành phố mới lên quê chơi vậy).</p>
-
-<p>Tới màn câu cá, mặc dù không phải là Cần Thủ nhưng tôi rất sát cá. Bằng chứng là tôi lại là người duy nhất câu được cá và lại là con to nhất cái hồ :))))) Và càng khó tin hơn khi con cá không phải cắn lưỡi câu mà do lưỡi móc vào &ldquo;Ass&rdquo; nó trong lúc nó chảnh chẹ khước từ miếng mồi (mấy ông đi cùng bảo là pha này max rùa - max hên).</p>
-
-
-<div style="position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;">
-  <iframe src="//www.youtube.com/embed/Vc5QdRSehYI" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" allowfullscreen frameborder="0" title="YouTube Video"></iframe>
- </div>
-
-
-<p>Thôi thì rùa cũng được, có cá tươi bỏ bụng cũng zui ròi.</p>
-
-<p>Thời gian thấm thoát, đã tới ngày cuối phải bay về SG lại. Trên đường ra sân bay, tôi lại được may mắn bắt được một anh taxi rất vui vẻ, lạc quan rồi tâm sự về cuộc đời thăng trầm.</p>
-
-<p>Và rồi cũng tới cổng sân bay (ah mà phải công nhận là con đường vào sân bay ở BMT rất đẹp - nó làm tôi nhớ tới cung đường vào sân bay ở Singapore với hai bên hàng cây xanh mướt).</p>
-
-<p>Hên là hôm ấy hãng hàng không Delay Airline đã có sẵn máy bay nên đi về SG rất đúng giờ.</p>
-
-<p>SG hôm ấy vắng, buồn tênh &hellip;</p>
-
-<p>Till next time.</p>
-
-<hr />
-
-<p><strong>Ref:</strong></p>
-
-<ul>
-<li>Cover photo from VNTourism</li>
-</ul>
-
+        <p>----------------------------</p>
+        <p>
+            // We constantly learn new things. I shared all of them on 
+            <a target="_blank" href="../../tags/til/">here</a> 
+            and 
+            <a target="_blank" href="https://github.com/khanhicetea/today-i-learned#what-i-learned">there</a>.
+        </p>
     </div>
 
     <div id="author-info">
@@ -198,24 +148,22 @@ Day 1 Cảnh sân bay Buôn Mê (BMV Airport - tôi hay gọi đùa là Ba Mẹ 
 </div>
 
     <aside>
-    <div class="section"><a href="https://khanhicetea.com/tags/life" class="label label-info">life</a> <a href="https://khanhicetea.com/tags/journey" class="label label-info">journey</a> <a href="https://khanhicetea.com/tags/vietnamese" class="label label-info">vietnamese</a> </div>
+    <div class="section"><a href="https://khanhicetea.com/tags/sqlite" class="label label-info">sqlite</a> <a href="https://khanhicetea.com/tags/database" class="label label-info">database</a> </div>
 
     <nav>
         <ul class="pager">
             
-            <li class="previous"><a href="https://khanhicetea.com/post/hoc-nhung-ky-nang-nay-truoc-khi-ban-ngom/"><span aria-hidden="true">&larr;</span> \b</a></li>
+            <li class="previous"><a href="https://khanhicetea.com/til/2018-04-30-exporting-environment-variables-on-virtual-env-activate/"><span aria-hidden="true">&larr;</span> \b</a></li>
             
-            
-            <li class="next"><a href="https://khanhicetea.com/til/2018-02-21-list-opening-ports-or-listening-unix-sockets/"><span aria-hidden="true">&rarr;</span> #TIL 2018-02-21 : List opening ports or listening UNIX sockets</a></li>
             
         </ul>
     </nav>
 
     <div class="section share">
-    <a href="http://www.facebook.com/sharer.php?src=bm&u=https%3a%2f%2fkhanhicetea.com%2fpost%2fbmv-tour%2f&t=%c4%90i%20Bu%c3%b4n" onclick="window.open(this.href, 'PCwindow', 'width=550, height=350, menubar=no, toolbar=no, scrollbars=yes'); return false;"><i class="fa fa-facebook"></i></a>
-    <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fkhanhicetea.com%2fpost%2fbmv-tour%2f&text=%c4%90i%20Bu%c3%b4n&tw_p=tweetbutton" onclick="window.open(this.href, 'PCwindow', 'width=550, height=350, menubar=no, toolbar=no, scrollbars=yes'); return false;"><i class="fa fa-twitter"></i></a>
-    <a href="https://plus.google.com/share?url=https%3a%2f%2fkhanhicetea.com%2fpost%2fbmv-tour%2f" onclick="window.open(this.href, 'PCwindow', 'width=550, height=350, menubar=no, toolbar=no, scrollbars=yes'); return false;"><i class="fa fa-google-plus"></i></a>
-    <a href="http://getpocket.com/edit?url=https%3a%2f%2fkhanhicetea.com%2fpost%2fbmv-tour%2f&title=%c4%90i%20Bu%c3%b4n" onclick="window.open(this.href, 'PCwindow', 'width=550, height=350, menubar=no, toolbar=no, scrollbars=yes'); return false;"><i class="fa fa-get-pocket"></i></a>
+    <a href="http://www.facebook.com/sharer.php?src=bm&u=https%3a%2f%2fkhanhicetea.com%2ftil%2f2018-05-02-using-temporary-another-database-in-sqlite%2f&t=%23TIL%202018-05-02%20%3a%20Using%20temporary%20another%20database%20in%20SQLite" onclick="window.open(this.href, 'PCwindow', 'width=550, height=350, menubar=no, toolbar=no, scrollbars=yes'); return false;"><i class="fa fa-facebook"></i></a>
+    <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fkhanhicetea.com%2ftil%2f2018-05-02-using-temporary-another-database-in-sqlite%2f&text=%23TIL%202018-05-02%20%3a%20Using%20temporary%20another%20database%20in%20SQLite&tw_p=tweetbutton" onclick="window.open(this.href, 'PCwindow', 'width=550, height=350, menubar=no, toolbar=no, scrollbars=yes'); return false;"><i class="fa fa-twitter"></i></a>
+    <a href="https://plus.google.com/share?url=https%3a%2f%2fkhanhicetea.com%2ftil%2f2018-05-02-using-temporary-another-database-in-sqlite%2f" onclick="window.open(this.href, 'PCwindow', 'width=550, height=350, menubar=no, toolbar=no, scrollbars=yes'); return false;"><i class="fa fa-google-plus"></i></a>
+    <a href="http://getpocket.com/edit?url=https%3a%2f%2fkhanhicetea.com%2ftil%2f2018-05-02-using-temporary-another-database-in-sqlite%2f&title=%23TIL%202018-05-02%20%3a%20Using%20temporary%20another%20database%20in%20SQLite" onclick="window.open(this.href, 'PCwindow', 'width=550, height=350, menubar=no, toolbar=no, scrollbars=yes'); return false;"><i class="fa fa-get-pocket"></i></a>
     </div>
 
     
@@ -248,10 +196,7 @@ dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
 <ul>
 <li>
 <ul>
-<li><a href="#day-1">Day 1</a></li>
-<li><a href="#day-2">Day 2</a></li>
-<li><a href="#day-3">Day 3</a></li>
-<li><a href="#day-4">Day 4</a></li>
+<li><a href="#using-temporary-another-database-in-sqlite">Using temporary another database in SQLite</a></li>
 </ul></li>
 </ul>
 </nav></div>
@@ -440,3 +385,4 @@ dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
 
   </body>
 </html>
+
