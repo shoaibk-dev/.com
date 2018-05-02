@@ -10,13 +10,6 @@
   </url>
   
   <url>
-    <loc>https://khanhicetea.com/til/2018-05-02-using-temporary-another-database-in-sqlite/</loc>
-    <lastmod>2018-05-02T23:59:59+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
-  </url>
-  
-  <url>
     <loc>https://khanhicetea.com/til/2018-04-30-exporting-environment-variables-on-virtual-env-activate/</loc>
     <lastmod>2018-04-30T23:59:59+00:00</lastmod>
     <changefreq>daily</changefreq>
