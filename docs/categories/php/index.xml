@@ -6,10 +6,22 @@
     <description>Recent content in Php on KhanhIceTea B(rain)-log</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 06 Aug 2017 23:59:59 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 04 May 2018 23:59:59 +0000</lastBuildDate>
     
 	<atom:link href="https://khanhicetea.com/categories/php/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>#TIL : try, catch and finally in PHP</title>
+      <link>https://khanhicetea.com/til/2018-05-04-try-catch-and-finally-in-php/</link>
+      <pubDate>Fri, 04 May 2018 23:59:59 +0000</pubDate>
+      
+      <guid>https://khanhicetea.com/til/2018-05-04-try-catch-and-finally-in-php/</guid>
+      <description>try, catch and finally in PHP We have to deal with exceptions every moment we touch PHP web development, and so please be carefully with running order of exception catching.
+Here is an example
+&amp;lt;?php function a() { try { throw new Exception(&#39;dsads&#39;); } catch (Exception $e) { return &#39;b&#39;; } finally { echo &#39;c&#39;; } } echo a();  Then the output is
+cb  Than mean even return &#39;b&#39;; runs, the finally code must be runned before function result passes out.</description>
+    </item>
     
     <item>
       <title>#TIL : realpath function</title>
