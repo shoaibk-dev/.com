@@ -6,10 +6,21 @@
     <description>Recent content in Tils on KhanhIceTea B(rain)-log</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 07 May 2018 23:59:59 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 08 May 2018 23:59:59 +0000</lastBuildDate>
     
 	<atom:link href="https://khanhicetea.com/til/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>#TIL : View DNS history of a domain</title>
+      <link>https://khanhicetea.com/til/2018-05-08-view-dns-history-of-a-domain/</link>
+      <pubDate>Tue, 08 May 2018 23:59:59 +0000</pubDate>
+      
+      <guid>https://khanhicetea.com/til/2018-05-08-view-dns-history-of-a-domain/</guid>
+      <description>View DNS history of a domain You can check the history of a domain (A Record). It&amp;rsquo;s useful in case you forgot the old IP of domain.
+Check it here : http://viewdns.info/iphistory/
+Example : this is Github A record history http://viewdns.info/iphistory/?domain=github.com</description>
+    </item>
     
     <item>
       <title>#TIL : Never autostart XDebug in cli environment</title>
