@@ -2,8 +2,8 @@
 title: "AI Has Been Ruining Mankind Slowly"
 date: 2018-05-09T19:38:30+07:00
 description: "It is not coming, it's happening right now !"
-categories: ["Database", "Docker"]
-tags: ["database", "docker", "backup", "elasticsearch", "english"]
+categories: ["AI"]
+tags: ["ai", "machine", "technology", "english"]
 image: "2018/05/robot-boss.jpg"
 toc: true
 ---
@@ -63,7 +63,9 @@ It makes us lazy on thinking and stupid on decision !
 
 It has been ruining your life !
 
-WHAT IF !? WHAT IF !? SOMEDAY, WHEN YOU TYPE THE FIRST KEY **[F]**, IT WILL RECOMMEND THIS TEXT "FUCK HUMANITY !" 😂
+WHAT IF !? WHAT IF !? SOMEDAY, WHEN YOU TYPE THE FIRST KEY **[F]**, IT WILL RECOMMEND THIS TEXT "FUCK HUMANITY !" 😂 LIKE THIS SIRI
+
+{{< youtube OQDx9cN_CQ0 >}}
 
 > DON'T LET TECHNOLOGY RUIN YOUR LIFE ! BUT USE IT TO MAKE LIFE BETTER !
 
