@@ -6,6 +6,7 @@ categories: ["Database", "Docker"]
 tags: ["database", "docker", "backup", "elasticsearch", "english"]
 image: "2018/05/robot-boss.jpg"
 toc: true
+draft: true
 ---
 
 Just my 2 cents ...
