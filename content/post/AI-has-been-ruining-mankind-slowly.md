@@ -6,7 +6,6 @@ categories: ["Database", "Docker"]
 tags: ["database", "docker", "backup", "elasticsearch", "english"]
 image: "2018/05/robot-boss.jpg"
 toc: true
-draft: true
 ---
 
 Just my 2 cents ...
@@ -57,6 +56,8 @@ It annoys you on thinking what to write next !
 It destroys your emotion !
 
 It's just a template, a stereotypy ! It kills your imagination and your creative !
+
+It fixes us on wrong words, grammars, ideas ! But we has been improving ourself by making mistake everyday !
 
 It makes us lazy on thinking and stupid on decision !
 
