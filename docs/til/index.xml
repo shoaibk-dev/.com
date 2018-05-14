@@ -6,10 +6,21 @@
     <description>Recent content in Tils on KhanhIceTea B(rain)-log</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 08 May 2018 23:59:59 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 14 May 2018 23:59:59 +0000</lastBuildDate>
     
 	<atom:link href="https://khanhicetea.com/til/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>#TIL : Get random number from computer</title>
+      <link>https://khanhicetea.com/til/2018-05-14-get-random-number-from-computer/</link>
+      <pubDate>Mon, 14 May 2018 23:59:59 +0000</pubDate>
+      
+      <guid>https://khanhicetea.com/til/2018-05-14-get-random-number-from-computer/</guid>
+      <description>Get random number from computer Today, I read my junior team-mate code and find this line
+$number = rand(2,1000)*rand(2,1000);  This made me remember that&amp;rsquo;s same idea of my own in many years ago. Then I ask myself, is it good to generate a random number from 2 random numbers ?
+So the main reason that he wrote this was making probability of same number at same time must be low.</description>
+    </item>
     
     <item>
       <title>#TIL : View DNS history of a domain</title>
