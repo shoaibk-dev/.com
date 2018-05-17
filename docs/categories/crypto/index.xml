@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Crypto on KhanhIceTea B(rain)-log</title>
+    <link>https://khanhicetea.com/categories/crypto/</link>
+    <description>Recent content in Crypto on KhanhIceTea B(rain)-log</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 17 May 2018 23:59:59 +0000</lastBuildDate>
+    
+	<atom:link href="https://khanhicetea.com/categories/crypto/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>#TIL : Encrypt and decrypt file using openssl command line</title>
+      <link>https://khanhicetea.com/til/2018-05-17-encrypt-and-decrypt-file-using-openssl-command-line/</link>
+      <pubDate>Thu, 17 May 2018 23:59:59 +0000</pubDate>
+      
+      <guid>https://khanhicetea.com/til/2018-05-17-encrypt-and-decrypt-file-using-openssl-command-line/</guid>
+      <description>Encrypt and decrypt file using openssl command line You can encrypt and decrypt the file using openssl command line. Somehow you will need to encrypt your important file with a secret key.
+Encrypt
+openssl enc -aes-256-cbc -in [input_file] -out [output_file]  Then Enter 2 times your secret key (this should be hard to guess and don&amp;rsquo;t loose it)
+Decrypt
+openssl enc -aes-256-cbc -d -in [input_file] &amp;gt; [output_file]  Then enter your secret key to decrypt the content !</description>
+    </item>
+    
+  </channel>
+</rss>
