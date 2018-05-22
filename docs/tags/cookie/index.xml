@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cookie on KhanhIceTea B(rain)-log</title>
+    <link>https://khanhicetea.com/tags/cookie/</link>
+    <description>Recent content in Cookie on KhanhIceTea B(rain)-log</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 22 May 2018 23:59:59 +0000</lastBuildDate>
+    
+	<atom:link href="https://khanhicetea.com/tags/cookie/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>#TIL : Reuse cookies between multi requests in Curl tool</title>
+      <link>https://khanhicetea.com/til/2018-05-22-reuse-cookies-between-multi-requests-in-curl-tool/</link>
+      <pubDate>Tue, 22 May 2018 23:59:59 +0000</pubDate>
+      
+      <guid>https://khanhicetea.com/til/2018-05-22-reuse-cookies-between-multi-requests-in-curl-tool/</guid>
+      <description>Reuse cookies between multi requests in Curl tool Curl is good lib and tool to simulate HTTP requests. One common usecase is reusing the cookies between 2 or more requests. So you don&amp;rsquo;t have to copied last &amp;ldquo;Set-Cookie&amp;rdquo; of previous response then paste it to &amp;ldquo;Cookie&amp;rdquo; of next request.
+To achieve that, you have to use a cookie jar (sounds fun) to store cookies then use that cookie jar in next request.</description>
+    </item>
+    
+  </channel>
+</rss>
