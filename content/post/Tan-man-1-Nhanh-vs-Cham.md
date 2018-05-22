@@ -34,6 +34,12 @@ chậm, quyết nhanh và sống thì ... bình thường thôi", chứ sống c
 
 *Tản mạn thành ra nó chuối chuối, rời rời và đời đời một chút*
 
+Bonus from CHAM Exhibition
+
+![cham1](/images/2018/05/cham1.jpg)
+
+![cham2](/images/2018/05/cham2.jpg)
+
 Hết.
 
 -----------------------------
