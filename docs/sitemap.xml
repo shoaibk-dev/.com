@@ -3,6 +3,13 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://khanhicetea.com/til/2018-05-29-put-git-data-outside-project-directory/</loc>
+    <lastmod>2018-05-29T23:59:59+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <url>
     <loc>https://khanhicetea.com/til/2018-05-22-reuse-cookies-between-multi-requests-in-curl-tool/</loc>
     <lastmod>2018-05-22T23:59:59+00:00</lastmod>
     <changefreq>daily</changefreq>
@@ -1677,14 +1684,14 @@
   
   <url>
     <loc>https://khanhicetea.com/tags/git/</loc>
-    <lastmod>2017-11-27T23:59:59+00:00</lastmod>
+    <lastmod>2018-05-29T23:59:59+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://khanhicetea.com/categories/git/</loc>
-    <lastmod>2017-11-27T23:59:59+00:00</lastmod>
+    <lastmod>2018-05-29T23:59:59+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0</priority>
   </url>
@@ -1873,7 +1880,7 @@
   
   <url>
     <loc>https://khanhicetea.com/</loc>
-    <lastmod>2018-05-22T23:59:59+00:00</lastmod>
+    <lastmod>2018-05-29T23:59:59+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0</priority>
   </url>
@@ -2278,6 +2285,13 @@
   </url>
   
   <url>
+    <loc>https://khanhicetea.com/tags/secutiry/</loc>
+    <lastmod>2018-05-29T23:59:59+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://khanhicetea.com/tags/shell/</loc>
     <lastmod>2017-09-27T23:59:59+00:00</lastmod>
     <changefreq>daily</changefreq>
@@ -2461,7 +2475,7 @@
   
   <url>
     <loc>https://khanhicetea.com/til/</loc>
-    <lastmod>2018-05-22T23:59:59+00:00</lastmod>
+    <lastmod>2018-05-29T23:59:59+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0</priority>
   </url>
@@ -2475,7 +2489,7 @@
   
   <url>
     <loc>https://khanhicetea.com/categories/today-i-learned/</loc>
-    <lastmod>2018-05-22T23:59:59+00:00</lastmod>
+    <lastmod>2018-05-29T23:59:59+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0</priority>
   </url>

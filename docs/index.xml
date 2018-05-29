@@ -6,10 +6,22 @@
     <description>Recent content on KhanhIceTea B(rain)-log</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 22 May 2018 23:59:59 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 29 May 2018 23:59:59 +0000</lastBuildDate>
     
 	<atom:link href="https://khanhicetea.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>#TIL : Put .git data outside project directory</title>
+      <link>https://khanhicetea.com/til/2018-05-29-put-git-data-outside-project-directory/</link>
+      <pubDate>Tue, 29 May 2018 23:59:59 +0000</pubDate>
+      
+      <guid>https://khanhicetea.com/til/2018-05-29-put-git-data-outside-project-directory/</guid>
+      <description>Put .git data outside project directory Sometimes you want to put .git data into outside directory (to use another disk partition or to protect your git data). Use --separate-git-dir= option to get that.
+Example :
+$ git init --separate-git-dir=/var/gitstorage/myproject  Bonus : to protect .git data from other users, use this option --shared within octal value (same to chmod)
+Example : this will protect git file from writing by group and reading/writing by others</description>
+    </item>
     
     <item>
       <title>#TIL : Reuse cookies between multi requests in Curl tool</title>
