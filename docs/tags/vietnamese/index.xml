@@ -6,10 +6,23 @@
     <description>Recent content in Vietnamese on KhanhIceTea B(rain)-log</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 03 May 2018 00:14:08 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 05 Jun 2018 23:04:35 +0700</lastBuildDate>
     
 	<atom:link href="https://khanhicetea.com/tags/vietnamese/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Evaluate expression string with variables in PHP without eval</title>
+      <link>https://khanhicetea.com/post/evaluate-expression-string-with-variables-in-php-without-eval/</link>
+      <pubDate>Tue, 05 Jun 2018 23:04:35 +0700</pubDate>
+      
+      <guid>https://khanhicetea.com/post/evaluate-expression-string-with-variables-in-php-without-eval/</guid>
+      <description>TLDR;  Never ever use eval function in PHP !
+ Introduction In some applications, we need to let user defines the expression (user lambda function) to evaluate a value or a condition. So we store user-defined expression in database then using eval function and pass variables to that function.
+It works, but not securely ! Remember this important thing :
+ NEVER TRUST USER INPUT !
+ So how this article will show how we achieve the goal without touching eval or create_function function.</description>
+    </item>
     
     <item>
       <title>Tản mạn #3 : Khôn Lanh và Khờ Dại</title>
