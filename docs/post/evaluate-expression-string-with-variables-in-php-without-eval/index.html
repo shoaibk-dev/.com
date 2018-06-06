@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <meta name="generator" content="Hugo 0.26" />
+    <meta name="generator" content="Hugo 0.40.2" />
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
     <link rel="author" href="../../humans.txt" />
@@ -136,7 +136,14 @@ It works, but not securely ! Remember this important thing :
 
 <p><strong>Usage</strong></p>
 
-<pre><code class="language-php">$calculator = new KhanhIceTea\Twigeval\Calculator();
+<pre><code class="language-php">/*
+$cacheDir could be :
+    - false : no use cache (mean use eval function), be carefully !
+    - null : use sys_get_temp_dir() to get system temp directory as cache dir
+    - string : cache directory path
+*/
+$cacheDir = null;
+$calculator = new KhanhIceTea\Twigeval\Calculator($cacheDir);
 
 $math = $calculator-&gt;number('a / 4 + b * 3', ['a' =&gt; 16, 'b' =&gt; 3]);
 // =&gt; 13
