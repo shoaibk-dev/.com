@@ -203,15 +203,15 @@
       ga('create', 'UA-50390703-1', 'auto');
 
       jQuery.ajax({
-        url: "https://ipapi.co/jsonp/",
+        url: "https://extreme-ip-lookup.com/json/",
         jsonp: "callback",
         dataType: "jsonp",
         success: function(geoip) {
-          ga('set', 'dimension1', geoip.ip);
-          ga('set', 'dimension2', geoip.city + ' - ' + geoip.country_name);
+          ga('set', 'dimension1', geoip.query);
+          ga('set', 'dimension2', geoip.city + ' - ' + geoip.country);
           ga('send', 'pageview');
           setInterval(function() {
-              ga('send', 'pageview');
+            ga('send', 'pageview');
           }, 60000);
         }
       });
