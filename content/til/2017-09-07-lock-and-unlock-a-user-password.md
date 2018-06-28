@@ -1,7 +1,7 @@
 +++
 date = "2017-09-07T23:59:59"
 title = "#TIL : Lock and unlock a user password"
-description = "I learned in 2017-09-07 about sysadmin"
+description = "I learned on 2017-09-07 about sysadmin"
 categories = ["Today I learned", "sysadmin"]
 tags = ["sysadmin"]
 +++

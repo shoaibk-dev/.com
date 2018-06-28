@@ -1,7 +1,7 @@
 +++
 date = "2017-08-06T23:59:59"
 title = "#TIL : Cleaning up old linux kernels"
-description = "I learned in 2017-08-06 about sysadmin, kernel, linux"
+description = "I learned on 2017-08-06 about sysadmin, kernel, linux"
 categories = ["Today I learned", "sysadmin"]
 tags = ["sysadmin", "kernel", "linux"]
 +++

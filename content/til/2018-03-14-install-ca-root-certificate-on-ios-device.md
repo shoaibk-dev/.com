@@ -1,7 +1,7 @@
 +++
 date = "2018-03-14T23:59:59"
 title = "#TIL : Install CA root certificate on iOS device"
-description = "I learned in 2018-03-14 about ssl, security, ios"
+description = "I learned on 2018-03-14 about ssl, security, ios"
 categories = ["Today I learned", "ios"]
 tags = ["ssl", "security", "ios"]
 +++

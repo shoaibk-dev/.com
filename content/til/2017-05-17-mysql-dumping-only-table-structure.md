@@ -1,7 +1,7 @@
 +++
 date = "2017-05-17T23:59:59"
 title = "#TIL : Mysql dumping only table structure"
-description = "I learned in 2017-05-17 about mysql"
+description = "I learned on 2017-05-17 about mysql"
 categories = ["Today I learned", "mysql"]
 tags = ["mysql"]
 +++

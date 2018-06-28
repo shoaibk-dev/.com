@@ -1,7 +1,7 @@
 +++
 date = "2018-05-14T23:59:59"
 title = "#TIL : Get random number from computer"
-description = "I learned in 2018-05-14 about random, programming"
+description = "I learned on 2018-05-14 about random, programming"
 categories = ["Today I learned", "programming"]
 tags = ["random", "programming"]
 +++

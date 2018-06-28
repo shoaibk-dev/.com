@@ -1,7 +1,7 @@
 +++
 date = "2018-02-21T23:59:59"
 title = "#TIL : Convert tabs to spaces"
-description = "I learned in 2018-02-21 about vim"
+description = "I learned on 2018-02-21 about vim"
 categories = ["Today I learned", "vim"]
 tags = ["vim"]
 +++

@@ -1,7 +1,7 @@
 +++
 date = "2017-08-04T23:59:59"
 title = "#TIL : Free sandbox server for development"
-description = "I learned in 2017-08-04 about heroku, devops, free"
+description = "I learned on 2017-08-04 about heroku, devops, free"
 categories = ["Today I learned", "devops"]
 tags = ["heroku", "devops", "free"]
 +++

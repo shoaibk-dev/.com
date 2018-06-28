@@ -1,7 +1,7 @@
 +++
 date = "2018-01-22T23:59:59"
 title = "#TIL : Use journalctl to check system logs"
-description = "I learned in 2018-01-22 about sysadmin, logging"
+description = "I learned on 2018-01-22 about sysadmin, logging"
 categories = ["Today I learned", "sysadmin"]
 tags = ["sysadmin", "logging"]
 +++

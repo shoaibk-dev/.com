@@ -1,7 +1,7 @@
 +++
 date = "2017-08-10T23:59:59"
 title = "#TIL : Eval function and with block"
-description = "I learned in 2017-08-10 about javascript"
+description = "I learned on 2017-08-10 about javascript"
 categories = ["Today I learned", "javascript"]
 tags = ["javascript"]
 +++

@@ -1,7 +1,7 @@
 +++
 date = "2018-01-03T23:59:59"
 title = "#TIL : HSTS rule in browser"
-description = "I learned in 2018-01-03 about web, security"
+description = "I learned on 2018-01-03 about web, security"
 categories = ["Today I learned", "web"]
 tags = ["web", "security"]
 +++

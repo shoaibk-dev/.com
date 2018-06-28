@@ -1,7 +1,7 @@
 +++
 date = "2017-04-21T23:59:59"
 title = "#TIL : Base 64 encode and decode builtin tool"
-description = "I learned in 2017-04-21 about web, tools, encoding"
+description = "I learned on 2017-04-21 about web, tools, encoding"
 categories = ["Today I learned", "tools"]
 tags = ["web", "tools", "encoding"]
 +++

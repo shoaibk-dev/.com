@@ -1,7 +1,7 @@
 +++
 date = "2017-08-08T23:59:59"
 title = "#TIL : Remap Capslock to Control key"
-description = "I learned in 2017-08-08 about keyboard, linux"
+description = "I learned on 2017-08-08 about keyboard, linux"
 categories = ["Today I learned", "linux"]
 tags = ["keyboard", "linux"]
 +++

@@ -1,7 +1,7 @@
 +++
 date = "2017-09-25T23:59:59"
 title = "#TIL : Blocking specified country to prevent from DDOS"
-description = "I learned in 2017-09-25 about sysadmin, firewall, networking"
+description = "I learned on 2017-09-25 about sysadmin, firewall, networking"
 categories = ["Today I learned", "sysadmin"]
 tags = ["sysadmin", "firewall", "networking"]
 +++

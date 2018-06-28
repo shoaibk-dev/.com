@@ -1,7 +1,7 @@
 +++
 date = "2018-03-01T23:59:59"
 title = "#TIL : Prevent source hacking from .git directory exposing"
-description = "I learned in 2018-03-01 about sysadmin, security, hacking"
+description = "I learned on 2018-03-01 about sysadmin, security, hacking"
 categories = ["Today I learned", "sysadmin"]
 tags = ["sysadmin", "security", "hacking"]
 +++

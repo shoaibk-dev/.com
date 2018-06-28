@@ -1,7 +1,7 @@
 +++
 date = "2017-10-04T23:59:59"
 title = "#TIL : TIME command output meaning"
-description = "I learned in 2017-10-04 about sysadmin, cpu, time"
+description = "I learned on 2017-10-04 about sysadmin, cpu, time"
 categories = ["Today I learned", "sysadmin"]
 tags = ["sysadmin", "cpu", "time"]
 +++

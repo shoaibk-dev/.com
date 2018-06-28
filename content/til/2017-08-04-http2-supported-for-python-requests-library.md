@@ -1,7 +1,7 @@
 +++
 date = "2017-08-04T23:59:59"
 title = "#TIL : HTTP2 supported for python requests library"
-description = "I learned in 2017-08-04 about python, requests, http2"
+description = "I learned on 2017-08-04 about python, requests, http2"
 categories = ["Today I learned", "python"]
 tags = ["python", "requests", "http2"]
 +++

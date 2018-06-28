@@ -1,7 +1,7 @@
 +++
 date = "2018-05-22T23:59:59"
 title = "#TIL : Reuse cookies between multi requests in Curl tool"
-description = "I learned in 2018-05-22 about cookie, curl, http"
+description = "I learned on 2018-05-22 about cookie, curl, http"
 categories = ["Today I learned", "http"]
 tags = ["cookie", "curl", "http"]
 +++

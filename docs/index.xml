@@ -6,10 +6,22 @@
     <description>Recent content on KhanhIceTea B(rain)-log</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 05 Jun 2018 23:04:35 +0700</lastBuildDate>
+    <lastBuildDate>Tue, 26 Jun 2018 23:59:59 +0000</lastBuildDate>
     
 	<atom:link href="https://khanhicetea.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>#TIL : Running git command using another ssh key</title>
+      <link>https://khanhicetea.com/til/2018-06-26-running-git-command-using-another-ssh-key/</link>
+      <pubDate>Tue, 26 Jun 2018 23:59:59 +0000</pubDate>
+      
+      <guid>https://khanhicetea.com/til/2018-06-26-running-git-command-using-another-ssh-key/</guid>
+      <description> Running git command using another ssh key Sometimes you want to use another private key to authorize to remote repository.
+Just add an environment variable before the command you wanna run : GIT_SSH_COMMAND=&#39;ssh -i [your-private-key]
+Example :
+$ GIT_SSH_COMMAND=&#39;ssh -i ~/keys/key1&#39; git pull  </description>
+    </item>
     
     <item>
       <title>Evaluate expression string with variables in PHP without eval</title>

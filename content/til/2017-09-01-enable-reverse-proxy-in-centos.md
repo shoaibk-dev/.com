@@ -1,7 +1,7 @@
 +++
 date = "2017-09-01T23:59:59"
 title = "#TIL : Enable reverse proxy in CentOS"
-description = "I learned in 2017-09-01 about sysadmin, web, proxy"
+description = "I learned on 2017-09-01 about sysadmin, web, proxy"
 categories = ["Today I learned", "sysadmin"]
 tags = ["sysadmin", "web", "proxy"]
 +++

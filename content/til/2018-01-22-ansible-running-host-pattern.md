@@ -1,7 +1,7 @@
 +++
 date = "2018-01-22T23:59:59"
 title = "#TIL : Ansible running host pattern"
-description = "I learned in 2018-01-22 about ansible, devops"
+description = "I learned on 2018-01-22 about ansible, devops"
 categories = ["Today I learned", "devops"]
 tags = ["ansible", "devops"]
 +++

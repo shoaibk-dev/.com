@@ -1,7 +1,7 @@
 +++
 date = "2018-05-02T23:59:59"
 title = "#TIL : Use temporarily data from another database in SQLite"
-description = "I learned in 2018-05-02 about sqlite, database"
+description = "I learned on 2018-05-02 about sqlite, database"
 categories = ["Today I learned", "database"]
 tags = ["sqlite", "database"]
 +++

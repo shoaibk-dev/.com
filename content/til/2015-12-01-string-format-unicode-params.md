@@ -1,7 +1,7 @@
 +++
 date = "2015-12-01T23:59:59"
 title = "#TIL : String Format Unicode params"
-description = "I learned in 2015-12-01 about python, string, unicode"
+description = "I learned on 2015-12-01 about python, string, unicode"
 categories = ["Today I learned", "python"]
 tags = ["python", "string", "unicode"]
 +++

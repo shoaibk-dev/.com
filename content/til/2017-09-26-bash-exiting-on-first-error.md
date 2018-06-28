@@ -1,7 +1,7 @@
 +++
 date = "2017-09-26T23:59:59"
 title = "#TIL : BASH exiting on first error"
-description = "I learned in 2017-09-26 about sysadmin, shell, bash"
+description = "I learned on 2017-09-26 about sysadmin, shell, bash"
 categories = ["Today I learned", "sysadmin"]
 tags = ["sysadmin", "shell", "bash"]
 +++

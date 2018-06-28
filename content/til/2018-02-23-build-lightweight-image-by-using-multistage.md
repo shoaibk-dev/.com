@@ -1,7 +1,7 @@
 +++
 date = "2018-02-23T23:59:59"
 title = "#TIL : Build lightweight image by using multistage"
-description = "I learned in 2018-02-23 about docker, devops"
+description = "I learned on 2018-02-23 about docker, devops"
 categories = ["Today I learned", "docker"]
 tags = ["docker", "devops"]
 +++

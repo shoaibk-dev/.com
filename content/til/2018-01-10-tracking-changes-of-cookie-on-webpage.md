@@ -1,7 +1,7 @@
 +++
 date = "2018-01-10T23:59:59"
 title = "#TIL : Tracking changes of cookie on webpage"
-description = "I learned in 2018-01-10 about debug, web, javascript"
+description = "I learned on 2018-01-10 about debug, web, javascript"
 categories = ["Today I learned", "javascript"]
 tags = ["debug", "web", "javascript"]
 +++

@@ -1,7 +1,7 @@
 +++
 date = "2015-12-04T23:59:59"
 title = "#TIL : Reference assign object variable"
-description = "I learned in 2015-12-04 about python, clone, ref-var"
+description = "I learned on 2015-12-04 about python, clone, ref-var"
 categories = ["Today I learned", "python"]
 tags = ["python", "clone", "ref-var"]
 +++

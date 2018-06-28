@@ -1,7 +1,7 @@
 +++
 date = "2018-01-07T23:59:59"
 title = "#TIL : Debug js code using console.trace"
-description = "I learned in 2018-01-07 about debug, javascript"
+description = "I learned on 2018-01-07 about debug, javascript"
 categories = ["Today I learned", "javascript"]
 tags = ["debug", "javascript"]
 +++

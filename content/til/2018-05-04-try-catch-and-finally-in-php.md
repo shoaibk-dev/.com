@@ -1,7 +1,7 @@
 +++
 date = "2018-05-04T23:59:59"
 title = "#TIL : try, catch and finally in PHP"
-description = "I learned in 2018-05-04 about php"
+description = "I learned on 2018-05-04 about php"
 categories = ["Today I learned", "php"]
 tags = ["php"]
 +++

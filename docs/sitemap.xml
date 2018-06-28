@@ -3,6 +3,13 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://khanhicetea.com/til/2018-06-26-running-git-command-using-another-ssh-key/</loc>
+    <lastmod>2018-06-26T23:59:59+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <url>
     <loc>https://khanhicetea.com/post/evaluate-expression-string-with-variables-in-php-without-eval/</loc>
     <lastmod>2018-06-05T23:04:35+07:00</lastmod>
     <changefreq>daily</changefreq>
@@ -1698,14 +1705,21 @@
   
   <url>
     <loc>https://khanhicetea.com/tags/git/</loc>
-    <lastmod>2018-05-29T23:59:59+00:00</lastmod>
+    <lastmod>2018-06-26T23:59:59+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://khanhicetea.com/categories/git/</loc>
-    <lastmod>2018-05-29T23:59:59+00:00</lastmod>
+    <lastmod>2018-06-26T23:59:59+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://khanhicetea.com/tags/github/</loc>
+    <lastmod>2018-06-26T23:59:59+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0</priority>
   </url>
@@ -1894,7 +1908,7 @@
   
   <url>
     <loc>https://khanhicetea.com/</loc>
-    <lastmod>2018-06-05T23:04:35+07:00</lastmod>
+    <lastmod>2018-06-26T23:59:59+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0</priority>
   </url>
@@ -2496,7 +2510,7 @@
   
   <url>
     <loc>https://khanhicetea.com/til/</loc>
-    <lastmod>2018-05-29T23:59:59+00:00</lastmod>
+    <lastmod>2018-06-26T23:59:59+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0</priority>
   </url>
@@ -2510,7 +2524,7 @@
   
   <url>
     <loc>https://khanhicetea.com/categories/today-i-learned/</loc>
-    <lastmod>2018-05-29T23:59:59+00:00</lastmod>
+    <lastmod>2018-06-26T23:59:59+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0</priority>
   </url>

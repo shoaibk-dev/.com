@@ -1,7 +1,7 @@
 +++
 date = "2017-10-04T23:59:59"
 title = "#TIL : How SMTP works"
-description = "I learned in 2017-10-04 about smtp, networking, mail"
+description = "I learned on 2017-10-04 about smtp, networking, mail"
 categories = ["Today I learned", "networking"]
 tags = ["smtp", "networking", "mail"]
 +++

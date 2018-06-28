@@ -1,7 +1,7 @@
 +++
 date = "2018-01-08T23:59:59"
 title = "#TIL : Bypass CORS by using JSONP callback"
-description = "I learned in 2018-01-08 about web, javascript, jsonp"
+description = "I learned on 2018-01-08 about web, javascript, jsonp"
 categories = ["Today I learned", "web"]
 tags = ["web", "javascript", "jsonp"]
 +++

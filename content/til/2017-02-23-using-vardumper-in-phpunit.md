@@ -1,7 +1,7 @@
 +++
 date = "2017-02-23T23:59:59"
 title = "#TIL : Using VarDumper in PHPUnit"
-description = "I learned in 2017-02-23 about php, testing, phpunit, english"
+description = "I learned on 2017-02-23 about php, testing, phpunit, english"
 categories = ["Today I learned", "php"]
 tags = ["php", "testing", "phpunit", "english"]
 +++

@@ -1,7 +1,7 @@
 +++
 date = "2017-02-23T23:59:59"
 title = "#TIL : UNION vs UNION ALL"
-description = "I learned in 2017-02-23 about database, mysql"
+description = "I learned on 2017-02-23 about database, mysql"
 categories = ["Today I learned", "mysql"]
 tags = ["database", "mysql"]
 +++

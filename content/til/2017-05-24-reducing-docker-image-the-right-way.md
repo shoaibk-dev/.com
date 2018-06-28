@@ -1,7 +1,7 @@
 +++
 date = "2017-05-24T23:59:59"
 title = "#TIL : Reducing docker image the right way"
-description = "I learned in 2017-05-24 about sysadmin, docker"
+description = "I learned on 2017-05-24 about sysadmin, docker"
 categories = ["Today I learned", "docker"]
 tags = ["sysadmin", "docker"]
 +++

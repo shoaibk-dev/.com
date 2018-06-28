@@ -1,7 +1,7 @@
 +++
 date = "2017-08-06T23:59:59"
 title = "#TIL : Runing old java applets on brower"
-description = "I learned in 2017-08-06 about security, java"
+description = "I learned on 2017-08-06 about security, java"
 categories = ["Today I learned", "java"]
 tags = ["security", "java"]
 +++

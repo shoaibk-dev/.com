@@ -1,7 +1,7 @@
 +++
 date = "2017-08-06T23:59:59"
 title = "#TIL : realpath function"
-description = "I learned in 2017-08-06 about php, mistake"
+description = "I learned on 2017-08-06 about php, mistake"
 categories = ["Today I learned", "php"]
 tags = ["php", "mistake"]
 +++

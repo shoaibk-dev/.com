@@ -1,7 +1,7 @@
 +++
 date = "2018-05-17T23:59:59"
 title = "#TIL : Encrypt and decrypt file using openssl command line"
-description = "I learned in 2018-05-17 about decrypt, encrypt, crypto"
+description = "I learned on 2018-05-17 about decrypt, encrypt, crypto"
 categories = ["Today I learned", "crypto"]
 tags = ["decrypt", "encrypt", "crypto"]
 +++

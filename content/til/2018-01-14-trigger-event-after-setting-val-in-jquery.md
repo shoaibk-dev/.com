@@ -1,7 +1,7 @@
 +++
 date = "2018-01-14T23:59:59"
 title = "#TIL : Trigger event after setting val in jQuery"
-description = "I learned in 2018-01-14 about jquery, javascript"
+description = "I learned on 2018-01-14 about jquery, javascript"
 categories = ["Today I learned", "javascript"]
 tags = ["jquery", "javascript"]
 +++
