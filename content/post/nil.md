@@ -5,7 +5,7 @@ tags = ["nil", "english"]
 description = "nil === nil * inf"
 categories = ["life"]
 image = "2017/03/inception-stream.jpg"
-
+draft = true
 +++
 
 > I lay in reality

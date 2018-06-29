@@ -5,7 +5,7 @@ tags = ["random", "life", "english"]
 description = "NOPE ! This is enough, just stay in here"
 categories = ["life"]
 image = "2017/03/stone.png"
-
+draft = true
 +++
 
 ## Random luck

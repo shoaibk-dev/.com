@@ -5,7 +5,7 @@ tags = ["random", "life", "english"]
 description = "My first random week"
 categories = ["life"]
 image = "2017/02/flash.jpg"
-
+draft = true
 +++
 
 - First workday after Lunar New Year with new motivated energy, new project plan

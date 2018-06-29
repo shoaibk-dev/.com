@@ -5,7 +5,7 @@ tags = ["random", "life", "english"]
 description = "You’re busy because you’re weak."
 categories = ["life"]
 image = "2017/05/slow-the-fuck-down.png"
-
+draft = true
 +++
 
 ## Random article

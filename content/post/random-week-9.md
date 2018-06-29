@@ -5,7 +5,7 @@ tags = ["random", "life", "english"]
 description = "Being kind. Being kind to yourself."
 categories = ["life"]
 image = "2017/04/overload.jpg"
-
+draft = true
 +++
 
 This week, my mind is overloaded. Feeling, family, work, opportunity, choice and useless thoughts.

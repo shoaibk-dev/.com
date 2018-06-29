@@ -5,6 +5,7 @@ tags = ["random", "life", "english"]
 description = "FYI"
 categories = ["life"]
 image = "2017/04/emptiness_glass.jpg"
+draft = true
 +++
 
 ## Random trip

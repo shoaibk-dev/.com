@@ -5,7 +5,7 @@ tags = ["random", "life", "english"]
 description = "Oops ... I counted wrong ! It must be #6 :D"
 categories = ["life"]
 image = "2017/03/three-people.png"
-
+draft = true
 
 +++
 

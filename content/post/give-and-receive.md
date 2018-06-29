@@ -5,7 +5,7 @@ tags = ["life", "english"]
 description = "Knock and the door will be opened to you. If not, ... let it burn ! haha"
 categories = ["life"]
 image = "2017/03/giving-is-better-than-receiving.png"
-
+draft = true
 
 +++
 

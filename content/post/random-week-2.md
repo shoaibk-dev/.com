@@ -5,7 +5,7 @@ tags = ["random", "life", "english"]
 description = "My second random week"
 categories = ["life"]
 image = "2017/02/arrival-quote.jpg"
-
+draft = true
 +++
 
 ## Random book

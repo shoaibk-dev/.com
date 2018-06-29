@@ -5,7 +5,7 @@ tags = ["random", "life", "english"]
 description = "To live is to connect"
 categories = ["life"]
 image = "2017/06/funny-math-quote.jpg"
-
+draft = true
 +++
 
 ## Random nights

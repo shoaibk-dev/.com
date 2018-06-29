@@ -5,7 +5,7 @@ tags = ["disconnected", "life", "english"]
 description = "You can't solve a problem by focusing on phenomenon but not essence."
 categories = ["life"]
 image = "2017/02/disconnected.jpg"
-
+draft = true
 +++
 
 In the last post "[What is your Why ?](/post/what-is-your-y/)", we all know "To live is to connect"

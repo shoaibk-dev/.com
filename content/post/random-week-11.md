@@ -5,6 +5,7 @@ tags = ["random", "life", "english"]
 description = "What make you continuously live your life ?"
 categories = ["life"]
 image = "2017/04/black-wp.jpeg"
+draft = true
 +++
 
 Today, in church, the priest said

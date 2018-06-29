@@ -5,7 +5,7 @@ tags = ["random", "life", "english"]
 description = "Take a break !"
 categories = ["life"]
 image = "2017/06/old-weak-wrong.jpg"
-
+draft = true
 +++
 
 ## Random suffix
