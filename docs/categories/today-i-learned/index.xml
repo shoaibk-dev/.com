@@ -26,6 +26,20 @@ class Animal: def __init__(self, name): self.</description>
     </item>
     
     <item>
+      <title>#TIL : Context Managers in Python</title>
+      <link>https://khanhicetea.com/til/2018-07-24-context-managers-in-python/</link>
+      <pubDate>Tue, 24 Jul 2018 23:59:59 +0000</pubDate>
+      
+      <guid>https://khanhicetea.com/til/2018-07-24-context-managers-in-python/</guid>
+      <description>Context Managers in Python In Python, sometimes you will see this syntax
+with something: do_something_else(something)  Then you ask yourself, why I have to use this with syntax ? What runs inside that statement ?
+Here is how it works, it&amp;rsquo;s called Context Managers in object
+You can define context managers for a class of object to make sure some logic runs correctly without forgeting
+Example :
+class Animal: def __init__(self, name): self.</description>
+    </item>
+    
+    <item>
       <title>#TIL : Do not use mutable objects as default parameters</title>
       <link>https://khanhicetea.com/til/2018-07-24-do-not-use-mutable-objects-as-default-parameters/</link>
       <pubDate>Tue, 24 Jul 2018 23:59:59 +0000</pubDate>
@@ -34,7 +48,7 @@ class Animal: def __init__(self, name): self.</description>
       <description>Do not use mutable objects as default parameters I learned this from learn-python3
 Example :
 def append_if_multiple_of_five(number, magical_list=[]): if number % 5 == 0: magical_list.append(number) return magical_list print(append_if_multiple_of_five(100)) print(append_if_multiple_of_five(105)) print(append_if_multiple_of_five(123)) print(append_if_multiple_of_five(123, [])) print(append_if_multiple_of_five(123))  Result :
-[100] [100, 105] [100, 105] [] [100, 105]  So default parameters in Python is shared between function calls if it isn&amp;rsquo;t passed from caller. So be careful because shared mutable object can affected your logic between function calls, where MAGIC was born !</description>
+[100] [100, 105] [100, 105] [] [100, 105]  So default parameters in Python are shared between function calls if it isn&amp;rsquo;t passed from caller. So be careful because shared mutable object can affect your logic between function calls, where MAGIC was born !</description>
     </item>
     
     <item>

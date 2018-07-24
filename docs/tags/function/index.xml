@@ -20,7 +20,7 @@
       <description>Do not use mutable objects as default parameters I learned this from learn-python3
 Example :
 def append_if_multiple_of_five(number, magical_list=[]): if number % 5 == 0: magical_list.append(number) return magical_list print(append_if_multiple_of_five(100)) print(append_if_multiple_of_five(105)) print(append_if_multiple_of_five(123)) print(append_if_multiple_of_five(123, [])) print(append_if_multiple_of_five(123))  Result :
-[100] [100, 105] [100, 105] [] [100, 105]  So default parameters in Python is shared between function calls if it isn&amp;rsquo;t passed from caller. So be careful because shared mutable object can affected your logic between function calls, where MAGIC was born !</description>
+[100] [100, 105] [100, 105] [] [100, 105]  So default parameters in Python are shared between function calls if it isn&amp;rsquo;t passed from caller. So be careful because shared mutable object can affect your logic between function calls, where MAGIC was born !</description>
     </item>
     
   </channel>

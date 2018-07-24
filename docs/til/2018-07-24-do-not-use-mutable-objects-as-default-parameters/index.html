@@ -71,7 +71,7 @@
     <meta itemprop="description" content="Do not use mutable objects as default parameters I learned this from learn-python3
 Example :
 def append_if_multiple_of_five(number, magical_list=[]): if number % 5 == 0: magical_list.append(number) return magical_list print(append_if_multiple_of_five(100)) print(append_if_multiple_of_five(105)) print(append_if_multiple_of_five(123)) print(append_if_multiple_of_five(123, [])) print(append_if_multiple_of_five(123))  Result :
-[100] [100, 105] [100, 105] [] [100, 105]  So default parameters in Python is shared between function calls if it isn&rsquo;t passed from caller. So be careful because shared mutable object can affected your logic between function calls, where MAGIC was born !">
+[100] [100, 105] [100, 105] [] [100, 105]  So default parameters in Python are shared between function calls if it isn&rsquo;t passed from caller. So be careful because shared mutable object can affect your logic between function calls, where MAGIC was born !">
     <meta itemprop="url" content="https://khanhicetea.com/til/2018-07-24-do-not-use-mutable-objects-as-default-parameters/">
     <div itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
         <meta itemprop="url" content="https://khanhicetea.com/images/never_stop_learning.jpg" />
@@ -127,9 +127,9 @@ print(append_if_multiple_of_five(123))
 [100, 105]
 </code></pre>
 
-<p>So default parameters in Python is shared between function calls if it isn&rsquo;t passed from caller. So be careful because shared mutable object can affected your logic between function calls, where MAGIC was born !</p>
+<p>So default parameters in Python are shared between function calls if it isn&rsquo;t passed from caller. So be careful because shared mutable object can affect your logic between function calls, where MAGIC was born !</p>
 
-<p>One safe way to archieve the goal, use <code>None</code> as replacement like this</p>
+<p>One safe way to achieve the goal, use <code>None</code> as replacement like this</p>
 
 <pre><code class="language-python">def append_if_multiple_of_five(number, magical_list=None):
     if not magical_list:
@@ -179,7 +179,7 @@ print(append_if_multiple_of_five(123))
             <li class="previous"><a href="https://khanhicetea.com/til/2018-06-26-running-git-command-using-another-ssh-key/"><span aria-hidden="true">&larr;</span> \b</a></li>
             
             
-            <li class="next"><a href="https://khanhicetea.com/til/2018-07-24-context-managers/"><span aria-hidden="true">&rarr;</span> #TIL : Context Managers</a></li>
+            <li class="next"><a href="https://khanhicetea.com/til/2018-07-24-context-managers-in-python/"><span aria-hidden="true">&rarr;</span> #TIL : Context Managers in Python</a></li>
             
         </ul>
     </nav>
@@ -248,6 +248,18 @@ dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
 </div>
       
       <div class="sm"><article class="li">
+  <a href="https://khanhicetea.com/til/2018-07-24-context-managers-in-python/" class="clearfix">
+    <div class="image" style="background-image: url(https://khanhicetea.com/images/kit_logo.png);"></div>
+    <div class="detail">
+      <h2 class="title">#TIL : Context Managers in Python</h2>
+      <time>Tue, Jul 24, 2018</time>
+      <div class="summary">I learned on 2018-07-24 about python</div>
+    </div>
+  </a>
+</article>
+</div>
+      
+      <div class="sm"><article class="li">
   <a href="https://khanhicetea.com/til/2018-07-24-do-not-use-mutable-objects-as-default-parameters/" class="clearfix">
     <div class="image" style="background-image: url(https://khanhicetea.com/images/kit_logo.png);"></div>
     <div class="detail">
@@ -283,18 +295,6 @@ dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
 </article>
 </div>
       
-      <div class="sm"><article class="li">
-  <a href="https://khanhicetea.com/til/2018-05-29-put-git-data-outside-project-directory/" class="clearfix">
-    <div class="image" style="background-image: url(https://khanhicetea.com/images/kit_logo.png);"></div>
-    <div class="detail">
-      <h2 class="title">#TIL : Put .git data outside project directory</h2>
-      <time>Tue, May 29, 2018</time>
-      <div class="summary">I learned on 2018-05-29 about git, secutiry</div>
-    </div>
-  </a>
-</article>
-</div>
-      
     </div>
   </div>
   
@@ -303,14 +303,14 @@ dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
   <div class="section taxonomies">
     <header><div class="title">Categories</div></header>
     <div class="content">
-      <a href="https://khanhicetea.com/categories/today-i-learned">today-i-learned [111]</a><a href="https://khanhicetea.com/categories/sysadmin">sysadmin [35]</a><a href="https://khanhicetea.com/categories/life">life [18]</a><a href="https://khanhicetea.com/categories/php">php [11]</a><a href="https://khanhicetea.com/categories/english">english [9]</a><a href="https://khanhicetea.com/categories/python">python [8]</a><a href="https://khanhicetea.com/categories/docker">docker [7]</a><a href="https://khanhicetea.com/categories/linux">linux [7]</a><a href="https://khanhicetea.com/categories/web">web [7]</a><a href="https://khanhicetea.com/categories/javascript">javascript [6]</a>
+      <a href="https://khanhicetea.com/categories/today-i-learned">today-i-learned [112]</a><a href="https://khanhicetea.com/categories/sysadmin">sysadmin [35]</a><a href="https://khanhicetea.com/categories/life">life [18]</a><a href="https://khanhicetea.com/categories/php">php [11]</a><a href="https://khanhicetea.com/categories/english">english [9]</a><a href="https://khanhicetea.com/categories/python">python [9]</a><a href="https://khanhicetea.com/categories/docker">docker [7]</a><a href="https://khanhicetea.com/categories/linux">linux [7]</a><a href="https://khanhicetea.com/categories/web">web [7]</a><a href="https://khanhicetea.com/categories/javascript">javascript [6]</a>
     </div>
   </div>
   
   <div class="section taxonomies">
     <header><div class="title">Tags</div></header>
     <div class="content">
-      <a href="https://khanhicetea.com/tags/sysadmin">sysadmin [37]</a><a href="https://khanhicetea.com/tags/english">english [26]</a><a href="https://khanhicetea.com/tags/vietnamese">vietnamese [20]</a><a href="https://khanhicetea.com/tags/life">life [18]</a><a href="https://khanhicetea.com/tags/php">php [14]</a><a href="https://khanhicetea.com/tags/web">web [12]</a><a href="https://khanhicetea.com/tags/bash">bash [11]</a><a href="https://khanhicetea.com/tags/devops">devops [9]</a><a href="https://khanhicetea.com/tags/docker">docker [9]</a><a href="https://khanhicetea.com/tags/networking">networking [9]</a>
+      <a href="https://khanhicetea.com/tags/sysadmin">sysadmin [37]</a><a href="https://khanhicetea.com/tags/english">english [26]</a><a href="https://khanhicetea.com/tags/vietnamese">vietnamese [20]</a><a href="https://khanhicetea.com/tags/life">life [18]</a><a href="https://khanhicetea.com/tags/php">php [14]</a><a href="https://khanhicetea.com/tags/web">web [12]</a><a href="https://khanhicetea.com/tags/bash">bash [11]</a><a href="https://khanhicetea.com/tags/python">python [10]</a><a href="https://khanhicetea.com/tags/devops">devops [9]</a><a href="https://khanhicetea.com/tags/docker">docker [9]</a>
     </div>
   </div>
   
