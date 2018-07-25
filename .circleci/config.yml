@@ -6,17 +6,17 @@ jobs:
     steps:
       - checkout
       - run:
-        name: "Run Hugo"
-        command: HUGO_ENV=production hugo --theme=hugo_theme_robust --buildFuture -d docs
+          name: "Run Hugo"
+          command: HUGO_ENV=production hugo --theme=hugo_theme_robust --buildFuture -d docs
       - add_ssh_keys:
-        fingerprint:
-          - "8e:0f:7e:b2:16:00:d7:ad:3e:a3:11:b2:85:12:df:a7"
+          fingerprint:
+            - "8e:0f:7e:b2:16:00:d7:ad:3e:a3:11:b2:85:12:df:a7"
       - run:
-        name: "Config Git User Email"
-        command: git config --global user.email bot@khanhicetea.com
+          name: "Config Git User Email"
+          command: git config --global user.email bot@khanhicetea.com
       - run:
-        name: "Config Git User Name"
-        command: git config --global user.name KhanhIceTea_Bot
+          name: "Config Git User Name"
+          command: git config --global user.name KhanhIceTea_Bot
       - run:
-        name: "Publish to Github"
-        command: .circleci/publish_to_gh
+          name: "Publish to Github"
+          command: .circleci/publish_to_gh
