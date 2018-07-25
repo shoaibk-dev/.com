@@ -11,7 +11,7 @@ jobs:
       # - run:
       #     name: "Test Website"
       #     command: htmlproofer docs --allow-hash-href --check-html --empty-alt-ignore --disable-external
-  publish:
+  deploy_to_gh:
     docker:
       - image: alpine/git:latest
     steps:
@@ -23,9 +23,9 @@ jobs:
 
 workflows:
   version: 2
-  build_and_publish:
+  build_and_deploy_to_gh:
     jobs:
       - build
-      - publish:
+      - deploy_to_gh:
         requires:
           - build
