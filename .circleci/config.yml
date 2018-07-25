@@ -1,6 +1,6 @@
 version: 2
 jobs:
-  build:
+  - build:
     docker:
       - image: cibuilds/hugo:0.45
     steps:
@@ -11,7 +11,9 @@ jobs:
       # - run:
       #     name: "Test Website"
       #     command: htmlproofer docs --allow-hash-href --check-html --empty-alt-ignore --disable-external
-  publish_ghpage:
+  - publish_ghpage:
+    requires:
+      - build
     docker:
       - image: alpine/git:latest
     steps:
