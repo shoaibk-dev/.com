@@ -5,6 +5,7 @@ set -e
 timestamp=$(date +%s%3N)
 
 echo "Publishing version $timestamp"
+
 cd public && \
   git add -A && \
   git commit -m "[ci skip] Build version $timestamp" && \
