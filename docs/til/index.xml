@@ -12,20 +12,6 @@
     
     
     <item>
-      <title>#TIL : Context Managers</title>
-      <link>https://khanhicetea.com/til/2018-07-24-context-managers/</link>
-      <pubDate>Tue, 24 Jul 2018 23:59:59 +0000</pubDate>
-      
-      <guid>https://khanhicetea.com/til/2018-07-24-context-managers/</guid>
-      <description>Context Managers In Python, sometimes you will see this syntax
-with something: do_something_else(something)  Then you ask yourself, why I have to use this with syntax ? What run inside that statement ?
-Here is how it works, it&amp;rsquo;s called Context Managers in object
-You can define context managers for a class of object to make sure some logic runs correctly without forgeting
-Example :
-class Animal: def __init__(self, name): self.</description>
-    </item>
-    
-    <item>
       <title>#TIL : Context Managers in Python</title>
       <link>https://khanhicetea.com/til/2018-07-24-context-managers-in-python/</link>
       <pubDate>Tue, 24 Jul 2018 23:59:59 +0000</pubDate>
