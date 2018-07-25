@@ -1,6 +1,6 @@
 version: 2
 jobs:
-  - build:
+  build:
     docker:
       - image: cibuilds/hugo:0.45
     steps:
@@ -11,9 +11,7 @@ jobs:
       # - run:
       #     name: "Test Website"
       #     command: htmlproofer docs --allow-hash-href --check-html --empty-alt-ignore --disable-external
-  - publish_ghpage:
-    requires:
-      - build
+  publish_ghpage:
     docker:
       - image: alpine/git:latest
     steps:
@@ -22,3 +20,11 @@ jobs:
       - run: git config --global user.email bot@khanhicetea.com
       - run: git config --global user.name KhanhIceTea_Bot
       - run: .circleci/publish_to_gh
+workflows:
+  version: 2
+  build_and_publish:
+    jobs:
+      - build
+      - publish_ghpage
+        requires:
+          - build
