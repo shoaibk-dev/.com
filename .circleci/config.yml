@@ -11,21 +11,8 @@ jobs:
       # - run:
       #     name: "Test Website"
       #     command: htmlproofer docs --allow-hash-href --check-html --empty-alt-ignore --disable-external
-  deploy_to_gh:
-    docker:
-      - image: alpine/git:latest
-    steps:
       - add_ssh_keys:
         fingerprint: 8e:0f:7e:b2:16:00:d7:ad:3e:a3:11:b2:85:12:df:a7
       - run: git config --global user.email bot@khanhicetea.com
       - run: git config --global user.name KhanhIceTea_Bot
       - run: .circleci/publish_to_gh
-
-workflows:
-  version: 2
-  build_and_deploy_to_gh:
-    jobs:
-      - build
-      - deploy_to_gh:
-        requires:
-          - build
