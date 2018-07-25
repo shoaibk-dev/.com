@@ -6,7 +6,6 @@ timestamp=$(date +%s%3N)
 
 echo "Publishing version $timestamp"
 
-cd public && \
-  git add -A && \
-  git commit -m "[ci skip] Build version $timestamp" && \
-  git push origin master
+git add -A && \
+git commit -m "[ci skip] Build version $timestamp" && \
+git push origin master
