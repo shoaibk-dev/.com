@@ -6,10 +6,20 @@
     <description>Recent content in Database on KhanhIceTea B(rain)-log</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 02 May 2018 23:59:59 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 26 Jul 2018 23:59:59 +0000</lastBuildDate>
     
 	<atom:link href="https://khanhicetea.com/tags/database/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>#TIL : SQL Wildcard Characters</title>
+      <link>https://khanhicetea.com/til/2018-07-26-sql-wildcard-characters/</link>
+      <pubDate>Thu, 26 Jul 2018 23:59:59 +0000</pubDate>
+      
+      <guid>https://khanhicetea.com/til/2018-07-26-sql-wildcard-characters/</guid>
+      <description> SQL Wildcard Characters SQL databases support 2 main wildcards :
+ % : represents zero, one, or multiple characters _ : represents a single character  </description>
+    </item>
     
     <item>
       <title>#TIL : Use temporarily data from another database in SQLite</title>
