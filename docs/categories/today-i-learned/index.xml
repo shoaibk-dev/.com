@@ -6,10 +6,22 @@
     <description>Recent content in Today I Learned on KhanhIceTea B(rain)-log</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 26 Jul 2018 23:59:59 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 30 Jul 2018 23:59:59 +0000</lastBuildDate>
     
 	<atom:link href="https://khanhicetea.com/categories/today-i-learned/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>#TIL : Setter and getter behavior of class property in Python3</title>
+      <link>https://khanhicetea.com/til/2018-07-30-setter-and-getter-behavior-of-class-property-in-python3/</link>
+      <pubDate>Mon, 30 Jul 2018 23:59:59 +0000</pubDate>
+      
+      <guid>https://khanhicetea.com/til/2018-07-30-setter-and-getter-behavior-of-class-property-in-python3/</guid>
+      <description>Setter and getter behavior of class property in Python3 In previous TIL, I learned about the way to define getter and setter in Javascript
+Today, I learned it in Pythonic way ;) (in Python3)
+So here is example (the easy way to learn from a code) :
+class A: def __init__(self,x): print (&#39;init&#39;, x) self.x = x @property def x(self): print (&#39;getter&#39;) return self.__x @x.setter def x(self, x): print (&#39;setter&#39;, x) if x &amp;lt; 0: self.</description>
+    </item>
     
     <item>
       <title>#TIL : SQL Wildcard Characters</title>
