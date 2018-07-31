@@ -10,6 +10,8 @@ tags: ["php", "eval", "lambda", "english", "vietnamese"]
 
 > Never ever use eval function in PHP !
 
+Updated Jul 31 : we can use [Expression Language](https://github.com/symfony/expression-language)
+
 ## Introduction
 
 In some applications, we need to let user defines the expression (user lambda function) to evaluate a value or a condition. So we store user-defined expression in database then using `eval` function and pass variables to that function.
