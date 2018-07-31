@@ -69,10 +69,9 @@
     <meta itemprop="dateModified" content="2018-06-05T23:04:35&#43;07:00">
     <meta itemprop="headline" content="Evaluate expression string with variables in PHP without eval">
     <meta itemprop="description" content="TLDR;  Never ever use eval function in PHP !
- Introduction In some applications, we need to let user defines the expression (user lambda function) to evaluate a value or a condition. So we store user-defined expression in database then using eval function and pass variables to that function.
-It works, but not securely ! Remember this important thing :
- NEVER TRUST USER INPUT !
- So how this article will show how we achieve the goal without touching eval or create_function function.">
+ Updated Jul 31 : we can use Expression Language
+Introduction In some applications, we need to let user defines the expression (user lambda function) to evaluate a value or a condition. So we store user-defined expression in database then using eval function and pass variables to that function.
+It works, but not securely ! Remember this important thing :">
     <meta itemprop="url" content="https://khanhicetea.com/post/evaluate-expression-string-with-variables-in-php-without-eval/">
     <div itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
         <meta itemprop="url" content="https://khanhicetea.com/images/default.jpg" />
@@ -106,6 +105,8 @@ It works, but not securely ! Remember this important thing :
 <blockquote>
 <p>Never ever use eval function in PHP !</p>
 </blockquote>
+
+<p>Updated Jul 31 : we can use <a href="https://github.com/symfony/expression-language">Expression Language</a></p>
 
 <h2 id="introduction">Introduction</h2>
 

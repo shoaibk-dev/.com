@@ -78,10 +78,9 @@ $ GIT_SSH_COMMAND=&#39;ssh -i ~/keys/key1&#39; git pull  </description>
       
       <guid>https://khanhicetea.com/post/evaluate-expression-string-with-variables-in-php-without-eval/</guid>
       <description>TLDR;  Never ever use eval function in PHP !
- Introduction In some applications, we need to let user defines the expression (user lambda function) to evaluate a value or a condition. So we store user-defined expression in database then using eval function and pass variables to that function.
-It works, but not securely ! Remember this important thing :
- NEVER TRUST USER INPUT !
- So how this article will show how we achieve the goal without touching eval or create_function function.</description>
+ Updated Jul 31 : we can use Expression Language
+Introduction In some applications, we need to let user defines the expression (user lambda function) to evaluate a value or a condition. So we store user-defined expression in database then using eval function and pass variables to that function.
+It works, but not securely ! Remember this important thing :</description>
     </item>
     
     <item>
