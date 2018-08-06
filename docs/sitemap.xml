@@ -3,6 +3,13 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://khanhicetea.com/til/2018-08-06-internal-variables-in-bash/</loc>
+    <lastmod>2018-08-06T23:59:59+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <url>
     <loc>https://khanhicetea.com/til/2018-07-30-setter-and-getter-behavior-of-class-property-in-python3/</loc>
     <lastmod>2018-07-30T23:59:59+00:00</lastmod>
     <changefreq>daily</changefreq>
@@ -1166,14 +1173,14 @@
   
   <url>
     <loc>https://khanhicetea.com/tags/bash/</loc>
-    <lastmod>2017-10-05T23:59:59+00:00</lastmod>
+    <lastmod>2018-08-06T23:59:59+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://khanhicetea.com/categories/bash/</loc>
-    <lastmod>2017-10-05T23:59:59+00:00</lastmod>
+    <lastmod>2018-08-06T23:59:59+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0</priority>
   </url>
@@ -1782,7 +1789,7 @@
   
   <url>
     <loc>https://khanhicetea.com/</loc>
-    <lastmod>2018-07-30T23:59:59+00:00</lastmod>
+    <lastmod>2018-08-06T23:59:59+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0</priority>
   </url>
@@ -2202,7 +2209,7 @@
   
   <url>
     <loc>https://khanhicetea.com/tags/shell/</loc>
-    <lastmod>2017-09-27T23:59:59+00:00</lastmod>
+    <lastmod>2018-08-06T23:59:59+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0</priority>
   </url>
@@ -2384,7 +2391,7 @@
   
   <url>
     <loc>https://khanhicetea.com/til/</loc>
-    <lastmod>2018-07-30T23:59:59+00:00</lastmod>
+    <lastmod>2018-08-06T23:59:59+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0</priority>
   </url>
@@ -2398,7 +2405,7 @@
   
   <url>
     <loc>https://khanhicetea.com/categories/today-i-learned/</loc>
-    <lastmod>2018-07-30T23:59:59+00:00</lastmod>
+    <lastmod>2018-08-06T23:59:59+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0</priority>
   </url>

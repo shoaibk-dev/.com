@@ -6,10 +6,24 @@
     <description>Recent content in Shell on KhanhIceTea B(rain)-log</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 27 Sep 2017 23:59:59 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 06 Aug 2018 23:59:59 +0000</lastBuildDate>
     
 	<atom:link href="https://khanhicetea.com/tags/shell/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>#TIL : Internal Variables in BASH</title>
+      <link>https://khanhicetea.com/til/2018-08-06-internal-variables-in-bash/</link>
+      <pubDate>Mon, 06 Aug 2018 23:59:59 +0000</pubDate>
+      
+      <guid>https://khanhicetea.com/til/2018-08-06-internal-variables-in-bash/</guid>
+      <description>Internal Variables in BASH $PWD Your current working directory, so you don&amp;rsquo;t have to use CWD=$(pwd)
+$OLDPWD Your previous working directory
+Note : You can jump directly to it by the command cd -
+$SECONDS The number of seconds the script has been running
+You can use it for profiling or limiting timeout
+TIME_LIMIT=60 while [ &amp;quot;$SECONDS&amp;quot; -le &amp;quot;$TIME_LIMIT&amp;quot; ] do ## Your hard work here done echo &amp;quot;It takes $SECONDS seconds to get here !</description>
+    </item>
     
     <item>
       <title>#TIL : BASH tracing commands</title>
