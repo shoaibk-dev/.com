@@ -41,3 +41,5 @@ code=$(curl --write-out %{response_code} --silent --output /dev/null http://exam
 [ $code -eq 502 ] && sudo systemctl restart httpd || echo "everything works fine"
 [ ! $code -eq 200 ] && sudo systemctl restart nginx || echo "everything works fine"
 ```
+
+More info variables, you can check it [here](https://ec.haxx.se/usingcurl-verbose.html)
