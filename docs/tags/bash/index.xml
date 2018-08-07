@@ -6,10 +6,22 @@
     <description>Recent content in Bash on KhanhIceTea B(rain)-log</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 06 Aug 2018 23:59:59 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 07 Aug 2018 23:59:59 +0000</lastBuildDate>
     
 	<atom:link href="https://khanhicetea.com/tags/bash/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>#TIL : Curl extract info from verbose mode</title>
+      <link>https://khanhicetea.com/til/2018-08-07-curl-extract-info-from-verbose-mode/</link>
+      <pubDate>Tue, 07 Aug 2018 23:59:59 +0000</pubDate>
+      
+      <guid>https://khanhicetea.com/til/2018-08-07-curl-extract-info-from-verbose-mode/</guid>
+      <description>Curl extract info from verbose mode Curl is great tool to do thing with HTTP in command line interface. Sometimes your want to get extra info from HTTP response and put in a variable. Here is the way :
+Using --write-out is magical option help you to write out all info you want, or put it in a variable.
+Example :
+$ code=$(curl --write-out %{response_code} --silent --output /dev/null https://khanhicetea.com) $ echo $code # get http response status code 200  $ tracetime=$(curl --write-out &amp;quot;%{time_namelookup} %{time_connect} %{time_appconnect} %{time_pretransfer} %{time_redirect} %{time_starttransfer} %{time_total}&amp;quot; --silent --output /dev/null https://khanhicetea.</description>
+    </item>
     
     <item>
       <title>#TIL : Internal Variables in BASH</title>
