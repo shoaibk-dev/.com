@@ -22,7 +22,7 @@ $OLDPWD Your previous working directory
 Note : You can jump directly to it by the command cd -
 $SECONDS The number of seconds the script has been running
 You can use it for profiling or limiting timeout
-TIME_LIMIT=60 while [ &amp;quot;$SECONDS&amp;quot; -le &amp;quot;$TIME_LIMIT&amp;quot; ] do ## Your hard work here done echo &amp;quot;It takes $SECONDS seconds to get here !</description>
+TIME_LIMIT=60 START=$SECONDS while [ $(($SECONDS - START)) -le &amp;quot;$TIME_LIMIT&amp;quot; ] do ## Your work here done echo &amp;quot;It takes $SECONDS seconds to get here !</description>
     </item>
     
     <item>
