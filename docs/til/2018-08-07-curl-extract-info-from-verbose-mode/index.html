@@ -131,6 +131,8 @@ code=$(curl --write-out %{response_code} --silent --output /dev/null http://exam
 [ ! $code -eq 200 ] &amp;&amp; sudo systemctl restart nginx || echo &quot;everything works fine&quot;
 </code></pre>
 
+<p>More info variables, you can check it <a href="https://ec.haxx.se/usingcurl-verbose.html">here</a></p>
+
 
         <p>----------------------------</p>
         <p>
