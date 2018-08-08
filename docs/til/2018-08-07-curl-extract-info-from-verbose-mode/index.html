@@ -120,9 +120,12 @@ $ echo $tracetime # Trace all timing of http connection (in seconds)
 
 <p>Use case :</p>
 
-<p>Below code is cron bash script that checks if http response code equals :
-- 502 (Bad Gateway), then restart the backend server (nginx -&gt; apache2)
-- not 200 then restart the frontend server (nginx)</p>
+<p>Below code is cron bash script that checks if http response code equals :</p>
+
+<ul>
+<li>502 (Bad Gateway), then restart the backend server (nginx -&gt; apache2)</li>
+<li>not 200 then restart the frontend server (nginx)</li>
+</ul>
 
 <pre><code class="language-bash">#!/bin/bash
 
