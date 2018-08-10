@@ -9,3 +9,8 @@ echo "Publishing version $timestamp"
 git add -A && \
 git commit -m "[ci skip] Build version $timestamp" && \
 git push origin master
+
+curl --request POST \
+    --url http://rpc.pingomatic.com/ \
+    --header 'content-type: application/xml' \
+    --data '<?xml version="1.0"?><methodCall><methodName>weblogUpdates.ping</methodName><params><param><value>KhanhIceTea</value></param><param><value>https://khanhicetea.com</value></param></params></methodCall>'
