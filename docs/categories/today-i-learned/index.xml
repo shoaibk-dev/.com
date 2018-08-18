@@ -6,10 +6,24 @@
     <description>Recent content in Today I Learned on KhanhIceTea B(rain)-log</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 07 Aug 2018 23:59:59 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 18 Aug 2018 23:59:59 +0000</lastBuildDate>
     
 	<atom:link href="https://khanhicetea.com/categories/today-i-learned/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>#TIL : Curl override Name Resolution with specific IP address</title>
+      <link>https://khanhicetea.com/til/2018-08-18-curl-override-name-resolution-with-specific-ip-address/</link>
+      <pubDate>Sat, 18 Aug 2018 23:59:59 +0000</pubDate>
+      
+      <guid>https://khanhicetea.com/til/2018-08-18-curl-override-name-resolution-with-specific-ip-address/</guid>
+      <description>Curl override Name Resolution with specific IP address You can overrride the Name Resolution with specific IP address without adding the hostname to /etc/hosts file by using --resolve option.
+Syntax :
+--resolve &amp;lt;host:port:address&amp;gt;  It will resolve IP address when connect to host on port
+Example :
+This will connect 127.0.0.1
+$ curl --resolve google.com:80:127.0.0.1 &amp;quot;http://google.com/&amp;quot;  But this won&amp;rsquo;t connect 127.0.0.1, because we use 443 port for https</description>
+    </item>
     
     <item>
       <title>#TIL : Curl extract info from verbose mode</title>

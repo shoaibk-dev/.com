@@ -3,6 +3,13 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://khanhicetea.com/til/2018-08-18-curl-override-name-resolution-with-specific-ip-address/</loc>
+    <lastmod>2018-08-18T23:59:59+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <url>
     <loc>https://khanhicetea.com/til/2018-08-07-curl-extract-info-from-verbose-mode/</loc>
     <lastmod>2018-08-07T23:59:59+00:00</lastmod>
     <changefreq>daily</changefreq>
@@ -1369,7 +1376,7 @@
   
   <url>
     <loc>https://khanhicetea.com/tags/curl/</loc>
-    <lastmod>2018-08-07T23:59:59+00:00</lastmod>
+    <lastmod>2018-08-18T23:59:59+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0</priority>
   </url>
@@ -1446,7 +1453,7 @@
   
   <url>
     <loc>https://khanhicetea.com/tags/dns/</loc>
-    <lastmod>2018-05-08T23:59:59+00:00</lastmod>
+    <lastmod>2018-08-18T23:59:59+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0</priority>
   </url>
@@ -1796,7 +1803,7 @@
   
   <url>
     <loc>https://khanhicetea.com/</loc>
-    <lastmod>2018-08-07T23:59:59+00:00</lastmod>
+    <lastmod>2018-08-18T23:59:59+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0</priority>
   </url>
@@ -2321,14 +2328,14 @@
   
   <url>
     <loc>https://khanhicetea.com/tags/sysadmin/</loc>
-    <lastmod>2018-05-08T23:59:59+00:00</lastmod>
+    <lastmod>2018-08-18T23:59:59+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://khanhicetea.com/categories/sysadmin/</loc>
-    <lastmod>2018-05-08T23:59:59+00:00</lastmod>
+    <lastmod>2018-08-18T23:59:59+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0</priority>
   </url>
@@ -2398,7 +2405,7 @@
   
   <url>
     <loc>https://khanhicetea.com/til/</loc>
-    <lastmod>2018-08-07T23:59:59+00:00</lastmod>
+    <lastmod>2018-08-18T23:59:59+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0</priority>
   </url>
@@ -2412,7 +2419,7 @@
   
   <url>
     <loc>https://khanhicetea.com/categories/today-i-learned/</loc>
-    <lastmod>2018-08-07T23:59:59+00:00</lastmod>
+    <lastmod>2018-08-18T23:59:59+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0</priority>
   </url>
