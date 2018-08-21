@@ -3,6 +3,13 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://khanhicetea.com/post/seswatcher-prevent-amazon-ses-account-from-being-suspended/</loc>
+    <lastmod>2018-08-21T14:38:08+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <url>
     <loc>https://khanhicetea.com/til/2018-08-18-curl-override-name-resolution-with-specific-ip-address/</loc>
     <lastmod>2018-08-18T23:59:59+00:00</lastmod>
     <changefreq>daily</changefreq>
@@ -1151,6 +1158,13 @@
   </url>
   
   <url>
+    <loc>https://khanhicetea.com/tags/amazon/</loc>
+    <lastmod>2018-08-21T14:38:08+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://khanhicetea.com/tags/ansible/</loc>
     <lastmod>2018-01-22T23:59:59+00:00</lastmod>
     <changefreq>daily</changefreq>
@@ -1167,6 +1181,13 @@
   <url>
     <loc>https://khanhicetea.com/tags/automation/</loc>
     <lastmod>2017-11-27T23:59:59+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://khanhicetea.com/tags/aws/</loc>
+    <lastmod>2018-08-21T14:38:08+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0</priority>
   </url>
@@ -1299,14 +1320,14 @@
   
   <url>
     <loc>https://khanhicetea.com/tags/cloud/</loc>
-    <lastmod>2017-11-13T16:31:08+07:00</lastmod>
+    <lastmod>2018-08-21T14:38:08+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://khanhicetea.com/categories/cloud/</loc>
-    <lastmod>2017-11-13T16:31:08+07:00</lastmod>
+    <lastmod>2018-08-21T14:38:08+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0</priority>
   </url>
@@ -1501,6 +1522,13 @@
   </url>
   
   <url>
+    <loc>https://khanhicetea.com/tags/email/</loc>
+    <lastmod>2018-08-21T14:38:08+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://khanhicetea.com/tags/emyeukhoahoc/</loc>
     <lastmod>2018-01-14T23:59:59+00:00</lastmod>
     <changefreq>daily</changefreq>
@@ -1523,7 +1551,7 @@
   
   <url>
     <loc>https://khanhicetea.com/tags/english/</loc>
-    <lastmod>2018-06-05T23:04:35+07:00</lastmod>
+    <lastmod>2018-08-21T14:38:08+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0</priority>
   </url>
@@ -1803,7 +1831,7 @@
   
   <url>
     <loc>https://khanhicetea.com/</loc>
-    <lastmod>2018-08-18T23:59:59+00:00</lastmod>
+    <lastmod>2018-08-21T14:38:08+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0</priority>
   </url>
@@ -2069,7 +2097,7 @@
   
   <url>
     <loc>https://khanhicetea.com/post/</loc>
-    <lastmod>2018-06-05T23:04:35+07:00</lastmod>
+    <lastmod>2018-08-21T14:38:08+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0</priority>
   </url>
@@ -2118,14 +2146,14 @@
   
   <url>
     <loc>https://khanhicetea.com/tags/python/</loc>
-    <lastmod>2018-07-30T23:59:59+00:00</lastmod>
+    <lastmod>2018-08-21T14:38:08+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://khanhicetea.com/categories/python/</loc>
-    <lastmod>2018-07-30T23:59:59+00:00</lastmod>
+    <lastmod>2018-08-21T14:38:08+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0</priority>
   </url>
@@ -2426,7 +2454,7 @@
   
   <url>
     <loc>https://khanhicetea.com/tags/tool/</loc>
-    <lastmod>2017-10-20T23:59:59+00:00</lastmod>
+    <lastmod>2018-08-21T14:38:08+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0</priority>
   </url>
@@ -2538,7 +2566,7 @@
   
   <url>
     <loc>https://khanhicetea.com/categories/web/</loc>
-    <lastmod>2018-03-01T23:59:59+00:00</lastmod>
+    <lastmod>2018-08-21T14:38:08+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0</priority>
   </url>
