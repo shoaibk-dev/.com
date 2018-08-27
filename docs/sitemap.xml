@@ -3,6 +3,13 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://khanhicetea.com/til/2018-08-25-the-safest-way-to-reset-root-password-of-mysql-server/</loc>
+    <lastmod>2018-08-25T23:59:59+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <url>
     <loc>https://khanhicetea.com/post/seswatcher-prevent-amazon-ses-account-from-being-suspended/</loc>
     <lastmod>2018-08-21T14:38:08+07:00</lastmod>
     <changefreq>daily</changefreq>
@@ -1404,7 +1411,7 @@
   
   <url>
     <loc>https://khanhicetea.com/tags/database/</loc>
-    <lastmod>2018-07-26T23:59:59+00:00</lastmod>
+    <lastmod>2018-08-25T23:59:59+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0</priority>
   </url>
@@ -1831,7 +1838,7 @@
   
   <url>
     <loc>https://khanhicetea.com/</loc>
-    <lastmod>2018-08-21T14:38:08+07:00</lastmod>
+    <lastmod>2018-08-25T23:59:59+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0</priority>
   </url>
@@ -1985,14 +1992,14 @@
   
   <url>
     <loc>https://khanhicetea.com/tags/mysql/</loc>
-    <lastmod>2018-01-04T23:59:59+00:00</lastmod>
+    <lastmod>2018-08-25T23:59:59+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://khanhicetea.com/categories/mysql/</loc>
-    <lastmod>2018-01-04T23:59:59+00:00</lastmod>
+    <lastmod>2018-08-25T23:59:59+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0</priority>
   </url>
@@ -2237,7 +2244,7 @@
   
   <url>
     <loc>https://khanhicetea.com/tags/security/</loc>
-    <lastmod>2018-03-14T23:59:59+00:00</lastmod>
+    <lastmod>2018-08-25T23:59:59+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0</priority>
   </url>
@@ -2356,7 +2363,7 @@
   
   <url>
     <loc>https://khanhicetea.com/tags/sysadmin/</loc>
-    <lastmod>2018-08-18T23:59:59+00:00</lastmod>
+    <lastmod>2018-08-25T23:59:59+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0</priority>
   </url>
@@ -2433,7 +2440,7 @@
   
   <url>
     <loc>https://khanhicetea.com/til/</loc>
-    <lastmod>2018-08-18T23:59:59+00:00</lastmod>
+    <lastmod>2018-08-25T23:59:59+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0</priority>
   </url>
@@ -2447,7 +2454,7 @@
   
   <url>
     <loc>https://khanhicetea.com/categories/today-i-learned/</loc>
-    <lastmod>2018-08-18T23:59:59+00:00</lastmod>
+    <lastmod>2018-08-25T23:59:59+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0</priority>
   </url>

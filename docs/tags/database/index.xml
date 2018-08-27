@@ -6,10 +6,21 @@
     <description>Recent content in Database on KhanhIceTea B(rain)-log</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 26 Jul 2018 23:59:59 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 25 Aug 2018 23:59:59 +0000</lastBuildDate>
     
 	<atom:link href="https://khanhicetea.com/tags/database/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>#TIL : The safest way to reset root password of MySQL Server</title>
+      <link>https://khanhicetea.com/til/2018-08-25-the-safest-way-to-reset-root-password-of-mysql-server/</link>
+      <pubDate>Sat, 25 Aug 2018 23:59:59 +0000</pubDate>
+      
+      <guid>https://khanhicetea.com/til/2018-08-25-the-safest-way-to-reset-root-password-of-mysql-server/</guid>
+      <description>The safest way to reset root password of MySQL Server When you get stucked in this error message &amp;ldquo;Access denied for user &amp;lsquo;root@localhost&amp;rsquo; &amp;hellip;&amp;rdquo;, you search the way to reset the root password on the Internet, but life is Hard ! (No answer makes you feel it&amp;rsquo;s right way, even some do not work)
+So to solve this problem, we need to understand MySQL Authentication
+Step 1 : Disable MySQL Authentication by skip loading grant-tables on loading MySQL server</description>
+    </item>
     
     <item>
       <title>#TIL : SQL Wildcard Characters</title>
