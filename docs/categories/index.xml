@@ -183,9 +183,18 @@
     </item>
     
     <item>
+      <title>Macos</title>
+      <link>https://khanhicetea.com/categories/macos/</link>
+      <pubDate>Sun, 30 Sep 2018 10:59:25 +0700</pubDate>
+      
+      <guid>https://khanhicetea.com/categories/macos/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Mysql</title>
       <link>https://khanhicetea.com/categories/mysql/</link>
-      <pubDate>Sat, 25 Aug 2018 23:59:59 +0000</pubDate>
+      <pubDate>Sun, 30 Sep 2018 10:59:25 +0700</pubDate>
       
       <guid>https://khanhicetea.com/categories/mysql/</guid>
       <description></description>
@@ -323,6 +332,15 @@
       <pubDate>Sat, 25 Aug 2018 23:59:59 +0000</pubDate>
       
       <guid>https://khanhicetea.com/categories/today-i-learned/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tool</title>
+      <link>https://khanhicetea.com/categories/tool/</link>
+      <pubDate>Sun, 30 Sep 2018 10:59:25 +0700</pubDate>
+      
+      <guid>https://khanhicetea.com/categories/tool/</guid>
       <description></description>
     </item>
     
