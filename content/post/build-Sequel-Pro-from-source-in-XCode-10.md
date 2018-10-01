@@ -44,7 +44,7 @@ $ make
 **Step 5 : Copy to Application folder**
 
 ```bash
-$ cp build/Release/Sequel\ Pro.app /Applications/Sequel\ Pro.app
+$ cp -R build/Release/Sequel\ Pro.app /Applications/Sequel\ Pro.app
 ```
 
 ENJOY !!! 😎
