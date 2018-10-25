@@ -6,10 +6,20 @@
     <description>Recent content in Tils on KhanhIceTea B(rain)-log</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 25 Aug 2018 23:59:59 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 25 Oct 2018 23:59:59 +0000</lastBuildDate>
     
 	<atom:link href="https://khanhicetea.com/til/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>#TIL : Detect HTTP Response 304 Status Code in AJAX</title>
+      <link>https://khanhicetea.com/til/2018-10-25-detect-http-response-304-status-code-in-ajax/</link>
+      <pubDate>Thu, 25 Oct 2018 23:59:59 +0000</pubDate>
+      
+      <guid>https://khanhicetea.com/til/2018-10-25-detect-http-response-304-status-code-in-ajax/</guid>
+      <description>Detect HTTP Response 304 Status Code in AJAX Sometimes, you have a interval timer to retrieve new data updates from AJAX requests. But even the response status code of response is 304 (no body), the browser will treat it as 200 response and copy the cached body from browser cache to response body. So it will trigger the re-rederning UI components.
+The way we can detect it is via its response headers list.</description>
+    </item>
     
     <item>
       <title>#TIL : The safest way to reset root password of MySQL Server</title>

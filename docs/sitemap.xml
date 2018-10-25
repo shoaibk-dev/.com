@@ -3,6 +3,13 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://khanhicetea.com/til/2018-10-25-detect-http-response-304-status-code-in-ajax/</loc>
+    <lastmod>2018-10-25T23:59:59+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <url>
     <loc>https://khanhicetea.com/post/build-sequel-pro-from-source-in-xcode-10/</loc>
     <lastmod>2018-09-30T10:59:25+07:00</lastmod>
     <changefreq>daily</changefreq>
@@ -1277,6 +1284,13 @@
   </url>
   
   <url>
+    <loc>https://khanhicetea.com/tags/caching/</loc>
+    <lastmod>2018-10-25T23:59:59+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://khanhicetea.com/categories/</loc>
     <lastmod>2018-05-09T19:38:30+07:00</lastmod>
     <changefreq>daily</changefreq>
@@ -1592,6 +1606,13 @@
   </url>
   
   <url>
+    <loc>https://khanhicetea.com/tags/fetch/</loc>
+    <lastmod>2018-10-25T23:59:59+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://khanhicetea.com/tags/file/</loc>
     <lastmod>2018-03-25T23:59:59+00:00</lastmod>
     <changefreq>daily</changefreq>
@@ -1705,7 +1726,7 @@
   
   <url>
     <loc>https://khanhicetea.com/tags/http/</loc>
-    <lastmod>2018-05-22T23:59:59+00:00</lastmod>
+    <lastmod>2018-10-25T23:59:59+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0</priority>
   </url>
@@ -1789,14 +1810,14 @@
   
   <url>
     <loc>https://khanhicetea.com/tags/javascript/</loc>
-    <lastmod>2018-01-14T23:59:59+00:00</lastmod>
+    <lastmod>2018-10-25T23:59:59+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://khanhicetea.com/categories/javascript/</loc>
-    <lastmod>2018-01-14T23:59:59+00:00</lastmod>
+    <lastmod>2018-10-25T23:59:59+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0</priority>
   </url>
@@ -1845,7 +1866,7 @@
   
   <url>
     <loc>https://khanhicetea.com/</loc>
-    <lastmod>2018-09-30T10:59:25+07:00</lastmod>
+    <lastmod>2018-10-25T23:59:59+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0</priority>
   </url>
@@ -2461,7 +2482,7 @@
   
   <url>
     <loc>https://khanhicetea.com/til/</loc>
-    <lastmod>2018-08-25T23:59:59+00:00</lastmod>
+    <lastmod>2018-10-25T23:59:59+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0</priority>
   </url>
@@ -2475,7 +2496,7 @@
   
   <url>
     <loc>https://khanhicetea.com/categories/today-i-learned/</loc>
-    <lastmod>2018-08-25T23:59:59+00:00</lastmod>
+    <lastmod>2018-10-25T23:59:59+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0</priority>
   </url>
