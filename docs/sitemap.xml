@@ -3,6 +3,13 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://khanhicetea.com/post/build-sequel-pro-from-source-in-xcode-10/</loc>
+    <lastmod>2018-09-30T10:59:25+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <url>
     <loc>https://khanhicetea.com/til/2018-08-25-the-safest-way-to-reset-root-password-of-mysql-server/</loc>
     <lastmod>2018-08-25T23:59:59+00:00</lastmod>
     <changefreq>daily</changefreq>
@@ -1411,7 +1418,7 @@
   
   <url>
     <loc>https://khanhicetea.com/tags/database/</loc>
-    <lastmod>2018-08-25T23:59:59+00:00</lastmod>
+    <lastmod>2018-09-30T10:59:25+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0</priority>
   </url>
@@ -1838,7 +1845,7 @@
   
   <url>
     <loc>https://khanhicetea.com/</loc>
-    <lastmod>2018-08-25T23:59:59+00:00</lastmod>
+    <lastmod>2018-09-30T10:59:25+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0</priority>
   </url>
@@ -1956,6 +1963,13 @@
   </url>
   
   <url>
+    <loc>https://khanhicetea.com/categories/macos/</loc>
+    <lastmod>2018-09-30T10:59:25+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://khanhicetea.com/tags/mail/</loc>
     <lastmod>2017-10-04T23:59:59+00:00</lastmod>
     <changefreq>daily</changefreq>
@@ -1992,14 +2006,14 @@
   
   <url>
     <loc>https://khanhicetea.com/tags/mysql/</loc>
-    <lastmod>2018-08-25T23:59:59+00:00</lastmod>
+    <lastmod>2018-09-30T10:59:25+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://khanhicetea.com/categories/mysql/</loc>
-    <lastmod>2018-08-25T23:59:59+00:00</lastmod>
+    <lastmod>2018-09-30T10:59:25+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0</priority>
   </url>
@@ -2104,7 +2118,7 @@
   
   <url>
     <loc>https://khanhicetea.com/post/</loc>
-    <lastmod>2018-08-21T14:38:08+07:00</lastmod>
+    <lastmod>2018-09-30T10:59:25+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0</priority>
   </url>
@@ -2252,6 +2266,13 @@
   <url>
     <loc>https://khanhicetea.com/tags/secutiry/</loc>
     <lastmod>2018-05-29T23:59:59+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://khanhicetea.com/tags/sequelpro/</loc>
+    <lastmod>2018-09-30T10:59:25+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0</priority>
   </url>
@@ -2467,6 +2488,13 @@
   </url>
   
   <url>
+    <loc>https://khanhicetea.com/categories/tool/</loc>
+    <lastmod>2018-09-30T10:59:25+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://khanhicetea.com/tags/tools/</loc>
     <lastmod>2017-09-25T23:59:59+00:00</lastmod>
     <changefreq>daily</changefreq>
@@ -2602,6 +2630,13 @@
   <url>
     <loc>https://khanhicetea.com/tags/writing/</loc>
     <lastmod>2018-01-14T00:14:06+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://khanhicetea.com/tags/xcode/</loc>
+    <lastmod>2018-09-30T10:59:25+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0</priority>
   </url>
