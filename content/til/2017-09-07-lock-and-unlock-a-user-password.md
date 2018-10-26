@@ -4,6 +4,8 @@ title = "#TIL : Lock and unlock a user password"
 description = "I learned on 2017-09-07 about sysadmin"
 categories = ["Today I learned", "sysadmin"]
 tags = ["sysadmin"]
+image = "/images/never_stop_learning.jpg"
+comments = true
 +++
 
 

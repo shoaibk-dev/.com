@@ -4,7 +4,7 @@ title = "How to be disconnected from things ?"
 tags = ["disconnected", "life", "english"]
 description = "You can't solve a problem by focusing on phenomenon but not essence."
 categories = ["life"]
-image = "2017/02/disconnected.jpg"
+image = "/images/2017/02/disconnected.jpg"
 draft = true
 +++
 

@@ -4,7 +4,7 @@ date: 2018-03-19T23:21:18+07:00
 description: "Life is a journey ..."
 categories: ["life"]
 tags: ["life", "journey", "vietnamese"]
-image: "2018/03/cambodia.jpg"
+image: "/images/2018/03/cambodia.jpg"
 ---
 
 Tuần vừa rồi, mình có một chuyến công tác sang Campuchia (gọi nôm na là đi Cam). Tính ra cái tên khá đặc biệt cứ nói đi Cam là hầu hết người ta đều hiểu là đi đâu :D Tra trên Google mới biết nó xuất phát từ tiếng pháp (Kampuchéa).

@@ -4,6 +4,8 @@ title = "#TIL : Exporting environment variables on virtual env activate"
 description = "I learned on 2018-04-30 about python"
 categories = ["Today I learned", "python"]
 tags = ["python"]
+image = "/images/never_stop_learning.jpg"
+comments = true
 +++
 
 

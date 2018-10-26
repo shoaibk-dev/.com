@@ -4,6 +4,8 @@ title = "#TIL : Fastly conflict detector script"
 description = "I learned on 2017-11-27 about ci, git, automation"
 categories = ["Today I learned", "git"]
 tags = ["ci", "git", "automation"]
+image = "/images/never_stop_learning.jpg"
+comments = true
 +++
 
 

@@ -4,6 +4,8 @@ title = "#TIL : BASH tracing commands"
 description = "I learned on 2017-09-27 about sysadmin, shell, bash"
 categories = ["Today I learned", "sysadmin"]
 tags = ["sysadmin", "shell", "bash"]
+image = "/images/never_stop_learning.jpg"
+comments = true
 +++
 
 

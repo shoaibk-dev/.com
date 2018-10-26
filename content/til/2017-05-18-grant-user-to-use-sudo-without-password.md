@@ -4,6 +4,8 @@ title = "#TIL : Grant user to use sudo without password"
 description = "I learned on 2017-05-18 about sysadmin, linux"
 categories = ["Today I learned", "sysadmin"]
 tags = ["sysadmin", "linux"]
+image = "/images/never_stop_learning.jpg"
+comments = true
 +++
 
 

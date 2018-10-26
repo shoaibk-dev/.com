@@ -4,7 +4,7 @@ title = "Câu đố vui toán học ngu ngốc"
 tags = ["random", "life", "vietnamese"]
 description = "Toán học thì khó nhai tới khi ta học được cuộc đời như thế nào"
 categories = ["life"]
-image = "2017/07/question-mark.jpeg"
+image = "/images/2017/07/question-mark.jpeg"
 
 +++
 

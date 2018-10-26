@@ -4,7 +4,7 @@ title = "What is ur Y (why) ?"
 tags = ["life", "inspiration", "vietnamese"]
 description = "We long for love, we wish we had more time, and we fear death."
 categories = ["life"]
-image = "2017/01/i-want-to-know-why.gif"
+image = "/images/2017/01/i-want-to-know-why.gif"
 toc = true
 
 +++

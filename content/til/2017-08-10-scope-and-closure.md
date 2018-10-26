@@ -4,6 +4,8 @@ title = "#TIL : Scope and Closure"
 description = "I learned on 2017-08-10 about javascript"
 categories = ["Today I learned", "javascript"]
 tags = ["javascript"]
+image = "/images/never_stop_learning.jpg"
+comments = true
 +++
 
 

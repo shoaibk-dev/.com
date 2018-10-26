@@ -4,7 +4,7 @@ title = "Random week #8"
 tags = ["random", "life", "english"]
 description = "FYI"
 categories = ["life"]
-image = "2017/04/emptiness_glass.jpg"
+image = "/images/2017/04/emptiness_glass.jpg"
 draft = true
 +++
 

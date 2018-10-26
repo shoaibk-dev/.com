@@ -4,6 +4,8 @@ title = "#TIL : Build lightweight image by using multistage"
 description = "I learned on 2018-02-23 about docker, devops"
 categories = ["Today I learned", "docker"]
 tags = ["docker", "devops"]
+image = "/images/never_stop_learning.jpg"
+comments = true
 +++
 
 

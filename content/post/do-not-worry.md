@@ -4,7 +4,7 @@ title = "Do not worry"
 tags = ["bible", "life", "english", "b-happy"]
 description = "No one can serve two masters. Either you will hate the one and love the other, or you will be devoted to the one and despise the other."
 categories = ["life"]
-image = "2017/02/worry-ends-where-faith-in-god-begins.jpg"
+image = "/images/2017/02/worry-ends-where-faith-in-god-begins.jpg"
 
 +++
 

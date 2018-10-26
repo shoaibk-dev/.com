@@ -5,6 +5,7 @@ description = "This note is what I learnt from Storytelling course in Lynda.com"
 categories = ["Skill"]
 tags = ["skill", "storytelling", "guide", "english"]
 toc = false
+image = "/images/never_stop_learning.jpg"
 +++
 
 ## CAS = Context -> Action -> Result

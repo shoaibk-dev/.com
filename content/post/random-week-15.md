@@ -4,7 +4,7 @@ title = "Random week #15"
 tags = ["random", "life", "english"]
 description = "You’re busy because you’re weak."
 categories = ["life"]
-image = "2017/05/slow-the-fuck-down.png"
+image = "/images/2017/05/slow-the-fuck-down.png"
 draft = true
 +++
 

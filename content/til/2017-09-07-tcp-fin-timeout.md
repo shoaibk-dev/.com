@@ -4,6 +4,8 @@ title = "#TIL : TCP FIN timeout"
 description = "I learned on 2017-09-07 about networking"
 categories = ["Today I learned", "networking"]
 tags = ["networking"]
+image = "/images/never_stop_learning.jpg"
+comments = true
 +++
 
 

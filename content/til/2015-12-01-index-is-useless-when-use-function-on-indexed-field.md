@@ -4,6 +4,8 @@ title = "#TIL : Index is useless when use function on indexed field"
 description = "I learned on 2015-12-01 about index, sql, mysql"
 categories = ["Today I learned", "mysql"]
 tags = ["index", "sql", "mysql"]
+image = "/images/never_stop_learning.jpg"
+comments = true
 +++
 
 

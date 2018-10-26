@@ -4,7 +4,7 @@ date: 2017-09-29T22:26:54+07:00
 description: "Never need a bigass mail client to test your SMTP config"
 categories: ["Nodejs", "Linux"]
 tags: ["nodejs", "smtp", "product", "english"]
-image: "2017/09/mail-send.png"
+image: "/images/2017/09/mail-send.png"
 toc: true
 ---
 

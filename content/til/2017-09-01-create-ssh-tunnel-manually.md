@@ -4,6 +4,8 @@ title = "#TIL : Create SSH tunnel manually"
 description = "I learned on 2017-09-01 about sysadmin, security, ssh"
 categories = ["Today I learned", "sysadmin"]
 tags = ["sysadmin", "security", "ssh"]
+image = "/images/never_stop_learning.jpg"
+comments = true
 +++
 
 

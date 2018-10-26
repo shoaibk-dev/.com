@@ -4,7 +4,7 @@ date: 2018-08-21T14:38:08+07:00
 description: "SESWatcher - Your SES watchman"
 categories: ["Python", "Web", "Cloud"]
 tags: ["python", "tool", "email", "aws", "amazon", "cloud", "english"]
-image: 2018/08/aws-ses-logo.png
+image: "images/2018/08/aws-ses-logo.png"
 ---
 
 ## Introdution

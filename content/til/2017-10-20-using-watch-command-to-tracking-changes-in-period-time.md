@@ -4,6 +4,8 @@ title = "#TIL : Using watch command to tracking changes in period time"
 description = "I learned on 2017-10-20 about tool, watch, linux"
 categories = ["Today I learned", "linux"]
 tags = ["tool", "watch", "linux"]
+image = "/images/never_stop_learning.jpg"
+comments = true
 +++
 
 

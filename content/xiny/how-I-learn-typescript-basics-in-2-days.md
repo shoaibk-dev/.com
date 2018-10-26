@@ -1,7 +1,7 @@
 ---
 title: "Learn TypeScript Basics in 2 days"
 date: 2017-10-08T23:30:00+07:00
-image: "xiny.jpg"
+image: "/images/xiny.jpg"
 description: How did I learn typescript basics in 2 days
 categories: ["English", "XinY"]
 tags: ["english", "js", "typescript", "xiny"]

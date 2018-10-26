@@ -4,6 +4,8 @@ title = "#TIL : Curl extract info from verbose mode"
 description = "I learned on 2018-08-07 about curl, bash"
 categories = ["Today I learned", "bash"]
 tags = ["curl", "bash"]
+image = "/images/never_stop_learning.jpg"
+comments = true
 +++
 
 

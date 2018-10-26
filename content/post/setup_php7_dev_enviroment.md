@@ -4,7 +4,7 @@ title = "Set up PHP 7 development environment"
 description = "PHP 7 has been released few months ago with many features and improvements about syntax and speed. This article helps you setup a dev environment using Vagrant"
 categories = ["PHP"]
 tags = ["php", "php7", "development", "vagrant", "english"]
-image = "2016/03/php-7-features.png"
+image = "/images/2016/03/php-7-features.png"
 toc = true
 +++
 

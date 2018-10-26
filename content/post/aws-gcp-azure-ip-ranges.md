@@ -4,7 +4,7 @@ date: 2017-11-13T16:31:08+07:00
 description: "Get list IP ranges of cloud providers"
 categories: ["sysadmin", cloud"]
 tags: ["sysadmin", "cloud", "ip", "english"]
-image: "2017/11/ip-address.jpg"
+image: "/images/2017/11/ip-address.jpg"
 toc: true
 ---
 

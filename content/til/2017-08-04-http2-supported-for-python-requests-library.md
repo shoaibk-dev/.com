@@ -4,6 +4,8 @@ title = "#TIL : HTTP2 supported for python requests library"
 description = "I learned on 2017-08-04 about python, requests, http2"
 categories = ["Today I learned", "python"]
 tags = ["python", "requests", "http2"]
+image = "/images/never_stop_learning.jpg"
+comments = true
 +++
 
 

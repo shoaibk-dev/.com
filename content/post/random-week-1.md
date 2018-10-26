@@ -4,7 +4,7 @@ title = "Random Week #1"
 tags = ["random", "life", "english"]
 description = "My first random week"
 categories = ["life"]
-image = "2017/02/flash.jpg"
+image = "/images/2017/02/flash.jpg"
 draft = true
 +++
 

@@ -4,6 +4,8 @@ title = "#TIL : Use journalctl to check system logs"
 description = "I learned on 2018-01-22 about sysadmin, logging"
 categories = ["Today I learned", "sysadmin"]
 tags = ["sysadmin", "logging"]
+image = "/images/never_stop_learning.jpg"
+comments = true
 +++
 
 

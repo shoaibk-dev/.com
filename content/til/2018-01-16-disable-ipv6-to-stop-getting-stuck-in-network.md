@@ -4,6 +4,8 @@ title = "#TIL : Disable IPv6 to stop getting stuck in network"
 description = "I learned on 2018-01-16 about networking, linux"
 categories = ["Today I learned", "linux"]
 tags = ["networking", "linux"]
+image = "/images/never_stop_learning.jpg"
+comments = true
 +++
 
 

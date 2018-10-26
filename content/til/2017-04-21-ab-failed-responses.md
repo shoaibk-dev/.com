@@ -4,6 +4,8 @@ title = "#TIL : ab failed responses"
 description = "I learned on 2017-04-21 about benchmark, http, web"
 categories = ["Today I learned", "http"]
 tags = ["benchmark", "http", "web"]
+image = "/images/never_stop_learning.jpg"
+comments = true
 +++
 
 

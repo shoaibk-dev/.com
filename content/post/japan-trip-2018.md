@@ -4,7 +4,7 @@ date: 2018-04-28T00:18:41+07:00
 description: "Life is a journey ..."
 categories: ["life"]
 tags: ["life", "journey", "vietnamese"]
-image: "2018/04/japan.jpg"
+image: "/images/2018/04/japan.jpg"
 ---
 
 Vâng ! Sau chuyến đi về "buôn" thì tiếp đến là chuyến đi đến "bản". Cái bản này khá to mà người ta hay gọi là Nhật Bản 🇯🇵

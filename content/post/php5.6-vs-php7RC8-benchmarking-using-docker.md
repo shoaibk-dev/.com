@@ -4,7 +4,7 @@ title = "PHP 5.6 vs PHP 7RC8 - Benchmarking using Docker"
 description = "New version of PHP, PHP7 has been released yesterday after 11 years of PHP5. I am very excited with it, so I made a benchmark to compare the performance of 2 versions."
 categories = ["PHP", "Docker"]
 tags = ["php", "docker", "benchmarking", "sifoni", "english"]
-image = "2015/12/php7.jpg"
+image = "/images/2015/12/php7.jpg"
 toc = false
 +++
 

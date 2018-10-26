@@ -4,6 +4,8 @@ title = "#TIL : The safest way to reset root password of MySQL Server"
 description = "I learned on 2018-08-25 about sysadmin, security, database, mysql"
 categories = ["Today I learned", "mysql"]
 tags = ["sysadmin", "security", "database", "mysql"]
+image = "/images/never_stop_learning.jpg"
+comments = true
 +++
 
 

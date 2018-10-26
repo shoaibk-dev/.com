@@ -4,6 +4,8 @@ title = "#TIL : Cut file content from line to line"
 description = "I learned on 2018-03-25 about sysadmin, string, file"
 categories = ["Today I learned", "sysadmin"]
 tags = ["sysadmin", "string", "file"]
+image = "/images/never_stop_learning.jpg"
+comments = true
 +++
 
 

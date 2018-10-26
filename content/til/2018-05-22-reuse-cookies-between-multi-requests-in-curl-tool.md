@@ -4,6 +4,8 @@ title = "#TIL : Reuse cookies between multi requests in Curl tool"
 description = "I learned on 2018-05-22 about cookie, curl, http"
 categories = ["Today I learned", "http"]
 tags = ["cookie", "curl", "http"]
+image = "/images/never_stop_learning.jpg"
+comments = true
 +++
 
 

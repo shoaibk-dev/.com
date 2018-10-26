@@ -4,6 +4,8 @@ title = "#TIL : Debug js code using console.trace"
 description = "I learned on 2018-01-07 about debug, javascript"
 categories = ["Today I learned", "javascript"]
 tags = ["debug", "javascript"]
+image = "/images/never_stop_learning.jpg"
+comments = true
 +++
 
 

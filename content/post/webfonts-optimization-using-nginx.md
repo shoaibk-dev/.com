@@ -4,7 +4,7 @@ date: 2017-08-16T22:56:05+07:00
 tags: ["webfont", "nginx", "cache", "proxy"]
 description: "Make webfont great again !!!"
 categories: ["Tech"]
-image: "2017/08/google-web-fonts.jpg"
+image: "/images/2017/08/google-web-fonts.jpg"
 
 ---
 

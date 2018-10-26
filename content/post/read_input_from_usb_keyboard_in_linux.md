@@ -4,7 +4,7 @@ title = "Read Input Data From USB Devices in Linux"
 description = "You just bought a new input device like barcode scanner, proximity card reader with USB port. And you want expose only its data to file or send to server for processing ?"
 categories = ["Python", "Linux"]
 tags = ["linux", "python", "device", "english"]
-image = "2016/03/laser-barcode-scanners.jpg"
+image = "/images/2016/03/laser-barcode-scanners.jpg"
 toc = true
 +++
 

@@ -4,7 +4,7 @@ title = "Random week #6 : Hope vs Expectation"
 tags = ["random", "life", "vietnamese", "english"]
 description = "Are you filled with hope or expectation ?"
 categories = ["life"]
-image = "2017/03/hope-and-expectation-cover.jpg"
+image = "/images/2017/03/hope-and-expectation-cover.jpg"
 draft = true
 +++
 

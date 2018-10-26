@@ -4,6 +4,8 @@ title = "#TIL : View real-time logs using websocketd"
 description = "I learned on 2015-12-04 about sysadmin, websocket, log"
 categories = ["Today I learned", "sysadmin"]
 tags = ["sysadmin", "websocket", "log"]
+image = "/images/never_stop_learning.jpg"
+comments = true
 +++
 
 

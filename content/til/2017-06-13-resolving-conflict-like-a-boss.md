@@ -4,6 +4,8 @@ title = "#TIL : Resolving conflict like a boss"
 description = "I learned on 2017-06-13 about sysadmin, git, dev"
 categories = ["Today I learned", "git"]
 tags = ["sysadmin", "git", "dev"]
+image = "/images/never_stop_learning.jpg"
+comments = true
 +++
 
 

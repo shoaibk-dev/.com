@@ -4,7 +4,7 @@ title = "Backup and Restore ElasticSearch databases using Docker"
 description = "One day, your ElasticSearch data is large and you have to move all data to another nodes or you just want backup the data file to somewhere."
 categories = ["Database", "Docker"]
 tags = ["database", "docker", "backup", "elasticsearch", "english"]
-image = "2016/03/esdump.jpeg"
+image = "/images/2016/03/esdump.jpeg"
 toc = true
 +++
 

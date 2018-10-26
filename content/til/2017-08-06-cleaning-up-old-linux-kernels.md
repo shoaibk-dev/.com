@@ -4,6 +4,8 @@ title = "#TIL : Cleaning up old linux kernels"
 description = "I learned on 2017-08-06 about sysadmin, kernel, linux"
 categories = ["Today I learned", "sysadmin"]
 tags = ["sysadmin", "kernel", "linux"]
+image = "/images/never_stop_learning.jpg"
+comments = true
 +++
 
 

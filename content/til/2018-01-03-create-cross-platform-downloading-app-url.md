@@ -4,6 +4,8 @@ title = "#TIL : Create cross-platform downloading app URL"
 description = "I learned on 2018-01-03 about mobile, product, http"
 categories = ["Today I learned", "http"]
 tags = ["mobile", "product", "http"]
+image = "/images/never_stop_learning.jpg"
+comments = true
 +++
 
 

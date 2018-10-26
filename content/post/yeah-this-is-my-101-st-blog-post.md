@@ -4,7 +4,7 @@ date: 2018-01-14T00:14:06+07:00
 categories: ["life"]
 tags: ["life", "inspiration", "writing", "english"]
 description: "To put the ideas down."
-image: "2018/01/just-write.png"
+image: "/images/2018/01/just-write.png"
 ---
 
 Hi there,

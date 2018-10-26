@@ -4,7 +4,7 @@ title = "sleep(60 * 60 * 8);"
 tags = ["life", "english"]
 description = "zzZ.. zzZ.."
 categories = ["life"]
-image = "2017/03/need_for_sleep.png"
+image = "/images/2017/03/need_for_sleep.png"
 
 
 +++

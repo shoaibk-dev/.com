@@ -4,6 +4,8 @@ title = "#TIL : Reference assign object variable"
 description = "I learned on 2015-12-04 about python, clone, ref-var"
 categories = ["Today I learned", "python"]
 tags = ["python", "clone", "ref-var"]
+image = "/images/never_stop_learning.jpg"
+comments = true
 +++
 
 

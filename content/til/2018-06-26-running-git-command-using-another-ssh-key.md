@@ -4,6 +4,8 @@ title = "#TIL : Running git command using another ssh key"
 description = "I learned on 2018-06-26 about git, github"
 categories = ["Today I learned", "git"]
 tags = ["git", "github"]
+image = "/images/never_stop_learning.jpg"
+comments = true
 +++
 
 

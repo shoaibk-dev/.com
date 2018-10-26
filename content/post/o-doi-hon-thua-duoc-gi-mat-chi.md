@@ -4,7 +4,7 @@ title = "Ở đời, hơn thua được gì - mất chi"
 tags = ["life", "vietnamese"]
 description = "Càng rỗng, ta càng mong muốn bù lấp"
 categories = ["life"]
-image = "2017/03/emptiness_glass.jpg"
+image = "/images/2017/03/emptiness_glass.jpg"
 
 +++
 

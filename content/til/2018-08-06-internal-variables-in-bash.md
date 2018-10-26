@@ -4,6 +4,8 @@ title = "#TIL : Internal Variables in BASH"
 description = "I learned on 2018-08-06 about shell, bash"
 categories = ["Today I learned", "bash"]
 tags = ["shell", "bash"]
+image = "/images/never_stop_learning.jpg"
+comments = true
 +++
 
 

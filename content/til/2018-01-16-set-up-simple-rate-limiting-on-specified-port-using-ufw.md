@@ -4,6 +4,8 @@ title = "#TIL : Set up simple rate limiting on specified port using UFW"
 description = "I learned on 2018-01-16 about firewall, security, networking"
 categories = ["Today I learned", "networking"]
 tags = ["firewall", "security", "networking"]
+image = "/images/never_stop_learning.jpg"
+comments = true
 +++
 
 

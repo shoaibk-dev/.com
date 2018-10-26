@@ -4,7 +4,7 @@ date: 2018-09-30T10:59:25+07:00
 description: "Sequel Pro is great GUI MySQL tool in macOS (it's open source and of course totally free)"
 categories: ["mysql", "tool", "macos"]
 tags: ["sequelpro", "mysql", "xcode", "database"]
-image: "2018/09/sequelpro.jpeg"
+image: "/images/2018/09/sequelpro.jpeg"
 ---
 
 Sequel Pro is great GUI MySQL tool in macOS (it's open source and of course totally free) !

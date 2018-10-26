@@ -4,7 +4,7 @@ title = "Sống đời ngẫu hứng tự nhiên - Live a random life"
 tags = ["random", "life", "vietnamese", "english"]
 description = "Why don't we live a random life with random ways to meet random miracles ?"
 categories = ["life"]
-image = "2017/01/martin-morning.jpg"
+image = "/images/2017/01/martin-morning.jpg"
 toc = true
 
 +++

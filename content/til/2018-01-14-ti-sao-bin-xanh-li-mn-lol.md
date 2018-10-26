@@ -4,6 +4,8 @@ title = "#TIL : Tại sao biển xanh lại mặn ? :lol:"
 description = "I learned on 2018-01-14 about emyeukhoahoc, nature"
 categories = ["Today I learned", "nature"]
 tags = ["emyeukhoahoc", "nature"]
+image = "/images/never_stop_learning.jpg"
+comments = true
 +++
 
 

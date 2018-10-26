@@ -4,7 +4,7 @@ title = "Ở đời, cái chi là vô nghĩa ?"
 tags = ["matter", "life", "vietnamese"]
 description = "Nhưng có lẽ mọi thứ có nghĩa lý bằng một cách nào đó khác với suy nghĩa của chúng ta. Cũng có thể mọi thứ đều quan trọng vì đếch có cái gì quan trọng cả"
 categories = ["life"]
-image = "2017/02/it-doesnt-matter-meme.jpg"
+image = "/images/2017/02/it-doesnt-matter-meme.jpg"
 
 +++
 

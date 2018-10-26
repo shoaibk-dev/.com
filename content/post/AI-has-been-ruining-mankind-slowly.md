@@ -4,7 +4,7 @@ date: 2018-05-09T19:38:30+07:00
 description: "It is not coming, it's happening right now !"
 categories: ["AI"]
 tags: ["ai", "machine", "technology", "english"]
-image: "2018/05/robot-boss.jpg"
+image: "/images/2018/05/robot-boss.jpg"
 toc: true
 ---
 

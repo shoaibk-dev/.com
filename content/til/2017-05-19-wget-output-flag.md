@@ -4,6 +4,8 @@ title = "#TIL : wget Output flag"
 description = "I learned on 2017-05-19 about sysadmin, shell"
 categories = ["Today I learned", "sysadmin"]
 tags = ["sysadmin", "shell"]
+image = "/images/never_stop_learning.jpg"
+comments = true
 +++
 
 

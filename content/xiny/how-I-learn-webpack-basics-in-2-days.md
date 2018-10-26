@@ -1,7 +1,7 @@
 ---
 title: "Learn Webpack Basics in 2 days"
 date: 2017-10-05T15:50:00+07:00
-image: "xiny.jpg"
+image: "/images/xiny.jpg"
 description: How did I learn webpack basics in 2 days
 categories: ["English", "XinY"]
 tags: ["english", "js", "xiny"]

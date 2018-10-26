@@ -4,6 +4,8 @@ title = "#TIL : String problems can cause logical bugs in application"
 description = "I learned on 2017-02-17 about string, bug, mysql"
 categories = ["Today I learned", "mysql"]
 tags = ["string", "bug", "mysql"]
+image = "/images/never_stop_learning.jpg"
+comments = true
 +++
 
 

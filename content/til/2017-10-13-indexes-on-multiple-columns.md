@@ -4,6 +4,8 @@ title = "#TIL : Indexes on multiple columns"
 description = "I learned on 2017-10-13 about indexes, database"
 categories = ["Today I learned", "database"]
 tags = ["indexes", "database"]
+image = "/images/never_stop_learning.jpg"
+comments = true
 +++
 
 

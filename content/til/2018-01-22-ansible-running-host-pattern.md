@@ -4,6 +4,8 @@ title = "#TIL : Ansible running host pattern"
 description = "I learned on 2018-01-22 about ansible, devops"
 categories = ["Today I learned", "devops"]
 tags = ["ansible", "devops"]
+image = "/images/never_stop_learning.jpg"
+comments = true
 +++
 
 

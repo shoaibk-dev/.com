@@ -4,6 +4,8 @@ title = "#TIL : Flush DNS cache on iOS device"
 description = "I learned on 2018-03-14 about ios, dns"
 categories = ["Today I learned", "ios"]
 tags = ["ios", "dns"]
+image = "/images/never_stop_learning.jpg"
+comments = true
 +++
 
 

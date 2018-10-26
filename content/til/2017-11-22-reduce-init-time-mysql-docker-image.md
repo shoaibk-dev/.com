@@ -4,6 +4,8 @@ title = "#TIL : Reduce init time MySQL docker image"
 description = "I learned on 2017-11-22 about docker, ci, devops"
 categories = ["Today I learned", "docker"]
 tags = ["docker", "ci", "devops"]
+image = "/images/never_stop_learning.jpg"
+comments = true
 +++
 
 

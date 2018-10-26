@@ -4,6 +4,8 @@ title = "#TIL : Gearman bash worker and client"
 description = "I learned on 2017-06-15 about sysadmin, gearman, queue"
 categories = ["Today I learned", "sysadmin"]
 tags = ["sysadmin", "gearman", "queue"]
+image = "/images/never_stop_learning.jpg"
+comments = true
 +++
 
 

@@ -1,7 +1,7 @@
 ---
 title: "How I Learn Golang Goroutines in 1 Day"
 date: 2017-10-26T18:56:33+07:00
-image: "xiny.jpg"
+image: "/images/xiny.jpg"
 description: How did I learn Goroutines in 1 day
 categories: ["English", "XinY"]
 tags: ["english", "go", "xiny"]

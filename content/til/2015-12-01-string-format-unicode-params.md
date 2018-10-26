@@ -4,6 +4,8 @@ title = "#TIL : String Format Unicode params"
 description = "I learned on 2015-12-01 about python, string, unicode"
 categories = ["Today I learned", "python"]
 tags = ["python", "string", "unicode"]
+image = "/images/never_stop_learning.jpg"
+comments = true
 +++
 
 

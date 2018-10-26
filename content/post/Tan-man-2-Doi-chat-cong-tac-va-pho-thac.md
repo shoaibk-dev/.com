@@ -4,7 +4,7 @@ date: 2018-03-29T22:24:48+07:00
 description: "Tản mạn cho bớt nông cạn ..."
 categories: ["life", "tanmanlangmang"]
 tags: ["life", "tanmanlangmang", "vietnamese", "religion"]
-image: "2018/03/jesus-walk-on-sea.jpg"
+image: "/images/2018/03/jesus-walk-on-sea.jpg"
 toc: false
 ---
 

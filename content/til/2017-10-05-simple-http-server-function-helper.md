@@ -4,6 +4,8 @@ title = "#TIL : Simple HTTP server function helper"
 description = "I learned on 2017-10-05 about python, bash"
 categories = ["Today I learned", "bash"]
 tags = ["python", "bash"]
+image = "/images/never_stop_learning.jpg"
+comments = true
 +++
 
 

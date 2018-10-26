@@ -1,30 +1,29 @@
-{{ partial "default_head.html" . }}
-<div class="row">
-<div class="col-sm-9">
-    <blockquote>
-        <p><span id="currentStatus"></span></p>
-    </blockquote>
-    <script>
-        window.typedString = ['{{ index $.Site.Data.timeline.stories 0 }}'];
-    </script>
-    <hr />
-    <div class="articles">
-    <div class="row">
-        {{ range $key, $value := .Paginator.Pages }}
-        <div class="col-sm-6">
-        {{ .Render "list_li" }}
-        </div>
-        {{ end }}
+{{ define "header"}}
+    {{- partial "_shared/navbar.html" . -}}
+{{ end }}
+
+{{ define "main" }}
+    {{- partial "_shared/title.html" . -}}
+    <div class="main-content">
+        <!-- Posts Index
+        ================================================== -->
+        <section class="recent-posts">            
+            <div class="section-title">                
+                <h2><span>All Posts</span></h2>                
+            </div>            
+            <div class="row listrecent">
+                {{ $post_paginator := .Paginate (.Pages) 6 }}
+                {{ range $post_paginator.Pages }}
+                    {{- partial "list-partials/postbox.html" . -}}
+                {{end}}
+            </div>
+        </section>
+        {{- partial "list-partials/pagination.html" $post_paginator -}}
     </div>
-    </div>
+    {{- partial "_shared/alertbar.html" . -}}
+{{ end }}
 
-    {{ partial "pagination.html" . }}
-
-</div>
-
-<div class="col-sm-3">
-    {{ partial "sidebar.html" . }}
-</div>
-
-</div>
-{{ partial "default_foot.html" . }}
+{{ define "footer"}}
+    {{- partial "_shared/jumbotron.html" . -}}
+    {{- partial "_shared/footer.html" . -}}
+{{ end }}

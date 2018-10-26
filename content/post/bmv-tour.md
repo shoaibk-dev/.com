@@ -4,7 +4,7 @@ date: 2018-02-14T23:04:54+07:00
 description: "Có cái nắng, có cái gió, có nỗi nhớ không mang tên, không mang tên người ơi ..."
 categories: ["life"]
 tags: ["life", "journey", "vietnamese"]
-image: "2018/02/bmt.jpg"
+image: "/images/2018/02/bmt.jpg"
 ---
 
 Cuối tuần rồi tôi có làm một chuyến đi Buôn (Buôn này to nhất cái Tây Nguyên) - Buôn Mê Thuột.

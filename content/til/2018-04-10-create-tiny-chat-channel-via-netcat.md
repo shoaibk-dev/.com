@@ -4,6 +4,8 @@ title = "#TIL : Create tiny chat channel via netcat"
 description = "I learned on 2018-04-10 about sysadmin, trick, messaging"
 categories = ["Today I learned", "sysadmin"]
 tags = ["sysadmin", "trick", "messaging"]
+image = "/images/never_stop_learning.jpg"
+comments = true
 +++
 
 

@@ -4,7 +4,7 @@ title = "Sử dụng Frontend Boilerplate cho việc cắt HTML Layout"
 description = "Khi cắt HTML Layout từ PSD, bạn sẽ đối mặt với việc bên Design hoặc khách hàng thường xuyên yêu cầu thay đổi giao diện, thiết kế. Điều này gây ra không ít phiền nhiễu và tốn thời gian nếu cứ cập nhật hàng tá giao diện nếu sự thay đổi ảnh hưởng đến những phần layout chính (header, footer, sidebar)."
 categories = ["web"]
 tags = ["web", "frontend", "php", "vietnamese"]
-image = "2016/06/html5-boilerplate.jpg"
+image = "/images/2016/06/html5-boilerplate.jpg"
 toc = true
 +++
 

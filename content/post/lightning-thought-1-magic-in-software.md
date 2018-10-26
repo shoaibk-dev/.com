@@ -4,7 +4,7 @@ title = "Lightning thought #1 : MAGIC !"
 tags = ["random", "life", "english", "til"]
 description = "Honestly people're looking for magic"
 categories = ["life", "Today I learned"]
-image = "2017/05/magic-is-endless.jpg"
+image = "/images/2017/05/magic-is-endless.jpg"
 
 +++
 

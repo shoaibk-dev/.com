@@ -4,6 +4,8 @@ title = "#TIL : Enable reverse proxy in CentOS"
 description = "I learned on 2017-09-01 about sysadmin, web, proxy"
 categories = ["Today I learned", "sysadmin"]
 tags = ["sysadmin", "web", "proxy"]
+image = "/images/never_stop_learning.jpg"
+comments = true
 +++
 
 

@@ -4,6 +4,8 @@ title = "#TIL : Stats your top-10 frequently commands"
 description = "I learned on 2016-03-26 about sysadmin, command-line, bash"
 categories = ["Today I learned", "sysadmin"]
 tags = ["sysadmin", "command-line", "bash"]
+image = "/images/never_stop_learning.jpg"
+comments = true
 +++
 
 

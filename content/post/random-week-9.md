@@ -4,7 +4,7 @@ title = "Random week #9"
 tags = ["random", "life", "english"]
 description = "Being kind. Being kind to yourself."
 categories = ["life"]
-image = "2017/04/overload.jpg"
+image = "/images/2017/04/overload.jpg"
 draft = true
 +++
 

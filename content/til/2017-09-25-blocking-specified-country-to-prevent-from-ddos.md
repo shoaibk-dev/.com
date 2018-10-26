@@ -4,6 +4,8 @@ title = "#TIL : Blocking specified country to prevent from DDOS"
 description = "I learned on 2017-09-25 about sysadmin, firewall, networking"
 categories = ["Today I learned", "sysadmin"]
 tags = ["sysadmin", "firewall", "networking"]
+image = "/images/never_stop_learning.jpg"
+comments = true
 +++
 
 

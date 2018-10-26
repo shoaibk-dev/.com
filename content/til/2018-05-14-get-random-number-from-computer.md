@@ -4,6 +4,8 @@ title = "#TIL : Get random number from computer"
 description = "I learned on 2018-05-14 about random, programming"
 categories = ["Today I learned", "programming"]
 tags = ["random", "programming"]
+image = "/images/never_stop_learning.jpg"
+comments = true
 +++
 
 

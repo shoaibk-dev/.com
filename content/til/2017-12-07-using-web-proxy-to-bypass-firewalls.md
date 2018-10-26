@@ -4,6 +4,8 @@ title = "#TIL : Using web proxy to bypass firewalls"
 description = "I learned on 2017-12-07 about firewall, web, proxy"
 categories = ["Today I learned", "web"]
 tags = ["firewall", "web", "proxy"]
+image = "/images/never_stop_learning.jpg"
+comments = true
 +++
 
 

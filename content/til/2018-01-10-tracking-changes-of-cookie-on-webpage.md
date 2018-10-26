@@ -4,6 +4,8 @@ title = "#TIL : Tracking changes of cookie on webpage"
 description = "I learned on 2018-01-10 about debug, web, javascript"
 categories = ["Today I learned", "javascript"]
 tags = ["debug", "web", "javascript"]
+image = "/images/never_stop_learning.jpg"
+comments = true
 +++
 
 

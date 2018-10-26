@@ -4,7 +4,7 @@ date: 2017-11-08T17:20:46+07:00
 description: "Lets automate all the things !"
 categories: ["sysadmin", "docker"]
 tags: ["ci", "docker", "testing", "english"]
-image: "2017/11/drone.png"
+image: "/images/2017/11/drone.png"
 toc: true
 ---
 

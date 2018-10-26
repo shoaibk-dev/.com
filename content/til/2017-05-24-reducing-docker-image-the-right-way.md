@@ -4,6 +4,8 @@ title = "#TIL : Reducing docker image the right way"
 description = "I learned on 2017-05-24 about sysadmin, docker"
 categories = ["Today I learned", "docker"]
 tags = ["sysadmin", "docker"]
+image = "/images/never_stop_learning.jpg"
+comments = true
 +++
 
 

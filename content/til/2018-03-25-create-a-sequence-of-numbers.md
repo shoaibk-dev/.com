@@ -4,6 +4,8 @@ title = "#TIL : Create a sequence of numbers"
 description = "I learned on 2018-03-25 about sysadmin, string"
 categories = ["Today I learned", "sysadmin"]
 tags = ["sysadmin", "string"]
+image = "/images/never_stop_learning.jpg"
+comments = true
 +++
 
 

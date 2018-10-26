@@ -4,7 +4,7 @@ title = "Random week #16"
 tags = ["random", "life", "english"]
 description = "be SIMPLY be CRAZY"
 categories = ["life"]
-image = "2017/05/life-is-like-math.jpg"
+image = "/images/2017/05/life-is-like-math.jpg"
 draft = true
 +++
 

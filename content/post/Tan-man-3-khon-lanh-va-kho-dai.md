@@ -4,7 +4,7 @@ date: 2018-05-03T00:14:08
 description: "Tản mạn trong ngày nắng hạn ..."
 categories: ["life", "tanmanlangmang"]
 tags: ["life", "tanmanlangmang", "vietnamese"]
-image: "2018/05/mouse-and-trap.jpg"
+image: "/images/2018/05/mouse-and-trap.jpg"
 toc: true
 ---
 

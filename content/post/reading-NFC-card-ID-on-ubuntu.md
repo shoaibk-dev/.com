@@ -4,7 +4,7 @@ date: 2017-09-27T17:00:00+07:00
 description: "You just bought a new NFC card reader with USB port. And you want expose only its data to file or send to server for processing ?"
 categories: ["Python", "Linux"]
 tags: ["linux", "python", "device", "nfc", "english"]
-image: "2017/09/NFC-technology-business-cards.jpg"
+image: "/images/2017/09/NFC-technology-business-cards.jpg"
 toc: true
 ---
 

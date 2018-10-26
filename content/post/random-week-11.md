@@ -4,7 +4,7 @@ title = "Random week #11"
 tags = ["random", "life", "english"]
 description = "What make you continuously live your life ?"
 categories = ["life"]
-image = "2017/04/black-wp.jpeg"
+image = "/images/2017/04/black-wp.jpeg"
 draft = true
 +++
 

@@ -4,6 +4,8 @@ title = "#TIL : Detect HTTP Response 304 Status Code in AJAX"
 description = "I learned on 2018-10-25 about caching, javascript, http, fetch"
 categories = ["Today I learned", "javascript"]
 tags = ["caching", "javascript", "http", "fetch"]
+image = "/images/never_stop_learning.jpg"
+comments = true
 +++
 
 

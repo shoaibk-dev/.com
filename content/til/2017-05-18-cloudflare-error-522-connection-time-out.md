@@ -4,6 +4,8 @@ title = "#TIL : Cloudflare Error 522 Connection Time out"
 description = "I learned on 2017-05-18 about web, cloudflare, error"
 categories = ["Today I learned", "web"]
 tags = ["web", "cloudflare", "error"]
+image = "/images/never_stop_learning.jpg"
+comments = true
 +++
 
 

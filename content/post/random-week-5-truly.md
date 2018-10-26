@@ -4,7 +4,7 @@ title = "Random Week #5 (truly)"
 tags = ["life", "english"]
 description = "The true random week #5"
 categories = ["life"]
-image = "2017/03/door-quote.jpg"
+image = "/images/2017/03/door-quote.jpg"
 draft = true
 +++
 

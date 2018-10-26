@@ -4,6 +4,8 @@ title = "#TIL : Run built-in server via Docker"
 description = "I learned on 2015-12-04 about docker, php, cli-server"
 categories = ["Today I learned", "php"]
 tags = ["docker", "php", "cli-server"]
+image = "/images/never_stop_learning.jpg"
+comments = true
 +++
 
 

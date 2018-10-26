@@ -4,6 +4,8 @@ title = "#TIL : Zip compressing list of files"
 description = "I learned on 2017-09-25 about compress, tools, zip"
 categories = ["Today I learned", "tools"]
 tags = ["compress", "tools", "zip"]
+image = "/images/never_stop_learning.jpg"
+comments = true
 +++
 
 

@@ -4,7 +4,7 @@ title = "Random week #13"
 tags = ["random", "life", "english"]
 description = "Insane Inside"
 categories = ["life"]
-image = "2017/05/happy-message-inside.jpg"
+image = "/images/2017/05/happy-message-inside.jpg"
 draft = true
 +++
 

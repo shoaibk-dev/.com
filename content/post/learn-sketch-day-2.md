@@ -4,7 +4,7 @@ date: 2018-04-11T23:50:34+07:00
 description: "I believe I can draw !!."
 categories: ["learneveryday", "skill"]
 tags: ["learn", "sketch", "english"]
-image: "2018/04/learn-sketch.jpg"
+image: "/images/2018/04/learn-sketch.jpg"
 ---
 
 - Timeframe : 13m15s - 29m20s

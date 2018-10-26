@@ -4,7 +4,7 @@ date: 2017-12-31T23:59:59+07:00
 description: "What a f*cking year !"
 categories: ["life"]
 tags: ["life", "inspiration", "vietnamese"]
-image: "2017/12/year2017.jpg"
+image: "/images/2017/12/year2017.jpg"
 ---
 
 Chào,

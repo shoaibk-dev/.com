@@ -1,7 +1,7 @@
 ---
 title: "How I Learn Golang Basics in 1 Day"
 date: 2017-10-21T00:10:31+07:00
-image: "xiny.jpg"
+image: "/images/xiny.jpg"
 description: How did I learn Golang basics in 1 day
 categories: ["English", "XinY"]
 tags: ["english", "go", "xiny"]

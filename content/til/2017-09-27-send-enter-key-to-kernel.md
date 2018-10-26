@@ -4,6 +4,8 @@ title = "#TIL : Send ENTER key to kernel"
 description = "I learned on 2017-09-27 about keyboard, linux"
 categories = ["Today I learned", "linux"]
 tags = ["keyboard", "linux"]
+image = "/images/never_stop_learning.jpg"
+comments = true
 +++
 
 

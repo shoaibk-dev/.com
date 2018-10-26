@@ -4,6 +4,8 @@ title = "#TIL : Runing old java applets on brower"
 description = "I learned on 2017-08-06 about security, java"
 categories = ["Today I learned", "java"]
 tags = ["security", "java"]
+image = "/images/never_stop_learning.jpg"
+comments = true
 +++
 
 

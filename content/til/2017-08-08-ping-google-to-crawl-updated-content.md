@@ -4,6 +4,8 @@ title = "#TIL : Ping Google to crawl updated content"
 description = "I learned on 2017-08-08 about web, google"
 categories = ["Today I learned", "web"]
 tags = ["web", "google"]
+image = "/images/never_stop_learning.jpg"
+comments = true
 +++
 
 

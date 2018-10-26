@@ -4,7 +4,7 @@ date: 2018-02-23T23:44:52+07:00
 description: "Tản mạn cho đời bớt sạn :)))"
 categories: ["life", "tanmanlangmang"]
 tags: ["life", "tanmanlangmang", "vietnamese"]
-image: "2018/02/slow-fast-quote.jpg"
+image: "/images/2018/02/slow-fast-quote.jpg"
 toc: false
 ---
 

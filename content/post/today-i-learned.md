@@ -4,7 +4,7 @@ title = "Today I Learned - automated tool helps you learn everyday."
 description = "We constantly learn new things. This is a repo to share those learnings. TILs are short Markdown documents (a few sentences + example code) explaining concepts, bits of syntax, commands, or tips we've recently learned."
 categories = ["Productivity"]
 tags = ["tools", "productivity", "english"]
-image = "2015/12/learn_everyday.gif"
+image = "/images/2015/12/learn_everyday.gif"
 toc = true
 +++
 

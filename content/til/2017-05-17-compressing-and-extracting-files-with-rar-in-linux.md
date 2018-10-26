@@ -4,6 +4,8 @@ title = "#TIL : Compressing and Extracting files with rar in Linux"
 description = "I learned on 2017-05-17 about sysadmin, rar, compressing"
 categories = ["Today I learned", "sysadmin"]
 tags = ["sysadmin", "rar", "compressing"]
+image = "/images/never_stop_learning.jpg"
+comments = true
 +++
 
 

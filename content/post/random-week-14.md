@@ -4,7 +4,7 @@ title = "Random week #14"
 tags = ["random", "life", "english"]
 description = "Hoping instead of expectation"
 categories = ["life"]
-image = "2017/05/disappointment-expectation-reality-equation.jpg"
+image = "/images/2017/05/disappointment-expectation-reality-equation.jpg"
 draft = true
 +++
 

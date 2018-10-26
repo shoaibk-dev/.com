@@ -4,7 +4,7 @@ date: 2017-12-14T22:00:00+07:00
 tags: ["life", "english"]
 description: "We are human, we were born, we are living and we will die soon. As a financial point of view, life is a business !"
 categories: ["life"]
-image: "2017/12/get-started-investing.jpg"
+image: "/images/2017/12/get-started-investing.jpg"
 ---
 
 **Disclaimer**: *this article isn't a financial advice. So if you're looking for one, this will make you disappointed!*

@@ -4,6 +4,8 @@ title = "#TIL : Bypass CORS by using JSONP callback"
 description = "I learned on 2018-01-08 about web, javascript, jsonp"
 categories = ["Today I learned", "web"]
 tags = ["web", "javascript", "jsonp"]
+image = "/images/never_stop_learning.jpg"
+comments = true
 +++
 
 

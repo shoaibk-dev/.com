@@ -4,6 +4,8 @@ title = "#TIL : Setup wildcard domains .test for development in MacOS"
 description = "I learned on 2018-04-24 about development, networking, dns"
 categories = ["Today I learned", "networking"]
 tags = ["development", "networking", "dns"]
+image = "/images/never_stop_learning.jpg"
+comments = true
 +++
 
 

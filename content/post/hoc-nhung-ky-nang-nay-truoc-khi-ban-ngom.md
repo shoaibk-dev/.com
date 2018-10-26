@@ -4,7 +4,7 @@ date: 2018-02-01T21:37:26+07:00
 categories: ["life"]
 tags: ["life", "inspiration", "learning", "vietnamese"]
 description: "Học, học nữa, hộc máu ... "
-image: "2018/02/learn-everything.jpeg"
+image: "/images/2018/02/learn-everything.jpeg"
 ---
 
 Chào bạn,
