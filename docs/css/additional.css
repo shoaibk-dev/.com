@@ -1,0 +1,135 @@
+.index-title{
+    color: rgba(0,0,0,.84);
+    margin-top:20px;
+}
+.index-sub{
+    color: rgba(0,0,0,.54);
+
+}
+.index-text{
+    margin-top:20px;
+    color: rgba(0,0,0,.44);
+}
+.index-image{
+    width: 400px;
+}
+.social-icon{
+    color: rgba(0,0,0,.44);
+    font-size:1.5rem;
+}
+.clock{
+    margin-left: 25px;
+}
+.maxthumb > a > img {
+    border-radius: .25rem .25rem 0 0;
+}
+.jumbotron.fortags a {
+    background: #1C9963 !important;
+    display: inline-block;
+    margin-bottom: 5px;
+}
+.card .maxthumb > a > .img-fluid {
+    height: 195px;
+}
+.error{
+    text-align: center !important;
+}
+.mainheading p.sitetitle {
+    font-size: 2.5rem;
+    font-family: 'IBM Plex Serif', serif;
+    margin-bottom: .5rem;
+    font-weight: 500;
+    line-height: 1.2;
+    color: inherit;
+}
+.mainheading h1.posttitle {
+    margin-bottom: 0
+}
+.navbar-brand span {
+    font-family: 'IBM Plex Serif', serif;
+}
+.article-post {
+    font-family: 'IBM Plex Serif', serif;
+}
+.article-post pre {
+    padding: 0;
+}
+.post-top-meta span {
+    display: inline;
+}
+h1, .h1 { font-size: 2rem; }
+h2, .h2 { font-size: 1.5rem; }
+h3, .h3 { font-size: 1.375rem; }
+h4, .h4 { font-size: 1.25rem; }
+h5, .h5 { font-size: 1.125rem; }
+h6, .h6 { font-size: 1rem; }
+
+.share {
+    padding-top: 1rem;
+    width: 170px;
+}
+.share ul li {
+    display: inline;
+}
+#toc-container {
+    border: 1px dashed gray;
+    padding: 5px 2px;
+}
+#TableOfContents {
+    width: 170px;
+}
+#TableOfContents > ul ul {
+    padding-left: 4px;
+    border-left: 2px black solid;
+}
+#TableOfContents > ul li > ul {
+    margin-top: 4px;
+}
+#TableOfContents li {
+    font-size: 0.7rem;
+    text-align: left;
+    display: block;
+    list-style: disc;
+    margin-bottom: 4px;
+    margin-left: 4px;
+}
+.footer {
+    margin-bottom: 0;
+}
+.section-title span {
+    border: none;
+    display: inline-block;
+    padding: 5px 0;
+}
+.typed-cursor{
+    opacity: 1;
+    animation: typedjsBlink 0.7s infinite;
+    -webkit-animation: typedjsBlink 0.7s infinite;
+            animation: typedjsBlink 0.7s infinite;
+}
+@keyframes typedjsBlink{
+    50% { opacity: 0.0; }
+}
+@-webkit-keyframes typedjsBlink{
+    0% { opacity: 1; }
+    50% { opacity: 0.0; }
+    100% { opacity: 1; }
+}
+
+.typed-fade-out{
+    opacity: 0;
+    transition: opacity .25s;
+    -webkit-animation: 0;
+            animation: 0;
+}
+.featured-image {
+    width: 100%;
+}
+@media (max-width:767px) {
+    .share {
+       display: none;
+   }
+   .jumbotron .col-md-4 {
+       display: none
+   }
+}
