@@ -6,6 +6,7 @@
     <description>Recent content in Secutiry on KhanhIceTea B(rain)-log</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <copyright>KhanhIceTea - Licensed under CC BY-NC-ND 3.0 | In God We Trust</copyright>
     <lastBuildDate>Tue, 29 May 2018 23:59:59 +0000</lastBuildDate>
     
 	<atom:link href="https://khanhicetea.com/tags/secutiry/index.xml" rel="self" type="application/rss+xml" />
@@ -17,10 +18,7 @@
       <pubDate>Tue, 29 May 2018 23:59:59 +0000</pubDate>
       
       <guid>https://khanhicetea.com/til/2018-05-29-put-git-data-outside-project-directory/</guid>
-      <description>Put .git data outside project directory Sometimes you want to put .git data into outside directory (to use another disk partition or to protect your git data). Use --separate-git-dir= option to get that.
-Example :
-$ git init --separate-git-dir=/var/gitstorage/myproject  Bonus : to protect .git data from other users, use this option --shared within octal value (same to chmod)
-Example : this will protect git file from writing by group and reading/writing by others</description>
+      <description>Put .git data outside project directory Sometimes you want to put .git data into outside directory (to use another disk partition or to protect your git data).</description>
     </item>
     
   </channel>

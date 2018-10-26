@@ -6,6 +6,7 @@
     <description>Recent content in Queue on KhanhIceTea B(rain)-log</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <copyright>KhanhIceTea - Licensed under CC BY-NC-ND 3.0 | In God We Trust</copyright>
     <lastBuildDate>Thu, 15 Jun 2017 23:59:59 +0000</lastBuildDate>
     
 	<atom:link href="https://khanhicetea.com/tags/queue/index.xml" rel="self" type="application/rss+xml" />
@@ -17,11 +18,7 @@
       <pubDate>Thu, 15 Jun 2017 23:59:59 +0000</pubDate>
       
       <guid>https://khanhicetea.com/til/2017-06-15-gearman-bash-worker-and-client/</guid>
-      <description>Gearman bash worker and client Gearman is a awesome job queue service that helps you scale your system. In smaller context, it can help us to run a background woker for minor tasks like backup data, cleaning system.
-Install :
-$ sudo apt install gearman-job-server gearman-tools  Create a worker bash script
-worker.sh
-#!/bin/bash echo $1 echo $2  Run worker, -w means run as worker mode , -f test means function name will be test</description>
+      <description>Gearman bash worker and client Gearman is a awesome job queue service that helps you scale your system.</description>
     </item>
     
   </channel>

@@ -6,6 +6,7 @@
     <description>Recent content in Heroku on KhanhIceTea B(rain)-log</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <copyright>KhanhIceTea - Licensed under CC BY-NC-ND 3.0 | In God We Trust</copyright>
     <lastBuildDate>Fri, 04 Aug 2017 23:59:59 +0000</lastBuildDate>
     
 	<atom:link href="https://khanhicetea.com/tags/heroku/index.xml" rel="self" type="application/rss+xml" />
@@ -17,10 +18,7 @@
       <pubDate>Fri, 04 Aug 2017 23:59:59 +0000</pubDate>
       
       <guid>https://khanhicetea.com/til/2017-08-04-free-sandbox-server-for-development/</guid>
-      <description>Free sandbox server for development We can use Heroku as a forever-free sandbox solution for testing or hosting micro service. Adding a credit card to have 1000 free computing hours.
-Heroku will make a service down if no received request come. We can use a cronjob-like service to check service health and keep it live !!! ;)
-Cronjob check health SASS : pingdom, statuscake, port-monitor, uptimerobot
-Btw, I don&amp;rsquo;t recommend you keep service live but no use, it makes Heroku infrastructure heavy and THAT&amp;rsquo;S NOT FAIR for them !</description>
+      <description>Free sandbox server for development We can use Heroku as a forever-free sandbox solution for testing or hosting micro service.</description>
     </item>
     
   </channel>

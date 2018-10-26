@@ -6,6 +6,7 @@
     <description>Recent content in Backup on KhanhIceTea B(rain)-log</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <copyright>KhanhIceTea - Licensed under CC BY-NC-ND 3.0 | In God We Trust</copyright>
     <lastBuildDate>Sat, 19 Mar 2016 21:07:56 +0700</lastBuildDate>
     
 	<atom:link href="https://khanhicetea.com/tags/backup/index.xml" rel="self" type="application/rss+xml" />
@@ -17,10 +18,7 @@
       <pubDate>Sat, 19 Mar 2016 21:07:56 +0700</pubDate>
       
       <guid>https://khanhicetea.com/post/backup-and-restore-elasticsearch-using-docker/</guid>
-      <description>Introduction One day, your ElasticSearch data is large and you have to move all data to another nodes or you just want backup the data file to somewhere.
-ElasticSearch-Dump is a tool can help you on this situation, it&amp;rsquo;s written on NodeJS so can run multi-platform. You can view the documents here.
-One way more convinient if you already have Docker is running its Docker image.
-Instruction Prepare a Docker image You can build manually its Docker image by</description>
+      <description>Introduction One day, your ElasticSearch data is large and you have to move all data to another nodes or you just want backup the data file to somewhere.</description>
     </item>
     
   </channel>

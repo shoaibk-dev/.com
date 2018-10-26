@@ -6,6 +6,7 @@
     <description>Recent content in Grep on KhanhIceTea B(rain)-log</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <copyright>KhanhIceTea - Licensed under CC BY-NC-ND 3.0 | In God We Trust</copyright>
     <lastBuildDate>Tue, 05 Sep 2017 23:59:59 +0000</lastBuildDate>
     
 	<atom:link href="https://khanhicetea.com/tags/grep/index.xml" rel="self" type="application/rss+xml" />
@@ -17,10 +18,7 @@
       <pubDate>Tue, 05 Sep 2017 23:59:59 +0000</pubDate>
       
       <guid>https://khanhicetea.com/til/2017-09-05-grep-find-a-string-in-folder/</guid>
-      <description> Grep : find a string in folder Grep is a greate tool for searching a string in files.
-Syntax
-$ grep -nr &#39;[string]&#39; [folder]  If you want to show surrounding lines the result, add flag -C [number] to the command
-$ grep -nr -C 3 &#39;hello&#39; src  </description>
+      <description>Grep : find a string in folder Grep is a greate tool for searching a string in files.</description>
     </item>
     
   </channel>

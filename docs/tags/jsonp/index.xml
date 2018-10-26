@@ -6,6 +6,7 @@
     <description>Recent content in Jsonp on KhanhIceTea B(rain)-log</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <copyright>KhanhIceTea - Licensed under CC BY-NC-ND 3.0 | In God We Trust</copyright>
     <lastBuildDate>Mon, 08 Jan 2018 23:59:59 +0000</lastBuildDate>
     
 	<atom:link href="https://khanhicetea.com/tags/jsonp/index.xml" rel="self" type="application/rss+xml" />
@@ -17,8 +18,7 @@
       <pubDate>Mon, 08 Jan 2018 23:59:59 +0000</pubDate>
       
       <guid>https://khanhicetea.com/til/2018-01-08-bypass-cors-by-using-jsonp-callback/</guid>
-      <description>Bypass CORS by using JSONP callback Sometimes you are blocked from request a cross-origin resource. Instead of adding our domain to allowed list of them, we can use another way to retrieve data from their API by using JSONP (in case they support it).
-The mechanism of JSONP is simple, instead of returning a JSON data. It will return a javascript text with passing your data into a function, whose name is declared in query string.</description>
+      <description>Bypass CORS by using JSONP callback Sometimes you are blocked from request a cross-origin resource. Instead of adding our domain to allowed list of them, we can use another way to retrieve data from their API by using JSONP (in case they support it).</description>
     </item>
     
   </channel>

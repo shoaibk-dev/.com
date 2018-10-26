@@ -6,6 +6,7 @@
     <description>Recent content in Web on KhanhIceTea B(rain)-log</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <copyright>KhanhIceTea - Licensed under CC BY-NC-ND 3.0 | In God We Trust</copyright>
     <lastBuildDate>Tue, 21 Aug 2018 14:38:08 +0700</lastBuildDate>
     
 	<atom:link href="https://khanhicetea.com/categories/web/index.xml" rel="self" type="application/rss+xml" />
@@ -17,8 +18,7 @@
       <pubDate>Tue, 21 Aug 2018 14:38:08 +0700</pubDate>
       
       <guid>https://khanhicetea.com/post/seswatcher-prevent-amazon-ses-account-from-being-suspended/</guid>
-      <description>Introdution At this moment, AWS SES service is the best affordable price and high-quality service to sending (and receiving) programmatic emails. But, one day your account could be suspended without notice, and that takes a big effort of requesting support to get it back to work.
-So it&amp;rsquo;s good to prevent that siatuation happens by watching your Bounces Rate and Complaints Rate. One way to resolve problem when your rates being too-high than allowance, is send a big amount of dummy emails to your blackhole email address.</description>
+      <description>Introdution At this moment, AWS SES service is the best affordable price and high-quality service to sending (and receiving) programmatic emails.</description>
     </item>
     
     <item>
@@ -27,8 +27,7 @@ So it&amp;rsquo;s good to prevent that siatuation happens by watching your Bounc
       <pubDate>Thu, 01 Mar 2018 23:59:59 +0000</pubDate>
       
       <guid>https://khanhicetea.com/til/2018-03-01-sending-cookie-in-ajax-cors-request/</guid>
-      <description>Sending Cookie in AJAX CORs request By default, browser will remove the cookie and authorization header from AJAX CORs request. So before sending out the request, make sure withCredentials must be true.
-In this case, CORs response must specify which origin is allowed (mean no wildcard allowed origin rule).</description>
+      <description>Sending Cookie in AJAX CORs request By default, browser will remove the cookie and authorization header from AJAX CORs request.</description>
     </item>
     
     <item>
@@ -37,8 +36,7 @@ In this case, CORs response must specify which origin is allowed (mean no wildca
       <pubDate>Mon, 08 Jan 2018 23:59:59 +0000</pubDate>
       
       <guid>https://khanhicetea.com/til/2018-01-08-bypass-cors-by-using-jsonp-callback/</guid>
-      <description>Bypass CORS by using JSONP callback Sometimes you are blocked from request a cross-origin resource. Instead of adding our domain to allowed list of them, we can use another way to retrieve data from their API by using JSONP (in case they support it).
-The mechanism of JSONP is simple, instead of returning a JSON data. It will return a javascript text with passing your data into a function, whose name is declared in query string.</description>
+      <description>Bypass CORS by using JSONP callback Sometimes you are blocked from request a cross-origin resource. Instead of adding our domain to allowed list of them, we can use another way to retrieve data from their API by using JSONP (in case they support it).</description>
     </item>
     
     <item>
@@ -47,9 +45,7 @@ The mechanism of JSONP is simple, instead of returning a JSON data. It will retu
       <pubDate>Wed, 03 Jan 2018 23:59:59 +0000</pubDate>
       
       <guid>https://khanhicetea.com/til/2018-01-03-hsts-rule-in-browser/</guid>
-      <description>HSTS rule in browser HTTP Strict Transport Security (HSTS) is a web security policy mechanism which helps to protect websites against protocol downgrade attacks and cookie hijacking.
-Enabling HSTS on your web will make your browser validate every SSL issues more strictly :
- User can not visit http version on browser User can not add SSL exception for the domain to ignore the warning. (when SSL cert expire or invalid common name)  Note : You can manually remove a domain from HSTS in Chrome by accessing this page URL chrome://net-internals/#hsts</description>
+      <description>HSTS rule in browser HTTP Strict Transport Security (HSTS) is a web security policy mechanism which helps to protect websites against protocol downgrade attacks and cookie hijacking.</description>
     </item>
     
     <item>
@@ -58,8 +54,7 @@ Enabling HSTS on your web will make your browser validate every SSL issues more 
       <pubDate>Thu, 07 Dec 2017 23:59:59 +0000</pubDate>
       
       <guid>https://khanhicetea.com/til/2017-12-07-using-web-proxy-to-bypass-firewalls/</guid>
-      <description>Using web proxy to bypass firewalls Someday, you will be blocked by a firewall while trying crawling or accessing some website. The reason is they block your IP address from accessing the server.
-One solution is using a web proxy (http proxy, socks4 or socks5) to bypass the firewall, by adding the middle-man server between you and target. It&amp;rsquo;s a bit unsecured but you could use for https site only.</description>
+      <description>Using web proxy to bypass firewalls Someday, you will be blocked by a firewall while trying crawling or accessing some website.</description>
     </item>
     
     <item>
@@ -68,11 +63,7 @@ One solution is using a web proxy (http proxy, socks4 or socks5) to bypass the f
       <pubDate>Tue, 08 Aug 2017 23:59:59 +0000</pubDate>
       
       <guid>https://khanhicetea.com/til/2017-08-08-ping-google-to-crawl-updated-content/</guid>
-      <description>Ping Google to crawl updated content When you post new content to your website, the fastest way is ping search engines to notify them. After that, they will try to crawl and index your page.
-One way to ping search engines is using XMLRPC ping
-This is a example XMLRPC request (HTTP POST request with xml body)
-Request
-&amp;gt; POST /ping/RPC2 HTTP/1.1 &amp;gt; Host: blogsearch.google.com &amp;gt; User-Agent: curl/7.47.0 &amp;gt; Accept: */* &amp;gt; content-type: application/xml &amp;gt; Content-Length: 239 &amp;gt; &amp;lt;?</description>
+      <description>Ping Google to crawl updated content When you post new content to your website, the fastest way is ping search engines to notify them.</description>
     </item>
     
     <item>
@@ -81,9 +72,7 @@ Request
       <pubDate>Thu, 18 May 2017 23:59:59 +0000</pubDate>
       
       <guid>https://khanhicetea.com/til/2017-05-18-cloudflare-error-522-connection-time-out/</guid>
-      <description>Cloudflare Error 522 Connection Time out If you are using Cloudflare as a proxied web server, it will provide many benefits about performance (assets caching, prevent DDOS and cheap CDN). But sometimes, you will face to this error &amp;ldquo;522 Connection Time out&amp;rdquo;.
-The problems caused by :
- Networking (CF can&amp;rsquo;t touch origin server : Firewall blocking, Network Layer #1,#2,#3 issue) Timeout (origin server process too long than 90 seconds) Empty or invalid response from origin server No or big HTTP headers (&amp;gt; 8Kb) Failed TCP handshake  Ref:</description>
+      <description>Cloudflare Error 522 Connection Time out If you are using Cloudflare as a proxied web server, it will provide many benefits about performance (assets caching, prevent DDOS and cheap CDN).</description>
     </item>
     
     <item>
@@ -92,8 +81,7 @@ The problems caused by :
       <pubDate>Mon, 13 Jun 2016 18:12:50 +0700</pubDate>
       
       <guid>https://khanhicetea.com/post/use_frontend_boilerplate_for_development/</guid>
-      <description>Giới thiệu Khi cắt HTML Layout từ PSD, bạn sẽ đối mặt với việc bên Design hoặc khách hàng thường xuyên yêu cầu thay đổi giao diện, thiết kế. Điều này gây ra không ít phiền nhiễu và tốn thời gian nếu cứ cập nhật hàng tá giao diện nếu sự thay đổi ảnh hưởng đến những phần layout chính (header, footer, sidebar).
-Sử dụng bộ khung sườn (boiler-plate) này, sẽ giúp bạn hạn chế thao tác lặp đi, lặp lại.</description>
+      <description>Giới thiệu Khi cắt HTML Layout từ PSD, bạn sẽ đối mặt với việc bên Design hoặc khách hàng thường xuyên yêu cầu thay đổi giao diện, thiết kế.</description>
     </item>
     
   </channel>

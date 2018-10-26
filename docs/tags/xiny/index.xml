@@ -6,6 +6,7 @@
     <description>Recent content in Xiny on KhanhIceTea B(rain)-log</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <copyright>KhanhIceTea - Licensed under CC BY-NC-ND 3.0 | In God We Trust</copyright>
     <lastBuildDate>Thu, 26 Oct 2017 18:56:33 +0700</lastBuildDate>
     
 	<atom:link href="https://khanhicetea.com/tags/xiny/index.xml" rel="self" type="application/rss+xml" />
@@ -19,7 +20,7 @@
       <guid>https://khanhicetea.com/xiny/how-i-learn-golang-goroutines-in-1-day/</guid>
       <description>&amp;gt; Learn Golang Basics here
 Goroutines &amp;amp; Concurrent View day2.go file
-package main import ( &amp;quot;fmt&amp;quot; &amp;quot;time&amp;quot; ) func main() { chanChanChanChan() bufferedChan() synchronizeTask() pingPongGame() selectChannel() outOfTime() nonBlockingChannelWithSelect() closeChannel() rangeOverChannel() doSomethingLater() doInterval() } func chanChanChanChan() { chan1 := make(chan string) chan2 := make(chan string) // By default sends and receives block until both the sender and receiver are ready. go func() { fmt.Println(&amp;quot;[1] Passing chan2 !&amp;quot;) chan2 &amp;lt;- &amp;quot;Chan2&amp;quot; fmt.</description>
+package main import ( &amp;quot;fmt&amp;quot; &amp;quot;time&amp;quot; ) func main() { chanChanChanChan() bufferedChan() synchronizeTask() pingPongGame() selectChannel() outOfTime() nonBlockingChannelWithSelect() closeChannel() rangeOverChannel() doSomethingLater() doInterval() } func chanChanChanChan() { chan1 := make(chan string) chan2 := make(chan string) // By default sends and receives block until both the sender and receiver are ready.</description>
     </item>
     
     <item>
@@ -29,10 +30,7 @@ package main import ( &amp;quot;fmt&amp;quot; &amp;quot;time&amp;quot; ) func ma
       
       <guid>https://khanhicetea.com/xiny/how-i-learn-golang-basics-in-1-day/</guid>
       <description>Structure is based on Learn Go in Y Minutes
-Install Go Follow this guide : https://golang.org/doc/install
-Compile and Run go code every 1 second $ watch -d -t -n 1 go run day1.go  Recommended editor Use VisualStudio Code
-Basics View day1.go file
-package main import ( &amp;quot;fmt&amp;quot; // Formatting standard library m &amp;quot;math&amp;quot; // Alias an imported lib &amp;quot;strconv&amp;quot; // String conversion lib &amp;quot;net/http&amp;quot; &amp;quot;io/ioutil&amp;quot; ) func main() { fmt.</description>
+Install Go Follow this guide : https://golang.</description>
     </item>
     
     <item>
@@ -41,9 +39,7 @@ package main import ( &amp;quot;fmt&amp;quot; // Formatting standard library m &
       <pubDate>Sun, 08 Oct 2017 23:30:00 +0700</pubDate>
       
       <guid>https://khanhicetea.com/xiny/how-i-learn-typescript-basics-in-2-days/</guid>
-      <description>Install TypeScript and TSLint $ npm install -g typescript tslint  Compile ts files on changes $ tsc -w  Recommended editor Use VisualStudioCode
-Basics View day2.ts file
-// Data types in TypeScript let a: boolean = false; let b: number = 42; let c: string = &amp;quot;Helo&amp;quot;; let d: any = &amp;quot;this is anything but not `never`&amp;quot; let e: never; // Can not assign to never type // Function Interface let f: Function = function f() {}; // Ommit data type (TypeScript auto detect it if it can) let g = &amp;quot;YOLO, Who needs type ?</description>
+      <description>Install TypeScript and TSLint $ npm install -g typescript tslint  Compile ts files on changes $ tsc -w  Recommended editor Use VisualStudioCode</description>
     </item>
     
     <item>
@@ -53,11 +49,7 @@ Basics View day2.ts file
       
       <guid>https://khanhicetea.com/xiny/how-i-learn-webpack-basics-in-2-days/</guid>
       <description>Introduction Learn from https://webpack.js.org/guides/getting-started/
-Clone my repo to follow commit hash by section : https://github.com/khanhicetea/learn-n-earn
-Day 1 ,  webpack.config.js
-const path = require(&#39;path&#39;); module.exports = { entry: &#39;./src/index.js&#39;, output: { filename: &#39;bundle.js&#39;, path: path.resolve(__dirname, &#39;dist&#39;) } };  Bash
-$ ./node_modules/.bin/webpack --config webpack.config.js  Learned
- entry : start point to dive in dependency graph. output : output after pack the web modules  filename : bundle filename path : dist path   Day 2 Import assets ,   CSS file : use style-loader and css-loader Image file : use file-loader WebFont file : use file-loader Data file use json-loader, xml-loader or csv-loader  module: { rules: [ { test: /\.</description>
+Clone my repo to follow commit hash by section : https://github.com/khanhicetea/learn-n-earn</description>
     </item>
     
   </channel>

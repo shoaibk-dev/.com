@@ -6,6 +6,7 @@
     <description>Recent content in Php on KhanhIceTea B(rain)-log</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <copyright>KhanhIceTea - Licensed under CC BY-NC-ND 3.0 | In God We Trust</copyright>
     <lastBuildDate>Tue, 05 Jun 2018 23:04:35 +0700</lastBuildDate>
     
 	<atom:link href="https://khanhicetea.com/categories/php/index.xml" rel="self" type="application/rss+xml" />
@@ -18,9 +19,7 @@
       
       <guid>https://khanhicetea.com/post/evaluate-expression-string-with-variables-in-php-without-eval/</guid>
       <description>TLDR;  Never ever use eval function in PHP !
- Updated Jul 31 : we can use Expression Language
-Introduction In some applications, we need to let user defines the expression (user lambda function) to evaluate a value or a condition. So we store user-defined expression in database then using eval function and pass variables to that function.
-It works, but not securely ! Remember this important thing :</description>
+ Updated Jul 31 : we can use Expression Language</description>
     </item>
     
     <item>
@@ -31,8 +30,7 @@ It works, but not securely ! Remember this important thing :</description>
       <guid>https://khanhicetea.com/til/2018-05-07-never-autostart-xdebug-in-cli-environment/</guid>
       <description>Never autostart XDebug in cli environment TLDR;
  Never ever enable xdebug.remote_autostart in cli
- Xdebug is handy extension helps you debug your PHP code. But it slows the performance in cli mode, especially run PHP cli tool like composer or phpunit.
-So please disable Xdebug in cli mode or set xdebug.remote_autostart=0 in INI file.</description>
+ Xdebug is handy extension helps you debug your PHP code.</description>
     </item>
     
     <item>
@@ -41,10 +39,7 @@ So please disable Xdebug in cli mode or set xdebug.remote_autostart=0 in INI fil
       <pubDate>Fri, 04 May 2018 23:59:59 +0000</pubDate>
       
       <guid>https://khanhicetea.com/til/2018-05-04-try-catch-and-finally-in-php/</guid>
-      <description>try, catch and finally in PHP We have to deal with exceptions every moment we touch PHP web development, and so please be carefully with running order of exception catching.
-Here is an example
-&amp;lt;?php function a() { try { throw new Exception(&#39;dsads&#39;); } catch (Exception $e) { return &#39;b&#39;; } finally { echo &#39;c&#39;; } } echo a();  Then the output is
-cb  Than mean even return &#39;b&#39;; runs, the finally code must be runned before function result passes out.</description>
+      <description>try, catch and finally in PHP We have to deal with exceptions every moment we touch PHP web development, and so please be carefully with running order of exception catching.</description>
     </item>
     
     <item>
@@ -53,8 +48,7 @@ cb  Than mean even return &#39;b&#39;; runs, the finally code must be runned bef
       <pubDate>Sun, 06 Aug 2017 23:59:59 +0000</pubDate>
       
       <guid>https://khanhicetea.com/til/2017-08-06-realpath-function/</guid>
-      <description>realpath function If you pass a non-exists path to function realpath, it returns empty string. So please don&amp;rsquo;t do something like :
-function storage_path($folder) { return realpath(__DIR__.&#39;/storage/&#39;.$folder); }  if you expect it return full path of new folder !</description>
+      <description>realpath function If you pass a non-exists path to function realpath, it returns empty string. So please don&amp;rsquo;t do something like :</description>
     </item>
     
     <item>
@@ -63,10 +57,7 @@ function storage_path($folder) { return realpath(__DIR__.&#39;/storage/&#39;.$fo
       <pubDate>Tue, 28 Feb 2017 23:59:59 +0000</pubDate>
       
       <guid>https://khanhicetea.com/til/2017-02-28-persistent-connection-to-mysql/</guid>
-      <description>Persistent connection to MySQL When a PHP process connects to MySQL server, the connection can be persistent if your PHP config has mysql.allow_persistent or mysqli.allow_persistent. (PDO has the attribute ATTR_PERSISTENT)
-$dbh = new PDO(&#39;DSN&#39;, &#39;KhanhDepZai&#39;, &#39;QuenMatKhauCMNR&#39;, [PDO::ATTR_PERSISTENT =&amp;gt; TRUE]);  Object destruction PHP destruct an object automatically when an object lost all its references.
-Example code:
-&amp;lt;?php $x = null; function klog($x) { echo $x . &#39; =&amp;gt; &#39;; } class A { private $k; function __construct($k) { $this-&amp;gt;k = $k; } function b() { klog(&#39;[b]&#39;); } function __destruct() { klog(&amp;quot;[{$this-&amp;gt;k} has been killed]&amp;quot;); } } function c($k) { return new A($k); } function d() { c(&#39;d&#39;)-&amp;gt;b(); } function e() { global $x; $x = c(&#39;e&#39;); $x-&amp;gt;b(); klog(&#39;[e]&#39;); } function f() { klog(&#39;[f]&#39;); } d(); e(); f();  Result:</description>
+      <description>Persistent connection to MySQL When a PHP process connects to MySQL server, the connection can be persistent if your PHP config has mysql.</description>
     </item>
     
     <item>
@@ -75,9 +66,7 @@ Example code:
       <pubDate>Thu, 23 Feb 2017 23:59:59 +0000</pubDate>
       
       <guid>https://khanhicetea.com/til/2017-02-23-using-vardumper-in-phpunit/</guid>
-      <description> Using VarDumper in PHPUnit The trick is writing the output to STDERR stream, I wrote a helper function below
-function phpunit_dump() { $cloner = new \Symfony\Component\VarDumper\Cloner\VarCloner(); $dumper = new \Symfony\Component\VarDumper\Dumper\CliDumper(STDERR); foreach (func_get_args() as $var) { $dumper-&amp;gt;dump($cloner-&amp;gt;cloneVar($var)); } }  How to use it ?
-// Something magic here :D phpunit_dump($magic_var1, $magic_var2, $magic_of_magic); // So much magic below, can&#39;t understand anymore  </description>
+      <description>Using VarDumper in PHPUnit The trick is writing the output to STDERR stream, I wrote a helper function below</description>
     </item>
     
     <item>
@@ -86,8 +75,7 @@ function phpunit_dump() { $cloner = new \Symfony\Component\VarDumper\Cloner\VarC
       <pubDate>Fri, 25 Mar 2016 14:41:46 +0700</pubDate>
       
       <guid>https://khanhicetea.com/post/setup_php7_dev_enviroment/</guid>
-      <description>Setup requirements Install VirtualBox  Goto https://www.virtualbox.org/wiki/Downloads and download Virtualbox binary based on your OS. Install Virtualbox for virtualization  Install Vagrant  Goto https://www.vagrantup.com/downloads.html and download vagrant binary based on your OS. Install Vagrant from binary  Verify all requirements Open the terminal and try this command to verify Virtualbox is ready.
-$ Virtualbox -h  Open the terminal and try this command to verify Vagrant is ready.</description>
+      <description>Setup requirements Install VirtualBox  Goto https://www.virtualbox.org/wiki/Downloads and download Virtualbox binary based on your OS. Install Virtualbox for virtualization  Install Vagrant  Goto https://www.</description>
     </item>
     
     <item>
@@ -96,8 +84,7 @@ $ Virtualbox -h  Open the terminal and try this command to verify Vagrant is rea
       <pubDate>Tue, 08 Mar 2016 23:59:59 +0000</pubDate>
       
       <guid>https://khanhicetea.com/til/2016-03-08-f-cking-stupid-limit-of-input-vars/</guid>
-      <description>F-cking stupid limit of input vars Today, I tried to debug many hours to find out why my POST request missing some data (specify _token hidden field). :disappointed:
-I tried to config NGINX and PHPFPM max_post_size, client_max_body_size but they still gone. After 2-3 hours searching on Google, I found the link from PHP.net, it has a config value about limiting max input vars (default = 1000), so it causes the problem about missing data.</description>
+      <description>F-cking stupid limit of input vars Today, I tried to debug many hours to find out why my POST request missing some data (specify _token hidden field).</description>
     </item>
     
     <item>
@@ -106,10 +93,7 @@ I tried to config NGINX and PHPFPM max_post_size, client_max_body_size but they 
       <pubDate>Fri, 04 Dec 2015 23:59:59 +0000</pubDate>
       
       <guid>https://khanhicetea.com/til/2015-12-04-run-built-in-server-via-docker/</guid>
-      <description> Run built-in server via Docker Docker is the fast and clean way to run Linux programs.
-We can run a PHP project via PHP built-in server and Docker.
-docker run -it -p 8080:8080 -v `pwd`:/code php:7 php -S 0.0.0.0:8080 -t /code/web /code/web/server.php  With server.php content is
-&amp;lt;?php $filename = __DIR__.preg_replace(&#39;#(\?.*)$#&#39;, &#39;&#39;, $_SERVER[&#39;REQUEST_URI&#39;]); if (php_sapi_name() === &#39;cli-server&#39; &amp;amp;&amp;amp; is_file($filename)) { return false; } // Run application below $app = new Application(); $app-&amp;gt;run();  </description>
+      <description>Run built-in server via Docker Docker is the fast and clean way to run Linux programs.</description>
     </item>
     
     <item>
@@ -118,9 +102,7 @@ docker run -it -p 8080:8080 -v `pwd`:/code php:7 php -S 0.0.0.0:8080 -t /code/we
       <pubDate>Fri, 04 Dec 2015 14:36:10 +0700</pubDate>
       
       <guid>https://khanhicetea.com/post/php5.6-vs-php7rc8-benchmarking-using-docker/</guid>
-      <description>New version of PHP, PHP7 has been released yesterday after 11 years of PHP5. I am very excited with it, so I made a benchmark to compare the performance of 2 versions.
-The fastest way to test out PHP multi-versions is using Docker image. You can get it from : https://hub.docker.com/_/php/
-Let&amp;rsquo;s start pull PHP images docker pull php:5.6 docker pull php:7  Change directory to the web root folder of PHP project (I used my micro-framework, Sifoni to test).</description>
+      <description>New version of PHP, PHP7 has been released yesterday after 11 years of PHP5. I am very excited with it, so I made a benchmark to compare the performance of 2 versions.</description>
     </item>
     
     <item>
@@ -129,10 +111,7 @@ Let&amp;rsquo;s start pull PHP images docker pull php:5.6 docker pull php:7  Cha
       <pubDate>Wed, 02 Dec 2015 23:59:59 +0000</pubDate>
       
       <guid>https://khanhicetea.com/til/2015-12-02-eloquent-many-to-many-relationship/</guid>
-      <description>Eloquent Many-to-Many Relationship To create the n-to-m relationship in Eloquent, we create a table stand between 2 tables. Eg:
-We have the db schema :
-   post post_tag tag     id (PK) id (PK) id (PK)   title post_id (Index) name (Unique)   content tag_id (Index)     In the model Post and Tag, we define a relation :
- App\Model\Post.</description>
+      <description>Eloquent Many-to-Many Relationship To create the n-to-m relationship in Eloquent, we create a table stand between 2 tables.</description>
     </item>
     
   </channel>

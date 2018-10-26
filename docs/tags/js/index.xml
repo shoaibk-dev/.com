@@ -6,6 +6,7 @@
     <description>Recent content in Js on KhanhIceTea B(rain)-log</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <copyright>KhanhIceTea - Licensed under CC BY-NC-ND 3.0 | In God We Trust</copyright>
     <lastBuildDate>Sun, 08 Oct 2017 23:30:00 +0700</lastBuildDate>
     
 	<atom:link href="https://khanhicetea.com/tags/js/index.xml" rel="self" type="application/rss+xml" />
@@ -17,9 +18,7 @@
       <pubDate>Sun, 08 Oct 2017 23:30:00 +0700</pubDate>
       
       <guid>https://khanhicetea.com/xiny/how-i-learn-typescript-basics-in-2-days/</guid>
-      <description>Install TypeScript and TSLint $ npm install -g typescript tslint  Compile ts files on changes $ tsc -w  Recommended editor Use VisualStudioCode
-Basics View day2.ts file
-// Data types in TypeScript let a: boolean = false; let b: number = 42; let c: string = &amp;quot;Helo&amp;quot;; let d: any = &amp;quot;this is anything but not `never`&amp;quot; let e: never; // Can not assign to never type // Function Interface let f: Function = function f() {}; // Ommit data type (TypeScript auto detect it if it can) let g = &amp;quot;YOLO, Who needs type ?</description>
+      <description>Install TypeScript and TSLint $ npm install -g typescript tslint  Compile ts files on changes $ tsc -w  Recommended editor Use VisualStudioCode</description>
     </item>
     
     <item>
@@ -29,11 +28,7 @@ Basics View day2.ts file
       
       <guid>https://khanhicetea.com/xiny/how-i-learn-webpack-basics-in-2-days/</guid>
       <description>Introduction Learn from https://webpack.js.org/guides/getting-started/
-Clone my repo to follow commit hash by section : https://github.com/khanhicetea/learn-n-earn
-Day 1 ,  webpack.config.js
-const path = require(&#39;path&#39;); module.exports = { entry: &#39;./src/index.js&#39;, output: { filename: &#39;bundle.js&#39;, path: path.resolve(__dirname, &#39;dist&#39;) } };  Bash
-$ ./node_modules/.bin/webpack --config webpack.config.js  Learned
- entry : start point to dive in dependency graph. output : output after pack the web modules  filename : bundle filename path : dist path   Day 2 Import assets ,   CSS file : use style-loader and css-loader Image file : use file-loader WebFont file : use file-loader Data file use json-loader, xml-loader or csv-loader  module: { rules: [ { test: /\.</description>
+Clone my repo to follow commit hash by section : https://github.com/khanhicetea/learn-n-earn</description>
     </item>
     
   </channel>

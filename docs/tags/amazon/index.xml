@@ -6,6 +6,7 @@
     <description>Recent content in Amazon on KhanhIceTea B(rain)-log</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <copyright>KhanhIceTea - Licensed under CC BY-NC-ND 3.0 | In God We Trust</copyright>
     <lastBuildDate>Tue, 21 Aug 2018 14:38:08 +0700</lastBuildDate>
     
 	<atom:link href="https://khanhicetea.com/tags/amazon/index.xml" rel="self" type="application/rss+xml" />
@@ -17,8 +18,7 @@
       <pubDate>Tue, 21 Aug 2018 14:38:08 +0700</pubDate>
       
       <guid>https://khanhicetea.com/post/seswatcher-prevent-amazon-ses-account-from-being-suspended/</guid>
-      <description>Introdution At this moment, AWS SES service is the best affordable price and high-quality service to sending (and receiving) programmatic emails. But, one day your account could be suspended without notice, and that takes a big effort of requesting support to get it back to work.
-So it&amp;rsquo;s good to prevent that siatuation happens by watching your Bounces Rate and Complaints Rate. One way to resolve problem when your rates being too-high than allowance, is send a big amount of dummy emails to your blackhole email address.</description>
+      <description>Introdution At this moment, AWS SES service is the best affordable price and high-quality service to sending (and receiving) programmatic emails.</description>
     </item>
     
   </channel>

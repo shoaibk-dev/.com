@@ -6,6 +6,7 @@
     <description>Recent content in Elasticsearch on KhanhIceTea B(rain)-log</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <copyright>KhanhIceTea - Licensed under CC BY-NC-ND 3.0 | In God We Trust</copyright>
     <lastBuildDate>Thu, 25 Jan 2018 23:59:59 +0000</lastBuildDate>
     
 	<atom:link href="https://khanhicetea.com/tags/elasticsearch/index.xml" rel="self" type="application/rss+xml" />
@@ -17,10 +18,7 @@
       <pubDate>Thu, 25 Jan 2018 23:59:59 +0000</pubDate>
       
       <guid>https://khanhicetea.com/til/2018-01-25-basics-of-elasticsearch/</guid>
-      <description>Basics of Elasticsearch Last days, I developed a EFK stack to centralize my system logging. I really like the concepts of FluentD, it&amp;rsquo;s better than original stack ELK of elastic company.
-So I need to learn basics about Elasticsearch and Kibana
-This is what I learned :
-# Get all documents from elasticsearch node GET _search { &amp;quot;query&amp;quot;: { &amp;quot;match_all&amp;quot;: {} } } # Check nodes statistics GET /_nodes/stats # Check health of cluster (I don&#39;t know why it is always yello status) GET _cluster/health # Get list of indices (indexes) GET /_cat/indices?</description>
+      <description>Basics of Elasticsearch Last days, I developed a EFK stack to centralize my system logging. I really like the concepts of FluentD, it&amp;rsquo;s better than original stack ELK of elastic company.</description>
     </item>
     
     <item>
@@ -29,10 +27,7 @@ This is what I learned :
       <pubDate>Sat, 19 Mar 2016 21:07:56 +0700</pubDate>
       
       <guid>https://khanhicetea.com/post/backup-and-restore-elasticsearch-using-docker/</guid>
-      <description>Introduction One day, your ElasticSearch data is large and you have to move all data to another nodes or you just want backup the data file to somewhere.
-ElasticSearch-Dump is a tool can help you on this situation, it&amp;rsquo;s written on NodeJS so can run multi-platform. You can view the documents here.
-One way more convinient if you already have Docker is running its Docker image.
-Instruction Prepare a Docker image You can build manually its Docker image by</description>
+      <description>Introduction One day, your ElasticSearch data is large and you have to move all data to another nodes or you just want backup the data file to somewhere.</description>
     </item>
     
   </channel>

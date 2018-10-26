@@ -6,6 +6,7 @@
     <description>Recent content in Posts on KhanhIceTea B(rain)-log</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <copyright>KhanhIceTea - Licensed under CC BY-NC-ND 3.0 | In God We Trust</copyright>
     <lastBuildDate>Sun, 30 Sep 2018 10:59:25 +0700</lastBuildDate>
     
 	<atom:link href="https://khanhicetea.com/post/index.xml" rel="self" type="application/rss+xml" />
@@ -17,9 +18,7 @@
       <pubDate>Sun, 30 Sep 2018 10:59:25 +0700</pubDate>
       
       <guid>https://khanhicetea.com/post/build-sequel-pro-from-source-in-xcode-10/</guid>
-      <description>Sequel Pro is great GUI MySQL tool in macOS (it&amp;rsquo;s open source and of course totally free) !
-But from last year, their automated build system has been broken, so the versions is outdated :
- Stable version 1.1.2 (Apr 3, 2016) Nightly version 3477d22387 (Sep 6, 2017)  Even their codebase bas been updated every week but we can&amp;rsquo;t use the latest build within a lot of bugfixes. So here is the guide to build from source using XCode 10</description>
+      <description>Sequel Pro is great GUI MySQL tool in macOS (it&amp;rsquo;s open source and of course totally free) !</description>
     </item>
     
     <item>
@@ -28,8 +27,7 @@ But from last year, their automated build system has been broken, so the version
       <pubDate>Tue, 21 Aug 2018 14:38:08 +0700</pubDate>
       
       <guid>https://khanhicetea.com/post/seswatcher-prevent-amazon-ses-account-from-being-suspended/</guid>
-      <description>Introdution At this moment, AWS SES service is the best affordable price and high-quality service to sending (and receiving) programmatic emails. But, one day your account could be suspended without notice, and that takes a big effort of requesting support to get it back to work.
-So it&amp;rsquo;s good to prevent that siatuation happens by watching your Bounces Rate and Complaints Rate. One way to resolve problem when your rates being too-high than allowance, is send a big amount of dummy emails to your blackhole email address.</description>
+      <description>Introdution At this moment, AWS SES service is the best affordable price and high-quality service to sending (and receiving) programmatic emails.</description>
     </item>
     
     <item>
@@ -39,9 +37,7 @@ So it&amp;rsquo;s good to prevent that siatuation happens by watching your Bounc
       
       <guid>https://khanhicetea.com/post/evaluate-expression-string-with-variables-in-php-without-eval/</guid>
       <description>TLDR;  Never ever use eval function in PHP !
- Updated Jul 31 : we can use Expression Language
-Introduction In some applications, we need to let user defines the expression (user lambda function) to evaluate a value or a condition. So we store user-defined expression in database then using eval function and pass variables to that function.
-It works, but not securely ! Remember this important thing :</description>
+ Updated Jul 31 : we can use Expression Language</description>
     </item>
     
     <item>
@@ -51,9 +47,7 @@ It works, but not securely ! Remember this important thing :</description>
       
       <guid>https://khanhicetea.com/post/ai-has-been-ruining-mankind-slowly/</guid>
       <description>Just my 2 cents &amp;hellip;
-Nowaday, it&amp;rsquo;s easy to see a news about AI (artificial intelligence) on the media. Even we are using it everyday without cognition. SO WHAT IS IT ? IS IT GOOD or BAD ? AND CAN WE &amp;hellip; EAT IT ?
-In this article I will try to answer that questions :
- AI is just technology, so you can&amp;rsquo;t eat it ;) Technology is just a &amp;hellip; technology, a thing that human created.</description>
+Nowaday, it&amp;rsquo;s easy to see a news about AI (artificial intelligence) on the media.</description>
     </item>
     
     <item>
@@ -62,18 +56,7 @@ In this article I will try to answer that questions :
       <pubDate>Thu, 03 May 2018 00:14:08 +0000</pubDate>
       
       <guid>https://khanhicetea.com/post/tan-man-3-khon-lanh-va-kho-dai/</guid>
-      <description>Khắc Nhập (à nhầm Dẫn Nhập) Chắc khi đọc qua cái tiêu đề, không ít người sẽ nghĩ đây là bài viết lang mang đi so sánh giữa 2 tính từ &amp;ldquo;Khôn Lanh&amp;rdquo; và &amp;ldquo;Khờ Dại&amp;rdquo;. Nhưng ý định của tôi lại khác hoàn toàn.
-Còn nó khác thế nào thì mời đọc tiếp nhaaaa ..
-.
-.
-.
-.
-.
-.
-.
-.
-.
-Khôn vs Lanh Vâng !</description>
+      <description>Khắc Nhập (à nhầm Dẫn Nhập) Chắc khi đọc qua cái tiêu đề, không ít người sẽ nghĩ đây là bài viết lang mang đi so sánh giữa 2 tính từ &amp;ldquo;Khôn Lanh&amp;rdquo; và &amp;ldquo;Khờ Dại&amp;rdquo;.</description>
     </item>
     
     <item>
@@ -82,9 +65,7 @@ Khôn vs Lanh Vâng !</description>
       <pubDate>Sat, 28 Apr 2018 00:18:41 +0700</pubDate>
       
       <guid>https://khanhicetea.com/post/japan-trip-2018/</guid>
-      <description>Vâng ! Sau chuyến đi về &amp;ldquo;buôn&amp;rdquo; thì tiếp đến là chuyến đi đến &amp;ldquo;bản&amp;rdquo;. Cái bản này khá to mà người ta hay gọi là Nhật Bản 🇯🇵
-|| Thank Hiroyuki Ishii for your invitation ! m(-.-)m
-Trải nghiệm thì rất rất nhiều, học hỏi được cũng không ít là thứ ở cái xứ sở hoa anh đào ! Có time sẽ viết chi tiết hơn để chia sẻ sau 😉</description>
+      <description>Vâng ! Sau chuyến đi về &amp;ldquo;buôn&amp;rdquo; thì tiếp đến là chuyến đi đến &amp;ldquo;bản&amp;rdquo;. Cái bản này khá to mà người ta hay gọi là Nhật Bản 🇯🇵</description>
     </item>
     
     <item>
@@ -93,8 +74,7 @@ Trải nghiệm thì rất rất nhiều, học hỏi được cũng không ít 
       <pubDate>Thu, 12 Apr 2018 23:50:34 +0700</pubDate>
       
       <guid>https://khanhicetea.com/post/learn-sketch-day-3/</guid>
-      <description>Timeframe : 29m20s - 1h01m57s Learning source : I Want to Draw: Simple Exercises for Complete Beginners(https://design.tutsplus.com/articles/i-want-to-draw-simple-exercises-for-complete-beginners--vector-20583) What I learned today : Eyes make sense !  The result of day #3, practice Dragon Head again, front face is failed :(
-Til next time !</description>
+      <description>Timeframe : 29m20s - 1h01m57s Learning source : I Want to Draw: Simple Exercises for Complete Beginners(https://design.</description>
     </item>
     
     <item>
@@ -103,8 +83,7 @@ Til next time !</description>
       <pubDate>Wed, 11 Apr 2018 23:50:34 +0700</pubDate>
       
       <guid>https://khanhicetea.com/post/learn-sketch-day-2/</guid>
-      <description>Timeframe : 13m15s - 29m20s Learning source : I Want to Draw: Simple Exercises for Complete Beginners(https://design.tutsplus.com/articles/i-want-to-draw-simple-exercises-for-complete-beginners--vector-20583) What I learned today : From wireframe to reality ! Make your hand freedom !  The result of day #2 (Dragon Head , a bit like Dog Head :lol: ) :
-Til next time !</description>
+      <description>Timeframe : 13m15s - 29m20s Learning source : I Want to Draw: Simple Exercises for Complete Beginners(https://design.</description>
     </item>
     
     <item>
@@ -113,8 +92,7 @@ Til next time !</description>
       <pubDate>Tue, 10 Apr 2018 23:41:34 +0700</pubDate>
       
       <guid>https://khanhicetea.com/post/learn-sketch-day-1/</guid>
-      <description>Timeframe : 0m0s - 13m15s Learning source : I Want to Draw: Simple Exercises for Complete Beginners(https://design.tutsplus.com/articles/i-want-to-draw-simple-exercises-for-complete-beginners--vector-20583) What I learned today : Drawing is not repeating, but creating ! Your hand must be relaxed but your brain should be staying focus !  The result of day #1 :
-Til next time !</description>
+      <description>Timeframe : 0m0s - 13m15s Learning source : I Want to Draw: Simple Exercises for Complete Beginners(https://design.</description>
     </item>
     
     <item>
@@ -124,7 +102,7 @@ Til next time !</description>
       
       <guid>https://khanhicetea.com/post/tan-man-2-doi-chat-cong-tac-va-pho-thac/</guid>
       <description>Đây là một bài viết trải nghiệm của bản thân.
-Đổi chác : Anh cho tôi con cá thác lác, tôi đưa lại anh cọng rác :)) Nghe thì hơi trào phúng nhưng cơ bản thì nó kiểu kiểu như vậy. Chủ đề này tôi được truyền cảm hứng trong bài giảng phúc âm mà cha giảng hôm qua, đoạn ông Judas Iscariot &amp;ldquo;đổi&amp;rdquo; Chúa Jesus lấy 30 đồng bạc.</description>
+Đổi chác : Anh cho tôi con cá thác lác, tôi đưa lại anh cọng rác :)) Nghe thì hơi trào phúng nhưng cơ bản thì nó kiểu kiểu như vậy.</description>
     </item>
     
     <item>
@@ -133,8 +111,7 @@ Til next time !</description>
       <pubDate>Mon, 19 Mar 2018 23:21:18 +0700</pubDate>
       
       <guid>https://khanhicetea.com/post/di-cam/</guid>
-      <description>Tuần vừa rồi, mình có một chuyến công tác sang Campuchia (gọi nôm na là đi Cam). Tính ra cái tên khá đặc biệt cứ nói đi Cam là hầu hết người ta đều hiểu là đi đâu :D Tra trên Google mới biết nó xuất phát từ tiếng pháp (Kampuchéa).
-Sân Bay Bay từ SGN đến sân bay PNH thuộc thủ đô Phnong Penh, tuyến này có vẻ đa số là người nước ngoài đi du lịch qua 3 nước đông dương.</description>
+      <description>Tuần vừa rồi, mình có một chuyến công tác sang Campuchia (gọi nôm na là đi Cam).</description>
     </item>
     
     <item>
@@ -143,8 +120,7 @@ Sân Bay Bay từ SGN đến sân bay PNH thuộc thủ đô Phnong Penh, tuyế
       <pubDate>Fri, 23 Feb 2018 23:44:52 +0700</pubDate>
       
       <guid>https://khanhicetea.com/post/tan-man-1-nhanh-vs-cham/</guid>
-      <description>Má tôi thường hay quở trách tôi : &amp;ldquo;Mày lúc nào cũng chậm chà chậm chạp, y như ba mày, cái gì cũng để nước tới chân&amp;rdquo;. Những lúc như thế tôi chỉ biết cười trừ rồi ghẹo má &amp;ldquo;Hehe con là phải để nước qua đầu luôn rùi mới bơi !!&amp;rdquo;.
-Ngẫm nghĩ lại thì tôi thấy chậm chạp thì thua thiệt nhưng đôi khi cũng lắm cái hay, giả như những việc nguy hiểm chẳng hạn - thế là có đứa đi trước test hàng cho mình kaka.</description>
+      <description>Má tôi thường hay quở trách tôi : &amp;ldquo;Mày lúc nào cũng chậm chà chậm chạp, y như ba mày, cái gì cũng để nước tới chân&amp;rdquo;.</description>
     </item>
     
     <item>
@@ -153,9 +129,7 @@ Ngẫm nghĩ lại thì tôi thấy chậm chạp thì thua thiệt nhưng đôi
       <pubDate>Wed, 14 Feb 2018 23:04:54 +0700</pubDate>
       
       <guid>https://khanhicetea.com/post/bmv-tour/</guid>
-      <description>Cuối tuần rồi tôi có làm một chuyến đi Buôn (Buôn này to nhất cái Tây Nguyên) - Buôn Mê Thuột.
-Bên dưới là một số trải nghiệm trong chuyến đi :D
-Day 1 Cảnh sân bay Buôn Mê (BMV Airport - tôi hay gọi đùa là Ba Mẹ Vợ Airport). Những sân bay nho nhỏ thế này mỗi ngày chỉ có 6-10 chuyến nên khách đi xuống hay lên tàu bay đều đi bộ là chính (riêng tôi lại thích style này, hơn những style luồng ống hay nhét người vào xe bus như cái ống 😨).</description>
+      <description>Cuối tuần rồi tôi có làm một chuyến đi Buôn (Buôn này to nhất cái Tây Nguyên) - Buôn Mê Thuột.</description>
     </item>
     
     <item>
@@ -165,8 +139,7 @@ Day 1 Cảnh sân bay Buôn Mê (BMV Airport - tôi hay gọi đùa là Ba Mẹ 
       
       <guid>https://khanhicetea.com/post/hoc-nhung-ky-nang-nay-truoc-khi-ban-ngom/</guid>
       <description>Chào bạn,
-Bài viết này là bản dịch Tiếng Việt của mình một bài viết mà tôi cảm thấy nó rất hay, là một nhắc nhở cho chúng ta trong cuộc sống và đặc biệt là trong công việc.
-Bài gốc là Learn these programming skills before your inevitable death!, của Itamar Turner-Trauring. Trong bài gốc có nhắc đến một số lĩnh vực IT nhưng tôi nghĩ nó cũng đúng và phú hợp với tất cả các ngành nghề và ngữ cảnh của bạn.</description>
+Bài viết này là bản dịch Tiếng Việt của mình một bài viết mà tôi cảm thấy nó rất hay, là một nhắc nhở cho chúng ta trong cuộc sống và đặc biệt là trong công việc.</description>
     </item>
     
     <item>
@@ -176,9 +149,7 @@ Bài gốc là Learn these programming skills before your inevitable death!, c�
       
       <guid>https://khanhicetea.com/post/yeah-this-is-my-101-st-blog-post/</guid>
       <description>Hi there,
-I start this blog from Nov 30, 2015. It means I have taken a 777-day journey through every line, every single word of this blog. (Oh man ! It&amp;rsquo;s a lucky number !!!)
- 777 / 101 = 7.(6930)(6930)(6930)(6930)&amp;hellip; days per post 😱
- You know, sometimes we can&amp;rsquo;t achieve anything without help from the others. And yes, it&amp;rsquo;s from you - who reading this line. You are the purpose, the (why) I wrote this thing.</description>
+I start this blog from Nov 30, 2015. It means I have taken a 777-day journey through every line, every single word of this blog.</description>
     </item>
     
     <item>
@@ -188,8 +159,7 @@ I start this blog from Nov 30, 2015. It means I have taken a 777-day journey thr
       
       <guid>https://khanhicetea.com/post/random-year-2017/</guid>
       <description>Chào,
-Thực ra tôi cũng chẳng biết viết gì về năm hai không mười bảy vừa qua cả. Cả một năm với bao nhiêu là trải nghiệm, cảm xúc thăng có trầm có, những điều học được cũng như nhiều điều dở dang còn nằm trên To-do-later-list.
-Gần đây tôi vô tình đọc được một câu tweet của người bạn về một câu đại khái là : &amp;ldquo;Chúng ta có mắt ở đằng trước là để nhìn về phía trước chứ không phải ở sau đầu để nuối tiếc và gặm nhấm quá khứ.</description>
+Thực ra tôi cũng chẳng biết viết gì về năm hai không mười bảy vừa qua cả.</description>
     </item>
     
     <item>
@@ -198,9 +168,7 @@ Gần đây tôi vô tình đọc được một câu tweet của người bạn
       <pubDate>Thu, 14 Dec 2017 22:00:00 +0700</pubDate>
       
       <guid>https://khanhicetea.com/post/what-are-the-best-things-to-invest-in-right-now/</guid>
-      <description>Disclaimer: this article isn&amp;rsquo;t a financial advice. So if you&amp;rsquo;re looking for one, this will make you disappointed!
-We are human, we were born, we are living and we will die soon. As a financial point of view, life is a business - we keep that business works, makes benefit and hope it last long to the next generation.
-I think about this, and I have a question &amp;ldquo;So what are the best things to INVEST in right now ?</description>
+      <description>Disclaimer: this article isn&amp;rsquo;t a financial advice. So if you&amp;rsquo;re looking for one, this will make you disappointed!</description>
     </item>
     
     <item>
@@ -211,9 +179,7 @@ I think about this, and I have a question &amp;ldquo;So what are the best things
       <guid>https://khanhicetea.com/post/aws-gcp-azure-ip-ranges/</guid>
       <description>TL;DR This is my gist of result
 https://gist.github.com/khanhicetea/c6cc74b99ab336d58c2da7929c2de709
-Introdution These are 3 biggest cloud providers (from Amazon, Google and Microsoft). This is the way to get their IP ranges (IPv4).
-Amazon Web Service AWS update its IP ranges on this link : https://ip-ranges.amazonaws.com/ip-ranges.json
-# download ip-ranges.json file curl -o aws.json https://ip-ranges.amazonaws.com/ip-ranges.json # parse ip range with grep tool grep -o -E &#39;\d+\.\d+\.\d+\.\d+/\d+&#39; aws.json &amp;gt; aws.txt  The result are in aws.</description>
+Introdution These are 3 biggest cloud providers (from Amazon, Google and Microsoft).</description>
     </item>
     
     <item>
@@ -222,9 +188,7 @@ Amazon Web Service AWS update its IP ranges on this link : https://ip-ranges.ama
       <pubDate>Wed, 08 Nov 2017 17:20:46 +0700</pubDate>
       
       <guid>https://khanhicetea.com/post/building-automated-ci-server-with-drone-and-docker/</guid>
-      <description>Introduction Docker is great tool to management linux containers. It brings DevOps to next level, from development to production environment. And of course, before deploy anything to production, software should be tested carefully and automatically.
-That&amp;rsquo;s why Drone, a new lightweight CI server built-on top Go lang and Docker, will help us to resolve the testing problems in simple and fast way.
-Setup This guide will assume you already have Docker and Docker Compose tool.</description>
+      <description>Introduction Docker is great tool to management linux containers. It brings DevOps to next level, from development to production environment.</description>
     </item>
     
     <item>
@@ -234,10 +198,7 @@ Setup This guide will assume you already have Docker and Docker Compose tool.</d
       
       <guid>https://khanhicetea.com/post/smtpor-dead-simple-smtp-testing/</guid>
       <description>Never need a bigass mail client to test your SMTP config !
- Github Repo : https://github.com/khanhicetea/smtpor
-Demo TL;DR Using Docker to run
-$ docker run -d -p 3000:3000 khanhicetea/smtpor  Then open http://localhost:3000 to try a shot !
-Install &amp;amp; Start $ npm install $ npm start  Heroku Deploying $ heroku login $ heroku git:remote -a [your-app-name] $ git push heroku master  Contributors  @khanhicetea  License MIT License</description>
+ Github Repo : https://github.</description>
     </item>
     
     <item>
@@ -247,7 +208,7 @@ Install &amp;amp; Start $ npm install $ npm start  Heroku Deploying $ heroku log
       
       <guid>https://khanhicetea.com/post/reading-nfc-card-id-on-ubuntu/</guid>
       <description>Prerequisites Install driver My device is ACS122U : http://www.acs.com.hk/en/products/3/acr122u-usb-nfc-reader/#tab_downloads
-Kernel modules # echo &amp;quot;uinput&amp;quot; &amp;gt;&amp;gt; /etc/modules # echo &amp;quot;install nfc /bin/false&amp;quot; &amp;gt;&amp;gt; /etc/modprobe.d/blacklist.conf # echo &amp;quot;install pn533 /bin/false&amp;quot; &amp;gt;&amp;gt; /etc/modprobe.d/blacklist.conf  Install packages sudo apt-get install swig libccid pcscd libpcsclite-dev libpcsclite1 python-dev python-pip gcc linux-headers-$(uname -r)  Run service sudo service pcscd restart  Install python packages sudo pip install pyscard python-uinput evdev  Source code This is source code that read the card ID and simulate keystrokes to type card ID by text then pressing ENTER key.</description>
+Kernel modules # echo &amp;quot;uinput&amp;quot; &amp;gt;&amp;gt; /etc/modules # echo &amp;quot;install nfc /bin/false&amp;quot; &amp;gt;&amp;gt; /etc/modprobe.</description>
     </item>
     
     <item>
@@ -256,9 +217,7 @@ Kernel modules # echo &amp;quot;uinput&amp;quot; &amp;gt;&amp;gt; /etc/modules #
       <pubDate>Wed, 16 Aug 2017 22:56:05 +0700</pubDate>
       
       <guid>https://khanhicetea.com/post/webfonts-optimization-using-nginx/</guid>
-      <description>Context Everytime you decided to use a webfont on your web, you think about Google Web Fonts, which is the best CDN for webfonts at this moment.
-So why Google Fonts is good solution : - Have many popular and updated fonts - Global CDN - Easy UX to get started - Auto detects user&amp;rsquo;s browser then return supported font type (TTF, WOFF or WOFF2)
-But  It&amp;rsquo;s a tracking endpoint (collect data to Google) Network latency (you have a CDN in your country)  Solution We use a simple Node server and NGINX with proxy cache mod to resolve this case.</description>
+      <description>Context Everytime you decided to use a webfont on your web, you think about Google Web Fonts, which is the best CDN for webfonts at this moment.</description>
     </item>
     
     <item>
@@ -268,7 +227,7 @@ But  It&amp;rsquo;s a tracking endpoint (collect data to Google) Network latency
       
       <guid>https://khanhicetea.com/post/random-riddle-about-number/</guid>
       <description>Lâu rùi không viết &amp;hellip;
-Câu đố nhức nách Ngày xửa ngày xưa, ngay tại cái thời mà ông tổ ông tô sáng tạo nên những con số dùng để đếm, rồi dần dần để tính toán và để &amp;hellip; hơn thua. Ngày đó có một cậu bé nọ ở trong xóm trọ, cậu hỏi họ một câu đố rất là nhức xọ. 🙀💀 Câu đố đấy nôm na như sau :</description>
+Câu đố nhức nách Ngày xửa ngày xưa, ngay tại cái thời mà ông tổ ông tô sáng tạo nên những con số dùng để đếm, rồi dần dần để tính toán và để &amp;hellip; hơn thua.</description>
     </item>
     
     <item>
@@ -277,12 +236,7 @@ Câu đố nhức nách Ngày xửa ngày xưa, ngay tại cái thời mà ông 
       <pubDate>Thu, 11 May 2017 23:01:53 +0700</pubDate>
       
       <guid>https://khanhicetea.com/post/lightning-thought-1-magic-in-software/</guid>
-      <description>Random quote  “Insanity: doing the same thing over and over again and expecting different results.” - Albert Einstein
- It&amp;rsquo;s true in LOGIC ! But sometimes, it goes wrong in computer science and &amp;hellip; life.
-What does computer program do ? We learnt from Computer Science courses this phisolophy :
- PROGRAM takes INPUT and produces OUTPUT
-So, same PROGRAM + same INPUT = same OUTPUT
- And that&amp;rsquo;s the basis of every testing techniques.</description>
+      <description>Random quote  “Insanity: doing the same thing over and over again and expecting different results.</description>
     </item>
     
     <item>
@@ -292,10 +246,7 @@ So, same PROGRAM + same INPUT = same OUTPUT
       
       <guid>https://khanhicetea.com/post/kick-start-docker-environment-on-ubuntu/</guid>
       <description>What does script do :
- Install latest Docker Engine Install latest Docker Compose tool AND last but not least, a congratuation message !  Here is the script :
-  Hm.. it&amp;rsquo;s exactly docker images are building instead
- Ref:
- Docker meme from developermemes.com  </description>
+ Install latest Docker Engine Install latest Docker Compose tool AND last but not least, a congratuation message !</description>
     </item>
     
     <item>
@@ -305,9 +256,7 @@ So, same PROGRAM + same INPUT = same OUTPUT
       
       <guid>https://khanhicetea.com/post/kick-start-a-lemp-stack-on-ubuntu-16-04/</guid>
       <description>LEMP = Linux + EngineX(NginX) + MySQL + PHP
- Too tired for doing same tasks over and over again. I made this script to help me (and you) on kicking start a new LEMP stack on production server. Hope it useful !
-What does script do :
- Disable IPv6 (it&amp;rsquo;s not ready for production at the moment) Configure firewall (only accepts port 22, 80 and 443) Disable password authentication to SSH service Upgrade system Install useful tools (git, screen, vim, curl and lego for LetsEncrypt ACME) NginX MySQL 5.</description>
+ Too tired for doing same tasks over and over again.</description>
     </item>
     
     <item>
@@ -316,10 +265,7 @@ What does script do :
       <pubDate>Sat, 25 Mar 2017 13:59:26 +0700</pubDate>
       
       <guid>https://khanhicetea.com/post/how-to-reload-gracefully-supervisor-program/</guid>
-      <description>Problem We have some managed worker-programs by supervisor. While deploying new codebase of worker, we have to restart them to update new logic.
-But it&amp;rsquo;s creepy when supervisor kills all processes of programs and starts again.
-WHAT IF IT KILLS A WORKING WORKER ?
-Of course, the working task will be fucked up. Database transaction, database migration, sending email and other scheduled tasks will be crashed in middle. Some tasks can&amp;rsquo;t not be reserved, rollbacked or re-runned.</description>
+      <description>Problem We have some managed worker-programs by supervisor. While deploying new codebase of worker, we have to restart them to update new logic.</description>
     </item>
     
     <item>
@@ -328,7 +274,7 @@ Of course, the working task will be fucked up. Database transaction, database mi
       <pubDate>Sat, 11 Mar 2017 01:05:00 +0700</pubDate>
       
       <guid>https://khanhicetea.com/post/o-doi-hon-thua-duoc-gi-mat-chi/</guid>
-      <description>Hơn thua là gì ? Hơn thua xuất phát từ nhu cầu cần được quan tâm, chứng tỏ, sở hữu mà hiện tượng là sự ghen tị, mong muốn chiếm hữu. Ta mong có được những thứ ta chưa có, những thứ ta có mà chưa nhiều, thậm chí những thứ ta có nhiều nhưng chưa thấy đủ. Dân dả mà nói là &amp;ldquo;được voi đòi tiên&amp;rdquo; hoặc &amp;ldquo;được đằng chân, lân đằng đầu&amp;rdquo;.</description>
+      <description>Hơn thua là gì ? Hơn thua xuất phát từ nhu cầu cần được quan tâm, chứng tỏ, sở hữu mà hiện tượng là sự ghen tị, mong muốn chiếm hữu.</description>
     </item>
     
     <item>
@@ -338,7 +284,7 @@ Of course, the working task will be fucked up. Database transaction, database mi
       
       <guid>https://khanhicetea.com/post/what-we-need-is-to-sleep/</guid>
       <description>What a day !
- Bank account has to be closed Forgot to turn off unused service before billing Email account get stuck in forwarding, get important emails dismissed Email sending system had been suspended because of sending a lot of bounced emails without notice Internet oversea cables got damaged, speed is slow, can&amp;rsquo;t do anything planed  Luckily, I&amp;rsquo;m still alive to feel these pains. Thank GOD, please keep giving to me your pains, everyday !</description>
+ Bank account has to be closed Forgot to turn off unused service before billing Email account get stuck in forwarding, get important emails dismissed Email sending system had been suspended because of sending a lot of bounced emails without notice Internet oversea cables got damaged, speed is slow, can&amp;rsquo;t do anything planed  Luckily, I&amp;rsquo;m still alive to feel these pains.</description>
     </item>
     
     <item>
@@ -347,9 +293,7 @@ Of course, the working task will be fucked up. Database transaction, database mi
       <pubDate>Sun, 26 Feb 2017 20:41:11 +0700</pubDate>
       
       <guid>https://khanhicetea.com/post/do-not-worry/</guid>
-      <description>No one can serve two masters. Either you will hate the one and love the other, or you will be devoted to the one and despise the other. You cannot serve both God and money.
-Do Not Worry
-Therefore I tell you, do not worry about your life, what you will eat or drink; or about your body, what you will wear. Is not life more than food, and the body more than clothes?</description>
+      <description>No one can serve two masters. Either you will hate the one and love the other, or you will be devoted to the one and despise the other.</description>
     </item>
     
     <item>
@@ -358,8 +302,7 @@ Therefore I tell you, do not worry about your life, what you will eat or drink; 
       <pubDate>Tue, 21 Feb 2017 00:00:00 +0700</pubDate>
       
       <guid>https://khanhicetea.com/post/what-are-things-that-do-not-matter-in-life/</guid>
-      <description>Như đã hứa ở bài trước, hôm này mình tạo ra được 2 tiếng đồng hồ rãnh rỗi sinh nông nỗi. Đây là bản dịch của bài viết What Are Things That Do Not Matter In Life? của tác giả James Altucher. Do đây là bản dịch ngố theo phong cách lố nên nếu có sai sót thì &amp;hellip;. kệ (It doesn&amp;rsquo;t matter !) 😛
-Câu hỏi gốc được hỏi tại Quora : Cái méo gì là vô nghĩa ở đời ?</description>
+      <description>Như đã hứa ở bài trước, hôm này mình tạo ra được 2 tiếng đồng hồ rãnh rỗi sinh nông nỗi.</description>
     </item>
     
     <item>
@@ -368,8 +311,7 @@ Câu hỏi gốc được hỏi tại Quora : Cái méo gì là vô nghĩa ở �
       <pubDate>Sun, 05 Feb 2017 21:15:03 +0700</pubDate>
       
       <guid>https://khanhicetea.com/post/live-a-random-life/</guid>
-      <description>Tiếng Việt Một năm mới lại trôi qua, tuy có nhiều chuyện thay đổi nhưng cơ bản thì &amp;ldquo;CHẰNG CÓ GÌ KHÁC CẢ&amp;rdquo;. 🙃
-Vẫn là cuộc sống đó, đi làm ngày 80 tiếng (à nhầm tuần 80 tiếng), ngày ăn 3 bữa, quần cáo mặc cả ngày, đi đường nào, về đường đó (trừ lúc say có lách mấy anh Pikachu), thu nhập cũng chẳng gọi là cao, mà cũng chẳng thể bảo là nghèo, vẫn gõ 101 phím ngày qua ngày, vẫn ăn những quán quen thuộc mà cho rằng nó sạch sẽ, an cmn toàn &amp;hellip; Túm cái quần què lại là LUẨN QUẨN Ở CÁI VÒNG KHÔNG TO THÌ NHỎ !</description>
+      <description>Tiếng Việt Một năm mới lại trôi qua, tuy có nhiều chuyện thay đổi nhưng cơ bản thì &amp;ldquo;CHẰNG CÓ GÌ KHÁC CẢ&amp;rdquo;.</description>
     </item>
     
     <item>
@@ -378,8 +320,7 @@ Vẫn là cuộc sống đó, đi làm ngày 80 tiếng (à nhầm tuần 80 ti�
       <pubDate>Sat, 28 Jan 2017 00:00:00 +0700</pubDate>
       
       <guid>https://khanhicetea.com/post/what-is-your-y/</guid>
-      <description>LOVE, TIME, DEATH ! Let&amp;rsquo;s begin there,  &amp;ldquo;We long for love, we wish we had more time, and we fear death.&amp;rdquo; - (Collateral Beauty movie)
- LOVE 💖 Một năm với những trải nghiệm, cung bậc cảm xúc hỗn độn của tình yêu đưa-lối. Cuộc đời luôn trêu ta khi người yêu ta không phải người ta yêu, mà người yêu của người ta yêu thì đếch yêu ta (à nhầm !</description>
+      <description>LOVE, TIME, DEATH ! Let&amp;rsquo;s begin there,  &amp;ldquo;We long for love, we wish we had more time, and we fear death.</description>
     </item>
     
     <item>
@@ -388,7 +329,7 @@ Vẫn là cuộc sống đó, đi làm ngày 80 tiếng (à nhầm tuần 80 ti�
       <pubDate>Thu, 25 Aug 2016 00:36:10 +0700</pubDate>
       
       <guid>https://khanhicetea.com/post/storytelling-guide/</guid>
-      <description> CAS = Context -&amp;gt; Action -&amp;gt; Result Context  Where and When ? 3 questions  Who is the hero ?  real or fictitios person, place or thing (should related to your audience) or yourself  What do they want ?  worthy objective  Who or what is getting in the way ? (bad guy)  (real or fictitios) person, place or thing (should related to your audience) must be an obstacle not &amp;ldquo;larger than life&amp;rdquo; (can do anything kind)    Action:  must have context hero does battle with the villain at least on up-and-down comes to a resolution  Result :  Tell how the story ends Conveys the lesson to learn  </description>
+      <description>CAS = Context -&amp;gt; Action -&amp;gt; Result Context  Where and When ? 3 questions  Who is the hero ?</description>
     </item>
     
     <item>
@@ -397,8 +338,7 @@ Vẫn là cuộc sống đó, đi làm ngày 80 tiếng (à nhầm tuần 80 ti�
       <pubDate>Mon, 13 Jun 2016 18:12:50 +0700</pubDate>
       
       <guid>https://khanhicetea.com/post/use_frontend_boilerplate_for_development/</guid>
-      <description>Giới thiệu Khi cắt HTML Layout từ PSD, bạn sẽ đối mặt với việc bên Design hoặc khách hàng thường xuyên yêu cầu thay đổi giao diện, thiết kế. Điều này gây ra không ít phiền nhiễu và tốn thời gian nếu cứ cập nhật hàng tá giao diện nếu sự thay đổi ảnh hưởng đến những phần layout chính (header, footer, sidebar).
-Sử dụng bộ khung sườn (boiler-plate) này, sẽ giúp bạn hạn chế thao tác lặp đi, lặp lại.</description>
+      <description>Giới thiệu Khi cắt HTML Layout từ PSD, bạn sẽ đối mặt với việc bên Design hoặc khách hàng thường xuyên yêu cầu thay đổi giao diện, thiết kế.</description>
     </item>
     
     <item>
@@ -407,8 +347,7 @@ Sử dụng bộ khung sườn (boiler-plate) này, sẽ giúp bạn hạn chế
       <pubDate>Fri, 25 Mar 2016 14:41:46 +0700</pubDate>
       
       <guid>https://khanhicetea.com/post/setup_php7_dev_enviroment/</guid>
-      <description>Setup requirements Install VirtualBox  Goto https://www.virtualbox.org/wiki/Downloads and download Virtualbox binary based on your OS. Install Virtualbox for virtualization  Install Vagrant  Goto https://www.vagrantup.com/downloads.html and download vagrant binary based on your OS. Install Vagrant from binary  Verify all requirements Open the terminal and try this command to verify Virtualbox is ready.
-$ Virtualbox -h  Open the terminal and try this command to verify Vagrant is ready.</description>
+      <description>Setup requirements Install VirtualBox  Goto https://www.virtualbox.org/wiki/Downloads and download Virtualbox binary based on your OS. Install Virtualbox for virtualization  Install Vagrant  Goto https://www.</description>
     </item>
     
     <item>
@@ -417,8 +356,7 @@ $ Virtualbox -h  Open the terminal and try this command to verify Vagrant is rea
       <pubDate>Sun, 20 Mar 2016 23:29:53 +0700</pubDate>
       
       <guid>https://khanhicetea.com/post/read_input_from_usb_keyboard_in_linux/</guid>
-      <description>Introduction You just bought a new input device like barcode scanner, proximity card reader with USB port. And you want expose only its data to a file or send to server for processing ? But it acts like a keyboard, type the characters then trigger Enter key.
-This tutorial can help you make a program can exclusive receive input data from the device and don&amp;rsquo;t affect to another program.</description>
+      <description>Introduction You just bought a new input device like barcode scanner, proximity card reader with USB port.</description>
     </item>
     
     <item>
@@ -427,10 +365,7 @@ This tutorial can help you make a program can exclusive receive input data from 
       <pubDate>Sat, 19 Mar 2016 21:07:56 +0700</pubDate>
       
       <guid>https://khanhicetea.com/post/backup-and-restore-elasticsearch-using-docker/</guid>
-      <description>Introduction One day, your ElasticSearch data is large and you have to move all data to another nodes or you just want backup the data file to somewhere.
-ElasticSearch-Dump is a tool can help you on this situation, it&amp;rsquo;s written on NodeJS so can run multi-platform. You can view the documents here.
-One way more convinient if you already have Docker is running its Docker image.
-Instruction Prepare a Docker image You can build manually its Docker image by</description>
+      <description>Introduction One day, your ElasticSearch data is large and you have to move all data to another nodes or you just want backup the data file to somewhere.</description>
     </item>
     
     <item>
@@ -439,9 +374,7 @@ Instruction Prepare a Docker image You can build manually its Docker image by</d
       <pubDate>Fri, 04 Dec 2015 14:36:10 +0700</pubDate>
       
       <guid>https://khanhicetea.com/post/php5.6-vs-php7rc8-benchmarking-using-docker/</guid>
-      <description>New version of PHP, PHP7 has been released yesterday after 11 years of PHP5. I am very excited with it, so I made a benchmark to compare the performance of 2 versions.
-The fastest way to test out PHP multi-versions is using Docker image. You can get it from : https://hub.docker.com/_/php/
-Let&amp;rsquo;s start pull PHP images docker pull php:5.6 docker pull php:7  Change directory to the web root folder of PHP project (I used my micro-framework, Sifoni to test).</description>
+      <description>New version of PHP, PHP7 has been released yesterday after 11 years of PHP5. I am very excited with it, so I made a benchmark to compare the performance of 2 versions.</description>
     </item>
     
     <item>
@@ -450,9 +383,7 @@ Let&amp;rsquo;s start pull PHP images docker pull php:5.6 docker pull php:7  Cha
       <pubDate>Mon, 30 Nov 2015 17:22:46 +0700</pubDate>
       
       <guid>https://khanhicetea.com/post/today-i-learned/</guid>
-      <description>Introduction We constantly learn new things. This is a repo to share those learnings. TILs are short Markdown documents (a few sentences + example code) explaining concepts, bits of syntax, commands, or tips we&amp;rsquo;ve recently learned.
-Today-I-Learn (TIL) is inspired by Thoughbot, TIL is a repository for everyone to share what we have learn today.
-This repo has a tool that help you to manage and write down what you learned in scientific way.</description>
+      <description>Introduction We constantly learn new things. This is a repo to share those learnings. TILs are short Markdown documents (a few sentences + example code) explaining concepts, bits of syntax, commands, or tips we&amp;rsquo;ve recently learned.</description>
     </item>
     
   </channel>

@@ -6,6 +6,7 @@
     <description>Recent content in Trick on KhanhIceTea B(rain)-log</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <copyright>KhanhIceTea - Licensed under CC BY-NC-ND 3.0 | In God We Trust</copyright>
     <lastBuildDate>Tue, 10 Apr 2018 23:59:59 +0000</lastBuildDate>
     
 	<atom:link href="https://khanhicetea.com/tags/trick/index.xml" rel="self" type="application/rss+xml" />
@@ -17,10 +18,7 @@
       <pubDate>Tue, 10 Apr 2018 23:59:59 +0000</pubDate>
       
       <guid>https://khanhicetea.com/til/2018-04-10-create-tiny-chat-channel-via-netcat/</guid>
-      <description>Create tiny chat channel via netcat In a network, you can create a tiny chatting channel using netcat. It&amp;rsquo;s lightweight TCP protocol with plain-text transmission, so be carefully on using.
-First, create a channel by picking port number (ex: 7777)
-$ sudo nc -l 0.0.0.0 7777  Then, tell you friend your IP and channel port. He will use this info to connect the channel
-$ nc 192.168.1.2 7777  Finnally, start chatting !</description>
+      <description>Create tiny chat channel via netcat In a network, you can create a tiny chatting channel using netcat.</description>
     </item>
     
     <item>
@@ -29,8 +27,7 @@ $ nc 192.168.1.2 7777  Finnally, start chatting !</description>
       <pubDate>Tue, 10 Apr 2018 23:59:59 +0000</pubDate>
       
       <guid>https://khanhicetea.com/til/2018-04-10-send-a-file-through-networking-via-netcat/</guid>
-      <description>Send a file through networking via netcat If you&amp;rsquo;re working on 2 machines in same networking and want to send a file from machine A to machine B. But you don&amp;rsquo;t have USB, floopy disk :lol: or insanse Bluetooth. There is simple way to send a file to another computer without setting up SSH or SMB (althrough these way are safer than it).
-On the machine A (with IP address : 192.</description>
+      <description>Send a file through networking via netcat If you&amp;rsquo;re working on 2 machines in same networking and want to send a file from machine A to machine B.</description>
     </item>
     
   </channel>

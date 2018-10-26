@@ -6,6 +6,7 @@
     <description>Recent content in Http on KhanhIceTea B(rain)-log</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <copyright>KhanhIceTea - Licensed under CC BY-NC-ND 3.0 | In God We Trust</copyright>
     <lastBuildDate>Thu, 25 Oct 2018 23:59:59 +0000</lastBuildDate>
     
 	<atom:link href="https://khanhicetea.com/tags/http/index.xml" rel="self" type="application/rss+xml" />
@@ -17,8 +18,7 @@
       <pubDate>Thu, 25 Oct 2018 23:59:59 +0000</pubDate>
       
       <guid>https://khanhicetea.com/til/2018-10-25-detect-http-response-304-status-code-in-ajax/</guid>
-      <description>Detect HTTP Response 304 Status Code in AJAX Sometimes, you have a interval timer to retrieve new data updates from AJAX requests. But even the response status code of response is 304 (no body), the browser will treat it as 200 response and copy the cached body from browser cache to response body. So it will trigger the re-rederning UI components.
-The way we can detect it is via its response headers list.</description>
+      <description>Detect HTTP Response 304 Status Code in AJAX Sometimes, you have a interval timer to retrieve new data updates from AJAX requests.</description>
     </item>
     
     <item>
@@ -27,8 +27,7 @@ The way we can detect it is via its response headers list.</description>
       <pubDate>Tue, 22 May 2018 23:59:59 +0000</pubDate>
       
       <guid>https://khanhicetea.com/til/2018-05-22-reuse-cookies-between-multi-requests-in-curl-tool/</guid>
-      <description>Reuse cookies between multi requests in Curl tool Curl is good lib and tool to simulate HTTP requests. One common usecase is reusing the cookies between 2 or more requests. So you don&amp;rsquo;t have to copied last &amp;ldquo;Set-Cookie&amp;rdquo; of previous response then paste it to &amp;ldquo;Cookie&amp;rdquo; of next request.
-To achieve that, you have to use a cookie jar (sounds fun) to store cookies then use that cookie jar in next request.</description>
+      <description>Reuse cookies between multi requests in Curl tool Curl is good lib and tool to simulate HTTP requests.</description>
     </item>
     
     <item>
@@ -37,8 +36,7 @@ To achieve that, you have to use a cookie jar (sounds fun) to store cookies then
       <pubDate>Thu, 01 Mar 2018 23:59:59 +0000</pubDate>
       
       <guid>https://khanhicetea.com/til/2018-03-01-sending-cookie-in-ajax-cors-request/</guid>
-      <description>Sending Cookie in AJAX CORs request By default, browser will remove the cookie and authorization header from AJAX CORs request. So before sending out the request, make sure withCredentials must be true.
-In this case, CORs response must specify which origin is allowed (mean no wildcard allowed origin rule).</description>
+      <description>Sending Cookie in AJAX CORs request By default, browser will remove the cookie and authorization header from AJAX CORs request.</description>
     </item>
     
     <item>
@@ -47,9 +45,7 @@ In this case, CORs response must specify which origin is allowed (mean no wildca
       <pubDate>Wed, 03 Jan 2018 23:59:59 +0000</pubDate>
       
       <guid>https://khanhicetea.com/til/2018-01-03-create-cross-platform-downloading-app-url/</guid>
-      <description>Create cross-platform downloading app URL You have a mobile app for both platforms iOS and Android, each platform has different download URL. But your user doesn&amp;rsquo;t know which platform he using. Clicking wrong URL will lead to user bounce-rate.
-Solution is making only 1 URL to download your app, which can redirect to right place depends on using platform. So how we achieve this ??
-The key of problem is detecting user platform, which can be done by extracting the User-Agent header from http request.</description>
+      <description>Create cross-platform downloading app URL You have a mobile app for both platforms iOS and Android, each platform has different download URL.</description>
     </item>
     
     <item>
@@ -58,11 +54,7 @@ The key of problem is detecting user platform, which can be done by extracting t
       <pubDate>Fri, 21 Apr 2017 23:59:59 +0000</pubDate>
       
       <guid>https://khanhicetea.com/til/2017-04-21-ab-failed-responses/</guid>
-      <description>ab failed responses When benchmarking a HTTP application server using ab tool, you shouldn&amp;rsquo;t only care about how many requests per second, but percentage of Success responses.
-A notice that you must have the same content-length in responses, because ab tool will assume response having different content-length from Document Length (in ab result) is failed response.
-Example
-Webserver using Flask
-from flask import Flask from random import randint app = Flask(__name__) @app.</description>
+      <description>ab failed responses When benchmarking a HTTP application server using ab tool, you shouldn&amp;rsquo;t only care about how many requests per second, but percentage of Success responses.</description>
     </item>
     
   </channel>

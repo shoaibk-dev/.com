@@ -6,6 +6,7 @@
     <description>Recent content in Ci on KhanhIceTea B(rain)-log</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <copyright>KhanhIceTea - Licensed under CC BY-NC-ND 3.0 | In God We Trust</copyright>
     <lastBuildDate>Mon, 27 Nov 2017 23:59:59 +0000</lastBuildDate>
     
 	<atom:link href="https://khanhicetea.com/tags/ci/index.xml" rel="self" type="application/rss+xml" />
@@ -17,9 +18,7 @@
       <pubDate>Mon, 27 Nov 2017 23:59:59 +0000</pubDate>
       
       <guid>https://khanhicetea.com/til/2017-11-27-fastly-conflict-detector-script/</guid>
-      <description>Fastly conflict detector script Last month, I built a CI solution for our project and adding a conflict detector to our build commands. This script runned so slow because it will check all application files (and our application codebase has many of css, js files).
-This was the script
-#!/bin/bash grep -rli --exclude=conflict_detector.sh --exclude-dir={.git,vendor,node_modules} &amp;quot;&amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt; HEAD&amp;quot; . if [ $? -eq 0 ]; then exit 1 else exit 0 fi  Today, I think why don&amp;rsquo;t we just check recently updated files (in the latest commit) ?</description>
+      <description>Fastly conflict detector script Last month, I built a CI solution for our project and adding a conflict detector to our build commands.</description>
     </item>
     
     <item>
@@ -28,9 +27,7 @@ This was the script
       <pubDate>Wed, 22 Nov 2017 23:59:59 +0000</pubDate>
       
       <guid>https://khanhicetea.com/til/2017-11-22-reduce-init-time-mysql-docker-image/</guid>
-      <description>Reduce init time MySQL docker image Original MySQL docker image uses a script to generate ssl certificates for service. Sometime we don&amp;rsquo;t really need it (connect via a docker network link or need a fast enough database service to build a automated test).
-We can reduce init time by removing the script from original Docker image
-FROM mysql:5.7 # Remove mysql_ssl_rsa_setup to ignore setup SSL certs RUN rm -f /usr/bin/mysql_ssl_rsa_setup   FAST as a FEATURE !</description>
+      <description>Reduce init time MySQL docker image Original MySQL docker image uses a script to generate ssl certificates for service.</description>
     </item>
     
     <item>
@@ -39,9 +36,7 @@ FROM mysql:5.7 # Remove mysql_ssl_rsa_setup to ignore setup SSL certs RUN rm -f 
       <pubDate>Wed, 08 Nov 2017 17:20:46 +0700</pubDate>
       
       <guid>https://khanhicetea.com/post/building-automated-ci-server-with-drone-and-docker/</guid>
-      <description>Introduction Docker is great tool to management linux containers. It brings DevOps to next level, from development to production environment. And of course, before deploy anything to production, software should be tested carefully and automatically.
-That&amp;rsquo;s why Drone, a new lightweight CI server built-on top Go lang and Docker, will help us to resolve the testing problems in simple and fast way.
-Setup This guide will assume you already have Docker and Docker Compose tool.</description>
+      <description>Introduction Docker is great tool to management linux containers. It brings DevOps to next level, from development to production environment.</description>
     </item>
     
     <item>
@@ -50,9 +45,7 @@ Setup This guide will assume you already have Docker and Docker Compose tool.</d
       <pubDate>Fri, 13 Oct 2017 23:59:59 +0000</pubDate>
       
       <guid>https://khanhicetea.com/til/2017-10-13-using-netcat-to-wait-a-tcp-service/</guid>
-      <description>Using netcat to wait a TCP service When doing a CI/CD testing, you would need to connect a external service (RDBMS, HTTP server or generic TCP server service). So you need waiting the service before running your test app.
-One way to do right waiting instead of sleep for a specified time is using netcat tool
-$ while ! echo -e &#39;\x04&#39; | nc [service_host] [service_port]; do sleep 1; done;  Examples</description>
+      <description>Using netcat to wait a TCP service When doing a CI/CD testing, you would need to connect a external service (RDBMS, HTTP server or generic TCP server service).</description>
     </item>
     
   </channel>

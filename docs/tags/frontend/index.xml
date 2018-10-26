@@ -6,6 +6,7 @@
     <description>Recent content in Frontend on KhanhIceTea B(rain)-log</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <copyright>KhanhIceTea - Licensed under CC BY-NC-ND 3.0 | In God We Trust</copyright>
     <lastBuildDate>Mon, 13 Jun 2016 18:12:50 +0700</lastBuildDate>
     
 	<atom:link href="https://khanhicetea.com/tags/frontend/index.xml" rel="self" type="application/rss+xml" />
@@ -17,8 +18,7 @@
       <pubDate>Mon, 13 Jun 2016 18:12:50 +0700</pubDate>
       
       <guid>https://khanhicetea.com/post/use_frontend_boilerplate_for_development/</guid>
-      <description>Giới thiệu Khi cắt HTML Layout từ PSD, bạn sẽ đối mặt với việc bên Design hoặc khách hàng thường xuyên yêu cầu thay đổi giao diện, thiết kế. Điều này gây ra không ít phiền nhiễu và tốn thời gian nếu cứ cập nhật hàng tá giao diện nếu sự thay đổi ảnh hưởng đến những phần layout chính (header, footer, sidebar).
-Sử dụng bộ khung sườn (boiler-plate) này, sẽ giúp bạn hạn chế thao tác lặp đi, lặp lại.</description>
+      <description>Giới thiệu Khi cắt HTML Layout từ PSD, bạn sẽ đối mặt với việc bên Design hoặc khách hàng thường xuyên yêu cầu thay đổi giao diện, thiết kế.</description>
     </item>
     
   </channel>

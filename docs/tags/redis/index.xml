@@ -6,6 +6,7 @@
     <description>Recent content in Redis on KhanhIceTea B(rain)-log</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <copyright>KhanhIceTea - Licensed under CC BY-NC-ND 3.0 | In God We Trust</copyright>
     <lastBuildDate>Wed, 31 Jan 2018 23:59:59 +0000</lastBuildDate>
     
 	<atom:link href="https://khanhicetea.com/tags/redis/index.xml" rel="self" type="application/rss+xml" />
@@ -17,9 +18,7 @@
       <pubDate>Wed, 31 Jan 2018 23:59:59 +0000</pubDate>
       
       <guid>https://khanhicetea.com/til/2018-01-31-transaction-style-in-redis/</guid>
-      <description>Transaction style in Redis In Redis, you can use transaction-style (mean queue commands then flush it once). It will improve performance in many case where latency or networking is slow.
-&amp;gt; SET hoge 2 OK &amp;gt; MULTI OK &amp;gt; INCR foo QUEUED &amp;gt; INCR hoge QUEUED &amp;gt; EXEC 1) (integer) 1 2) (integer) 1  MULTI command is begin transaction and EXEC command is commit transaction
-The result will be returned in order your command queue list.</description>
+      <description>Transaction style in Redis In Redis, you can use transaction-style (mean queue commands then flush it once).</description>
     </item>
     
   </channel>

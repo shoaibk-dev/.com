@@ -6,6 +6,7 @@
     <description>Recent content in Mobile on KhanhIceTea B(rain)-log</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <copyright>KhanhIceTea - Licensed under CC BY-NC-ND 3.0 | In God We Trust</copyright>
     <lastBuildDate>Wed, 03 Jan 2018 23:59:59 +0000</lastBuildDate>
     
 	<atom:link href="https://khanhicetea.com/tags/mobile/index.xml" rel="self" type="application/rss+xml" />
@@ -17,9 +18,7 @@
       <pubDate>Wed, 03 Jan 2018 23:59:59 +0000</pubDate>
       
       <guid>https://khanhicetea.com/til/2018-01-03-create-cross-platform-downloading-app-url/</guid>
-      <description>Create cross-platform downloading app URL You have a mobile app for both platforms iOS and Android, each platform has different download URL. But your user doesn&amp;rsquo;t know which platform he using. Clicking wrong URL will lead to user bounce-rate.
-Solution is making only 1 URL to download your app, which can redirect to right place depends on using platform. So how we achieve this ??
-The key of problem is detecting user platform, which can be done by extracting the User-Agent header from http request.</description>
+      <description>Create cross-platform downloading app URL You have a mobile app for both platforms iOS and Android, each platform has different download URL.</description>
     </item>
     
   </channel>

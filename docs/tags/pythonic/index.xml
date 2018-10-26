@@ -6,6 +6,7 @@
     <description>Recent content in Pythonic on KhanhIceTea B(rain)-log</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <copyright>KhanhIceTea - Licensed under CC BY-NC-ND 3.0 | In God We Trust</copyright>
     <lastBuildDate>Mon, 30 Jul 2018 23:59:59 +0000</lastBuildDate>
     
 	<atom:link href="https://khanhicetea.com/tags/pythonic/index.xml" rel="self" type="application/rss+xml" />
@@ -17,10 +18,7 @@
       <pubDate>Mon, 30 Jul 2018 23:59:59 +0000</pubDate>
       
       <guid>https://khanhicetea.com/til/2018-07-30-setter-and-getter-behavior-of-class-property-in-python3/</guid>
-      <description>Setter and getter behavior of class property in Python3 In previous TIL, I learned about the way to define getter and setter in Javascript
-Today, I learned it in Pythonic way ;) (in Python3)
-So here is example (the easy way to learn from a code) :
-class A: def __init__(self,x): print (&#39;init&#39;, x) self.x = x @property def x(self): print (&#39;getter&#39;) return self.__x @x.setter def x(self, x): print (&#39;setter&#39;, x) if x &amp;lt; 0: self.</description>
+      <description>Setter and getter behavior of class property in Python3 In previous TIL, I learned about the way to define getter and setter in Javascript</description>
     </item>
     
   </channel>

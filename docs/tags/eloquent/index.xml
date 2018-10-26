@@ -6,6 +6,7 @@
     <description>Recent content in Eloquent on KhanhIceTea B(rain)-log</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <copyright>KhanhIceTea - Licensed under CC BY-NC-ND 3.0 | In God We Trust</copyright>
     <lastBuildDate>Wed, 02 Dec 2015 23:59:59 +0000</lastBuildDate>
     
 	<atom:link href="https://khanhicetea.com/tags/eloquent/index.xml" rel="self" type="application/rss+xml" />
@@ -17,10 +18,7 @@
       <pubDate>Wed, 02 Dec 2015 23:59:59 +0000</pubDate>
       
       <guid>https://khanhicetea.com/til/2015-12-02-eloquent-many-to-many-relationship/</guid>
-      <description>Eloquent Many-to-Many Relationship To create the n-to-m relationship in Eloquent, we create a table stand between 2 tables. Eg:
-We have the db schema :
-   post post_tag tag     id (PK) id (PK) id (PK)   title post_id (Index) name (Unique)   content tag_id (Index)     In the model Post and Tag, we define a relation :
- App\Model\Post.</description>
+      <description>Eloquent Many-to-Many Relationship To create the n-to-m relationship in Eloquent, we create a table stand between 2 tables.</description>
     </item>
     
   </channel>

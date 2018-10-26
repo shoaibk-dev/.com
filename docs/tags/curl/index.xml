@@ -6,6 +6,7 @@
     <description>Recent content in Curl on KhanhIceTea B(rain)-log</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <copyright>KhanhIceTea - Licensed under CC BY-NC-ND 3.0 | In God We Trust</copyright>
     <lastBuildDate>Sat, 18 Aug 2018 23:59:59 +0000</lastBuildDate>
     
 	<atom:link href="https://khanhicetea.com/tags/curl/index.xml" rel="self" type="application/rss+xml" />
@@ -17,12 +18,7 @@
       <pubDate>Sat, 18 Aug 2018 23:59:59 +0000</pubDate>
       
       <guid>https://khanhicetea.com/til/2018-08-18-curl-override-name-resolution-with-specific-ip-address/</guid>
-      <description>Curl override Name Resolution with specific IP address You can overrride the Name Resolution with specific IP address without adding the hostname to /etc/hosts file by using --resolve option.
-Syntax :
---resolve &amp;lt;host:port:address&amp;gt;  It will resolve IP address when connect to host on port
-Example :
-This will connect 127.0.0.1
-$ curl --resolve google.com:80:127.0.0.1 &amp;quot;http://google.com/&amp;quot;  But this won&amp;rsquo;t connect 127.0.0.1, because we use 443 port for https</description>
+      <description>Curl override Name Resolution with specific IP address You can overrride the Name Resolution with specific IP address without adding the hostname to /etc/hosts file by using --resolve option.</description>
     </item>
     
     <item>
@@ -31,10 +27,7 @@ $ curl --resolve google.com:80:127.0.0.1 &amp;quot;http://google.com/&amp;quot; 
       <pubDate>Tue, 07 Aug 2018 23:59:59 +0000</pubDate>
       
       <guid>https://khanhicetea.com/til/2018-08-07-curl-extract-info-from-verbose-mode/</guid>
-      <description>Curl extract info from verbose mode Curl is great tool to do thing with HTTP in command line interface. Sometimes your want to get extra info from HTTP response and put in a variable. Here is the way :
-Using --write-out is magical option help you to write out all info you want, or put it in a variable.
-Example :
-$ code=$(curl --write-out %{response_code} --silent --output /dev/null https://khanhicetea.com) $ echo $code # get http response status code 200  $ tracetime=$(curl --write-out &amp;quot;%{time_namelookup} %{time_connect} %{time_appconnect} %{time_pretransfer} %{time_redirect} %{time_starttransfer} %{time_total}&amp;quot; --silent --output /dev/null https://khanhicetea.</description>
+      <description>Curl extract info from verbose mode Curl is great tool to do thing with HTTP in command line interface.</description>
     </item>
     
     <item>
@@ -43,8 +36,7 @@ $ code=$(curl --write-out %{response_code} --silent --output /dev/null https://k
       <pubDate>Tue, 22 May 2018 23:59:59 +0000</pubDate>
       
       <guid>https://khanhicetea.com/til/2018-05-22-reuse-cookies-between-multi-requests-in-curl-tool/</guid>
-      <description>Reuse cookies between multi requests in Curl tool Curl is good lib and tool to simulate HTTP requests. One common usecase is reusing the cookies between 2 or more requests. So you don&amp;rsquo;t have to copied last &amp;ldquo;Set-Cookie&amp;rdquo; of previous response then paste it to &amp;ldquo;Cookie&amp;rdquo; of next request.
-To achieve that, you have to use a cookie jar (sounds fun) to store cookies then use that cookie jar in next request.</description>
+      <description>Reuse cookies between multi requests in Curl tool Curl is good lib and tool to simulate HTTP requests.</description>
     </item>
     
     <item>
@@ -53,8 +45,7 @@ To achieve that, you have to use a cookie jar (sounds fun) to store cookies then
       <pubDate>Thu, 03 Dec 2015 23:59:59 +0000</pubDate>
       
       <guid>https://khanhicetea.com/til/2015-12-03-ftp-via-curl-tool/</guid>
-      <description> FTP via curl tool Can upload an file via FTP by curl tool with handy script :
-curl -T file_need_to_upload ftp://hostname --user user:passwd  </description>
+      <description>FTP via curl tool Can upload an file via FTP by curl tool with handy script :</description>
     </item>
     
   </channel>

@@ -6,6 +6,7 @@
     <description>Recent content in Command Line on KhanhIceTea B(rain)-log</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <copyright>KhanhIceTea - Licensed under CC BY-NC-ND 3.0 | In God We Trust</copyright>
     <lastBuildDate>Sat, 26 Mar 2016 23:59:59 +0000</lastBuildDate>
     
 	<atom:link href="https://khanhicetea.com/tags/command-line/index.xml" rel="self" type="application/rss+xml" />
@@ -17,9 +18,7 @@
       <pubDate>Sat, 26 Mar 2016 23:59:59 +0000</pubDate>
       
       <guid>https://khanhicetea.com/til/2016-03-26-stats-your-top-10-frequently-commands/</guid>
-      <description> Stats your top-10 frequently commands Run this command, it will show top-10 frequently commands, explain shell
-$ history | awk &#39;{print $2}&#39; | sort | uniq -c | sort -nr | head  Example result
-2064 git 1284 ls 826 cd 700 ssh 602 clear 491 python 473 exit 341 vagrant 242 export 167 ping  </description>
+      <description>Stats your top-10 frequently commands Run this command, it will show top-10 frequently commands, explain shell</description>
     </item>
     
     <item>

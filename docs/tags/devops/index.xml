@@ -6,6 +6,7 @@
     <description>Recent content in Devops on KhanhIceTea B(rain)-log</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <copyright>KhanhIceTea - Licensed under CC BY-NC-ND 3.0 | In God We Trust</copyright>
     <lastBuildDate>Fri, 23 Feb 2018 23:59:59 +0000</lastBuildDate>
     
 	<atom:link href="https://khanhicetea.com/tags/devops/index.xml" rel="self" type="application/rss+xml" />
@@ -17,11 +18,7 @@
       <pubDate>Fri, 23 Feb 2018 23:59:59 +0000</pubDate>
       
       <guid>https://khanhicetea.com/til/2018-02-23-build-lightweight-image-by-using-multistage/</guid>
-      <description>Build lightweight image by using multistage Docker is great tool to build a pull-n-run application. But sometimes, your image will be large if you build image from a big base image which has heavy compliling toolbox.
-Ex:
-One-stage build
-FROM golang:1.9.2 WORKDIR /go/src/github.com/khanhicetea/test/ COPY . . RUN CGO_ENABLED=0 GOOS=linux go build . ENTRYPOINT [&amp;quot;/go/src/github.com/khanhicetea/test/test&amp;quot;]  Multi-stage builds
-FROM golang:1.9.2 WORKDIR /go/src/github.com/khanhicetea/test/ COPY . . RUN CGO_ENABLED=0 GOOS=linux go build .</description>
+      <description>Build lightweight image by using multistage Docker is great tool to build a pull-n-run application. But sometimes, your image will be large if you build image from a big base image which has heavy compliling toolbox.</description>
     </item>
     
     <item>
@@ -30,9 +27,7 @@ FROM golang:1.9.2 WORKDIR /go/src/github.com/khanhicetea/test/ COPY . . RUN CGO_
       <pubDate>Mon, 22 Jan 2018 23:59:59 +0000</pubDate>
       
       <guid>https://khanhicetea.com/til/2018-01-22-ansible-running-host-pattern/</guid>
-      <description> Ansible running host pattern Ansible supports pattern to select and filter running hosts from all hosts. Here is some common pattern
- * : wildcard, standalone mean all group1,group2 : run hosts belong to group1 or group2 *.web : run hosts belongs to group matches pattern. Ex: backend.web, frontend.web all:!abc : run all hosts exclude hosts belongs to group abc   Infrastructure by code ;)
- </description>
+      <description>Ansible running host pattern Ansible supports pattern to select and filter running hosts from all hosts.</description>
     </item>
     
     <item>
@@ -41,9 +36,7 @@ FROM golang:1.9.2 WORKDIR /go/src/github.com/khanhicetea/test/ COPY . . RUN CGO_
       <pubDate>Wed, 22 Nov 2017 23:59:59 +0000</pubDate>
       
       <guid>https://khanhicetea.com/til/2017-11-22-reduce-init-time-mysql-docker-image/</guid>
-      <description>Reduce init time MySQL docker image Original MySQL docker image uses a script to generate ssl certificates for service. Sometime we don&amp;rsquo;t really need it (connect via a docker network link or need a fast enough database service to build a automated test).
-We can reduce init time by removing the script from original Docker image
-FROM mysql:5.7 # Remove mysql_ssl_rsa_setup to ignore setup SSL certs RUN rm -f /usr/bin/mysql_ssl_rsa_setup   FAST as a FEATURE !</description>
+      <description>Reduce init time MySQL docker image Original MySQL docker image uses a script to generate ssl certificates for service.</description>
     </item>
     
     <item>
@@ -52,9 +45,7 @@ FROM mysql:5.7 # Remove mysql_ssl_rsa_setup to ignore setup SSL certs RUN rm -f 
       <pubDate>Fri, 13 Oct 2017 23:59:59 +0000</pubDate>
       
       <guid>https://khanhicetea.com/til/2017-10-13-using-netcat-to-wait-a-tcp-service/</guid>
-      <description>Using netcat to wait a TCP service When doing a CI/CD testing, you would need to connect a external service (RDBMS, HTTP server or generic TCP server service). So you need waiting the service before running your test app.
-One way to do right waiting instead of sleep for a specified time is using netcat tool
-$ while ! echo -e &#39;\x04&#39; | nc [service_host] [service_port]; do sleep 1; done;  Examples</description>
+      <description>Using netcat to wait a TCP service When doing a CI/CD testing, you would need to connect a external service (RDBMS, HTTP server or generic TCP server service).</description>
     </item>
     
     <item>
@@ -63,10 +54,7 @@ $ while ! echo -e &#39;\x04&#39; | nc [service_host] [service_port]; do sleep 1;
       <pubDate>Fri, 04 Aug 2017 23:59:59 +0000</pubDate>
       
       <guid>https://khanhicetea.com/til/2017-08-04-free-sandbox-server-for-development/</guid>
-      <description>Free sandbox server for development We can use Heroku as a forever-free sandbox solution for testing or hosting micro service. Adding a credit card to have 1000 free computing hours.
-Heroku will make a service down if no received request come. We can use a cronjob-like service to check service health and keep it live !!! ;)
-Cronjob check health SASS : pingdom, statuscake, port-monitor, uptimerobot
-Btw, I don&amp;rsquo;t recommend you keep service live but no use, it makes Heroku infrastructure heavy and THAT&amp;rsquo;S NOT FAIR for them !</description>
+      <description>Free sandbox server for development We can use Heroku as a forever-free sandbox solution for testing or hosting micro service.</description>
     </item>
     
     <item>
@@ -75,9 +63,7 @@ Btw, I don&amp;rsquo;t recommend you keep service live but no use, it makes Hero
       <pubDate>Fri, 19 May 2017 23:59:59 +0000</pubDate>
       
       <guid>https://khanhicetea.com/til/2017-05-19-checking-forced-push-conflicts-on-source-code-in-auto-testing/</guid>
-      <description>Checking forced push conflicts on source code in auto testing Using automated CI solution likes Travis, Jenkins, DroneCI, &amp;hellip; is good solution to ensure quality of software and no breaks in deployment.
-Sometimes, developers force push conflicts part to production branch of source code. If the CI tests only backend (python, ruby, php, go, ..) and forget about frontend code, then your application will be exploded !
-So checking the conflicts code is required step before testing backend and deployment.</description>
+      <description>Checking forced push conflicts on source code in auto testing Using automated CI solution likes Travis, Jenkins, DroneCI, &amp;hellip; is good solution to ensure quality of software and no breaks in deployment.</description>
     </item>
     
     <item>
@@ -87,10 +73,7 @@ So checking the conflicts code is required step before testing backend and deplo
       
       <guid>https://khanhicetea.com/post/kick-start-docker-environment-on-ubuntu/</guid>
       <description>What does script do :
- Install latest Docker Engine Install latest Docker Compose tool AND last but not least, a congratuation message !  Here is the script :
-  Hm.. it&amp;rsquo;s exactly docker images are building instead
- Ref:
- Docker meme from developermemes.com  </description>
+ Install latest Docker Engine Install latest Docker Compose tool AND last but not least, a congratuation message !</description>
     </item>
     
     <item>
@@ -100,9 +83,7 @@ So checking the conflicts code is required step before testing backend and deplo
       
       <guid>https://khanhicetea.com/post/kick-start-a-lemp-stack-on-ubuntu-16-04/</guid>
       <description>LEMP = Linux + EngineX(NginX) + MySQL + PHP
- Too tired for doing same tasks over and over again. I made this script to help me (and you) on kicking start a new LEMP stack on production server. Hope it useful !
-What does script do :
- Disable IPv6 (it&amp;rsquo;s not ready for production at the moment) Configure firewall (only accepts port 22, 80 and 443) Disable password authentication to SSH service Upgrade system Install useful tools (git, screen, vim, curl and lego for LetsEncrypt ACME) NginX MySQL 5.</description>
+ Too tired for doing same tasks over and over again.</description>
     </item>
     
     <item>
@@ -111,10 +92,7 @@ What does script do :
       <pubDate>Sat, 25 Mar 2017 13:59:26 +0700</pubDate>
       
       <guid>https://khanhicetea.com/post/how-to-reload-gracefully-supervisor-program/</guid>
-      <description>Problem We have some managed worker-programs by supervisor. While deploying new codebase of worker, we have to restart them to update new logic.
-But it&amp;rsquo;s creepy when supervisor kills all processes of programs and starts again.
-WHAT IF IT KILLS A WORKING WORKER ?
-Of course, the working task will be fucked up. Database transaction, database migration, sending email and other scheduled tasks will be crashed in middle. Some tasks can&amp;rsquo;t not be reserved, rollbacked or re-runned.</description>
+      <description>Problem We have some managed worker-programs by supervisor. While deploying new codebase of worker, we have to restart them to update new logic.</description>
     </item>
     
   </channel>

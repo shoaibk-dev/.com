@@ -6,6 +6,7 @@
     <description>Recent content in Cloud on KhanhIceTea B(rain)-log</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <copyright>KhanhIceTea - Licensed under CC BY-NC-ND 3.0 | In God We Trust</copyright>
     <lastBuildDate>Tue, 21 Aug 2018 14:38:08 +0700</lastBuildDate>
     
 	<atom:link href="https://khanhicetea.com/categories/cloud/index.xml" rel="self" type="application/rss+xml" />
@@ -17,8 +18,7 @@
       <pubDate>Tue, 21 Aug 2018 14:38:08 +0700</pubDate>
       
       <guid>https://khanhicetea.com/post/seswatcher-prevent-amazon-ses-account-from-being-suspended/</guid>
-      <description>Introdution At this moment, AWS SES service is the best affordable price and high-quality service to sending (and receiving) programmatic emails. But, one day your account could be suspended without notice, and that takes a big effort of requesting support to get it back to work.
-So it&amp;rsquo;s good to prevent that siatuation happens by watching your Bounces Rate and Complaints Rate. One way to resolve problem when your rates being too-high than allowance, is send a big amount of dummy emails to your blackhole email address.</description>
+      <description>Introdution At this moment, AWS SES service is the best affordable price and high-quality service to sending (and receiving) programmatic emails.</description>
     </item>
     
     <item>
@@ -29,9 +29,7 @@ So it&amp;rsquo;s good to prevent that siatuation happens by watching your Bounc
       <guid>https://khanhicetea.com/post/aws-gcp-azure-ip-ranges/</guid>
       <description>TL;DR This is my gist of result
 https://gist.github.com/khanhicetea/c6cc74b99ab336d58c2da7929c2de709
-Introdution These are 3 biggest cloud providers (from Amazon, Google and Microsoft). This is the way to get their IP ranges (IPv4).
-Amazon Web Service AWS update its IP ranges on this link : https://ip-ranges.amazonaws.com/ip-ranges.json
-# download ip-ranges.json file curl -o aws.json https://ip-ranges.amazonaws.com/ip-ranges.json # parse ip range with grep tool grep -o -E &#39;\d+\.\d+\.\d+\.\d+/\d+&#39; aws.json &amp;gt; aws.txt  The result are in aws.</description>
+Introdution These are 3 biggest cloud providers (from Amazon, Google and Microsoft).</description>
     </item>
     
   </channel>

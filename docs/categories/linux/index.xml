@@ -6,6 +6,7 @@
     <description>Recent content in Linux on KhanhIceTea B(rain)-log</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <copyright>KhanhIceTea - Licensed under CC BY-NC-ND 3.0 | In God We Trust</copyright>
     <lastBuildDate>Tue, 16 Jan 2018 23:59:59 +0000</lastBuildDate>
     
 	<atom:link href="https://khanhicetea.com/categories/linux/index.xml" rel="self" type="application/rss+xml" />
@@ -17,10 +18,7 @@
       <pubDate>Tue, 16 Jan 2018 23:59:59 +0000</pubDate>
       
       <guid>https://khanhicetea.com/til/2018-01-16-disable-ipv6-to-stop-getting-stuck-in-network/</guid>
-      <description>Disable IPv6 to stop getting stuck in network I know IPv6 will be future for networking, but at this moment &amp;ldquo;It&amp;rsquo;s suck !&amp;rdquo; :(
-Some service will be failed when trying to connect IPv6 destination :
- apt package manager smtp curl  So I decided to disable IPv6 on every production server.
-$ echo &amp;quot;net.ipv6.conf.all.disable_ipv6 = 1&amp;quot; | sudo tee -a /etc/sysctl.conf $ echo &amp;quot;net.ipv6.conf.default.disable_ipv6 = 1&amp;quot; | sudo tee -a /etc/sysctl.</description>
+      <description>Disable IPv6 to stop getting stuck in network I know IPv6 will be future for networking, but at this moment &amp;ldquo;It&amp;rsquo;s suck !</description>
     </item>
     
     <item>
@@ -29,10 +27,7 @@ $ echo &amp;quot;net.ipv6.conf.all.disable_ipv6 = 1&amp;quot; | sudo tee -a /etc
       <pubDate>Fri, 20 Oct 2017 23:59:59 +0000</pubDate>
       
       <guid>https://khanhicetea.com/til/2017-10-20-using-watch-command-to-tracking-changes-in-period-time/</guid>
-      <description>Using watch command to tracking changes in period time watch to a good command to run a command every N seconds.
-And like its name, means you can watch something, its output changes with flag -d
-It&amp;rsquo;s a great tool to help you learn a new language without hitting compile and run everytime you save a file.
-$ watch -n 1 -d go run learn.go  This command will compile and run learn.</description>
+      <description>Using watch command to tracking changes in period time watch to a good command to run a command every N seconds.</description>
     </item>
     
     <item>
@@ -42,10 +37,7 @@ $ watch -n 1 -d go run learn.go  This command will compile and run learn.</descr
       
       <guid>https://khanhicetea.com/post/smtpor-dead-simple-smtp-testing/</guid>
       <description>Never need a bigass mail client to test your SMTP config !
- Github Repo : https://github.com/khanhicetea/smtpor
-Demo TL;DR Using Docker to run
-$ docker run -d -p 3000:3000 khanhicetea/smtpor  Then open http://localhost:3000 to try a shot !
-Install &amp;amp; Start $ npm install $ npm start  Heroku Deploying $ heroku login $ heroku git:remote -a [your-app-name] $ git push heroku master  Contributors  @khanhicetea  License MIT License</description>
+ Github Repo : https://github.</description>
     </item>
     
     <item>
@@ -54,8 +46,7 @@ Install &amp;amp; Start $ npm install $ npm start  Heroku Deploying $ heroku log
       <pubDate>Wed, 27 Sep 2017 23:59:59 +0000</pubDate>
       
       <guid>https://khanhicetea.com/til/2017-09-27-send-enter-key-to-kernel/</guid>
-      <description>Send ENTER key to kernel When you try to send an Enter keyboard to linux kernel, it looks like nothing happens.
-This is because you only send a key press (KEY DOWN) but don&amp;rsquo;t send an key release (KEY UP) event after that.</description>
+      <description>Send ENTER key to kernel When you try to send an Enter keyboard to linux kernel, it looks like nothing happens.</description>
     </item>
     
     <item>
@@ -65,7 +56,7 @@ This is because you only send a key press (KEY DOWN) but don&amp;rsquo;t send an
       
       <guid>https://khanhicetea.com/post/reading-nfc-card-id-on-ubuntu/</guid>
       <description>Prerequisites Install driver My device is ACS122U : http://www.acs.com.hk/en/products/3/acr122u-usb-nfc-reader/#tab_downloads
-Kernel modules # echo &amp;quot;uinput&amp;quot; &amp;gt;&amp;gt; /etc/modules # echo &amp;quot;install nfc /bin/false&amp;quot; &amp;gt;&amp;gt; /etc/modprobe.d/blacklist.conf # echo &amp;quot;install pn533 /bin/false&amp;quot; &amp;gt;&amp;gt; /etc/modprobe.d/blacklist.conf  Install packages sudo apt-get install swig libccid pcscd libpcsclite-dev libpcsclite1 python-dev python-pip gcc linux-headers-$(uname -r)  Run service sudo service pcscd restart  Install python packages sudo pip install pyscard python-uinput evdev  Source code This is source code that read the card ID and simulate keystrokes to type card ID by text then pressing ENTER key.</description>
+Kernel modules # echo &amp;quot;uinput&amp;quot; &amp;gt;&amp;gt; /etc/modules # echo &amp;quot;install nfc /bin/false&amp;quot; &amp;gt;&amp;gt; /etc/modprobe.</description>
     </item>
     
     <item>
@@ -84,8 +75,7 @@ XKBOPTIONS=&amp;quot;ctrl:nocaps&amp;quot;  Then, logout and log in again to imp
       <pubDate>Sun, 20 Mar 2016 23:29:53 +0700</pubDate>
       
       <guid>https://khanhicetea.com/post/read_input_from_usb_keyboard_in_linux/</guid>
-      <description>Introduction You just bought a new input device like barcode scanner, proximity card reader with USB port. And you want expose only its data to a file or send to server for processing ? But it acts like a keyboard, type the characters then trigger Enter key.
-This tutorial can help you make a program can exclusive receive input data from the device and don&amp;rsquo;t affect to another program.</description>
+      <description>Introduction You just bought a new input device like barcode scanner, proximity card reader with USB port.</description>
     </item>
     
   </channel>

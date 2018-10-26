@@ -6,6 +6,7 @@
     <description>Recent content in Dns on KhanhIceTea B(rain)-log</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <copyright>KhanhIceTea - Licensed under CC BY-NC-ND 3.0 | In God We Trust</copyright>
     <lastBuildDate>Sat, 18 Aug 2018 23:59:59 +0000</lastBuildDate>
     
 	<atom:link href="https://khanhicetea.com/tags/dns/index.xml" rel="self" type="application/rss+xml" />
@@ -17,12 +18,7 @@
       <pubDate>Sat, 18 Aug 2018 23:59:59 +0000</pubDate>
       
       <guid>https://khanhicetea.com/til/2018-08-18-curl-override-name-resolution-with-specific-ip-address/</guid>
-      <description>Curl override Name Resolution with specific IP address You can overrride the Name Resolution with specific IP address without adding the hostname to /etc/hosts file by using --resolve option.
-Syntax :
---resolve &amp;lt;host:port:address&amp;gt;  It will resolve IP address when connect to host on port
-Example :
-This will connect 127.0.0.1
-$ curl --resolve google.com:80:127.0.0.1 &amp;quot;http://google.com/&amp;quot;  But this won&amp;rsquo;t connect 127.0.0.1, because we use 443 port for https</description>
+      <description>Curl override Name Resolution with specific IP address You can overrride the Name Resolution with specific IP address without adding the hostname to /etc/hosts file by using --resolve option.</description>
     </item>
     
     <item>
@@ -31,9 +27,7 @@ $ curl --resolve google.com:80:127.0.0.1 &amp;quot;http://google.com/&amp;quot; 
       <pubDate>Tue, 08 May 2018 23:59:59 +0000</pubDate>
       
       <guid>https://khanhicetea.com/til/2018-05-08-view-dns-history-of-a-domain/</guid>
-      <description>View DNS history of a domain You can check the history of a domain (A Record). It&amp;rsquo;s useful in case you forgot the old IP of domain.
-Check it here : http://viewdns.info/iphistory/
-Example : this is Github A record history http://viewdns.info/iphistory/?domain=github.com</description>
+      <description>View DNS history of a domain You can check the history of a domain (A Record).</description>
     </item>
     
     <item>
@@ -42,8 +36,7 @@ Example : this is Github A record history http://viewdns.info/iphistory/?domain=
       <pubDate>Tue, 24 Apr 2018 23:59:59 +0000</pubDate>
       
       <guid>https://khanhicetea.com/til/2018-04-24-setup-wildcard-domains-test-for-development-in-macos/</guid>
-      <description>Setup wildcard domains .test for development in MacOS Too tired of setting your local domain each time you create new virtual development domain, etc helloworld.test, unit.test point to 127.0.0.1
-There is a better way to achieve that by using dnsmasq, then set up a wildcard domains for development. In this case I use .test because .dev has been owned by Google and they strictly use HTTPS in mainly browsers.</description>
+      <description>Setup wildcard domains .test for development in MacOS Too tired of setting your local domain each time you create new virtual development domain, etc helloworld.</description>
     </item>
     
     <item>
@@ -52,8 +45,7 @@ There is a better way to achieve that by using dnsmasq, then set up a wildcard d
       <pubDate>Wed, 14 Mar 2018 23:59:59 +0000</pubDate>
       
       <guid>https://khanhicetea.com/til/2018-03-14-flush-dns-cache-on-ios-device/</guid>
-      <description> Flush DNS cache on iOS device There are 2 simple ways to clear DNS cache on iOS devices :
- (FASTER) Just enable the Airplane Mode, wait 10 seconds and disable it (SLOWER) Reboot the device ! ;) You know this always be classic answer for many questions :D  </description>
+      <description>Flush DNS cache on iOS device There are 2 simple ways to clear DNS cache on iOS devices :</description>
     </item>
     
     <item>
@@ -62,8 +54,7 @@ There is a better way to achieve that by using dnsmasq, then set up a wildcard d
       <pubDate>Fri, 24 Nov 2017 23:59:59 +0000</pubDate>
       
       <guid>https://khanhicetea.com/til/2017-11-24-getting-your-external-ip/</guid>
-      <description>Getting your external IP We can get our external IP address by following ways :
- Call http request : curl http://wtfismyip.com/text or curl http://ifconfig.me/ip Lookup A record for hostname nslookup myip.opendns.com resolver1.opendns.com (this only works when you use resolver of OpenDNS)  Bonus : curl https://v6.ident.me/ for IPv6</description>
+      <description>Getting your external IP We can get our external IP address by following ways :</description>
     </item>
     
   </channel>

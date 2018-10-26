@@ -6,6 +6,7 @@
     <description>Recent content in System on KhanhIceTea B(rain)-log</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <copyright>KhanhIceTea - Licensed under CC BY-NC-ND 3.0 | In God We Trust</copyright>
     <lastBuildDate>Thu, 25 Jan 2018 23:59:59 +0000</lastBuildDate>
     
 	<atom:link href="https://khanhicetea.com/tags/system/index.xml" rel="self" type="application/rss+xml" />
@@ -17,10 +18,7 @@
       <pubDate>Thu, 25 Jan 2018 23:59:59 +0000</pubDate>
       
       <guid>https://khanhicetea.com/til/2018-01-25-basics-of-elasticsearch/</guid>
-      <description>Basics of Elasticsearch Last days, I developed a EFK stack to centralize my system logging. I really like the concepts of FluentD, it&amp;rsquo;s better than original stack ELK of elastic company.
-So I need to learn basics about Elasticsearch and Kibana
-This is what I learned :
-# Get all documents from elasticsearch node GET _search { &amp;quot;query&amp;quot;: { &amp;quot;match_all&amp;quot;: {} } } # Check nodes statistics GET /_nodes/stats # Check health of cluster (I don&#39;t know why it is always yello status) GET _cluster/health # Get list of indices (indexes) GET /_cat/indices?</description>
+      <description>Basics of Elasticsearch Last days, I developed a EFK stack to centralize my system logging. I really like the concepts of FluentD, it&amp;rsquo;s better than original stack ELK of elastic company.</description>
     </item>
     
     <item>
@@ -30,10 +28,7 @@ This is what I learned :
       
       <guid>https://khanhicetea.com/post/kick-start-docker-environment-on-ubuntu/</guid>
       <description>What does script do :
- Install latest Docker Engine Install latest Docker Compose tool AND last but not least, a congratuation message !  Here is the script :
-  Hm.. it&amp;rsquo;s exactly docker images are building instead
- Ref:
- Docker meme from developermemes.com  </description>
+ Install latest Docker Engine Install latest Docker Compose tool AND last but not least, a congratuation message !</description>
     </item>
     
     <item>
@@ -43,9 +38,7 @@ This is what I learned :
       
       <guid>https://khanhicetea.com/post/kick-start-a-lemp-stack-on-ubuntu-16-04/</guid>
       <description>LEMP = Linux + EngineX(NginX) + MySQL + PHP
- Too tired for doing same tasks over and over again. I made this script to help me (and you) on kicking start a new LEMP stack on production server. Hope it useful !
-What does script do :
- Disable IPv6 (it&amp;rsquo;s not ready for production at the moment) Configure firewall (only accepts port 22, 80 and 443) Disable password authentication to SSH service Upgrade system Install useful tools (git, screen, vim, curl and lego for LetsEncrypt ACME) NginX MySQL 5.</description>
+ Too tired for doing same tasks over and over again.</description>
     </item>
     
     <item>
@@ -54,10 +47,7 @@ What does script do :
       <pubDate>Sat, 25 Mar 2017 13:59:26 +0700</pubDate>
       
       <guid>https://khanhicetea.com/post/how-to-reload-gracefully-supervisor-program/</guid>
-      <description>Problem We have some managed worker-programs by supervisor. While deploying new codebase of worker, we have to restart them to update new logic.
-But it&amp;rsquo;s creepy when supervisor kills all processes of programs and starts again.
-WHAT IF IT KILLS A WORKING WORKER ?
-Of course, the working task will be fucked up. Database transaction, database migration, sending email and other scheduled tasks will be crashed in middle. Some tasks can&amp;rsquo;t not be reserved, rollbacked or re-runned.</description>
+      <description>Problem We have some managed worker-programs by supervisor. While deploying new codebase of worker, we have to restart them to update new logic.</description>
     </item>
     
   </channel>

@@ -6,6 +6,7 @@
     <description>Recent content in Devops on KhanhIceTea B(rain)-log</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <copyright>KhanhIceTea - Licensed under CC BY-NC-ND 3.0 | In God We Trust</copyright>
     <lastBuildDate>Mon, 22 Jan 2018 23:59:59 +0000</lastBuildDate>
     
 	<atom:link href="https://khanhicetea.com/categories/devops/index.xml" rel="self" type="application/rss+xml" />
@@ -17,9 +18,7 @@
       <pubDate>Mon, 22 Jan 2018 23:59:59 +0000</pubDate>
       
       <guid>https://khanhicetea.com/til/2018-01-22-ansible-running-host-pattern/</guid>
-      <description> Ansible running host pattern Ansible supports pattern to select and filter running hosts from all hosts. Here is some common pattern
- * : wildcard, standalone mean all group1,group2 : run hosts belong to group1 or group2 *.web : run hosts belongs to group matches pattern. Ex: backend.web, frontend.web all:!abc : run all hosts exclude hosts belongs to group abc   Infrastructure by code ;)
- </description>
+      <description>Ansible running host pattern Ansible supports pattern to select and filter running hosts from all hosts.</description>
     </item>
     
     <item>
@@ -28,9 +27,7 @@
       <pubDate>Fri, 13 Oct 2017 23:59:59 +0000</pubDate>
       
       <guid>https://khanhicetea.com/til/2017-10-13-using-netcat-to-wait-a-tcp-service/</guid>
-      <description>Using netcat to wait a TCP service When doing a CI/CD testing, you would need to connect a external service (RDBMS, HTTP server or generic TCP server service). So you need waiting the service before running your test app.
-One way to do right waiting instead of sleep for a specified time is using netcat tool
-$ while ! echo -e &#39;\x04&#39; | nc [service_host] [service_port]; do sleep 1; done;  Examples</description>
+      <description>Using netcat to wait a TCP service When doing a CI/CD testing, you would need to connect a external service (RDBMS, HTTP server or generic TCP server service).</description>
     </item>
     
     <item>
@@ -39,10 +36,7 @@ $ while ! echo -e &#39;\x04&#39; | nc [service_host] [service_port]; do sleep 1;
       <pubDate>Fri, 04 Aug 2017 23:59:59 +0000</pubDate>
       
       <guid>https://khanhicetea.com/til/2017-08-04-free-sandbox-server-for-development/</guid>
-      <description>Free sandbox server for development We can use Heroku as a forever-free sandbox solution for testing or hosting micro service. Adding a credit card to have 1000 free computing hours.
-Heroku will make a service down if no received request come. We can use a cronjob-like service to check service health and keep it live !!! ;)
-Cronjob check health SASS : pingdom, statuscake, port-monitor, uptimerobot
-Btw, I don&amp;rsquo;t recommend you keep service live but no use, it makes Heroku infrastructure heavy and THAT&amp;rsquo;S NOT FAIR for them !</description>
+      <description>Free sandbox server for development We can use Heroku as a forever-free sandbox solution for testing or hosting micro service.</description>
     </item>
     
     <item>
@@ -51,9 +45,7 @@ Btw, I don&amp;rsquo;t recommend you keep service live but no use, it makes Hero
       <pubDate>Fri, 19 May 2017 23:59:59 +0000</pubDate>
       
       <guid>https://khanhicetea.com/til/2017-05-19-checking-forced-push-conflicts-on-source-code-in-auto-testing/</guid>
-      <description>Checking forced push conflicts on source code in auto testing Using automated CI solution likes Travis, Jenkins, DroneCI, &amp;hellip; is good solution to ensure quality of software and no breaks in deployment.
-Sometimes, developers force push conflicts part to production branch of source code. If the CI tests only backend (python, ruby, php, go, ..) and forget about frontend code, then your application will be exploded !
-So checking the conflicts code is required step before testing backend and deployment.</description>
+      <description>Checking forced push conflicts on source code in auto testing Using automated CI solution likes Travis, Jenkins, DroneCI, &amp;hellip; is good solution to ensure quality of software and no breaks in deployment.</description>
     </item>
     
   </channel>

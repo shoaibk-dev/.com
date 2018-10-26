@@ -6,6 +6,7 @@
     <description>Recent content in Python on KhanhIceTea B(rain)-log</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <copyright>KhanhIceTea - Licensed under CC BY-NC-ND 3.0 | In God We Trust</copyright>
     <lastBuildDate>Tue, 21 Aug 2018 14:38:08 +0700</lastBuildDate>
     
 	<atom:link href="https://khanhicetea.com/categories/python/index.xml" rel="self" type="application/rss+xml" />
@@ -17,8 +18,7 @@
       <pubDate>Tue, 21 Aug 2018 14:38:08 +0700</pubDate>
       
       <guid>https://khanhicetea.com/post/seswatcher-prevent-amazon-ses-account-from-being-suspended/</guid>
-      <description>Introdution At this moment, AWS SES service is the best affordable price and high-quality service to sending (and receiving) programmatic emails. But, one day your account could be suspended without notice, and that takes a big effort of requesting support to get it back to work.
-So it&amp;rsquo;s good to prevent that siatuation happens by watching your Bounces Rate and Complaints Rate. One way to resolve problem when your rates being too-high than allowance, is send a big amount of dummy emails to your blackhole email address.</description>
+      <description>Introdution At this moment, AWS SES service is the best affordable price and high-quality service to sending (and receiving) programmatic emails.</description>
     </item>
     
     <item>
@@ -27,10 +27,7 @@ So it&amp;rsquo;s good to prevent that siatuation happens by watching your Bounc
       <pubDate>Mon, 30 Jul 2018 23:59:59 +0000</pubDate>
       
       <guid>https://khanhicetea.com/til/2018-07-30-setter-and-getter-behavior-of-class-property-in-python3/</guid>
-      <description>Setter and getter behavior of class property in Python3 In previous TIL, I learned about the way to define getter and setter in Javascript
-Today, I learned it in Pythonic way ;) (in Python3)
-So here is example (the easy way to learn from a code) :
-class A: def __init__(self,x): print (&#39;init&#39;, x) self.x = x @property def x(self): print (&#39;getter&#39;) return self.__x @x.setter def x(self, x): print (&#39;setter&#39;, x) if x &amp;lt; 0: self.</description>
+      <description>Setter and getter behavior of class property in Python3 In previous TIL, I learned about the way to define getter and setter in Javascript</description>
     </item>
     
     <item>
@@ -40,11 +37,7 @@ class A: def __init__(self,x): print (&#39;init&#39;, x) self.x = x @property de
       
       <guid>https://khanhicetea.com/til/2018-07-24-context-managers-in-python/</guid>
       <description>Context Managers in Python In Python, sometimes you will see this syntax
-with something: do_something_else(something)  Then you ask yourself, why I have to use this with syntax ? What runs inside that statement ?
-Here is how it works, it&amp;rsquo;s called Context Managers in object
-You can define context managers for a class of object to make sure some logic runs correctly without forgeting
-Example :
-class Animal: def __init__(self, name): self.</description>
+with something: do_something_else(something)  Then you ask yourself, why I have to use this with syntax ?</description>
     </item>
     
     <item>
@@ -54,9 +47,7 @@ class Animal: def __init__(self, name): self.</description>
       
       <guid>https://khanhicetea.com/til/2018-07-24-do-not-use-mutable-objects-as-default-parameters/</guid>
       <description>Do not use mutable objects as default parameters I learned this from learn-python3
-Example :
-def append_if_multiple_of_five(number, magical_list=[]): if number % 5 == 0: magical_list.append(number) return magical_list print(append_if_multiple_of_five(100)) print(append_if_multiple_of_five(105)) print(append_if_multiple_of_five(123)) print(append_if_multiple_of_five(123, [])) print(append_if_multiple_of_five(123))  Result :
-[100] [100, 105] [100, 105] [] [100, 105]  So default parameters in Python are shared between function calls if it isn&amp;rsquo;t passed from caller. So be careful because shared mutable object can affect your logic between function calls, where MAGIC was born !</description>
+Example :</description>
     </item>
     
     <item>
@@ -65,8 +56,7 @@ def append_if_multiple_of_five(number, magical_list=[]): if number % 5 == 0: mag
       <pubDate>Mon, 30 Apr 2018 23:59:59 +0000</pubDate>
       
       <guid>https://khanhicetea.com/til/2018-04-30-exporting-environment-variables-on-virtual-env-activate/</guid>
-      <description> Exporting environment variables on virtual env activate You can put common environment variables to the file venv/bin/activate. So everytime we active the virtual env, everything is on the way
-# venv/bin/active content # export your env vars here export FLASK_APP=hello export FLASK_ENV=development export DATABASE=hello.sqlite3 export SECRET_KEY=secret_key_here  </description>
+      <description>Exporting environment variables on virtual env activate You can put common environment variables to the file venv/bin/activate.</description>
     </item>
     
     <item>
@@ -76,7 +66,7 @@ def append_if_multiple_of_five(number, magical_list=[]): if number % 5 == 0: mag
       
       <guid>https://khanhicetea.com/post/reading-nfc-card-id-on-ubuntu/</guid>
       <description>Prerequisites Install driver My device is ACS122U : http://www.acs.com.hk/en/products/3/acr122u-usb-nfc-reader/#tab_downloads
-Kernel modules # echo &amp;quot;uinput&amp;quot; &amp;gt;&amp;gt; /etc/modules # echo &amp;quot;install nfc /bin/false&amp;quot; &amp;gt;&amp;gt; /etc/modprobe.d/blacklist.conf # echo &amp;quot;install pn533 /bin/false&amp;quot; &amp;gt;&amp;gt; /etc/modprobe.d/blacklist.conf  Install packages sudo apt-get install swig libccid pcscd libpcsclite-dev libpcsclite1 python-dev python-pip gcc linux-headers-$(uname -r)  Run service sudo service pcscd restart  Install python packages sudo pip install pyscard python-uinput evdev  Source code This is source code that read the card ID and simulate keystrokes to type card ID by text then pressing ENTER key.</description>
+Kernel modules # echo &amp;quot;uinput&amp;quot; &amp;gt;&amp;gt; /etc/modules # echo &amp;quot;install nfc /bin/false&amp;quot; &amp;gt;&amp;gt; /etc/modprobe.</description>
     </item>
     
     <item>
@@ -85,8 +75,7 @@ Kernel modules # echo &amp;quot;uinput&amp;quot; &amp;gt;&amp;gt; /etc/modules #
       <pubDate>Fri, 04 Aug 2017 23:59:59 +0000</pubDate>
       
       <guid>https://khanhicetea.com/til/2017-08-04-http2-supported-for-python-requests-library/</guid>
-      <description>HTTP2 supported for python requests library The sophisticated http client in Python is requests, it has simple API but powerful features. You can use it for crawling, sending request to third-party API or writing tests.
-Btw, at this moment it doesn&amp;rsquo;t support HTTP/2 protocol (actually we often doesn&amp;rsquo;t need its Server Push or Multi resource stream features). But sometime the API endpoint only supports HTTP/2 like Akamai Load Balacing service.</description>
+      <description>HTTP2 supported for python requests library The sophisticated http client in Python is requests, it has simple API but powerful features.</description>
     </item>
     
     <item>
@@ -95,8 +84,7 @@ Btw, at this moment it doesn&amp;rsquo;t support HTTP/2 protocol (actually we of
       <pubDate>Sun, 20 Mar 2016 23:29:53 +0700</pubDate>
       
       <guid>https://khanhicetea.com/post/read_input_from_usb_keyboard_in_linux/</guid>
-      <description>Introduction You just bought a new input device like barcode scanner, proximity card reader with USB port. And you want expose only its data to a file or send to server for processing ? But it acts like a keyboard, type the characters then trigger Enter key.
-This tutorial can help you make a program can exclusive receive input data from the device and don&amp;rsquo;t affect to another program.</description>
+      <description>Introduction You just bought a new input device like barcode scanner, proximity card reader with USB port.</description>
     </item>
     
     <item>
@@ -105,9 +93,7 @@ This tutorial can help you make a program can exclusive receive input data from 
       <pubDate>Fri, 04 Dec 2015 23:59:59 +0000</pubDate>
       
       <guid>https://khanhicetea.com/til/2015-12-04-reference-assign-object-variable/</guid>
-      <description>Reference assign object variable When you have a object x and assign y = x, y will be a ref of x (it looks like pointer of C). So changing property of y means changing property of x.
-Ex :
-x = {&amp;quot;a&amp;quot;: 1, &amp;quot;b&amp;quot;: 2} y = x y[&#39;a&#39;] = 100 print x[&#39;a&#39;] # Result is 100  So if you want clone the value, use copy lib :</description>
+      <description>Reference assign object variable When you have a object x and assign y = x, y will be a ref of x (it looks like pointer of C).</description>
     </item>
     
     <item>
@@ -116,9 +102,7 @@ x = {&amp;quot;a&amp;quot;: 1, &amp;quot;b&amp;quot;: 2} y = x y[&#39;a&#39;] = 
       <pubDate>Tue, 01 Dec 2015 23:59:59 +0000</pubDate>
       
       <guid>https://khanhicetea.com/til/2015-12-01-string-format-unicode-params/</guid>
-      <description> String Format Unicode params unicode_thing = u&amp;quot;Xin chào mọi người&amp;quot; a = &#39;{}&#39;.format(unicode_thing)  will cause the error UnicodeEncodeError: &#39;ascii&#39; codec can&#39;t encode character u&#39;\xe0&#39; in position 6: ordinal not in range(128)
-The solution is add u prefix the pattern (it means using unicode pattern) :
-unicode_thing = u&amp;quot;Xin chào mọi người&amp;quot; a = u&#39;{}&#39;.format(unicode_thing)  </description>
+      <description>String Format Unicode params unicode_thing = u&amp;quot;Xin chào mọi người&amp;quot; a = &#39;{}&#39;.format(unicode_thing)  will cause the error UnicodeEncodeError: &#39;ascii&#39; codec can&#39;t encode character u&#39;\xe0&#39; in position 6: ordinal not in range(128)</description>
     </item>
     
   </channel>

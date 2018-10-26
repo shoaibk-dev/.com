@@ -6,6 +6,7 @@
     <description>Recent content in Benchmark on KhanhIceTea B(rain)-log</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <copyright>KhanhIceTea - Licensed under CC BY-NC-ND 3.0 | In God We Trust</copyright>
     <lastBuildDate>Fri, 21 Apr 2017 23:59:59 +0000</lastBuildDate>
     
 	<atom:link href="https://khanhicetea.com/tags/benchmark/index.xml" rel="self" type="application/rss+xml" />
@@ -17,11 +18,7 @@
       <pubDate>Fri, 21 Apr 2017 23:59:59 +0000</pubDate>
       
       <guid>https://khanhicetea.com/til/2017-04-21-ab-failed-responses/</guid>
-      <description>ab failed responses When benchmarking a HTTP application server using ab tool, you shouldn&amp;rsquo;t only care about how many requests per second, but percentage of Success responses.
-A notice that you must have the same content-length in responses, because ab tool will assume response having different content-length from Document Length (in ab result) is failed response.
-Example
-Webserver using Flask
-from flask import Flask from random import randint app = Flask(__name__) @app.</description>
+      <description>ab failed responses When benchmarking a HTTP application server using ab tool, you shouldn&amp;rsquo;t only care about how many requests per second, but percentage of Success responses.</description>
     </item>
     
   </channel>
