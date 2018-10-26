@@ -6,6 +6,7 @@
     <description>Recent content in Macos on KhanhIceTea B(rain)-log</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <copyright>KhanhIceTea - Licensed under CC BY-NC-ND 3.0 | In God We Trust</copyright>
     <lastBuildDate>Sun, 30 Sep 2018 10:59:25 +0700</lastBuildDate>
     
 	<atom:link href="https://khanhicetea.com/categories/macos/index.xml" rel="self" type="application/rss+xml" />
@@ -17,9 +18,7 @@
       <pubDate>Sun, 30 Sep 2018 10:59:25 +0700</pubDate>
       
       <guid>https://khanhicetea.com/post/build-sequel-pro-from-source-in-xcode-10/</guid>
-      <description>Sequel Pro is great GUI MySQL tool in macOS (it&amp;rsquo;s open source and of course totally free) !
-But from last year, their automated build system has been broken, so the versions is outdated :
- Stable version 1.1.2 (Apr 3, 2016) Nightly version 3477d22387 (Sep 6, 2017)  Even their codebase bas been updated every week but we can&amp;rsquo;t use the latest build within a lot of bugfixes. So here is the guide to build from source using XCode 10</description>
+      <description>Sequel Pro is great GUI MySQL tool in macOS (it&amp;rsquo;s open source and of course totally free) !</description>
     </item>
     
   </channel>

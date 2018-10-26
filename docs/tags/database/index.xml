@@ -6,6 +6,7 @@
     <description>Recent content in Database on KhanhIceTea B(rain)-log</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <copyright>KhanhIceTea - Licensed under CC BY-NC-ND 3.0 | In God We Trust</copyright>
     <lastBuildDate>Sun, 30 Sep 2018 10:59:25 +0700</lastBuildDate>
     
 	<atom:link href="https://khanhicetea.com/tags/database/index.xml" rel="self" type="application/rss+xml" />
@@ -17,9 +18,7 @@
       <pubDate>Sun, 30 Sep 2018 10:59:25 +0700</pubDate>
       
       <guid>https://khanhicetea.com/post/build-sequel-pro-from-source-in-xcode-10/</guid>
-      <description>Sequel Pro is great GUI MySQL tool in macOS (it&amp;rsquo;s open source and of course totally free) !
-But from last year, their automated build system has been broken, so the versions is outdated :
- Stable version 1.1.2 (Apr 3, 2016) Nightly version 3477d22387 (Sep 6, 2017)  Even their codebase bas been updated every week but we can&amp;rsquo;t use the latest build within a lot of bugfixes. So here is the guide to build from source using XCode 10</description>
+      <description>Sequel Pro is great GUI MySQL tool in macOS (it&amp;rsquo;s open source and of course totally free) !</description>
     </item>
     
     <item>
@@ -28,9 +27,7 @@ But from last year, their automated build system has been broken, so the version
       <pubDate>Sat, 25 Aug 2018 23:59:59 +0000</pubDate>
       
       <guid>https://khanhicetea.com/til/2018-08-25-the-safest-way-to-reset-root-password-of-mysql-server/</guid>
-      <description>The safest way to reset root password of MySQL Server When you get stucked in this error message &amp;ldquo;Access denied for user &amp;lsquo;root@localhost&amp;rsquo; &amp;hellip;&amp;rdquo;, you search the way to reset the root password on the Internet, but life is Hard ! (No answer makes you feel it&amp;rsquo;s right way, even some do not work)
-So to solve this problem, we need to understand MySQL Authentication
-Step 1 : Disable MySQL Authentication by skip loading grant-tables on loading MySQL server</description>
+      <description>The safest way to reset root password of MySQL Server When you get stucked in this error message &amp;ldquo;Access denied for user &amp;lsquo;root@localhost&amp;rsquo; &amp;hellip;&amp;rdquo;, you search the way to reset the root password on the Internet, but life is Hard !</description>
     </item>
     
     <item>
@@ -49,10 +46,7 @@ Step 1 : Disable MySQL Authentication by skip loading grant-tables on loading My
       <pubDate>Wed, 02 May 2018 23:59:59 +0000</pubDate>
       
       <guid>https://khanhicetea.com/til/2018-05-02-use-temporarily-data-from-another-database-in-sqlite/</guid>
-      <description>Use temporarily data from another database in SQLite Sometimes, we need to use temporarily data from another database file. There is simple and fast way to achieve that without transfering data from file X to file Y.
-We connect to main database
-$ sqlite3 main.sqlite  Then using the ATTACH command to attach another database as an alias in main database
-&amp;gt; ATTACH another_db.sqlite as TEMP;  Let listing the tables</description>
+      <description>Use temporarily data from another database in SQLite Sometimes, we need to use temporarily data from another database file.</description>
     </item>
     
     <item>
@@ -61,8 +55,7 @@ $ sqlite3 main.sqlite  Then using the ATTACH command to attach another database 
       <pubDate>Fri, 13 Oct 2017 23:59:59 +0000</pubDate>
       
       <guid>https://khanhicetea.com/til/2017-10-13-indexes-on-multiple-columns/</guid>
-      <description>Indexes on multiple columns Let&amp;rsquo;s say you have an indexes on 2 columns (A, B) of the table (X). So this is three use cases happen :
- You query data based on both of 2 columns =&amp;gt; Indexes will be considered You query data based on (A) =&amp;gt; Indexes will be considered You query data based on (B) =&amp;gt; Indexes will be ignored because database indexes your data by B-tree algo.</description>
+      <description>Indexes on multiple columns Let&amp;rsquo;s say you have an indexes on 2 columns (A, B) of the table (X).</description>
     </item>
     
     <item>
@@ -71,8 +64,7 @@ $ sqlite3 main.sqlite  Then using the ATTACH command to attach another database 
       <pubDate>Tue, 25 Apr 2017 23:59:59 +0000</pubDate>
       
       <guid>https://khanhicetea.com/til/2017-04-25-basics-about-sqlite-command-line-tool/</guid>
-      <description>Basics about sqlite command line tool We can use sqlite3 command line tool to run SQL statement in sqlite3 file.
-View all table : .tables Truncate table : delete from [table_name]; then run vacuum; to clear space Close : press Ctrl ^ D to escape $ sqlite3 database.sqlite SQLite version 3.8.10.2 2015-05-20 18:17:19 Enter &amp;quot;.help&amp;quot; for usage hints. sqlite&amp;gt; .tables auth_group backend_church auth_group_permissions backend_masstime auth_permission django_admin_log auth_user django_content_type auth_user_groups django_migrations auth_user_user_permissions django_session backend_area sqlite&amp;gt; select * from auth_user; 1|pbkdf2_sha256$30000$QQSOJMiXmNly$mWUlYwZnaQGsv9UVZcdTb29P7IHrgnd7ja3T/uwFqvw=|2017-03-25 15:06:40.</description>
+      <description>Basics about sqlite command line tool We can use sqlite3 command line tool to run SQL statement in sqlite3 file.</description>
     </item>
     
     <item>
@@ -81,10 +73,7 @@ View all table : .tables Truncate table : delete from [table_name]; then run vac
       <pubDate>Tue, 28 Feb 2017 23:59:59 +0000</pubDate>
       
       <guid>https://khanhicetea.com/til/2017-02-28-persistent-connection-to-mysql/</guid>
-      <description>Persistent connection to MySQL When a PHP process connects to MySQL server, the connection can be persistent if your PHP config has mysql.allow_persistent or mysqli.allow_persistent. (PDO has the attribute ATTR_PERSISTENT)
-$dbh = new PDO(&#39;DSN&#39;, &#39;KhanhDepZai&#39;, &#39;QuenMatKhauCMNR&#39;, [PDO::ATTR_PERSISTENT =&amp;gt; TRUE]);  Object destruction PHP destruct an object automatically when an object lost all its references.
-Example code:
-&amp;lt;?php $x = null; function klog($x) { echo $x . &#39; =&amp;gt; &#39;; } class A { private $k; function __construct($k) { $this-&amp;gt;k = $k; } function b() { klog(&#39;[b]&#39;); } function __destruct() { klog(&amp;quot;[{$this-&amp;gt;k} has been killed]&amp;quot;); } } function c($k) { return new A($k); } function d() { c(&#39;d&#39;)-&amp;gt;b(); } function e() { global $x; $x = c(&#39;e&#39;); $x-&amp;gt;b(); klog(&#39;[e]&#39;); } function f() { klog(&#39;[f]&#39;); } d(); e(); f();  Result:</description>
+      <description>Persistent connection to MySQL When a PHP process connects to MySQL server, the connection can be persistent if your PHP config has mysql.</description>
     </item>
     
     <item>
@@ -93,9 +82,7 @@ Example code:
       <pubDate>Thu, 23 Feb 2017 23:59:59 +0000</pubDate>
       
       <guid>https://khanhicetea.com/til/2017-02-23-union-vs-union-all/</guid>
-      <description>UNION vs UNION ALL The difference is UNION command will sort and remove duplicated rows (RETURNED ONLY DISTINCT ROWS)
-Examples :
-mysql&amp;gt; select &#39;1&#39;, &#39;2&#39; union select &#39;2&#39;, &#39;1&#39; union select &#39;3&#39;, &#39;4&#39; union select &#39;1&#39;, &#39;2&#39;; +---+---+ | 1 | 2 | +---+---+ | 1 | 2 | | 2 | 1 | | 3 | 4 | +---+---+ 3 rows in set (0.00 sec) mysql&amp;gt; select &#39;1&#39;, &#39;2&#39; union select &#39;2&#39;, &#39;1&#39; union select &#39;3&#39;, &#39;4&#39; union select &#39;1&#39;, &#39;3&#39;; +---+---+ | 1 | 2 | +---+---+ | 1 | 2 | | 2 | 1 | | 3 | 4 | | 1 | 3 | +---+---+ 4 rows in set (0.</description>
+      <description>UNION vs UNION ALL The difference is UNION command will sort and remove duplicated rows (RETURNED ONLY DISTINCT ROWS)</description>
     </item>
     
     <item>
@@ -104,10 +91,7 @@ mysql&amp;gt; select &#39;1&#39;, &#39;2&#39; union select &#39;2&#39;, &#39;1&#
       <pubDate>Sat, 19 Mar 2016 21:07:56 +0700</pubDate>
       
       <guid>https://khanhicetea.com/post/backup-and-restore-elasticsearch-using-docker/</guid>
-      <description>Introduction One day, your ElasticSearch data is large and you have to move all data to another nodes or you just want backup the data file to somewhere.
-ElasticSearch-Dump is a tool can help you on this situation, it&amp;rsquo;s written on NodeJS so can run multi-platform. You can view the documents here.
-One way more convinient if you already have Docker is running its Docker image.
-Instruction Prepare a Docker image You can build manually its Docker image by</description>
+      <description>Introduction One day, your ElasticSearch data is large and you have to move all data to another nodes or you just want backup the data file to somewhere.</description>
     </item>
     
   </channel>

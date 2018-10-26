@@ -6,6 +6,7 @@
     <description>Recent content in Lambda on KhanhIceTea B(rain)-log</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <copyright>KhanhIceTea - Licensed under CC BY-NC-ND 3.0 | In God We Trust</copyright>
     <lastBuildDate>Tue, 05 Jun 2018 23:04:35 +0700</lastBuildDate>
     
 	<atom:link href="https://khanhicetea.com/tags/lambda/index.xml" rel="self" type="application/rss+xml" />
@@ -18,9 +19,7 @@
       
       <guid>https://khanhicetea.com/post/evaluate-expression-string-with-variables-in-php-without-eval/</guid>
       <description>TLDR;  Never ever use eval function in PHP !
- Updated Jul 31 : we can use Expression Language
-Introduction In some applications, we need to let user defines the expression (user lambda function) to evaluate a value or a condition. So we store user-defined expression in database then using eval function and pass variables to that function.
-It works, but not securely ! Remember this important thing :</description>
+ Updated Jul 31 : we can use Expression Language</description>
     </item>
     
   </channel>

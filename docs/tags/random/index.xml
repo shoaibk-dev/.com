@@ -6,6 +6,7 @@
     <description>Recent content in Random on KhanhIceTea B(rain)-log</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <copyright>KhanhIceTea - Licensed under CC BY-NC-ND 3.0 | In God We Trust</copyright>
     <lastBuildDate>Mon, 14 May 2018 23:59:59 +0000</lastBuildDate>
     
 	<atom:link href="https://khanhicetea.com/tags/random/index.xml" rel="self" type="application/rss+xml" />
@@ -17,9 +18,7 @@
       <pubDate>Mon, 14 May 2018 23:59:59 +0000</pubDate>
       
       <guid>https://khanhicetea.com/til/2018-05-14-get-random-number-from-computer/</guid>
-      <description>Get random number from computer Today, I read my junior team-mate code and find this line
-$number = rand(2,1000)*rand(2,1000);  This made me remember that&amp;rsquo;s same idea of my own in many years ago. Then I ask myself, is it good to generate a random number from 2 random numbers ?
-So the main reason that he wrote this was making probability of same number at same time must be low.</description>
+      <description>Get random number from computer Today, I read my junior team-mate code and find this line</description>
     </item>
     
     <item>
@@ -29,7 +28,7 @@ So the main reason that he wrote this was making probability of same number at s
       
       <guid>https://khanhicetea.com/post/random-riddle-about-number/</guid>
       <description>Lâu rùi không viết &amp;hellip;
-Câu đố nhức nách Ngày xửa ngày xưa, ngay tại cái thời mà ông tổ ông tô sáng tạo nên những con số dùng để đếm, rồi dần dần để tính toán và để &amp;hellip; hơn thua. Ngày đó có một cậu bé nọ ở trong xóm trọ, cậu hỏi họ một câu đố rất là nhức xọ. 🙀💀 Câu đố đấy nôm na như sau :</description>
+Câu đố nhức nách Ngày xửa ngày xưa, ngay tại cái thời mà ông tổ ông tô sáng tạo nên những con số dùng để đếm, rồi dần dần để tính toán và để &amp;hellip; hơn thua.</description>
     </item>
     
     <item>
@@ -38,12 +37,7 @@ Câu đố nhức nách Ngày xửa ngày xưa, ngay tại cái thời mà ông 
       <pubDate>Thu, 11 May 2017 23:01:53 +0700</pubDate>
       
       <guid>https://khanhicetea.com/post/lightning-thought-1-magic-in-software/</guid>
-      <description>Random quote  “Insanity: doing the same thing over and over again and expecting different results.” - Albert Einstein
- It&amp;rsquo;s true in LOGIC ! But sometimes, it goes wrong in computer science and &amp;hellip; life.
-What does computer program do ? We learnt from Computer Science courses this phisolophy :
- PROGRAM takes INPUT and produces OUTPUT
-So, same PROGRAM + same INPUT = same OUTPUT
- And that&amp;rsquo;s the basis of every testing techniques.</description>
+      <description>Random quote  “Insanity: doing the same thing over and over again and expecting different results.</description>
     </item>
     
     <item>
@@ -52,8 +46,7 @@ So, same PROGRAM + same INPUT = same OUTPUT
       <pubDate>Sun, 05 Feb 2017 21:15:03 +0700</pubDate>
       
       <guid>https://khanhicetea.com/post/live-a-random-life/</guid>
-      <description>Tiếng Việt Một năm mới lại trôi qua, tuy có nhiều chuyện thay đổi nhưng cơ bản thì &amp;ldquo;CHẰNG CÓ GÌ KHÁC CẢ&amp;rdquo;. 🙃
-Vẫn là cuộc sống đó, đi làm ngày 80 tiếng (à nhầm tuần 80 tiếng), ngày ăn 3 bữa, quần cáo mặc cả ngày, đi đường nào, về đường đó (trừ lúc say có lách mấy anh Pikachu), thu nhập cũng chẳng gọi là cao, mà cũng chẳng thể bảo là nghèo, vẫn gõ 101 phím ngày qua ngày, vẫn ăn những quán quen thuộc mà cho rằng nó sạch sẽ, an cmn toàn &amp;hellip; Túm cái quần què lại là LUẨN QUẨN Ở CÁI VÒNG KHÔNG TO THÌ NHỎ !</description>
+      <description>Tiếng Việt Một năm mới lại trôi qua, tuy có nhiều chuyện thay đổi nhưng cơ bản thì &amp;ldquo;CHẰNG CÓ GÌ KHÁC CẢ&amp;rdquo;.</description>
     </item>
     
   </channel>

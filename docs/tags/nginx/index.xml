@@ -6,6 +6,7 @@
     <description>Recent content in Nginx on KhanhIceTea B(rain)-log</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <copyright>KhanhIceTea - Licensed under CC BY-NC-ND 3.0 | In God We Trust</copyright>
     <lastBuildDate>Wed, 16 Aug 2017 22:56:05 +0700</lastBuildDate>
     
 	<atom:link href="https://khanhicetea.com/tags/nginx/index.xml" rel="self" type="application/rss+xml" />
@@ -17,9 +18,7 @@
       <pubDate>Wed, 16 Aug 2017 22:56:05 +0700</pubDate>
       
       <guid>https://khanhicetea.com/post/webfonts-optimization-using-nginx/</guid>
-      <description>Context Everytime you decided to use a webfont on your web, you think about Google Web Fonts, which is the best CDN for webfonts at this moment.
-So why Google Fonts is good solution : - Have many popular and updated fonts - Global CDN - Easy UX to get started - Auto detects user&amp;rsquo;s browser then return supported font type (TTF, WOFF or WOFF2)
-But  It&amp;rsquo;s a tracking endpoint (collect data to Google) Network latency (you have a CDN in your country)  Solution We use a simple Node server and NGINX with proxy cache mod to resolve this case.</description>
+      <description>Context Everytime you decided to use a webfont on your web, you think about Google Web Fonts, which is the best CDN for webfonts at this moment.</description>
     </item>
     
   </channel>

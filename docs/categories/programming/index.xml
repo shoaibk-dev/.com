@@ -6,6 +6,7 @@
     <description>Recent content in Programming on KhanhIceTea B(rain)-log</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <copyright>KhanhIceTea - Licensed under CC BY-NC-ND 3.0 | In God We Trust</copyright>
     <lastBuildDate>Mon, 14 May 2018 23:59:59 +0000</lastBuildDate>
     
 	<atom:link href="https://khanhicetea.com/categories/programming/index.xml" rel="self" type="application/rss+xml" />
@@ -17,9 +18,7 @@
       <pubDate>Mon, 14 May 2018 23:59:59 +0000</pubDate>
       
       <guid>https://khanhicetea.com/til/2018-05-14-get-random-number-from-computer/</guid>
-      <description>Get random number from computer Today, I read my junior team-mate code and find this line
-$number = rand(2,1000)*rand(2,1000);  This made me remember that&amp;rsquo;s same idea of my own in many years ago. Then I ask myself, is it good to generate a random number from 2 random numbers ?
-So the main reason that he wrote this was making probability of same number at same time must be low.</description>
+      <description>Get random number from computer Today, I read my junior team-mate code and find this line</description>
     </item>
     
   </channel>

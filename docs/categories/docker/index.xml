@@ -6,6 +6,7 @@
     <description>Recent content in Docker on KhanhIceTea B(rain)-log</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <copyright>KhanhIceTea - Licensed under CC BY-NC-ND 3.0 | In God We Trust</copyright>
     <lastBuildDate>Fri, 23 Feb 2018 23:59:59 +0000</lastBuildDate>
     
 	<atom:link href="https://khanhicetea.com/categories/docker/index.xml" rel="self" type="application/rss+xml" />
@@ -17,11 +18,7 @@
       <pubDate>Fri, 23 Feb 2018 23:59:59 +0000</pubDate>
       
       <guid>https://khanhicetea.com/til/2018-02-23-build-lightweight-image-by-using-multistage/</guid>
-      <description>Build lightweight image by using multistage Docker is great tool to build a pull-n-run application. But sometimes, your image will be large if you build image from a big base image which has heavy compliling toolbox.
-Ex:
-One-stage build
-FROM golang:1.9.2 WORKDIR /go/src/github.com/khanhicetea/test/ COPY . . RUN CGO_ENABLED=0 GOOS=linux go build . ENTRYPOINT [&amp;quot;/go/src/github.com/khanhicetea/test/test&amp;quot;]  Multi-stage builds
-FROM golang:1.9.2 WORKDIR /go/src/github.com/khanhicetea/test/ COPY . . RUN CGO_ENABLED=0 GOOS=linux go build .</description>
+      <description>Build lightweight image by using multistage Docker is great tool to build a pull-n-run application. But sometimes, your image will be large if you build image from a big base image which has heavy compliling toolbox.</description>
     </item>
     
     <item>
@@ -30,9 +27,7 @@ FROM golang:1.9.2 WORKDIR /go/src/github.com/khanhicetea/test/ COPY . . RUN CGO_
       <pubDate>Wed, 22 Nov 2017 23:59:59 +0000</pubDate>
       
       <guid>https://khanhicetea.com/til/2017-11-22-reduce-init-time-mysql-docker-image/</guid>
-      <description>Reduce init time MySQL docker image Original MySQL docker image uses a script to generate ssl certificates for service. Sometime we don&amp;rsquo;t really need it (connect via a docker network link or need a fast enough database service to build a automated test).
-We can reduce init time by removing the script from original Docker image
-FROM mysql:5.7 # Remove mysql_ssl_rsa_setup to ignore setup SSL certs RUN rm -f /usr/bin/mysql_ssl_rsa_setup   FAST as a FEATURE !</description>
+      <description>Reduce init time MySQL docker image Original MySQL docker image uses a script to generate ssl certificates for service.</description>
     </item>
     
     <item>
@@ -41,9 +36,7 @@ FROM mysql:5.7 # Remove mysql_ssl_rsa_setup to ignore setup SSL certs RUN rm -f 
       <pubDate>Wed, 08 Nov 2017 17:20:46 +0700</pubDate>
       
       <guid>https://khanhicetea.com/post/building-automated-ci-server-with-drone-and-docker/</guid>
-      <description>Introduction Docker is great tool to management linux containers. It brings DevOps to next level, from development to production environment. And of course, before deploy anything to production, software should be tested carefully and automatically.
-That&amp;rsquo;s why Drone, a new lightweight CI server built-on top Go lang and Docker, will help us to resolve the testing problems in simple and fast way.
-Setup This guide will assume you already have Docker and Docker Compose tool.</description>
+      <description>Introduction Docker is great tool to management linux containers. It brings DevOps to next level, from development to production environment.</description>
     </item>
     
     <item>
@@ -52,8 +45,7 @@ Setup This guide will assume you already have Docker and Docker Compose tool.</d
       <pubDate>Wed, 24 May 2017 23:59:59 +0000</pubDate>
       
       <guid>https://khanhicetea.com/til/2017-05-24-changing-channel-from-alpha-to-stable-will-remove-all-data/</guid>
-      <description>Changing channel from alpha to stable will remove ALL DATA On MacOS, changing Docker channel will remove all data (includes volumes, images, networks and &amp;hellip; everything).
-Because Docker on Mac using a minimal Linux machine to host docker engine, so changing machine means discarding all old data. So BECAREFUL !</description>
+      <description>Changing channel from alpha to stable will remove ALL DATA On MacOS, changing Docker channel will remove all data (includes volumes, images, networks and &amp;hellip; everything).</description>
     </item>
     
     <item>
@@ -62,9 +54,7 @@ Because Docker on Mac using a minimal Linux machine to host docker engine, so ch
       <pubDate>Wed, 24 May 2017 23:59:59 +0000</pubDate>
       
       <guid>https://khanhicetea.com/til/2017-05-24-reducing-docker-image-the-right-way/</guid>
-      <description>Reducing docker image the right way When building an image, Docker engine commit file system layer on every command (RUN, ADD, COPY). So next time you installing packages from package manager likes apt, yum, pacman, &amp;hellip;remember clean their cache in same line.
-BAD WAY
-RUN apt-get update RUN apt-get install git # Something here # End of file RUN apt-get clean &amp;amp;&amp;amp; rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*  RIGHT WAY</description>
+      <description>Reducing docker image the right way When building an image, Docker engine commit file system layer on every command (RUN, ADD, COPY).</description>
     </item>
     
     <item>
@@ -73,10 +63,7 @@ RUN apt-get update RUN apt-get install git # Something here # End of file RUN ap
       <pubDate>Sat, 19 Mar 2016 21:07:56 +0700</pubDate>
       
       <guid>https://khanhicetea.com/post/backup-and-restore-elasticsearch-using-docker/</guid>
-      <description>Introduction One day, your ElasticSearch data is large and you have to move all data to another nodes or you just want backup the data file to somewhere.
-ElasticSearch-Dump is a tool can help you on this situation, it&amp;rsquo;s written on NodeJS so can run multi-platform. You can view the documents here.
-One way more convinient if you already have Docker is running its Docker image.
-Instruction Prepare a Docker image You can build manually its Docker image by</description>
+      <description>Introduction One day, your ElasticSearch data is large and you have to move all data to another nodes or you just want backup the data file to somewhere.</description>
     </item>
     
     <item>
@@ -85,9 +72,7 @@ Instruction Prepare a Docker image You can build manually its Docker image by</d
       <pubDate>Fri, 04 Dec 2015 14:36:10 +0700</pubDate>
       
       <guid>https://khanhicetea.com/post/php5.6-vs-php7rc8-benchmarking-using-docker/</guid>
-      <description>New version of PHP, PHP7 has been released yesterday after 11 years of PHP5. I am very excited with it, so I made a benchmark to compare the performance of 2 versions.
-The fastest way to test out PHP multi-versions is using Docker image. You can get it from : https://hub.docker.com/_/php/
-Let&amp;rsquo;s start pull PHP images docker pull php:5.6 docker pull php:7  Change directory to the web root folder of PHP project (I used my micro-framework, Sifoni to test).</description>
+      <description>New version of PHP, PHP7 has been released yesterday after 11 years of PHP5. I am very excited with it, so I made a benchmark to compare the performance of 2 versions.</description>
     </item>
     
   </channel>

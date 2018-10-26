@@ -6,6 +6,7 @@
     <description>Recent content in Git on KhanhIceTea B(rain)-log</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <copyright>KhanhIceTea - Licensed under CC BY-NC-ND 3.0 | In God We Trust</copyright>
     <lastBuildDate>Tue, 26 Jun 2018 23:59:59 +0000</lastBuildDate>
     
 	<atom:link href="https://khanhicetea.com/categories/git/index.xml" rel="self" type="application/rss+xml" />
@@ -17,10 +18,7 @@
       <pubDate>Tue, 26 Jun 2018 23:59:59 +0000</pubDate>
       
       <guid>https://khanhicetea.com/til/2018-06-26-running-git-command-using-another-ssh-key/</guid>
-      <description> Running git command using another ssh key Sometimes you want to use another private key to authorize to remote repository.
-Just add an environment variable before the command you wanna run : GIT_SSH_COMMAND=&#39;ssh -i [your-private-key]
-Example :
-$ GIT_SSH_COMMAND=&#39;ssh -i ~/keys/key1&#39; git pull  </description>
+      <description>Running git command using another ssh key Sometimes you want to use another private key to authorize to remote repository.</description>
     </item>
     
     <item>
@@ -29,10 +27,7 @@ $ GIT_SSH_COMMAND=&#39;ssh -i ~/keys/key1&#39; git pull  </description>
       <pubDate>Tue, 29 May 2018 23:59:59 +0000</pubDate>
       
       <guid>https://khanhicetea.com/til/2018-05-29-put-git-data-outside-project-directory/</guid>
-      <description>Put .git data outside project directory Sometimes you want to put .git data into outside directory (to use another disk partition or to protect your git data). Use --separate-git-dir= option to get that.
-Example :
-$ git init --separate-git-dir=/var/gitstorage/myproject  Bonus : to protect .git data from other users, use this option --shared within octal value (same to chmod)
-Example : this will protect git file from writing by group and reading/writing by others</description>
+      <description>Put .git data outside project directory Sometimes you want to put .git data into outside directory (to use another disk partition or to protect your git data).</description>
     </item>
     
     <item>
@@ -41,9 +36,7 @@ Example : this will protect git file from writing by group and reading/writing b
       <pubDate>Mon, 27 Nov 2017 23:59:59 +0000</pubDate>
       
       <guid>https://khanhicetea.com/til/2017-11-27-fastly-conflict-detector-script/</guid>
-      <description>Fastly conflict detector script Last month, I built a CI solution for our project and adding a conflict detector to our build commands. This script runned so slow because it will check all application files (and our application codebase has many of css, js files).
-This was the script
-#!/bin/bash grep -rli --exclude=conflict_detector.sh --exclude-dir={.git,vendor,node_modules} &amp;quot;&amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt; HEAD&amp;quot; . if [ $? -eq 0 ]; then exit 1 else exit 0 fi  Today, I think why don&amp;rsquo;t we just check recently updated files (in the latest commit) ?</description>
+      <description>Fastly conflict detector script Last month, I built a CI solution for our project and adding a conflict detector to our build commands.</description>
     </item>
     
     <item>
@@ -52,9 +45,7 @@ This was the script
       <pubDate>Wed, 22 Nov 2017 23:59:59 +0000</pubDate>
       
       <guid>https://khanhicetea.com/til/2017-11-22-using-git-hooks-to-improve-working-flow/</guid>
-      <description>using git hooks to improve working flow We can improve our team workflow by defining some git hooks that trigger on specified events. You can read all events and their usecases here : https://www.digitalocean.com/community/tutorials/how-to-use-git-hooks-to-automate-development-and-deployment-tasks
-This is what I implemented to my today-i-learned repo. I used pre-commit to update Table of Contents in the README.md file, so every content in my repo will be updated on Github repo page.
-$ ln pre-commit .</description>
+      <description>using git hooks to improve working flow We can improve our team workflow by defining some git hooks that trigger on specified events.</description>
     </item>
     
     <item>
@@ -63,9 +54,7 @@ $ ln pre-commit .</description>
       <pubDate>Tue, 13 Jun 2017 23:59:59 +0000</pubDate>
       
       <guid>https://khanhicetea.com/til/2017-06-13-resolving-conflict-like-a-boss/</guid>
-      <description>Resolving conflict like a boss When using git merge new branch to old branch, you just want use all ours or theirs version but be lazy to update every conflicted file.
-grep -lr &#39;&amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt;&#39; . | xargs git checkout --ours  Or
-grep -lr &#39;&amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt;&#39; . | xargs git checkout --theirs  Explain : these commands will find any file contains &amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt; string (conflicted file) and run git checkout --[side]</description>
+      <description>Resolving conflict like a boss When using git merge new branch to old branch, you just want use all ours or theirs version but be lazy to update every conflicted file.</description>
     </item>
     
   </channel>

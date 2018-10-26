@@ -6,6 +6,7 @@
     <description>Recent content in Sql on KhanhIceTea B(rain)-log</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <copyright>KhanhIceTea - Licensed under CC BY-NC-ND 3.0 | In God We Trust</copyright>
     <lastBuildDate>Tue, 01 Dec 2015 23:59:59 +0000</lastBuildDate>
     
 	<atom:link href="https://khanhicetea.com/tags/sql/index.xml" rel="self" type="application/rss+xml" />
@@ -17,9 +18,7 @@
       <pubDate>Tue, 01 Dec 2015 23:59:59 +0000</pubDate>
       
       <guid>https://khanhicetea.com/til/2015-12-01-index-is-useless-when-use-function-on-indexed-field/</guid>
-      <description> Index is useless when use function on indexed field Reality, if using function on indexed field, you will broke indexing by accident. Eg:
-WHERE MONTH(`date`) = 11 AND YEAR(`date`) = 2015  Solution is transform the query to comparison query, like this :
-WHERE `date` &amp;gt;= &#39;2015-11-01&#39; AND `date` &amp;lt; &#39;2015-12-01&#39;  </description>
+      <description>Index is useless when use function on indexed field Reality, if using function on indexed field, you will broke indexing by accident.</description>
     </item>
     
   </channel>

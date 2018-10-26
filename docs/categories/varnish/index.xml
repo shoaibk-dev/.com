@@ -6,6 +6,7 @@
     <description>Recent content in Varnish on KhanhIceTea B(rain)-log</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <copyright>KhanhIceTea - Licensed under CC BY-NC-ND 3.0 | In God We Trust</copyright>
     <lastBuildDate>Wed, 31 Jan 2018 23:59:59 +0000</lastBuildDate>
     
 	<atom:link href="https://khanhicetea.com/categories/varnish/index.xml" rel="self" type="application/rss+xml" />
@@ -17,9 +18,7 @@
       <pubDate>Wed, 31 Jan 2018 23:59:59 +0000</pubDate>
       
       <guid>https://khanhicetea.com/til/2018-01-31-check-vcl-file-syntax-before-restarting/</guid>
-      <description>Check vcl file syntax before restarting Like NginX, Varnish has a syntax checker function that helps us test the syntactic correctness.
-$ varnishd -C -f [vcl file path]  Varnish will compile the file and output the result to stdout. If something goes wrong, it will throw a message like
-&amp;gt; Message from VCC-compiler: &amp;gt; Expected an action, &#39;if&#39;, &#39;{&#39; or &#39;}&#39; &amp;gt; (&#39;input&#39; Line 74 Pos 6) &amp;gt; vcl_hash(req.</description>
+      <description>Check vcl file syntax before restarting Like NginX, Varnish has a syntax checker function that helps us test the syntactic correctness.</description>
     </item>
     
   </channel>

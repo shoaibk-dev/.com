@@ -6,6 +6,7 @@
     <description>Recent content in Security on KhanhIceTea B(rain)-log</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <copyright>KhanhIceTea - Licensed under CC BY-NC-ND 3.0 | In God We Trust</copyright>
     <lastBuildDate>Sat, 25 Aug 2018 23:59:59 +0000</lastBuildDate>
     
 	<atom:link href="https://khanhicetea.com/tags/security/index.xml" rel="self" type="application/rss+xml" />
@@ -17,9 +18,7 @@
       <pubDate>Sat, 25 Aug 2018 23:59:59 +0000</pubDate>
       
       <guid>https://khanhicetea.com/til/2018-08-25-the-safest-way-to-reset-root-password-of-mysql-server/</guid>
-      <description>The safest way to reset root password of MySQL Server When you get stucked in this error message &amp;ldquo;Access denied for user &amp;lsquo;root@localhost&amp;rsquo; &amp;hellip;&amp;rdquo;, you search the way to reset the root password on the Internet, but life is Hard ! (No answer makes you feel it&amp;rsquo;s right way, even some do not work)
-So to solve this problem, we need to understand MySQL Authentication
-Step 1 : Disable MySQL Authentication by skip loading grant-tables on loading MySQL server</description>
+      <description>The safest way to reset root password of MySQL Server When you get stucked in this error message &amp;ldquo;Access denied for user &amp;lsquo;root@localhost&amp;rsquo; &amp;hellip;&amp;rdquo;, you search the way to reset the root password on the Internet, but life is Hard !</description>
     </item>
     
     <item>
@@ -28,9 +27,7 @@ Step 1 : Disable MySQL Authentication by skip loading grant-tables on loading My
       <pubDate>Wed, 14 Mar 2018 23:59:59 +0000</pubDate>
       
       <guid>https://khanhicetea.com/til/2018-03-14-install-ca-root-certificate-on-ios-device/</guid>
-      <description>Install CA root certificate on iOS device Disclaimer : ⚠️ You can do it, but it&amp;rsquo;s at your own risk !
-Sometimes you want to accept a SSL firewall proxy or self-MITM proxy, the important step is installing its CA root certificate to your device. Because iOS apps almost use all https connections (that&amp;rsquo;s new rule).
-This is the way to install and enable custom CA Root cert :</description>
+      <description>Install CA root certificate on iOS device Disclaimer : ⚠️ You can do it, but it&amp;rsquo;s at your own risk !</description>
     </item>
     
     <item>
@@ -39,9 +36,7 @@ This is the way to install and enable custom CA Root cert :</description>
       <pubDate>Thu, 01 Mar 2018 23:59:59 +0000</pubDate>
       
       <guid>https://khanhicetea.com/til/2018-03-01-prevent-source-hacking-from-git-directory-exposing/</guid>
-      <description>Prevent source hacking from .git directory exposing Many web project use Git as source version control tools. So in production server, we could expose the hidden .git directory - which contains all most infomation about project source code.
-To &amp;ldquo;rip&amp;rdquo; a source code from a vulnerable website, we can use this tool : https://github.com/kost/dvcs-ripper#git
-So to prevent this happens, try to deny all http access to hidden files and directories (usually starts by .</description>
+      <description>Prevent source hacking from .git directory exposing Many web project use Git as source version control tools.</description>
     </item>
     
     <item>
@@ -50,9 +45,7 @@ So to prevent this happens, try to deny all http access to hidden files and dire
       <pubDate>Tue, 16 Jan 2018 23:59:59 +0000</pubDate>
       
       <guid>https://khanhicetea.com/til/2018-01-16-set-up-simple-rate-limiting-on-specified-port-using-ufw/</guid>
-      <description>Set up simple rate limiting on specified port using UFW Allow unmetrered connections on networking is so risky. Attacker can use the brute-force attacks to comprosise your service (or simple DOS).
-Linux has a cool firewall to hanlde this, via ip-tables. But it&amp;rsquo;s so complicated to remember all the rule and syntax. That&amp;rsquo;s why UFW was born to save us. :D
-You can use simple command to manage your firewall</description>
+      <description>Set up simple rate limiting on specified port using UFW Allow unmetrered connections on networking is so risky.</description>
     </item>
     
     <item>
@@ -61,9 +54,7 @@ You can use simple command to manage your firewall</description>
       <pubDate>Wed, 03 Jan 2018 23:59:59 +0000</pubDate>
       
       <guid>https://khanhicetea.com/til/2018-01-03-hsts-rule-in-browser/</guid>
-      <description>HSTS rule in browser HTTP Strict Transport Security (HSTS) is a web security policy mechanism which helps to protect websites against protocol downgrade attacks and cookie hijacking.
-Enabling HSTS on your web will make your browser validate every SSL issues more strictly :
- User can not visit http version on browser User can not add SSL exception for the domain to ignore the warning. (when SSL cert expire or invalid common name)  Note : You can manually remove a domain from HSTS in Chrome by accessing this page URL chrome://net-internals/#hsts</description>
+      <description>HSTS rule in browser HTTP Strict Transport Security (HSTS) is a web security policy mechanism which helps to protect websites against protocol downgrade attacks and cookie hijacking.</description>
     </item>
     
     <item>
@@ -72,12 +63,7 @@ Enabling HSTS on your web will make your browser validate every SSL issues more 
       <pubDate>Fri, 01 Sep 2017 23:59:59 +0000</pubDate>
       
       <guid>https://khanhicetea.com/til/2017-09-01-create-ssh-tunnel-manually/</guid>
-      <description>Create SSH tunnel manually SSH Tunnel is a fast way to transfer traffic through unsafe internet today. It would be used in MySQL connect, FTP connect or HTTP connect, &amp;hellip;
-Syntax :
-$ ssh -L [local_port]:[remote_endpoint]:[remote_port] [ssh_user]:[ssh_ip]  Example :
-Lets say you have a EC2 instance (123.45.67.89) and remote DB instance (98.76.54.32) listening port 3306
-$ ssh -L 3307:98.76.54.32:3306 root@123.45.67.89  Testing ssh tunnel
-$ telnet 127.0.0.1 3307 $ # or $ mysql -h 127.</description>
+      <description>Create SSH tunnel manually SSH Tunnel is a fast way to transfer traffic through unsafe internet today.</description>
     </item>
     
     <item>
@@ -86,10 +72,7 @@ $ telnet 127.0.0.1 3307 $ # or $ mysql -h 127.</description>
       <pubDate>Sun, 06 Aug 2017 23:59:59 +0000</pubDate>
       
       <guid>https://khanhicetea.com/til/2017-08-06-runing-old-java-applets-on-brower/</guid>
-      <description>Runing old java applets on brower Mostly morden browser has stop support Java plugins, so you can&amp;rsquo;t run Java applet on browser.
-Temporary way : - run in IE or Safari - run in an old Firefox (version 23)
-And what if old java applet can&amp;rsquo;t be runned on Java 8 because of weak signature algorithm. Try this
- Open java.security file :  In MacOS, located in /Library/Java/JavaVirtualMachines/jdk[jdk-version].jdk/Contents/Home/jre/lib/security In Windows, located in C:\Program File x86\Java\jre\lib\security  Comment this line, jdk.</description>
+      <description>Runing old java applets on brower Mostly morden browser has stop support Java plugins, so you can&amp;rsquo;t run Java applet on browser.</description>
     </item>
     
   </channel>

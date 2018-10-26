@@ -6,6 +6,7 @@
     <description>Recent content in Benchmarking on KhanhIceTea B(rain)-log</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <copyright>KhanhIceTea - Licensed under CC BY-NC-ND 3.0 | In God We Trust</copyright>
     <lastBuildDate>Fri, 04 Dec 2015 14:36:10 +0700</lastBuildDate>
     
 	<atom:link href="https://khanhicetea.com/tags/benchmarking/index.xml" rel="self" type="application/rss+xml" />
@@ -17,9 +18,7 @@
       <pubDate>Fri, 04 Dec 2015 14:36:10 +0700</pubDate>
       
       <guid>https://khanhicetea.com/post/php5.6-vs-php7rc8-benchmarking-using-docker/</guid>
-      <description>New version of PHP, PHP7 has been released yesterday after 11 years of PHP5. I am very excited with it, so I made a benchmark to compare the performance of 2 versions.
-The fastest way to test out PHP multi-versions is using Docker image. You can get it from : https://hub.docker.com/_/php/
-Let&amp;rsquo;s start pull PHP images docker pull php:5.6 docker pull php:7  Change directory to the web root folder of PHP project (I used my micro-framework, Sifoni to test).</description>
+      <description>New version of PHP, PHP7 has been released yesterday after 11 years of PHP5. I am very excited with it, so I made a benchmark to compare the performance of 2 versions.</description>
     </item>
     
   </channel>

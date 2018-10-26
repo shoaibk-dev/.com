@@ -6,6 +6,7 @@
     <description>Recent content in Php7 on KhanhIceTea B(rain)-log</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <copyright>KhanhIceTea - Licensed under CC BY-NC-ND 3.0 | In God We Trust</copyright>
     <lastBuildDate>Fri, 25 Mar 2016 14:41:46 +0700</lastBuildDate>
     
 	<atom:link href="https://khanhicetea.com/tags/php7/index.xml" rel="self" type="application/rss+xml" />
@@ -17,8 +18,7 @@
       <pubDate>Fri, 25 Mar 2016 14:41:46 +0700</pubDate>
       
       <guid>https://khanhicetea.com/post/setup_php7_dev_enviroment/</guid>
-      <description>Setup requirements Install VirtualBox  Goto https://www.virtualbox.org/wiki/Downloads and download Virtualbox binary based on your OS. Install Virtualbox for virtualization  Install Vagrant  Goto https://www.vagrantup.com/downloads.html and download vagrant binary based on your OS. Install Vagrant from binary  Verify all requirements Open the terminal and try this command to verify Virtualbox is ready.
-$ Virtualbox -h  Open the terminal and try this command to verify Vagrant is ready.</description>
+      <description>Setup requirements Install VirtualBox  Goto https://www.virtualbox.org/wiki/Downloads and download Virtualbox binary based on your OS. Install Virtualbox for virtualization  Install Vagrant  Goto https://www.</description>
     </item>
     
   </channel>

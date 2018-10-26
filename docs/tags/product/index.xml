@@ -6,6 +6,7 @@
     <description>Recent content in Product on KhanhIceTea B(rain)-log</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <copyright>KhanhIceTea - Licensed under CC BY-NC-ND 3.0 | In God We Trust</copyright>
     <lastBuildDate>Wed, 03 Jan 2018 23:59:59 +0000</lastBuildDate>
     
 	<atom:link href="https://khanhicetea.com/tags/product/index.xml" rel="self" type="application/rss+xml" />
@@ -17,9 +18,7 @@
       <pubDate>Wed, 03 Jan 2018 23:59:59 +0000</pubDate>
       
       <guid>https://khanhicetea.com/til/2018-01-03-create-cross-platform-downloading-app-url/</guid>
-      <description>Create cross-platform downloading app URL You have a mobile app for both platforms iOS and Android, each platform has different download URL. But your user doesn&amp;rsquo;t know which platform he using. Clicking wrong URL will lead to user bounce-rate.
-Solution is making only 1 URL to download your app, which can redirect to right place depends on using platform. So how we achieve this ??
-The key of problem is detecting user platform, which can be done by extracting the User-Agent header from http request.</description>
+      <description>Create cross-platform downloading app URL You have a mobile app for both platforms iOS and Android, each platform has different download URL.</description>
     </item>
     
     <item>
@@ -29,10 +28,7 @@ The key of problem is detecting user platform, which can be done by extracting t
       
       <guid>https://khanhicetea.com/post/smtpor-dead-simple-smtp-testing/</guid>
       <description>Never need a bigass mail client to test your SMTP config !
- Github Repo : https://github.com/khanhicetea/smtpor
-Demo TL;DR Using Docker to run
-$ docker run -d -p 3000:3000 khanhicetea/smtpor  Then open http://localhost:3000 to try a shot !
-Install &amp;amp; Start $ npm install $ npm start  Heroku Deploying $ heroku login $ heroku git:remote -a [your-app-name] $ git push heroku master  Contributors  @khanhicetea  License MIT License</description>
+ Github Repo : https://github.</description>
     </item>
     
   </channel>

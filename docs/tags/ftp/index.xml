@@ -6,6 +6,7 @@
     <description>Recent content in Ftp on KhanhIceTea B(rain)-log</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <copyright>KhanhIceTea - Licensed under CC BY-NC-ND 3.0 | In God We Trust</copyright>
     <lastBuildDate>Thu, 03 Dec 2015 23:59:59 +0000</lastBuildDate>
     
 	<atom:link href="https://khanhicetea.com/tags/ftp/index.xml" rel="self" type="application/rss+xml" />
@@ -17,8 +18,7 @@
       <pubDate>Thu, 03 Dec 2015 23:59:59 +0000</pubDate>
       
       <guid>https://khanhicetea.com/til/2015-12-03-ftp-via-curl-tool/</guid>
-      <description> FTP via curl tool Can upload an file via FTP by curl tool with handy script :
-curl -T file_need_to_upload ftp://hostname --user user:passwd  </description>
+      <description>FTP via curl tool Can upload an file via FTP by curl tool with handy script :</description>
     </item>
     
   </channel>

@@ -6,6 +6,7 @@
     <description>Recent content in File on KhanhIceTea B(rain)-log</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <copyright>KhanhIceTea - Licensed under CC BY-NC-ND 3.0 | In God We Trust</copyright>
     <lastBuildDate>Sun, 25 Mar 2018 23:59:59 +0000</lastBuildDate>
     
 	<atom:link href="https://khanhicetea.com/tags/file/index.xml" rel="self" type="application/rss+xml" />
@@ -17,9 +18,7 @@
       <pubDate>Sun, 25 Mar 2018 23:59:59 +0000</pubDate>
       
       <guid>https://khanhicetea.com/til/2018-03-25-cut-file-content-from-line-to-line/</guid>
-      <description>Cut file content from line to line In case you have a big file which contains a lot of content (2+ GB). And you only need a small part from the file (the part is continuous string from line X to line Y).
-You have many ways to achieve that :
- Use vi editor and delete from line 1 to line (X-1) by press [X-1]dd then go to line (Y-X+2) and delete to last line by press dG Use sed -n &#39;[X][Y]p&#39; [input_file] &amp;gt; [output_file].</description>
+      <description>Cut file content from line to line In case you have a big file which contains a lot of content (2+ GB).</description>
     </item>
     
     <item>
@@ -28,11 +27,7 @@ You have many ways to achieve that :
       <pubDate>Sun, 25 Mar 2018 23:59:59 +0000</pubDate>
       
       <guid>https://khanhicetea.com/til/2018-03-25-prepend-line-number-to-file/</guid>
-      <description>Prepend line number to file When you want to prepend line number in every line of file, use the -n flag of cat tool.
-Example :
-cat -n a.txt
-Or even from many file
-cat -n a.txt b.txt c.txt</description>
+      <description>Prepend line number to file When you want to prepend line number in every line of file, use the -n flag of cat tool.</description>
     </item>
     
   </channel>

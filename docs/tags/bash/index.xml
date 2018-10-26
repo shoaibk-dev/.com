@@ -6,6 +6,7 @@
     <description>Recent content in Bash on KhanhIceTea B(rain)-log</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <copyright>KhanhIceTea - Licensed under CC BY-NC-ND 3.0 | In God We Trust</copyright>
     <lastBuildDate>Tue, 07 Aug 2018 23:59:59 +0000</lastBuildDate>
     
 	<atom:link href="https://khanhicetea.com/tags/bash/index.xml" rel="self" type="application/rss+xml" />
@@ -17,10 +18,7 @@
       <pubDate>Tue, 07 Aug 2018 23:59:59 +0000</pubDate>
       
       <guid>https://khanhicetea.com/til/2018-08-07-curl-extract-info-from-verbose-mode/</guid>
-      <description>Curl extract info from verbose mode Curl is great tool to do thing with HTTP in command line interface. Sometimes your want to get extra info from HTTP response and put in a variable. Here is the way :
-Using --write-out is magical option help you to write out all info you want, or put it in a variable.
-Example :
-$ code=$(curl --write-out %{response_code} --silent --output /dev/null https://khanhicetea.com) $ echo $code # get http response status code 200  $ tracetime=$(curl --write-out &amp;quot;%{time_namelookup} %{time_connect} %{time_appconnect} %{time_pretransfer} %{time_redirect} %{time_starttransfer} %{time_total}&amp;quot; --silent --output /dev/null https://khanhicetea.</description>
+      <description>Curl extract info from verbose mode Curl is great tool to do thing with HTTP in command line interface.</description>
     </item>
     
     <item>
@@ -29,12 +27,7 @@ $ code=$(curl --write-out %{response_code} --silent --output /dev/null https://k
       <pubDate>Mon, 06 Aug 2018 23:59:59 +0000</pubDate>
       
       <guid>https://khanhicetea.com/til/2018-08-06-internal-variables-in-bash/</guid>
-      <description>Internal Variables in BASH $PWD Your current working directory, so you don&amp;rsquo;t have to use CWD=$(pwd)
-$OLDPWD Your previous working directory
-Note : You can jump directly to it by the command cd -
-$SECONDS The number of seconds the script has been running
-You can use it for profiling or limiting timeout
-TIME_LIMIT=60 START=$SECONDS while [ $(($SECONDS - START)) -le &amp;quot;$TIME_LIMIT&amp;quot; ] do ## Your work here done echo &amp;quot;It takes $SECONDS seconds to get here !</description>
+      <description>Internal Variables in BASH $PWD Your current working directory, so you don&amp;rsquo;t have to use CWD=$(pwd)</description>
     </item>
     
     <item>
@@ -43,8 +36,7 @@ TIME_LIMIT=60 START=$SECONDS while [ $(($SECONDS - START)) -le &amp;quot;$TIME_L
       <pubDate>Thu, 05 Oct 2017 23:59:59 +0000</pubDate>
       
       <guid>https://khanhicetea.com/til/2017-10-05-simple-http-server-function-helper/</guid>
-      <description> Simple HTTP server function helper I use python3 (3.4+) to create a bash function to help me start quickly a simple http server on specified port
-function server() { local port=&amp;quot;${1:-8000}&amp;quot; # Getting port number google-chrome &amp;quot;http://127.0.0.1:$port&amp;quot; # Open URL in browser, could change to firefox --new-tab &amp;quot;http://127.0.0.1:$port&amp;quot; python3 -m http.server $port --bind 127.0.0.1 }  </description>
+      <description>Simple HTTP server function helper I use python3 (3.4+) to create a bash function to help me start quickly a simple http server on specified port</description>
     </item>
     
     <item>
@@ -54,9 +46,7 @@ function server() { local port=&amp;quot;${1:-8000}&amp;quot; # Getting port num
       
       <guid>https://khanhicetea.com/til/2017-09-27-bash-tracing-commands/</guid>
       <description>BASH tracing commands Thank Hiro Ishii for teaching me this
-set -x will print all running commands in your bash script
-So I dove in and look for all set options of BASH.
-And this is what I got , http://www.gnu.org/software/bash/manual/html_node/The-Set-Builtin.html</description>
+set -x will print all running commands in your bash script</description>
     </item>
     
     <item>
@@ -65,9 +55,7 @@ And this is what I got , http://www.gnu.org/software/bash/manual/html_node/The-S
       <pubDate>Tue, 26 Sep 2017 23:59:59 +0000</pubDate>
       
       <guid>https://khanhicetea.com/til/2017-09-26-bash-exiting-on-first-error/</guid>
-      <description> BASH exiting on first error Setting a flag set -e to bash script will let the script exit on first error occurs, so if you want to ignore a command just adding || true to suffix
-set -e errorCmd $1 || true echo &amp;quot;Run here !&amp;quot;  And opposite of set -e is set +e, haha of course !
-set +e errorCmd $1 echo &amp;quot;Still run here !&amp;quot;  </description>
+      <description>BASH exiting on first error Setting a flag set -e to bash script will let the script exit on first error occurs, so if you want to ignore a command just adding || true to suffix</description>
     </item>
     
     <item>
@@ -76,9 +64,7 @@ set +e errorCmd $1 echo &amp;quot;Still run here !&amp;quot;  </description>
       <pubDate>Tue, 26 Sep 2017 23:59:59 +0000</pubDate>
       
       <guid>https://khanhicetea.com/til/2017-09-26-bash-return-a-value-in-function/</guid>
-      <description>BASH return a value in function Creating function is a good way to refactor your bash script. But BASH doesn&amp;rsquo;t support returning a value in true way, so it makes a bit of challenge to handle that.
-You can use this trick
-hello() { echo &amp;quot;Hello $1&amp;quot; } hw=$(hello &amp;quot;KhanhIceTea&amp;quot;) echo $hw  But what if you want to echo log message in hello function, it will be merged to returned value.</description>
+      <description>BASH return a value in function Creating function is a good way to refactor your bash script.</description>
     </item>
     
     <item>
@@ -87,11 +73,7 @@ hello() { echo &amp;quot;Hello $1&amp;quot; } hw=$(hello &amp;quot;KhanhIceTea&a
       <pubDate>Mon, 22 May 2017 23:59:59 +0000</pubDate>
       
       <guid>https://khanhicetea.com/til/2017-05-22-zcat-decompressing-pipe-tool/</guid>
-      <description> zcat : decompressing pipe tool zcat is a tool that creates a pipe from gz file. It makes command cleaner and faster (maybe). You don&amp;rsquo;t have to decompress gz file before using next tool.
-Examples :
-Finding string in gzip text file
-$ zcat secret.gz | grep &#39;42&#39;  Importing SQL backup file
-$ mysqldump -u root -p db_name1 | gzip &amp;gt; db_name.sql.gz $ zcat db_name.sql.gz | mysql -u root -p db_name_2  </description>
+      <description>zcat : decompressing pipe tool zcat is a tool that creates a pipe from gz file.</description>
     </item>
     
     <item>
@@ -100,9 +82,7 @@ $ mysqldump -u root -p db_name1 | gzip &amp;gt; db_name.sql.gz $ zcat db_name.sq
       <pubDate>Fri, 19 May 2017 23:59:59 +0000</pubDate>
       
       <guid>https://khanhicetea.com/til/2017-05-19-checking-forced-push-conflicts-on-source-code-in-auto-testing/</guid>
-      <description>Checking forced push conflicts on source code in auto testing Using automated CI solution likes Travis, Jenkins, DroneCI, &amp;hellip; is good solution to ensure quality of software and no breaks in deployment.
-Sometimes, developers force push conflicts part to production branch of source code. If the CI tests only backend (python, ruby, php, go, ..) and forget about frontend code, then your application will be exploded !
-So checking the conflicts code is required step before testing backend and deployment.</description>
+      <description>Checking forced push conflicts on source code in auto testing Using automated CI solution likes Travis, Jenkins, DroneCI, &amp;hellip; is good solution to ensure quality of software and no breaks in deployment.</description>
     </item>
     
     <item>
@@ -112,10 +92,7 @@ So checking the conflicts code is required step before testing backend and deplo
       
       <guid>https://khanhicetea.com/post/kick-start-docker-environment-on-ubuntu/</guid>
       <description>What does script do :
- Install latest Docker Engine Install latest Docker Compose tool AND last but not least, a congratuation message !  Here is the script :
-  Hm.. it&amp;rsquo;s exactly docker images are building instead
- Ref:
- Docker meme from developermemes.com  </description>
+ Install latest Docker Engine Install latest Docker Compose tool AND last but not least, a congratuation message !</description>
     </item>
     
     <item>
@@ -125,9 +102,7 @@ So checking the conflicts code is required step before testing backend and deplo
       
       <guid>https://khanhicetea.com/post/kick-start-a-lemp-stack-on-ubuntu-16-04/</guid>
       <description>LEMP = Linux + EngineX(NginX) + MySQL + PHP
- Too tired for doing same tasks over and over again. I made this script to help me (and you) on kicking start a new LEMP stack on production server. Hope it useful !
-What does script do :
- Disable IPv6 (it&amp;rsquo;s not ready for production at the moment) Configure firewall (only accepts port 22, 80 and 443) Disable password authentication to SSH service Upgrade system Install useful tools (git, screen, vim, curl and lego for LetsEncrypt ACME) NginX MySQL 5.</description>
+ Too tired for doing same tasks over and over again.</description>
     </item>
     
     <item>
@@ -145,9 +120,7 @@ What does script do :
       <pubDate>Sat, 26 Mar 2016 23:59:59 +0000</pubDate>
       
       <guid>https://khanhicetea.com/til/2016-03-26-stats-your-top-10-frequently-commands/</guid>
-      <description> Stats your top-10 frequently commands Run this command, it will show top-10 frequently commands, explain shell
-$ history | awk &#39;{print $2}&#39; | sort | uniq -c | sort -nr | head  Example result
-2064 git 1284 ls 826 cd 700 ssh 602 clear 491 python 473 exit 341 vagrant 242 export 167 ping  </description>
+      <description>Stats your top-10 frequently commands Run this command, it will show top-10 frequently commands, explain shell</description>
     </item>
     
     <item>

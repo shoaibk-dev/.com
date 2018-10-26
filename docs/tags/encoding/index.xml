@@ -6,6 +6,7 @@
     <description>Recent content in Encoding on KhanhIceTea B(rain)-log</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <copyright>KhanhIceTea - Licensed under CC BY-NC-ND 3.0 | In God We Trust</copyright>
     <lastBuildDate>Fri, 21 Apr 2017 23:59:59 +0000</lastBuildDate>
     
 	<atom:link href="https://khanhicetea.com/tags/encoding/index.xml" rel="self" type="application/rss+xml" />
@@ -17,8 +18,7 @@
       <pubDate>Fri, 21 Apr 2017 23:59:59 +0000</pubDate>
       
       <guid>https://khanhicetea.com/til/2017-04-21-base-64-encode-and-decode-builtin-tool/</guid>
-      <description> Base 64 encode and decode builtin tool Browsers have helpers function to encode and decode base64 :
- btoa : base64 encode atob : base64 decode  &amp;gt; btoa(&#39;Hello world&#39;) &amp;quot;SGVsbG8gV29ybGQgIQ==&amp;quot; &amp;gt; atob(&#39;SW4gR29kIFdlIFRydXN0ICE=&#39;) &amp;quot;In God We Trust !&amp;quot;  </description>
+      <description>Base 64 encode and decode builtin tool Browsers have helpers function to encode and decode base64 :</description>
     </item>
     
   </channel>

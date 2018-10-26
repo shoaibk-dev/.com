@@ -6,6 +6,7 @@
     <description>Recent content in Shell on KhanhIceTea B(rain)-log</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <copyright>KhanhIceTea - Licensed under CC BY-NC-ND 3.0 | In God We Trust</copyright>
     <lastBuildDate>Mon, 06 Aug 2018 23:59:59 +0000</lastBuildDate>
     
 	<atom:link href="https://khanhicetea.com/tags/shell/index.xml" rel="self" type="application/rss+xml" />
@@ -17,12 +18,7 @@
       <pubDate>Mon, 06 Aug 2018 23:59:59 +0000</pubDate>
       
       <guid>https://khanhicetea.com/til/2018-08-06-internal-variables-in-bash/</guid>
-      <description>Internal Variables in BASH $PWD Your current working directory, so you don&amp;rsquo;t have to use CWD=$(pwd)
-$OLDPWD Your previous working directory
-Note : You can jump directly to it by the command cd -
-$SECONDS The number of seconds the script has been running
-You can use it for profiling or limiting timeout
-TIME_LIMIT=60 START=$SECONDS while [ $(($SECONDS - START)) -le &amp;quot;$TIME_LIMIT&amp;quot; ] do ## Your work here done echo &amp;quot;It takes $SECONDS seconds to get here !</description>
+      <description>Internal Variables in BASH $PWD Your current working directory, so you don&amp;rsquo;t have to use CWD=$(pwd)</description>
     </item>
     
     <item>
@@ -32,9 +28,7 @@ TIME_LIMIT=60 START=$SECONDS while [ $(($SECONDS - START)) -le &amp;quot;$TIME_L
       
       <guid>https://khanhicetea.com/til/2017-09-27-bash-tracing-commands/</guid>
       <description>BASH tracing commands Thank Hiro Ishii for teaching me this
-set -x will print all running commands in your bash script
-So I dove in and look for all set options of BASH.
-And this is what I got , http://www.gnu.org/software/bash/manual/html_node/The-Set-Builtin.html</description>
+set -x will print all running commands in your bash script</description>
     </item>
     
     <item>
@@ -43,9 +37,7 @@ And this is what I got , http://www.gnu.org/software/bash/manual/html_node/The-S
       <pubDate>Tue, 26 Sep 2017 23:59:59 +0000</pubDate>
       
       <guid>https://khanhicetea.com/til/2017-09-26-bash-exiting-on-first-error/</guid>
-      <description> BASH exiting on first error Setting a flag set -e to bash script will let the script exit on first error occurs, so if you want to ignore a command just adding || true to suffix
-set -e errorCmd $1 || true echo &amp;quot;Run here !&amp;quot;  And opposite of set -e is set +e, haha of course !
-set +e errorCmd $1 echo &amp;quot;Still run here !&amp;quot;  </description>
+      <description>BASH exiting on first error Setting a flag set -e to bash script will let the script exit on first error occurs, so if you want to ignore a command just adding || true to suffix</description>
     </item>
     
     <item>
@@ -54,9 +46,7 @@ set +e errorCmd $1 echo &amp;quot;Still run here !&amp;quot;  </description>
       <pubDate>Tue, 26 Sep 2017 23:59:59 +0000</pubDate>
       
       <guid>https://khanhicetea.com/til/2017-09-26-bash-return-a-value-in-function/</guid>
-      <description>BASH return a value in function Creating function is a good way to refactor your bash script. But BASH doesn&amp;rsquo;t support returning a value in true way, so it makes a bit of challenge to handle that.
-You can use this trick
-hello() { echo &amp;quot;Hello $1&amp;quot; } hw=$(hello &amp;quot;KhanhIceTea&amp;quot;) echo $hw  But what if you want to echo log message in hello function, it will be merged to returned value.</description>
+      <description>BASH return a value in function Creating function is a good way to refactor your bash script.</description>
     </item>
     
     <item>
@@ -65,10 +55,7 @@ hello() { echo &amp;quot;Hello $1&amp;quot; } hw=$(hello &amp;quot;KhanhIceTea&a
       <pubDate>Mon, 22 May 2017 23:59:59 +0000</pubDate>
       
       <guid>https://khanhicetea.com/til/2017-05-22-using-bsd-find-util-to-find-and-exec-command-on-file-and-folder/</guid>
-      <description>Using BSD find util to find and exec command on file and folder Simple syntax of find
-$ find [find_path] -type [file_type] -exec [command] {} \;  Add filename matching pattern to filter the result
-$ find [find_path] -name &amp;quot;*.php&amp;quot; -type [file_type] -exec [command] {} \;  Where file_type is :
- b : block special c : character special d : directory f : regular file l : symbolic link p : FIFO s : socket  Examples:</description>
+      <description>Using BSD find util to find and exec command on file and folder Simple syntax of find</description>
     </item>
     
     <item>
@@ -77,8 +64,8 @@ $ find [find_path] -name &amp;quot;*.php&amp;quot; -type [file_type] -exec [comm
       <pubDate>Fri, 19 May 2017 23:59:59 +0000</pubDate>
       
       <guid>https://khanhicetea.com/til/2017-05-19-wget-output-flag/</guid>
-      <description> wget Output flag -O means output
-$ # output file will be index.html or based on header filename $ wget -O www.abc.xyz  $ # output file will be filename.html $ wget -O filename.html www.abc.xyz  $ # output to stdout $ wget -O- www.abc.xyz $ wget -O- https://gist.githubusercontent.com/khanhicetea/4fa9f5103cd7fbc2d2270abce05c9c2b/raw/helloworld.sh | bash  </description>
+      <description>wget Output flag -O means output
+$ # output file will be index.html or based on header filename $ wget -O www.</description>
     </item>
     
     <item>

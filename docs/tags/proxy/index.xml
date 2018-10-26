@@ -6,6 +6,7 @@
     <description>Recent content in Proxy on KhanhIceTea B(rain)-log</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <copyright>KhanhIceTea - Licensed under CC BY-NC-ND 3.0 | In God We Trust</copyright>
     <lastBuildDate>Thu, 07 Dec 2017 23:59:59 +0000</lastBuildDate>
     
 	<atom:link href="https://khanhicetea.com/tags/proxy/index.xml" rel="self" type="application/rss+xml" />
@@ -17,8 +18,7 @@
       <pubDate>Thu, 07 Dec 2017 23:59:59 +0000</pubDate>
       
       <guid>https://khanhicetea.com/til/2017-12-07-using-web-proxy-to-bypass-firewalls/</guid>
-      <description>Using web proxy to bypass firewalls Someday, you will be blocked by a firewall while trying crawling or accessing some website. The reason is they block your IP address from accessing the server.
-One solution is using a web proxy (http proxy, socks4 or socks5) to bypass the firewall, by adding the middle-man server between you and target. It&amp;rsquo;s a bit unsecured but you could use for https site only.</description>
+      <description>Using web proxy to bypass firewalls Someday, you will be blocked by a firewall while trying crawling or accessing some website.</description>
     </item>
     
     <item>
@@ -27,10 +27,7 @@ One solution is using a web proxy (http proxy, socks4 or socks5) to bypass the f
       <pubDate>Fri, 01 Sep 2017 23:59:59 +0000</pubDate>
       
       <guid>https://khanhicetea.com/til/2017-09-01-enable-reverse-proxy-in-centos/</guid>
-      <description> Enable reverse proxy in CentOS CentOS with SELinux enabled by default will block any http proxy connection. So you have to enable this permission.
-Temporary enable
-$ /usr/sbin/setsebool httpd_can_network_connect 1  Permanent enable
-$ /usr/sbin/setsebool -P httpd_can_network_connect 1  </description>
+      <description>Enable reverse proxy in CentOS CentOS with SELinux enabled by default will block any http proxy connection.</description>
     </item>
     
     <item>
@@ -39,9 +36,7 @@ $ /usr/sbin/setsebool -P httpd_can_network_connect 1  </description>
       <pubDate>Wed, 16 Aug 2017 22:56:05 +0700</pubDate>
       
       <guid>https://khanhicetea.com/post/webfonts-optimization-using-nginx/</guid>
-      <description>Context Everytime you decided to use a webfont on your web, you think about Google Web Fonts, which is the best CDN for webfonts at this moment.
-So why Google Fonts is good solution : - Have many popular and updated fonts - Global CDN - Easy UX to get started - Auto detects user&amp;rsquo;s browser then return supported font type (TTF, WOFF or WOFF2)
-But  It&amp;rsquo;s a tracking endpoint (collect data to Google) Network latency (you have a CDN in your country)  Solution We use a simple Node server and NGINX with proxy cache mod to resolve this case.</description>
+      <description>Context Everytime you decided to use a webfont on your web, you think about Google Web Fonts, which is the best CDN for webfonts at this moment.</description>
     </item>
     
   </channel>

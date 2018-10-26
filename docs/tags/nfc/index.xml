@@ -6,6 +6,7 @@
     <description>Recent content in Nfc on KhanhIceTea B(rain)-log</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <copyright>KhanhIceTea - Licensed under CC BY-NC-ND 3.0 | In God We Trust</copyright>
     <lastBuildDate>Wed, 27 Sep 2017 17:00:00 +0700</lastBuildDate>
     
 	<atom:link href="https://khanhicetea.com/tags/nfc/index.xml" rel="self" type="application/rss+xml" />
@@ -18,7 +19,7 @@
       
       <guid>https://khanhicetea.com/post/reading-nfc-card-id-on-ubuntu/</guid>
       <description>Prerequisites Install driver My device is ACS122U : http://www.acs.com.hk/en/products/3/acr122u-usb-nfc-reader/#tab_downloads
-Kernel modules # echo &amp;quot;uinput&amp;quot; &amp;gt;&amp;gt; /etc/modules # echo &amp;quot;install nfc /bin/false&amp;quot; &amp;gt;&amp;gt; /etc/modprobe.d/blacklist.conf # echo &amp;quot;install pn533 /bin/false&amp;quot; &amp;gt;&amp;gt; /etc/modprobe.d/blacklist.conf  Install packages sudo apt-get install swig libccid pcscd libpcsclite-dev libpcsclite1 python-dev python-pip gcc linux-headers-$(uname -r)  Run service sudo service pcscd restart  Install python packages sudo pip install pyscard python-uinput evdev  Source code This is source code that read the card ID and simulate keystrokes to type card ID by text then pressing ENTER key.</description>
+Kernel modules # echo &amp;quot;uinput&amp;quot; &amp;gt;&amp;gt; /etc/modules # echo &amp;quot;install nfc /bin/false&amp;quot; &amp;gt;&amp;gt; /etc/modprobe.</description>
     </item>
     
   </channel>

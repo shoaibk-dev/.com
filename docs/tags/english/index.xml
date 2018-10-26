@@ -6,6 +6,7 @@
     <description>Recent content in English on KhanhIceTea B(rain)-log</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <copyright>KhanhIceTea - Licensed under CC BY-NC-ND 3.0 | In God We Trust</copyright>
     <lastBuildDate>Tue, 21 Aug 2018 14:38:08 +0700</lastBuildDate>
     
 	<atom:link href="https://khanhicetea.com/tags/english/index.xml" rel="self" type="application/rss+xml" />
@@ -17,8 +18,7 @@
       <pubDate>Tue, 21 Aug 2018 14:38:08 +0700</pubDate>
       
       <guid>https://khanhicetea.com/post/seswatcher-prevent-amazon-ses-account-from-being-suspended/</guid>
-      <description>Introdution At this moment, AWS SES service is the best affordable price and high-quality service to sending (and receiving) programmatic emails. But, one day your account could be suspended without notice, and that takes a big effort of requesting support to get it back to work.
-So it&amp;rsquo;s good to prevent that siatuation happens by watching your Bounces Rate and Complaints Rate. One way to resolve problem when your rates being too-high than allowance, is send a big amount of dummy emails to your blackhole email address.</description>
+      <description>Introdution At this moment, AWS SES service is the best affordable price and high-quality service to sending (and receiving) programmatic emails.</description>
     </item>
     
     <item>
@@ -28,9 +28,7 @@ So it&amp;rsquo;s good to prevent that siatuation happens by watching your Bounc
       
       <guid>https://khanhicetea.com/post/evaluate-expression-string-with-variables-in-php-without-eval/</guid>
       <description>TLDR;  Never ever use eval function in PHP !
- Updated Jul 31 : we can use Expression Language
-Introduction In some applications, we need to let user defines the expression (user lambda function) to evaluate a value or a condition. So we store user-defined expression in database then using eval function and pass variables to that function.
-It works, but not securely ! Remember this important thing :</description>
+ Updated Jul 31 : we can use Expression Language</description>
     </item>
     
     <item>
@@ -40,9 +38,7 @@ It works, but not securely ! Remember this important thing :</description>
       
       <guid>https://khanhicetea.com/post/ai-has-been-ruining-mankind-slowly/</guid>
       <description>Just my 2 cents &amp;hellip;
-Nowaday, it&amp;rsquo;s easy to see a news about AI (artificial intelligence) on the media. Even we are using it everyday without cognition. SO WHAT IS IT ? IS IT GOOD or BAD ? AND CAN WE &amp;hellip; EAT IT ?
-In this article I will try to answer that questions :
- AI is just technology, so you can&amp;rsquo;t eat it ;) Technology is just a &amp;hellip; technology, a thing that human created.</description>
+Nowaday, it&amp;rsquo;s easy to see a news about AI (artificial intelligence) on the media.</description>
     </item>
     
     <item>
@@ -51,8 +47,7 @@ In this article I will try to answer that questions :
       <pubDate>Thu, 12 Apr 2018 23:50:34 +0700</pubDate>
       
       <guid>https://khanhicetea.com/post/learn-sketch-day-3/</guid>
-      <description>Timeframe : 29m20s - 1h01m57s Learning source : I Want to Draw: Simple Exercises for Complete Beginners(https://design.tutsplus.com/articles/i-want-to-draw-simple-exercises-for-complete-beginners--vector-20583) What I learned today : Eyes make sense !  The result of day #3, practice Dragon Head again, front face is failed :(
-Til next time !</description>
+      <description>Timeframe : 29m20s - 1h01m57s Learning source : I Want to Draw: Simple Exercises for Complete Beginners(https://design.</description>
     </item>
     
     <item>
@@ -61,8 +56,7 @@ Til next time !</description>
       <pubDate>Wed, 11 Apr 2018 23:50:34 +0700</pubDate>
       
       <guid>https://khanhicetea.com/post/learn-sketch-day-2/</guid>
-      <description>Timeframe : 13m15s - 29m20s Learning source : I Want to Draw: Simple Exercises for Complete Beginners(https://design.tutsplus.com/articles/i-want-to-draw-simple-exercises-for-complete-beginners--vector-20583) What I learned today : From wireframe to reality ! Make your hand freedom !  The result of day #2 (Dragon Head , a bit like Dog Head :lol: ) :
-Til next time !</description>
+      <description>Timeframe : 13m15s - 29m20s Learning source : I Want to Draw: Simple Exercises for Complete Beginners(https://design.</description>
     </item>
     
     <item>
@@ -71,8 +65,7 @@ Til next time !</description>
       <pubDate>Tue, 10 Apr 2018 23:41:34 +0700</pubDate>
       
       <guid>https://khanhicetea.com/post/learn-sketch-day-1/</guid>
-      <description>Timeframe : 0m0s - 13m15s Learning source : I Want to Draw: Simple Exercises for Complete Beginners(https://design.tutsplus.com/articles/i-want-to-draw-simple-exercises-for-complete-beginners--vector-20583) What I learned today : Drawing is not repeating, but creating ! Your hand must be relaxed but your brain should be staying focus !  The result of day #1 :
-Til next time !</description>
+      <description>Timeframe : 0m0s - 13m15s Learning source : I Want to Draw: Simple Exercises for Complete Beginners(https://design.</description>
     </item>
     
     <item>
@@ -82,9 +75,7 @@ Til next time !</description>
       
       <guid>https://khanhicetea.com/post/yeah-this-is-my-101-st-blog-post/</guid>
       <description>Hi there,
-I start this blog from Nov 30, 2015. It means I have taken a 777-day journey through every line, every single word of this blog. (Oh man ! It&amp;rsquo;s a lucky number !!!)
- 777 / 101 = 7.(6930)(6930)(6930)(6930)&amp;hellip; days per post 😱
- You know, sometimes we can&amp;rsquo;t achieve anything without help from the others. And yes, it&amp;rsquo;s from you - who reading this line. You are the purpose, the (why) I wrote this thing.</description>
+I start this blog from Nov 30, 2015. It means I have taken a 777-day journey through every line, every single word of this blog.</description>
     </item>
     
     <item>
@@ -93,9 +84,7 @@ I start this blog from Nov 30, 2015. It means I have taken a 777-day journey thr
       <pubDate>Thu, 14 Dec 2017 22:00:00 +0700</pubDate>
       
       <guid>https://khanhicetea.com/post/what-are-the-best-things-to-invest-in-right-now/</guid>
-      <description>Disclaimer: this article isn&amp;rsquo;t a financial advice. So if you&amp;rsquo;re looking for one, this will make you disappointed!
-We are human, we were born, we are living and we will die soon. As a financial point of view, life is a business - we keep that business works, makes benefit and hope it last long to the next generation.
-I think about this, and I have a question &amp;ldquo;So what are the best things to INVEST in right now ?</description>
+      <description>Disclaimer: this article isn&amp;rsquo;t a financial advice. So if you&amp;rsquo;re looking for one, this will make you disappointed!</description>
     </item>
     
     <item>
@@ -106,9 +95,7 @@ I think about this, and I have a question &amp;ldquo;So what are the best things
       <guid>https://khanhicetea.com/post/aws-gcp-azure-ip-ranges/</guid>
       <description>TL;DR This is my gist of result
 https://gist.github.com/khanhicetea/c6cc74b99ab336d58c2da7929c2de709
-Introdution These are 3 biggest cloud providers (from Amazon, Google and Microsoft). This is the way to get their IP ranges (IPv4).
-Amazon Web Service AWS update its IP ranges on this link : https://ip-ranges.amazonaws.com/ip-ranges.json
-# download ip-ranges.json file curl -o aws.json https://ip-ranges.amazonaws.com/ip-ranges.json # parse ip range with grep tool grep -o -E &#39;\d+\.\d+\.\d+\.\d+/\d+&#39; aws.json &amp;gt; aws.txt  The result are in aws.</description>
+Introdution These are 3 biggest cloud providers (from Amazon, Google and Microsoft).</description>
     </item>
     
     <item>
@@ -117,9 +104,7 @@ Amazon Web Service AWS update its IP ranges on this link : https://ip-ranges.ama
       <pubDate>Wed, 08 Nov 2017 17:20:46 +0700</pubDate>
       
       <guid>https://khanhicetea.com/post/building-automated-ci-server-with-drone-and-docker/</guid>
-      <description>Introduction Docker is great tool to management linux containers. It brings DevOps to next level, from development to production environment. And of course, before deploy anything to production, software should be tested carefully and automatically.
-That&amp;rsquo;s why Drone, a new lightweight CI server built-on top Go lang and Docker, will help us to resolve the testing problems in simple and fast way.
-Setup This guide will assume you already have Docker and Docker Compose tool.</description>
+      <description>Introduction Docker is great tool to management linux containers. It brings DevOps to next level, from development to production environment.</description>
     </item>
     
     <item>
@@ -130,7 +115,7 @@ Setup This guide will assume you already have Docker and Docker Compose tool.</d
       <guid>https://khanhicetea.com/xiny/how-i-learn-golang-goroutines-in-1-day/</guid>
       <description>&amp;gt; Learn Golang Basics here
 Goroutines &amp;amp; Concurrent View day2.go file
-package main import ( &amp;quot;fmt&amp;quot; &amp;quot;time&amp;quot; ) func main() { chanChanChanChan() bufferedChan() synchronizeTask() pingPongGame() selectChannel() outOfTime() nonBlockingChannelWithSelect() closeChannel() rangeOverChannel() doSomethingLater() doInterval() } func chanChanChanChan() { chan1 := make(chan string) chan2 := make(chan string) // By default sends and receives block until both the sender and receiver are ready. go func() { fmt.Println(&amp;quot;[1] Passing chan2 !&amp;quot;) chan2 &amp;lt;- &amp;quot;Chan2&amp;quot; fmt.</description>
+package main import ( &amp;quot;fmt&amp;quot; &amp;quot;time&amp;quot; ) func main() { chanChanChanChan() bufferedChan() synchronizeTask() pingPongGame() selectChannel() outOfTime() nonBlockingChannelWithSelect() closeChannel() rangeOverChannel() doSomethingLater() doInterval() } func chanChanChanChan() { chan1 := make(chan string) chan2 := make(chan string) // By default sends and receives block until both the sender and receiver are ready.</description>
     </item>
     
     <item>
@@ -140,10 +125,7 @@ package main import ( &amp;quot;fmt&amp;quot; &amp;quot;time&amp;quot; ) func ma
       
       <guid>https://khanhicetea.com/xiny/how-i-learn-golang-basics-in-1-day/</guid>
       <description>Structure is based on Learn Go in Y Minutes
-Install Go Follow this guide : https://golang.org/doc/install
-Compile and Run go code every 1 second $ watch -d -t -n 1 go run day1.go  Recommended editor Use VisualStudio Code
-Basics View day1.go file
-package main import ( &amp;quot;fmt&amp;quot; // Formatting standard library m &amp;quot;math&amp;quot; // Alias an imported lib &amp;quot;strconv&amp;quot; // String conversion lib &amp;quot;net/http&amp;quot; &amp;quot;io/ioutil&amp;quot; ) func main() { fmt.</description>
+Install Go Follow this guide : https://golang.</description>
     </item>
     
     <item>
@@ -152,9 +134,7 @@ package main import ( &amp;quot;fmt&amp;quot; // Formatting standard library m &
       <pubDate>Sun, 08 Oct 2017 23:30:00 +0700</pubDate>
       
       <guid>https://khanhicetea.com/xiny/how-i-learn-typescript-basics-in-2-days/</guid>
-      <description>Install TypeScript and TSLint $ npm install -g typescript tslint  Compile ts files on changes $ tsc -w  Recommended editor Use VisualStudioCode
-Basics View day2.ts file
-// Data types in TypeScript let a: boolean = false; let b: number = 42; let c: string = &amp;quot;Helo&amp;quot;; let d: any = &amp;quot;this is anything but not `never`&amp;quot; let e: never; // Can not assign to never type // Function Interface let f: Function = function f() {}; // Ommit data type (TypeScript auto detect it if it can) let g = &amp;quot;YOLO, Who needs type ?</description>
+      <description>Install TypeScript and TSLint $ npm install -g typescript tslint  Compile ts files on changes $ tsc -w  Recommended editor Use VisualStudioCode</description>
     </item>
     
     <item>
@@ -164,11 +144,7 @@ Basics View day2.ts file
       
       <guid>https://khanhicetea.com/xiny/how-i-learn-webpack-basics-in-2-days/</guid>
       <description>Introduction Learn from https://webpack.js.org/guides/getting-started/
-Clone my repo to follow commit hash by section : https://github.com/khanhicetea/learn-n-earn
-Day 1 ,  webpack.config.js
-const path = require(&#39;path&#39;); module.exports = { entry: &#39;./src/index.js&#39;, output: { filename: &#39;bundle.js&#39;, path: path.resolve(__dirname, &#39;dist&#39;) } };  Bash
-$ ./node_modules/.bin/webpack --config webpack.config.js  Learned
- entry : start point to dive in dependency graph. output : output after pack the web modules  filename : bundle filename path : dist path   Day 2 Import assets ,   CSS file : use style-loader and css-loader Image file : use file-loader WebFont file : use file-loader Data file use json-loader, xml-loader or csv-loader  module: { rules: [ { test: /\.</description>
+Clone my repo to follow commit hash by section : https://github.com/khanhicetea/learn-n-earn</description>
     </item>
     
     <item>
@@ -178,10 +154,7 @@ $ ./node_modules/.bin/webpack --config webpack.config.js  Learned
       
       <guid>https://khanhicetea.com/post/smtpor-dead-simple-smtp-testing/</guid>
       <description>Never need a bigass mail client to test your SMTP config !
- Github Repo : https://github.com/khanhicetea/smtpor
-Demo TL;DR Using Docker to run
-$ docker run -d -p 3000:3000 khanhicetea/smtpor  Then open http://localhost:3000 to try a shot !
-Install &amp;amp; Start $ npm install $ npm start  Heroku Deploying $ heroku login $ heroku git:remote -a [your-app-name] $ git push heroku master  Contributors  @khanhicetea  License MIT License</description>
+ Github Repo : https://github.</description>
     </item>
     
     <item>
@@ -191,7 +164,7 @@ Install &amp;amp; Start $ npm install $ npm start  Heroku Deploying $ heroku log
       
       <guid>https://khanhicetea.com/post/reading-nfc-card-id-on-ubuntu/</guid>
       <description>Prerequisites Install driver My device is ACS122U : http://www.acs.com.hk/en/products/3/acr122u-usb-nfc-reader/#tab_downloads
-Kernel modules # echo &amp;quot;uinput&amp;quot; &amp;gt;&amp;gt; /etc/modules # echo &amp;quot;install nfc /bin/false&amp;quot; &amp;gt;&amp;gt; /etc/modprobe.d/blacklist.conf # echo &amp;quot;install pn533 /bin/false&amp;quot; &amp;gt;&amp;gt; /etc/modprobe.d/blacklist.conf  Install packages sudo apt-get install swig libccid pcscd libpcsclite-dev libpcsclite1 python-dev python-pip gcc linux-headers-$(uname -r)  Run service sudo service pcscd restart  Install python packages sudo pip install pyscard python-uinput evdev  Source code This is source code that read the card ID and simulate keystrokes to type card ID by text then pressing ENTER key.</description>
+Kernel modules # echo &amp;quot;uinput&amp;quot; &amp;gt;&amp;gt; /etc/modules # echo &amp;quot;install nfc /bin/false&amp;quot; &amp;gt;&amp;gt; /etc/modprobe.</description>
     </item>
     
     <item>
@@ -200,12 +173,7 @@ Kernel modules # echo &amp;quot;uinput&amp;quot; &amp;gt;&amp;gt; /etc/modules #
       <pubDate>Thu, 11 May 2017 23:01:53 +0700</pubDate>
       
       <guid>https://khanhicetea.com/post/lightning-thought-1-magic-in-software/</guid>
-      <description>Random quote  “Insanity: doing the same thing over and over again and expecting different results.” - Albert Einstein
- It&amp;rsquo;s true in LOGIC ! But sometimes, it goes wrong in computer science and &amp;hellip; life.
-What does computer program do ? We learnt from Computer Science courses this phisolophy :
- PROGRAM takes INPUT and produces OUTPUT
-So, same PROGRAM + same INPUT = same OUTPUT
- And that&amp;rsquo;s the basis of every testing techniques.</description>
+      <description>Random quote  “Insanity: doing the same thing over and over again and expecting different results.</description>
     </item>
     
     <item>
@@ -215,7 +183,7 @@ So, same PROGRAM + same INPUT = same OUTPUT
       
       <guid>https://khanhicetea.com/post/what-we-need-is-to-sleep/</guid>
       <description>What a day !
- Bank account has to be closed Forgot to turn off unused service before billing Email account get stuck in forwarding, get important emails dismissed Email sending system had been suspended because of sending a lot of bounced emails without notice Internet oversea cables got damaged, speed is slow, can&amp;rsquo;t do anything planed  Luckily, I&amp;rsquo;m still alive to feel these pains. Thank GOD, please keep giving to me your pains, everyday !</description>
+ Bank account has to be closed Forgot to turn off unused service before billing Email account get stuck in forwarding, get important emails dismissed Email sending system had been suspended because of sending a lot of bounced emails without notice Internet oversea cables got damaged, speed is slow, can&amp;rsquo;t do anything planed  Luckily, I&amp;rsquo;m still alive to feel these pains.</description>
     </item>
     
     <item>
@@ -224,9 +192,7 @@ So, same PROGRAM + same INPUT = same OUTPUT
       <pubDate>Sun, 26 Feb 2017 20:41:11 +0700</pubDate>
       
       <guid>https://khanhicetea.com/post/do-not-worry/</guid>
-      <description>No one can serve two masters. Either you will hate the one and love the other, or you will be devoted to the one and despise the other. You cannot serve both God and money.
-Do Not Worry
-Therefore I tell you, do not worry about your life, what you will eat or drink; or about your body, what you will wear. Is not life more than food, and the body more than clothes?</description>
+      <description>No one can serve two masters. Either you will hate the one and love the other, or you will be devoted to the one and despise the other.</description>
     </item>
     
     <item>
@@ -235,9 +201,7 @@ Therefore I tell you, do not worry about your life, what you will eat or drink; 
       <pubDate>Thu, 23 Feb 2017 23:59:59 +0000</pubDate>
       
       <guid>https://khanhicetea.com/til/2017-02-23-using-vardumper-in-phpunit/</guid>
-      <description> Using VarDumper in PHPUnit The trick is writing the output to STDERR stream, I wrote a helper function below
-function phpunit_dump() { $cloner = new \Symfony\Component\VarDumper\Cloner\VarCloner(); $dumper = new \Symfony\Component\VarDumper\Dumper\CliDumper(STDERR); foreach (func_get_args() as $var) { $dumper-&amp;gt;dump($cloner-&amp;gt;cloneVar($var)); } }  How to use it ?
-// Something magic here :D phpunit_dump($magic_var1, $magic_var2, $magic_of_magic); // So much magic below, can&#39;t understand anymore  </description>
+      <description>Using VarDumper in PHPUnit The trick is writing the output to STDERR stream, I wrote a helper function below</description>
     </item>
     
     <item>
@@ -246,8 +210,7 @@ function phpunit_dump() { $cloner = new \Symfony\Component\VarDumper\Cloner\VarC
       <pubDate>Sun, 05 Feb 2017 21:15:03 +0700</pubDate>
       
       <guid>https://khanhicetea.com/post/live-a-random-life/</guid>
-      <description>Tiếng Việt Một năm mới lại trôi qua, tuy có nhiều chuyện thay đổi nhưng cơ bản thì &amp;ldquo;CHẰNG CÓ GÌ KHÁC CẢ&amp;rdquo;. 🙃
-Vẫn là cuộc sống đó, đi làm ngày 80 tiếng (à nhầm tuần 80 tiếng), ngày ăn 3 bữa, quần cáo mặc cả ngày, đi đường nào, về đường đó (trừ lúc say có lách mấy anh Pikachu), thu nhập cũng chẳng gọi là cao, mà cũng chẳng thể bảo là nghèo, vẫn gõ 101 phím ngày qua ngày, vẫn ăn những quán quen thuộc mà cho rằng nó sạch sẽ, an cmn toàn &amp;hellip; Túm cái quần què lại là LUẨN QUẨN Ở CÁI VÒNG KHÔNG TO THÌ NHỎ !</description>
+      <description>Tiếng Việt Một năm mới lại trôi qua, tuy có nhiều chuyện thay đổi nhưng cơ bản thì &amp;ldquo;CHẰNG CÓ GÌ KHÁC CẢ&amp;rdquo;.</description>
     </item>
     
     <item>
@@ -256,7 +219,7 @@ Vẫn là cuộc sống đó, đi làm ngày 80 tiếng (à nhầm tuần 80 ti�
       <pubDate>Thu, 25 Aug 2016 00:36:10 +0700</pubDate>
       
       <guid>https://khanhicetea.com/post/storytelling-guide/</guid>
-      <description> CAS = Context -&amp;gt; Action -&amp;gt; Result Context  Where and When ? 3 questions  Who is the hero ?  real or fictitios person, place or thing (should related to your audience) or yourself  What do they want ?  worthy objective  Who or what is getting in the way ? (bad guy)  (real or fictitios) person, place or thing (should related to your audience) must be an obstacle not &amp;ldquo;larger than life&amp;rdquo; (can do anything kind)    Action:  must have context hero does battle with the villain at least on up-and-down comes to a resolution  Result :  Tell how the story ends Conveys the lesson to learn  </description>
+      <description>CAS = Context -&amp;gt; Action -&amp;gt; Result Context  Where and When ? 3 questions  Who is the hero ?</description>
     </item>
     
     <item>
@@ -265,8 +228,7 @@ Vẫn là cuộc sống đó, đi làm ngày 80 tiếng (à nhầm tuần 80 ti�
       <pubDate>Fri, 25 Mar 2016 14:41:46 +0700</pubDate>
       
       <guid>https://khanhicetea.com/post/setup_php7_dev_enviroment/</guid>
-      <description>Setup requirements Install VirtualBox  Goto https://www.virtualbox.org/wiki/Downloads and download Virtualbox binary based on your OS. Install Virtualbox for virtualization  Install Vagrant  Goto https://www.vagrantup.com/downloads.html and download vagrant binary based on your OS. Install Vagrant from binary  Verify all requirements Open the terminal and try this command to verify Virtualbox is ready.
-$ Virtualbox -h  Open the terminal and try this command to verify Vagrant is ready.</description>
+      <description>Setup requirements Install VirtualBox  Goto https://www.virtualbox.org/wiki/Downloads and download Virtualbox binary based on your OS. Install Virtualbox for virtualization  Install Vagrant  Goto https://www.</description>
     </item>
     
     <item>
@@ -275,8 +237,7 @@ $ Virtualbox -h  Open the terminal and try this command to verify Vagrant is rea
       <pubDate>Sun, 20 Mar 2016 23:29:53 +0700</pubDate>
       
       <guid>https://khanhicetea.com/post/read_input_from_usb_keyboard_in_linux/</guid>
-      <description>Introduction You just bought a new input device like barcode scanner, proximity card reader with USB port. And you want expose only its data to a file or send to server for processing ? But it acts like a keyboard, type the characters then trigger Enter key.
-This tutorial can help you make a program can exclusive receive input data from the device and don&amp;rsquo;t affect to another program.</description>
+      <description>Introduction You just bought a new input device like barcode scanner, proximity card reader with USB port.</description>
     </item>
     
     <item>
@@ -285,10 +246,7 @@ This tutorial can help you make a program can exclusive receive input data from 
       <pubDate>Sat, 19 Mar 2016 21:07:56 +0700</pubDate>
       
       <guid>https://khanhicetea.com/post/backup-and-restore-elasticsearch-using-docker/</guid>
-      <description>Introduction One day, your ElasticSearch data is large and you have to move all data to another nodes or you just want backup the data file to somewhere.
-ElasticSearch-Dump is a tool can help you on this situation, it&amp;rsquo;s written on NodeJS so can run multi-platform. You can view the documents here.
-One way more convinient if you already have Docker is running its Docker image.
-Instruction Prepare a Docker image You can build manually its Docker image by</description>
+      <description>Introduction One day, your ElasticSearch data is large and you have to move all data to another nodes or you just want backup the data file to somewhere.</description>
     </item>
     
     <item>
@@ -297,9 +255,7 @@ Instruction Prepare a Docker image You can build manually its Docker image by</d
       <pubDate>Fri, 04 Dec 2015 14:36:10 +0700</pubDate>
       
       <guid>https://khanhicetea.com/post/php5.6-vs-php7rc8-benchmarking-using-docker/</guid>
-      <description>New version of PHP, PHP7 has been released yesterday after 11 years of PHP5. I am very excited with it, so I made a benchmark to compare the performance of 2 versions.
-The fastest way to test out PHP multi-versions is using Docker image. You can get it from : https://hub.docker.com/_/php/
-Let&amp;rsquo;s start pull PHP images docker pull php:5.6 docker pull php:7  Change directory to the web root folder of PHP project (I used my micro-framework, Sifoni to test).</description>
+      <description>New version of PHP, PHP7 has been released yesterday after 11 years of PHP5. I am very excited with it, so I made a benchmark to compare the performance of 2 versions.</description>
     </item>
     
     <item>
@@ -308,9 +264,7 @@ Let&amp;rsquo;s start pull PHP images docker pull php:5.6 docker pull php:7  Cha
       <pubDate>Mon, 30 Nov 2015 17:22:46 +0700</pubDate>
       
       <guid>https://khanhicetea.com/post/today-i-learned/</guid>
-      <description>Introduction We constantly learn new things. This is a repo to share those learnings. TILs are short Markdown documents (a few sentences + example code) explaining concepts, bits of syntax, commands, or tips we&amp;rsquo;ve recently learned.
-Today-I-Learn (TIL) is inspired by Thoughbot, TIL is a repository for everyone to share what we have learn today.
-This repo has a tool that help you to manage and write down what you learned in scientific way.</description>
+      <description>Introduction We constantly learn new things. This is a repo to share those learnings. TILs are short Markdown documents (a few sentences + example code) explaining concepts, bits of syntax, commands, or tips we&amp;rsquo;ve recently learned.</description>
     </item>
     
   </channel>

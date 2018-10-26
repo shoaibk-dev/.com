@@ -6,6 +6,7 @@
     <description>Recent content in Cli on KhanhIceTea B(rain)-log</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <copyright>KhanhIceTea - Licensed under CC BY-NC-ND 3.0 | In God We Trust</copyright>
     <lastBuildDate>Fri, 01 Sep 2017 23:59:59 +0000</lastBuildDate>
     
 	<atom:link href="https://khanhicetea.com/tags/cli/index.xml" rel="self" type="application/rss+xml" />
@@ -17,11 +18,7 @@
       <pubDate>Fri, 01 Sep 2017 23:59:59 +0000</pubDate>
       
       <guid>https://khanhicetea.com/til/2017-09-01-mycli-a-new-good-cli-mysql-client/</guid>
-      <description>Mycli : a new good cli MySql Client This tool is written in Python with super cool features (auto-complete and colors).
-Worth a shot !
-Install
-$ pip install mycli  Usage
-$ mycli -h 127.0.0.1 -P 3306 -u root  Screencast</description>
+      <description>Mycli : a new good cli MySql Client This tool is written in Python with super cool features (auto-complete and colors).</description>
     </item>
     
   </channel>

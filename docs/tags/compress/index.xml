@@ -6,6 +6,7 @@
     <description>Recent content in Compress on KhanhIceTea B(rain)-log</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <copyright>KhanhIceTea - Licensed under CC BY-NC-ND 3.0 | In God We Trust</copyright>
     <lastBuildDate>Mon, 25 Sep 2017 23:59:59 +0000</lastBuildDate>
     
 	<atom:link href="https://khanhicetea.com/tags/compress/index.xml" rel="self" type="application/rss+xml" />
@@ -17,10 +18,7 @@
       <pubDate>Mon, 25 Sep 2017 23:59:59 +0000</pubDate>
       
       <guid>https://khanhicetea.com/til/2017-09-25-zip-compressing-list-of-files/</guid>
-      <description>Zip compressing list of files To specify a list of compressed files when using zip cli tool, you could use -@ [file_list] flag. And file_list is a file contains list of compressed file (new line separated)
-Example
-$ zip changed.zip -@ changed_files.txt  Or use stdin pipe
-$ find . -mmin -60 -print | zip changed_1_hour_ago -@  This will zip all changed files 1 hour ago</description>
+      <description>Zip compressing list of files To specify a list of compressed files when using zip cli tool, you could use -@ [file_list] flag.</description>
     </item>
     
   </channel>

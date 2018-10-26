@@ -6,6 +6,7 @@
     <description>Recent content in Testing on KhanhIceTea B(rain)-log</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <copyright>KhanhIceTea - Licensed under CC BY-NC-ND 3.0 | In God We Trust</copyright>
     <lastBuildDate>Wed, 08 Nov 2017 17:20:46 +0700</lastBuildDate>
     
 	<atom:link href="https://khanhicetea.com/tags/testing/index.xml" rel="self" type="application/rss+xml" />
@@ -17,9 +18,7 @@
       <pubDate>Wed, 08 Nov 2017 17:20:46 +0700</pubDate>
       
       <guid>https://khanhicetea.com/post/building-automated-ci-server-with-drone-and-docker/</guid>
-      <description>Introduction Docker is great tool to management linux containers. It brings DevOps to next level, from development to production environment. And of course, before deploy anything to production, software should be tested carefully and automatically.
-That&amp;rsquo;s why Drone, a new lightweight CI server built-on top Go lang and Docker, will help us to resolve the testing problems in simple and fast way.
-Setup This guide will assume you already have Docker and Docker Compose tool.</description>
+      <description>Introduction Docker is great tool to management linux containers. It brings DevOps to next level, from development to production environment.</description>
     </item>
     
     <item>
@@ -28,9 +27,7 @@ Setup This guide will assume you already have Docker and Docker Compose tool.</d
       <pubDate>Fri, 19 May 2017 23:59:59 +0000</pubDate>
       
       <guid>https://khanhicetea.com/til/2017-05-19-checking-forced-push-conflicts-on-source-code-in-auto-testing/</guid>
-      <description>Checking forced push conflicts on source code in auto testing Using automated CI solution likes Travis, Jenkins, DroneCI, &amp;hellip; is good solution to ensure quality of software and no breaks in deployment.
-Sometimes, developers force push conflicts part to production branch of source code. If the CI tests only backend (python, ruby, php, go, ..) and forget about frontend code, then your application will be exploded !
-So checking the conflicts code is required step before testing backend and deployment.</description>
+      <description>Checking forced push conflicts on source code in auto testing Using automated CI solution likes Travis, Jenkins, DroneCI, &amp;hellip; is good solution to ensure quality of software and no breaks in deployment.</description>
     </item>
     
     <item>
@@ -39,9 +36,7 @@ So checking the conflicts code is required step before testing backend and deplo
       <pubDate>Thu, 23 Feb 2017 23:59:59 +0000</pubDate>
       
       <guid>https://khanhicetea.com/til/2017-02-23-using-vardumper-in-phpunit/</guid>
-      <description> Using VarDumper in PHPUnit The trick is writing the output to STDERR stream, I wrote a helper function below
-function phpunit_dump() { $cloner = new \Symfony\Component\VarDumper\Cloner\VarCloner(); $dumper = new \Symfony\Component\VarDumper\Dumper\CliDumper(STDERR); foreach (func_get_args() as $var) { $dumper-&amp;gt;dump($cloner-&amp;gt;cloneVar($var)); } }  How to use it ?
-// Something magic here :D phpunit_dump($magic_var1, $magic_var2, $magic_of_magic); // So much magic below, can&#39;t understand anymore  </description>
+      <description>Using VarDumper in PHPUnit The trick is writing the output to STDERR stream, I wrote a helper function below</description>
     </item>
     
   </channel>

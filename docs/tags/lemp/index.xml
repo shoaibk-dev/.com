@@ -6,6 +6,7 @@
     <description>Recent content in Lemp on KhanhIceTea B(rain)-log</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <copyright>KhanhIceTea - Licensed under CC BY-NC-ND 3.0 | In God We Trust</copyright>
     <lastBuildDate>Fri, 14 Apr 2017 00:21:14 +0700</lastBuildDate>
     
 	<atom:link href="https://khanhicetea.com/tags/lemp/index.xml" rel="self" type="application/rss+xml" />
@@ -18,9 +19,7 @@
       
       <guid>https://khanhicetea.com/post/kick-start-a-lemp-stack-on-ubuntu-16-04/</guid>
       <description>LEMP = Linux + EngineX(NginX) + MySQL + PHP
- Too tired for doing same tasks over and over again. I made this script to help me (and you) on kicking start a new LEMP stack on production server. Hope it useful !
-What does script do :
- Disable IPv6 (it&amp;rsquo;s not ready for production at the moment) Configure firewall (only accepts port 22, 80 and 443) Disable password authentication to SSH service Upgrade system Install useful tools (git, screen, vim, curl and lego for LetsEncrypt ACME) NginX MySQL 5.</description>
+ Too tired for doing same tasks over and over again.</description>
     </item>
     
   </channel>

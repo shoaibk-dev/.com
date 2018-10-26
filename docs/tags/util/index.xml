@@ -6,6 +6,7 @@
     <description>Recent content in Util on KhanhIceTea B(rain)-log</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <copyright>KhanhIceTea - Licensed under CC BY-NC-ND 3.0 | In God We Trust</copyright>
     <lastBuildDate>Mon, 22 May 2017 23:59:59 +0000</lastBuildDate>
     
 	<atom:link href="https://khanhicetea.com/tags/util/index.xml" rel="self" type="application/rss+xml" />
@@ -17,10 +18,7 @@
       <pubDate>Mon, 22 May 2017 23:59:59 +0000</pubDate>
       
       <guid>https://khanhicetea.com/til/2017-05-22-using-bsd-find-util-to-find-and-exec-command-on-file-and-folder/</guid>
-      <description>Using BSD find util to find and exec command on file and folder Simple syntax of find
-$ find [find_path] -type [file_type] -exec [command] {} \;  Add filename matching pattern to filter the result
-$ find [find_path] -name &amp;quot;*.php&amp;quot; -type [file_type] -exec [command] {} \;  Where file_type is :
- b : block special c : character special d : directory f : regular file l : symbolic link p : FIFO s : socket  Examples:</description>
+      <description>Using BSD find util to find and exec command on file and folder Simple syntax of find</description>
     </item>
     
   </channel>

@@ -6,6 +6,7 @@
     <description>Recent content in Chrome Dev on KhanhIceTea B(rain)-log</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <copyright>KhanhIceTea - Licensed under CC BY-NC-ND 3.0 | In God We Trust</copyright>
     <lastBuildDate>Mon, 30 Nov 2015 23:59:59 +0000</lastBuildDate>
     
 	<atom:link href="https://khanhicetea.com/tags/chrome-dev/index.xml" rel="self" type="application/rss+xml" />
@@ -17,7 +18,7 @@
       <pubDate>Mon, 30 Nov 2015 23:59:59 +0000</pubDate>
       
       <guid>https://khanhicetea.com/til/2015-11-30-debugging-chrome-extension/</guid>
-      <description> Debugging Chrome extension  To open directly the Console Dev Tools, press Cmd + Opt + J in MacOSX. To debug easily the any files of extension, open the url chrome-extension://&amp;lt;extension-id&amp;gt;/&amp;lt;file-name&amp;gt; in address bar.  </description>
+      <description>Debugging Chrome extension  To open directly the Console Dev Tools, press Cmd + Opt + J in MacOSX.</description>
     </item>
     
   </channel>

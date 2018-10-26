@@ -6,6 +6,7 @@
     <description>Recent content in Mysql on KhanhIceTea B(rain)-log</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <copyright>KhanhIceTea - Licensed under CC BY-NC-ND 3.0 | In God We Trust</copyright>
     <lastBuildDate>Sun, 30 Sep 2018 10:59:25 +0700</lastBuildDate>
     
 	<atom:link href="https://khanhicetea.com/tags/mysql/index.xml" rel="self" type="application/rss+xml" />
@@ -17,9 +18,7 @@
       <pubDate>Sun, 30 Sep 2018 10:59:25 +0700</pubDate>
       
       <guid>https://khanhicetea.com/post/build-sequel-pro-from-source-in-xcode-10/</guid>
-      <description>Sequel Pro is great GUI MySQL tool in macOS (it&amp;rsquo;s open source and of course totally free) !
-But from last year, their automated build system has been broken, so the versions is outdated :
- Stable version 1.1.2 (Apr 3, 2016) Nightly version 3477d22387 (Sep 6, 2017)  Even their codebase bas been updated every week but we can&amp;rsquo;t use the latest build within a lot of bugfixes. So here is the guide to build from source using XCode 10</description>
+      <description>Sequel Pro is great GUI MySQL tool in macOS (it&amp;rsquo;s open source and of course totally free) !</description>
     </item>
     
     <item>
@@ -28,9 +27,7 @@ But from last year, their automated build system has been broken, so the version
       <pubDate>Sat, 25 Aug 2018 23:59:59 +0000</pubDate>
       
       <guid>https://khanhicetea.com/til/2018-08-25-the-safest-way-to-reset-root-password-of-mysql-server/</guid>
-      <description>The safest way to reset root password of MySQL Server When you get stucked in this error message &amp;ldquo;Access denied for user &amp;lsquo;root@localhost&amp;rsquo; &amp;hellip;&amp;rdquo;, you search the way to reset the root password on the Internet, but life is Hard ! (No answer makes you feel it&amp;rsquo;s right way, even some do not work)
-So to solve this problem, we need to understand MySQL Authentication
-Step 1 : Disable MySQL Authentication by skip loading grant-tables on loading MySQL server</description>
+      <description>The safest way to reset root password of MySQL Server When you get stucked in this error message &amp;ldquo;Access denied for user &amp;lsquo;root@localhost&amp;rsquo; &amp;hellip;&amp;rdquo;, you search the way to reset the root password on the Internet, but life is Hard !</description>
     </item>
     
     <item>
@@ -39,9 +36,7 @@ Step 1 : Disable MySQL Authentication by skip loading grant-tables on loading My
       <pubDate>Thu, 04 Jan 2018 23:59:59 +0000</pubDate>
       
       <guid>https://khanhicetea.com/til/2018-01-04-sleeping-connections-in-mysql/</guid>
-      <description>Sleeping connections in MySQL When you check your MySQL process list via command show processlist;, it will show you a useful table which provide all current connection details.
-&amp;ldquo;Sleep&amp;rdquo; state connections are most connection pointer waiting for the timeout to terminate. Then they still count as a connection. (Can cause MySQL connection limit error, which default equal 150 connections)
-So next time, remember to close your connection before terminating your app.</description>
+      <description>Sleeping connections in MySQL When you check your MySQL process list via command show processlist;, it will show you a useful table which provide all current connection details.</description>
     </item>
     
     <item>
@@ -50,11 +45,7 @@ So next time, remember to close your connection before terminating your app.</de
       <pubDate>Fri, 01 Sep 2017 23:59:59 +0000</pubDate>
       
       <guid>https://khanhicetea.com/til/2017-09-01-mycli-a-new-good-cli-mysql-client/</guid>
-      <description>Mycli : a new good cli MySql Client This tool is written in Python with super cool features (auto-complete and colors).
-Worth a shot !
-Install
-$ pip install mycli  Usage
-$ mycli -h 127.0.0.1 -P 3306 -u root  Screencast</description>
+      <description>Mycli : a new good cli MySql Client This tool is written in Python with super cool features (auto-complete and colors).</description>
     </item>
     
     <item>
@@ -63,9 +54,9 @@ $ mycli -h 127.0.0.1 -P 3306 -u root  Screencast</description>
       <pubDate>Wed, 17 May 2017 23:59:59 +0000</pubDate>
       
       <guid>https://khanhicetea.com/til/2017-05-17-mysql-dumping-only-table-structure/</guid>
-      <description> Mysql dumping only table structure Adding -D to dump only data structure
+      <description>Mysql dumping only table structure Adding -D to dump only data structure
 Example :
-$ mysqldump -h 127.0.0.1 -u root -p&amp;quot;something&amp;quot; -D database1 &amp;gt; db.sql  </description>
+$ mysqldump -h 127.</description>
     </item>
     
     <item>
@@ -74,10 +65,7 @@ $ mysqldump -h 127.0.0.1 -u root -p&amp;quot;something&amp;quot; -D database1 &a
       <pubDate>Tue, 28 Feb 2017 23:59:59 +0000</pubDate>
       
       <guid>https://khanhicetea.com/til/2017-02-28-persistent-connection-to-mysql/</guid>
-      <description>Persistent connection to MySQL When a PHP process connects to MySQL server, the connection can be persistent if your PHP config has mysql.allow_persistent or mysqli.allow_persistent. (PDO has the attribute ATTR_PERSISTENT)
-$dbh = new PDO(&#39;DSN&#39;, &#39;KhanhDepZai&#39;, &#39;QuenMatKhauCMNR&#39;, [PDO::ATTR_PERSISTENT =&amp;gt; TRUE]);  Object destruction PHP destruct an object automatically when an object lost all its references.
-Example code:
-&amp;lt;?php $x = null; function klog($x) { echo $x . &#39; =&amp;gt; &#39;; } class A { private $k; function __construct($k) { $this-&amp;gt;k = $k; } function b() { klog(&#39;[b]&#39;); } function __destruct() { klog(&amp;quot;[{$this-&amp;gt;k} has been killed]&amp;quot;); } } function c($k) { return new A($k); } function d() { c(&#39;d&#39;)-&amp;gt;b(); } function e() { global $x; $x = c(&#39;e&#39;); $x-&amp;gt;b(); klog(&#39;[e]&#39;); } function f() { klog(&#39;[f]&#39;); } d(); e(); f();  Result:</description>
+      <description>Persistent connection to MySQL When a PHP process connects to MySQL server, the connection can be persistent if your PHP config has mysql.</description>
     </item>
     
     <item>
@@ -86,9 +74,7 @@ Example code:
       <pubDate>Thu, 23 Feb 2017 23:59:59 +0000</pubDate>
       
       <guid>https://khanhicetea.com/til/2017-02-23-union-vs-union-all/</guid>
-      <description>UNION vs UNION ALL The difference is UNION command will sort and remove duplicated rows (RETURNED ONLY DISTINCT ROWS)
-Examples :
-mysql&amp;gt; select &#39;1&#39;, &#39;2&#39; union select &#39;2&#39;, &#39;1&#39; union select &#39;3&#39;, &#39;4&#39; union select &#39;1&#39;, &#39;2&#39;; +---+---+ | 1 | 2 | +---+---+ | 1 | 2 | | 2 | 1 | | 3 | 4 | +---+---+ 3 rows in set (0.00 sec) mysql&amp;gt; select &#39;1&#39;, &#39;2&#39; union select &#39;2&#39;, &#39;1&#39; union select &#39;3&#39;, &#39;4&#39; union select &#39;1&#39;, &#39;3&#39;; +---+---+ | 1 | 2 | +---+---+ | 1 | 2 | | 2 | 1 | | 3 | 4 | | 1 | 3 | +---+---+ 4 rows in set (0.</description>
+      <description>UNION vs UNION ALL The difference is UNION command will sort and remove duplicated rows (RETURNED ONLY DISTINCT ROWS)</description>
     </item>
     
     <item>
@@ -106,9 +92,7 @@ mysql&amp;gt; select &#39;1&#39;, &#39;2&#39; union select &#39;2&#39;, &#39;1&#
       <pubDate>Tue, 01 Dec 2015 23:59:59 +0000</pubDate>
       
       <guid>https://khanhicetea.com/til/2015-12-01-index-is-useless-when-use-function-on-indexed-field/</guid>
-      <description> Index is useless when use function on indexed field Reality, if using function on indexed field, you will broke indexing by accident. Eg:
-WHERE MONTH(`date`) = 11 AND YEAR(`date`) = 2015  Solution is transform the query to comparison query, like this :
-WHERE `date` &amp;gt;= &#39;2015-11-01&#39; AND `date` &amp;lt; &#39;2015-12-01&#39;  </description>
+      <description>Index is useless when use function on indexed field Reality, if using function on indexed field, you will broke indexing by accident.</description>
     </item>
     
   </channel>

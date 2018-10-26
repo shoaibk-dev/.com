@@ -6,6 +6,7 @@
     <description>Recent content in Productivity on KhanhIceTea B(rain)-log</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <copyright>KhanhIceTea - Licensed under CC BY-NC-ND 3.0 | In God We Trust</copyright>
     <lastBuildDate>Mon, 30 Nov 2015 17:22:46 +0700</lastBuildDate>
     
 	<atom:link href="https://khanhicetea.com/categories/productivity/index.xml" rel="self" type="application/rss+xml" />
@@ -17,9 +18,7 @@
       <pubDate>Mon, 30 Nov 2015 17:22:46 +0700</pubDate>
       
       <guid>https://khanhicetea.com/post/today-i-learned/</guid>
-      <description>Introduction We constantly learn new things. This is a repo to share those learnings. TILs are short Markdown documents (a few sentences + example code) explaining concepts, bits of syntax, commands, or tips we&amp;rsquo;ve recently learned.
-Today-I-Learn (TIL) is inspired by Thoughbot, TIL is a repository for everyone to share what we have learn today.
-This repo has a tool that help you to manage and write down what you learned in scientific way.</description>
+      <description>Introduction We constantly learn new things. This is a repo to share those learnings. TILs are short Markdown documents (a few sentences + example code) explaining concepts, bits of syntax, commands, or tips we&amp;rsquo;ve recently learned.</description>
     </item>
     
   </channel>

@@ -6,6 +6,7 @@
     <description>Recent content in Ip on KhanhIceTea B(rain)-log</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <copyright>KhanhIceTea - Licensed under CC BY-NC-ND 3.0 | In God We Trust</copyright>
     <lastBuildDate>Fri, 24 Nov 2017 23:59:59 +0000</lastBuildDate>
     
 	<atom:link href="https://khanhicetea.com/tags/ip/index.xml" rel="self" type="application/rss+xml" />
@@ -17,8 +18,7 @@
       <pubDate>Fri, 24 Nov 2017 23:59:59 +0000</pubDate>
       
       <guid>https://khanhicetea.com/til/2017-11-24-getting-your-external-ip/</guid>
-      <description>Getting your external IP We can get our external IP address by following ways :
- Call http request : curl http://wtfismyip.com/text or curl http://ifconfig.me/ip Lookup A record for hostname nslookup myip.opendns.com resolver1.opendns.com (this only works when you use resolver of OpenDNS)  Bonus : curl https://v6.ident.me/ for IPv6</description>
+      <description>Getting your external IP We can get our external IP address by following ways :</description>
     </item>
     
     <item>
@@ -29,9 +29,7 @@
       <guid>https://khanhicetea.com/post/aws-gcp-azure-ip-ranges/</guid>
       <description>TL;DR This is my gist of result
 https://gist.github.com/khanhicetea/c6cc74b99ab336d58c2da7929c2de709
-Introdution These are 3 biggest cloud providers (from Amazon, Google and Microsoft). This is the way to get their IP ranges (IPv4).
-Amazon Web Service AWS update its IP ranges on this link : https://ip-ranges.amazonaws.com/ip-ranges.json
-# download ip-ranges.json file curl -o aws.json https://ip-ranges.amazonaws.com/ip-ranges.json # parse ip range with grep tool grep -o -E &#39;\d+\.\d+\.\d+\.\d+/\d+&#39; aws.json &amp;gt; aws.txt  The result are in aws.</description>
+Introdution These are 3 biggest cloud providers (from Amazon, Google and Microsoft).</description>
     </item>
     
   </channel>

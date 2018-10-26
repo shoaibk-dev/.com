@@ -6,6 +6,7 @@
     <description>Recent content in Workflow on KhanhIceTea B(rain)-log</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <copyright>KhanhIceTea - Licensed under CC BY-NC-ND 3.0 | In God We Trust</copyright>
     <lastBuildDate>Wed, 22 Nov 2017 23:59:59 +0000</lastBuildDate>
     
 	<atom:link href="https://khanhicetea.com/tags/workflow/index.xml" rel="self" type="application/rss+xml" />
@@ -17,9 +18,7 @@
       <pubDate>Wed, 22 Nov 2017 23:59:59 +0000</pubDate>
       
       <guid>https://khanhicetea.com/til/2017-11-22-using-git-hooks-to-improve-working-flow/</guid>
-      <description>using git hooks to improve working flow We can improve our team workflow by defining some git hooks that trigger on specified events. You can read all events and their usecases here : https://www.digitalocean.com/community/tutorials/how-to-use-git-hooks-to-automate-development-and-deployment-tasks
-This is what I implemented to my today-i-learned repo. I used pre-commit to update Table of Contents in the README.md file, so every content in my repo will be updated on Github repo page.
-$ ln pre-commit .</description>
+      <description>using git hooks to improve working flow We can improve our team workflow by defining some git hooks that trigger on specified events.</description>
     </item>
     
   </channel>
