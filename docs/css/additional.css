@@ -36,7 +36,7 @@
 }
 .mainheading p.sitetitle {
     font-size: 2.5rem;
-    font-family: 'IBM Plex Serif', serif;
+    font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
     margin-bottom: .5rem;
     font-weight: 500;
     line-height: 1.2;
@@ -46,10 +46,10 @@
     margin-bottom: 0
 }
 .navbar-brand span {
-    font-family: 'IBM Plex Serif', serif;
+    font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
 }
 .article-post {
-    font-family: 'IBM Plex Serif', serif;
+    font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
 }
 .article-post pre {
     padding: 0;
