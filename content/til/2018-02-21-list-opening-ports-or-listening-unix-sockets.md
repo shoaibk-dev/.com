@@ -4,8 +4,6 @@ title = "#TIL : List opening ports or listening UNIX sockets"
 description = "I learned on 2018-02-21 about networking"
 categories = ["Today I learned", "networking"]
 tags = ["networking"]
-image = "/images/never_stop_learning.jpg"
-comments = true
 +++
 
 

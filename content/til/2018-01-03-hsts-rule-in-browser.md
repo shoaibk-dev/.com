@@ -4,8 +4,6 @@ title = "#TIL : HSTS rule in browser"
 description = "I learned on 2018-01-03 about web, security"
 categories = ["Today I learned", "web"]
 tags = ["web", "security"]
-image = "/images/never_stop_learning.jpg"
-comments = true
 +++
 
 

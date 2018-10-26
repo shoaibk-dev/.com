@@ -4,8 +4,6 @@ title = "#TIL : Ansible playbook : skip to task"
 description = "I learned on 2017-09-05 about sysadmin, ansible"
 categories = ["Today I learned", "sysadmin"]
 tags = ["sysadmin", "ansible"]
-image = "/images/never_stop_learning.jpg"
-comments = true
 +++
 
 

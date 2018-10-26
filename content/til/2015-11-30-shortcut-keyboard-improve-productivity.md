@@ -4,8 +4,6 @@ title = "#TIL : Shortcut keyboard improve productivity"
 description = "I learned on 2015-11-30 about shortcut-key, mac-osx, productivity"
 categories = ["Today I learned", "mac-osx"]
 tags = ["shortcut-key", "mac-osx", "productivity"]
-image = "/images/never_stop_learning.jpg"
-comments = true
 +++
 
 

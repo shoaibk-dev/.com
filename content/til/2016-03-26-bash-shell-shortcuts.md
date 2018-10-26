@@ -4,8 +4,6 @@ title = "#TIL : Bash shell shortcuts"
 description = "I learned on 2016-03-26 about sysadmin, shortcuts, shell, bash"
 categories = ["Today I learned", "sysadmin"]
 tags = ["sysadmin", "shortcuts", "shell", "bash"]
-image = "/images/never_stop_learning.jpg"
-comments = true
 +++
 
 

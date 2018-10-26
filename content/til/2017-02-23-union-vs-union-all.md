@@ -4,8 +4,6 @@ title = "#TIL : UNION vs UNION ALL"
 description = "I learned on 2017-02-23 about database, mysql"
 categories = ["Today I learned", "mysql"]
 tags = ["database", "mysql"]
-image = "/images/never_stop_learning.jpg"
-comments = true
 +++
 
 

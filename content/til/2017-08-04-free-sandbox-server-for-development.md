@@ -4,8 +4,6 @@ title = "#TIL : Free sandbox server for development"
 description = "I learned on 2017-08-04 about heroku, devops, free"
 categories = ["Today I learned", "devops"]
 tags = ["heroku", "devops", "free"]
-image = "/images/never_stop_learning.jpg"
-comments = true
 +++
 
 

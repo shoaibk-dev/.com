@@ -4,8 +4,6 @@ title = "#TIL : Using mark to bookmark checkpoints in files"
 description = "I learned on 2018-01-30 about editor, vim"
 categories = ["Today I learned", "vim"]
 tags = ["editor", "vim"]
-image = "/images/never_stop_learning.jpg"
-comments = true
 +++
 
 

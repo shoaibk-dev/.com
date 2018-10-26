@@ -4,8 +4,6 @@ title = "#TIL : Mysql dumping only table structure"
 description = "I learned on 2017-05-17 about mysql"
 categories = ["Today I learned", "mysql"]
 tags = ["mysql"]
-image = "/images/never_stop_learning.jpg"
-comments = true
 +++
 
 

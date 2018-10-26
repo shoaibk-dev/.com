@@ -4,8 +4,6 @@ title = "#TIL : Setter and getter behavior of class property in Python3"
 description = "I learned on 2018-07-30 about python, pythonic"
 categories = ["Today I learned", "python"]
 tags = ["python", "pythonic"]
-image = "/images/never_stop_learning.jpg"
-comments = true
 +++
 
 

@@ -4,8 +4,6 @@ title = "#TIL : FTP via curl tool"
 description = "I learned on 2015-12-03 about sysadmin, ftp, curl"
 categories = ["Today I learned", "sysadmin"]
 tags = ["sysadmin", "ftp", "curl"]
-image = "/images/never_stop_learning.jpg"
-comments = true
 +++
 
 

@@ -4,8 +4,6 @@ title = "#TIL : Sleeping connections in MySQL"
 description = "I learned on 2018-01-04 about web, db, mysql"
 categories = ["Today I learned", "mysql"]
 tags = ["web", "db", "mysql"]
-image = "/images/never_stop_learning.jpg"
-comments = true
 +++
 
 

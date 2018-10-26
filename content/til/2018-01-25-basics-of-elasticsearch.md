@@ -4,8 +4,6 @@ title = "#TIL : Basics of Elasticsearch"
 description = "I learned on 2018-01-25 about logging, elasticsearch, system"
 categories = ["Today I learned", "elasticsearch"]
 tags = ["logging", "elasticsearch", "system"]
-image = "/images/never_stop_learning.jpg"
-comments = true
 +++
 
 

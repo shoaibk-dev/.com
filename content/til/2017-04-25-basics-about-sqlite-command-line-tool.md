@@ -4,8 +4,6 @@ title = "#TIL : Basics about sqlite command line tool"
 description = "I learned on 2017-04-25 about sqlite, database"
 categories = ["Today I learned", "database"]
 tags = ["sqlite", "database"]
-image = "/images/never_stop_learning.jpg"
-comments = true
 +++
 
 

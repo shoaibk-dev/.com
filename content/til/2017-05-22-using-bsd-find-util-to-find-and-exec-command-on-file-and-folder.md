@@ -4,8 +4,6 @@ title = "#TIL : Using BSD find util to find and exec command on file and folder"
 description = "I learned on 2017-05-22 about sysadmin, util, shell"
 categories = ["Today I learned", "sysadmin"]
 tags = ["sysadmin", "util", "shell"]
-image = "/images/never_stop_learning.jpg"
-comments = true
 +++
 
 

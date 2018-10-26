@@ -4,8 +4,6 @@ title = "#TIL : SQL Wildcard Characters"
 description = "I learned on 2018-07-26 about database"
 categories = ["Today I learned", "database"]
 tags = ["database"]
-image = "/images/never_stop_learning.jpg"
-comments = true
 +++
 
 

@@ -4,8 +4,6 @@ title = "#TIL : Eloquent Many-to-Many Relationship"
 description = "I learned on 2015-12-02 about php, eloquent"
 categories = ["Today I learned", "php"]
 tags = ["php", "eloquent"]
-image = "/images/never_stop_learning.jpg"
-comments = true
 +++
 
 

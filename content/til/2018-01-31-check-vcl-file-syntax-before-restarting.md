@@ -4,8 +4,6 @@ title = "#TIL : Check vcl file syntax before restarting"
 description = "I learned on 2018-01-31 about varnish"
 categories = ["Today I learned", "varnish"]
 tags = ["varnish"]
-image = "/images/never_stop_learning.jpg"
-comments = true
 +++
 
 

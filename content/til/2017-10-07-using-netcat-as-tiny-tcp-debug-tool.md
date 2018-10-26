@@ -4,8 +4,6 @@ title = "#TIL : Using netcat as tiny TCP debug tool"
 description = "I learned on 2017-10-07 about sysadmin, tool, networking"
 categories = ["Today I learned", "sysadmin"]
 tags = ["sysadmin", "tool", "networking"]
-image = "/images/never_stop_learning.jpg"
-comments = true
 +++
 
 

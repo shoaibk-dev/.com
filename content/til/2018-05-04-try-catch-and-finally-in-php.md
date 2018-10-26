@@ -4,8 +4,6 @@ title = "#TIL : try, catch and finally in PHP"
 description = "I learned on 2018-05-04 about php"
 categories = ["Today I learned", "php"]
 tags = ["php"]
-image = "/images/never_stop_learning.jpg"
-comments = true
 +++
 
 

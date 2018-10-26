@@ -4,8 +4,6 @@ title = "#TIL : Do not use mutable objects as default parameters"
 description = "I learned on 2018-07-24 about python, function"
 categories = ["Today I learned", "python"]
 tags = ["python", "function"]
-image = "/images/never_stop_learning.jpg"
-comments = true
 +++
 
 

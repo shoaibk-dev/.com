@@ -5,15 +5,14 @@ title = "KhanhIceTea B(rain)-log"
 canonifyurls = true
 googleAnalytics = "UA-50390703-1"
 summaryLength = 16
-copyright = "KhanhIceTea - All rights reserved"
-paginate = 6
+copyright = "KhanhIceTea - Licensed under CC BY-NC-ND 3.0 | In God We Trust"
+paginate = 9
 paginatePath = "page"
 relativeURLs = true
 uglyURLs = false
 
 
 [Params]
-    Author = "KhanhIceTea"
     disqusShortname = "khanhicetea"
     GitHubUsername = "khanhicetea"
     LinkedInUrl = "https://vn.linkedin.com/in/khanhicetea"
@@ -21,19 +20,35 @@ uglyURLs = false
     SyntaxHighlightTheme = "monokai-sublime.min.css"
     logo = "/images/kit_logo.png"
     description ="Does it matter ? Nope !!"
-    mailchimp = "you can provide a mailchimp-link here, see below"
-    mailprotect = "you can provide a protector-name here, see below"
+    mailchimp = "https://khanhicetea.us13.list-manage.com/subscribe/post?u=2be43c527dca86c033d390369&amp;id=febb4cd208"
+    mailprotect = "b_2be43c527dca86c033d390369_febb4cd208"
 
 [sitemap]
     changefreq = "daily"
     priority = 0.7
 
-[params.author]
-    name = "KhanhIceTea"
-    thumbnail = "/images/author.jpg"
-    description = "Creator of this blog."
+[Params.author]
+  name = "Khanh Nguyen"
+  thumbnail = "/images/khanhicetea.jpg"
 
-[params.social]
+[Params.social]
     github = "khanhicetea"
     linkedin = "khanhicetea"
     xing = "khanhicetea"
+
+## Main Menu
+[[menu.main]]
+    name = "Home"
+    weight = 50
+    identifier = "home"
+    url = "/"
+[[menu.main]]
+    name = "Github"
+    weight = 100
+    identifier = "github"
+    url = "https://github.com/khanhicetea"
+[[menu.main]]
+    name = "Today I Learned"
+    identifier = "imprint"
+    weight = 200
+    url = "/til/"

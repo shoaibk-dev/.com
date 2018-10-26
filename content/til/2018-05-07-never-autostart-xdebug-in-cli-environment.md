@@ -4,8 +4,6 @@ title = "#TIL : Never autostart XDebug in cli environment"
 description = "I learned on 2018-05-07 about debug, php"
 categories = ["Today I learned", "php"]
 tags = ["debug", "php"]
-image = "/images/never_stop_learning.jpg"
-comments = true
 +++
 
 

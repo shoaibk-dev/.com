@@ -4,8 +4,6 @@ title = "#TIL : TIME command output meaning"
 description = "I learned on 2017-10-04 about sysadmin, cpu, time"
 categories = ["Today I learned", "sysadmin"]
 tags = ["sysadmin", "cpu", "time"]
-image = "/images/never_stop_learning.jpg"
-comments = true
 +++
 
 

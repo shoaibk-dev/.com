@@ -4,8 +4,6 @@ title = "#TIL : Convert tabs to spaces"
 description = "I learned on 2018-02-21 about vim"
 categories = ["Today I learned", "vim"]
 tags = ["vim"]
-image = "/images/never_stop_learning.jpg"
-comments = true
 +++
 
 

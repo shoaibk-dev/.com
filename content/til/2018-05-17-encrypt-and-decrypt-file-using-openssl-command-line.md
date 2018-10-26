@@ -4,8 +4,6 @@ title = "#TIL : Encrypt and decrypt file using openssl command line"
 description = "I learned on 2018-05-17 about decrypt, encrypt, crypto"
 categories = ["Today I learned", "crypto"]
 tags = ["decrypt", "encrypt", "crypto"]
-image = "/images/never_stop_learning.jpg"
-comments = true
 +++
 
 

@@ -4,8 +4,6 @@ title = "#TIL : Grep : find a string in folder"
 description = "I learned on 2017-09-05 about sysadmin, grep"
 categories = ["Today I learned", "sysadmin"]
 tags = ["sysadmin", "grep"]
-image = "/images/never_stop_learning.jpg"
-comments = true
 +++
 
 

@@ -4,8 +4,6 @@ title = "#TIL : Sending Cookie in AJAX CORs request"
 description = "I learned on 2018-03-01 about web, http, browser"
 categories = ["Today I learned", "web"]
 tags = ["web", "http", "browser"]
-image = "/images/never_stop_learning.jpg"
-comments = true
 +++
 
 

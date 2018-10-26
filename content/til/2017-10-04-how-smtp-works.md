@@ -4,8 +4,6 @@ title = "#TIL : How SMTP works"
 description = "I learned on 2017-10-04 about smtp, networking, mail"
 categories = ["Today I learned", "networking"]
 tags = ["smtp", "networking", "mail"]
-image = "/images/never_stop_learning.jpg"
-comments = true
 +++
 
 

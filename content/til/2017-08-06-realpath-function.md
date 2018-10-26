@@ -4,8 +4,6 @@ title = "#TIL : realpath function"
 description = "I learned on 2017-08-06 about php, mistake"
 categories = ["Today I learned", "php"]
 tags = ["php", "mistake"]
-image = "/images/never_stop_learning.jpg"
-comments = true
 +++
 
 

@@ -4,8 +4,6 @@ title = "#TIL : Remap Capslock to Control key"
 description = "I learned on 2017-08-08 about keyboard, linux"
 categories = ["Today I learned", "linux"]
 tags = ["keyboard", "linux"]
-image = "/images/never_stop_learning.jpg"
-comments = true
 +++
 
 

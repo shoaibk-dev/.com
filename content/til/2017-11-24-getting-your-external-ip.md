@@ -4,8 +4,6 @@ title = "#TIL : Getting your external IP"
 description = "I learned on 2017-11-24 about sysadmin, ip, dns"
 categories = ["Today I learned", "sysadmin"]
 tags = ["sysadmin", "ip", "dns"]
-image = "/images/never_stop_learning.jpg"
-comments = true
 +++
 
 

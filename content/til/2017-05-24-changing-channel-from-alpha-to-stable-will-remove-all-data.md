@@ -4,8 +4,6 @@ title = "#TIL : Changing channel from alpha to stable will remove ALL DATA"
 description = "I learned on 2017-05-24 about sysadmin, docker"
 categories = ["Today I learned", "docker"]
 tags = ["sysadmin", "docker"]
-image = "/images/never_stop_learning.jpg"
-comments = true
 +++
 
 

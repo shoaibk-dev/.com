@@ -4,8 +4,6 @@ title = "#TIL : Persistent connection to MySQL"
 description = "I learned on 2017-02-28 about database, php, mysql"
 categories = ["Today I learned", "php"]
 tags = ["database", "php", "mysql"]
-image = "/images/never_stop_learning.jpg"
-comments = true
 +++
 
 

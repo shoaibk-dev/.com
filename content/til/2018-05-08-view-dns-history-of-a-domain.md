@@ -4,8 +4,6 @@ title = "#TIL : View DNS history of a domain"
 description = "I learned on 2018-05-08 about sysadmin, dns"
 categories = ["Today I learned", "sysadmin"]
 tags = ["sysadmin", "dns"]
-image = "/images/never_stop_learning.jpg"
-comments = true
 +++
 
 

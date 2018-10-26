@@ -4,8 +4,6 @@ title = "#TIL : Mycli : a new good cli MySql Client"
 description = "I learned on 2017-09-01 about cli, mysql"
 categories = ["Today I learned", "mysql"]
 tags = ["cli", "mysql"]
-image = "/images/never_stop_learning.jpg"
-comments = true
 +++
 
 

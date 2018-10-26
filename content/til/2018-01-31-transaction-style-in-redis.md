@@ -4,8 +4,6 @@ title = "#TIL : Transaction style in Redis"
 description = "I learned on 2018-01-31 about transaction, redis"
 categories = ["Today I learned", "redis"]
 tags = ["transaction", "redis"]
-image = "/images/never_stop_learning.jpg"
-comments = true
 +++
 
 

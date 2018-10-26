@@ -4,8 +4,6 @@ title = "#TIL : zcat : decompressing pipe tool"
 description = "I learned on 2017-05-22 about sysadmin, tool, bash, compressing"
 categories = ["Today I learned", "sysadmin"]
 tags = ["sysadmin", "tool", "bash", "compressing"]
-image = "/images/never_stop_learning.jpg"
-comments = true
 +++
 
 

@@ -4,8 +4,6 @@ title = "#TIL : F-cking stupid limit of input vars"
 description = "I learned on 2016-03-08 about input, php, post-data"
 categories = ["Today I learned", "php"]
 tags = ["input", "php", "post-data"]
-image = "/images/never_stop_learning.jpg"
-comments = true
 +++
 
 

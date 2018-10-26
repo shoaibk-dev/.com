@@ -4,8 +4,6 @@ title = "#TIL : Trigger event after setting val in jQuery"
 description = "I learned on 2018-01-14 about jquery, javascript"
 categories = ["Today I learned", "javascript"]
 tags = ["jquery", "javascript"]
-image = "/images/never_stop_learning.jpg"
-comments = true
 +++
 
 

@@ -4,8 +4,6 @@ title = "#TIL : Use temporarily data from another database in SQLite"
 description = "I learned on 2018-05-02 about sqlite, database"
 categories = ["Today I learned", "database"]
 tags = ["sqlite", "database"]
-image = "/images/never_stop_learning.jpg"
-comments = true
 +++
 
 

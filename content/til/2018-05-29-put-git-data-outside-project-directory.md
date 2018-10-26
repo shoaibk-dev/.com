@@ -4,8 +4,6 @@ title = "#TIL : Put .git data outside project directory"
 description = "I learned on 2018-05-29 about git, secutiry"
 categories = ["Today I learned", "git"]
 tags = ["git", "secutiry"]
-image = "/images/never_stop_learning.jpg"
-comments = true
 +++
 
 

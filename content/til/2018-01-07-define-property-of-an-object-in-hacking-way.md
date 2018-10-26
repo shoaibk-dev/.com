@@ -4,8 +4,6 @@ title = "#TIL : Define property of an object in hacking way"
 description = "I learned on 2018-01-07 about javascript"
 categories = ["Today I learned", "javascript"]
 tags = ["javascript"]
-image = "/images/never_stop_learning.jpg"
-comments = true
 +++
 
 

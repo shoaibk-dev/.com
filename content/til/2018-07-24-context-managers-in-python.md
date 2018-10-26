@@ -4,8 +4,6 @@ title = "#TIL : Context Managers in Python"
 description = "I learned on 2018-07-24 about python"
 categories = ["Today I learned", "python"]
 tags = ["python"]
-image = "/images/never_stop_learning.jpg"
-comments = true
 +++
 
 

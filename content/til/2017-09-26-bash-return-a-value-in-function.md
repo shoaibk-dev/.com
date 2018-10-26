@@ -4,8 +4,6 @@ title = "#TIL : BASH return a value in function"
 description = "I learned on 2017-09-26 about sysadmin, shell, bash"
 categories = ["Today I learned", "sysadmin"]
 tags = ["sysadmin", "shell", "bash"]
-image = "/images/never_stop_learning.jpg"
-comments = true
 +++
 
 
