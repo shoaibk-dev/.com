@@ -76,7 +76,7 @@ h6, .h6 { font-size: 1rem; }
     padding: 5px 2px;
 }
 #TableOfContents {
-    width: 170px;
+    width: 168px;
 }
 #TableOfContents > ul ul {
     padding-left: 4px;
@@ -125,7 +125,14 @@ h6, .h6 { font-size: 1rem; }
 .featured-image {
     width: 100%;
 }
-@media (max-width:767px) {
+
+@media (max-width: 768px) {
+    .share {
+        display: none;
+    }
+}
+
+@media (max-width: 576px) {
     .share {
        display: none;
    }
