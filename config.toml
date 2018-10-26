@@ -1,4 +1,4 @@
-baseurl = "https://khanhicetea.com/"
+baseurl = "https://khanhicetea.com"
 publishdir = "docs"
 languageCode = "en-us"
 title = "KhanhIceTea B(rain)-log"
