@@ -7,7 +7,7 @@ jobs:
       - checkout
       - run:
           name: "Run Hugo"
-          command: HUGO_ENV=production hugo --theme=hugo_theme_robust --buildFuture -d docs
+          command: HUGO_ENV=production hugo --theme=mediumish-gohugo-theme --buildFuture -d docs
       - add_ssh_keys:
           fingerprint:
             - "8e:0f:7e:b2:16:00:d7:ad:3e:a3:11:b2:85:12:df:a7"
