@@ -6,6 +6,9 @@ jobs:
     steps:
       - checkout
       - run:
+          name: "git update submodule"
+          command: git submodule update --recursive --remote
+      - run:
           name: "Run Hugo"
           command: HUGO_ENV=production hugo --theme=mediumish-gohugo-theme --buildFuture -d docs
       - add_ssh_keys:
