@@ -15,6 +15,9 @@ jobs:
           name: "git update submodule"
           command: git submodule update --recursive --remote
       - run:
+          name: "test"
+          command: ls -al themes/mediumish-gohugo-theme
+      - run:
           name: "Run Hugo"
           command: HUGO_ENV=production hugo -v --theme=mediumish-gohugo-theme --buildFuture -d dist
       - add_ssh_keys:
