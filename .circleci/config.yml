@@ -16,7 +16,7 @@ jobs:
           command: git submodule update --recursive --remote
       - run:
           name: "Run Hugo"
-          command: HUGO_ENV=production hugo --theme=mediumish-gohugo-theme --disableFastRender --buildFuture -d dist
+          command: HUGO_ENV=production hugo --theme=mediumish-gohugo-theme --verboseLog --buildFuture -d dist
       - add_ssh_keys:
           fingerprint:
             - "0c:df:98:33:17:0d:03:8f:78:fb:5e:6d:56:d8:c3:e1"
