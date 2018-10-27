@@ -16,10 +16,10 @@ jobs:
           command: git submodule update --recursive --remote
       - run:
           name: "Run Hugo"
-          command: HUGO_ENV=production hugo --theme=mediumish-gohugo-theme --buildFuture -d dist
+          command: HUGO_ENV=production hugo --theme=mediumish-gohugo-theme --disableFastRender --buildFuture -d dist
       - add_ssh_keys:
           fingerprint:
-            - "8e:0f:7e:b2:16:00:d7:ad:3e:a3:11:b2:85:12:df:a7"
+            - "0c:df:98:33:17:0d:03:8f:78:fb:5e:6d:56:d8:c3:e1"
       - run:
           name: "Config Git User Email"
           command: git config --global user.email bot@khanhicetea.com
