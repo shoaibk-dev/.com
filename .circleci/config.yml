@@ -13,7 +13,9 @@ jobs:
       - checkout
       - run:
           name: "git update submodule"
-          command: git submodule update --recursive --remote
+          command: |
+            git submodule init
+            git submodule update --recursive --remote
       - run:
           name: "test"
           command: ls -al themes/mediumish-gohugo-theme
