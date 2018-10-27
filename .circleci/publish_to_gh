@@ -2,15 +2,22 @@
 
 set -e
 
-timestamp=$(date +%s%3N)
+if [ $CIRCLE_BRANCH == $SOURCE_BRANCH ]; then
+    timestamp=$(date +%s%3N)
 
-echo "Publishing version $timestamp"
+    echo "Publishing version $timestamp"
 
-git add -A && \
-git commit -m "[ci skip] Build version $timestamp" && \
-git push origin master
+    cd dist
+    git init
+    git remote add deploy $CIRCLE_REPOSITORY_URL
+    git checkout $TARGET_BRANCH || git checkout --orphan $TARGET_BRANCH
 
-curl --request POST \
-    --url http://rpc.pingomatic.com/ \
-    --header 'content-type: application/xml' \
-    --data '<?xml version="1.0"?><methodCall><methodName>weblogUpdates.ping</methodName><params><param><value>KhanhIceTea</value></param><param><value>https://khanhicetea.com</value></param></params></methodCall>'
+    git add -A && \
+    git commit -m "[ci skip] Build version $timestamp" && \
+    git push deploy $TARGET_BRANCH
+
+    curl --request POST \
+        --url http://rpc.pingomatic.com/ \
+        --header 'content-type: application/xml' \
+        --data '<?xml version="1.0"?><methodCall><methodName>weblogUpdates.ping</methodName><params><param><value>KhanhIceTea</value></param><param><value>https://khanhicetea.com</value></param></params></methodCall>'
+fi
