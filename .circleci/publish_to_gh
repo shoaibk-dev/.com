@@ -14,7 +14,7 @@ if [ $CIRCLE_BRANCH == $SOURCE_BRANCH ]; then
 
     git add -A && \
     git commit -m "[ci skip] Build version $timestamp" && \
-    git push deploy $TARGET_BRANCH
+    git push deploy $TARGET_BRANCH --force
 
     curl --request POST \
         --url http://rpc.pingomatic.com/ \
