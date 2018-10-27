@@ -7,14 +7,14 @@ tags: ["sequelpro", "mysql", "xcode", "database"]
 image: "/images/2018/09/sequelpro.jpeg"
 ---
 
-Sequel Pro is great GUI MySQL tool in macOS (it's open source and of course totally free) !
+Sequel Pro is a great GUI MySQL tool in macOS (it's open source and of course totally FREE) !
 
-But from last year, their automated build system has been broken, so the versions is outdated :
+But from last year, their automated build system has been broken, so their built versions are outdated :
 
 - Stable version 1.1.2 (Apr 3, 2016)
 - Nightly version 3477d22387 (Sep 6, 2017)
 
-Even their codebase bas been updated every week but we can't use the latest build within a lot of bugfixes. So here is the guide to build from source using XCode 10
+Even their codebase bas been updated every week but we can't use the latest build within a lot of bugfixes. So here is the guide to build SequelPro from source using XCode 10
 
 **Step 1 : Clone source code**
 
