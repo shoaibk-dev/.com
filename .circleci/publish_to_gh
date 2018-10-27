@@ -13,7 +13,7 @@ if [ $CIRCLE_BRANCH == $SOURCE_BRANCH ]; then
     git checkout $TARGET_BRANCH || git checkout --orphan $TARGET_BRANCH
 
     git add -A && \
-    git commit -m "[ci skip] Build version $timestamp" && \
+    git commit -m "Automated deployment to GitHub Pages on $timestamp" && \
     git push deploy $TARGET_BRANCH --force
 
     curl --request POST \

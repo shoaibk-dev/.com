@@ -1,5 +1,5 @@
 baseurl = "https://khanhicetea.com"
-publishdir = "docs"
+publishdir = "dist"
 languageCode = "en-us"
 title = "KhanhIceTea B(rain)-log"
 canonifyurls = true
