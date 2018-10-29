@@ -14,6 +14,8 @@ But from last year, their automated build system has been broken, so their built
 - Stable version 1.1.2 (Apr 3, 2016)
 - Nightly version 3477d22387 (Sep 6, 2017)
 
+**UPDATED : Nightly versions have been released from Oct 29, check it at [Test Builds](https://sequelpro.com/test-builds) **
+
 Even their codebase bas been updated every week but we can't use the latest build within a lot of bugfixes. So here is the guide to build SequelPro from source using XCode 10
 
 **Step 1 : Clone source code**
