@@ -1,7 +1,6 @@
 ---
 title: "[Series mới] : Học lập trình Web bằng PHP và MySQL"
 date: 2018-10-30T23:15:41+07:00
-draft: true
 description: "Học PHP một cách tinh gọn dễ hiểu và đúng hướng !"
 categories: ["php"]
 tags: ["php", "vietnamese"]
