@@ -3,7 +3,7 @@ title: "Evaluate expression string with variables in PHP without eval"
 date: 2018-06-05T23:04:35+07:00
 description: "Never ever use eval function in PHP ..."
 categories: ["php"]
-tags: ["php", "eval", "lambda", "english", "vietnamese"]
+tags: ["php", "eval", "lambda", "english"]
 ---
 
 ## TLDR;
