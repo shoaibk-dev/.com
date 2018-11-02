@@ -17,6 +17,21 @@ Website (viết tắt là Web) là một tập hợp những trang mạng, bao g
 
 Mục đích của Web là để đăng tải, chia sẻ, giao dịch và xử lý thông tin số thông qua mạng máy tính.
 
+## URL (gọi phổ thông là link)
+
+URL là địa chỉ được gọi là định danh của một tài nguyên cụ thể trên mạng Internet, thông thường URL khác nhau sẽ cho ra một tài nguyên khác nhau. Một URL thông thường có dạng như sau:
+
+```
+<protocol>://<host><:port>/<path/to/resource><?query>
+```
+
+Trong đó:
+
+- **<protocol>** : giao thức, ở đây thường là `http` hoặc `https`
+- **<host>** : địa chỉ host nơi chứa tài nguyên, thường là IP hoặc tên miền (Domain name)
+- **<path/to/resource>** : đường dẫn tìm tới tài nguyên chứa trong host
+- **<?query>** : các đối số kèm theo cung cấp thêm thông tin cho server để trả về kết quả phù hợp hơn, bắt đầu bằng dấu **?**, mỗi cặp giá trị **key=value** cách nhau bằng dấu **&**. Ví dụ như : **?page=1&limit=100&from_year=2018**
+
 ## Internet hoạt động thế nào ? (Internet Protocol)
 
 Mạng internet là mạng giữa các máy tính được kết nối với nhau trực tiếp hay gián tiếp thông qua các điểm trung chuyển khác nhau tạo thành một mạng lưới kết nối rộng lớn. Mỗi máy trực tiếp tham gia vào mạng sẽ được cấp một địa chỉ IP (địa chỉ IPv4 có dạng A.B.C.D với A,B,C,D từ 0-255) duy nhất trong hệ thống mạng. Vì vậy việc gửi dữ liệu từ máy A sáng máy B là việc gửi từ địa chỉ IP của máy A sang địa chỉ IP của máy B. Do các dữ liệu được trung chuyển qua các điểm máy trung gian trong mạng máy tính vì không có đường hướng cụ thể, công đoạn này gọi là Routing. Dữ liệu sẽ được gửi dưới dạng các gói tin từ IP A sang IP B qua hệ thống Routing toàn cầu.
@@ -105,3 +120,19 @@ Dạo gần đây, khái niệm này mới thật sự nổi lên như một là
 Như các bạn cũng đã thấy ở phần trên về HTTP, mọi dữ liệu kể cả Request lẫn Response đều được truyền giữa Client và Server dưới dạng là plain text (chữ thường) không được mã hoá. Vì thế nảy sinh ra rủi ro dữ liệu sẽ bị nghe lén, đánh cắp hoặc thậm chí là sửa đổi trên đường trung chuyển qua các nốt trung gian trong hệ thống mạng mà Client và cả Server không hề hay biết.
 
 HTTPS sử dụng công nghệ bảo mật là SSL (hoặc mới nhất là TLS) để mã hoá và chứng thực kết nối giữa Client và Server là an toàn và bảo mật. Về cơ chế làm việc của HTTPS nói riêng là TLS nói chung mình sẽ nói sâu hơn trong một chuyên đề nâng cao về bảo mật.
+
+### Request and Response Life Cycle (vòng đời Request và Response)
+
+Bên dưới là hình phác hoạ một vòng đời thông thường của một HTTP Request từ lúc Client gửi yêu cầu tới lúc nhận được HTTP Response, bao gồm 7 bước :
+
+1. Tra cứu dịch vụ DNS xem IP của tên miền abc.com là gì ?
+1. Dịch vụ tìm thấy IP là 1.2.3.4
+1. Client mở kết nối giao thức HTTP tới server có IP 1.2.3.4
+1. HTTP Web Server ở server nhận được HTTP Request, liền trung chuyển cho mã nguồn website xử lý
+1. Tính toán, xử lý dựa trên HTTP Request có được
+	1. Kết nối với Database (nếu cần), rồi truy vấn (query) những dữ liệu cần thiết để hiện thị, tính toán.
+    1. Database trả về kết quả cho mã nguồn website dữ liệu để tiếp tục tính toán, xử lý
+1. Sau khi mã nguồn tính toán xong nó sẽ trả về một HTTP Response cho HTTP Web Server
+1. Nhận được HTTP Response từ mã nguồn, HTTP Web Server trung chuyển về cho Client để hiển thị kết quả.
+
+![http-request-response-life-cycle](https://user-images.githubusercontent.com/4528223/47899928-ad1f0580-dead-11e8-8501-33fe54c98686.png)
