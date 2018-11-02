@@ -135,4 +135,4 @@ Bên dưới là hình phác hoạ một vòng đời thông thường của m�
 1. Sau khi mã nguồn tính toán xong nó sẽ trả về một HTTP Response cho HTTP Web Server
 1. Nhận được HTTP Response từ mã nguồn, HTTP Web Server trung chuyển về cho Client để hiển thị kết quả.
 
-![http-request-response-life-cycle](https://user-images.githubusercontent.com/4528223/47899928-ad1f0580-dead-11e8-8501-33fe54c98686.png)
+![http-request-response-life-cycle](https://user-images.githubusercontent.com/4528223/47900321-105d6780-deaf-11e8-894f-408e05e0b433.png)
