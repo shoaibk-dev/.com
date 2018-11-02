@@ -49,6 +49,11 @@ uglyURLs = false
     url = "https://github.com/khanhicetea"
 [[menu.main]]
     name = "Today I Learned"
-    identifier = "imprint"
+    identifier = "til"
     weight = 200
     url = "/til/"
+[[menu.main]]
+    name = "Learn PHP"
+    identifier = "php0to1"
+    weight = 200
+    url = "/php-0-to-1/"
