@@ -1,5 +1,5 @@
 ---
-title: "Refactoring Code Day 1"
+title: "Refactoring Code - Day 1"
 date: 2019-01-14T23:00:00+07:00
 description: "Improving the design of existing code - my learning"
 categories: ["Refactoring"]
@@ -34,6 +34,8 @@ Hôm nay mình đọc được hết phần 1 gồm 52 trang đầu của sách 
     - Sẵn sàng cho những thay đổi trong tương lai hơn
 
 PHẦN NÀY TỚI ĐÂY LÀ HẾT RÙI !!
+
+[===>.....................] (52/412 pages)
 
 Nếu bạn muốn mua và tìm đọc cuốn sách thì nhấn [vào đây](https://www.amazon.com/Refactoring-Improving-Design-Existing-Code/dp/0201485672)
 
