@@ -18,11 +18,11 @@ Hôm nay mình đọc được hết phần 1 gồm 52 trang đầu của sách 
 
 1. Nhịp điệu chính (thần chú bạn luôn nên nhớ) khi làm refactoring là thay đổi nhỏ -> test -> thay đổi nhỏ -> test -> thay đổi nhỏ -> ... -> hoàn thành -> commit
 
-1. Code tốt là code tự nó giải thích được bản thân nó là gì, làm gì và chạy ra sao. Và chìa khoá trong việc này là cách đặt tên biến và phương thức. (nếu mọi thứ chưa tường mình thì mới dùng comments) => Đừng ngại trong việc đổi tên nếu nó làm code tường minh, rõ ràng hơn.
+1. Code tốt là code tự nó giải thích được bản thân nó là gì, làm gì và chạy ra sao. Và chìa khoá trong việc này là cách đặt tên biến và phương thức. (nếu mọi thứ chưa tường minh thì mới dùng comments) => Đừng ngại trong việc đổi tên nếu nó làm code tường minh, rõ ràng hơn.
 
 1. Nên giải thoát cho các biến tạm thời không cần thiết, vì nó có thể bị lãng quên và dễ nảy sinh ra vấn đề sau này. => Có thể áp dụng chiến thuật "Replace Temp with Query"
 
-1. Đừng ngại refactoring sẽ làm chậm chương trình cho tới khi bạn có số liệu profiler chính xác. Và lúc đó thì chuyện tối ưu cũng sẽ dễ hơn và tối ưu trên một đống hỗn tạp phải không?! => Khi refactoring thì tính rõ ràng được ưu tiên hiệu suất.
+1. Đừng ngại refactoring sẽ làm chậm chương trình cho tới khi bạn có số liệu profiler chính xác. Và lúc đó thì chuyện tối ưu cũng sẽ dễ hơn là tối ưu trên một đống hỗn tạp phải không?! => Khi refactoring thì tính rõ ràng được ưu tiên hơn hiệu suất.
 
 1. Ưu tiên tách business logic ra khỏi giao diện để nâng cao tính tái sử dụng.
 
