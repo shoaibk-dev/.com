@@ -35,13 +35,11 @@ Hôm nay mình đọc được hết phần 1 gồm 52 trang đầu của sách 
 
 PHẦN NÀY TỚI ĐÂY LÀ HẾT RÙI !!
 
-[===>.........52/412..........] pages
+-------------------
 
 Nếu bạn muốn mua và tìm đọc cuốn sách thì nhấn [vào đây](https://www.amazon.com/Refactoring-Improving-Design-Existing-Code/dp/0201485672)
-
--------------------
 
 Ref:
 
 - Cover photo from Google Search
-- "Refactoring - Improving Design Existing Code" book cover from [Amazon]((https://www.amazon.com/Refactoring-Improving-Design-Existing-Code/dp/0201485672)
+- "Refactoring - Improving Design Existing Code" book cover from [Amazon](https://www.amazon.com/Refactoring-Improving-Design-Existing-Code/dp/0201485672)
