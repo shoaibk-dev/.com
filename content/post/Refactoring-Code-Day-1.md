@@ -1,5 +1,5 @@
 ---
-title: "Refactoring Code - Day 1"
+title: "Refactoring Code - Day 1 - Cơ bản về refactoring"
 date: 2019-01-14T23:00:00+07:00
 description: "Improving the design of existing code - my learning"
 categories: ["Refactoring"]
