@@ -6,4 +6,5 @@ workflow "Deploy to GitHub Pages" {
 action "khanhicetea/gh-actions-hugo-deploy-gh-pages" {
   uses = "khanhicetea/gh-actions-hugo-deploy-gh-pages@master"
   secrets = ["GITHUB_TOKEN"]
+  runs = "/entrypoint.sh"
 }
