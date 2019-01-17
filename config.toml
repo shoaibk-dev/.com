@@ -1,4 +1,5 @@
 baseurl = "https://khanhicetea.com"
+theme="mediumish-gohugo-theme"
 publishdir = "dist"
 languageCode = "en-us"
 title = "KhanhIceTea B(rain)-log"
