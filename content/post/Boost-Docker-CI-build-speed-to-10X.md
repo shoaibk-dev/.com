@@ -23,7 +23,7 @@ All of you know that RAM speed is really better than SSD or HDD speed, [the late
 
 Linux is a good OS that supports a lot of filesystems (specially it's **tmpfs**, which you can mount files into your RAM memory). The cons of **tmpfs** is it not a good option for persistent data (testing database don't need it, so it fits in).
 
-That's my idea, now I will try to test it on my CI environment (I used [DroneCI](https://github.com/drone/drone) which uses Docker). In new version 0.8 of DroneCI, they support we run docker containers within **tmpfs mount**.
+That's my idea, now I will try to test it on my CI environment (I used [DroneCI](https://github.com/drone/drone) which uses Docker). In new version 0.8+ of DroneCI, they support we run docker containers within **tmpfs mount**.
 
 So I just add this line into my drone config
 
