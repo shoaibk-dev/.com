@@ -7,23 +7,23 @@ image: "/images/2019/01/continuous-integration.png"
 tags: ["docker", "ci", "linux", "tmpfs"]
 ---
 
-As an software engineering developer, you know that automated CI testing is the one of keys to improve software release life cycle.
+As an software engineering developer, you know that automated CI testing is one of keys to improve software release life-cycle.
 
-But sometimes reality is not good as you think, CI testing speed is slow (3-10 minutes / build) and it slows the release cycle speed down. And you try to look into your build logs to find out what causes the problem. Then you got it, it's mostly the DATABASE service (MySQL, Postgres, MongoDB, ...)
+But sometimes reality is not as good as you think, CI testing speed is slow (3-10 minutes / build) and it slows the release cycle speed down. And you try to look into your build logs to find out what causes the problem. Then you got it, it’s mostly the DATABASE service (MySQL, Postgres, MongoDB, …)
 
 I will summarize some stages of your database in a testing build:
 
-- First, it initializes the data, load config and listen the connections (takes around 10-45 seconds)
-- Second, you import your testing database into the server (included schemas and initialized data, takes around 20-60 seconds)
-- Then, on each test case, it need to clear all data then re-import fixture data (takes around 30-120 seconds)
+- First, it initializes the data, loads config and listens to the connections (takes around 10-45 seconds)
+- Second, that you import your testing database into the server (including schemas and initialized data) takes around 20-60 seconds
+- Then, on each test case, it needs to clear all data then re-imports fixture data (takes around 30-120 seconds)
 
-So how to make these server run fast as possible as some Key-Value database (Redis, Memcached). The main different point is the MEMORY! What if we put all data inside memory??
+So how to make these servers run as fast as possible like some Key-Value databases do? (Redis, Memcached). The main different point is the MEMORY! What if we put all data inside memory??
 
-All of you know that RAM speed is really better than SSD or HDD speed, [the latency lower 150 times](https://www.theregister.co.uk/2016/04/21/storage_approaches_memory_speed_with_xpoint_and_storageclass_memory/)
+All of we know that RAM speed with 150 times lower latency is [technically better than SSD and HDD speed](https://www.theregister.co.uk/2016/04/21/storage_approaches_memory_speed_with_xpoint_and_storageclass_memory/). And as a matter of fact, Linux is a good OS that supports a lot of filesystems, specially tmpfs, which you can mount files into your RAM memory.
 
-Linux is a good OS that supports a lot of filesystems (specially it's **tmpfs**, which you can mount files into your RAM memory). The cons of **tmpfs** is it not a good option for persistent data (testing database don't need it, so it fits in).
+However, nothing is perfect and this is not an exception. Actually, it is not a good option for persistent data which is not necessary for testing database. What it really needs is speed only, so it fits in.
 
-That's my idea, now I will try to test it on my CI environment (I used [DroneCI](https://github.com/drone/drone) which uses Docker). In new version 0.8+ of DroneCI, they support we run docker containers within **tmpfs mount**.
+That’s my idea, now I will try to test it on my CI environment (I use [DroneCI](https://github.com/drone/drone) using Docker). In new version 0.8+ of DroneCI, they support us to run docker containers within **tmpfs mount**.
 
 So I just add this line into my drone config
 
