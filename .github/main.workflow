@@ -8,5 +8,6 @@ action "khanhicetea/gh-actions-hugo-deploy-gh-pages" {
   secrets = [
     "GITHUB_TOKEN",
     "GIT_EMAIL",
+    "GIT_DEPLOY_KEY"
   ]
 }

@@ -4,7 +4,7 @@ jobs:
     branches:
       ignore:
         - gh-pages
-        # - master
+        - master
     docker:
       - image: cibuilds/hugo:0.49
     environment:
