@@ -41,9 +41,9 @@ services:
 
 **Result**:
 
-- MySQL service initialize in 3 seconds instead of 25 seconds
-- Import testing database using mysql client takes only below 1 second instead of 17 seconds
-- My test cases run faster 20-30% (I have few testcases use database)
+- MySQL service initializes in 3 seconds instead of 25 seconds
+- Import testing database using mysql client takes below 1 second instead of 17 seconds
+- My test cases run 20-30% faster (I have few testcases using database)
 
 > So, worth a shot !!
 
