@@ -8,6 +8,9 @@ action "hugo-deploy-gh-pages" {
   secrets = [
     "GIT_DEPLOY_KEY",
   ]
+  env = {
+    HUGO_VERSION = "0.53"
+  }
 }
 
 action "rpc-ping" {
