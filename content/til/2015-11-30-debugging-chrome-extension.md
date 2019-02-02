@@ -1,5 +1,5 @@
 +++
-date = "2015-11-30T23:59:59"
+date = "2015-11-30T00:00:01"
 title = "#TIL : Debugging Chrome extension"
 description = "I learned on 2015-11-30 about chrome-extension, chrome-dev"
 categories = ["Today I learned", "chrome-dev"]

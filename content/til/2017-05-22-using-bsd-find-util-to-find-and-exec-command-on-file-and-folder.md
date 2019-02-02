@@ -1,5 +1,5 @@
 +++
-date = "2017-05-22T23:59:59"
+date = "2017-05-22T00:00:01"
 title = "#TIL : Using BSD find util to find and exec command on file and folder"
 description = "I learned on 2017-05-22 about sysadmin, util, shell"
 categories = ["Today I learned", "sysadmin"]

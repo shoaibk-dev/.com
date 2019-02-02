@@ -1,5 +1,5 @@
 +++
-date = "2018-03-14T23:59:59"
+date = "2018-03-14T00:00:01"
 title = "#TIL : Flush DNS cache on iOS device"
 description = "I learned on 2018-03-14 about ios, dns"
 categories = ["Today I learned", "ios"]

@@ -1,5 +1,5 @@
 +++
-date = "2018-01-07T23:59:59"
+date = "2018-01-07T00:00:01"
 title = "#TIL : Debug js code using console.trace"
 description = "I learned on 2018-01-07 about debug, javascript"
 categories = ["Today I learned", "javascript"]

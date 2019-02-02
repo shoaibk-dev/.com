@@ -1,5 +1,5 @@
 +++
-date = "2017-09-07T23:59:59"
+date = "2017-09-07T00:00:01"
 title = "#TIL : TCP FIN timeout"
 description = "I learned on 2017-09-07 about networking"
 categories = ["Today I learned", "networking"]

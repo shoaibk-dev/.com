@@ -1,5 +1,5 @@
 +++
-date = "2017-10-04T23:59:59"
+date = "2017-10-04T00:00:01"
 title = "#TIL : TIME command output meaning"
 description = "I learned on 2017-10-04 about sysadmin, cpu, time"
 categories = ["Today I learned", "sysadmin"]

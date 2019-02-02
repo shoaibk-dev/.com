@@ -1,5 +1,5 @@
 +++
-date = "2016-03-26T23:59:59"
+date = "2016-03-26T00:00:01"
 title = "#TIL : Bash shell shortcuts"
 description = "I learned on 2016-03-26 about sysadmin, shortcuts, shell, bash"
 categories = ["Today I learned", "sysadmin"]

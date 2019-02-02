@@ -1,5 +1,5 @@
 +++
-date = "2017-05-19T23:59:59"
+date = "2017-05-19T00:00:01"
 title = "#TIL : wget Output flag"
 description = "I learned on 2017-05-19 about sysadmin, shell"
 categories = ["Today I learned", "sysadmin"]

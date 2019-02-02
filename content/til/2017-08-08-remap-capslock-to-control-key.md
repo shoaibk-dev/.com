@@ -1,5 +1,5 @@
 +++
-date = "2017-08-08T23:59:59"
+date = "2017-08-08T00:00:01"
 title = "#TIL : Remap Capslock to Control key"
 description = "I learned on 2017-08-08 about keyboard, linux"
 categories = ["Today I learned", "linux"]

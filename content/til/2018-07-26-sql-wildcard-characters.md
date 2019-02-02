@@ -1,5 +1,5 @@
 +++
-date = "2018-07-26T23:59:59"
+date = "2018-07-26T00:00:01"
 title = "#TIL : SQL Wildcard Characters"
 description = "I learned on 2018-07-26 about database"
 categories = ["Today I learned", "database"]

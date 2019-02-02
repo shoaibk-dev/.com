@@ -1,5 +1,5 @@
 +++
-date = "2018-11-21T23:59:59"
+date = "2018-11-21T00:00:01"
 title = "#TIL : View function source in developer tool console"
 description = "I learned on 2018-11-21 about debug, javascript"
 categories = ["Today I learned", "javascript"]

@@ -1,5 +1,5 @@
 +++
-date = "2017-10-20T23:59:59"
+date = "2017-10-20T00:00:01"
 title = "#TIL : Using watch command to tracking changes in period time"
 description = "I learned on 2017-10-20 about tool, watch, linux"
 categories = ["Today I learned", "linux"]

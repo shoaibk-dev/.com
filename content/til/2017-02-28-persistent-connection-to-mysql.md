@@ -1,5 +1,5 @@
 +++
-date = "2017-02-28T23:59:59"
+date = "2017-02-28T00:00:01"
 title = "#TIL : Persistent connection to MySQL"
 description = "I learned on 2017-02-28 about database, php, mysql"
 categories = ["Today I learned", "php"]

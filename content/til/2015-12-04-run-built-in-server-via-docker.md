@@ -1,5 +1,5 @@
 +++
-date = "2015-12-04T23:59:59"
+date = "2015-12-04T00:00:01"
 title = "#TIL : Run built-in server via Docker"
 description = "I learned on 2015-12-04 about docker, php, cli-server"
 categories = ["Today I learned", "php"]

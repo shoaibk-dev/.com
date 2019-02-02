@@ -1,5 +1,5 @@
 +++
-date = "2018-10-30T23:59:59"
+date = "2018-10-30T00:00:01"
 title = "#TIL : View all parameters passed to callback function without reading docs"
 description = "I learned on 2018-10-30 about debug, javascript"
 categories = ["Today I learned", "javascript"]

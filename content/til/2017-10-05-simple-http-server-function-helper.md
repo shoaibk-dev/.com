@@ -1,5 +1,5 @@
 +++
-date = "2017-10-05T23:59:59"
+date = "2017-10-05T00:00:01"
 title = "#TIL : Simple HTTP server function helper"
 description = "I learned on 2017-10-05 about python, bash"
 categories = ["Today I learned", "bash"]

@@ -1,5 +1,5 @@
 +++
-date = "2015-11-30T23:59:59"
+date = "2015-11-30T00:00:01"
 title = "#TIL : Shortcut keyboard improve productivity"
 description = "I learned on 2015-11-30 about shortcut-key, mac-osx, productivity"
 categories = ["Today I learned", "mac-osx"]

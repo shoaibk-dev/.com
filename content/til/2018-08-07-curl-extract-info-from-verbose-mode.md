@@ -1,5 +1,5 @@
 +++
-date = "2018-08-07T23:59:59"
+date = "2018-08-07T00:00:01"
 title = "#TIL : Curl extract info from verbose mode"
 description = "I learned on 2018-08-07 about curl, bash"
 categories = ["Today I learned", "bash"]

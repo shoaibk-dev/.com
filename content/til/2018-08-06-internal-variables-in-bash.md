@@ -1,5 +1,5 @@
 +++
-date = "2018-08-06T23:59:59"
+date = "2018-08-06T00:00:01"
 title = "#TIL : Internal Variables in BASH"
 description = "I learned on 2018-08-06 about shell, bash"
 categories = ["Today I learned", "bash"]

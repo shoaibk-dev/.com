@@ -1,5 +1,5 @@
 +++
-date = "2015-12-01T23:59:59"
+date = "2015-12-01T00:00:01"
 title = "#TIL : Index is useless when use function on indexed field"
 description = "I learned on 2015-12-01 about index, sql, mysql"
 categories = ["Today I learned", "mysql"]

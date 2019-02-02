@@ -1,5 +1,5 @@
 +++
-date = "2018-07-30T23:59:59"
+date = "2018-07-30T00:00:01"
 title = "#TIL : Setter and getter behavior of class property in Python3"
 description = "I learned on 2018-07-30 about python, pythonic"
 categories = ["Today I learned", "python"]

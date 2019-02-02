@@ -1,5 +1,5 @@
 +++
-date = "2015-12-03T23:59:59"
+date = "2015-12-03T00:00:01"
 title = "#TIL : FTP via curl tool"
 description = "I learned on 2015-12-03 about sysadmin, ftp, curl"
 categories = ["Today I learned", "sysadmin"]

@@ -1,5 +1,5 @@
 +++
-date = "2018-01-04T23:59:59"
+date = "2018-01-04T00:00:01"
 title = "#TIL : Sleeping connections in MySQL"
 description = "I learned on 2018-01-04 about web, db, mysql"
 categories = ["Today I learned", "mysql"]

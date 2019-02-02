@@ -1,5 +1,5 @@
 +++
-date = "2017-08-06T23:59:59"
+date = "2017-08-06T00:00:01"
 title = "#TIL : Runing old java applets on brower"
 description = "I learned on 2017-08-06 about security, java"
 categories = ["Today I learned", "java"]

@@ -1,5 +1,5 @@
 +++
-date = "2018-11-01T23:59:59"
+date = "2018-11-01T00:00:01"
 title = "#TIL : [Bug] Input lost focus after typing 1 character in Safari Browser"
 description = "I learned on 2018-11-01 about safari, css, bug"
 categories = ["Today I learned", "css"]

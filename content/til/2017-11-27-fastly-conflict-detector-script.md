@@ -1,5 +1,5 @@
 +++
-date = "2017-11-27T23:59:59"
+date = "2017-11-27T00:00:01"
 title = "#TIL : Fastly conflict detector script"
 description = "I learned on 2017-11-27 about ci, git, automation"
 categories = ["Today I learned", "git"]

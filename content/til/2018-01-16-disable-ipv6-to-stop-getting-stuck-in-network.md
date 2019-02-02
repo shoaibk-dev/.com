@@ -1,5 +1,5 @@
 +++
-date = "2018-01-16T23:59:59"
+date = "2018-01-16T00:00:01"
 title = "#TIL : Disable IPv6 to stop getting stuck in network"
 description = "I learned on 2018-01-16 about networking, linux"
 categories = ["Today I learned", "linux"]

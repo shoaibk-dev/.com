@@ -1,5 +1,5 @@
 +++
-date = "2015-12-04T23:59:59"
+date = "2015-12-04T00:00:01"
 title = "#TIL : Reference assign object variable"
 description = "I learned on 2015-12-04 about python, clone, ref-var"
 categories = ["Today I learned", "python"]

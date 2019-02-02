@@ -1,5 +1,5 @@
 +++
-date = "2018-03-25T23:59:59"
+date = "2018-03-25T00:00:01"
 title = "#TIL : Create a sequence of numbers"
 description = "I learned on 2018-03-25 about sysadmin, string"
 categories = ["Today I learned", "sysadmin"]

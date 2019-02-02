@@ -1,5 +1,5 @@
 +++
-date = "2017-05-17T23:59:59"
+date = "2017-05-17T00:00:01"
 title = "#TIL : Compressing and Extracting files with rar in Linux"
 description = "I learned on 2017-05-17 about sysadmin, rar, compressing"
 categories = ["Today I learned", "sysadmin"]

@@ -1,5 +1,5 @@
 +++
-date = "2017-09-01T23:59:59"
+date = "2017-09-01T00:00:01"
 title = "#TIL : Mycli : a new good cli MySql Client"
 description = "I learned on 2017-09-01 about cli, mysql"
 categories = ["Today I learned", "mysql"]

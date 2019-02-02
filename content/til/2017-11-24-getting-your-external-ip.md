@@ -1,5 +1,5 @@
 +++
-date = "2017-11-24T23:59:59"
+date = "2017-11-24T00:00:01"
 title = "#TIL : Getting your external IP"
 description = "I learned on 2017-11-24 about sysadmin, ip, dns"
 categories = ["Today I learned", "sysadmin"]

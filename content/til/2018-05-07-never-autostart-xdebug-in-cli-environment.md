@@ -1,5 +1,5 @@
 +++
-date = "2018-05-07T23:59:59"
+date = "2018-05-07T00:00:01"
 title = "#TIL : Never autostart XDebug in cli environment"
 description = "I learned on 2018-05-07 about debug, php"
 categories = ["Today I learned", "php"]

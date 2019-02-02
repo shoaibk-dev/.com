@@ -1,5 +1,5 @@
 +++
-date = "2018-01-31T23:59:59"
+date = "2018-01-31T00:00:01"
 title = "#TIL : Check vcl file syntax before restarting"
 description = "I learned on 2018-01-31 about varnish"
 categories = ["Today I learned", "varnish"]

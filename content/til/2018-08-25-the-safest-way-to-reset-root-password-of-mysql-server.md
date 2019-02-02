@@ -1,5 +1,5 @@
 +++
-date = "2018-08-25T23:59:59"
+date = "2018-08-25T00:00:01"
 title = "#TIL : The safest way to reset root password of MySQL Server"
 description = "I learned on 2018-08-25 about sysadmin, security, database, mysql"
 categories = ["Today I learned", "mysql"]

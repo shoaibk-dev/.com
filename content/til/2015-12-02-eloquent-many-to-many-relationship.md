@@ -1,5 +1,5 @@
 +++
-date = "2015-12-02T23:59:59"
+date = "2015-12-02T00:00:01"
 title = "#TIL : Eloquent Many-to-Many Relationship"
 description = "I learned on 2015-12-02 about php, eloquent"
 categories = ["Today I learned", "php"]

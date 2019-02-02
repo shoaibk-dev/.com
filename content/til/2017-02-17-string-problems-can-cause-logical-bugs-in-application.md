@@ -1,5 +1,5 @@
 +++
-date = "2017-02-17T23:59:59"
+date = "2017-02-17T00:00:01"
 title = "#TIL : String problems can cause logical bugs in application"
 description = "I learned on 2017-02-17 about string, bug, mysql"
 categories = ["Today I learned", "mysql"]

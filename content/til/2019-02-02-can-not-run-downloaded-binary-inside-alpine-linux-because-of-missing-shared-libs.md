@@ -1,5 +1,5 @@
 +++
-date = "2019-02-02T23:59:59"
+date = "2019-02-02T00:00:01"
 title = "#TIL : Can not run downloaded binary inside alpine linux because of missing shared libs"
 description = "I learned on 2019-02-02 about docker, ldd, alpine"
 categories = ["Today I learned", "docker"]
@@ -37,6 +37,6 @@ Error loading shared library libgcc_s.so.1: No such file or directory (needed by
 
 So we need to install `libstdc++` and `libc6-compat` before run the binary
 
-```Dockerfile
+```
 RUN apk add --no-cache libstdc++ libc6-compat
 ```

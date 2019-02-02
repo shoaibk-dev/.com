@@ -1,5 +1,5 @@
 +++
-date = "2017-09-27T23:59:59"
+date = "2017-09-27T00:00:01"
 title = "#TIL : Send ENTER key to kernel"
 description = "I learned on 2017-09-27 about keyboard, linux"
 categories = ["Today I learned", "linux"]

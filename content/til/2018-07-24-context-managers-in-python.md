@@ -1,5 +1,5 @@
 +++
-date = "2018-07-24T23:59:59"
+date = "2018-07-24T00:00:01"
 title = "#TIL : Context Managers in Python"
 description = "I learned on 2018-07-24 about python"
 categories = ["Today I learned", "python"]

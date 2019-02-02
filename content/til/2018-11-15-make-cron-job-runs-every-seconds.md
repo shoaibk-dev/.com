@@ -1,5 +1,5 @@
 +++
-date = "2018-11-15T23:59:59"
+date = "2018-11-15T00:00:01"
 title = "#TIL : Make cron job runs every seconds"
 description = "I learned on 2018-11-15 about cron, bash, linux"
 categories = ["Today I learned", "linux"]

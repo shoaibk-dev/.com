@@ -1,5 +1,5 @@
 +++
-date = "2017-10-13T23:59:59"
+date = "2017-10-13T00:00:01"
 title = "#TIL : Indexes on multiple columns"
 description = "I learned on 2017-10-13 about indexes, database"
 categories = ["Today I learned", "database"]

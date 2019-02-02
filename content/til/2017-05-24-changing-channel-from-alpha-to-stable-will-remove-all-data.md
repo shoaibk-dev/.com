@@ -1,5 +1,5 @@
 +++
-date = "2017-05-24T23:59:59"
+date = "2017-05-24T00:00:01"
 title = "#TIL : Changing channel from alpha to stable will remove ALL DATA"
 description = "I learned on 2017-05-24 about sysadmin, docker"
 categories = ["Today I learned", "docker"]

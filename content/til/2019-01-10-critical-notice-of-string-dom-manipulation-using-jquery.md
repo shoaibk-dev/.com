@@ -1,5 +1,5 @@
 +++
-date = "2019-01-10T23:59:59"
+date = "2019-01-10T00:00:01"
 title = "#TIL : Critical notice of string DOM manipulation using jQuery"
 description = "I learned on 2019-01-10 about javascript"
 categories = ["Today I learned", "javascript"]

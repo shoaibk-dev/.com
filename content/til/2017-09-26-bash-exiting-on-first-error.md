@@ -1,5 +1,5 @@
 +++
-date = "2017-09-26T23:59:59"
+date = "2017-09-26T00:00:01"
 title = "#TIL : BASH exiting on first error"
 description = "I learned on 2017-09-26 about sysadmin, shell, bash"
 categories = ["Today I learned", "sysadmin"]

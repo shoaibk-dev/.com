@@ -1,5 +1,5 @@
 +++
-date = "2015-12-04T23:59:59"
+date = "2015-12-04T00:00:01"
 title = "#TIL : View real-time logs using websocketd"
 description = "I learned on 2015-12-04 about sysadmin, websocket, log"
 categories = ["Today I learned", "sysadmin"]

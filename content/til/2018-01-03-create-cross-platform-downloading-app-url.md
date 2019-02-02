@@ -1,5 +1,5 @@
 +++
-date = "2018-01-03T23:59:59"
+date = "2018-01-03T00:00:01"
 title = "#TIL : Create cross-platform downloading app URL"
 description = "I learned on 2018-01-03 about mobile, product, http"
 categories = ["Today I learned", "http"]

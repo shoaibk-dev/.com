@@ -1,5 +1,5 @@
 +++
-date = "2018-10-25T23:59:59"
+date = "2018-10-25T00:00:01"
 title = "#TIL : Detect HTTP Response 304 Status Code in AJAX"
 description = "I learned on 2018-10-25 about caching, javascript, http, fetch"
 categories = ["Today I learned", "javascript"]

@@ -1,5 +1,5 @@
 +++
-date = "2018-05-29T23:59:59"
+date = "2018-05-29T00:00:01"
 title = "#TIL : Put .git data outside project directory"
 description = "I learned on 2018-05-29 about git, secutiry"
 categories = ["Today I learned", "git"]

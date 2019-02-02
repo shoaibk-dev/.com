@@ -1,5 +1,5 @@
 +++
-date = "2018-12-03T23:59:59"
+date = "2018-12-03T00:00:01"
 title = "#TIL : SSH to docker host in Docker for Mac"
 description = "I learned on 2018-12-03 about docker, mac"
 categories = ["Today I learned", "docker"]

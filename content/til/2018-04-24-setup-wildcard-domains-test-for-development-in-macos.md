@@ -1,5 +1,5 @@
 +++
-date = "2018-04-24T23:59:59"
+date = "2018-04-24T00:00:01"
 title = "#TIL : Setup wildcard domains .test for development in MacOS"
 description = "I learned on 2018-04-24 about development, networking, dns"
 categories = ["Today I learned", "networking"]

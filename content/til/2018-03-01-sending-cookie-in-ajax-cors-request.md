@@ -1,5 +1,5 @@
 +++
-date = "2018-03-01T23:59:59"
+date = "2018-03-01T00:00:01"
 title = "#TIL : Sending Cookie in AJAX CORs request"
 description = "I learned on 2018-03-01 about web, http, browser"
 categories = ["Today I learned", "web"]

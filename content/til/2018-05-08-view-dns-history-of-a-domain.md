@@ -1,5 +1,5 @@
 +++
-date = "2018-05-08T23:59:59"
+date = "2018-05-08T00:00:01"
 title = "#TIL : View DNS history of a domain"
 description = "I learned on 2018-05-08 about sysadmin, dns"
 categories = ["Today I learned", "sysadmin"]

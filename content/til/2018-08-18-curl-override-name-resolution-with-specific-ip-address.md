@@ -1,5 +1,5 @@
 +++
-date = "2018-08-18T23:59:59"
+date = "2018-08-18T00:00:01"
 title = "#TIL : Curl override Name Resolution with specific IP address"
 description = "I learned on 2018-08-18 about sysadmin, curl, dns"
 categories = ["Today I learned", "sysadmin"]

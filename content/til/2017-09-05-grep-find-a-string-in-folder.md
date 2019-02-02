@@ -1,5 +1,5 @@
 +++
-date = "2017-09-05T23:59:59"
+date = "2017-09-05T00:00:01"
 title = "#TIL : Grep : find a string in folder"
 description = "I learned on 2017-09-05 about sysadmin, grep"
 categories = ["Today I learned", "sysadmin"]

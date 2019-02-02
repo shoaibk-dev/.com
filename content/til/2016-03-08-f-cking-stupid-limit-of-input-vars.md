@@ -1,5 +1,5 @@
 +++
-date = "2016-03-08T23:59:59"
+date = "2016-03-08T00:00:01"
 title = "#TIL : F-cking stupid limit of input vars"
 description = "I learned on 2016-03-08 about input, php, post-data"
 categories = ["Today I learned", "php"]
