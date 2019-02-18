@@ -131,6 +131,6 @@ IPv6 speedtests
 
 ## Conclusion
 
-DigitalOcean allows you run on newer hardwares so its CPU is better than Linode's. (You can compare the result in CPU hashing section). By the way, Linode has the better price so it's your choices! :)
+DigitalOcean allows you run on newer hardwares so its CPU is better (~43%) than Linode's. (You can compare the result in CPU hashing section). By the way, Linode has the better price so it's your choices! :)
 
 Hope Linode will upgrade the hardwares soon.
