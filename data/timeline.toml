@@ -1,4 +1,5 @@
 stories = [
+    "Tue Jun 18, 2019 : ^1000 Do not use computer as a typewriter within calculator functions.",
     "Tue Mar 26, 2019 : ^1000 Nếu số của bạn là làm nông, thì hãy làm nông dân chứ đừng làm con trâu.",
     "Wed Jan 02, 2019 : ^1000 No matter it be, ^1500 it is a right choice! ^500 <a target='_blank' href='/post/tan-man-2-doi-chat-cong-tac-va-pho-thac/'>read</a> .",
     "Wed Dec 19, 2018 : ^1000 Jingle beeeeeeeeeeeeells . ^500 <a target='_blank' href='https://youtu.be/DmiGLSG8wYE'>listen</a> .",
