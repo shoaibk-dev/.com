@@ -1,0 +1,283 @@
+<!doctype html><html lang=en-us><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><meta name=generator content="Hugo 0.53"><link rel=author href=../../humans.txt><link rel=icon href=../../images/kit_logo.png><title>How I Learn Golang Basics in 1 Day - KhanhIceTea B(rain)-log</title><meta property=og:title content="How I Learn Golang Basics in 1 Day - KhanhIceTea B(rain)-log"><meta property=og:type content=article><meta property=og:url content=https://khanhicetea.com/xiny/how-i-learn-golang-basics-in-1-day/><meta name=description content="How did I learn Golang basics in 1 day"><meta property=og:description content="How did I learn Golang basics in 1 day"><meta property=og:image content=https://khanhicetea.comimages//images/xiny.jpg><link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css integrity=sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO crossorigin=anonymous><link rel=stylesheet href=https://use.fontawesome.com/releases/v5.0.13/css/all.css integrity=sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp crossorigin=anonymous><link href="https://fonts.googleapis.com/css?family=Roboto+Mono:400,400i,500,700,700i&amp;subset=vietnamese" rel=stylesheet><link rel=stylesheet href=//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/monokai-sublime.min.css><link href="../../css/medium.css?v=1560872669" rel=stylesheet><link href="../../css/additional.css?v=1560872669" rel=stylesheet></head><body><nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top mediumnavigation nav-down"><div class="container pr-0"><a class=navbar-brand href=https://khanhicetea.com><img src=../../images/kit_logo.png alt=logo>
+<span>KhanhIceTea B(rain)-log</span></a>
+<button class=navbar-toggler type=button data-toggle=collapse data-target=#navbarMediumish aria-controls=navbarSupportedContent aria-expanded=false aria-label="Toggle navigation">
+<span class=navbar-toggler-icon></span></button><div class="collapse navbar-collapse" id=navbarMediumish><ul class="navbar-nav ml-auto"><li class=nav-item><a class=nav-link href=../../>Home</a></li><li class=nav-item><a class=nav-link href=https://github.com/khanhicetea>Github</a></li><li class=nav-item><a class=nav-link href=../../php-0-to-1/>Learn PHP</a></li><li class=nav-item><a class=nav-link href=../../til/>Today I Learned</a></li></ul></div></div></nav><div class=site-content><div class=container><div class=main-content><div class=container><div class=row><div class="col-lg-2 col-md-0 pl-0"><div class=share><p>Share</p><ul><li class="ml-1 mr-1"><a target=_blank href="https://twitter.com/intent/tweet?text=How%20I%20Learn%20Golang%20Basics%20in%201%20Day&url=https%3a%2f%2fkhanhicetea.com%2fxiny%2fhow-i-learn-golang-basics-in-1-day%2f" onclick="window.open(this.href,'twitter-share','width=550,height=435');return false;"><i class="fab fa-twitter"></i></a></li><li class="ml-1 mr-1"><a target=_blank href="https://facebook.com/sharer.php?u=https%3a%2f%2fkhanhicetea.com%2fxiny%2fhow-i-learn-golang-basics-in-1-day%2f" onclick="window.open(this.href,'facebook-share','width=550,height=435');return false;"><i class="fab fa-facebook-f"></i></a></li><li class="ml-1 mr-1"><a target=_blank href="https://plus.google.com/share?url=https%3a%2f%2fkhanhicetea.com%2fxiny%2fhow-i-learn-golang-basics-in-1-day%2f" onclick="window.open(this.href,'google-share','width=550,height=435');return false;"><i class="fab fa-google"></i></a></li></ul><div class=sep></div><div id=toc-container><p>Table of Contents</p><nav id=TableOfContents><ul><li><ul><li><a href=#install-go>Install Go</a></li><li><a href=#compile-and-run-go-code-every-1-second>Compile and Run go code every 1 second</a></li><li><a href=#recommended-editor>Recommended editor</a></li><li><a href=#basics>Basics</a></li></ul></li></ul></nav></div><ul><li><a class="small smoothscroll" href=#disqus_thread></a></li></ul></div></div><div class="col-lg-10 col-md-12 flex-first flex-md-unordered"><div class=mainheading><h1 class=posttitle>How I Learn Golang Basics in 1 Day</h1></div><div class=post-top-meta><i class="far fa-keyboard"></i>Oct 21, 2017
+<i class="far fa-clock clock"></i>7 mins read
+<i class="fas fa-code-branch git-commit-hash"></i><a class=git-commit-hash-link title="[2018-10-26 12:24:12 &#43;0700 &#43;0700] staged" href=https://github.com/khanhicetea/.com/blob/5ce52262a0737264b1895bd9b864c86eb2b64f50/content/xiny/how-I-learn-Golang-basics-in-1-day.md target=_blank>5ce52262a</a></div><img class="featured-image img-fluid" src=../../images/xiny.jpg alt="thumbnail for this post"><div class=article-post><p><img src=https://golang.org/doc/gopher/frontpage.png alt=golang></p><p>Structure is based on <a href=https://learnxinyminutes.com/docs/go/>Learn Go in Y Minutes</a></p><h2 id=install-go>Install Go</h2><p>Follow this guide : <a href=https://golang.org/doc/install>https://golang.org/doc/install</a></p><h2 id=compile-and-run-go-code-every-1-second>Compile and Run go code every 1 second</h2><pre><code class=language-bash>$ watch -d -t -n 1 go run day1.go
+</code></pre><h2 id=recommended-editor>Recommended editor</h2><p>Use <strong>VisualStudio Code</strong></p><h2 id=basics>Basics</h2><p>View <strong><a href=https://github.com/khanhicetea/learn-n-earn/blob/master/golang/day1.go>day1.go</a></strong> file</p><pre><code class=language-go>package main
+
+import (
+	&quot;fmt&quot; // Formatting standard library
+	m &quot;math&quot; // Alias an imported lib
+	&quot;strconv&quot; // String conversion lib
+	&quot;net/http&quot;
+	&quot;io/ioutil&quot;
+)
+
+func main() {
+	fmt.Println(&quot;Hello World ! go go go&quot;)
+
+	moveIt()
+}
+
+func moveIt() {
+	var x float64 // Declare variable
+	x = 3 // Assign it to a value
+	y := 4. // Declare and assign in 1-line
+	fmt.Println(x, y, pythagore(x, y))
+
+	goToTypes()
+	followTheFlow()
+	hmmmLikeClosure()
+	doItTommorow()
+	smashInterfaces()
+	learnVariadicParams(&quot;hello&quot;, &quot;khanhicetea&quot;, &quot;a human&quot;)
+	oopsSomethingWrong()
+	goToWWW()
+
+	fmt.Println(&quot;\n-------- THE END --------\n&quot;)
+}
+
+func pythagore(a float64, b float64) (float64) { // func [function name]( ...paramers ) (return types)
+	return m.Sqrt(a * a + b * b)
+}
+
+func goToTypes() {
+	a1 := 1 // Int
+	a2 := 2.3 // Float
+	a3 := &quot;ほげほげ !!!&quot; // Japanese string, lol
+	a4 := 's' // Char, alias for int32, hold unicode code
+	a5 := `This is &quot;quoted&quot; string,
+	with new line and tab`
+	a6 := byte('\n') // ASCII char, uint8
+	fmt.Println(a1, a2, a3, a4, a5, a6)
+
+	// Arrays
+	var a7 [3]int // declare fixed array of 3 integer items
+	a7[0] = 12
+	a7[1] = 23
+	a7[2] = 34
+
+	a8 := [...]int{1,1,2,3,5,8,13} // no need count array length to declare
+	fmt.Println(a7, a8)
+
+	// Slices
+	a9 := []int{1,2,3}
+	a10 := make([]int, 3) // Allocate slide 3 ints, 0 intial value
+
+	var a11 [][]float64 // declare only
+	a12 := []byte(&quot;hello&quot;) // convert string to slice of chars
+	
+	fmt.Println(a9, a10, a11, a12)
+
+	a9 = append(a9, 4, 5, 6) // append 3 items
+	fmt.Println(a9)
+
+	a13 := []int{10, 11}
+	a9 = append(a9, []int{7, 8, 9}...) // merge 2 slices with suffix ...
+	a9 = append(a9, a13...)
+	fmt.Println(a9)
+
+	a14 := &quot;ignored value&quot;
+	_ = a14 // Ignore by _ , unused variable cause error
+
+	a15 := map[string]int{
+		&quot;one&quot;: 1,
+		&quot;two&quot;: 2,
+		&quot;there&quot;: 3,
+	}
+	a15[&quot;four&quot;] = 4
+	
+	fmt.Println(a15, a15[&quot;two&quot;])
+
+	a16, a17 := memoryZoo()
+	fmt.Println(*a16, a17)
+}
+
+func memoryZoo() (a, b *int) {
+	s := make([]int, 5)
+	s[3] = 4
+	o := 123
+
+	a = &amp;s[3] // can assign to returned var
+	b = &amp;o // &amp; is ref memory address, like a pointer in C
+
+	return // no need pass returned vars here
+}
+
+func followTheFlow() {
+	if 1 + 1 == 2 {
+		fmt.Println(&quot;Hmm .. it must me 10 ! Ya know ;)&quot;)
+	}
+
+	if 1 &gt; 2 {
+		fmt.Println(&quot;Universe goes down !&quot;)
+	} else if 42 &gt; 24 {
+		fmt.Println(&quot;node_modules size is heavier than backhole !&quot;)
+	} else {
+		fmt.Println(&quot;Okay, I'm drunk&quot;)
+	}
+
+	a18 := 3
+
+	switch a18 {
+	case 1:
+	case 2: // cases don't fall down like C-like lang
+	case 3:
+		fmt.Println(&quot;Three !!&quot;)
+	default:
+	}
+
+	for i := 0; i &lt; 3; i++ {
+		fmt.Println(i)
+	}
+
+	numbers := map[string]int{
+		&quot;a&quot;: 1,
+		&quot;b&quot;: 2,
+		&quot;c&quot;: 5,
+	}
+
+	for key, num := range numbers { // loop a map
+		fmt.Println(key, num)
+	}
+
+	for _, num := range numbers { // loop a map, no need key
+		fmt.Println(num)
+	}
+
+	if a14 := 3 * 4; a14 &lt; 13 { // last statement is condition
+		fmt.Println(&quot;3 * 4 &lt; 13&quot;)
+	}
+}
+
+func hmmmLikeClosure() {
+	a15 := add(15)
+	a16 := a15(5)
+	fmt.Println(a16)
+}
+
+func add(x int) func(y int) int {
+	return func (y int) int {
+		return x + y
+	}
+}
+
+func doItTommorow() {
+	a17 := testMyCode()
+	fmt.Println(a17)
+}
+
+func testMyCode() int {
+	defer fmt.Println(&quot;456&quot;) // defer : run before return
+	fmt.Println(&quot;0&quot;)
+	defer fmt.Println(&quot;789&quot;) // defer : run in LIFO order.
+	return 123
+}
+
+type Stringer interface {
+	String() string
+}
+
+type Point struct {
+	x, y int
+}
+
+func (p Point) String() string {
+	return fmt.Sprintf(&quot;(%d, %d)&quot;, p.x, p.y)
+}
+
+func smashInterfaces() {
+	p := Point{3, 4}
+	fmt.Println(p.String())
+
+	var i Stringer // Declare i as Stringer interface
+	i = p // Point implement Stringer interface
+	fmt.Println(i.String())
+}
+
+func learnVariadicParams(strings ...interface{}) {
+    // Iterate each value of the variadic.
+    for _, s := range strings {
+        fmt.Println(&quot;param :&quot;, s)
+    }
+
+    // Pass variadic value as a variadic parameter.
+    fmt.Println(&quot;params :&quot;, fmt.Sprintln(strings...))
+}
+
+func oopsSomethingWrong() {
+	numbers := map[string]int{
+		&quot;a&quot;: 1,
+		&quot;b&quot;: 2,
+		&quot;c&quot;: 5,
+	}
+
+	if x, ok := numbers[&quot;d&quot;]; !ok {
+		fmt.Println(&quot;Oops something went wrong !!!&quot;)
+	} else {
+		fmt.Println(x)
+	}
+
+	a18 := &quot;1.2&quot;
+	if _, err := strconv.ParseInt(a18, 10, 8); err != nil { // check if err
+		fmt.Println(&quot;true === false&quot;)
+	}
+}
+
+func goToWWW() {
+	go func() {
+		err:= http.ListenAndServe(&quot;127.0.0.1:8888&quot;, &amp;WebServer{&quot;KhanhIceTea server&quot;})
+		fmt.Println(err)
+	}()
+
+	crawlWeb()
+}
+
+type WebServer struct {
+	name string
+}
+
+func (ws *WebServer) ServeHTTP(w http.ResponseWriter, r *http.Request) {
+	w.Write([]byte(&quot;Hello from &quot;))
+	w.Write([]byte(ws.name))
+}
+
+func crawlWeb() {
+	resp, err := http.Get(&quot;http://127.0.0.1:8888&quot;)
+	fmt.Println(err)
+	defer resp.Body.Close() // Close body stream
+	body, err := ioutil.ReadAll(resp.Body)
+	fmt.Println(&quot;\nWebServer said : `%s`&quot;, string(body))
+}
+</code></pre><blockquote><p>Please ! Teach me !</p></blockquote><p><a href=../../xiny/how-i-learn-golang-goroutines-in-1-day/><em>&gt; Learn Golang Goroutines and Concurrent here</em></a></p></div><div class=after-post-tags><ul class=tags><li><a href=../../tags/english>english</a></li><li><a href=../../tags/go>go</a></li><li><a href=../../tags/xiny>xiny</a></li></ul></div><div class="row PageNavigation d-flex justify-content-between font-weight-bold"><a class="prev d-block col-md-6" href=../../xiny/how-i-learn-golang-goroutines-in-1-day/>&laquo; How I Learn Golang Goroutines in 1 Day</a>
+<a class="next d-block col-md-6 text-lg-right" href=../../til/2017-10-20-using-watch-command-to-tracking-changes-in-period-time/>#TIL : Using watch command to tracking changes in period time &raquo;</a><div class=clearfix></div></div><div style=margin-top:10px;margin-bottom:10px><script async src=//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js></script><ins class=adsbygoogle style=display:block data-ad-client=ca-pub-6074006947927745 data-ad-slot=8493558457 data-ad-format=auto data-full-width-responsive=true></ins><script>(adsbygoogle=window.adsbygoogle||[]).push({});</script></div></div></div></div><div class=container><div id=comments class="row justify-content-center mb-5"><div class="col-lg-2 col-md-0"></div><div class="col-lg-10 col-md-12"><div id=disqus_thread></div><script type=text/javascript>(function(){var dsq=document.createElement('script');dsq.type='text/javascript';dsq.async=true;var disqus_shortname='khanhicetea';dsq.src='//'+disqus_shortname+'.disqus.com/embed.js';(document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild(dsq);})();</script><noscript>Please enable JavaScript to view the <a href=https://disqus.com/?ref_noscript>comments powered by Disqus.</a></noscript><a href=https://disqus.com/ class=dsq-brlink>comments powered by <span class=logo-disqus>Disqus</span></a></div></div></div></div></div><div class="jumbotron fortags"><div class="d-flex h-100"><div class="col-md-4 align-self-center text-center h-100"><div class="d-flex align-items-center justify-content-center h-100"><h2 class="d-md-block d-none align-self-center">Explore →</h2></div></div><div class="col-md-8 align-self-center text-center"><a href=../../tags/sysadmin>sysadmin [39]</a>
+<a href=../../tags/english>english [27]</a>
+<a href=../../tags/vietnamese>vietnamese [20]</a>
+<a href=../../tags/php>php [16]</a>
+<a href=../../tags/bash>bash [15]</a>
+<a href=../../tags/life>life [15]</a>
+<a href=../../tags/web>web [14]</a>
+<a href=../../tags/docker>docker [13]</a>
+<a href=../../tags/devops>devops [11]</a>
+<a href=../../tags/javascript>javascript [11]</a>
+<a href=../../tags/linux>linux [11]</a>
+<a href=../../tags/python>python [11]</a>
+<a href=../../tags/mysql>mysql [10]</a>
+<a href=../../tags/networking>networking [10]</a>
+<a href=../../tags/database>database [9]</a>
+<a href=../../tags/security>security [7]</a>
+<a href=../../tags/shell>shell [7]</a>
+<a href=../../tags/ci>ci [5]</a>
+<a href=../../tags/debug>debug [5]</a>
+<a href=../../tags/dns>dns [5]</a>
+<a href=../../tags/git>git [5]</a>
+<a href=../../tags/http>http [5]</a>
+<a href=../../tags/leby>leby [5]</a>
+<a href=../../tags/string>string [5]</a>
+<a href=../../tags/ansible>ansible [4]</a>
+<a href=../../tags/curl>curl [4]</a>
+<a href=../../tags/inspiration>inspiration [4]</a>
+<a href=../../tags/random>random [4]</a>
+<a href=../../tags/system>system [4]</a>
+<a href=../../tags/tool>tool [4]</a></div></div></div><footer class=footer><div class=container><div class=row><div class="col-md-6 col-sm-6 text-center text-lg-left">2019 &copy; KhanhIceTea - Licensed under CC BY-NC-ND 3.0 | In God We Trust</div><div class="col-md-6 col-sm-6 text-center text-lg-right">Powered by <a href=http://gohugo.io target=_blank>Hugo</a> and <a target=_blank href=https://www.wowthemes.net>Mediumish</a> by WowThemes.net</div></div></div></footer></div><script src=https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js></script><script src=https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js integrity=sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49 crossorigin=anonymous></script><script src=https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js integrity=sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy crossorigin=anonymous></script><script src=https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.6/typed.min.js></script><script src=../../js/sqdiagram.js></script><script src=../../js/mediumish.js></script><script src=../../js/highlight.js></script><script src=../../js/polyfill.min.js></script><script>$(document).ready(function(){hljs.configure({tabReplace:'    '});$('.article-post pre code').each(function(i,block){hljs.highlightBlock(block);});$(".article-post p").has("img").css('text-align',"center");$(".article-post a").attr('target','_blank');$(".article-post table").addClass('table').addClass('table-bordered');$(".sqdiagram").sequenceDiagram({theme:'hand'});if(window.typedString){var typed=new Typed('#currentStatus',{strings:window.typedString,typeSpeed:70,startDelay:500,showCursor:true,cursorChar:'_',autoInsertCss:true,onComplete:function(){console.log('ok');$('#currentStatus a').click(function(e){var link=$(this).attr('href');e.preventDefault();ga('send','event','Timeline','click_link',link);setTimeout(function(){window.location=link;},100);});}});}});</script><script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','//www.google-analytics.com/analytics.js','ga');ga('create','UA-50390703-1','auto');jQuery.ajax({url:"https://extreme-ip-lookup.com/json/",jsonp:"callback",dataType:"jsonp",success:function(geoip){ga('set','dimension1',geoip.query);ga('set','dimension2',geoip.city+' - '+geoip.country);ga('send','pageview');setInterval(function(){ga('send','pageview');},60000);}});</script></body></html>
